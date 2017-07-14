@@ -1,5 +1,14 @@
 .main-content {
-  min-width: 1280px;
+  min-width: 1290px;
   padding-left: 0px;
   padding-right: 0px;
+}
+
+.player embed{
+  border: solid 1px black;
+}
+
+body {
+  background-color: #053604;
+  background-image: url("/tableBackground.png");
 }
