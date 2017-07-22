@@ -1,7 +1,8 @@
 .main-content {
-  min-width: 1290px;
+  min-width: 1280px;
   padding-left: 0px;
   padding-right: 0px;
+  box-sizing: content-box;
 }
 
 .player embed{
