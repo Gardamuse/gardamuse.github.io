@@ -1,39 +1,47 @@
 /* GENERAL */
 * { box-sizing: border-box; }
 body { padding: 0; margin: 0; font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 16px; line-height: 1.5; color: #606c71; }
-body { background-color: #455; }
+body { background-color: #27272f; }
 
 a { color: #1e6bb8; text-decoration: none; }
 a:hover { text-decoration: underline; }
 
 /* Header */
-.header-front { color: #fff; padding-top: 3em; padding-bottom: 2em; text-align: center; background-color: #159957; background-image: linear-gradient(170deg, #17281E, #40798C); }
+.header-front { color: #fff; padding-top: 3em; padding-bottom: 2em; text-align: center; background-color: #159957; background-image: linear-gradient(-5deg, #AD343E, #643173); }
 
 .project-name { margin-top: 0; margin-bottom: 0.1rem; }
 @media screen and (min-width: 64em) { .project-name { font-size: 3.25rem; } }
-@media screen and (min-width: 42em) and (max-width: 64em) { .project-name { font-size: 2.25rem; } }
-@media screen and (max-width: 42em) { .project-name { font-size: 1.75rem; } }
+@media screen and (min-width: 24em) and (max-width: 64em) { .project-name { font-size: 3.25rem; } }
+@media screen and (max-width: 24em) { .project-name { font-size: 2.5rem; } }
+@media screen and (max-width: 16em) { .project-name { font-size: 2rem; } }
+@media screen and (max-width: 13em) { .project-name { font-size: 1.5rem; } }
 
 .project-tagline { margin-bottom: 2rem; font-weight: normal; opacity: 0.7; }
 @media screen and (min-width: 64em) { .project-tagline { font-size: 1.25rem; } }
-@media screen and (min-width: 42em) and (max-width: 64em) { .project-tagline { font-size: 1.15rem; } }
-@media screen and (max-width: 42em) { .project-tagline { font-size: 1rem; } }
+@media screen and (min-width: 24em) and (max-width: 64em) { .project-tagline { font-size: 1.25rem; } }
+@media screen and (max-width: 24em) { .project-tagline { font-size: 1rem; } }
+@media screen and (max-width: 16em) { .project-tagline { font-size: 0.8rem; } }
 
 /* Navigation */
-.navbar { background-color: #17281E; background-image: linear-gradient(1deg, #17281E, #27382E); height: 4em; }
+.navbar { background-color: #17281E; background-image: linear-gradient(1deg, #260C1A, #541A32); height: 4rem; }
 .navbar div { width: 64em; display: flex; flex: 1; height: 100%; margin: auto;}
 @media screen and (max-width: 64em) { .navbar div { width: 100%; }}
-.navbar a { font-size: 1.2em; color: #EEF0F2; border: 0px solid #555; width: 34%; text-decoration: none; font-weight: bold; display: flex; align-items: center; justify-content: center; }
-.navbar a:hover { color: #9f394d; border-bottom: 4px solid #9f394d;}
+.navbar a { font-size: 1.2em; color: #EEF0F2; border: 0px solid #555; width: 34%; text-decoration: none; font-weight: bold; display: flex; align-items: center; justify-content: center; border-bottom: 4px solid transparent; border-top: 4px solid transparent;}
+.navbar a:hover { color: #FFB600; border-bottom: 4px solid #FFB600;}
+@media screen and (max-width: 24em) { .navbar { height: 12rem; width: 100%; }}
+@media screen and (max-width: 24em) { .navbar div { display: block; float: left; width: 100%; }}
+@media screen and (max-width: 24em) { .navbar a { height: 4rem; width: 100%; float: left; }}
+@media screen and (max-width: 24em) { .navbar a:hover { border-left: 4px solid #FFB600; border-right: 4px solid #FFB600; border-bottom: 4px none transparent; border-top: 4px none transparent;}}
 
 /* Content */
-.main-content { word-wrap: break-word; }
+.main-content { word-wrap: break-word; padding: 0rem; }
 .main-content :first-child { margin-top: 0; }
-@media screen and (min-width: 64em) { .main-content { max-width: 64rem; padding: 2.5rem 6rem; margin: 0 auto; font-size: 1.1rem; } }
-@media screen and (min-width: 42em) and (max-width: 64em) { .main-content { padding: 2rem 4rem; font-size: 1.1rem; } }
-@media screen and (max-width: 42em) { .main-content { padding: 2rem 1rem; font-size: 1rem; } }
+@media screen and (min-width: 60rem) { .main-content { max-width: 60rem; padding-top: 2.5rem; margin: 0 auto; font-size: 1.1rem; } }
+@media screen and (min-width: 42rem) and (max-width: 60rem) { .main-content { padding-top: 2.5rem; font-size: 1.1rem; } }
+@media screen and (max-width: 42rem) { .main-content { padding-top: 2.5rem; font-size: 1rem; } }
+@media screen and (max-width: 24rem) { .main-content { padding: 0rem 0rem; font-size: 0.9rem; } }
 .main-content img { max-width: 100%; }
-.main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 { margin-top: 2rem; margin-bottom: 1rem; font-weight: normal; color: #9f394d; }
+.main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 { margin-top: 2rem; margin-bottom: 1rem; font-weight: normal; color: #260C1A; }
 .main-content p { margin-bottom: 1em; }
 .main-content code { padding: 2px 4px; font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace; font-size: 0.9rem; color: #567482; background-color: #f3f6fa; border-radius: 0.3rem; }
 .main-content pre { padding: 0.8rem; margin-top: 0; margin-bottom: 1rem; font: 1rem Consolas, "Liberation Mono", Menlo, Courier, monospace; color: #567482; word-wrap: normal; background-color: #f3f6fa; border: solid 1px #dce6f0; border-radius: 0.3rem; }
@@ -56,7 +64,9 @@ a:hover { text-decoration: underline; }
 .main-content hr { height: 2px; padding: 0; margin: 1rem 0; background-color: #eff0f1; border: 0; }
 
 /* Posts */
-.post { background-color: #EEF0F2; border-radius: 0.2em; padding: 1em; margin-bottom: 2rem; }
-.post .signature { font-style: italic; font-size: 0.8em; }
+.post { background-color: #EEF0F2; border-radius: 0.2em; padding: 1em; width: 90%; margin: auto; margin-bottom: 2rem;}
+.post .signature { font-style: italic; font-size: 0.9rem; text-align: right; padding-right: 3rem;}
+@media screen and (max-width: 16rem) { .post .signature { padding-right: 0rem; } }
+@media screen and (max-width: 24rem) { .post { width: 100%; } }
 
 footer { padding-top: 3em; padding-bottom: 3em; font-size: 0.6em; height:2em; text-align:center; display:flex; justify-content:center; align-items:center; color: #888; }

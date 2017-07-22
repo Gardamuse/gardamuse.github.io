@@ -4,9 +4,8 @@ title: {{ site.name }}
 permalink: /
 ---
 
-<div id="home">
+
   {% for post in site.posts %}
       <!--<span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>-->
       {{ post }}
   {% endfor %}
-</div>
