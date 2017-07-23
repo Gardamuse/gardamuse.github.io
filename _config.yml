@@ -5,9 +5,9 @@ baseurl:      ""
 paginate:     5
 
 # About/contact
-author:       Gardamuse
+author:       
   name:       Gardamuse
-  url:        http://gardamuse.github.io
+  url:        https://gardamuse.github.io
 
 # Gems
 plugins:
