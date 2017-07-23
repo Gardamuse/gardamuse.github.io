@@ -1,0 +1,18 @@
+---
+layout: front-layout
+title: {{ site.name }}
+---
+
+<div id="viewer">
+</div>
+<p id="iq"></p>
+<input type="range" name="points" min="40" max="180" value="121" id="slider" class="pink-slider">
+
+<script src="/scripts/character-viewer.js"></script>
+
+<div style="display:inline-block;">
+  {% assign sorted = (site.characters | sort: 'name') %}
+  {% for c in sorted %}
+    <p class="char-btn" onclick="setupSlider({{ c.frames }}, '/assets/{{ c.name }}.png')"> {{ c.name | capitalize }} </p>
+  {% endfor %}
+</div>

@@ -5,13 +5,15 @@ baseurl:      ""
 paginate:     5
 
 # About/contact
-author:       
+author:
   name:       Gardamuse
   url:        https://gardamuse.github.io
+  email:      gardamuse@gmail.com
 
 # Gems
 plugins:
   - jekyll-paginate
+  - jekyll-coffeescript
 
 #Others
 markdown: kramdown
@@ -19,3 +21,4 @@ future: true
 
 collections:
   - sections
+  - characters
