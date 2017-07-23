@@ -11,9 +11,7 @@ title: {{ site.name }}
 <script src="/scripts/character-viewer.js"></script>
 
 <div style="display:inline-block;">
-  {% assign sorted = (site.characters | sort: 'name') %}
-  {% for c in sorted %}
-    <img src="/assets/{{ c.name }}.png" />
+  {% for c in site.characters %}
     <p class="char-btn" onclick="setupSlider({{ c.frames }}, '/assets/{{ c.name }}.png')"> {{ c.name | capitalize }} </p>
   {% endfor %}
 </div>

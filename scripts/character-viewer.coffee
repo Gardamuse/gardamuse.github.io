@@ -35,5 +35,6 @@ maxframe = 17
     value = 0
   return value
 
+setupSlider(16, "/assets/chastity.png")
 updateSlider()
 slider.oninput = updateSlider
