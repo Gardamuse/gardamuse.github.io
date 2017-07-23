@@ -2,8 +2,6 @@
 ---
 
 maxframe = 17
-oldIq = 0
-iq = 0
 
 @setupSlider = (frames, imagepath) ->
   maxframe = frames - 1
@@ -11,15 +9,13 @@ iq = 0
   updateSlider()
 
 @updateSlider = ->
-  #console.log("iq " + iq + ", oldIq " + oldIq)
+  console.log("iq " + iq + ", oldIq " + oldIq)
   iq = document.getElementById('slider').value
-  if (iq % 9 == 0)
-    oldIq = iq
-    frame = Math.floor(maxframe * getBimboFactor(iq));
-    width = 300
-    height = 500
-    document.getElementById('iq').innerHTML = "IQ: " + iq
-    document.getElementById('viewer').style.backgroundPosition = - width * (frame % 8) + 'px ' + - height * (Math.floor(frame / 8)) + 'px'
+  frame = Math.floor(maxframe * getBimboFactor(iq));
+  width = 300
+  height = 500
+  document.getElementById('iq').innerHTML = "IQ: " + iq
+  document.getElementById('viewer').style.backgroundPosition = - width * (frame % 8) + 'px ' + - height * (Math.floor(frame / 8)) + 'px'
 
 @getBimboFactor = (iq) ->
   #Max IQ: 180. Min IQ: 40. Average IQ: 120.
