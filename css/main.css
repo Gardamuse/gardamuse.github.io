@@ -7,7 +7,9 @@ a { color: #1e6bb8; text-decoration: none; }
 a:hover { text-decoration: underline; }
 
 /* Header */
-.header-front { color: #fff; padding-top: 3em; padding-bottom: 2em; text-align: center; background-color: #159957; background-image: linear-gradient(-5deg, #AD343E, #643173); }
+.header-front { color: #fff; padding-top: 8em; padding-bottom: 6em; text-align: center; background-color: #159957; background-image: linear-gradient(-5deg, #AD343E, #643173); }
+@media screen and (max-width: 42em) { .header-front { padding-top: 4em; padding-bottom: 2em;} }
+@media screen and (max-width: 24em) { .header-front { padding-top: 2em; padding-bottom: 0.5em;} }
 
 .project-name { margin-top: 0; margin-bottom: 0.1rem; }
 @media screen and (min-width: 64em) { .project-name { font-size: 3.25rem; } }
@@ -28,20 +30,20 @@ a:hover { text-decoration: underline; }
 @media screen and (max-width: 64em) { .navbar div { width: 100%; }}
 .navbar a { font-size: 1.2em; color: #EEF0F2; border: 0px solid #555; width: 25%; text-decoration: none; font-weight: bold; display: flex; align-items: center; justify-content: center; border-bottom: 4px solid transparent; border-top: 4px solid transparent;}
 .navbar a:hover { color: #FFB600; border-bottom: 4px solid #FFB600;}
-@media screen and (max-width: 24em) { .navbar { height: 16rem; width: 100%; }}
+@media screen and (max-width: 24em) { .navbar { height: 12rem; width: 100%; }}
 @media screen and (max-width: 24em) { .navbar div { display: block; float: left; width: 100%; }}
-@media screen and (max-width: 24em) { .navbar a { height: 4rem; width: 100%; float: left; }}
+@media screen and (max-width: 24em) { .navbar a { height: 3rem; width: 100%; float: left; }}
 @media screen and (max-width: 24em) { .navbar a:hover { border-left: 4px solid #FFB600; border-right: 4px solid #FFB600; border-bottom: 4px none transparent; border-top: 4px none transparent;}}
 
 /* Content */
 .main-content { word-wrap: break-word; padding: 0rem; }
 .main-content :first-child { margin-top: 0; }
-@media screen and (min-width: 60rem) { .main-content { max-width: 60rem; padding-top: 2.5rem; margin: 0 auto; font-size: 1.1rem; } }
-@media screen and (min-width: 42rem) and (max-width: 60rem) { .main-content { padding-top: 2.5rem; font-size: 1.1rem; } }
+@media screen and (min-width: 60rem) { .main-content { max-width: 60rem; padding-top: 2.5rem; margin: 0 auto; font-size: 1.0rem; } }
+@media screen and (min-width: 42rem) and (max-width: 60rem) { .main-content { padding-top: 2.5rem; font-size: 1.0rem; } }
 @media screen and (max-width: 42rem) { .main-content { padding-top: 2.5rem; font-size: 1rem; } }
 @media screen and (max-width: 24rem) { .main-content { padding: 0rem 0rem; font-size: 0.9rem; } }
 .main-content img { max-width: 100%; }
-.main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 { margin-top: 2rem; margin-bottom: 1rem; font-weight: normal; color: #260C1A; }
+.main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 { margin-top: 2rem; margin-bottom: 1rem; font-weight: normal; color: #8D141E; }
 .main-content p { margin-bottom: 1em; }
 .main-content code { padding: 2px 4px; font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace; font-size: 0.9rem; color: #567482; background-color: #f3f6fa; border-radius: 0.3rem; }
 .main-content pre { padding: 0.8rem; margin-top: 0; margin-bottom: 1rem; font: 1rem Consolas, "Liberation Mono", Menlo, Courier, monospace; color: #567482; word-wrap: normal; background-color: #f3f6fa; border: solid 1px #dce6f0; border-radius: 0.3rem; }
@@ -65,11 +67,13 @@ a:hover { text-decoration: underline; }
 
 /* Posts */
 .post { background-color: #EEF0F2; border-radius: 0.2em; padding: 1.5em; padding-bottom: 2em; width: 90%; margin: auto; margin-bottom: 2rem;}
+.post .tags { display: inline-block; width: 100%; padding: 0rem; margin: 0rem; display: flex;}
+.post .tags p { font-size: 0.7rem; float: left; float: left; margin-top: auto; margin-right: 0.3rem; padding: 0rem 0.3rem; border: 3px double #FFB600;}
 .post .signature { font-style: italic; font-size: 0.9rem; text-align: right; padding-right: 3rem; margin-bottom: -1rem;}
 @media screen and (max-width: 16rem) { .post .signature { padding-right: 0rem; } }
 @media screen and (max-width: 24rem) { .post { width: 100%; } }
 
-.blogpost h2 { margin-bottom: 0rem; }
+.post h1, .post h2 { margin-bottom: 0rem; }
 .blogpost .meta { margin-top: 0.2rem; font-size: 0.9em; }
 
 footer { padding-top: 3em; padding-bottom: 3em; font-size: 0.6em; height:2em; text-align:center; display:flex; justify-content:center; align-items:center; color: #888; }
