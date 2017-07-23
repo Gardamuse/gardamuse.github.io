@@ -9,9 +9,3 @@ title: {{ site.name }}
 <input type="range" name="points" min="40" max="180" value="121" id="slider" class="pink-slider">
 
 <script src="/scripts/character-viewer.js"></script>
-
-<div style="display:inline-block;">
-  {% for c in site.characters %}
-    <p class="char-btn" onclick="setupSlider({{ c.frames }}, '/assets/{{ c.name }}.png')"> {{ c.name | capitalize }} </p>
-  {% endfor %}
-</div>
