@@ -11,6 +11,7 @@
 }
 
 body {
+  min-width: 1280px;
   /*background-color: #053604;*/
   /*background-image: url("../tableBackground.png");*/
 }
