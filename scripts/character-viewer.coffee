@@ -9,7 +9,6 @@ maxframe = 17
   updateSlider()
 
 @updateSlider = ->
-  console.log("iq " + iq + ", oldIq " + oldIq)
   iq = document.getElementById('slider').value
   frame = Math.floor(maxframe * getBimboFactor(iq));
   width = 300
