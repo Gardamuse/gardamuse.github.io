@@ -2,12 +2,12 @@
 title:        Gardamuse
 tagline:      NSFW Games Galore
 baseurl:      ""
-paginate:     1
+paginate:     5
 
 # About/contact
-author:
-  name:       Author name
-  url:        http://yourhomepage.com
+author:       Gardamuse
+  name:       Gardamuse
+  url:        http://gardamuse.github.io
 
 # Gems
 plugins:
@@ -16,3 +16,6 @@ plugins:
 #Others
 markdown: kramdown
 future: true
+
+collections:
+  - sections

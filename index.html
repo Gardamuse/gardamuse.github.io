@@ -4,8 +4,4 @@ title: {{ site.name }}
 permalink: /
 ---
 
-
-  {% for post in site.posts %}
-      <!--<span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>-->
-      {{ post }}
-  {% endfor %}
+{{ site.sections | where: "section-id", "welcome" }}

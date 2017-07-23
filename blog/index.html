@@ -1,0 +1,13 @@
+---
+layout: front-layout
+title: {{ site.name }}
+---
+
+{% for post in site.posts %}
+  <section class="post blogpost">
+    <h2><a href="{{post.url}}">{{ post.title }}</a></h2>
+    <p class="meta">{{ post.date | date_to_long_string }}</p>
+    {{ post.content }}
+    <p class="signature"> – {{ post.author }} </p>
+  </section>
+{% endfor %}
