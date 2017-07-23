@@ -13,7 +13,7 @@ title: {{ site.name }}
 <div style="display:inline-block;">
   {% assign sorted = (site.characters | sort: 'name') %}
   {% for c in sorted %}
-    <img src="/assets/{{ c.name }}.png" style="display:none;" />
+    <img src="/assets/{{ c.name }}.png" />
     <p class="char-btn" onclick="setupSlider({{ c.frames }}, '/assets/{{ c.name }}.png')"> {{ c.name | capitalize }} </p>
   {% endfor %}
 </div>
