@@ -17,7 +17,7 @@ plugins:
 
 #Others
 markdown: kramdown
-future: true
+future: false
 
 collections:
   - sections
@@ -30,3 +30,5 @@ defaults:
       type: "playposts"
     values:
       layout: "post"
+
+permalink: pretty
