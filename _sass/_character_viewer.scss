@@ -1,0 +1,18 @@
+#viewer {
+  width: 300px;
+	height:500px;
+	background-image: url('/assets/rebecca.png');
+	background-size:2400px;
+	background-position:0px 0px;
+  margin: auto;
+  border: 2px solid $navbar-dark;
+}
+
+#iq {
+  text-align: center;
+  font-size: 2rem;
+  margin: 1rem;
+}
+
+.char-btn { background-image: linear-gradient(1deg, $navbar-dark, $navbar-light); border: 1px solid $text-light; color: $text-light; padding: 1rem; margin-right: 1rem; float:left; }
+.char-btn:hover { border-color: $highlight-color; color: $highlight-color; cursor: pointer; }
