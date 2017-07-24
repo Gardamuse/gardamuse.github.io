@@ -10,4 +10,4 @@ Because DeviantArt is not the ideal place for games, be them NSFW or otherwise, 
 
 The idea is that my work will be accessible from here. While not much yet, [Bimbo Holdem Poker][bhp] is already hosted here. Click that link, or access it from the navigation bar.
 
-[bhp]: {{site.baseurl}}{% link pages/playbhp.html %}
+[bhp]: /bimbo-holdem-poker/
