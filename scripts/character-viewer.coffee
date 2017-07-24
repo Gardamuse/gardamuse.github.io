@@ -10,18 +10,17 @@ frameHeight = 550
 frameWidth = 0 # Calculated from frameHeight
 
 @updateViewerSize = ->
-  console.log(window.outerHeight)
   vmargin = 90
   hmargin = 20
-  if ( window.outerHeight > 1000 + vmargin && window.outerWidth > (1000 * frameRatio) + hmargin)
+  if ( window.innerHeight > 1000 + vmargin && window.innerWidth > (1000 * frameRatio) + hmargin)
     frameHeight = 1000
-  else if ( window.outerHeight > 800 + vmargin && window.outerWidth > (800 * frameRatio) + hmargin)
+  else if ( window.innerHeight > 800 + vmargin && window.innerWidth > (800 * frameRatio) + hmargin)
     frameHeight = 800
-  else if ( window.outerHeight > 600 + vmargin && window.outerWidth > (600 * frameRatio) + hmargin)
+  else if ( window.innerHeight > 600 + vmargin && window.innerWidth > (600 * frameRatio) + hmargin)
     frameHeight = 600
-  else if ( window.outerHeight > 400 + vmargin && window.outerWidth > (400 * frameRatio) + hmargin)
+  else if ( window.innerHeight > 400 + vmargin && window.innerWidth > (400 * frameRatio) + hmargin)
     frameHeight = 400
-  else if ( window.outerHeight > 200 + vmargin && window.outerWidth > (200 * frameRatio) + hmargin)
+  else if ( window.innerHeight > 200 + vmargin && window.innerWidth > (200 * frameRatio) + hmargin)
     frameHeight = 200
   else
     frameHeight = 100
@@ -32,6 +31,7 @@ frameWidth = 0 # Calculated from frameHeight
   document.getElementById('viewer').style.width = frameWidth + "px"
   document.getElementById('viewer').style.height = frameHeight + "px"
   document.getElementById('centerer').style.width = frameWidth + "px"
+  document.getElementById('log').innerHTML = window.innerWidth + " " + window.outerWidth
   updateSlider()
 
 @setupSlider = (frames, imagepath) ->
@@ -43,7 +43,7 @@ frameWidth = 0 # Calculated from frameHeight
   iq = document.getElementById('slider').value
   #console.log(iq)
   frame = Math.floor(maxframe * getBimboFactor(iq));
-  document.getElementById('iq').outerHTML = "IQ: " + iq
+  document.getElementById('iq').innerHTML = "IQ: " + iq
   document.getElementById('viewer').style.backgroundPosition = - frameWidth * (frame % 8) + 'px ' + - frameHeight * (Math.floor(frame / 8)) + 'px'
 
 @getBimboFactor = (iq) ->
