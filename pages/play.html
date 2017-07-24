@@ -3,6 +3,7 @@ layout: front-layout
 title: {{ site.name }}
 ---
 
-{% for post in site.playposts %}
+{% assign sortedposts = site.playposts | sort: "title" %}
+{% for post in sortedposts %}
   {{ post }}
 {% endfor %}
