@@ -1,8 +1,9 @@
 #viewer {
-  width: 300px;
+  /* Some of these values are often set by javascript. These are only defaults.*/
+  width: 400px;
 	height: 500px;
+  background-size:2400px;
 	background-image: url('/assets/rebecca.png');
-	background-size:2400px;
 	background-position:0px 0px;
   margin: auto;
   border: 2px solid $navbar-dark;
