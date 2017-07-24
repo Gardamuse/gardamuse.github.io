@@ -3,15 +3,17 @@ layout: front-layout
 title: {{ site.name }}
 ---
 
-<p id="iq"></p>
-<div id="viewer">
+<div id="centerer">
+  <div id="iqbox"><p id="iq"></p></div>
+  <div id="viewer"></div>
+  <input type="range" name="points" min="40" max="180" value="121" id="slider" class="pink-slider">
 </div>
-<input type="range" name="points" min="40" max="180" value="121" id="slider" class="pink-slider">
+<div class="character-selection">
+  <div>
+    {% for c in site.characters %}
+      <p class="char-btn" onclick="setupSlider({{ c.frames }}, '/assets/{{ c.name }}.png')"> {{ c.name | capitalize }} </p>
+    {% endfor %}
+  </div>
+</div>
 
 <script src="/scripts/character-viewer.js"></script>
-
-<div style="display:inline-block;">
-  {% for c in site.characters %}
-    <p class="char-btn" onclick="setupSlider({{ c.frames }}, '/assets/{{ c.name }}.png')"> {{ c.name | capitalize }} </p>
-  {% endfor %}
-</div>

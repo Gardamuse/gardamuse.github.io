@@ -11,16 +11,17 @@ frameWidth = 0 # Calculated from frameHeight
 
 @updateViewerSize = ->
   console.log(window.innerHeight)
-  margin = 60
-  if ( window.innerHeight > 1000 + margin && window.innerWidth > (1000 * frameRatio))
+  vmargin = 90
+  hmargin = 20
+  if ( window.innerHeight > 1000 + vmargin && window.innerWidth > (1000 * frameRatio) + hmargin)
     frameHeight = 1000
-  else if ( window.innerHeight > 800 + margin && window.innerWidth > (800 * frameRatio))
+  else if ( window.innerHeight > 800 + vmargin && window.innerWidth > (800 * frameRatio) + hmargin)
     frameHeight = 800
-  else if ( window.innerHeight > 600 + margin && window.innerWidth > (600 * frameRatio))
+  else if ( window.innerHeight > 600 + vmargin && window.innerWidth > (600 * frameRatio) + hmargin)
     frameHeight = 600
-  else if ( window.innerHeight > 400 + margin && window.innerWidth > (400 * frameRatio))
+  else if ( window.innerHeight > 400 + vmargin && window.innerWidth > (400 * frameRatio) + hmargin)
     frameHeight = 400
-  else if ( window.innerHeight > 200 + margin && window.innerWidth > (200 * frameRatio))
+  else if ( window.innerHeight > 200 + vmargin && window.innerWidth > (200 * frameRatio) + hmargin)
     frameHeight = 200
   else
     frameHeight = 100
@@ -30,6 +31,7 @@ frameWidth = 0 # Calculated from frameHeight
   document.getElementById('viewer').style.backgroundSize = frameWidth * framesPerRow + "px"
   document.getElementById('viewer').style.width = frameWidth + "px"
   document.getElementById('viewer').style.height = frameHeight + "px"
+  document.getElementById('centerer').style.width = frameWidth + "px"
   updateSlider()
 
 @setupSlider = (frames, imagepath) ->

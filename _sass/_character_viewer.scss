@@ -11,9 +11,29 @@
 
 #iq {
   text-align: center;
-  font-size: 2rem;
-  margin: 1rem;
+  font-size: 1.5rem;
+  margin: 0rem;
+  color: $text-light;
 }
 
-.char-btn { background-image: linear-gradient(1deg, $navbar-dark, $navbar-light); border: 1px solid $text-light; color: $text-light; padding: 1rem; margin-right: 1rem; float:left; }
-.char-btn:hover { border-color: $highlight-color; color: $highlight-color; cursor: pointer; }
+#centerer {
+  margin: auto;
+}
+
+#iqbox {
+  background-image: linear-gradient(1deg, $navbar-dark, $navbar-light);
+}
+
+.character-selection { background-color: #17281E; background-image: linear-gradient(1deg, $navbar-dark, $navbar-light); border: 1px solid $text-light; text-align: center; }
+.character-selection div { display: inline-block; overflow: hidden; vertical-align: middle; }
+/*@media screen and (max-width: 64em) { .character-selection div { width: 100%; }}*/
+.character-selection p { font-size: 1.2em; color: $text-light; border: 0px solid $text-light; text-decoration: none; font-weight: bold; padding: 1rem; margin: 0rem; margin-right: 0.5rem; margin-left: 0.5rem; float:left; text-align: center;}
+.character-selection p:hover { color: $highlight-color; border-color: $highlight-color; cursor: pointer;}
+/*@media screen and (max-width: 24em) { .character-selection { height: 12rem; width: 100%; }}
+@media screen and (max-width: 24em) { .character-selection div { display: block; float: left; width: 100%; }}
+@media screen and (max-width: 24em) { .character-selection a { height: 3rem; width: 100%; float: left; }}
+@media screen and (max-width: 24em) { .character-selection a:hover { border-left: 4px solid $highlight-color; border-right: 4px solid $highlight-color; border-bottom: 4px none transparent; border-top: 4px none transparent;}}*/
+
+
+/*.char-btn { background-image: linear-gradient(1deg, $navbar-dark, $navbar-light); border: 1px solid $text-light; color: $text-light; padding: 1rem; margin-right: 1rem; float:left; }
+.char-btn:hover { border-color: $highlight-color; color: $highlight-color; cursor: pointer; }*/
