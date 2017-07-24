@@ -23,6 +23,9 @@ h2 { font-size: 1.7rem; }
 
 /* Header */
 .header-front { color: #fff; padding-top: 8em; padding-bottom: 6em; text-align: center; background-color: #159957; background-image: linear-gradient(-5deg, $header-light, $header-dark); }
+.header-link { color: #fff; }
+.header-link div { display: inline-block; }
+.header-link:hover { text-decoration: none; }
 @media screen and (max-width: 42em) { .header-front { padding-top: 4em; padding-bottom: 2em;} }
 @media screen and (max-height: 52em) { .header-front { padding-top: 4em; padding-bottom: 2em;} }
 @media screen and (max-height: 42em) { .header-front { padding-top: 2em; padding-bottom: 0.5em;} }
