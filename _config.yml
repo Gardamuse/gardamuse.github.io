@@ -22,3 +22,11 @@ future: true
 collections:
   - sections
   - characters
+  - playposts
+
+defaults:
+  - scope:
+      path: ""
+      type: "playposts"
+    values:
+      layout: "post"

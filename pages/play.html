@@ -3,5 +3,6 @@ layout: front-layout
 title: {{ site.name }}
 ---
 
-{{ site.sections | where: "section-id", "bhp" }}
-{{ site.sections | where: "section-id", "char-view" }}
+{% for post in site.playposts %}
+  {{ post }}
+{% endfor %}

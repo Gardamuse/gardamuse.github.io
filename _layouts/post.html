@@ -1,9 +1,32 @@
----
-layout: none
----
-
 <section class="post">
-  <h2> {{page.title}} </h2>
-  </br>
+  <h2>
+    {% if page.link %}
+      <a href="{{ page.link }}">
+    {% endif%}
+
+    {{ page.title }}
+
+    {% if page.link %}
+      </a>
+    {% endif%}
+  </h2>
+
+  {% if page.infotitle %}
+    <p class="infotitle"> {{ page.infotitle }} </p>
+  {% endif %}
+
+  <div class="tags">
+    {% assign sorted-tags = page.tags | sort %}
+    {% for tag in sorted-tags %}
+      <p> {{ tag }} </p>
+    {% endfor %}
+  </div>
+
+  {% if page.imageurl %}
+    <a href="{{ link }}">
+      <img src="{{ page.imageurl }}" alt="{{ page.title }}", style="width: 50%; border: 2px solid #260C1A; float:right; margin-left: 1rem;">
+    </a>
+  {% endif%}
+
   {{ content }}
 </section>
