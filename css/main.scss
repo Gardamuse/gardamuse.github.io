@@ -85,7 +85,7 @@ h2 { font-size: 1.7rem; }
 .post { background-color: $text-light; border-radius: 0.2em; padding: 1.5em; padding-bottom: 2em; width: 90%; margin: auto; margin-bottom: 2rem;}
 .post .tags { display: inline-block; width: 100%; padding: 0rem; margin: 0rem; }
 .post .tags p { font-size: 0.7rem; margin-top: auto; margin-right: 0.3rem; padding: 0rem 0.3rem; border: 3px double $highlight-color; float: left;}
-.post .signature { font-style: italic; font-size: 0.9rem; text-align: right; padding-right: 3rem; margin-bottom: -1rem;}
+.post .signature { font-style: italic; font-size: 0.9rem; text-align: right; padding-right: 3rem; margin-bottom: -1rem; }
 @media screen and (max-width: 16rem) { .post .signature { padding-right: 0rem; } }
 @media screen and (max-width: 24rem) { .post { width: 100%; } }
 
