@@ -1,4 +1,4 @@
-<section class="post">
+<section class="post" id="{{ page.title }}">
   <h2>
     {% if page.link %}
       <a href="{{ page.link }}">
@@ -23,8 +23,8 @@
   </div>
 
   {% if page.imageurl %}
-    <a href="{{ link }}">
-      <img src="{{ page.imageurl }}" alt="{{ page.title }}", style="width: 50%; border: 2px solid #260C1A; float:right; margin-left: 1rem;">
+    <a href="{{ page.link }}">
+      <img src="{{ page.imageurl }}" alt="{{ page.title }}", style="max-width: 50%; max-height: 20em; border: 2px solid #260C1A; float:right; margin-left: 1rem;">
     </a>
   {% endif%}
 

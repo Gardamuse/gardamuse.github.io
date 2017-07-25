@@ -1,9 +1,15 @@
 .main-content {
-  min-width: 1280px;
+  min-width: 100%;
+  margin: 0px;
   padding-left: 0px;
   padding-right: 0px;
   box-sizing: content-box;
   margin-bottom: 3.3rem;
+  text-align: center;
+}
+
+.player {
+  margin: auto;
 }
 
 .player embed{
@@ -11,7 +17,7 @@
 }
 
 body {
-  min-width: 1280px;
+  /*min-width: 1280px;*/
   /*background-color: #053604;*/
   /*background-image: url("../tableBackground.png");*/
 }

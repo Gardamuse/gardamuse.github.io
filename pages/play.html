@@ -5,6 +5,15 @@ permalink: /play/
 ---
 
 {% assign sortedposts = site.playposts | sort: "title" %}
+
+<section class="post">
+  <h2> Table of Contents </h2>
+  </br>
+  {% for post in sortedposts %}
+    <a href="#{{ post.title }}">{{ post.title }}</a></br>
+  {% endfor %}
+</section>
+
 {% for post in sortedposts %}
   {{ post }}
 {% endfor %}
