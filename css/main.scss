@@ -86,7 +86,7 @@ h2 { font-size: 2em; }
 .post { background-color: $text-light; border-radius: 0.2em; padding: 1.5em; padding-bottom: 2em; width: 90%; margin: auto; margin-bottom: 2rem; overflow: hidden; }
 .post .tags { display: inline-block; width: 100%; padding: 0rem; margin: 0rem; }
 .post .tags p { font-size: 0.9em; margin-top: auto; margin-right: 0.3rem; padding: 0rem 0.3rem; border: 3px double $highlight-color; float: left;}
-.post .signature { font-family: $main-font; font-style: italic; font-size: 1.2em; text-align: right; padding-right: 3rem; margin-bottom: -1rem; }
+.post .signature { font-family: $main-font; font-style: italic; font-size: 1.1em; text-align: right; padding-right: 3rem; margin-bottom: -1rem; }
 @media screen and (max-width: 16rem) { .post .signature { padding-right: 0rem; } }
 @media screen and (max-width: 24rem) { .post { width: 100%; } }
 
@@ -104,6 +104,8 @@ h2 { font-size: 2em; }
 /*.link-button { width: 100%; }*/
 .link-row:nth-child(odd) { background-color: #DEE0E2; }
 .link-row:nth-child(even) { background-color: #CED0D2; }
+
+.pagination { width: 90%; margin: auto; }
 
 footer { padding-top: 3em; padding-bottom: 3em; font-size: 0.6em; height:2em; text-align:center; display:flex; justify-content:center; align-items:center; color: #888; }
 
