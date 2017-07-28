@@ -1,12 +1,13 @@
 <section class="post" id="{{ page.title }}">
+  <!-- Title -->
   <h2>
-    {% if page.link %}
-      <a href="{{ page.link }}">
+    {% if page.weblink %}
+      <a href="{{ page.weblink }}">
     {% endif%}
 
     {{ page.title }}
 
-    {% if page.link %}
+    {% if page.weblink %}
       </a>
     {% endif%}
   </h2>
@@ -22,11 +23,24 @@
     {% endfor %}
   </div>
 
+  <!-- Thumbnail  -->
   {% if page.imageurl %}
-    <a href="{{ page.link }}">
+    <a href="{{ page.weblink }}">
       <img src="{{ page.imageurl }}" alt="{{ page.title }}", style="max-width: 50%; max-height: 20em; border: 2px solid #260C1A; float:right; margin-left: 1rem;">
     </a>
   {% endif%}
 
+  <!-- Content -->
   {{ content }}
+
+  <!-- Links -->
+  <p>
+  {% if page.weblink %}
+    <a href="{{ page.weblink }}">Play in Browser</a></br>
+  {% endif %}
+
+  {% if page.downlink %}
+    <a href="{{ page.downlink }}" target="_blank">Download</a>
+  {% endif %}
+  </p>
 </section>
