@@ -9,9 +9,12 @@ permalink: /play/
 <section class="post">
   <h2> Table of Contents </h2>
   </br>
+
+  <ul>
   {% for post in sortedposts %}
-    <a href="#{{ post.title }}">{{ post.title }}</a></br>
+    <li><p style="display: inline;"><a href="#{{ post.title }}">{{ post.title }}</a></br></p></li>
   {% endfor %}
+  </ul>
 </section>
 
 {% for post in sortedposts %}

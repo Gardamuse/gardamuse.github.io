@@ -10,23 +10,23 @@ $text-light: #EEF0F2;
 $header-dark: #643173;
 $header-light: #AD343E;
 
-$h-font: 'IM Fell English SC', "Open Sans", "Helvetica Neue";
-$sign-font: 'IM Fell English SC', "Open Sans", "Helvetica Neue";
-$main-font: 'Rokkitt', "Open Sans", "Helvetica Neue";
+$header-font: 'Croissant One', "Open Sans", "Helvetica Neue";
+$h-font: "Maven Pro", "Open Sans", "Helvetica Neue";
+$main-font: "Open Sans", "Open Sans", "Helvetica Neue";
 
 
 /* General */
 * { box-sizing: border-box; }
-body { padding: 0; margin: 0; font-family: $main-font; font-size: 16px; line-height: 1.5; color: #606c71; }
+body { padding: 0; margin: 0; font-family: $main-font; font-size: 14px; line-height: 1.5; color: #606c71; }
 body { background-color: $base-color; }
 
 a { color: #1e6bb8; text-decoration: none; }
 a:hover { text-decoration: underline; }
 
-h2 { font-size: 1.9em; }
+h2 { font-size: 2em; }
 
 /* Header */
-.header-front { color: #fff; padding-top: 6rem; padding-bottom: 4rem; text-align: center; background-color: #159957; background-image: linear-gradient(-5deg, $header-light, $header-dark); }
+.header-front { color: #fff; padding-top: 6rem; padding-bottom: 6rem; text-align: center; background-color: #159957; background-image: linear-gradient(-5deg, $header-light, $header-dark); }
 .header-link { color: #fff; }
 .header-link div { display: inline-block; font-size: 6rem; }
 .header-link:hover { text-decoration: none; }
@@ -35,14 +35,14 @@ h2 { font-size: 1.9em; }
 @media screen and (max-height: 42em) { .header-front { padding-top: 2em; padding-bottom: 0.5em;} }
 @media screen and (max-width: 24em) { .header-front { padding-top: 2em; padding-bottom: 0.5em;} }
 
-.project-name { margin-top: 0; margin-bottom: 0.1rem; font-family: $sign-font; }
+.project-name { margin-top: 0; margin-bottom: 0.1rem; font-family: $header-font; }
 @media screen and (min-width: 64em) { .project-name { font-size: 1em; } }
 @media screen and (min-width: 24em) and (max-width: 64em) { .project-name { font-size: 0.8em; } }
 @media screen and (max-width: 24em) { .project-name { font-size:0.5em; } }
 @media screen and (max-width: 16em) { .project-name { font-size: 0.4em; } }
 @media screen and (max-width: 13em) { .project-name { font-size: 0.2em; } }
 
-.project-tagline { margin-bottom: 2rem; font-weight: normal; opacity: 0.7; }
+.project-tagline { margin-bottom: 2rem; font-weight: normal; opacity: 0.7; font-family: $main-font; }
 @media screen and (min-width: 64em) { .project-tagline { font-size: 0.2em; } }
 @media screen and (min-width: 24em) and (max-width: 64em) { .project-tagline { font-size: 0.17em; } }
 @media screen and (max-width: 24em) { .project-tagline { font-size: 0.14em; } }
@@ -50,7 +50,7 @@ h2 { font-size: 1.9em; }
 @media screen and (max-width: 13em) { .project-tagline { font-size: 0.1em; } }
 
 /* Navigation */
-.navbar { background-color: #17281E; background-image: linear-gradient(1deg, $navbar-dark, $navbar-light); height: 4rem; font-size: 1.5em; font-family: $h-font; }
+.navbar { background-color: #17281E; background-image: linear-gradient(1deg, $navbar-dark, $navbar-light); height: 4rem; font-size: 1.3em; font-family: $h-font; }
 .navbar div { width: 64rem; display: flex; flex: 1; height: 100%; margin: auto;}
 @media screen and (max-width: 64rem) { .navbar div { width: 100%; }}
 .navbar a { font-size: 1.2em; color: $text-light; border: 0px solid #555; width: 25%; text-decoration: none; font-weight: bold; display: flex; align-items: center; justify-content: center; border-bottom: 4px solid transparent; border-top: 4px solid transparent;}
@@ -86,7 +86,7 @@ h2 { font-size: 1.9em; }
 .post { background-color: $text-light; border-radius: 0.2em; padding: 1.5em; padding-bottom: 2em; width: 90%; margin: auto; margin-bottom: 2rem; overflow: hidden; }
 .post .tags { display: inline-block; width: 100%; padding: 0rem; margin: 0rem; }
 .post .tags p { font-size: 0.9em; margin-top: auto; margin-right: 0.3rem; padding: 0rem 0.3rem; border: 3px double $highlight-color; float: left;}
-.post .signature { font-family: $sign-font; font-style: italic; font-size: 1.3em; text-align: right; padding-right: 3rem; margin-bottom: -1rem; }
+.post .signature { font-family: $main-font; font-style: italic; font-size: 1.2em; text-align: right; padding-right: 3rem; margin-bottom: -1rem; }
 @media screen and (max-width: 16rem) { .post .signature { padding-right: 0rem; } }
 @media screen and (max-width: 24rem) { .post { width: 100%; } }
 
