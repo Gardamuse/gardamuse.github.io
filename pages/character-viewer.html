@@ -11,7 +11,8 @@ permalink: /character-viewer/
 </div>
 <div class="character-selection">
   <div>
-    {% for c in site.characters %}
+    {% assign sortedchars = site.characters | sort: "name" %}
+    {% for c in sortedchars %}
       <p class="char-btn" onclick="setupSlider({{ c.frames }}, '/assets/{{ c.name }}.png')"> {{ c.name | capitalize }} </p>
     {% endfor %}
   </div>
