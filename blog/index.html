@@ -3,26 +3,28 @@ layout: front-layout
 title: {{ site.name }}
 ---
 
-{% for post in paginator.posts %}
-  {% include blogpost.html
-    posturl=post.url
-    title=post.title
-    date=post.date
-    content=post.content
-    author=post.author
-    %}
-{% endfor %}
+<section class="main-content">
+  {% for post in paginator.posts %}
+    {% include blogpost.html
+      posturl=post.url
+      title=post.title
+      date=post.date
+      content=post.content
+      author=post.author
+      %}
+  {% endfor %}
 
-<div class="pagination">
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
-  {% else %}
-    <span class="previous">Previous</span>
-  {% endif %}
-  <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path }}" class="next">Next</a>
-  {% else %}
-    <span class="next ">Next</span>
-  {% endif %}
-</div>
+  <div class="pagination">
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
+    {% else %}
+      <span class="previous">Previous</span>
+    {% endif %}
+    <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+    {% else %}
+      <span class="next ">Next</span>
+    {% endif %}
+  </div>
+</section>

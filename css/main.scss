@@ -81,9 +81,22 @@ h2 { font-size: 2em; }
 .main-content blockquote { padding: 0 1rem; margin-left: 0; color: #819198; border-left: 0.3rem solid #dce6f0; }
 .main-content blockquote > :first-child { margin-top: 0; }
 .main-content blockquote > :last-child { margin-bottom: 0; }
+.main-content:after { content: ""; display: table; clear: both; }
+
+.main-column{ float: left; width: 76%; }
+.side-column{ float: left; width: 24%; position: sticky; top: 0rem; }
+@media screen and (min-width: 90rem) {
+  .main-content { max-width: 70rem; }
+  .main-column { width: 80%;}
+  .side-column { width: 20%;}
+}
+@media screen and (max-width: 48rem) {
+  .main-column { width: 100%; clear:both; }
+  .side-column { width: 100%; clear:both; position: static; display: none;}
+}
 
 /* Posts */
-.post { background-color: $text-light; border-radius: 0.2em; padding: 1.5em; padding-bottom: 2em; width: 90%; margin: auto; margin-bottom: 2rem; overflow: hidden; }
+.post { background-color: $text-light; border-radius: 0.2em; padding: 1.5em; padding-bottom: 2em; width: 80%; margin: auto; margin-bottom: 2rem; overflow: hidden; }
 .post .tags { display: inline-block; width: 100%; padding: 0rem; margin: 0rem; }
 .post .tags p { font-size: 0.9em; margin-top: auto; margin-right: 0.3rem; padding: 0rem 0.3rem; border: 3px double $highlight-color; float: left;}
 .post .signature { font-family: $main-font; font-style: italic; font-size: 1.1em; text-align: right; padding-right: 3rem; margin-bottom: -1rem; }
@@ -96,6 +109,12 @@ h2 { font-size: 2em; }
 .post > p { margin-top: 0rem; }
 .post .infotitle { font-size: 1em; margin-top: -0.2em; margin-bottom: 0.4em; }
 .post .meta { margin-top: 0.2em; font-size: 1.1em; }
+
+.double-column .post { width: 96%; } /*Apply to .main-content. For posts which uses two columns. */
+
+.side-column .content-navigation { display: block; margin: 1px; border-width: 0px 0px 1px 0px; border-style: solid; }
+.side-column .content-navigation:hover { border-color: $highlight-color}
+.side-column a:hover { text-decoration: none;}
 
 .link-button { border: 1px solid black; }
 .link-button h3 { margin: 1rem; font-weight: bold; }
@@ -114,3 +133,5 @@ footer { padding-top: 3em; padding-bottom: 3em; font-size: 0.6em; height:2em; te
 @import "character_viewer";
 
 @import "slider";
+
+@import "text-game"

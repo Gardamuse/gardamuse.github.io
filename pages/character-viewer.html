@@ -4,18 +4,19 @@ title: {{ site.name }}
 permalink: /character-viewer/
 ---
 
-<div id="centerer">
-  <div id="iqbox"><p id="iq"></p></div>
-  <div id="viewer"></div>
-  <input type="range" name="points" min="40" max="180" value="121" id="slider" class="pink-slider">
-</div>
-<div class="character-selection">
-  <div>
-    {% assign sortedchars = site.characters | sort: "name" %}
-    {% for c in sortedchars %}
-      <p class="char-btn" onclick="setupSlider({{ c.frames }}, '/assets/{{ c.name }}.png')"> {{ c.name | capitalize }} </p>
-    {% endfor %}
+<section class="main-content">
+  <div id="centerer">
+    <div id="iqbox"><p id="iq"></p></div>
+    <div id="viewer"></div>
+    <input type="range" name="points" min="40" max="180" value="121" id="slider" class="pink-slider">
   </div>
-</div>
-
+  <div class="character-selection">
+    <div>
+      {% assign sortedchars = site.characters | sort: "name" %}
+      {% for c in sortedchars %}
+        <p class="char-btn" onclick="setupSlider({{ c.frames }}, '/assets/{{ c.name }}.png')"> {{ c.name | capitalize }} </p>
+      {% endfor %}
+    </div>
+  </div>
+</section>
 <script src="/scripts/character-viewer.js"></script>
