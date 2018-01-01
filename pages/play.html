@@ -6,22 +6,21 @@ permalink: /play/
 
 {% assign sortedposts = site.playposts | sort: "title" %}
 
-<section class="main-content double-column">
-  <section class="main-column">
-  {% for post in sortedposts %}
-    {{ post }}
-  {% endfor %}
-  </section>
+<div class="main-content double-column">
+  <div class="main-column">
+    {% for post in sortedposts %}
+      {{ post }}
+    {% endfor %}
+  </div>
 
-  <section class="side-column">
+  <div class="side-column">
     <section class="post">
-      <h2> Content </h2>
-      </br>
+      <h3> Content </h3>
 
       {% for post in sortedposts %}
         <a href="#{{ post.title }}"><p class="content-navigation">{{ post.title }}</br></p></a>
       {% endfor %}
 
     </section>
-  </section>
-</section>
+  </div>
+</div>

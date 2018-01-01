@@ -1,18 +1,21 @@
 ---
-layout: front-layout
+layout: single-column-layout
 comments: true
 ---
 
-{% include blogpost.html
-  posturl=page.url
-  title=page.title
-  date=page.date
-  content=page.content
-  author=page.author
-%}
+<section class="main-content">
+  {% include blogpost.html
+    posturl=page.url
+    title=page.title
+    date=page.date
+    content=page.content
+    author=page.author
+  %}
 
 
   <div id="disqus_thread"></div>
+
+</section>
   <script>
 
   /**
