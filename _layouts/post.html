@@ -26,7 +26,7 @@
   <!-- Thumbnail  -->
   {% if page.imageurl %}
     <a href="{{ page.weblink }}">
-      <img src="{{ page.imageurl }}" alt="{{ page.title }}", style="max-width: 50%; max-height: 20em; border: 2px solid #260C1A; float:right; margin-left: 1rem;">
+      <img src="{{ page.imageurl }}" alt="{{ page.title }}, a Bimbofication (Bimbo Transformation) Game", style="max-width: 50%; max-height: 20em; border: 2px solid #260C1A; float:right; margin-left: 1rem;">
     </a>
   {% endif%}
 
@@ -34,13 +34,13 @@
   {{ content }}
 
   <!-- Links -->
-  <p>
-  {% if page.weblink %}
-    <a href="{{ page.weblink }}">Play in Browser</a></br>
-  {% endif %}
+  <p class="link-buttons">
+    {% if page.weblink %}
+      <a href="{{ page.weblink }}" class="link-button">Play in Browser</a>
+    {% endif %}
 
-  {% if page.downlink %}
-    <a href="{{ page.downlink }}" target="_blank">Download</a>
-  {% endif %}
+    {% if page.downlink %}
+      <a href="{{ page.downlink }}" class="link-button" target="_blank">Download</a>
+    {% endif %}
   </p>
 </section>

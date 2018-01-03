@@ -64,7 +64,7 @@ $navbar-items: 3; /* How many items are in the navbar */
 .navbar { background-color: #17281E; background-image: linear-gradient(1deg, $navbar-dark, $navbar-light); height: 4rem; font-size: 1.3em; font-family: $h-font; }
 .navbar div { width: 64rem; display: flex; flex: 1; height: 100%; margin: auto;}
 @media screen and (max-width: 64rem) { .navbar div { width: 100%; }}
-.navbar a { font-size: 1.2em; color: $text-light; border: 0px solid #555; width: (100% / $navbar-items); text-decoration: none; font-weight: bold; display: flex; align-items: center; justify-content: center; border-bottom: 4px solid transparent; border-top: 4px solid transparent;}
+.navbar a { font-size: 1.2em; color: $text-light; border: 0px solid #555; width: (100% / $navbar-items); text-decoration: none; font-weight: bold; display: flex; align-items: center; justify-content: center; text-align: center; border-bottom: 4px solid transparent; border-top: 4px solid transparent;}
 .navbar a:hover { color: $highlight-color; border-bottom: 4px solid $highlight-color;}
 @media screen and (max-width: 24rem) { .navbar { height: 12rem; width: 100%; }}
 @media screen and (max-width: 24rem) { .navbar div { display: block; float: left; width: 100%; }}
@@ -97,8 +97,8 @@ $navbar-items: 3; /* How many items are in the navbar */
 .main-content blockquote > :last-child { margin-bottom: 0; }
 .main-content:after { content: ""; display: table; clear: both; }
 
-.main-column{ float: left; width: 74%; }
-.side-column{ float: right; width: 24%; position: sticky; top: 0rem; }
+.main-column{ float: left; width: 72%; }
+.side-column{ float: right; width: 26%; position: sticky; top: 0rem; }
 
 @media screen and (max-width: 48rem) {
   .main-column { width: 100%; clear:both; }
@@ -120,6 +120,7 @@ $navbar-items: 3; /* How many items are in the navbar */
 .post h1 > a, .post h2 > a { color: inherit; text-decoration: none; }
 .post a:hover { color: $highlight-color; }
 .post > p { margin-top: 0rem; }
+.post > .link > a { border: 1px #000; }
 .post .infotitle { font-size: 1em; margin-top: -0.2em; margin-bottom: 0.4em; }
 .post .meta { margin-top: 0.2em; font-size: 1.1em; }
 
@@ -127,13 +128,9 @@ $navbar-items: 3; /* How many items are in the navbar */
 .side-column .content-navigation:hover { border-color: $highlight-color}
 .side-column a:hover { text-decoration: none;}
 
-.link-button { border: 1px solid black; }
-.link-button h3 { margin: 1rem; font-weight: bold; }
-.link-button a { font-weight: normal; margin: 1rem; }
-.link-button td { border: 0px; }
-/*.link-button { width: 100%; }*/
-.link-row:nth-child(odd) { background-color: #DEE0E2; }
-.link-row:nth-child(even) { background-color: #CED0D2; }
+.link-buttons {width: 100%; padding-top: 0.5em;}
+.link-button { font-size: 1.25em; padding: 0.1em 0.3em 0.1em 0.3em; border: 2px solid $link-color; border-radius: 2px; background-color: fade-out($link-color, 0.9); margin-right: 0.5em; }
+.link-button:hover { text-decoration: none; border-color: $highlight-color; background-color: fade-out($highlight-color, 0.9);}
 
 .pagination { margin: auto; }
 
