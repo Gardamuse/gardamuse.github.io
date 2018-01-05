@@ -8,6 +8,7 @@ $highlight-color: #FFB600;
 $navbar-light: #541A32;
 $navbar-dark: #260C1A;
 $text-light: #EEF0F2;
+$text-color: darken(#606c71, 15%);
 $header-dark: #643173;
 $header-light: #AD343E;
 $oc1: #fff; /* Outline Color Light */
@@ -21,7 +22,7 @@ $main-font: "Open Sans", "Open Sans", "Helvetica Neue";
 
 /* General */
 * { box-sizing: border-box; }
-body { padding: 0; margin: 0; font-family: $main-font; font-size: 14px; line-height: 1.5; color: #606c71; }
+body { padding: 0; margin: 0; font-family: $main-font; font-size: 14px; line-height: 1.5; color: $text-color; }
 body { background-color: $base-color; }
 
 a { color: $link-color; text-decoration: none; }
