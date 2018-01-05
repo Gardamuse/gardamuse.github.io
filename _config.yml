@@ -1,6 +1,8 @@
 # Setup
-title:        Blushing Defeat
-tagline:      Blog, Bimbofication, Transformation
+title:          Blushing Defeat - NSFW Bimbofication Games
+header-title:   Blushing Defeat
+tagline:        Blog, Bimbofication, Transformation
+header-tagline: Blog, Bimbofication, Transformation
 baseurl:      ""
 paginate:     5
 paginate_path: "/blog/page:num/"
@@ -8,13 +10,14 @@ paginate_path: "/blog/page:num/"
 # About/contact
 author:
   name:       Gardamuse
-  url:        https://gardamuse.github.io
-  email:      gardamuse@gmail.com
+  url:        http://www.blushingdefeat.com
+  email:      gardamuse@blushingdefeat.com
 
 # Gems
 plugins:
   - jekyll-paginate
   - jekyll-coffeescript
+  - jekyll-sitemap
 
 #Others
 markdown: kramdown
