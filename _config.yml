@@ -1,8 +1,6 @@
 # Setup
 title:          Blushing Defeat - NSFW Bimbofication Games
-header-title:   Blushing Defeat
 tagline:        Blog, Games, Bimbofication
-header-tagline: Blog, Games, Bimbofication
 baseurl:      ""
 paginate:     5
 paginate_path: "/blog/page:num/"
@@ -34,5 +32,9 @@ defaults:
       type: "playposts"
     values:
       layout: "post"
+  - scope:
+      path: ""
+    values:
+      title: "Blushing Defeat - NSFW Bimbofication Games"
 
 permalink: pretty
