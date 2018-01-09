@@ -39,11 +39,14 @@
   {% if page.weblink or page.downlink %}
     <p class="link-buttons" itemprop="offers">
       {% if page.weblink %}
-        <span itemtype="http://schema.org/Offer"><a href="{{ page.weblink }}" class="link-button" itemprop="url">Play in Browser</a></span>
+        <a href="{{ page.weblink }}" class="link-button" itemprop="url">Play in Browser</a>
       {% endif %}
 
       {% if page.downlink %}
-        <span itemtype="http://schema.org/Offer"><a href="{{ page.downlink }}" class="link-button" target="_blank" itemprop="url">Download</a></span>
+        <span itemtype="http://schema.org/Offer">
+          <a href="{{ page.downlink }}" class="link-button" target="_blank" itemprop="url">Download</a>
+          <meta itemprop="price" content="0" />
+        </span>
       {% endif %}
     </p>
   {% endif %}
