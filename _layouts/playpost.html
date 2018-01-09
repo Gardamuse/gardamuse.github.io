@@ -31,17 +31,17 @@
   {% endif%}
 
   <!-- Content -->
-  {{ content }}
+  <span itemprop="description">{{ content }}</span>
 
   <!-- Links -->
   {% if page.weblink or page.downlink %}
     <p class="link-buttons">
       {% if page.weblink %}
-        <a href="{{ page.weblink }}" class="link-button">Play in Browser</a>
+        <span itemtype="http://schema.org/Offer"><a href="{{ page.weblink }}" class="link-button" itemprop="url">Play in Browser</a></span>
       {% endif %}
 
       {% if page.downlink %}
-        <a href="{{ page.downlink }}" class="link-button" target="_blank">Download</a>
+        <span itemtype="http://schema.org/Offer"><a href="{{ page.downlink }}" class="link-button" target="_blank" itemprop="url">Download</a></span>
       {% endif %}
     </p>
   {% endif %}
