@@ -1,0 +1,48 @@
+<section class="post" id="{{ page.title }}" itemscope itemptype="http://schema.org/VideoGame">
+  <!-- Title -->
+  <h2>
+    {% if page.weblink %}
+      <a href="{{ page.weblink }}" itemprop="url">
+    {% endif%}
+
+    <span itemprop="name">{{ page.title }}</span>
+
+    {% if page.weblink %}
+      </a>
+    {% endif%}
+  </h2>
+
+  {% if page.infotitle %}
+    <p class="infotitle"> {{ page.infotitle }} </p>
+  {% endif %}
+
+  <div class="tags">
+    {% assign sorted-tags = page.tags | sort %}
+    {% for tag in sorted-tags %}
+      <p> {{ tag }} </p>
+    {% endfor %}
+  </div>
+
+  <!-- Thumbnail  -->
+  {% if page.imageurl %}
+    <a href="{{ page.weblink }}">
+      <img src="{{ page.imageurl }}" itemprop="image" alt="{{ page.title }}, a Bimbofication Game", style="max-width: 50%; max-height: 20em; border: 2px solid #260C1A; float:right; margin-left: 1rem;">
+    </a>
+  {% endif%}
+
+  <!-- Content -->
+  {{ content }}
+
+  <!-- Links -->
+  {% if page.weblink or page.downlink %}
+    <p class="link-buttons">
+      {% if page.weblink %}
+        <a href="{{ page.weblink }}" class="link-button">Play in Browser</a>
+      {% endif %}
+
+      {% if page.downlink %}
+        <a href="{{ page.downlink }}" class="link-button" target="_blank">Download</a>
+      {% endif %}
+    </p>
+  {% endif %}
+</section>

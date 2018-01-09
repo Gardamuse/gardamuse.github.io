@@ -31,7 +31,7 @@ defaults:
       path: ""
       type: "playposts"
     values:
-      layout: "post"
+      layout: "playpost"
   - scope:
       path: ""
     values:
