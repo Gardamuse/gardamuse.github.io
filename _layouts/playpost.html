@@ -35,7 +35,7 @@
 
   <!-- Links -->
   {% if page.weblink or page.downlink %}
-    <p class="link-buttons">
+    <p class="link-buttons" itemprop="offers">
       {% if page.weblink %}
         <span itemtype="http://schema.org/Offer"><a href="{{ page.weblink }}" class="link-button" itemprop="url">Play in Browser</a></span>
       {% endif %}
