@@ -40,14 +40,16 @@
     <p class="link-buttons">
       {% if page.weblink %}
         <span itemprop="offers" itemscope itemtype="http://schema.org/Offer">
-          <meta itemprop="price" content="free" />
+          <meta itemprop="price" content="0" />
+          <meta itemprop="priceCurrency" content="USD" />
           <a href="{{ page.weblink }}" class="link-button" itemprop="url">Play in Browser</a>
         </span>
       {% endif %}
 
       {% if page.downlink %}
         <span itemprop="offers" itemscope itemtype="http://schema.org/Offer">
-          <meta itemprop="price" content="free" />
+          <meta itemprop="price" content="0" />
+          <meta itemprop="priceCurrency" content="USD" />
           <a href="{{ page.downlink }}" class="link-button" target="_blank" itemprop="url">Download</a>
         </span>
       {% endif %}
