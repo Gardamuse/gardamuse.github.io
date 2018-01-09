@@ -24,12 +24,15 @@
     {% for tag in sorted-tags %}
       <p> {{ tag }} </p>
     {% endfor %}
+
+    <meta itemprop="keywords" content="{% for tag in sorted-tags %}{{ tag }}, {% endfor %}" />
   </div>
 
   <!-- Thumbnail  -->
   {% if page.imageurl %}
     <a href="{{ page.weblink }}">
       <img src="{{ page.imageurl }}" itemprop="image" alt="{{ page.title }}, a Bimbofication Game", style="max-width: 50%; max-height: 20em; border: 2px solid #260C1A; float:right; margin-left: 1rem;">
+      <meta itemprop="thumbnailUrl" content="{{ page.imageurl }}" />
     </a>
   {% endif%}
 
