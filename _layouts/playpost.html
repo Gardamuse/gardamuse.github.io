@@ -39,7 +39,10 @@
   {% if page.weblink or page.downlink %}
     <p class="link-buttons">
       {% if page.weblink %}
-        <a href="{{ page.weblink }}" class="link-button" itemprop="url">Play in Browser</a>
+        <span itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+          <meta itemprop="price" content="free" />
+          <a href="{{ page.weblink }}" class="link-button" itemprop="url">Play in Browser</a>
+        </span>
       {% endif %}
 
       {% if page.downlink %}
