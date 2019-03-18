@@ -2,7 +2,7 @@
 layout: blogpost
 categories: blog
 
-title:  "Bimbo Holdem Poker Open Source"
+title:  "Bimbo Holdem Poker is now open source"
 date:   2019-03-17 20:00:00 +0200
 author: Gardamuse
 ---
