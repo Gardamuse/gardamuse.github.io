@@ -101,7 +101,7 @@ $navbar-items: 3; /* How many items are in the navbar */
 .main-content:after { content: ""; display: table; clear: both; }
 
 .main-column{ float: left; width: 72%; }
-.side-column{ float: right; width: 26%; position: sticky; top: 0rem; }
+.side-column{ float: right; width: 27%; position: sticky; top: 0rem; }
 
 @media screen and (max-width: 48rem) {
   .main-column { width: 100%; clear:both; }
@@ -140,6 +140,13 @@ hr {
 .link-buttons {width: 100%; padding-top: 0.5em; }
 .link-button { font-size: 1.25em; padding: 0.1em 0.3em 0.1em 0.3em; border: 2px solid $link-color; border-radius: 2px; background-color: fade-out($link-color, 0.9); margin-right: 0.5em; }
 .link-button:hover { text-decoration: none; border-color: $highlight-color; background-color: fade-out($highlight-color, 0.9);}
+
+blockquote p {
+   color: lighten($text-color, 3%);
+}
+blockquote {
+   background-color: darken($text-light, 2%);
+}
 
 .pagination { margin: auto; }
 
