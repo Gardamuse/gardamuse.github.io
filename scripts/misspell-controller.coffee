@@ -4,7 +4,8 @@
 #import * as misspell from 'bimboMisspell'
 terminal = document.getElementById("terminal")
 output = document.getElementById("output")
-bimbofactor = 0.5
+iqDisplay = document.getElementById("iqDisplay")
+bimbofactor = 0
 
 text = ""
 
@@ -18,4 +19,8 @@ terminal.value = ""
       e.preventDefault()
 
 @updateSlider = ->
-  bimbofactor = document.getElementById('slider').value / 100
+   bimbofactor = (100 - document.getElementById('slider').value) / 100
+   iqDisplay.innerHTML = 'IQ: ' + Math.round((1-bimbofactor) * 100 + 40)
+
+@bimbofyButton = (e) ->
+   console.log(bimbofactor)
