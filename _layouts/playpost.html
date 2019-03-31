@@ -1,62 +1,62 @@
 <section class="post" id="{{ page.title }}" itemscope itemtype="http://schema.org/VideoGame">
-  <meta itemprop="applicationCategory" content="Game" />
-  <meta itemprop="genre" content="Erotic" />
-  <meta itemprop="operatingSystem" content="Windows, OSX, Linux" />
-  <!-- Title -->
-  <h2>
-    {% if page.weblink %}
-      <a href="{{ page.weblink }}" itemprop="url">
-    {% endif%}
-
-    <span itemprop="name">{{ page.title }}</span>
-
-    {% if page.weblink %}
-      </a>
-    {% endif%}
-  </h2>
-
-  {% if page.infotitle %}
-    <p class="infotitle"> {{ page.infotitle }} </p>
-  {% endif %}
-
-  <div class="tags">
-    {% assign sorted-tags = page.tags | sort %}
-    {% for tag in sorted-tags %}
-      <p> {{ tag }} </p>
-    {% endfor %}
-
-    <meta itemprop="keywords" content="{% for tag in sorted-tags %}{{ tag }}, {% endfor %}" />
-  </div>
-
-  <!-- Thumbnail  -->
-  {% if page.imageurl %}
-    <a href="{{ page.weblink }}">
-      <img src="{{ page.imageurl }}" itemprop="image" alt="{{ page.title }}, a Bimbofication Game", style="max-width: 50%; max-height: 20em; border: 2px solid #260C1A; float:right; margin-left: 1rem;">
-      <meta itemprop="thumbnailUrl" content="{{ page.imageurl }}" />
-    </a>
-  {% endif%}
-
-  <!-- Content -->
-  <span itemprop="description">{{ content }}</span>
-
-  <!-- Links -->
-  {% if page.weblink or page.downlink %}
-    <p class="link-buttons">
+   <meta itemprop="applicationCategory" content="Game" />
+   <meta itemprop="genre" content="Erotic" />
+   <meta itemprop="operatingSystem" content="Windows, OSX, Linux" />
+   <!-- Title -->
+   <h2>
       {% if page.weblink %}
-        <span itemprop="offers" itemscope itemtype="http://schema.org/Offer">
-          <meta itemprop="price" content="0" />
-          <meta itemprop="priceCurrency" content="USD" />
-          <a href="{{ page.weblink }}" class="link-button" itemprop="url">Play in Browser</a>
-        </span>
+      <a href="{{ page.weblink }}" itemprop="url">
+         {% endif%}
+
+         <span itemprop="name">{{ page.title }}</span>
+
+         {% if page.weblink %}
+      </a>
+      {% endif%}
+   </h2>
+
+   {% if page.infotitle %}
+   <p class="infotitle"> {{ page.infotitle }} </p>
+   {% endif %}
+
+   <div class="tags">
+      {% assign sorted-tags = page.tags | sort %}
+      {% for tag in sorted-tags %}
+      <p> {{ tag }} </p>
+      {% endfor %}
+
+      <meta itemprop="keywords" content="{% for tag in sorted-tags %}{{ tag }}, {% endfor %}" />
+   </div>
+
+   <!-- Thumbnail  -->
+   {% if page.imageurl %}
+   <a href="{{ page.weblink }}">
+      <img src="{{ page.imageurl }}" itemprop="image" alt="{{ page.title }}, a Bimbofication Game" , style="max-width: 50%; max-height: 20em; border: 2px solid #260C1A; float:right; margin-left: 1rem;">
+      <meta itemprop="thumbnailUrl" content="{{ page.imageurl }}" />
+   </a>
+   {% endif%}
+
+   <!-- Content -->
+   <span itemprop="description">{{ content }}</span>
+
+   <!-- Links -->
+   {% if page.weblink or page.downlink %}
+   <p class="link-buttons">
+      {% if page.weblink %}
+      <span itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+         <meta itemprop="price" content="0" />
+         <meta itemprop="priceCurrency" content="USD" />
+         <a href="{{ page.weblink }}" class="link-button" itemprop="url">Open in Browser</a>
+      </span>
       {% endif %}
 
       {% if page.downlink %}
-        <span itemprop="offers" itemscope itemtype="http://schema.org/Offer">
-          <meta itemprop="price" content="0" />
-          <meta itemprop="priceCurrency" content="USD" />
-          <a href="{{ page.downlink }}" class="link-button" target="_blank" itemprop="url">Download</a>
-        </span>
+      <span itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+         <meta itemprop="price" content="0" />
+         <meta itemprop="priceCurrency" content="USD" />
+         <a href="{{ page.downlink }}" class="link-button" target="_blank" itemprop="url">Download</a>
+      </span>
       {% endif %}
-    </p>
-  {% endif %}
+   </p>
+   {% endif %}
 </section>

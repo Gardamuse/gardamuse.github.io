@@ -13,10 +13,10 @@ terminal.value = ""
 #output.innerHTML = bimboMisspell.bimbofy(text, bimbofactor)
 
 @updateTerminal = (e) ->
-   if (e.keyCode == 13) # Enter
-      console.log(bimbofactor)
-      output.innerHTML = '<p>' + bimboMisspell.bimbofy(terminal.value, bimbofactor).replace(/(\n|\r|\r\n)/g, '</p><p>')
-      e.preventDefault()
+   #if (e.keyCode == 13) # Enter
+   #   console.log(bimbofactor)
+   #   output.innerHTML = '<p>' + bimboMisspell.bimbofy(terminal.value, bimbofactor).replace(/(\n|\r|\r\n)/g, '</p><p>')
+   #   e.preventDefault()
 
 @updateSlider = ->
    bimbofactor = (100 - document.getElementById('slider').value) / 100
@@ -24,3 +24,4 @@ terminal.value = ""
 
 @bimbofyButton = (e) ->
    console.log(bimbofactor)
+   output.innerHTML = '<p>' + bimboMisspell.bimbofy(terminal.value, bimbofactor).replace(/(\n|\r|\r\n)/g, '</p><p>')
