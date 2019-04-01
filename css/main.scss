@@ -118,6 +118,13 @@ hr {
    border: none;
 }
 
+.dark-app {
+   color: $text-light;
+}
+.dark-app .post {
+   color: $text-color;
+}
+
 /* Posts */
 .post { background-color: $text-light; border-radius: 0.2em; padding: 1.5em; padding-bottom: 1.5em; margin: auto; margin-bottom: 2rem; overflow: hidden; }
 .post .tags { display: inline-block; width: 100%; padding: 0rem; margin: 0rem; }

@@ -1,6 +1,6 @@
 ---
-layout: front-layout
-title:
+layout: single-column-layout
+title: Mispell
 permalink: /mispell/
 ---
 
@@ -17,9 +17,14 @@ permalink: /mispell/
    <button type="button" class="pink-button" style="margin-bottom: 1em;" onclick="bimbofyButton(event)">Bimbofy</button>
    <hr>
    <h2>Output</h2>
-</div>
-<div id="output" class="post">
+   <div id="output" class="post">
+   </div>
+   <br />
+   <hr>
+   <br />
 </div>
 
 <script src="/scripts/bimbo-misspell.js"></script>
 <script src="/scripts/misspell-controller.js"></script>
+
+{% include comments.html %}
