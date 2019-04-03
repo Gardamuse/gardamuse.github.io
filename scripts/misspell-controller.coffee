@@ -24,4 +24,4 @@ terminal.value = ""
 
 @bimbofyButton = (e) ->
    console.log(bimbofactor)
-   output.innerHTML = '<p>' + bimboMisspell.bimbofy(terminal.value, bimbofactor).replace(/(\n|\r|\r\n)/g, '</p><p>')
+   output.innerHTML = '<p>' + mispell.bimbofy(terminal.value, bimbofactor).replace(/(\n|\r|\r\n)/g, '</p><p>')
