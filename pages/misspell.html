@@ -6,12 +6,12 @@ permalink: /mispell/
 
 <div id="centerer" onkeydown="updateTerminal(event)" class="dark-app">
    <h2>Input Text</h2>
-   <p> Write or copy some text into the box below! </p>
+   <p> Write or paste some text into the box below! </p>
    <textarea id="terminal" rows="10" cols="1000" style="max-width: 100%; margin-bottom: 1em;">
    </textarea>
    <hr>
    <h2 id="iqDisplay">IQ: 140</h2>
-   <p>Drag the slider to adjust how many misspells and unneccessary words are added. At maximum IQ, there will be no change in the text.</p>
+   <p>Drag the slider to adjust how many misspells and unnecessary words are added. At maximum IQ, there will be no change in the text.</p>
    <input type="range" name="points" min="0" max="100" value="100" id="slider" class="pink-slider" oninput="updateSlider(event)" style="margin-bottom: 2em;">
    <p> Press the button to bimbofy the text! </p>
    <button type="button" class="pink-button" style="margin-bottom: 1em;" onclick="bimbofyButton(event)">Bimbofy</button>

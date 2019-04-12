@@ -4,11 +4,24 @@ $slider-background: $navbar-light;
 .pink-button {
    background-color: $slider-background;
    border-radius: 2px;
-   border: 1px solid $highlight-color;
+   border: 1px solid $text-light;
    color: $text-light;
    font-weight: bold;
    font-size: 2em;
    padding: 0.2em 1em 0.2em 1em;
+   outline: none;
+}
+
+.pink-button:hover {
+   color: $highlight-color;
+   border-color: $highlight-color;
+}
+
+.pink-button:active {
+   background-color: darken($slider-background, 5%);
+   color: darken($highlight-color, 7%);
+   border-color: darken($highlight-color, 15%);
+
 }
 
 // SLIDER

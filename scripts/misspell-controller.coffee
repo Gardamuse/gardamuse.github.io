@@ -1,7 +1,8 @@
 ---
 ---
 
-#import * as misspell from 'bimboMisspell'
+#import * as mispell from './mispell.js'
+
 terminal = document.getElementById("terminal")
 output = document.getElementById("output")
 iqDisplay = document.getElementById("iqDisplay")
