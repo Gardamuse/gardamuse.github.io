@@ -24,5 +24,5 @@ terminal.value = ""
    iqDisplay.innerHTML = 'IQ: ' + Math.round((1-bimbofactor) * 100 + 40)
 
 @bimbofyButton = (e) ->
-   console.log(bimbofactor)
+   #console.log(bimbofactor)
    output.innerHTML = '<p>' + mispell.bimbofy(terminal.value, bimbofactor).replace(/(\n|\r|\r\n)/g, '</p><p>')
