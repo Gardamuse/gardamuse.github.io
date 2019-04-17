@@ -1,8 +1,15 @@
-#terminal {
+.terminal {
   /* Some of these values are often set by javascript. These are only defaults.*/
   background-color: #1F171F;
-  border-color: #555;
+  border: 1px solid #555;
+  border-radius: 3px;
   color: #aaa;
+  padding: 0.5em;
+  min-height: 10em;
+}
+
+.terminal p {
+   color: #aaa;
 }
 
 #terminal:hover {
