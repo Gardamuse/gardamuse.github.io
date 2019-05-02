@@ -17,8 +17,14 @@ permalink: /mispell/
       <textarea id="terminal" class="terminal" rows="10" cols="1000" style="max-width: 100%; margin-bottom: 1em;" /></textarea>
       <hr>
       <h2 id="iqDisplay">IQ: 140</h2>
-      <p>Drag the slider to adjust how dumb the text will sound. The lower the IQ, the more misspells and unnecessary words are added. At maximum IQ, there will be no change in the text.</p>
-      <input type="range" name="points" min="0" max="100" value="100" id="slider" class="pink-slider" oninput="updateSlider(event)" style="margin-bottom: 2em;">
+      <p>Adjust how dumb the text will sound. The lower the IQ, the more misspells and unnecessary words are added. At maximum IQ, there will be no change in the text.</p>
+      <span style="display: flex; margin-bottom: 2em;">
+         <button type="button" class="pink-button" style="margin-right: 1em; font-size: 1em;" onclick="addToSlider(-10)">-10 IQ</button>
+         <div style="flex-grow: 1;">
+            <input type="range" name="points" min="0" max="100" value="100" id="slider" class="pink-slider" oninput="updateSlider(event)" style="margin-bottom: 0em;">
+         </div>
+         <button type="button" class="pink-button" style="margin-left: 1em; font-size: 1em;" onclick="addToSlider(10)">+10 IQ</button>
+      </span>
       <p> Press the button to make the text sound dumber! </p>
       <button type="button" class="pink-button" style="margin-bottom: 1em;" onclick="bimbofyButton(event)">Bimbofy</button>
       <hr>

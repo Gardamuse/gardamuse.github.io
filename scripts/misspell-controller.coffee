@@ -23,6 +23,15 @@ terminal.value = ""
    bimbofactor = (100 - document.getElementById('slider').value) / 100
    iqDisplay.innerHTML = 'IQ: ' + Math.round((1-bimbofactor) * 100 + 40)
 
+@addToSlider = (x) ->
+   console.log("a",bimbofactor,document.getElementById('slider').value,x)
+   value = parseInt(document.getElementById('slider').value)
+   value += x
+   document.getElementById('slider').value = value
+   console.log("b",bimbofactor,value,x)
+   updateSlider()
+   console.log("c",bimbofactor,document.getElementById('slider').value,x)
+
 @bimbofyButton = (e) ->
    #console.log(bimbofactor)
    output.innerHTML = '<p>' + mispell.bimbofy(terminal.value, bimbofactor).replace(/(\n|\r|\r\n)/g, '</p><p>')
