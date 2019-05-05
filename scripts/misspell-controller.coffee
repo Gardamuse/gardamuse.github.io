@@ -24,13 +24,9 @@ terminal.value = ""
    iqDisplay.innerHTML = 'IQ: ' + Math.round((1-bimbofactor) * 100 + 40)
 
 @addToSlider = (x) ->
-   console.log("a",bimbofactor,document.getElementById('slider').value,x)
    value = parseInt(document.getElementById('slider').value)
    value += x
-   document.getElementById('slider').value = value
-   console.log("b",bimbofactor,value,x)
    updateSlider()
-   console.log("c",bimbofactor,document.getElementById('slider').value,x)
 
 @bimbofyButton = (e) ->
    #console.log(bimbofactor)
