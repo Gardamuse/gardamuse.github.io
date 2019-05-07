@@ -1,0 +1,118 @@
+/* Posts */
+.posts {
+   grid-area: main;
+}
+
+.post {
+   background-color: $text-light;
+   border-radius: 0.2em;
+   padding: 1.5em;
+   margin: 1rem;
+   //overflow: hidden;
+}
+
+.post .tags {
+   display: inline-block;
+   width: 100%;
+   padding: 0;
+   margin: 0;
+}
+
+.post .tags p {
+   font-size: 0.9em;
+   margin-top: auto;
+   margin-right: 0.3rem;
+   padding: 0 0.3rem;
+   border: 3px double $highlight-color;
+   float: left;
+}
+
+.post .signature {
+   font-family: $main-font;
+   font-style: italic;
+   font-size: 1.1em;
+   text-align: right;
+   padding-right: 3rem;
+   margin-bottom: 0rem;
+}
+@media screen and (max-width: 16rem) {
+   .post .signature {
+      padding-right: 0;
+   }
+}
+@media screen and (max-width: 24rem) {
+   .post {
+      //width: 100%;
+   }
+}
+
+.post h1,
+.post h2,
+.post h3,
+.post h4,
+.post h5,
+.post h6 {
+   margin-top: 0;
+   margin-bottom: 1rem;
+   font-weight: normal;
+   color: #8D141E;
+   font-family: $h-font;
+}
+
+.post h1,
+.post h2 {
+   margin-bottom: 0.5rem;
+   font-weight: bold;
+}
+
+.post h1 > a,
+.post h2 > a {
+   color: inherit;
+   text-decoration: none;
+}
+
+.post h3 {
+   font-size: 1.5em;
+}
+
+.post a:hover {
+   color: $highlight-color;
+}
+
+.post p {
+   margin-top: 0;
+}
+
+.post .infotitle {
+   font-size: 1em;
+   margin-top: -0.2em;
+   margin-bottom: 0.4em;
+}
+
+.post .meta {
+   margin-top: 0.2em;
+   font-size: 1.1em;
+}
+
+.dark-post {
+   background-color: rgba($text-color, 0.2);
+   border: 1px solid darken($highlight-color, 20%);
+}
+
+.dark-post h1,
+.dark-post h2,
+.dark-post h3,
+.dark-post h4,
+.dark-post h5,
+.dark-post h6,
+.dark-post p {
+   color: $text-light;
+}
+
+.dark-post a {
+   color: lighten(saturate($link-color, 50%), 30%);
+}
+
+.dark-post a:hover {
+   color: darken($highlight-color, 5%);
+}

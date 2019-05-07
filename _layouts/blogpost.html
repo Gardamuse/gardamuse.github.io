@@ -1,9 +1,9 @@
 ---
-layout: single-column-layout
+layout: page
 comments: true
 ---
 
-<section class="main-content">
+<div class="posts">
    {% include blogpost.html
    posturl=page.url
    title=page.title
@@ -11,9 +11,9 @@ comments: true
    content=page.content
    author=page.author
    %}
+</div>
 
 
-   <div id="disqus_thread"></div>
+<!--<div id="disqus_thread" class="comment"></div>-->
 
-</section>
 {% include comments.html %}

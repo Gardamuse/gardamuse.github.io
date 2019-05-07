@@ -1,0 +1,77 @@
+/* Navigation */
+$navbar-items: 3;
+/* How many items are in the navbar */
+.navbar {
+   background-color: #17281E;
+   background-image: linear-gradient(1deg, $navbar-dark, $navbar-light);
+   //height: 4rem;
+   font-size: 1.3em;
+   font-family: $h-font;
+
+   grid-area: navbar;
+
+   display: grid;
+   grid-template-columns: repeat(3, minmax(100px, 300px));
+   justify-content: center;
+   //grid-gap: 2px;
+
+   @media screen and (max-width: 600px) {
+      grid-template-columns: 1fr;
+      grid-template-rows: 50px 50px 50px;
+   }
+}
+
+.navbar a {
+   font-size: 1.2em;
+   color: $text-light;
+   border-left: 0px solid $text-light;
+   //background-color: #ffffff11;
+   //width: (100% / $navbar-items);
+   //flex-grow: 1;
+   padding: 0.5ch 1ch 0.5ch 1ch;
+   text-decoration: none;
+   font-weight: bold;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   border-bottom: 4px solid transparent;
+   border-top: 4px solid transparent;
+
+   //backface-visibility: hidden;
+   transition: color 0.4s, transform 1s;
+}
+
+.navbar a:hover {
+   color: $highlight-color;
+   border-bottom: 4px solid $highlight-color;
+}
+
+//@media screen and (max-width: 24rem) {
+//   .navbar {
+//      height: 12rem;
+//      width: 100%;
+//   }
+//}
+//@media screen and (max-width: 24rem) {
+//   .navbar div {
+//      display: block;
+//      float: left;
+//      width: 100%;
+//   }
+//}
+//@media screen and (max-width: 24rem) {
+//   .navbar a {
+//      height: (12rem / $navbar-items);
+//      width: 100%;
+//      float: left;
+//   }
+//}
+//@media screen and (max-width: 24rem) {
+//   .navbar a:hover {
+//      border-left: 4px solid $highlight-color;
+//      border-right: 4px solid $highlight-color;
+//      border-bottom: 4px none transparent;
+//      border-top: 4px none transparent;
+//   }
+//}

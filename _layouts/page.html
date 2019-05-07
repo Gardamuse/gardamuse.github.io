@@ -1,5 +1,19 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en-us">
 
-{{ content }}
+{% include head.html %}
+
+<body>
+   {% include header-front.html %}
+   {% include navbar.html %}
+
+   {{ content }}
+
+   {% if page.comments %}
+   {% include comments %}
+   {% endif %}
+
+   {% include footer.html %}
+</body>
+
+</html>

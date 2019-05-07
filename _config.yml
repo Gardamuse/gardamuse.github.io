@@ -36,5 +36,6 @@ defaults:
       path: ""
     values:
       title: "Blushing Defeat - Bimbofication Games"
+      layout: page
 
 permalink: pretty
