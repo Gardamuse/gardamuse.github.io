@@ -14,14 +14,18 @@ layout: page
          <img class="thumb" src="{{ post.thumb }}" />
          {% endif %}
 
-         <h3>{{ post.title }}</h3>
-         <ul>
+         <div class="title">
+            <h2>{{ post.title }}</h2>
+         </div>
+
+         <ul class="tags">
             {% for tag in post.tags %}
             <li>{{ tag }}</li>
             {% endfor %}
          </ul>
-
-         {{ post.description | markdownify }}
+         <div class="description">
+            {{ post.description | markdownify }}
+         </div>
       </a>
       {% endfor %}
    </div>

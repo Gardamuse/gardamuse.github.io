@@ -164,15 +164,15 @@ h2 {
    max-width: 100%;
 }
 
-.main-content h1,
-.main-content h2,
-.main-content h3,
-.main-content h4,
-.main-content h5,
-.main-content h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
    margin-top: 0;
    margin-bottom: 1rem;
-   font-weight: normal;
+   //font-weight: normal;
    color: #8D141E;
    font-family: $h-font;
 }
@@ -391,13 +391,18 @@ footer {
 }
 
 footer a {
-   color: desaturate(lighten($link-color, 10%), 20%);
+   color: desaturate(lighten($link-color, 10%), 40%);
+
+   &::after {
+      background-color: desaturate($highlight-color, 60%);
+   }
 }
 
 footer a:hover {
-   color: desaturate($highlight-color, 20%);
+   color: desaturate($highlight-color, 60%);
    text-decoration: none;
 }
+
 @import "header";
 @import "nav";
 @import "posts";

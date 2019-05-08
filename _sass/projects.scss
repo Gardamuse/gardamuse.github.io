@@ -5,34 +5,109 @@
 
 .project-board {
    margin: auto;
+   margin-top: 2em;
    display: grid;
-   grid-gap: 1em;
+   grid-gap: 2em;
+   pointer-events: none;
 
-   grid-template-columns: repeat(4, 1fr);
+   grid-template-columns: repeat(2, 1fr);
 
    @media screen and (max-width: 1200px) {
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(2, 1fr);
    }
    @media screen and (max-width: 600px) {
-      grid-template-columns: repeat(2, 1fr);
+      grid-template-columns: repeat(1, 1fr);
    }
    @media screen and (max-width: $mobile-width) {
       grid-template-columns: repeat(1, 1fr);
    }
 }
 
+$project-padding: 14px;
 .project-post {
    background: $text-light;
-   display: block;
+   display: grid;
    border: 1px solid black;
+   border-radius: 3px;
    color: $text-color;
-   max-width: 400px;
+   max-width: 700px;
+   max-height: 400px;
+   overflow: hidden;
+   //z-index: 0;
+   //opacity: 1;
+
+   grid-template-columns: repeat(12, 1fr);
+   grid-template-rows: repeat(12, 1fr);
 
    backface-visibility: hidden;
+   transition: transform 1s, opacity 1s, z-index 1s, grid-column-start 1s;
+   pointer-events: auto;
 }
 
 .project-post .thumb {
-   width: 100%;
-   max-height: minmax(100px, 20vw);
+   grid-column: 1 / 6;
+   grid-row: 1 / -1;
+   //width: 100%;
+   //max-height: 250px;
+   height: 100%;
+   overflow: hidden;
+   background: lighten($base-color, 10%);
    object-fit: scale-down;
+
+   &:hover ~ .description{
+      //width: 0;
+      //background-color: transparent;
+      opacity: 0;
+   }
+}
+
+.project-post .title {
+   grid-column: 6 / -1;
+   grid-row: 1;
+   padding-left: $project-padding;
+   background-color: inherit;
+
+   h2 {
+      margin: 0;
+   }
+}
+
+.project-post .tags {
+   margin: 0;
+   padding-left: $project-padding;
+   padding-right: $project-padding;
+   grid-column: 6 / -1;
+   grid-row: 2 / 3;
+   background-color: inherit;
+   li {
+      float: left;
+      list-style: none;
+      border: 4px double $highlight-color;
+      border-style: double;
+      margin-right: 1ch;
+      font-size: 0.9em;
+   }
+}
+
+.project-post .description {
+   grid-column: 6 / -1;
+   grid-row: 3 / -1;
+   background-color: inherit;
+   padding-left: $project-padding;
+   padding-right: $project-padding;
+
+   transition: transform 1s, opacity 1s, z-index 1s, grid-column-start 1s;
+}
+
+.project-board:hover .project-post:not(:hover){
+   opacity: 0.6;
+}
+
+.project-post:hover {
+   transform: scale(1.02) translateZ(0);
+   opacity: 1.0;
+}
+
+.project-post::after {
+   background: transparent;
 }
