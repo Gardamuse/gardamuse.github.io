@@ -4,12 +4,25 @@ permalink: /play/
 layout: page
 ---
 
-{% assign sortedposts = site.playposts | sort: "title" %}
+{% assign sortedposts = site.projects | sort: "title" %}
 
-<div class="project-board">
-   <div class="posts">
+<div class="all-projects">
+   <div class="project-board">
       {% for post in sortedposts %}
-      {{ post }}
+      <a class="project-post" href="{{ post.permalink }}">
+         {% if post.thumb %}
+         <img class="thumb" src="{{ post.thumb }}" />
+         {% endif %}
+
+         <h3>{{ post.title }}</h3>
+         <ul>
+            {% for tag in post.tags %}
+            <li>{{ tag }}</li>
+            {% endfor %}
+         </ul>
+
+         {{ post.description | markdownify }}
+      </a>
       {% endfor %}
    </div>
 </div>

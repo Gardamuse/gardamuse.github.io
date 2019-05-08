@@ -22,16 +22,17 @@ markdown: kramdown
 future: false
 
 collections:
-  - sections
-  - characters
-  - playposts
+  sections:
+  characters:
+  projects:
+    output: true
 
 defaults:
   - scope:
       path: ""
-      type: "playposts"
+      type: "projects"
     values:
-      layout: "playpost"
+      layout: "page"
   - scope:
       path: ""
       type: "pages"

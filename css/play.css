@@ -9,6 +9,9 @@
 
 .player {
   margin: auto;
+  width: 700px;
+  height: 500px;
+  background: #f00;
 }
 
 .player embed{
