@@ -18,6 +18,8 @@ $header-font: 'Croissant One', "Open Sans", "Helvetica Neue";
 $h-font: "Maven Pro", "Open Sans", "Helvetica Neue";
 $main-font: "Open Sans", "Open Sans", "Helvetica Neue";
 
+$mobile-width: 40ch;
+
 /* General */
 * {
    box-sizing: border-box;
@@ -34,25 +36,11 @@ body {
    display: grid;
    grid-gap: 0em;
    grid-template-columns:
-      3fr minmax(250px, 80ch) 2fr 3fr;
+      1fr;
    grid-template-areas:
-      "header header  header  header "
-      "navbar navbar  navbar  navbar "
-      ".      main    side    .      "
-      ".      comment .       .      "
-      ".      footer  .       .      ";
-
-   @media screen and (max-width: 600px) {
-      grid-template-columns:
-         3fr minmax(250px, 80ch) 3fr;
-      grid-template-areas:
-         "header header  header  header "
-         "navbar navbar  navbar  navbar "
-         ".      main    .       .      "
-         ".      side    .       .      "
-         ".      comment .       .      "
-         ".      footer  .       .      ";
-   }
+      "header"
+      "navbar"
+      "content";
 }
 
 body:hover {
@@ -62,17 +50,32 @@ body:hover {
 .single {
    display: grid;
    grid-template-columns:
-      1fr minmax(200px, 800px) minmax(0px, 400px) 1fr;
+      1fr minmax(250px, 85ch) 1fr;
    grid-template-areas:
-      "header header  header  header"
-      "navbar navbar  navbar  navbar"
-      ".      main    side    .     "
-      ".      comment comment .     "
-      ".      footer  .       .     "
+      ".      main    .     "
+      ".      comment .     "
+      ".      footer  .     "
 }
 
 .dual {
+   display: grid;
+   grid-gap: 0em;
+   grid-template-columns:
+      3fr minmax(250px, 85ch) minmax(200px, 20vw) 3fr;
+   grid-template-areas:
+      ".      main    side    .      "
+      ".      comment .       .      "
+      ".      footer  .       .      ";
 
+   @media screen and (max-width: 70ch) {
+      grid-template-columns:
+         3fr minmax(30ch, 85ch) 3fr;
+      grid-template-areas:
+         ".      main    .       "
+         ".      side    .       "
+         ".      comment .       "
+         ".      footer  .       ";
+   }
 }
 
 .main {
@@ -91,10 +94,30 @@ body {
 a {
    color: $link-color;
    text-decoration: none;
+   transition: color 0.2s;
+   position: relative;
+
+   &::after {
+      position: absolute;
+      content: '';
+      display: block;
+      background: $highlight-color;
+      bottom: 0;
+      left: 50%;
+      height: 1px;
+      width: 0%;
+
+      transition: width 0.2s, left 0.2s;
+   }
 }
 
 a:hover {
-   text-decoration: underline;
+   //text-decoration: underline;
+
+   &::after{
+      width: 100%;
+      left: 0;
+   }
 }
 
 h2 {
@@ -254,18 +277,18 @@ h2 {
    margin-top: 0;
 }
 
-.main-content blockquote {
-   padding: 0 1rem;
+blockquote {
+   padding: 0.5rem 1rem;
    margin-left: 0;
    color: #819198;
    border-left: 0.3rem solid #dce6f0;
 }
 
-.main-content blockquote > :first-child {
+blockquote > :first-child {
    margin-top: 0;
 }
 
-.main-content blockquote > :last-child {
+blockquote > :last-child {
    margin-bottom: 0;
 }
 
@@ -321,12 +344,18 @@ hr {
    border-radius: 2px;
    background-color: fade-out($link-color, 0.9);
    margin-right: 0.5em;
+
+   transition: background-color 0.3s, border 0.3s, color 0.3s;
 }
 
 .link-button:hover {
    text-decoration: none;
    border-color: $highlight-color;
    background-color: fade-out($highlight-color, 0.9);
+
+   &::after {
+      width: 0;
+   }
 }
 
 blockquote p {

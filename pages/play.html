@@ -1,26 +1,28 @@
 ---
-layout: front-layout
 title: Play Games - Blushing Defeat
 permalink: /play/
+layout: page
 ---
 
 {% assign sortedposts = site.playposts | sort: "title" %}
 
-<div class="main-content double-column">
-  <div class="main-column">
-    {% for post in sortedposts %}
+<div class="project-board">
+   <div class="posts">
+      {% for post in sortedposts %}
       {{ post }}
-    {% endfor %}
-  </div>
+      {% endfor %}
+   </div>
+</div>
 
-  <div class="side-column">
-    <section class="post">
+<!--<div class="side-column">
+   <section class="post">
       <h3> Content </h3>
 
       {% for post in sortedposts %}
-        <a href="#{{ post.title }}"><p class="content-navigation">{{ post.title }}</br></p></a>
+      <a href="#{{ post.title }}">
+         <p class="content-navigation">{{ post.title }}</br></p>
+      </a>
       {% endfor %}
 
-    </section>
-  </div>
-</div>
+   </section>
+</div>-->

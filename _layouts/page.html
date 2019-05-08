@@ -7,13 +7,15 @@
    {% include header-front.html %}
    {% include navbar.html %}
 
-   {{ content }}
+   <div class="{{ layout.style }}">
+      {{ content }}
 
-   {% if page.comments %}
-   {% include comments %}
-   {% endif %}
+      {% if layout.comments %}
+      {% include comments.html %}
+      {% endif %}
 
-   {% include footer.html %}
+      {% include footer.html %}
+   </div>
 </body>
 
 </html>

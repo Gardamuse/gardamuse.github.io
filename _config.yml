@@ -34,8 +34,14 @@ defaults:
       layout: "playpost"
   - scope:
       path: ""
+      type: "pages"
     values:
       title: "Blushing Defeat - Bimbofication Games"
-      layout: page
+      layout: "single-layout"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "blogpost"
 
 permalink: pretty
