@@ -1,0 +1,36 @@
+   {% assign sortedtags = post.tags | sort %}
+
+   <ul class="tags">
+      {% for tag in sortedtags %}
+         {% case tag %}
+
+            {% when "bimbofication"%}
+            <li class="tooltip">IQ−
+            <span class="tooltiptext">Bimbofication</span>
+            </li>
+
+            {% when "breast expansion"%}
+            <li class="tooltip">BE
+            <span class="tooltiptext">Breast Expansion</span>
+            </li>
+
+            {% when "maleandfemale"%}
+            <li class="tooltip"><i class="fas fa-mars"></i>⮂<i class="fas fa-venus"></i>
+            <span class="tooltiptext">Gender transformation</span>
+            </li>
+
+            {% when "maletofemale"%}
+            <li class="tooltip"><i class="fas fa-mars"></i>⭢<i class="fas fa-venus"></i>
+            <span class="tooltiptext">Male to female</span>
+            </li>
+
+            {% when "femaletomale"%}
+            <li class="tooltip"><i class="fas fa-venus"></i>⭢<i class="fas fa-mars"></i>
+            <span class="tooltiptext">Female to male</span>
+            </li>
+
+            {% else %}
+            <li>{{ tag }}</li>
+         {% endcase %}
+      {% endfor %}
+   </ul>

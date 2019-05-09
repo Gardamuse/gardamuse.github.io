@@ -22,7 +22,12 @@ $mobile-width: 40ch;
 
 /* General */
 * {
+   backface-visibility: hidden;
    box-sizing: border-box;
+}
+
+html {
+   height: 100%;
 }
 
 body {
@@ -33,14 +38,18 @@ body {
    line-height: 1.5;
    color: $text-color;
 
-   display: grid;
-   grid-gap: 0em;
-   grid-template-columns:
-      1fr;
-   grid-template-areas:
-      "header"
-      "navbar"
-      "content";
+   display: flex;
+   flex-direction: column;
+   height: 100%;
+
+   //grid-gap: 0em;
+   //grid-template-columns:
+   //   1fr;
+   //grid-template-areas:
+   //   "header"
+   //   "navbar"
+   //   "content"
+   //   "footer";
 }
 
 body:hover {
@@ -61,7 +70,7 @@ body:hover {
    display: grid;
    grid-gap: 0em;
    grid-template-columns:
-      3fr minmax(250px, 85ch) minmax(200px, 20vw) 3fr;
+      3fr minmax(250px, 85ch) minmax(200px, 18vw) 3fr;
    grid-template-areas:
       ".      main    side    .      "
       ".      comment .       .      "
@@ -381,11 +390,12 @@ footer {
    padding-bottom: 2em;
    font-size: 0.7em;
    text-align: center;
-   justify-content: center;
-   align-items: center;
+   //justify-content: center;
+   //align-items: center;
    color: #888;
    width: 100%;
-   margin: auto;
+   //margin: auto;
+   margin-top: auto;
 
    grid-area: footer;
 }

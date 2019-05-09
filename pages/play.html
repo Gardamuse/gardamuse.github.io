@@ -9,22 +9,25 @@ layout: page
 <div class="all-projects">
    <div class="project-board">
       {% for post in sortedposts %}
-      <a class="project-post" href="{{ post.permalink }}">
-         {% if post.thumb %}
-         <img class="thumb" src="{{ post.thumb }}" />
-         {% endif %}
-
-         <div class="title">
-            <h2>{{ post.title }}</h2>
+      <a class="project-card" href="{{ post.permalink }}">
+         <div class="project-header">
+            <div class="title">
+               <h2>{{ post.title }}</h2>
+            </div>
+            {% capture difference %} {{ post.tags | size | minus:1 }} {% endcapture %}
+            {% unless difference contains '-' %}
+            {% include tags %}
          </div>
 
-         <ul class="tags">
-            {% for tag in post.tags %}
-            <li>{{ tag }}</li>
-            {% endfor %}
-         </ul>
-         <div class="description">
-            {{ post.description | markdownify }}
+         <div class="thumb-container">
+            <img class="thumb" src="{{ post.thumb }}" />
+         </div>
+
+         <div class="project-info">
+            {% endunless %}
+            <div class="description">
+               {{ post.description | markdownify }}
+            </div>
          </div>
       </a>
       {% endfor %}

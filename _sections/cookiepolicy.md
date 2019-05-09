@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Cookie Policy
-section-id: cookiepolicy
+title: Privacy Policy
+section-id: privacypolicy
 ---
 
 This site uses cookies (small files stored on your device) to let the comment plugin **[Disqus](https://disqus.com)** remember that you are logged in, and to report anonymous usage statistics via **Google Analytics**.
