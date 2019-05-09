@@ -1,10 +1,10 @@
 /* Header */
 .header-front {
    background-image: linear-gradient(-5deg, $header-light, $header-dark);
-   background-image: url("../assets/transformations.png");
-   background-position: center top;
-   background-size: auto 120%;
-   background-repeat: no-repeat;
+   background-image: url("../assets/transformations.png"), url("/assets/arabesque.png");
+   background-position: center top, left top;
+   background-size: auto 120%, auto 120%;
+   background-repeat: no-repeat, repeat;
 
    color: #fff;
    padding-top: 6vw;
@@ -18,8 +18,8 @@
 
    }
    @media screen and (min-width: 64em) {
-      padding-top: 5em;
-      padding-bottom: 5em;
+      padding-top: 6em;
+      padding-bottom: 6em;
    }
 }
 
@@ -42,7 +42,14 @@
 
 .header-link:hover {
    text-decoration: none;
+   &::after {
+      width: 0;
+   }
 }
+
+//.header-link:hover::after {
+//   width: 0;
+//}
 //@media screen and (max-width: 64em) {
 //   .header-front {
 //      padding-top: 4em;
@@ -69,41 +76,18 @@
    margin-bottom: 0.1rem;
    font-family: $header-font;
    color: $header-light;
-   font-size: 6vw;
+   font-size: 7vw;
    @media screen and (max-width: 400px) {
       font-size: 0.25em;
    }
    @media screen and (min-width: 64em) {
-      font-size: 0.65em;
+      font-size: 0.8em;
    }
+
 }
-//@media screen and (min-width: 64em) {
-//   .project-name {
-//      font-size: 0.8em;
-//   }
-//}
-//@media screen and (min-width: 42em) and (max-width: 64em) {
-//   .project-name {
-//      font-size: 0.6em;
-//   }
-//}
-//@media screen and (max-width: 42em) {
-//   .project-name {
-//      font-size: 0.4em;
-//   }
-//}
-//@media screen and (max-width: 24em) {
-//   .project-name {
-//      font-size: 0.3em;
-//   }
-//}
-//@media screen and (max-width: 16em) {
-//   .project-name {
-//      font-size: 0.2em;
-//   }
-//}
 
 .project-tagline {
+   margin-top: 0;
    margin-bottom: 0;
    font-weight: bold;
    opacity: 0.8;
