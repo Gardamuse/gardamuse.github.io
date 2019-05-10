@@ -10,18 +10,16 @@ layout: page
    <div class="project-board">
       {% for post in sortedposts %}
       <a class="project-card" href="{{ post.permalink }}">
-         <div class="project-header">
-            <div class="title">
-               <h2>{{ post.title }}</h2>
-            </div>
-            {% capture difference %} {{ post.tags | size | minus:1 }} {% endcapture %}
-            {% unless difference contains '-' %}
-            {% include tags %}
-         </div>
-
-         <div class="thumb-container">
+         <div class="thumb-container" style="">
             <img class="thumb" src="{{ post.thumb }}" />
          </div>
+         <div class="title">
+            <h2>{{ post.title }}</h2>
+         </div>
+
+         {% capture difference %} {{ post.tags | size | minus:1 }} {% endcapture %}
+         {% unless difference contains '-' %}
+         {% include tags %}
 
          <div class="project-info">
             {% endunless %}

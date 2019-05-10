@@ -12,7 +12,7 @@
    pointer-events: none;
 
    grid-template-columns: repeat(auto-fit, minmax(360px, 360px));
-   grid-auto-rows: 360px;
+   grid-auto-rows: minmax(260px, 500px);
    justify-content: center;
    //align-content: c;
 
@@ -30,9 +30,9 @@
 $project-padding: 14px;
 .project-card {
    background: $text-light;
-   //display: grid;
+   display: grid;
    position: relative;
-   border: 1px solid black;
+   border: 2px solid #111;
    border-radius: 3px;
    color: $text-color;
    //max-width: 400px;
@@ -41,60 +41,80 @@ $project-padding: 14px;
    //z-index: 0;
    //opacity: 1;
 
-   //grid-template-columns: repeat(12, 1fr);
-   //grid-template-rows: repeat(12, 1fr);
+   grid-template-columns: repeat(12, 1fr);
+   grid-template-rows: repeat(12, 1fr);
 
    backface-visibility: hidden;
    transition: transform 0.4s, opacity 0.4s, border 0.4s;
    pointer-events: auto;
+   z-index: -1;
 }
 
 .thumb-container {
-   width: 100%;
+   position: absolute;
+   //width: 100%;
    height: 100%;
-   display: flex;
-   align-items: flex-start;
-   flex-direction: column;
-   background: lighten($base-color, 10%);
+   //display: flex;
+   //align-items: flex-start;
+   //flex-direction: column;
+   //background-color: lighten($base-color, 10%);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
+
+   grid-row: 1 / 7;
+   grid-column: 1 / -1;
 }
 
 .project-card .thumb {
-   max-width: 100%;
-   //height: 100%;
-   //display: block;
-   //overflow: hidden;
+   width: 100%;
+   height: 100%;
    margin-left: auto;
    margin-right: auto;
    background: lighten($base-color, 10%);
-   //object-fit: contain;
-
-   &:hover ~ .description{
-      //width: 0;
-      //background-color: transparent;
-      opacity: 0;
-   }
+   position: relative;
+   z-index: 3;
+   display: block;
+   object-fit: cover;
+   object-position: top left;
 }
 
 .project-card .project-info {
-   position: absolute;
-   top: 100%;
-   bottom: 0;
-   left: 0;
+   //position: absolute;
+   //top: 70%;
+   //bottom: 0;
+   //left: 0;
    background: $text-light;
    width: 100%;
    border-top: 1px solid black;
+   grid-column: 1 / -1;
+   grid-row: 7 / -2;
+   overflow: hidden;
 
    transition: top 1s;
 }
 
 .project-card .title {
-   grid-column: 6 / -1;
-   grid-row: 1;
+   //grid-column: 6 / -1;
+   //grid-row: 1;
+   //position: absolute;
+   //bottom: 51%;
+   grid-column: 1 / -1;
+   grid-row: 6 / 7;
    padding-left: $project-padding;
-   background-color: inherit;
+   //background-color: inherit;
+   z-index: 1;
 
    h2 {
       margin: 0;
+      color: lighten($text-light, 5%);
+      font-weight: bold;
+      text-shadow: 1px  1px #111,
+                  -1px  1px #111,
+                  -1px -1px #111,
+                   1px -1px #111;
+      //-webkit-text-stroke: 1px $text-light;
    }
 }
 
@@ -103,6 +123,10 @@ $tag-color: #ff88dd;
    margin: 0;
    padding-left: $project-padding;
    padding-right: $project-padding;
+   grid-column: 1 / -1;
+   grid-row: -2 / -1;
+   align-self: center;
+
    li {
       float: left;
       list-style: none;
@@ -137,9 +161,6 @@ $tag-color: #ff88dd;
    transition: transform 1s, opacity 1s, z-index 1s, grid-column-start 1s;
 }
 
-.project-board:hover .project-card:not(:hover){
-   //opacity: 0.6;
-}
 
 .project-card:hover {
    //transform: scale(1.048);
@@ -148,7 +169,6 @@ $tag-color: #ff88dd;
 
 .project-card:hover .project-info{
    top: 60%;
-   //opacity: 1.0;
 }
 
 .project-card::after {
