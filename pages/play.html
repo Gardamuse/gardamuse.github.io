@@ -11,36 +11,22 @@ layout: page
       {% for post in sortedposts %}
       <a class="project-card" href="{{ post.permalink }}">
          <div class="thumb-container" style="">
+            {% if post.thumb %}
             <img class="thumb" src="{{ post.thumb }}" />
+            {% endif %}
          </div>
+         <div class="thumb-fade"> </div>
          <div class="title">
             <h2>{{ post.title }}</h2>
          </div>
 
-         {% capture difference %} {{ post.tags | size | minus:1 }} {% endcapture %}
-         {% unless difference contains '-' %}
          {% include tags %}
 
-         <div class="project-info">
-            {% endunless %}
-            <div class="description">
-               {{ post.description | markdownify }}
-            </div>
+         <div class="project-info description">
+            {{ post.description | markdownify }}
          </div>
+
       </a>
       {% endfor %}
    </div>
 </div>
-
-<!--<div class="side-column">
-   <section class="post">
-      <h3> Content </h3>
-
-      {% for post in sortedposts %}
-      <a href="#{{ post.title }}">
-         <p class="content-navigation">{{ post.title }}</br></p>
-      </a>
-      {% endfor %}
-
-   </section>
-</div>-->

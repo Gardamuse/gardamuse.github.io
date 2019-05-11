@@ -28,40 +28,51 @@
 }
 
 $project-padding: 14px;
+$tag-color: lighten($navbar-light, 20%);
+$tag-background-color: desaturate(darken($tag-color, 40%), 30%);
 .project-card {
-   background: $text-light;
+   //background: $text-light;
+   background: transparent;
    display: grid;
    position: relative;
-   border: 2px solid #111;
+   border: 2px solid darken($tag-color, 0%);
    border-radius: 3px;
-   color: $text-color;
+   color: darken($text-color, 10%);
    //max-width: 400px;
    //max-height: 400px;
-   overflow: hidden;
+   //overflow: hidden;
    //z-index: 0;
    //opacity: 1;
 
    grid-template-columns: repeat(12, 1fr);
-   grid-template-rows: repeat(12, 1fr);
+   grid-template-rows: repeat(12, 1fr) 3.5em;
 
-   backface-visibility: hidden;
    transition: transform 0.4s, opacity 0.4s, border 0.4s;
+   backface-visibility: hidden;
    pointer-events: auto;
-   z-index: -1;
+
+   &:hover {
+      transform: translateY(-1em);
+      border: 2px solid $highlight-color;
+
+      .title h2 {
+         color: $highlight-color;
+      }
+
+      .description {
+         border-color: $highlight-color;
+      }
+
+      .tags {
+         border-color: $highlight-color;
+      }
+   }
 }
 
 .thumb-container {
    position: absolute;
-   //width: 100%;
    height: 100%;
-   //display: flex;
-   //align-items: flex-start;
-   //flex-direction: column;
-   //background-color: lighten($base-color, 10%);
-   background-size: cover;
-   background-position: center;
-   background-repeat: no-repeat;
-   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
+   background-color: #ff0000;
 
    grid-row: 1 / 7;
    grid-column: 1 / -1;
@@ -74,18 +85,30 @@ $project-padding: 14px;
    margin-right: auto;
    background: lighten($base-color, 10%);
    position: relative;
-   z-index: 3;
+   //z-index: 0;
    display: block;
    object-fit: cover;
    object-position: top left;
 }
 
+.thumb-fade {
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
+   z-index: 1;
+
+   height: 100%;
+   width: 100%;
+
+   grid-row: 1 / 7;
+   grid-column: 1 / -1;
+}
+
 .project-card .project-info {
-   //position: absolute;
-   //top: 70%;
-   //bottom: 0;
-   //left: 0;
    background: $text-light;
+   //background-image: url("https://www.transparenttextures.com/patterns/60-lines.png");
+   //background-size: 200%;
    width: 100%;
    border-top: 1px solid black;
    grid-column: 1 / -1;
@@ -114,42 +137,7 @@ $project-padding: 14px;
                   -1px  1px #111,
                   -1px -1px #111,
                    1px -1px #111;
-      //-webkit-text-stroke: 1px $text-light;
-   }
-}
-
-$tag-color: #ff88dd;
-.project-card .tags {
-   margin: 0;
-   padding-left: $project-padding;
-   padding-right: $project-padding;
-   grid-column: 1 / -1;
-   grid-row: -2 / -1;
-   align-self: center;
-
-   li {
-      float: left;
-      list-style: none;
-      background: desaturate(darken($tag-color, 40%), 40%);
-      border: 1px solid $tag-color;
-      border-radius: 3px;
-      padding-left: 4px;
-      padding-right: 4px;
-      width: 55px;
-      text-align: center;
-      margin-right: 2px;
-      font-size: 1.2em;
-      color: $tag-color;
-      font-weight: bold;
-
-      &::after {
-         content: '';
-         //font-weight: normal;
-         //color: $text-color;
-      }
-      &:last-child::after {
-         content: '';
-      }
+      transition: color 0.4s;
    }
 }
 
@@ -157,38 +145,66 @@ $tag-color: #ff88dd;
    display: block;
    padding-left: $project-padding;
    padding-right: $project-padding;
+   border-top: 3px solid $tag-color;
 
    transition: transform 1s, opacity 1s, z-index 1s, grid-column-start 1s;
 }
 
+.project-card .tags {
+   padding-left: $project-padding;
+   padding-right: $project-padding;
+   grid-column: 1 / -1;
+   grid-row: -2 / -1;
+   align-self: center;
+   border-top: 3px solid $tag-color;
+   height: 100%;
+   background: lighten($navbar-dark, 10%);
+   overflow: visible;
+   margin: 0;
+   display: flex;
 
-.project-card:hover {
-   //transform: scale(1.048);
-   border: 2px solid $highlight-color;
-}
+   li {
+      list-style: none;
+      background: $tag-background-color;
+      color: $tag-color;
+      font-size: 1.2em;
+      font-weight: bold;
 
-.project-card:hover .project-info{
-   top: 60%;
-}
+      border: 1px solid $tag-color;
+      border-radius: 3px;
+      padding: 0px 4px 0 4px;
+      margin: 8px 0px 8px 4px;
 
-.project-card::after {
-   background: transparent;
+      width: 55px;
+      display: grid;
+      justify-content: center;
+      align-items: center;
+      margin-right: 2px;
+      vertical-align: middle;
+   }
+
+   p {
+      margin: 0;
+      display: inline;
+      color: $tag-color;
+   }
 }
 
 .tooltip {
    position: relative;
    display: inline-block;
-   //overflow: visible;
-   :hover {
+   //height: 100%;
 
+   &:hover .tooltiptext {
+      visibility: visible;
+      opacity: 1;
    }
 }
 
-.tooltip:hover .tooltiptext {
-   visibility: visible;
-}
+
 
 .tooltiptext {
+   position: absolute;
    visibility: hidden;
    width: 150px;
    font-size: 0.8em;
@@ -196,15 +212,24 @@ $tag-color: #ff88dd;
    padding-bottom: 2px;
    padding-left: 10px;
    padding-right: 10px;
-   background: desaturate(darken($tag-color, 40%), 40%);
+   background: $tag-background-color;
    border: 1px solid $tag-color;
    border-radius: 3px;
-   top: 115%;
+   bottom: 110%;
    left: 0;
    text-align: center;
    z-index: 10;
-   opacity: 1;
+   opacity: 0;
 
+   transition: opacity 0.4s;
+}
 
-   position: absolute;
+.svg-icon {
+   display: block;
+   width: 100%;
+   height: 100%;
+   padding: 0.1em;
+
+   /*https://codepen.io/sosuke/pen/Pjoqqp*/
+   filter: invert(24%) sepia(36%) saturate(3264%) hue-rotate(307deg) brightness(89%) contrast(84%);
 }

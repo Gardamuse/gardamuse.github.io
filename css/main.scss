@@ -1,7 +1,7 @@
 ---
 ---
 /* Color Scheme */
-$base-color: lighten(#27272F, 5%);
+$base-color: lighten(#27272F, 6%);
 $link-color: #1E6BB8;
 $highlight-color: #FFB600;
 $navbar-light: #541A32;
@@ -10,10 +10,10 @@ $text-light: #EEF0F2;
 $text-color: darken(#606c71, 10%);
 $header-dark: #643173;
 $header-light: #AD343E;
-$oc1: #fff;
+$oc1: $text-light;
 /* Outline Color Light */
 $oc2: #000;
-$oc3: #fee;
+$oc3: $text-light;
 $header-font: 'Croissant One', "Open Sans", "Helvetica Neue";
 $h-font: "Maven Pro", "Open Sans", "Helvetica Neue";
 $main-font: "Open Sans", "Open Sans", "Helvetica Neue";
@@ -277,18 +277,22 @@ h6 {
 }
 
 blockquote {
+   background-color: saturate(darken($text-light, 2%), 50%);
    padding: 0.5rem 1rem;
    margin-left: 0;
-   color: #819198;
-   border-left: 0.3rem solid #dce6f0;
-}
+   border-left: 0.3rem solid $navbar-light;
 
-blockquote > :first-child {
-   margin-top: 0;
-}
+   p {
+      color: lighten($text-color, 3%);
+   }
 
-blockquote > :last-child {
-   margin-bottom: 0;
+   > :first-child {
+      margin-top: 0;
+   }
+
+   > :last-child {
+      margin-bottom: 0;
+   }
 }
 
 .main-content:after {
@@ -355,14 +359,6 @@ hr {
    &::after {
       width: 0;
    }
-}
-
-blockquote p {
-   color: lighten($text-color, 3%);
-}
-
-blockquote {
-   background-color: darken($text-light, 2%);
 }
 
 .pagination {

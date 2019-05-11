@@ -1,33 +1,37 @@
    {% assign sortedtags = post.tags | sort %}
 
-   <ul class="tags">
+   <ul class="tags project-info">
       {% for tag in sortedtags %}
          {% case tag %}
 
             {% when "bimbofication"%}
-            <li class="tooltip">IQ−
+            <li class="tooltip"><p>IQ⬇
             <span class="tooltiptext">Bimbofication</span>
-            </li>
+            </p></li>
 
             {% when "breast expansion"%}
-            <li class="tooltip">BE
+            <li class="tooltip"><p>
+            <img src="/assets/be.svg" alt="BE" class="svg-icon">
             <span class="tooltiptext">Breast Expansion</span>
-            </li>
+            </p></li>
 
             {% when "maleandfemale"%}
-            <li class="tooltip"><i class="fas fa-mars"></i>⮂<i class="fas fa-venus"></i>
+            <li class="tooltip"><p>
+            <i class="fas fa-mars"></i>⮂<i class="fas fa-venus"></i>
             <span class="tooltiptext">Gender transformation</span>
-            </li>
+            </p></li>
 
             {% when "maletofemale"%}
-            <li class="tooltip"><i class="fas fa-mars"></i>⭢<i class="fas fa-venus"></i>
+            <li class="tooltip"><p>
+            <i class="fas fa-mars"></i>⭢<i class="fas fa-venus"></i>
             <span class="tooltiptext">Male to female</span>
-            </li>
+            </p></li>
 
             {% when "femaletomale"%}
-            <li class="tooltip"><i class="fas fa-venus"></i>⭢<i class="fas fa-mars"></i>
+            <li class="tooltip"><p>
+            <i class="fas fa-venus"></i>⭢<i class="fas fa-mars"></i>
             <span class="tooltiptext">Female to male</span>
-            </li>
+            </p></li>
 
             {% else %}
             <li>{{ tag }}</li>
