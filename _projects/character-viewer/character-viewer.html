@@ -23,7 +23,7 @@ Works on mobile too!"
       <div>
          {% assign sortedchars = site.characters | sort: "name" %}
          {% for c in sortedchars %}
-         <p class="char-btn" onclick="setupSlider({{ c.frames }}, '/assets/{{ c.name }}.png')"> {{ c.name | capitalize }} </p>
+         <p class="char-btn" onclick="setupSlider({{ c.frames }}, '/projects/character-viewer/{{ c.name }}.png')"> {{ c.name | capitalize }} </p>
          {% endfor %}
       </div>
    </div>
