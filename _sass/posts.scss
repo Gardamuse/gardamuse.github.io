@@ -8,7 +8,20 @@
    background-color: $text-light;
    border-radius: 0.2em;
    padding: 2.5em;
-   margin: 1rem;
+   margin: 1em;
+
+   @media screen and (max-width: 60ch){
+      padding: 1.5em;
+      margin-left: 0.5em;
+      margin-right: 0.5em;
+   }
+
+   @media screen and (max-width: 40ch){
+      padding: 1em;
+      margin-left: 0em;
+      margin-right: 0em;
+   }
+
 }
 
 .post .tags {
