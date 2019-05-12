@@ -147,104 +147,14 @@ h6 {
    font-family: $h-font;
 }
 
-.main-content h3 {
-   font-size: 1.5em;
-   font-weight: bold;
-}
-
-.main-content h4 {
-   font-size: 1.5em;
-   font-weight: normal;
-}
-
-.main-content p {
-   margin-bottom: 0.8em;
-}
-
-.main-content li {
-   margin-bottom: 0.2em;
-}
-
-.main-content ol {
-   padding-top: 0.5em;
-   padding-bottom: 0.5em;
-   background-color: #ffffff;
-}
-
-.main-content code {
+code {
    padding: 2px 4px;
    font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
    font-size: 0.9em;
-   color: #567482;
-   background-color: #f3f6fa;
+   //color: #567482;
+   //background-color: rgba(#f3f6fa, 0.5);
+   border-color: $highlight-color;
    border-radius: 0.3rem;
-}
-
-.main-content pre {
-   padding: 0.8rem;
-   margin-top: 0;
-   margin-bottom: 1rem;
-   font: 1rem Consolas, "Liberation Mono", Menlo, Courier, monospace;
-   color: #567482;
-   word-wrap: normal;
-   background-color: #f3f6fa;
-   border: solid 1px #dce6f0;
-   border-radius: 0.3rem;
-}
-
-.main-content pre > code {
-   padding: 0;
-   margin: 0;
-   font-size: 0.9em;
-   color: #567482;
-   word-break: normal;
-   white-space: pre;
-   background: transparent;
-   border: 0;
-}
-
-.main-content .highlight {
-   margin-bottom: 1rem;
-}
-
-.main-content .highlight pre {
-   margin-bottom: 0;
-   word-break: normal;
-}
-
-.main-content .highlight pre,
-.main-content pre {
-   padding: 0.8rem;
-   overflow: auto;
-   font-size: 0.9em;
-   line-height: 1.45;
-   border-radius: 0.3rem;
-   -webkit-overflow-scrolling: touch;
-}
-
-.main-content pre code,
-.main-content pre tt {
-   display: inline;
-   max-width: initial;
-   padding: 0;
-   margin: 0;
-   overflow: initial;
-   line-height: inherit;
-   word-wrap: normal;
-   background-color: transparent;
-   border: 0;
-}
-
-.main-content pre code:after,
-.main-content pre code:before,
-.main-content pre tt:after,
-.main-content pre tt:before {
-   content: normal;
-}
-
-.main-content ol,
-.main-content ul {
-   margin-top: 0;
 }
 
 blockquote {
