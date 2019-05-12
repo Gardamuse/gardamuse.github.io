@@ -14,11 +14,20 @@
    {% assign description = {{page.description | markdownify | strip_html }} %}
    {% endif %}
 
+   {% assign keywords = "blushing defeat, erotic games" %}
+   {% capture keywords %}{{ keywords }}{% endcapture %}
+
+   {% if page.tags %}
+   {% capture keywords %}{{ keywords }}{% for tag in page.tags %}, {{ tag }}{% endfor %}{% endcapture %}
+   {% else %}
+   {% capture keywords %}{{ keywords }}, bimbo transformation games, bimbofication games, breast expansion games, gardamuse blog{% endcapture %}
+   {% endif %}
+
    <!-- Meta data -->
    <meta charset="UTF-8">
    <title>{{ page.title }}</title>
    <meta name="description" content="{{ description }}">
-   <meta name="keywords" content="blushing defeat, bimbo transformation games, bimbofication games, breast expansion games, gardamuse blog">
+   <meta name="keywords" content="{{ keywords }}">
    <meta name="author" content="Gardamuse">
    <meta name="theme-color" content="#541A32">
 
@@ -33,6 +42,7 @@
    {% endif %}
    <meta property="og:url" content="{{ site.author.url }}{{ page.url }}" />
    <link rel="canonical" href="{{ site.author.url }}{{ page.url }}" />
+   <meta itemprop="keywords" content="{{ keywords }}" />
 
    <!-- Fonts -->
    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>

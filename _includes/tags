@@ -15,7 +15,7 @@
             <span class="tooltiptext">Breast Expansion</span>
             </p></li>
 
-            {% when "maleandfemale"%}
+            {% when "gender transformation"%}
             <li class="tooltip"><p>
             <i class="fas fa-mars"></i>⮂<i class="fas fa-venus"></i>
             <span class="tooltiptext">Gender transformation</span>
@@ -32,9 +32,6 @@
             <i class="fas fa-venus"></i>⭢<i class="fas fa-mars"></i>
             <span class="tooltiptext">Female to male</span>
             </p></li>
-
-            {% else %}
-            <li>{{ tag }}</li>
          {% endcase %}
       {% endfor %}
    </ul>

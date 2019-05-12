@@ -9,8 +9,7 @@ description: "Queue sound files of your choosing each time a hotkey is pressed. 
 This script was made to be used for easily playing reward or punishment sounds. A teammate died? Press the hotkey once. You died? Press it 5 times.
 
 
-_For Windows only. Requires AutoHotkey._
-"
+_For Windows only. Requires AutoHotkey._"
 ---
 
 This is a small AutoHotkey script I came up with and thought that someone else might have fun with too. It queues random sound files of your choosing each time you press a hotkey and then plays those sounds until the queue is empty.
