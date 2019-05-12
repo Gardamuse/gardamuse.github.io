@@ -23,16 +23,22 @@
    {% capture keywords %}{{ keywords }}, bimbo transformation games, bimbofication games, breast expansion games, gardamuse blog{% endcapture %}
    {% endif %}
 
+   {% if paginator %}
+   {% capture title %}{{ page.title }} - Page {{ paginator.page }}{% endcapture %}
+   {% else %}
+   {% assign title = page.title %}
+   {% endif %}
+
    <!-- Meta data -->
    <meta charset="UTF-8">
-   <title>{{ page.title }}</title>
+   <title>{{ title }}</title>
    <meta name="description" content="{{ description }}">
    <meta name="keywords" content="{{ keywords }}">
    <meta name="author" content="Gardamuse">
    <meta name="theme-color" content="#541A32">
 
    <!-- SEO meta data -->
-   <meta property="og:title" content="{{ page.title }}" />
+   <meta property="og:title" content="{{ title }}" />
    <meta property="og:type" content="webpage" />
    <meta property="og:description" content="{{ description }}">
    {% if page.thumb %}
