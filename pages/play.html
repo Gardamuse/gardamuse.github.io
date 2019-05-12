@@ -20,7 +20,7 @@ description: "Play erotic games and browse apps with a focus on transformation, 
 <div class="all-projects">
    <div class="project-board">
       {% for post in sortedposts %}
-      <a class="project-card" href="{{ post.permalink }}" itemscope itemtype="https://schema.org/VideoGame" itemprop="url">
+      <a class="project-card" href="{{ post.permalink }}" itemscope itemtype="https://schema.org/VideoGame">
          <meta itemprop="applicationCategory" content="Game">
          <meta itemprop="genre" content="Erotic">
          <meta itemprop="operatingSystem" content="Windows, OSX, Linux">
@@ -40,9 +40,9 @@ description: "Play erotic games and browse apps with a focus on transformation, 
          {% assign sorted-tags = post.tags | sort %}
          <meta itemprop="keywords" content="{% for tag in sorted-tags %}{{ tag }}, {% endfor %}" />
 
-         <section class="project-info description" itemprop="description">
+         <div class="project-info description" itemprop="description">
             {{ post.description | markdownify }}
-         </section>
+         </div>
 
       </a>
       {% endfor %}

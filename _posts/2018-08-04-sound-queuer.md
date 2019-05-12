@@ -11,10 +11,10 @@ This is a small autohotkey script I came up with and thought that someone else m
 
 **Instructions**
 1. Make sure you have [Autohotkey](https://autohotkey.com) installed.
-2. Download the [**SoundQueuer**](/assets/SoundQueuer.zip) and extract the zip file.
+2. Download the [**SoundQueuer**](/projects/sound-queuer/SoundQueuer.zip) and extract the zip file.
 3. Place all the sounds you want to use in the `sounds` folder located next to the .ahk file. Remove any of the default sounds that you don't want.
 4. Start the script by double clicking `sound-queuer.ahk`.
-5. By default there are two hotkeys: **Alt+Q** to play one sound and **Alt+W** to play ten sounds. Press either to start using the script! 
+5. By default there are two hotkeys: **Alt+Q** to play one sound and **Alt+W** to play ten sounds. Press either to start using the script!
 
 It is easy to change the hotkeys to any key you want. For instance, if you want to run this script each time you use a specific ability in-game, you can bind it to the same key as that ability. To modify the script, just open it in a plain text editor. If you haven't used autohotkey before, don't worry! The script is well documented and there are links to help pages that will show you how to modify a hotkey.
 

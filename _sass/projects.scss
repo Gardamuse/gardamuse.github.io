@@ -7,37 +7,28 @@
 .project-board {
    display: grid;
    grid-gap: 2em;
-   pointer-events: none;
 
    grid-template-columns: repeat(auto-fit, minmax(360px, 360px));
    grid-auto-rows: minmax(260px, 500px);
    justify-content: center;
-   //align-content: c;
 }
 
 $project-padding: 14px;
 $tag-color: lighten($navbar-light, 20%);
 $tag-background-color: desaturate(darken($tag-color, 40%), 30%);
 .project-card {
-   //background: $text-light;
    background: transparent;
    display: grid;
    position: relative;
    border: 2px solid darken($tag-color, 0%);
    border-radius: 3px;
    color: darken($text-color, 10%);
-   //max-width: 400px;
-   //max-height: 400px;
-   //overflow: hidden;
-   //z-index: 0;
-   //opacity: 1;
 
    grid-template-columns: repeat(12, 1fr);
    grid-template-rows: repeat(12, 1fr) 3.5em;
 
    transition: transform 0.4s, opacity 0.4s, border 0.4s;
    backface-visibility: hidden;
-   pointer-events: auto;
 
    &:hover {
       transform: translateY(-1em);
