@@ -34,6 +34,7 @@ defaults:
       type: "projects"
     values:
       layout: "page"
+      comments: true
   - scope:
       path: ""
       type: "pages"

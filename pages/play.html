@@ -7,10 +7,20 @@ description: "Play erotic games and browse apps with a focus on transformation, 
 
 {% assign sortedposts = site.projects | sort: "title" %}
 
+<div class="dual">
+   <div style="grid-column: 2 / 4;">
+      <section class="main post">
+         <h2 style="text-align: center">Play</h2>
+         <p>Most of these apps contains sexual content with focus on <b>Bimbofication</b>. This includes <b>Breast Expansion</b>, <b>Gender Transformation</b> and <b>Mental Transformation</b>. This means that all content on this page is <b>NSFW</b>. To help distinguish between different content, all entries are tagged to give you some idea of what they contain. </p>
+         <p> With that out of they way, have fun! </p>
+      </section>
+   </div>
+</div>
+
 <div class="all-projects">
    <div class="project-board">
       {% for post in sortedposts %}
-      <a class="project-card" href="{{ post.permalink }}" itemscope itemtype="https://schema.org/VideoGame">
+      <a class="project-card" href="{{ post.permalink }}" itemscope itemtype="https://schema.org/VideoGame" itemprop="url">
          <meta itemprop="applicationCategory" content="Game">
          <meta itemprop="genre" content="Erotic">
          <meta itemprop="operatingSystem" content="Windows, OSX, Linux">
@@ -22,18 +32,17 @@ description: "Play erotic games and browse apps with a focus on transformation, 
             {% endif %}
          </div>
          <div class="thumb-fade"> </div>
-         <div class="title">
-            <h2>{{ post.title }}</h2>
-         </div>
+
+         <h2 class="title" itemprop="name">{{ post.title }}</h2>
 
          {% include tags %}
 
          {% assign sorted-tags = post.tags | sort %}
          <meta itemprop="keywords" content="{% for tag in sorted-tags %}{{ tag }}, {% endfor %}" />
 
-         <div class="project-info description" itemprop="description">
+         <section class="project-info description" itemprop="description">
             {{ post.description | markdownify }}
-         </div>
+         </section>
 
       </a>
       {% endfor %}

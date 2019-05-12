@@ -56,28 +56,25 @@ body:hover {
       1fr minmax(250px, 85ch) 1fr;
    grid-template-areas:
       ".      main    .     "
-      ".      comment .     "
-      ".      footer  .     "
+      ".      comment .     ";
 }
 
 .dual {
    display: grid;
    grid-gap: 0em;
    grid-template-columns:
-      3fr minmax(250px, 85ch) minmax(200px, 18vw) 3fr;
+      3fr minmax(40ch, 85ch) minmax(40ch, 20vw) 3fr;
    grid-template-areas:
       ".      main    side    .      "
-      ".      comment .       .      "
-      ".      footer  .       .      ";
+      ".      comment .       .      ";
 
-   @media screen and (max-width: 70ch) {
+   @media screen and (max-width: 90ch) {
       grid-template-columns:
          3fr minmax(30ch, 85ch) 3fr;
       grid-template-areas:
          ".      main    .       "
          ".      side    .       "
-         ".      comment .       "
-         ".      footer  .       ";
+         ".      comment .       ";
    }
 }
 

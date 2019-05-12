@@ -9,11 +9,12 @@
 
    <div class="{{ layout.style }}">
       {{ content }}
-
-      {% if layout.comments or page.comments %}
-      {% include comments.html %}
-      {% endif %}
    </div>
+   {% if layout.comments or page.comments %}
+   <div class="single">
+      {% include comments.html %}
+   </div>
+   {% endif %}
 
    {% include footer.html %}
 </body>

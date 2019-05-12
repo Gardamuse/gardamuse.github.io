@@ -119,27 +119,21 @@ $tag-background-color: desaturate(darken($tag-color, 40%), 30%);
 }
 
 .project-card .title {
-   //grid-column: 6 / -1;
-   //grid-row: 1;
-   //position: absolute;
-   //bottom: 51%;
    grid-column: 1 / -1;
    grid-row: 6 / 7;
    padding-left: $project-padding;
-   //background-color: inherit;
    z-index: 1;
 
-   h2 {
-      margin: 0;
-      color: lighten($text-light, 5%);
-      font-weight: bold;
-      text-shadow: 1px  1px #111,
-                  -1px  1px #111,
-                  -1px -1px #111,
-                   1px -1px #111;
-      transition: color 0.4s;
-   }
+   margin: 0;
+   color: lighten($text-light, 5%);
+   font-weight: bold;
+   text-shadow: 1px  1px #111,
+               -1px  1px #111,
+               -1px -1px #111,
+                1px -1px #111;
+   transition: color 0.4s;
 }
+
 
 .project-card .description {
    display: block;
@@ -190,6 +184,21 @@ $tag-background-color: desaturate(darken($tag-color, 40%), 30%);
    }
 }
 
+$tag-color-hover: saturate(lighten($tag-color, 20%), 40%);
+.tags li:hover {
+   border-color: $tag-color-hover;
+
+   p {
+      color: $tag-color-hover;
+   }
+
+   .svg-icon {
+      /* https://codepen.io/sosuke/pen/Pjoqqp */
+      /* #f8428d */
+      filter: invert(44%) sepia(63%) saturate(3779%) hue-rotate(310deg) brightness(98%) contrast(98%);
+   }
+}
+
 .tooltip {
    position: relative;
    display: inline-block;
@@ -213,7 +222,7 @@ $tag-background-color: desaturate(darken($tag-color, 40%), 30%);
    padding-left: 10px;
    padding-right: 10px;
    background: $tag-background-color;
-   border: 1px solid $tag-color;
+   border: 1px solid $tag-color-hover;
    border-radius: 3px;
    bottom: 110%;
    left: 0;

@@ -18,19 +18,19 @@
             {% when "gender transformation"%}
             <li class="tooltip"><p>
             <i class="fas fa-mars"></i>⮂<i class="fas fa-venus"></i>
-            <span class="tooltiptext">Gender transformation</span>
+            <span class="tooltiptext">Gender Transformation</span>
             </p></li>
 
-            {% when "maletofemale"%}
+            {% when "male to female"%}
             <li class="tooltip"><p>
             <i class="fas fa-mars"></i>⭢<i class="fas fa-venus"></i>
-            <span class="tooltiptext">Male to female</span>
+            <span class="tooltiptext">Male to Female</span>
             </p></li>
 
-            {% when "femaletomale"%}
+            {% when "female to male"%}
             <li class="tooltip"><p>
             <i class="fas fa-venus"></i>⭢<i class="fas fa-mars"></i>
-            <span class="tooltiptext">Female to male</span>
+            <span class="tooltiptext">Female to Male</span>
             </p></li>
          {% endcase %}
       {% endfor %}
