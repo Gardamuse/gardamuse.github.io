@@ -9,13 +9,13 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="145.88129mm"
-   height="68.298164mm"
-   viewBox="0 0 145.88129 68.298162"
+   width="114.10244mm"
+   height="54.069965mm"
+   viewBox="0 0 114.10244 54.069963"
    version="1.1"
    id="svg75"
    inkscape:version="0.92.4 5da689c313, 2019-01-14"
-   sodipodi:docname="be.svg">
+   sodipodi:docname="iq-down.svg">
   <defs
      id="defs69">
     <marker
@@ -87,8 +87,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.979899"
-     inkscape:cx="201.84599"
-     inkscape:cy="102.99625"
+     inkscape:cx="229.74569"
+     inkscape:cy="60.218335"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -116,41 +116,30 @@
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="Layer 2"
-     transform="translate(7.3907531e-6,-0.7674972)" />
+     transform="translate(-27.028802,-1.5120955)" />
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-43.378313,-82.242986)">
+     transform="translate(-70.407123,-82.987585)">
+    <g
+       id="g906"
+       transform="matrix(0.8196759,0,0,0.79350751,15.653605,16.451616)">
+      <path
+         d="m 66.798985,142.66531 h 9.280474 V 89.664419 h -9.280474 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:40.00005722px;line-height:1.25;font-family:'URW Gothic L';-inkscape-font-specification:'URW Gothic L, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.74254334"
+         id="path894"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 137.20168,134.77614 c -0.94837,0.14344 -1.35482,0.21516 -1.829,0.21516 -1.62578,0 -2.98059,-0.43032 -5.08055,-1.57784 4.06444,-4.44662 6.02892,-9.96904 6.02892,-16.99758 0,-15.85006 -11.3127,-27.683818 -26.48661,-27.683818 -15.038438,0 -26.689837,11.977198 -26.689837,27.396948 0,15.2763 11.990104,27.46866 27.096277,27.46866 5.08055,0 10.36433,-1.57784 13.88684,-4.15975 4.26767,3.08395 7.51922,4.30319 11.85463,4.30319 0.27096,0 0.6774,0 1.21933,-0.0717 z m -20.93188,-2.00815 c -2.09996,1.00407 -3.52251,1.36267 -6.02892,1.36267 -6.29988,0 -11.041732,-2.43847 -14.835211,-7.74573 2.167703,-0.43032 3.183813,-0.57376 4.809591,-0.57376 5.487,0 10.29658,2.07987 16.05454,6.95682 z m 6.63859,-4.73351 c -6.09666,-6.38305 -14.63199,-10.25592 -22.62539,-10.25592 -2.980591,0 -5.419257,0.28688 -7.72244,0.93236 -0.135481,-1.29096 -0.135481,-1.86472 -0.135481,-2.5102 0,-10.25592 7.451478,-18.001651 17.273881,-18.001651 9.89014,0 17.27388,7.817451 17.27388,18.360251 0,4.80523 -1.35482,8.53465 -4.06445,11.47516 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:40.00005722px;line-height:1.25;font-family:'URW Gothic L';-inkscape-font-specification:'URW Gothic L, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.74254334"
+         id="path896"
+         inkscape:connector-curvature="0" />
+    </g>
     <path
-       style="fill:none;stroke:#000000;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 67.46875,83.443452 c 0.175631,1.98441 0.138884,3.655739 2.706905,3.82565 7.880534,0.521409 19.326576,7.479712 6.601859,20.806168 -4.8907,15.58295 -0.09234,26.67833 -3.072159,40.1911"
-       id="path976"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cscc" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       d="m 148.14476,83.804326 c 0.21672,1.59087 3.01092,4.793575 4.05446,5.631405 10.90731,-5.929376 23.52513,-1.456315 29.86646,6.051404 9.43489,11.170285 -3.83777,36.967185 -23.68252,24.208625 -1.4993,3.81451 5.04857,10.54416 -4.00179,28.93148"
-       id="path978-3"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccscc" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 53.219993,83.012736 c -3.16859,16.1578 2.39879,18.194784 4.24944,26.261474 0.97685,4.25793 -23.29243,12.37853 0.0901,38.30759"
-       id="path972-7-5"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="csc" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 132.75203,83.293298 c -3.16859,16.1578 2.39879,18.194782 4.24944,26.261472 0.97685,4.25793 -23.29243,12.37853 0.0901,38.30759"
-       id="path972-7-5-6"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="csc" />
-    <path
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.3656075"
-       sodipodi:nodetypes="cccccccc"
-       inkscape:connector-curvature="0"
-       id="path1501-5"
-       d="m 108.52944,121.39717 12.03202,-9.97761 -12.03202,-9.50987 v 5.77404 H 89.673688 v 7.47166 h 18.855752 z" />
+       id="path898"
+       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:40.00005722px;line-height:1.25;font-family:'URW Gothic L';-inkscape-font-specification:'URW Gothic L, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.74254334"
+       d="m 184.50956,117.86692 -18.12593,19.19063 -18.12593,-19.19063 h 9.69142 V 82.987585 h 16.86902 v 34.879335 z" />
   </g>
 </svg>

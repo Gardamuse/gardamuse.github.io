@@ -5,7 +5,7 @@
          {% case tag %}
 
             {% when "bimbofication"%}
-            <li class="tooltip"><p>IQ⬇
+            <li class="tooltip"><p><img src="/assets/iq-down.svg" alt="Bimbofication" class="svg-icon">
             <span class="tooltiptext">Bimbofication</span>
             </p></li>
 
@@ -15,21 +15,33 @@
             <span class="tooltiptext">Breast Expansion</span>
             </p></li>
 
+            {% when "ass expansion"%}
+            <li class="tooltip"><p>
+            <img src="/assets/ass-expansion.svg" alt="Ass" class="svg-icon">
+            <span class="tooltiptext">Ass Expansion</span>
+            </p></li>
+
+            {% when "belly inflation"%}
+            <li class="tooltip"><p>
+            <img src="/assets/preg.svg" alt="Belly" class="svg-icon">
+            <span class="tooltiptext">Belly Inflation</span>
+            </p></li>
+
             {% when "gender transformation"%}
             <li class="tooltip"><p>
-            <i class="fas fa-mars"></i>⮂<i class="fas fa-venus"></i>
+            <img src="/assets/gender-transformation.svg" alt="TF TG" class="svg-icon">
             <span class="tooltiptext">Gender Transformation</span>
             </p></li>
 
             {% when "male to female"%}
             <li class="tooltip"><p>
-            <i class="fas fa-mars"></i>⭢<i class="fas fa-venus"></i>
+            <img src="/assets/male-to-female.svg" alt="M to F" class="svg-icon">
             <span class="tooltiptext">Male to Female</span>
             </p></li>
 
             {% when "female to male"%}
             <li class="tooltip"><p>
-            <i class="fas fa-venus"></i>⭢<i class="fas fa-mars"></i>
+            <img src="/assets/female-to-male.svg" alt="F to M" class="svg-icon">
             <span class="tooltiptext">Female to Male</span>
             </p></li>
          {% endcase %}
