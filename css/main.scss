@@ -132,32 +132,6 @@ h2 {
 .centered-content {
    padding: 1rem;
 }
-//@media screen and (min-width: 60rem) {
-//   .centered-content {
-//      max-width: 60rem;
-//      padding-top: 2.5rem;
-//      margin: 0 auto;
-//      font-size: 1.0em;
-//   }
-//}
-//@media screen and (min-width: 42rem) and (max-width: 60rem) {
-//   .centered-content {
-//      padding-top: 2.5em;
-//      font-size: 1.0em;
-//   }
-//}
-//@media screen and (max-width: 42rem) {
-//   .centered-content {
-//      padding-top: 2.5rem;
-//      font-size: 1em;
-//   }
-//}
-//@media screen and (max-width: 24rem) {
-//   .centered-content {
-//      padding: 0;
-//      font-size: 0.9em;
-//   }
-//}
 
 .main-content img {
    max-width: 100%;
@@ -277,10 +251,10 @@ h6 {
 }
 
 blockquote {
-   background-color: saturate(darken($text-light, 2%), 50%);
+   background-color: darken($text-light, 4%);
    padding: 0.5rem 1rem;
    margin-left: 0;
-   border-left: 0.3rem solid $navbar-light;
+   border-left: 0.3rem solid #8D141E;
 
    p {
       color: lighten($text-color, 3%);

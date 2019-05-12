@@ -1,7 +1,8 @@
 ---
-title: Play Games - Blushing Defeat
+title: Apps and Games - Blushing Defeat
 permalink: /play/
 layout: page
+description: "Play erotic games and browse apps with a focus on transformation, bimbofication and breast expansion. This site is NSFW."
 ---
 
 {% assign sortedposts = site.projects | sort: "title" %}
@@ -9,7 +10,11 @@ layout: page
 <div class="all-projects">
    <div class="project-board">
       {% for post in sortedposts %}
-      <a class="project-card" href="{{ post.permalink }}">
+      <a class="project-card" href="{{ post.permalink }}" itemscope itemtype="https://schema.org/VideoGame">
+         <meta itemprop="applicationCategory" content="Game">
+         <meta itemprop="genre" content="Erotic">
+         <meta itemprop="operatingSystem" content="Windows, OSX, Linux">
+
          <div class="thumb-container" style="">
             {% if post.thumb %}
             <img class="thumb" src="{{ post.thumb }}" />

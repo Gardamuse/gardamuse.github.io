@@ -8,7 +8,7 @@ paginate_path: "/blog/page:num/"
 # About/contact
 author:
   name:       Gardamuse
-  url:        http://www.blushingdefeat.com
+  url:        https://www.blushingdefeat.com
   email:      gardamuse@blushingdefeat.com
 
 # Gems
