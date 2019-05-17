@@ -1,7 +1,7 @@
 .buffers {
    display: grid;
    grid-template-columns: 100%;
-   grid-template-rows: 500px 100px;
+   grid-template-rows: 500px 50px;
    grid-template-areas:
       "main"
       "control";
@@ -29,11 +29,23 @@
    position: absolute;
    top: 0;
    left: 0;
-   z-index: 0;
    grid-template-columns: 100vw;
    grid-template-rows: calc(100vh - 4rem) 4rem;
+   z-index: 1;
 }
 
 .control-panel {
    grid-area: control;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+
+   background-color: #800;
+}
+
+.svg-2 {
+   display: block;
+   height: 1em;
+   margin: auto;
+   /*https://codepen.io/sosuke/pen/Pjoqqp*/
+   filter: invert(24%) sepia(36%) saturate(3264%) hue-rotate(307deg) brightness(89%) contrast(84%);
 }

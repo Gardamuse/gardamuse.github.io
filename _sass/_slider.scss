@@ -10,6 +10,14 @@ $slider-background: $navbar-light;
    font-size: 2em;
    padding: 0.2em 1em 0.2em 1em;
    outline: none;
+   //display: grid;
+   //justify-content: center;
+
+   p {
+      margin: 0;
+      display: inline;
+      color: $tag-color;
+   }
 }
 
 .pink-button:hover {
