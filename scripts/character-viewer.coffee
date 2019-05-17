@@ -64,7 +64,7 @@ frameWidth = 0 # Calculated from frameHeight
   return value
 
 updateViewerSize()
-setupSlider(18, "/assets/chastity.png")
+setupSlider(18, "/projects/character-viewer/chastity.png")
 updateSlider()
 slider.oninput = updateSlider
 window.onresize = updateViewerSize
