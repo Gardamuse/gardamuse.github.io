@@ -1,0 +1,39 @@
+.buffers {
+   display: grid;
+   grid-template-columns: 700px;
+   grid-template-rows: 500px 100px;
+   grid-template-areas:
+      "main"
+      "control";
+   background-color: rgba(#090, 0.5);
+}
+
+#buffer {
+   background-color: rgba(#844, 0.5);
+}
+
+.sequence-view {
+   grid-area: main;
+   height: 100%;
+   width: 100%;
+   background-image: url("/projects/sequence-viewer/rebecca/01.png");
+   background-color: rgba(#999, 0);
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-position: center;
+
+   transition: opacity 1s;
+}
+
+.fullscreen {
+   position: absolute;
+   top: 0;
+   left: 0;
+   z-index: 0;
+   grid-template-columns: 100vw;
+   grid-template-rows: 90vh 10vh;
+}
+
+.control-panel {
+   grid-area: control;
+}
