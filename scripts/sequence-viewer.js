@@ -1,10 +1,11 @@
+let app = document.getElementById("app")
 let viewer = document.getElementById("sequence-view")
 let buffer = document.getElementById("buffer")
 
-viewer.ontransitionend = () => {
+viewer.addEventListener("transitionend", () => {
    console.log("done");
    busy = false;
-}
+})
 
 let characters = [
    {
@@ -21,29 +22,48 @@ function wait(ms) {
    })
 }
 
-async function next() {
-   if (busy) return
-   busy = true
-
-   console.log(1, viewer.style.backgroundImage)
-   let c = characters[0]
-   let oldImage = `url(/projects/sequence-viewer/${c.name}/${index.toString().padStart(2, "0")}.png)`
-   index++
-   let newImage = `url(/projects/sequence-viewer/${c.name}/${index.toString().padStart(2, "0")}.png)`
-
-   // Move old image to buffer
+async function nextImage(oldImage, newImage) {
+   // Show old image in buffer
    buffer.style.backgroundImage = oldImage
+   buffer.style.opacity = 1
 
    // Make front layer invisible
-   //viewer.style.transition = "none"
    viewer.style.opacity = 0
 
-   //await wait(1)
-   // Set new image and fade in
+   // Load new image into front layer and wait until loaded
    viewer.style.backgroundImage = newImage
-   //viewer.style.transition = "opacity 1s"
+   await wait(40)
 
+   // Switch visible
+   buffer.style.opacity = 0
    viewer.style.opacity = 1
+}
 
-   console.log(2, viewer.style.backgroundImage)
+function step(stepSize) {
+   let c = characters[0]
+   if (1 <= index + stepSize && index + stepSize <= c.length) {
+
+   let oldImage = `url(/projects/sequence-viewer/${c.name}/${index.toString().padStart(2, "0")}.png)`
+   index += stepSize
+   let newImage = `url(/projects/sequence-viewer/${c.name}/${(index).toString().padStart(2, "0")}.png)`
+
+   nextImage(oldImage, newImage)
+}
+}
+
+function next() {
+   step(1)
+}
+
+function prev() {
+   step(-1)
+}
+
+function toggleFullscreen() {
+   console.log(app);
+   if (app.classList.contains("fullscreen")) {
+      app.classList.remove("fullscreen")
+   } else {
+      app.classList.add("fullscreen")
+   }
 }

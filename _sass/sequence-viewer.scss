@@ -1,6 +1,6 @@
 .buffers {
    display: grid;
-   grid-template-columns: 700px;
+   grid-template-columns: 100%;
    grid-template-rows: 500px 100px;
    grid-template-areas:
       "main"
@@ -9,7 +9,7 @@
 }
 
 #buffer {
-   background-color: rgba(#844, 0.5);
+   background-color: rgba(#844, 0.0);
 }
 
 .sequence-view {
@@ -22,7 +22,7 @@
    background-repeat: no-repeat;
    background-position: center;
 
-   transition: opacity 1s;
+   //transition: opacity 1s;
 }
 
 .fullscreen {
@@ -31,7 +31,7 @@
    left: 0;
    z-index: 0;
    grid-template-columns: 100vw;
-   grid-template-rows: 90vh 10vh;
+   grid-template-rows: calc(100vh - 4rem) 4rem;
 }
 
 .control-panel {

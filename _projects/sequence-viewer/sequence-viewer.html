@@ -5,15 +5,18 @@ comments: false
 layout: single-layout
 ---
 
-<div class="buffers fullscreen">
+<div id="app" class="buffers">
    <div id="buffer" class="sequence-view"></div>
    <div id="sequence-view" class="sequence-view"></div>
    <div class="control-panel">
-      <button class="pink-button">
+      <button class="pink-button" onclick="prev()">
          Back
       </button>
       <button class="pink-button" onclick="next()">
          Next
+      </button>
+      <button class="pink-button" onclick="toggleFullscreen()">
+         Fullscreen
       </button>
    </div>
 </div>
