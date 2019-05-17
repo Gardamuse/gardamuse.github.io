@@ -2,15 +2,29 @@ let app = document.getElementById("app")
 let viewer = document.getElementById("sequence-view")
 let buffer = document.getElementById("buffer")
 
-viewer.addEventListener("transitionend", () => {
-   console.log("done");
-   busy = false;
-})
+document.addEventListener('DOMContentLoaded', () => {
+    'use strict';
+
+    document.addEventListener('keydown', event => {
+        const key = event.key.toLowerCase();
+        if (key == 'n') {
+            next()
+        } else if (key == 'b') {
+           prev()
+        } else if (key == 'f') {
+           toggleFullscreen()
+        }
+    });
+});
 
 let characters = [
    {
       name: "rebecca",
       length: 20
+   },
+   {
+      name: "william",
+      length: 43
    }
 ]
 
@@ -40,15 +54,15 @@ async function nextImage(oldImage, newImage) {
 }
 
 function step(stepSize) {
-   let c = characters[0]
+   let c = characters[1]
    if (1 <= index + stepSize && index + stepSize <= c.length) {
 
-   let oldImage = `url(/projects/sequence-viewer/${c.name}/${index.toString().padStart(2, "0")}.png)`
-   index += stepSize
-   let newImage = `url(/projects/sequence-viewer/${c.name}/${(index).toString().padStart(2, "0")}.png)`
+      let oldImage = `url(/projects/sequence-viewer/${c.name}/${index.toString().padStart(2, "0")}.png)`
+      index += stepSize
+      let newImage = `url(/projects/sequence-viewer/${c.name}/${(index).toString().padStart(2, "0")}.png)`
 
-   nextImage(oldImage, newImage)
-}
+      nextImage(oldImage, newImage)
+   }
 }
 
 function next() {
@@ -60,7 +74,6 @@ function prev() {
 }
 
 function toggleFullscreen() {
-   console.log(app);
    if (app.classList.contains("fullscreen")) {
       app.classList.remove("fullscreen")
    } else {

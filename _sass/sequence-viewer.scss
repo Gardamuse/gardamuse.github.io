@@ -5,7 +5,8 @@
    grid-template-areas:
       "main"
       "control";
-   background-color: rgba(#090, 0.5);
+   background-color: darken($base-color, 2%);
+   background-image: url("/assets/black-linen.png");
 }
 
 #buffer {
@@ -16,7 +17,7 @@
    grid-area: main;
    height: 100%;
    width: 100%;
-   background-image: url("/projects/sequence-viewer/rebecca/01.png");
+   //background-image: url("/projects/sequence-viewer/rebecca/01.png");
    background-color: rgba(#999, 0);
    background-size: contain;
    background-repeat: no-repeat;
