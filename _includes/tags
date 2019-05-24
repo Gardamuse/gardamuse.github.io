@@ -1,4 +1,4 @@
-   {% assign sortedtags = post.tags | sort %}
+   {% assign sortedtags = include.tags %}
 
    <ul class="tags project-info">
       {% for tag in sortedtags %}

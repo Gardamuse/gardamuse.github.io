@@ -1,0 +1,27 @@
+<a class="project-card" href="{{ include.url }}" itemscope itemtype="https://schema.org/VideoGame">
+   <meta itemprop="applicationCategory" content="Game">
+   <meta itemprop="genre" content="Erotic">
+   <meta itemprop="operatingSystem" content="Windows, OSX, Linux">
+
+   <div class="thumb-container" style="">
+      {% if include.thumb %}
+      <img class="thumb" src="{{ include.thumb }}" itemprop="image" alt="{{ include.title }}" />
+      <meta itemprop="thumbnailUrl" content="{{ include.thumb }}" />
+      {% endif %}
+   </div>
+   <div class="thumb-fade"> </div>
+
+   <h2 class="title" itemprop="name">{{ include.title }}</h2>
+
+   {% if include.tags %}
+   {% include tags %}
+
+   {% assign sorted-tags = include.tags | sort %}
+   <meta itemprop="keywords" content="{% for tag in sorted-tags %}{{ tag }}, {% endfor %}" />
+   {% endif %}
+
+   <div class="project-info description" itemprop="description">
+      {{ include.description | markdownify }}
+   </div>
+
+</a>

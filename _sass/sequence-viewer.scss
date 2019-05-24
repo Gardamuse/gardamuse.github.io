@@ -1,10 +1,11 @@
-.buffers {
+.app {
    display: grid;
    grid-template-columns: 100%;
-   grid-template-rows: 500px 50px;
+   grid-template-rows: 500px 60px 200px;
    grid-template-areas:
       "main"
-      "control";
+      "control"
+      "select";
    background-color: darken($base-color, 2%);
    background-image: url("/assets/black-linen.png");
 }
@@ -26,13 +27,46 @@
    //transition: opacity 1s;
 }
 
+.characters {
+   grid-area: select;
+   flex: 1;
+   display: flex;
+   overflow-y: auto;
+}
+
+.character-wrapper {
+   min-height: min-content;
+   display: flex;
+}
+
+.character {
+   background-color: #400;
+   border: 1px solid black;
+   img {
+      max-height: 100%;
+   }
+}
+
 .fullscreen {
    position: absolute;
    top: 0;
    left: 0;
-   grid-template-columns: 100vw;
-   grid-template-rows: calc(100vh - 4rem) 4rem;
    z-index: 1;
+
+   grid-template-columns: minmax(200px, 15vw) 70vw minmax(0, 15vw);
+   grid-template-rows: calc(100vh - 4rem) 4rem;
+   grid-template-areas:
+      "select main ."
+      "control control control";
+
+   .character-wrapper {
+      flex-direction: column;
+
+   }
+
+   .card-small {
+      height: 200px;
+   }
 }
 
 .control-panel {

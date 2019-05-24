@@ -3,23 +3,36 @@ title: Sequence Viewer
 permalink: /sequence-viewer/
 comments: false
 layout: single-layout
+description: "Easily view character transformation sequences on the web on any device.
+
+
+Watch any number of characters transform into cute bimbos with minds that are nothing but pink cotton-candy!"
 ---
 
-<div id="app" class="buffers">
+<div id="app" class="app">
    <div id="buffer" class="sequence-view"></div>
    <div id="sequence-view" class="sequence-view"></div>
    <div class="control-panel">
       <button class="pink-button" onclick="prev()">
-         [B]ack
+         <u>B</u>ack
       </button>
       <button class="pink-button" onclick="next()">
-         [N]ext
+         <u>N</u>ext
       </button>
       <button class="pink-button" onclick="toggleFullscreen()">
          <img src="/assets/fullscreen.svg" alt="Bimbofication" class="svg-2">
       </button>
    </div>
+   <div id="character-select" class="characters">
+      <div class="character-wrapper">
+         {% for c in site.data.characters %}
+         {% capture url %}
+         /projects/sequence-viewer/{{ c.name }}/01.png
+         {% endcapture %}
+         {% include card-small.html url=url thumb=url title=c.name class="small-card"%}
+         {% endfor %}
+      </div>
+   </div>
 </div>
-
 
 <script src="/scripts/sequence-viewer.js"></script>
