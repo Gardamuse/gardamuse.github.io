@@ -8,6 +8,22 @@
       "select";
    background-color: darken($base-color, 2%);
    background-image: url("/assets/black-linen.png");
+
+   // Firefox
+   scrollbar-color: $navbar-light darken($navbar-light, 10%);
+
+   // Everyone else
+   ::-webkit-scrollbar {
+      background: darken($navbar-light, 10%);
+   }
+
+   ::-webkit-scrollbar-corner {
+      background: darken($navbar-light, 10%);
+   }
+
+   ::-webkit-scrollbar-thumb {
+      background: $navbar-light;
+   }
 }
 
 #buffer {
