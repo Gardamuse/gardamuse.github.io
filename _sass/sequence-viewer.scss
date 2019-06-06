@@ -32,7 +32,7 @@
 
 .sequence-view {
    grid-area: main;
-   height: 100%;
+   //height: 100%;
    width: 100%;
    //background-image: url("/projects/sequence-viewer/rebecca/01.png");
    background-color: rgba(#999, 0);
@@ -45,14 +45,18 @@
 
 .characters {
    grid-area: select;
-   flex: 1;
-   display: flex;
-   overflow-y: auto;
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+   grid-auto-rows: 200px;
+   justify-content: center;
+
+   overflow-y: scroll;
 }
 
 .character-wrapper {
    min-height: min-content;
-   display: flex;
+   display: grid;
+   grid-template-columns: repeat(auto-fit, 100px);
 }
 
 .character {
@@ -67,12 +71,14 @@
    position: absolute;
    top: 0;
    left: 0;
+   right: 0;
+   bottom: 0;
    z-index: 1;
 
-   grid-template-columns: minmax(200px, 15vw) 70vw minmax(0, 15vw);
+   grid-template-columns: minmax(180px, 400px) 50vw minmax(200px, 50vw);
    grid-template-rows: calc(100vh - 4rem) 4rem;
    grid-template-areas:
-      "select main ."
+      "select main info"
       "control control control";
 
    .character-wrapper {
@@ -81,7 +87,24 @@
    }
 
    .card-small {
-      height: 200px;
+      //height: 200px;
+   }
+
+   @media screen and (max-width: 1000px) {
+      grid-template-columns: 200px 1fr;
+      grid-template-rows: calc(100vh - 4rem) 4rem;
+      grid-template-areas:
+         "select main"
+         "control control";
+   }
+
+   @media screen and (max-width: 500px) {
+      grid-template-columns: 1fr;
+      grid-template-rows: calc(100vh - 4rem - 150px) 4rem 150px;
+      grid-template-areas:
+         "main"
+         "control"
+         "select";
    }
 }
 

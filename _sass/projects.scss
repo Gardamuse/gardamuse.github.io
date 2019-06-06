@@ -223,7 +223,7 @@ $tag-color-hover: saturate(lighten($tag-color, 20%), 40%);
 }
 
 .card-small {
-   width: 200px;
+   //width: 200px;
    .thumb-container {
       grid-row: 1 / -1;
    }

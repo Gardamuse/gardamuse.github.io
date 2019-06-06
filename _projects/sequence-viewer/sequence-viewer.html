@@ -24,14 +24,12 @@ Watch any number of characters transform into cute bimbos with minds that are no
       </button>
    </div>
    <div id="character-select" class="characters">
-      <div class="character-wrapper">
-         {% for c in site.data.characters %}
-         {% capture url %}
-         /projects/sequence-viewer/{{ c.name }}/01.png
-         {% endcapture %}
-         {% include card-small.html url=url thumb=url title=c.name class="small-card"%}
-         {% endfor %}
-      </div>
+      {% for c in site.data.characters %}
+      {% capture url %}
+      /projects/sequence-viewer/{{ c.name }}/01.png
+      {% endcapture %}
+      {% include card-small.html url=url thumb=url title=c.name class="small-card"%}
+      {% endfor %}
    </div>
 </div>
 

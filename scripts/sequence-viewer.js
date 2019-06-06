@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
    document.addEventListener('keydown', event => {
       // Make sure actions aren't taken too quickly. Images need to load.
-      if (Date.now() - actionTime < 80) return
+      if (Date.now() - actionTime < 0) return
       actionTime = Date.now()
 
       // Bind keys to actions
@@ -82,15 +82,16 @@ function wait(ms) {
 async function nextImage(oldImage, newImage) {
    // Show old image in buffer
    buffer.style.backgroundImage = oldImage
+   await wait(0)
    buffer.style.opacity = 1
 
    // Make front layer invisible
    viewer.style.opacity = 0
-
+   console.log(1);
    // Load new image into front layer and wait until loaded
    viewer.style.backgroundImage = newImage
-   await wait(40)
-
+   await wait(0)
+   console.log(2);
    // Switch visible
    buffer.style.opacity = 0
    viewer.style.opacity = 1
