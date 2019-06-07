@@ -134,7 +134,7 @@ async function select(name) {
       if (c.name == name) {
          character = c
          await loadCharacter(c) // Preload character
-         await wait(500)
+         //await wait(500)
          step(0) // Update view with the current frame of the selected character
          break
       }

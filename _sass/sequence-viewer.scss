@@ -1,12 +1,12 @@
 .app {
    display: grid;
-   grid-template-columns: 100%;
+   grid-template-columns: 1fr 2fr 1fr;
    grid-template-rows: 500px 60px 200px;
    grid-template-areas:
-      "main"
-      "control"
-      "select";
-   background-color: darken($base-color, 2%);
+      ". main ."
+      ". control ."
+      ". select .";
+   background-color: $base-color;
    background-image: url("/assets/black-linen.png");
 
    // Firefox
