@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
    document.addEventListener('keydown', event => {
       // Make sure actions aren't taken too quickly. Images need to load.
-      if (Date.now() - actionTime < 0) return
+      if (Date.now() - actionTime < 50) return
       actionTime = Date.now()
 
       // Bind keys to actions
@@ -79,31 +79,42 @@ function wait(ms) {
    })
 }
 
+function showWhenLoaded(element, image) {
+   let img = new Image()
+   img.onload = function() {
+      element.style.backgroundImage = "url(" + this.src + ")"
+      console.log("next", element)
+   }
+   img.src = image.src
+}
+
 async function nextImage(oldImage, newImage) {
    // Show old image in buffer
-   buffer.style.backgroundImage = oldImage
-   await wait(0)
+   //buffer.style.backgroundImage = `url(${oldImage.src})`
+   //await wait(50)
    buffer.style.opacity = 1
+   showWhenLoaded(buffer, oldImage)
+   await wait(50)
+
 
    // Make front layer invisible
-   viewer.style.opacity = 0
-   console.log(1);
+   //viewer.style.opacity = 0
    // Load new image into front layer and wait until loaded
-   viewer.style.backgroundImage = newImage
-   await wait(0)
-   console.log(2);
+   showWhenLoaded(viewer, newImage)
+   //await wait(0)
    // Switch visible
-   buffer.style.opacity = 0
-   viewer.style.opacity = 1
+   //buffer.style.opacity = 0
+   //viewer.style.opacity = 0.99
 }
 
 function step(stepSize) {
    let c = character
    if (1 <= c.currentFrame + stepSize && c.currentFrame + stepSize <= c.length) {
 
-      let oldImage = `url(/projects/sequence-viewer/${c.name}/${c.currentFrame.toString().padStart(2, "0")}.png)`
+      let oldImage = loadedImages[c.currentFrame]
       c.currentFrame += stepSize
-      let newImage = `url(/projects/sequence-viewer/${c.name}/${(c.currentFrame).toString().padStart(2, "0")}.png)`
+      let newImage = loadedImages[c.currentFrame]
+      console.log(newImage);
 
       nextImage(oldImage, newImage)
    }
@@ -117,15 +128,27 @@ function prev() {
    step(-1)
 }
 
-function select(name) {
+async function select(name) {
    for (let i = 0; i < characters.length; i++) {
       let c = characters[i]
       if (c.name == name) {
          character = c
-         step(0)
+         await loadCharacter(c) // Preload character
+         await wait(500)
+         step(0) // Update view with the current frame of the selected character
          break
       }
    }
+}
+
+// Preloads all images of a character
+let loadedImages = new Array()
+function loadCharacter(c) {
+   for (let i = 1; i < c.length+1; i++) {
+      loadedImages[i] = new Image()
+      loadedImages[i].src = `/projects/sequence-viewer/${c.name}/${(i).toString().padStart(2, "0")}.png`
+   }
+   console.log("loaded");
 }
 
 function toggleFullscreen() {
