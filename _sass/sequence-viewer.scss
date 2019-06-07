@@ -68,7 +68,7 @@
 }
 
 .fullscreen {
-   position: absolute;
+   position: fixed;
    top: 0;
    left: 0;
    right: 0;
@@ -100,7 +100,7 @@
 
    @media screen and (max-width: 500px) {
       grid-template-columns: 1fr;
-      grid-template-rows: calc(100vh - 4rem - 150px) 4rem 150px;
+      grid-template-rows: calc(100vh - 8rem - 150px) 8rem 150px;
       grid-template-areas:
          "main"
          "control"
@@ -111,9 +111,15 @@
 .control-panel {
    grid-area: control;
    display: grid;
-   grid-template-columns: 1fr 1fr 1fr;
+   grid-template-columns: repeat(4, 1fr);
+   grid-template-rows: 1fr;
 
-   background-color: #800;
+   //background-color: #800;
+
+   @media screen and (max-width: 500px) {
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: 1fr 1fr;
+   }
 }
 
 .svg-2 {

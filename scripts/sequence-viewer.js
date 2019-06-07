@@ -59,7 +59,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
 let characterSelect = document.getElementById('character-select')
 let characterHTML = ""
-console.log(characters);
 for (let i = 0; i < characters.length; i++) {
    let c = characters[i]
    characterHTML += `
@@ -83,7 +82,6 @@ function showWhenLoaded(element, image) {
    let img = new Image()
    img.onload = function() {
       element.style.backgroundImage = "url(" + this.src + ")"
-      console.log("next", element)
    }
    img.src = image.src
 }
@@ -114,7 +112,6 @@ function step(stepSize) {
       let oldImage = loadedImages[c.currentFrame]
       c.currentFrame += stepSize
       let newImage = loadedImages[c.currentFrame]
-      console.log(newImage);
 
       nextImage(oldImage, newImage)
    }
@@ -126,6 +123,24 @@ function next() {
 
 function prev() {
    step(-1)
+}
+
+let paused = true
+function playpause() {
+   let button = document.getElementById("playpause")
+
+   if (paused) {
+      // Start playing
+      paused = false
+
+      // Button should now be for pausing
+      button.innerHTML = "<u>P</u>ause"
+   } else {
+      // Pause
+      paused = true
+      button.innerHTML = "<u>P</u>lay"
+   }
+
 }
 
 async function select(name) {
@@ -148,14 +163,15 @@ function loadCharacter(c) {
       loadedImages[i] = new Image()
       loadedImages[i].src = `/projects/sequence-viewer/${c.name}/${(i).toString().padStart(2, "0")}.png`
    }
-   console.log("loaded");
 }
 
 function toggleFullscreen() {
    if (app.classList.contains("fullscreen")) {
       app.classList.remove("fullscreen")
+      document.body.style.overflow = "visible"
    } else {
       app.classList.add("fullscreen")
+      document.body.style.overflow = "hidden"
    }
 }
 
