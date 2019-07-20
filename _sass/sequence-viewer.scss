@@ -81,9 +81,13 @@
       "select main info"
       "control control control";
 
+   .characters {
+      //position: absolute;
+      transition: transform 1s;
+   }
+
    .character-wrapper {
       flex-direction: column;
-
    }
 
    .card-small {
@@ -120,6 +124,22 @@
       grid-template-columns: repeat(2, 1fr);
       grid-template-rows: 1fr 1fr;
    }
+}
+
+.menu-toggle {
+   position: fixed;
+   top: 0;
+   left: 0;
+   z-index: 11;
+
+   label {
+      background-color: #f00;
+   }
+}
+
+.menu-toggle:checked ~ .characters {
+   //display: none;
+   transform: translateX(-90%);
 }
 
 .svg-2 {
