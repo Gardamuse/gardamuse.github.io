@@ -68,7 +68,7 @@ for (let i = 0; i < characters.length; i++) {
    characterHTML += `
    <a class="project-card">
       <div class="thumb-container">
-         <img class="thumb" src="/projects/sequence-viewer/${c.name}/01.png"></img>
+         <img class="thumb" src="/projects/bimbo-booth/${c.name}/01.png"></img>
       </div>
    </a>`
 }
@@ -193,7 +193,7 @@ let loadedImages = new Array()
 function loadCharacter(c) {
    for (let i = 1; i < c.length+1; i++) {
       loadedImages[i] = new Image()
-      loadedImages[i].src = `/projects/sequence-viewer/${c.name}/${(i).toString().padStart(2, "0")}.png`
+      loadedImages[i].src = `/projects/bimbo-booth/${c.name}/${(i).toString().padStart(2, "0")}.png`
    }
 }
 
