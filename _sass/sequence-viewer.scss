@@ -24,6 +24,16 @@
    ::-webkit-scrollbar-thumb {
       background: $navbar-light;
    }
+
+   @media screen and (max-width: 500px) {
+      grid-template-columns: 2fr;
+      grid-template-rows: calc(100vh - 8rem - 150px) 8rem 200px;
+      grid-template-areas:
+         "main"
+         "control"
+         "select";
+   }
+
 }
 
 #buffer {
@@ -67,6 +77,10 @@
    }
 }
 
+.menu-toggle {
+   display: block;
+}
+
 .fullscreen {
    position: fixed;
    top: 0;
@@ -83,7 +97,7 @@
 
    .characters {
       //position: absolute;
-      transition: transform 1s;
+      transition: transform 0.5s;
    }
 
    .character-wrapper {
@@ -94,6 +108,10 @@
       //height: 200px;
    }
 
+   #menu-togge-label {
+      display: block;
+   }
+
    @media screen and (max-width: 1000px) {
       grid-template-columns: 200px 1fr;
       grid-template-rows: calc(100vh - 4rem) 4rem;
@@ -102,13 +120,23 @@
          "control control";
    }
 
+   @media screen and (max-width: 700px) {
+      grid-template-columns: 0px 1fr;
+      grid-template-rows: calc(100vh - 4rem) 4rem;
+
+      .characters {
+         position: fixed;
+         height: calc(100vh - 4rem);
+         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      }
+   }
+
    @media screen and (max-width: 500px) {
-      grid-template-columns: 1fr;
-      grid-template-rows: calc(100vh - 8rem - 150px) 8rem 150px;
-      grid-template-areas:
-         "main"
-         "control"
-         "select";
+      grid-template-rows: calc(100vh - 8rem) 8rem;
+
+      .characters {
+         height: calc(100vh - 8rem);
+      }
    }
 }
 
@@ -131,15 +159,20 @@
    top: 0;
    left: 0;
    z-index: 11;
+   display: none;
 
    label {
       background-color: #f00;
    }
 }
 
-.menu-toggle:checked ~ .characters {
+#menu-togge-label {
+   display: none;
+}
+
+.fullscreen .menu-toggle:checked ~ .characters {
    //display: none;
-   transform: translateX(-90%);
+   transform: translateX(-100%);
 }
 
 .svg-2 {
