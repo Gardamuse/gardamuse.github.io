@@ -44,6 +44,8 @@ document.addEventListener('DOMContentLoaded', () => {
          next()
       } else if (key == 'b') {
          prev()
+      } else if (key == 'r') {
+         gotoFrame(1)
       } else if (key == 'f') {
          toggleFullscreen()
       } else if (key == 'a') {
