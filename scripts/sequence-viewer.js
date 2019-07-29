@@ -50,6 +50,8 @@ document.addEventListener('DOMContentLoaded', () => {
          nextCharacter(-1)
       }else if (key == 'd') {
          nextCharacter(1)
+      }else if (key == 'p') {
+         playpause()
       }
    });
 
@@ -117,6 +119,17 @@ function step(stepSize) {
    }
 }
 
+function gotoFrame(frameNr) {
+   let c = character
+   if (1 <= frameNr && frameNr <= c.length) {
+      let oldImage = loadedImages[c.currentFrame]
+      c.currentFrame = frameNr
+      let newImage = loadedImages[c.currentFrame]
+
+      nextImage(oldImage, newImage)
+   }
+}
+
 function next() {
    step(1)
 }
@@ -132,6 +145,7 @@ function playpause() {
    if (paused) {
       // Start playing
       paused = false
+      play()
 
       // Button should now be for pausing
       button.innerHTML = "<u>P</u>ause"
@@ -141,6 +155,13 @@ function playpause() {
       button.innerHTML = "<u>P</u>lay"
    }
 
+}
+
+async function play() {
+   await wait(200)
+   next()
+   await wait(800)
+   if (!paused) play()
 }
 
 async function select(name) {

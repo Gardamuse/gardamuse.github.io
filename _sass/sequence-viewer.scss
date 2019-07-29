@@ -1,3 +1,8 @@
+$buttons: 5;
+$rows: ceil($buttons / 2);
+$cols: floor($buttons / 2);
+$rowsHeight: $rows * 4rem;
+
 .app {
    display: grid;
    grid-template-columns: 1fr 2fr 1fr;
@@ -27,7 +32,7 @@
 
    @media screen and (max-width: 500px) {
       grid-template-columns: 2fr;
-      grid-template-rows: calc(100vh - 8rem - 150px) 8rem 200px;
+      grid-template-rows: calc(100vh - #{$rowsHeight} - 150px) $rowsHeight 200px;
       grid-template-areas:
          "main"
          "control"
@@ -113,7 +118,7 @@
    }
 
    @media screen and (max-width: 1000px) {
-      grid-template-columns: 200px 1fr;
+      grid-template-columns: 0px 1fr;
       grid-template-rows: calc(100vh - 4rem) 4rem;
       grid-template-areas:
          "select main"
@@ -132,10 +137,10 @@
    }
 
    @media screen and (max-width: 500px) {
-      grid-template-rows: calc(100vh - 8rem) 8rem;
+      grid-template-rows: calc(100vh - #{$rowsHeight}) $rowsHeight;
 
       .characters {
-         height: calc(100vh - 8rem);
+         height: calc(100vh - #{$rowsHeight});
       }
    }
 }
@@ -143,14 +148,14 @@
 .control-panel {
    grid-area: control;
    display: grid;
-   grid-template-columns: repeat(4, 1fr);
+   grid-template-columns: repeat($buttons, 1fr);
    grid-template-rows: 1fr;
 
    //background-color: #800;
 
    @media screen and (max-width: 500px) {
-      grid-template-columns: repeat(2, 1fr);
-      grid-template-rows: 1fr 1fr;
+      grid-template-columns: repeat($cols, 1fr);
+      grid-template-rows: repeat($rows, 1fr);
    }
 }
 
