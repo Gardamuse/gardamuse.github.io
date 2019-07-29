@@ -112,10 +112,12 @@ async function nextImage(oldImage, newImage) {
    let nameF = document.getElementById("nameF")
    let iqF = document.getElementById("iqF")
    let jobF = document.getElementById("jobF")
+   let statusF = document.getElementById("statusF")
 
    nameF.innerHTML = getName(character);
    iqF.innerHTML = getIQ(character);
    jobF.innerHTML = getJob(character);
+   statusF.innerHTML = getStatus(character);
 }
 
 function step(stepSize) {
@@ -252,8 +254,12 @@ function nextCharacter(step = 1) {
 }
 
 function getBimboFactor(character) {
+   return getBimboFactorWithOffset(character, 0);
+}
+
+function getBimboFactorWithOffset(character, offset) {
    let c = character;
-   return ((c.currentFrame - 1) / (c.length - 1))
+   return ((c.currentFrame + offset - 1) / (c.length - 1))
 }
 
 function getIQ(character) {
@@ -262,17 +268,65 @@ function getIQ(character) {
 }
 
 function getValue(character, propertyName) {
+   return getValueWithOffset(character, propertyName, 0)
+}
+
+/**
+* Returns the appropriate entry in the given array property of a character.
+* Offset is a number of image frames offset. Used for recursion.
+*/
+function getValueWithOffset(character, propertyName, offset) {
    let c = character;
+   let bf = getBimboFactorWithOffset(c, offset)
    let property = c[propertyName];
-   if (property == undefined) return "Unknown"
-   return property[Math.round(getBimboFactor(c) * (property.length - 1))]
+   if (property == undefined) return undefined
+
+   // The array entry we are currently looking at
+   let propertyFrame = property[
+      Math.round(bf * (property.length - 1))
+   ];
+
+   if (propertyFrame.start != undefined && propertyFrame.end != undefined) {
+      console.log("b", propertyFrame);
+      console.log(getBimboFactorWithOffset(character, offset - 1));
+      // If the next bf is out of bounds, this is the first or last propertyFrame
+      if (getBimboFactorWithOffset(character, offset - 1) <= 0) {
+         console.log(propertyFrame.text);
+         return propertyFrame.text;
+      } else if (getBimboFactorWithOffset(character, offset + 1) > 1) {
+         return propertyFrame.text;
+      }
+
+      // If the current frame is within range of the property frame, return it
+      // Otherwise offset by one image frame and return that
+      if (c.currentFrame < property.start) {
+         return getValueWithOffset(c, propertyName, offset - 1)
+      } else if (c.currentFrame >= property.end) {
+         return getValueWithOffset(c, propertyName, offset + 1)
+      } else {
+         return propertyFrame.text;
+      }
+   }
+
+   console.log("c", propertyFrame);
+   // If this is just a normal propertFrame without metadata
+   return propertyFrame
 }
 
 function getName(character) {
-   return getValue(character, "names");
+   let value = getValue(character, "names");
+   if (value == undefined) return "Unknown"
+   return value
 }
 
 function getJob(character) {
-   let c = character;
-   return getValue(character, "jobs");
+   let value = getValue(character, "jobs");
+   if (value == undefined) return "Unknown"
+   return value
+}
+
+function getStatus(character) {
+   let value = getValue(character, "status");
+   if (value == undefined) return "Nominal"
+   return value
 }
