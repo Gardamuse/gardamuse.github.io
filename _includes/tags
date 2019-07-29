@@ -6,7 +6,12 @@
 
             {% when "bimbofication"%}
             <li class="tooltip"><p><img src="/assets/iq-down.svg" alt="Bimbofication" class="svg-icon">
-            <span class="tooltiptext">Bimbofication</span>
+            <span class="tooltiptext">Intelligence loss</span>
+            </p></li>
+
+            {% when "iq"%}
+            <li class="tooltip"><p><img src="/assets/iq-down.svg" alt="Bimbofication" class="svg-icon">
+            <span class="tooltiptext">Intelligence loss</span>
             </p></li>
 
             {% when "breast expansion"%}
