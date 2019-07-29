@@ -31,7 +31,7 @@ $tag-background-color: desaturate(darken($tag-color, 40%), 30%);
    backface-visibility: hidden;
 
    &:hover {
-      transform: translateY(-1em);
+      //transform: translateY(-1em);
       border: 2px solid $highlight-color;
 
       .title h2 {
@@ -220,4 +220,30 @@ $tag-color-hover: saturate(lighten($tag-color, 20%), 40%);
 
    /*https://codepen.io/sosuke/pen/Pjoqqp*/
    filter: invert(24%) sepia(36%) saturate(3264%) hue-rotate(307deg) brightness(89%) contrast(84%);
+}
+
+.card-small {
+   //width: 200px;
+   .thumb-container {
+      grid-row: 1 / -1;
+   }
+   .thumb-fade {
+      grid-row: 1 / -1;
+   }
+   .title {
+      grid-row: -2 / -1;
+      text-transform: capitalize;
+   }
+
+   &:before {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background: rgba(255, 255, 255, .0);
+      z-index: 10;
+   }
 }

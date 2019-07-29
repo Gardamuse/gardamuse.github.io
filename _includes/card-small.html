@@ -1,0 +1,16 @@
+<a class="project-card card-small" onclick="select('{{ include.title }}')" itemscope itemtype="https://schema.org/VideoGame">
+   <meta itemprop="applicationCategory" content="Game">
+   <meta itemprop="genre" content="Erotic">
+   <meta itemprop="operatingSystem" content="Windows, OSX, Linux">
+
+   <div class="thumb-container" style="">
+      {% if include.thumb %}
+      <img class="thumb" src="{{ include.thumb }}" itemprop="image" alt="{{ include.title }}" />
+      <meta itemprop="thumbnailUrl" content="{{ include.thumb }}" />
+      {% endif %}
+   </div>
+   <div class="thumb-fade"> </div>
+
+   <h2 class="title" itemprop="name">{{ include.title }}</h2>
+
+</a>
