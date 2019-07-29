@@ -107,6 +107,15 @@ async function nextImage(oldImage, newImage) {
    // Switch visible
    //buffer.style.opacity = 0
    //viewer.style.opacity = 0.99
+
+   // Display info
+   let nameF = document.getElementById("nameF")
+   let iqF = document.getElementById("iqF")
+   let jobF = document.getElementById("jobF")
+
+   nameF.innerHTML = getName(character);
+   iqF.innerHTML = getIQ(character);
+   jobF.innerHTML = getJob(character);
 }
 
 function step(stepSize) {
@@ -211,4 +220,30 @@ function nextCharacter(step = 1) {
          break
       }
    }
+}
+
+function getBimboFactor(character) {
+   let c = character;
+   return ((c.currentFrame - 1) / (c.length - 1))
+}
+
+function getIQ(character) {
+   let c = character;
+   return Math.round((1 - getBimboFactor(c)) * 100 + 40)
+}
+
+function getValue(character, propertyName) {
+   let c = character;
+   let property = c[propertyName];
+   if (property == undefined) return "Unknown"
+   return property[Math.round(getBimboFactor(c) * (property.length - 1))]
+}
+
+function getName(character) {
+   return getValue(character, "names");
+}
+
+function getJob(character) {
+   let c = character;
+   return getValue(character, "jobs");
 }

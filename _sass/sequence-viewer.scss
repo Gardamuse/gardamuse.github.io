@@ -5,12 +5,12 @@ $rowsHeight: $rows * 4rem;
 
 .app {
    display: grid;
-   grid-template-columns: 1fr 2fr 1fr;
+   grid-template-columns: 1fr 2fr 1fr 1fr;
    grid-template-rows: 500px 60px 200px;
    grid-template-areas:
-      ". main ."
-      ". control ."
-      ". select .";
+      ". main info ."
+      ". control control ."
+      ". select select .";
    background-color: $base-color;
    background-image: url("/assets/black-linen.png");
 
@@ -30,13 +30,30 @@ $rowsHeight: $rows * 4rem;
       background: $navbar-light;
    }
 
-   @media screen and (max-width: 500px) {
+   @media screen and (max-width: 1000px) {
+      grid-template-columns: 2fr;
+      grid-template-rows: calc(100vh - 4rem - 150px) 4rem 200px;
+      grid-template-areas:
+         "main"
+         "control"
+         "select";
+
+      #character-info {
+         display: none;
+      }
+   }
+
+   @media screen and (max-width: 650px) {
       grid-template-columns: 2fr;
       grid-template-rows: calc(100vh - #{$rowsHeight} - 150px) $rowsHeight 200px;
       grid-template-areas:
          "main"
          "control"
          "select";
+
+      #character-info {
+         display: none;
+      }
    }
 
 }
@@ -113,27 +130,31 @@ $rowsHeight: $rows * 4rem;
       //height: 200px;
    }
 
-   #menu-togge-label {
-      display: block;
-   }
-
    @media screen and (max-width: 1000px) {
       grid-template-columns: 0px 1fr;
-      grid-template-rows: calc(100vh - 4rem) 4rem;
       grid-template-areas:
          "select main"
          "control control";
-   }
-
-   @media screen and (max-width: 700px) {
-      grid-template-columns: 0px 1fr;
-      grid-template-rows: calc(100vh - 4rem) 4rem;
 
       .characters {
          position: fixed;
          height: calc(100vh - 4rem);
          grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
       }
+
+      #character-info {
+         position: fixed;
+         right: 0;
+         display: none;
+         height: calc(100vh - 4rem);
+         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      }
+
+   }
+
+   @media screen and (max-width: 700px) {
+      grid-template-columns: 0px 1fr;
+      grid-template-rows: calc(100vh - 4rem) 4rem;
    }
 
    @media screen and (max-width: 500px) {
@@ -153,10 +174,14 @@ $rowsHeight: $rows * 4rem;
 
    //background-color: #800;
 
-   @media screen and (max-width: 500px) {
+   @media screen and (max-width: 650px) {
       grid-template-columns: repeat($cols, 1fr);
       grid-template-rows: repeat($rows, 1fr);
    }
+}
+
+#character-info {
+   grid-area: info;
 }
 
 .menu-toggle {
@@ -175,9 +200,15 @@ $rowsHeight: $rows * 4rem;
    display: none;
 }
 
-.fullscreen .menu-toggle:checked ~ .characters {
-   //display: none;
-   transform: translateX(-100%);
+@media screen and (max-width: 1200px) {
+   .fullscreen .menu-toggle:checked ~ .characters {
+      //display: none;
+      transform: translateX(-100%);
+   }
+
+   #menu-togge-label {
+      display: block;
+   }
 }
 
 .svg-2 {

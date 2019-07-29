@@ -10,6 +10,10 @@
          "Williette",
          "Widette",
          "Vidette"
+      ],
+      "jobs": [
+         "Unemployed",
+         "Bimbo"
       ]
    },
    {
@@ -29,18 +33,75 @@
          "Titty",
          "Tits"
       ],
-      "length": 18
+      "length": 18,
+      "jobs": [
+         "Prima Ballerina",
+         "Ballerina",
+         "Dancer",
+         "Backup Dancer",
+         "Pop Dancer",
+         "Pop Star",
+         "Club Dancer",
+         "Pole Dancer",
+         "Strip Dancer"
+      ]
    },
    {
       "name": "kathy",
-      "length": 27
+      "length": 27,
+      "names": [
+         "Catheryn d'Euvraux",
+         "Catheryn",
+         "Katheryn",
+         "Katherine",
+         "Kathy",
+         "Katy",
+         "Kitty",
+         "Kitti"
+      ],
+      "jobs": [
+         "Chief Executive Officer",
+         "Vice Executive Officer",
+         "Department Manager",
+         "Section Officer",
+         "Group Supervisor",
+         "Sales Representative",
+         "Senior Accountant",
+         "Junior Accountant",
+         "Secretary",
+         "Receptionist",
+         "Assistant",
+         "Assistant Secretary",
+         "Service Maid",
+         "Coffee Girl",
+         "Office Bombshell",
+         "Office Bimbo",
+         "\"Sex Counselor\"",
+         "Secretitty",
+         "Hump Associate",
+         "Office Fuckdoll"
+      ]
    },
    {
       "name": "linyah",
-      "length": 44
+      "length": 44,
+      "names": [
+         "Linyah"
+      ],
+      "jobs": [
+         "Witchmaster",
+         "Witch",
+         "Mage",
+         "Enchantress",
+         "Love enchantress",
+         "Lust enchantress",
+         "Lustmagi",
+         "Kittymaid"
+      ]
    },
    {
       "name": "raygan",
+      "length": 20,
       "names": [
          "Raymond",
          "Raygan",
@@ -51,10 +112,22 @@
          "Becky",
          "Bessy"
       ],
-      "length": 20
+      "jobs": [
+         "Oil millionaire",
+         "Bandit",
+         "Cowboy",
+         "Cowgirl",
+         "Cowgirl",
+         "Milk maid",
+         "Cow maid",
+         "Milking cowgirl",
+         "Cattle girl",
+         "Breeder"
+      ]
    },
    {
       "name": "salvatore",
+      "length": 16,
       "names": [
          "Don Salvatore",
          "Capo Salvatore",
@@ -66,10 +139,21 @@
          "Sassie",
          "Sissie"
       ],
-      "length": 16
+      "jobs": [
+         "Godfather",
+         "Mafia boss",
+         "Street boss",
+         "Street soldier",
+         "Thug",
+         "Launder Lady",
+         "Arm candy",
+         "Escort girl",
+         "Don's Toy"
+      ]
    },
    {
       "name": "stephanie",
+      "length": 16,
       "names": [
          "Stefanija",
          "Stefania",
@@ -81,10 +165,22 @@
          "Tiffie",
          "Tiffy"
       ],
-      "length": 16
+      "jobs": [
+         "Olympic atlhete",
+         "Proffessional athlete",
+         "Athlete",
+         "Sports teacher",
+         "Cheerleader applicant",
+         "Cheerleader",
+         "Cheerleader",
+         "Cheerleader captain",
+         "Beach sport cheerleader",
+         "Bimbo cheerleader"
+      ]
    },
    {
       "name": "vanessa",
+      "length": 24,
       "names": [
          "Vanessa Stormcaller",
          "Vanessa the Witch",
@@ -95,6 +191,16 @@
          "Vivvi",
          "Vivi"
       ],
-      "length": 24
+      "jobs": [
+         "Arch Witchmaster",
+         "Witchmaster",
+         "Potion mistress",
+         "Witch",
+         "Young witch",
+         "Love enchantress",
+         "Breast enchantress",
+         "Lust magi",
+         "Lust Thrall"
+      ]
    }
 ]
