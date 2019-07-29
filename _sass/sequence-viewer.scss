@@ -130,6 +130,17 @@ $rowsHeight: $rows * 4rem;
       //height: 200px;
    }
 
+   @media screen and (max-width: 1200px) {
+      .menu-toggle:checked ~ .characters {
+         //display: none;
+         transform: translateX(-100%);
+      }
+
+      #menu-togge-label {
+         display: block;
+      }
+   }
+
    @media screen and (max-width: 1000px) {
       grid-template-columns: 0px 1fr;
       grid-template-areas:
@@ -198,17 +209,6 @@ $rowsHeight: $rows * 4rem;
 
 #menu-togge-label {
    display: none;
-}
-
-@media screen and (max-width: 1200px) {
-   .fullscreen .menu-toggle:checked ~ .characters {
-      //display: none;
-      transform: translateX(-100%);
-   }
-
-   #menu-togge-label {
-      display: block;
-   }
 }
 
 .svg-2 {
