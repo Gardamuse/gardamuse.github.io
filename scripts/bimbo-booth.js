@@ -7,7 +7,7 @@ let buffer = document.getElementById("buffer")
 
 let characters = {{ site.data.characters | jsonify }}
 for (let c of characters) {
-   c.currentFrame = 1
+   c.currentFrame = 0
 }
 //let characters = [
 //   {
@@ -122,7 +122,7 @@ async function nextImage(oldImage, newImage) {
 
 function step(stepSize) {
    let c = character
-   if (1 <= c.currentFrame + stepSize && c.currentFrame + stepSize <= c.length) {
+   if (0 <= c.currentFrame + stepSize && c.currentFrame + stepSize < c.length) {
 
       let oldImage = loadedImages[c.currentFrame]
       c.currentFrame += stepSize
@@ -134,7 +134,7 @@ function step(stepSize) {
 
 function gotoFrame(frameNr) {
    let c = character
-   if (1 <= frameNr && frameNr <= c.length) {
+   if (0 <= frameNr && frameNr < c.length) {
       let oldImage = loadedImages[c.currentFrame]
       c.currentFrame = frameNr
       let newImage = loadedImages[c.currentFrame]
@@ -173,7 +173,7 @@ function playpause() {
 async function play() {
    await wait(200)
    console.log(character.currentFrame, character.length);
-   if (character.currentFrame == character.length) {
+   if (character.currentFrame == character.length - 1) {
       playpause()
       return
    }
@@ -198,7 +198,7 @@ async function select(name) {
 // Preloads all images of a character
 let loadedImages = new Array()
 function loadCharacter(c) {
-   for (let i = 1; i < c.length+1; i++) {
+   for (let i = 0; i < c.length; i++) {
       loadedImages[i] = new Image()
       loadedImages[i].src = `/projects/bimbo-booth/${c.name}/${(i).toString().padStart(2, "0")}.png`
    }
@@ -259,7 +259,7 @@ function getBimboFactor(character) {
 
 function getBimboFactorWithOffset(character, offset) {
    let c = character;
-   return ((c.currentFrame + offset - 1) / (c.length - 1))
+   return ((c.currentFrame + offset) / (c.length - 1))
 }
 
 function getIQ(character) {
@@ -360,9 +360,8 @@ function getValue(character, propertyName) {
    // If the entry is numerical and we are not on a labeled entry
    // tween the number smoothly to the next entry value
    //console.log(c.currentFrame, property[propertyEntryIndex].end);
-   // TODO 0-index
    if (typeof propertyText == "number" &&
-   c.currentFrame - 1 >= propertyEntry.end) {
+   c.currentFrame >= propertyEntry.end) {
       // Number of image frames the tween will last
       let tweenFrames = propertyEntryNext.start - (propertyEntry.end - 1)
       //console.log(tweenFrames);
