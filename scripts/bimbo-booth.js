@@ -40,20 +40,22 @@ document.addEventListener('DOMContentLoaded', () => {
 
       // Bind keys to actions
       const key = event.key.toLowerCase();
-      if (key == 'n') {
+      if (key == 'n' || key == 'l'|| key == '.') {
          next()
-      } else if (key == 'b') {
+      } else if (key == 'b' || key == 'j'|| key == ',') {
          prev()
-      } else if (key == 'r') {
-         gotoFrame(1)
+      } else if (key == 'r' || key == '0') {
+         gotoFrame(0)
       } else if (key == 'f') {
          toggleFullscreen()
       } else if (key == 'a') {
          nextCharacter(-1)
       }else if (key == 'd') {
          nextCharacter(1)
-      }else if (key == 'p') {
+      }else if (key == 'p' || key == 'k') {
          playpause()
+      } else if (key == 'c') {
+         toggleCharacterSelect()
       }
    });
 
@@ -216,6 +218,11 @@ function toggleFullscreen() {
       document.body.style.overflow = "hidden"
       requestFullscreen();
    }
+}
+
+function toggleCharacterSelect() {
+   document.getElementById("menu-toggle").checked =
+      !document.getElementById("menu-toggle").checked;
 }
 
 function requestFullscreen() {

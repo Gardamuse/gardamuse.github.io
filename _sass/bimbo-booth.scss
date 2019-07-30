@@ -81,6 +81,7 @@ $rowsHeight: $rows * 4rem;
    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
    grid-auto-rows: 200px;
    justify-content: center;
+   background-color: $navbar-dark;
 
    overflow-y: scroll;
 }
@@ -136,10 +137,21 @@ $rowsHeight: $rows * 4rem;
       }
    }
 
-   @media screen and (max-width: 1200px) {
+   @media screen and (max-width: 1920px) {
+      grid-template-columns: 0px 1fr minmax(200px, 25vw);
+      grid-template-areas:
+         "select main info"
+         "control control control";
+
       .menu-toggle:checked ~ .characters {
          //display: none;
          transform: translateX(-100%);
+      }
+
+      .characters {
+         position: fixed;
+         height: calc(100vh - 4rem);
+         grid-template-columns: repeat(2, minmax(200px, 1fr));
       }
 
       #menu-togge-label {
@@ -147,16 +159,14 @@ $rowsHeight: $rows * 4rem;
       }
    }
 
-   @media screen and (max-width: 1000px) {
+   @media screen and (max-width: 1200px) {
       grid-template-columns: 0px 1fr;
       grid-template-areas:
          "select main"
          "control control";
 
       .characters {
-         position: fixed;
-         height: calc(100vh - 4rem);
-         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+         grid-template-columns: repeat(1, minmax(200px, 1fr));
       }
 
       #character-info {
