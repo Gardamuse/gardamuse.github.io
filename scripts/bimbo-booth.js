@@ -169,11 +169,12 @@ function playpause() {
 }
 
 async function play() {
+   await wait(200)
+   console.log(character.currentFrame, character.length);
    if (character.currentFrame == character.length) {
       playpause()
       return
    }
-   await wait(200)
    next()
    await wait(800)
    if (!paused) play()
