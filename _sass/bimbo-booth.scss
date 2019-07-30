@@ -1,6 +1,6 @@
-$buttons: 5;
-$rows: ceil($buttons / 2);
-$cols: floor($buttons / 2);
+$buttons: 6;
+$rows: floor($buttons / 2);
+$cols: ceil($buttons / 2);
 $rowsHeight: $rows * 4rem;
 
 .app {
@@ -174,7 +174,7 @@ $rowsHeight: $rows * 4rem;
       grid-template-rows: calc(100vh - 4rem) 4rem;
    }
 
-   @media screen and (max-width: 500px) {
+   @media screen and (max-width: 650px) {
       grid-template-rows: calc(100vh - #{$rowsHeight}) $rowsHeight;
 
       .characters {
@@ -218,6 +218,7 @@ $rowsHeight: $rows * 4rem;
 
 #menu-togge-label {
    display: none;
+   padding: 0.4em;
 }
 
 .svg-2 {
