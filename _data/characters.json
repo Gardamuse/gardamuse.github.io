@@ -12,19 +12,28 @@
          "Vidette"
       ],
       "iq": [
-         120,
          {
-            "text": 119,
-            "start": 9,
-            "end": 18
+            "text": 123,
+            "start": 0,
+            "end": 10
          },
          {
-            "text": 100,
+            "text": 115,
+            "start": 15,
+            "end": 16
+         },
+         {
+            "text": 105,
             "start": 25,
             "end": 26
          },
          {
-            "text": 90,
+            "text": 95,
+            "start": 33,
+            "end": 34
+         },
+         {
+            "text": 88,
             "start": 35,
             "end": 36
          },

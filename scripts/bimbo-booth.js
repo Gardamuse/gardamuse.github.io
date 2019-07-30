@@ -275,7 +275,7 @@ function getIQ(character) {
 * Returns the appropriate entry in the given array property of a character.
 */
 function getValue(character, propertyName) {
-   console.log("===", propertyName, "===");
+   //console.log("===", propertyName, "===");
    let c = character
    let property = c[propertyName]
    if (property == undefined) return undefined
@@ -364,7 +364,7 @@ function getValue(character, propertyName) {
    if (typeof propertyText == "number" &&
    c.currentFrame - 1 >= propertyEntry.end) {
       // Number of image frames the tween will last
-      let tweenFrames = propertyEntryNext.start - propertyEntry.end
+      let tweenFrames = propertyEntryNext.start - (propertyEntry.end - 1)
       //console.log(tweenFrames);
       //console.log(propertyStartBfs);
       //console.log(propertyEndBfs);
@@ -373,7 +373,11 @@ function getValue(character, propertyName) {
       let maxTween = propertyTextNext - propertyText
       // Remove one frame worth of value since it should not arrive
       // at the regular maxTween until the frame after the tween is done
-      maxTween = maxTween - maxTween * (1 / tweenFrames)
+      if (tweenFrames == 0) {
+         maxTween = 0
+      } else {
+         maxTween = maxTween - maxTween * (1 / tweenFrames)
+      }
 
       let thisBf = propertyEndBfs[propertyEntryIndex]
       //let thisBf = frameBfs[c.currentFrame - 1]
@@ -383,7 +387,7 @@ function getValue(character, propertyName) {
       } else {
          var tweenFactor = (bf - thisBf) / (nextBf - thisBf)
       }
-      console.log(propertyText, propertyTextNext, tweenFactor, maxTween, "=", propertyText + tweenFactor * maxTween);
+      //console.log(propertyText, propertyTextNext, tweenFactor, maxTween, "=", propertyText + tweenFactor * maxTween);
       return propertyText + tweenFactor * maxTween
    }
 
