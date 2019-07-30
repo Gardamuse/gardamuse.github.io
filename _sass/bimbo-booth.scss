@@ -1,6 +1,6 @@
 $buttons: 6;
-$rows: floor($buttons / 2);
-$cols: ceil($buttons / 2);
+$rows: 2;
+$cols: 3;
 $rowsHeight: $rows * 4rem;
 
 .app {
