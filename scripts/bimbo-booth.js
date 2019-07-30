@@ -199,12 +199,36 @@ function loadCharacter(c) {
 
 function toggleFullscreen() {
    if (app.classList.contains("fullscreen")) {
+      // Fullscreen off
       app.classList.remove("fullscreen")
       document.body.style.overflow = "visible"
+      cancelFullscreen();
    } else {
+      // Fullscreen on
       app.classList.add("fullscreen")
       document.body.style.overflow = "hidden"
+      requestFullscreen();
    }
+}
+
+function requestFullscreen() {
+  var doc = window.document;
+  var docEl = doc.documentElement;
+
+  var requestFullScreen = docEl.requestFullscreen || docEl.mozRequestFullScreen || docEl.webkitRequestFullScreen || docEl.msRequestFullscreen;
+
+  if(!doc.fullscreenElement && !doc.mozFullScreenElement && !doc.webkitFullscreenElement && !doc.msFullscreenElement) {
+    requestFullScreen.call(docEl);
+  }
+}
+
+function cancelFullscreen() {
+  var doc = window.document;
+  var docEl = doc.documentElement;
+
+  var cancelFullScreen = doc.exitFullscreen || doc.mozCancelFullScreen || doc.webkitExitFullscreen || doc.msExitFullscreen;
+
+  cancelFullScreen.call(doc);
 }
 
 function nextCharacter(step = 1) {
