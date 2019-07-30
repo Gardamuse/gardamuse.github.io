@@ -276,41 +276,76 @@ function getValue(character, propertyName) {
 * Offset is a number of image frames offset. Used for recursion.
 */
 function getValueWithOffset(character, propertyName, offset) {
-   let c = character;
-   let bf = getBimboFactorWithOffset(c, offset)
-   let property = c[propertyName];
+   let c = character
+   let property = c[propertyName]
    if (property == undefined) return undefined
 
-   // The array entry we are currently looking at
-   let propertyFrame = property[
-      Math.round(bf * (property.length - 1))
-   ];
+   // Create list with the start bimbofactor for each image frame
+   let frameBfs = []
+   for (let i = 0; i < c.length; i++) {
+      let frameBf = i / c.length
+      frameBfs.push(frameBf)
+   }
 
-   if (propertyFrame.start != undefined && propertyFrame.end != undefined) {
-      console.log("b", propertyFrame);
-      console.log(getBimboFactorWithOffset(character, offset - 1));
-      // If the next bf is out of bounds, this is the first or last propertyFrame
-      if (getBimboFactorWithOffset(character, offset - 1) <= 0) {
-         console.log(propertyFrame.text);
-         return propertyFrame.text;
-      } else if (getBimboFactorWithOffset(character, offset + 1) > 1) {
-         return propertyFrame.text;
-      }
+   // Create list with the start bf for each property entry
+   let propertyBfs = []
+   let nextBf = 0;
+   for (let i = 0; i < property.length; i++) {
+      let propertyBf = 0
+      let p = property[i]
+      if (p.start != undefined && p.end != undefined) {
+         // If this entry is defined
 
-      // If the current frame is within range of the property frame, return it
-      // Otherwise offset by one image frame and return that
-      if (c.currentFrame < property.start) {
-         return getValueWithOffset(c, propertyName, offset - 1)
-      } else if (c.currentFrame >= property.end) {
-         return getValueWithOffset(c, propertyName, offset + 1)
+         propertyBf = frameBfs[p.start]
+         nextBf = frameBfs[p.end]
       } else {
-         return propertyFrame.text;
+         // If it doesn't
+         propertyBf = nextBf
+
+         // Find the BF start for the next labeled entry
+         let nextStartExists = false
+         for (var j = i+1; j < property.length; j++) {
+            let p = property[j]
+            if (p.start != undefined && p.end != undefined) {
+               nextBf = p.start
+               nextStartExists = true
+               break
+            }
+         }
+         if (!nextStartExists) {
+            // If there are no more labeled entries, we use maximum BF
+            nextBf = 1
+         }
+
+         // Distribute the unlabeled entries until the next labeled one
+         unlabeledEntries = j - i
+         usableBf = nextBf - propertyBf
+         nextBf = propertyBf + usableBf / unlabeledEntries
+      }
+      propertyBfs.push(propertyBf)
+   }
+
+   // Select the frame we want based on current BF
+   let bf = getBimboFactorWithOffset(c, offset)
+   for (let i = 0; i < propertyBfs.length; i++) {
+      console.log(propertyName, bf, propertyBfs[i], propertyBfs[i+1]);
+      if (propertyBfs[i+1] == undefined) {
+         var propertyFrameIndex = propertyBfs.length - 1
+      }
+      if (bf >= propertyBfs[i] && bf < propertyBfs[i+1]) {
+         var propertyFrameIndex = i
+         break
       }
    }
 
-   console.log("c", propertyFrame);
-   // If this is just a normal propertFrame without metadata
-   return propertyFrame
+   console.log(propertyBfs);
+   let propertyFrame = property[propertyFrameIndex]
+   //console.log(propertyFrame);
+
+   if (propertyFrame.text != undefined) {
+      return propertyFrame.text;
+   }
+   return propertyFrame;
 }
 
 function getName(character) {

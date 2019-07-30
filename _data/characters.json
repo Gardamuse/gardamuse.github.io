@@ -13,21 +13,59 @@
       ],
       "jobs": [
          "Unemployed",
+         {
+            "text": "Prisoner",
+            "start": 1,
+            "end": 40
+         },
          "Bimbo"
       ],
       "status": [
          {
+            "text": "Nominal.",
+            "start": 0,
+            "end": 1
+         },
+         {
             "text": "Restraining procedure started.",
             "start": 1,
-            "end": 20
+            "end": 3
          },
-         "Clothing removal underway...",
-         "Muscle reduction serum injected.",
-         "Transforming reproductive organs",
-         "Applying physical feminization procedure",
-         "Supercharging hormone levels",
-         "Commencing memory reprogramming",
-         "Target has been rendered harmless, releasing...",
+         {
+            "text": "Clothing removal underway...",
+            "start": 3,
+            "end": 5
+         },
+         {
+            "text": "Muscle reduction serum injected.",
+            "start": 5,
+            "end": 9
+         },
+         {
+            "text": "Transforming reproductive organs...",
+            "start": 9,
+            "end": 15
+         },
+         {
+            "text": "Applying physical feminization procedure...",
+            "start": 15,
+            "end": 26
+         },
+         {
+            "text": "Supercharging hormone levels...",
+            "start": 26,
+            "end": 35
+         },
+         {
+            "text": "Commencing memory reprogramming.",
+            "start": 35,
+            "end": 40
+         },
+         {
+            "text": "Target has been rendered harmless, releasing...",
+            "start": 40,
+            "end": 41
+         },
          "Bimbofication complete."
       ]
    },
