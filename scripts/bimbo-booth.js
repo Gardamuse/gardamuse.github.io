@@ -264,18 +264,18 @@ function getBimboFactorWithOffset(character, offset) {
 
 function getIQ(character) {
    let c = character;
-   return Math.round((1 - getBimboFactor(c)) * 100 + 40)
-}
-
-function getValue(character, propertyName) {
-   return getValueWithOffset(character, propertyName, 0)
+   if (c.iq == undefined) {
+      return Math.round((1 - getBimboFactor(c)) * 100 + 40)
+   } else {
+      return Math.round(getValue(c, "iq"))
+   }
 }
 
 /**
 * Returns the appropriate entry in the given array property of a character.
-* Offset is a number of image frames offset. Used for recursion.
 */
-function getValueWithOffset(character, propertyName, offset) {
+function getValue(character, propertyName) {
+   console.log("===", propertyName, "===");
    let c = character
    let property = c[propertyName]
    if (property == undefined) return undefined
@@ -288,26 +288,29 @@ function getValueWithOffset(character, propertyName, offset) {
    }
 
    // Create list with the start bf for each property entry
-   let propertyBfs = []
+   let propertyStartBfs = []
+   let propertyEndBfs = []
    let nextBf = 0;
    for (let i = 0; i < property.length; i++) {
-      let propertyBf = 0
+      let propertyStartBf = 0
       let p = property[i]
       if (p.start != undefined && p.end != undefined) {
-         // If this entry is defined
+         // If this entry is labeled
 
-         propertyBf = frameBfs[p.start]
+         propertyStartBf = frameBfs[p.start]
+         propertyEndBf = frameBfs[p.end]
          nextBf = frameBfs[p.end]
       } else {
-         // If it doesn't
-         propertyBf = nextBf
+         // If it is not labeled
+         propertyStartBf = nextBf
+         //console.log("First next:", nextBf);
 
          // Find the BF start for the next labeled entry
          let nextStartExists = false
          for (var j = i+1; j < property.length; j++) {
             let p = property[j]
             if (p.start != undefined && p.end != undefined) {
-               nextBf = p.start
+               nextBf = frameBfs[p.start]
                nextStartExists = true
                break
             }
@@ -318,34 +321,80 @@ function getValueWithOffset(character, propertyName, offset) {
          }
 
          // Distribute the unlabeled entries until the next labeled one
-         unlabeledEntries = j - i
-         usableBf = nextBf - propertyBf
-         nextBf = propertyBf + usableBf / unlabeledEntries
+         let unlabeledEntries = j - i
+         let usableBf = nextBf - propertyStartBf
+         //console.log("next - property:", usableBf, propertyStartBf);
+         nextBf = propertyStartBf + usableBf / unlabeledEntries
+         propertyEndBf = nextBf
+         //console.log("usable:", usableBf);
       }
-      propertyBfs.push(propertyBf)
+      //console.log("prop:", propertyStartBf);
+      propertyStartBfs.push(propertyStartBf)
+      propertyEndBfs.push(propertyEndBf)
    }
 
-   // Select the frame we want based on current BF
-   let bf = getBimboFactorWithOffset(c, offset)
-   for (let i = 0; i < propertyBfs.length; i++) {
-      console.log(propertyName, bf, propertyBfs[i], propertyBfs[i+1]);
-      if (propertyBfs[i+1] == undefined) {
-         var propertyFrameIndex = propertyBfs.length - 1
+   // Select the entry index we want based on current BF
+   let bf = getBimboFactor(c)
+   for (let i = 0; i < propertyStartBfs.length; i++) {
+      //console.log(propertyName, bf, propertyStartBfs[i], propertyStartBfs[i+1]);
+      if (propertyStartBfs[i+1] == undefined) {
+         // If this is the last entry
+
+         var propertyEntryIndex = propertyStartBfs.length - 1
+         var propertyEntryIndexNext = propertyStartBfs.length - 1
       }
-      if (bf >= propertyBfs[i] && bf < propertyBfs[i+1]) {
-         var propertyFrameIndex = i
+      if (bf >= propertyStartBfs[i] && bf < propertyStartBfs[i+1]) {
+         var propertyEntryIndex = i
+         var propertyEntryIndexNext = i + 1
          break
       }
    }
 
-   console.log(propertyBfs);
-   let propertyFrame = property[propertyFrameIndex]
-   //console.log(propertyFrame);
+   // Get the entry
+   //console.log(propertyStartBfs);
+   let propertyEntry = property[propertyEntryIndex]
+   let propertyEntryNext = property[propertyEntryIndexNext]
+   let propertyText = getEntryText(propertyEntry)
+   let propertyTextNext = getEntryText(propertyEntryNext)
 
-   if (propertyFrame.text != undefined) {
-      return propertyFrame.text;
+   // If the entry is numerical and we are not on a labeled entry
+   // tween the number smoothly to the next entry value
+   //console.log(c.currentFrame, property[propertyEntryIndex].end);
+   // TODO 0-index
+   if (typeof propertyText == "number" &&
+   c.currentFrame - 1 >= propertyEntry.end) {
+      // Number of image frames the tween will last
+      let tweenFrames = propertyEntryNext.start - propertyEntry.end
+      //console.log(tweenFrames);
+      //console.log(propertyStartBfs);
+      //console.log(propertyEndBfs);
+
+      // The amount to add to current value at tweenFactor = 1
+      let maxTween = propertyTextNext - propertyText
+      // Remove one frame worth of value since it should not arrive
+      // at the regular maxTween until the frame after the tween is done
+      maxTween = maxTween - maxTween * (1 / tweenFrames)
+
+      let thisBf = propertyEndBfs[propertyEntryIndex]
+      //let thisBf = frameBfs[c.currentFrame - 1]
+      let nextBf = propertyStartBfs[propertyEntryIndexNext]
+      if (nextBf == thisBf) {
+         var tweenFactor = (bf - thisBf) / 1
+      } else {
+         var tweenFactor = (bf - thisBf) / (nextBf - thisBf)
+      }
+      console.log(propertyText, propertyTextNext, tweenFactor, maxTween, "=", propertyText + tweenFactor * maxTween);
+      return propertyText + tweenFactor * maxTween
    }
-   return propertyFrame;
+
+   return propertyText;
+}
+
+function getEntryText(entry) {
+   if (entry.text != undefined) {
+      return entry.text
+   }
+   return entry
 }
 
 function getName(character) {

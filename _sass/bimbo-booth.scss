@@ -130,6 +130,12 @@ $rowsHeight: $rows * 4rem;
       //height: 200px;
    }
 
+   #character-info {
+      h3 {
+         font-size: 1.4em;
+      }
+   }
+
    @media screen and (max-width: 1200px) {
       .menu-toggle:checked ~ .characters {
          //display: none;
@@ -193,6 +199,9 @@ $rowsHeight: $rows * 4rem;
 
 #character-info {
    grid-area: info;
+   h3 {
+      font-size: 1.2em;
+   }
 }
 
 .menu-toggle {

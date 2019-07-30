@@ -11,6 +11,29 @@
          "Widette",
          "Vidette"
       ],
+      "iq": [
+         120,
+         {
+            "text": 119,
+            "start": 9,
+            "end": 18
+         },
+         {
+            "text": 100,
+            "start": 25,
+            "end": 26
+         },
+         {
+            "text": 90,
+            "start": 35,
+            "end": 36
+         },
+         {
+            "text": 40,
+            "start": 39,
+            "end": 40
+         }
+      ],
       "jobs": [
          "Unemployed",
          {
@@ -18,7 +41,7 @@
             "start": 1,
             "end": 40
          },
-         "Bimbo"
+         "Cuddle pet"
       ],
       "status": [
          {
