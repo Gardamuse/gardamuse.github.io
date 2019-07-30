@@ -161,11 +161,11 @@ function playpause() {
       play()
 
       // Button should now be for pausing
-      button.innerHTML = "<u>P</u>ause"
+      button.innerHTML = "<img src='/assets/pause.svg' alt='' class='svg-2'>"
    } else {
       // Pause
       paused = true
-      button.innerHTML = "<u>P</u>lay"
+      button.innerHTML = "<img src='/assets/play.svg' alt='' class='svg-2'>"
    }
 
 }
