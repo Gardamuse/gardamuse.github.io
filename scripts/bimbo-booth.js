@@ -113,13 +113,12 @@ async function nextImage(oldImage, newImage) {
    // Display info
    let nameF = document.getElementById("nameF")
    let iqF = document.getElementById("iqF")
-   let jobF = document.getElementById("jobF")
-   let statusF = document.getElementById("statusF")
 
    nameF.innerHTML = getName(character);
    iqF.innerHTML = getIQ(character);
-   jobF.innerHTML = getJob(character);
-   statusF.innerHTML = getStatus(character);
+
+   updateJobF(character);
+   updateStatusF(character);
 }
 
 function step(stepSize) {
@@ -174,7 +173,6 @@ function playpause() {
 
 async function play() {
    await wait(200)
-   console.log(character.currentFrame, character.length);
    if (character.currentFrame == character.length - 1) {
       playpause()
       return
@@ -413,14 +411,28 @@ function getName(character) {
    return value
 }
 
-function getJob(character) {
+function updateJobF(character) {
+   let field = document.getElementById("jobF")
+   let label = document.getElementById("jobL")
+
    let value = getValue(character, "jobs");
-   if (value == undefined) return "Unknown"
-   return value
+   if (value == undefined) {
+      label.style.display = "none"
+      return
+   }
+   label.style.display = "block"
+   field.innerHTML = value;
 }
 
-function getStatus(character) {
+function updateStatusF(character) {
+   let field = document.getElementById("statusF")
+   let label = document.getElementById("statusL")
+
    let value = getValue(character, "status");
-   if (value == undefined) return "Nominal"
-   return value
+   if (value == undefined) {
+      label.style.display = "none"
+      return
+   }
+   label.style.display = "block"
+   field.innerHTML = value;
 }
