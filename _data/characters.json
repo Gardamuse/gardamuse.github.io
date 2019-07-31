@@ -233,9 +233,70 @@
    },
    {
       "name": "richard",
-      "length": 40,
+      "length": 39,
       "names": [
          "Richard"
+      ],
+      "iq": [
+         {
+            "text": 108,
+            "start": 0,
+            "end": 3
+         },
+         {
+            "text": 104,
+            "start": 3,
+            "end": 4
+         },
+         {
+            "text": 99,
+            "start": 6,
+            "end": 7
+         },
+         {
+            "text": 95,
+            "start": 12,
+            "end": 20
+         },
+         {
+            "text": 85,
+            "start": 27,
+            "end": 28
+         },
+         {
+            "text": 57,
+            "start": 35,
+            "end": 36
+         },
+         {
+            "text": 55,
+            "start": 38,
+            "end": 39
+         }
+      ],
+      "jobs": [
+         {
+            "text": "Grand Knight",
+            "start": 0,
+            "end": 2
+         },
+         "Guardian Knight",
+         "Knight",
+         "Guardian",
+         "Defender",
+         "Protector",
+         "Esquire",
+         {
+            "text": "Attendant",
+            "start": 23,
+            "end": 27
+         },
+         "Waitress",
+         {
+            "text": "Lust maid",
+            "start": 36,
+            "end": 39
+         }
       ]
    },
    {
