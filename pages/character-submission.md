@@ -67,7 +67,7 @@ Comment: Super Mario's taking the blame for this one, thanks to the Cat Suit (al
 
 
 ### Writing
-Writing for a character can be submitted as a JSON file (just a plain .txt file formatted in a particular manner). There are several properties. Below is a list of available properties, and below that an example of how a JSON file may look like.
+Writing for a character can be submitted as a [JSON](http://montoyamoraga.io/tutorial-json/) file (just a plain .txt file formatted in a particular manner). There are several properties. Below is a list of available properties, and below that an example of how a JSON file may look like.
 
 * __name__ _(required)_ is just the identifier of your character and should be lower-case.
 * __length__ _(required)_ is the number of frames in the transformation sequence.
