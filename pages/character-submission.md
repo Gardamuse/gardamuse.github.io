@@ -4,6 +4,12 @@ permalink: /character-submission/
 layout: single-post
 ---
 
+So, you want to submit a character? That's great, I love seeing all high quality characters :D
+
+At minimum you will have to submit a [Kisekae 2](http://pochi.lix.jp/k_kisekae2.html) image sequence, but likely you will want to submit some writing (name, story etc.) as well! This page details what you have to do.
+
+(If you are looking to submit a non-kisekae character sequence, get in touch! My e-mail is gardamuse@gmail.com.)
+
 ### Gettings Started
 * Read this document.
 * Create three frames: High IQ / Medium IQ / Low IQ.
