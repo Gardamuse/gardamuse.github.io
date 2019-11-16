@@ -42,11 +42,11 @@
    <meta property="og:type" content="webpage" />
    <meta property="og:description" content="{{ description }}">
    {% if page.thumb %}
-   <meta property="og:image" content="{{ page.thumb }}" />
+   <meta property="og:image" content="{{ site.url }}{{ page.thumb }}" />
    {% else %}
-   <meta property="og:image" content="/assets/BD.png" />
+   <meta property="og:image" content="{{ site.url }}/assets/BD.png" />
    {% endif %}
-   <meta property="og:url" content="{{ site.author.url }}{{ page.url }}" />
+   <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
    <link rel="canonical" href="{{ site.author.url }}{{ page.url }}" />
    <meta itemprop="keywords" content="{{ keywords }}" />
 
