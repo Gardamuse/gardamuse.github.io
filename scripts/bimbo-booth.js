@@ -113,9 +113,11 @@ async function nextImage(oldImage, newImage) {
    // Display info
    let nameF = document.getElementById("nameF")
    let iqF = document.getElementById("iqF")
+   let artistF = document.getElementById("artistF")
 
    nameF.innerHTML = getName(character);
    iqF.innerHTML = getIQ(character);
+   artistF.innerHTML = getArtist(character);
 
    updateJobF(character);
    updateStatusF(character);
@@ -408,6 +410,12 @@ function getEntryText(entry) {
 function getName(character) {
    let value = getValue(character, "names");
    if (value == undefined) return "Unknown"
+   return value
+}
+
+function getArtist(character) {
+   let value = character.artist;
+   if (value == undefined) return "Gardamuse"
    return value
 }
 
