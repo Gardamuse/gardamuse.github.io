@@ -18,6 +18,7 @@ plugins:
   - jekyll-paginate
   - jekyll-coffeescript
   - jekyll-sitemap
+  - jekyll-redirect-from
 
 #Others
 markdown: kramdown

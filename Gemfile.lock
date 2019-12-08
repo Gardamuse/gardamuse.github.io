@@ -41,6 +41,8 @@ GEM
       coffee-script (~> 2.2)
       coffee-script-source (~> 1.11.1)
     jekyll-paginate (1.1.0)
+    jekyll-redirect-from (0.15.0)
+      jekyll (>= 3.3, < 5.0)
     jekyll-sass-converter (1.5.2)
       sass (~> 3.4)
     jekyll-sitemap (1.2.0)
@@ -82,10 +84,11 @@ DEPENDENCIES
   jekyll-cayman-theme!
   jekyll-coffeescript
   jekyll-paginate
+  jekyll-redirect-from
   jekyll-sitemap
   kramdown
   pygments.rb
   rake (~> 10.0)
 
 BUNDLED WITH
-   1.17.1
+   1.17.3
