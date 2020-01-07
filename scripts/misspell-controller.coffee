@@ -19,13 +19,14 @@ terminal.value = ""
    #   output.innerHTML = '<p>' + bimboMisspell.bimbofy(terminal.value, bimbofactor).replace(/(\n|\r|\r\n)/g, '</p><p>')
    #   e.preventDefault()
 
-@updateSlider = ->
+@updateSlider = () ->
    bimbofactor = (100 - document.getElementById('slider').value) / 100
    iqDisplay.innerHTML = 'IQ: ' + Math.round((1-bimbofactor) * 100 + 40)
 
 @addToSlider = (x) ->
    value = parseInt(document.getElementById('slider').value)
    value += x
+   document.getElementById('slider').value = value
    updateSlider()
 
 @bimbofyButton = (e) ->
