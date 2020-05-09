@@ -1,5 +1,45 @@
 [
    {
+      "name": "angela",
+      "length": 32,
+      "startFrame": 17,
+      "names": [
+         "Succubus",
+         "Human",
+         "Angel"
+      ],
+      "iq": [
+         {
+            "text": 137,
+            "start": 0,
+            "end": 1
+         },
+         {
+            "text": 80,
+            "start": 12,
+            "end": 13
+         },
+         {
+            "text": 97,
+            "start": 17,
+            "end": 20
+         },
+         {
+            "text": 122,
+            "start": 31,
+            "end": 32
+         }
+      ],
+      "status": [
+         {
+            "text": "Jealous.",
+            "start": 0,
+            "end": 1
+         },
+         "Happy Beach Bimbo!"
+      ]
+   },
+   {
       "name": "wanda",
       "length": 24,
       "artist": "<a href='https://www.youtube.com/channel/UC_Cn3RZ3IDgkFBye-5Ejgvw'>CraftTG</a>",

@@ -7,7 +7,11 @@ let buffer = document.getElementById("buffer")
 
 let characters = {{ site.data.characters | jsonify }}
 for (let c of characters) {
-   c.currentFrame = 0
+   if (c.startFrame != undefined) {
+      c.currentFrame = c.startFrame
+   } else {
+      c.currentFrame = 0
+   }
 }
 //let characters = [
 //   {
