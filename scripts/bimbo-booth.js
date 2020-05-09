@@ -10,6 +10,7 @@ for (let c of characters) {
    if (c.startFrame != undefined) {
       c.currentFrame = c.startFrame
    } else {
+      c.startFrame = 0
       c.currentFrame = 0
    }
 }
@@ -49,7 +50,7 @@ document.addEventListener('DOMContentLoaded', () => {
       } else if (key == 'b' || key == 'j'|| key == ',') {
          prev()
       } else if (key == 'r' || key == '0') {
-         gotoFrame(0)
+         gotoFrame(character.startFrame)
       } else if (key == 'f') {
          toggleFullscreen()
       } else if (key == 'a') {
