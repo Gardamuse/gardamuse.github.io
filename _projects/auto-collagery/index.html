@@ -1,0 +1,79 @@
+---
+title: Auto Collagery
+permalink: /auto-collagery/
+layout: empty
+tags: []
+thumb: /projects/auto-collagery/thumb.jpg
+description: "Create animated collages by selecting some of your own images, adjusting the sliders and press play.
+
+
+Perfect for when you want a slideshow but would like to see more than one image at a time."
+---
+<!DOCTYPE html>
+<html>
+
+<head>
+   <meta charset="utf-8">
+   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet" type="text/css">
+   <link href="https://fonts.googleapis.com/css?family=Croissant+One" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Maven+Pro:500" rel="stylesheet">
+</head>
+
+<body>
+   <nav>
+      <div id="menuToggle">
+         <input id="hamburger" type="checkbox" checked />
+         <span class="hamburgerSpan"></span>
+         <span class="hamburgerSpan"></span>
+         <span class="hamburgerSpan"></span>
+
+         <div id="menu">
+            <h1>
+               <a id="backLink" href="https://www.blushingdefeat.com/play/">
+                  Blushing Defeat
+               </a>
+            </h1>
+            <h1> Auto Collagery </h1>
+            <p>
+               Create your own animated collages. Add some images, tweak the parameters and press play!
+            </p>
+            <br>
+            <p style="margin-bottom: 6px;"> Loaded images: <span id="loadedImagesF">0</span> </p>
+            <label class="pink-button">
+               Add Images
+               <input type="file" id="loadFiles" multiple>
+            </label>
+            <br><br>
+            <div>
+               <p for="widthS">Grid width: <span id="widthF"></span> px</p>
+               <input type="range" id="widthSlider" name="widthS" min="0" max="100" step="2">
+            </div>
+            <div>
+               <p for="heightS">Grid height: <span id="heightF"></span> px</p>
+               <input type="range" id="heightSlider" name="heightS" min="0" max="100" step="2">
+            </div>
+            <br>
+            <div>
+               <p for="randomImageCountS">Nr of images to randomize: <span id="randomImageCountF"></span></p>
+               <input type="range" id="randomImageCountS" min="0" max="40" step="1" value="1">
+            </div>
+            <div>
+               <p for="playDelayS">Randomization delay: <span id="playDelayF"></span> seconds</p>
+               <input type="range" id="playDelayS" min="0" max="120" step="1" value="4">
+            </div>
+            <br>
+            <div>
+               <p for="smallCountS">Nr of small images: <span id="smallCountF"></span></p>
+               <input type="range" id="smallCountS" min="0" max="40" step="1" value="0">
+            </div>
+            <br>
+            <button id="playB" class="pink-button">Play</button>
+            <button id="resetB" class="pink-button">Reset</button>
+         </div>
+      </div>
+   </nav>
+   <div id="mosaic"></div>
+   <script type="text/javascript" src="/scripts/auto-collagery.js"></script>
+</body>
+
+</html>
