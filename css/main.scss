@@ -290,10 +290,15 @@ footer a:hover {
 
 .patreon-post {
    padding: 0 !important;
+   border: 0 !important;
    
    a {
       margin: 0;
    }
+}
+
+.patreon-image-dark {
+   border: 1px solid darken($highlight-color, 20%) !important;
 }
 
 .patreon-image {
@@ -306,7 +311,7 @@ footer a:hover {
    height: 280px;
    margin-left: auto;
    margin-right: auto;
-   border: 2px solid darken($text-light, 10%);
+   border: 1px solid darken($text-light, 10%);
    border-radius: 3px;
    
    backface-visibility: hidden;
