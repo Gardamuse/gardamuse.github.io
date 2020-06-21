@@ -62,29 +62,28 @@ body:hover {
 .dual {
    display: grid;
    grid-gap: 0em;
-   grid-template-columns:
-      3fr minmax(40ch, 85ch) minmax(40ch, 20vw) 3fr;
-   grid-template-areas:
-      ".      main    side    .      "
-      ".      comment .       .      ";
+   grid-template-columns: 3fr [main] minmax(40ch, 85ch) [side] minmax(40ch, 20vw) 3fr;
 
    @media screen and (max-width: 90ch) {
-      grid-template-columns:
-         3fr minmax(30ch, 85ch) 3fr;
-      grid-template-areas:
-         ".      main    .       "
-         ".      side    .       "
-         ".      comment .       ";
+      grid-template-columns: [main] minmax(30ch, 85ch);
    }
 }
 
 .main {
-   grid-area: main;
+   grid-column: main;
+   
+   @media screen and (max-width: 90ch) {
+      grid-column: main;
+   }
 }
 
 .side {
-   grid-area: side;
+   grid-column: side;
    align-self: start;
+   
+   @media screen and (max-width: 90ch) {
+      grid-column: main;
+   }
 }
 
 a {
@@ -287,6 +286,34 @@ footer a:hover {
    max-width: 1400px;
    margin-top: 20px !important;
    margin-bottom: 20px !important;
+}
+
+.patreon-post {
+   padding: 0 !important;
+   
+   a {
+      margin: 0;
+   }
+}
+
+.patreon-image {
+   background: url("../assets/patreon-button.jpg");
+   background-size: cover;
+   background-position: center top, left top;
+   background-repeat: no-repeat;
+   width: 100%;
+   max-width: 400px;
+   height: 280px;
+   margin-left: auto;
+   margin-right: auto;
+   border: 2px solid darken($text-light, 10%);
+   border-radius: 3px;
+   
+   backface-visibility: hidden;
+   transition: transform 0.3s;
+   &:hover {
+      transform: scale(1.048) translateY(0px) translateX(0px);
+   }
 }
 
 @import "header";
