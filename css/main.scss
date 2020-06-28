@@ -8,6 +8,7 @@ $navbar-light: #541A32;
 $navbar-dark: #260C1A;
 $text-light: lighten(#EEF0F2, 10%);
 $text-color: darken(#606c71, 10%);
+$h-color: #8D141E;
 $header-dark: #643173;
 $header-light: #AD343E;
 $oc1: $text-light;
@@ -142,7 +143,7 @@ h6 {
    margin-top: 0;
    margin-bottom: 1rem;
    //font-weight: normal;
-   color: #8D141E;
+   color: $h-color;
    font-family: $h-font;
 }
 
@@ -249,6 +250,17 @@ hr {
 .comment {
    grid-area: comment;
    align-self: center;
+}
+
+.spoiler {
+   color: $h-color;
+   background-color: $h-color;
+   border-radius: 3px;
+   
+   &:hover {
+      color: $text-color;
+      background-color: $text-light;
+   }
 }
 
 // FOOTER
