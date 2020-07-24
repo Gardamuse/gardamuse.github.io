@@ -54,7 +54,7 @@ body:hover {
 .single {
    display: grid;
    grid-template-columns:
-      1fr minmax(250px, 85ch) 1fr;
+      1fr [main] minmax(250px, 85ch) 1fr;
    grid-template-areas:
       ".      main    .     "
       ".      comment .     ";
