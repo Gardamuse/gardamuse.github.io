@@ -32,3 +32,6 @@ terminal.value = ""
 @bimbofyButton = (e) ->
    #console.log(bimbofactor)
    output.innerHTML = '<p>' + mispell.bimbofy(terminal.value, bimbofactor).replace(/(\n|\r|\r\n)/g, '</p><p>')
+
+@complexityButton = (e) ->
+   output.innerHTML = '<p>' + mispell.scramble_complexity(terminal.value, bimbofactor).replace(/(\n|\r|\r\n)/g, '</p><p>')
