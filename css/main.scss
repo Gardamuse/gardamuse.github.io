@@ -18,9 +18,7 @@ $oc3: $text-light;
 $header-font: 'Croissant One', "Open Sans", "Helvetica Neue";
 $h-font: "Maven Pro", "Open Sans", "Helvetica Neue";
 $main-font: "Open Sans", "Open Sans", "Helvetica Neue";
-
 $mobile-width: 40ch;
-
 /* General */
 * {
    backface-visibility: hidden;
@@ -41,7 +39,6 @@ body {
    background-color: $base-color;
    background-image: url("/assets/black-linen.png");
    /* This and other patterns by https://www.transparenttextures.com */
-
    display: flex;
    flex-direction: column;
    height: 100%;
@@ -53,71 +50,118 @@ body:hover {
 
 .single {
    display: grid;
-   grid-template-columns:
-      1fr [main] minmax(250px, 85ch) 1fr;
-   grid-template-areas:
-      ".      main    .     "
-      ".      comment .     ";
+   grid-template-columns: 1fr [main] minmax(250px, 85ch) 1fr;
+   grid-template-areas: ". main . " ". comment . ";
 }
 
 .dual {
    display: grid;
-   grid-gap: 0em;
+   grid-gap: 0;
    grid-template-columns: 3fr [main] minmax(40ch, 85ch) [side] minmax(40ch, 20vw) 3fr;
-
    @media screen and (max-width: 90ch) {
       grid-template-columns: [main] minmax(30ch, 85ch);
    }
 }
 
+.content-area {
+   a {
+      color: $link-color;
+      text-decoration: none;
+      transition: color 0.2s;
+      position: relative;
+
+      &::after {
+         position: absolute;
+         content: '';
+         display: block;
+         background: $highlight-color;
+         bottom: 0;
+         left: 50%;
+         height: 1px;
+         width: 0;
+         transition: width 0.2s, left 0.2s;
+      }
+   }
+
+   a:hover {
+      //text-decoration: underline;
+      &::after {
+         width: 100%;
+         left: 0;
+      }
+   }
+
+   h2 {
+      font-size: 2em;
+   }
+
+   h1,
+   h2,
+   h3,
+   h4,
+   h5,
+   h6 {
+      margin-top: 0;
+      margin-bottom: 1rem;
+      //font-weight: normal;
+      color: $h-color;
+      font-family: $h-font;
+   }
+
+   code {
+      padding: 2px 4px;
+      font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+      font-size: 0.9em;
+      //color: #567482;
+      //background-color: rgba(#f3f6fa, 0.5);
+      border-color: $highlight-color;
+      border-radius: 0.3rem;
+   }
+
+   blockquote {
+      background-color: darken($text-light, 4%);
+      padding: 0.5rem 1rem;
+      margin-left: 0;
+      border-left: 0.3rem solid #8D141E;
+
+      p {
+         color: lighten($text-color, 3%);
+      }
+
+      > :first-child {
+         margin-top: 0;
+      }
+
+      > :last-child {
+         margin-bottom: 0;
+      }
+   }
+
+   hr {
+      color: darken($highlight-color, 20%);
+      background-color: darken($highlight-color, 20%);
+      height: 1px;
+      border: none;
+      margin-top: 1em;
+      margin-bottom: 1em;
+   }
+}
+
 .main {
+   @extend .content-area;
    grid-column: main;
-   
    @media screen and (max-width: 90ch) {
       grid-column: main;
    }
 }
 
 .side {
+   @extend .content-area;
    grid-column: side;
    align-self: start;
-   
    @media screen and (max-width: 90ch) {
       grid-column: main;
    }
-}
-
-a {
-   color: $link-color;
-   text-decoration: none;
-   transition: color 0.2s;
-   position: relative;
-
-   &::after {
-      position: absolute;
-      content: '';
-      display: block;
-      background: $highlight-color;
-      bottom: 0;
-      left: 50%;
-      height: 1px;
-      width: 0%;
-
-      transition: width 0.2s, left 0.2s;
-   }
-}
-
-a:hover {
-   //text-decoration: underline;
-
-   &::after{
-      width: 100%;
-      left: 0;
-   }
-}
-
-h2 {
-   font-size: 2em;
 }
 
 /* Content */
@@ -134,61 +178,11 @@ h2 {
    max-width: 100%;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-   margin-top: 0;
-   margin-bottom: 1rem;
-   //font-weight: normal;
-   color: $h-color;
-   font-family: $h-font;
-}
-
-code {
-   padding: 2px 4px;
-   font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
-   font-size: 0.9em;
-   //color: #567482;
-   //background-color: rgba(#f3f6fa, 0.5);
-   border-color: $highlight-color;
-   border-radius: 0.3rem;
-}
-
-blockquote {
-   background-color: darken($text-light, 4%);
-   padding: 0.5rem 1rem;
-   margin-left: 0;
-   border-left: 0.3rem solid #8D141E;
-
-   p {
-      color: lighten($text-color, 3%);
-   }
-
-   > :first-child {
-      margin-top: 0;
-   }
-
-   > :last-child {
-      margin-bottom: 0;
-   }
-}
 
 .main-content:after {
    content: "";
    display: table;
    clear: both;
-}
-
-hr {
-   color: darken($highlight-color, 20%);
-   background-color: darken($highlight-color, 20%);
-   height: 1px;
-   border: none;
-   margin-top: 1em;
-   margin-bottom: 1em;
 }
 
 .dark-app {
@@ -198,7 +192,6 @@ hr {
 .dark-app .post {
    color: $text-color;
 }
-
 // OTHER
 
 .side-column .content-navigation {
@@ -228,7 +221,6 @@ hr {
    border-radius: 2px;
    background-color: fade-out($link-color, 0.9);
    margin-right: 0.5em;
-
    transition: background-color 0.3s, border 0.3s, color 0.3s;
 }
 
@@ -256,14 +248,14 @@ hr {
    color: $h-color;
    background-color: $h-color;
    border-radius: 3px;
-   
+
    &:hover {
       color: $text-color;
       background-color: $text-light;
    }
 }
-
 // FOOTER
+
 footer {
    padding-top: 2em;
    padding-bottom: 2em;
@@ -275,7 +267,6 @@ footer {
    width: 100%;
    //margin: auto;
    margin-top: auto;
-
    grid-area: footer;
 }
 
@@ -303,7 +294,7 @@ footer a:hover {
 .patreon-post {
    padding: 0 !important;
    border: 0 !important;
-   
+
    a {
       margin: 0;
    }
@@ -325,19 +316,17 @@ footer a:hover {
    margin-right: auto;
    border: 1px solid darken($text-light, 10%);
    border-radius: 3px;
-   
    backface-visibility: hidden;
    transition: transform 0.3s;
+
    &:hover {
       transform: scale(1.048) translateY(0px) translateX(0px);
    }
 }
-
 @import "header";
 @import "nav";
 @import "posts";
 @import "projects";
-
 @import "character_viewer";
 @import "slider";
 @import "text-game";
