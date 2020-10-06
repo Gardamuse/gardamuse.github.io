@@ -1,5 +1,5 @@
 /* Navigation */
-$navbar-items: 3;
+$navbar-items: 4;
 /* How many items are in the navbar */
 .navbar {
    background-color: $navbar-light;
@@ -9,7 +9,7 @@ $navbar-items: 3;
 
    grid-area: navbar;
    display: grid;
-   grid-template-columns: repeat(3, minmax(100px, 300px));
+   grid-template-columns: repeat($navbar-items, minmax(100px, 240px));
    grid-template-rows: 3.2em;
    justify-content: center;
    //grid-gap: 2px;

@@ -21,31 +21,6 @@ description: "Play erotic games and browse apps with a focus on transformation, 
    <div class="project-board">
       {% for post in sortedposts %}
       {% include card.html url=post.permalink thumb=post.thumb title=post.title tags=post.tags description=post.description %}
-      <!--<a class="project-card" href="{{ post.permalink }}" itemscope itemtype="https://schema.org/VideoGame">
-         <meta itemprop="applicationCategory" content="Game">
-         <meta itemprop="genre" content="Erotic">
-         <meta itemprop="operatingSystem" content="Windows, OSX, Linux">
-
-         <div class="thumb-container" style="">
-            {% if post.thumb %}
-            <img class="thumb" src="{{ post.thumb }}" itemprop="image" alt="{{ post.title }}" />
-            <meta itemprop="thumbnailUrl" content="{{ post.thumb }}" />
-            {% endif %}
-         </div>
-         <div class="thumb-fade"> </div>
-
-         <h2 class="title" itemprop="name">{{ post.title }}</h2>
-
-         {% include tags %}
-
-         {% assign sorted-tags = post.tags | sort %}
-         <meta itemprop="keywords" content="{% for tag in sorted-tags %}{{ tag }}, {% endfor %}" />
-
-         <div class="project-info description" itemprop="description">
-            {{ post.description | markdownify }}
-         </div>
-
-      </a>-->
       {% endfor %}
    </div>
 </div>
