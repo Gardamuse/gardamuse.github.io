@@ -18,7 +18,11 @@ $oc3: $text-light;
 $header-font: 'Croissant One', "Open Sans", "Helvetica Neue";
 $h-font: "Maven Pro", "Open Sans", "Helvetica Neue";
 $main-font: "Open Sans", "Open Sans", "Helvetica Neue";
-$mobile-width: 40ch;
+$mobile-width: 380px;
+
+$dark-border-color: #996d00;
+$dark-box-color: rgba(73, 82, 85, 0.2);
+
 /* General */
 * {
    backface-visibility: hidden;
