@@ -1,0 +1,14 @@
+{
+  title: "Bending Over",
+  description: '''
+  <p>
+  A photo study. Trying to be a bit bolder with shadows and highlights.
+  </p>
+  '''
+
+  sequences: [
+    {
+      firstImage: "bent-over.jpg",
+    }
+  ]
+}

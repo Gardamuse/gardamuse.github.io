@@ -1,0 +1,20 @@
+{
+  title: "Bimbofication of Irene",
+  description: '''
+  <p>
+  Before and after shot of subject Irene. Just some practice.
+  </p>
+  '''
+
+  sequences: [
+    {
+      firstImage: "irene-0000.jpg",
+      length: 2
+    }
+    {
+      title: DeviantArt Version
+      firstImage: "irene.jpg"
+      length: 2
+    }
+  ]
+}

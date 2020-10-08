@@ -1,10 +1,17 @@
 {
   title: "Chibi",
   description: "A small sequence I made.",
-  thumb: "/sequence/chibi-0003.png",
-  firstImage: "/sequence/chibi-0000.png",
-  length: 6
-  extra: [
-    "/extra/chibi-spritesheet.png"
+  thumb: "sequence/chibi-0003.png",
+
+  sequences: [
+    {
+      firstImage: "sequence/chibi-0000.png",
+      length: 6
+    },
+    {
+      title: "Spritesheet"
+      firstImage: "extra/chibi-spritesheet.png"
+      description: "A spritesheet"
+    }
   ]
 }
