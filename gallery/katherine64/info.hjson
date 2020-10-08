@@ -1,0 +1,18 @@
+{
+  title: "Katherine 64",
+  description: "The full transformation sequence of Katherine, from my flash game Office Week 2. Created back in 2015.",
+  thumb: "sequence/katherine1024-11.png",
+
+  sequences: [
+    {
+      firstImage: "sequence/katherine1024-00.png",
+      length: 42
+    },
+    {
+      title: "Actual Size"
+      thumb: "sequence/katherine1024-01.png",
+      firstImage: "sequence2/katherine64_01.png",
+      length: 42
+    }
+  ]
+}
