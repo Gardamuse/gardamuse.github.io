@@ -15,22 +15,27 @@
     In addition, I am hosting the original video here for posterity. Enjoy!
   </p>
   '''
-  thumb: "sequence/front-0006.png"
+  thumb: "sequence/channelbulbus-front-0006.jpg"
 
   sequences: [
     {
-      firstImage: "sequence/front-0000.png"
+      firstImage: "sequence/channelbulbus-front-0000.jpg"
       length: 11
     },
     {
-      title: "Backside"
-      firstImage: "sequence/channelbulbus-back-0000.png"
+      title: "Rear view"
+      firstImage: "sequence/channelbulbus-back-0000.jpg"
+      length: 11
+    },
+    {
+      title: "Side-by-side"
+      firstImage: "sequence/channelbulbus-both-0000.jpg"
       length: 11
     },
     {
       title: "Video Remake"
       firstImage: "render-5.webm"
-      thumb: "sequence/front-0006.png"
+      thumb: "sequence/channelbulbus-front-0006.jpg"
     },
     {
       title: "Chanelbulbus' video"
