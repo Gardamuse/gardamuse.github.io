@@ -1,8 +1,8 @@
 ---
 categories: blog
 
-title:  "Bimbo Personality Quiz on TFGames (or not)"
-date:   2020-10-20
+title:  "Bimbo Personality Quiz not on TFGames"
+date:   2020-11-10
 author: Gardamuse
 ---
 

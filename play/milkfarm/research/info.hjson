@@ -1,0 +1,15 @@
+{
+  title: "Research"
+
+  sequences: [
+    {
+      title: "syringe"
+      firstImage: "syringe-1.jpg"
+      length: 5
+    },
+    {
+      title: "hypno-watch"
+      firstImage: "hypno-watch.jpg"
+    }
+  ]
+}

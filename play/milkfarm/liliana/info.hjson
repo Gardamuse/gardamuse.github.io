@@ -1,0 +1,10 @@
+{
+  title: "Liliana"
+
+  sequences: [
+    {
+      firstImage: "liliana-0000.png"
+      length: 7
+    }
+  ]
+}
