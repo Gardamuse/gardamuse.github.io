@@ -18,7 +18,7 @@
       description: "Learning from our experience with the Hormone Injector, we think we can now amplify its effects, inducing much more prominent lactation. However, based on previous results, too high hormone levels might cause users to experience some concentration difficulties."
       requires: ["Hormone Injector"]
       cost: 20
-      researchTime: 10
+      researchTime: 50
       effects: {
         iq: -10
         production: 0.02
@@ -30,7 +30,7 @@
       description: "Our hormone treatments have so far been very succesful, but we believe that utilizing additional, non-hormonal substances in combination with previous hormonal injections, could increase the body's response even further. It is unknown how side-effects from previous iterations would be affected by this addition."
       requires: ["Hormone Booster"]
       cost: 20
-      researchTime: 10
+      researchTime: 100
       effects: {
         iq: -10
         production: 0.04
@@ -42,7 +42,7 @@
       description: "Users that have undergone all previous hormone treatments have over time experienced significant concentration issues. However, milk production increases have been very succesful. We believe that by overloading the hormonal system in just the right way, this type of treatment may yet have one final breakthrough."
       requires: ["Hormone Amplifier"]
       cost: 10
-      researchTime: 10
+      researchTime: 500
       effects: {
         iq: -15
         production: 0.06
@@ -54,7 +54,7 @@
       description: "Some of our researchers have raised concerns regarding the mental side-effects of our Hormone Booster series. We could look into methods of remedying these effects."
       requires: ["Hormone Booster"]
       cost: 10
-      researchTime: 10
+      researchTime: 50
       effects: {
         iq: 5
         production: -0.1
