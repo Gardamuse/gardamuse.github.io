@@ -2,7 +2,7 @@
   nodes: [
     {
       title: "Hormone Injector"
-      thumb: "syringe-1.jpg"
+      thumb: "syringe/syringe-1.webp"
       description: "To produce milk, breast tissue needs to be stimulated by the proper hormone balance. We believe that research into this avenue can yield an effective way of start milk production, hopefully with minimal side effects."
       requires: []
       cost: 10
@@ -14,7 +14,7 @@
     },
     {
       title: "Hormone Booster"
-      thumb: "syringe-2.jpg"
+      thumb: "syringe/syringe-2.webp"
       description: "Learning from our experience with the Hormone Injector, we think we can now amplify its effects, inducing much more prominent lactation. However, based on previous results, too high hormone levels might cause users to experience some concentration difficulties."
       requires: ["Hormone Injector"]
       cost: 20
@@ -26,7 +26,7 @@
     },
     {
       title: "Hormone Amplifier"
-      thumb: "syringe-3.jpg"
+      thumb: "syringe/syringe-3.webp"
       description: "Our hormone treatments have so far been very succesful, but we believe that utilizing additional, non-hormonal substances in combination with previous hormonal injections, could increase the body's response even further. It is unknown how side-effects from previous iterations would be affected by this addition."
       requires: ["Hormone Booster"]
       cost: 20
@@ -38,7 +38,7 @@
     },
     {
       title: "Hormone Overload"
-      thumb: "syringe-5.jpg"
+      thumb: "syringe/syringe-5.webp"
       description: "Users that have undergone all previous hormone treatments have over time experienced significant concentration issues. However, milk production increases have been very succesful. We believe that by overloading the hormonal system in just the right way, this type of treatment may yet have one final breakthrough."
       requires: ["Hormone Amplifier"]
       cost: 10
@@ -50,7 +50,7 @@
     },
     {
       title: "Concentrol"
-      thumb: "syringe-1.jpg"
+      thumb: "syringe/syringe-1.webp"
       description: "Some of our researchers have raised concerns regarding the mental side-effects of our Hormone Booster series. We could look into methods of remedying these effects."
       requires: ["Hormone Booster"]
       cost: 10
@@ -64,6 +64,66 @@
       title: "Hypnosis Relaxation"
       thumb: "hypno-watch.jpg"
       description: "Some of our staff has reported stress or anxiousness making them perform worse overall. We could look into hypnosis as a method of remedy."
+      requires: []
+      cost: 10
+      researchTime: 10
+      effects: {
+        iq: -1
+        production: 0.1
+      }
+    },
+    {
+      title: "Milk I"
+      thumb: "milk/milk-1.webp"
+      description: "More milk storage."
+      requires: []
+      cost: 10
+      researchTime: 10
+      effects: {
+        iq: -1
+        production: 0.1
+      }
+    },
+    {
+      title: "Milk II"
+      thumb: "milk/milk-2.webp"
+      description: "More milk storage."
+      requires: []
+      cost: 10
+      researchTime: 10
+      effects: {
+        iq: -1
+        production: 0.1
+      }
+    },
+    {
+      title: "Milk III"
+      thumb: "milk/milk-3.webp"
+      description: "More milk storage."
+      requires: []
+      cost: 10
+      researchTime: 10
+      effects: {
+        iq: -1
+        production: 0.1
+      }
+    },
+    {
+      title: "Milk IV"
+      thumb: "milk/milk-4.webp"
+      description: "More milk storage."
+      requires: []
+      cost: 10
+      researchTime: 10
+      effects: {
+        iq: -1
+        production: 0.1
+      }
+    },
+    {
+      title: "Milk V"
+      thumb: "milk/milk-5.webp"
+      description: "More milk storage."
       requires: []
       cost: 10
       researchTime: 10
