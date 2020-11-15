@@ -1,136 +1,255 @@
 {
   nodes: [
     {
+      id: "hormone-1"
       title: "Hormone Injector"
       thumb: "syringe/syringe-1.webp"
-      description: "To produce milk, breast tissue needs to be stimulated by the proper hormone balance. We believe that research into this avenue can yield an effective way of start milk production, hopefully with minimal side effects."
+      description: "To produce milk, breast tissue needs to be stimulated by the proper hormone balance. We believe that research into this avenue can yield an effective way of starting milk production, hopefully with minimal side effects."
       requires: []
-      cost: 10
-      researchTime: 10
-      effects: {
-        iq: -1
-        production: 0.01
+      cost: 50
+      scienceCost: 100
+      effectType: {
+        target: employee
+        timeType: slow
+        permanence: temporary
+        duration: 60
       }
-    },
+      effects: {
+        iq: {
+          value: -10,
+          type: add
+        }
+        production: {
+          value: 0.01,
+          type: add
+        }
+      }
+    }
     {
+      id: "hormone-2"
       title: "Hormone Booster"
       thumb: "syringe/syringe-2.webp"
       description: "Learning from our experience with the Hormone Injector, we think we can now amplify its effects, inducing much more prominent lactation. However, based on previous results, too high hormone levels might cause users to experience some concentration difficulties."
-      requires: ["Hormone Injector"]
-      cost: 20
-      researchTime: 50
-      effects: {
-        iq: -10
-        production: 0.02
+      requires: ["hormone-1"]
+      cost: 100
+      scienceCost: 200
+      effectType: {
+        target: employee
+        timeType: slow
+        permanence: permanent
+        duration: 60
       }
-    },
+      effects: {
+        iq: {
+          value: -10,
+          type: add
+        }
+        production: {
+          value: 0.01,
+          type: add
+        }
+      }
+    }
     {
+      id: "hormone-3"
       title: "Hormone Amplifier"
       thumb: "syringe/syringe-3.webp"
       description: "Our hormone treatments have so far been very succesful, but we believe that utilizing additional, non-hormonal substances in combination with previous hormonal injections, could increase the body's response even further. It is unknown how side-effects from previous iterations would be affected by this addition."
-      requires: ["Hormone Booster"]
-      cost: 20
-      researchTime: 100
-      effects: {
-        iq: -10
-        production: 0.04
+      requires: ["hormone-2"]
+      cost: 200
+      scienceCost: 400
+      effectType: {
+        target: employee
+        timeType: slow
+        permanence: permanent
+        duration: 60
       }
-    },
+      effects: {
+        iq: {
+          value: -10,
+          type: add
+        }
+        production: {
+          value: 0.01,
+          type: add
+        }
+      }
+    }
     {
+      id: "hormone-4"
       title: "Hormone Overload"
       thumb: "syringe/syringe-5.webp"
       description: "Users that have undergone all previous hormone treatments have over time experienced significant concentration issues. However, milk production increases have been very succesful. We believe that by overloading the hormonal system in just the right way, this type of treatment may yet have one final breakthrough."
-      requires: ["Hormone Amplifier"]
-      cost: 10
-      researchTime: 500
-      effects: {
-        iq: -15
-        production: 0.06
+      requires: ["hormone-3"]
+      cost: 400
+      scienceCost: 400
+      effectType: {
+        target: employee
+        timeType: slow
+        permanence: temporary
+        duration: 30
       }
-    },
+      effects: {
+        iq: {
+          value: -10,
+          type: add
+        }
+        production: {
+          value: 0.01,
+          type: add
+        }
+      }
+    }
     {
+      id: "brain-meds-1"
       title: "Concentrol"
       thumb: "syringe/syringe-1.webp"
       description: "Some of our researchers have raised concerns regarding the mental side-effects of our Hormone Booster series. We could look into methods of remedying these effects."
-      requires: ["Hormone Booster"]
-      cost: 10
-      researchTime: 50
-      effects: {
-        iq: 5
-        production: -0.1
+      requires: ["hormone-2"]
+      cost: 200
+      scienceCost: 200
+      effectType: {
+        target: employee
+        timeType: slow
+        permanence: temporary
+        duration: 2
       }
-    },
+      effects: {
+        iq: {
+          value: 10,
+          type: add
+        }
+      }
+    }
     {
+      id: "hypnosis-1"
       title: "Hypnosis Relaxation"
       thumb: "hypno-watch.jpg"
       description: "Some of our staff has reported stress or anxiousness making them perform worse overall. We could look into hypnosis as a method of remedy."
       requires: []
-      cost: 10
-      researchTime: 10
-      effects: {
-        iq: -1
-        production: 0.1
+      cost: 200
+      scienceCost: 200
+      effectType: {
+        target: employee
+        timeType: slow
+        permanence: temporary
+        duration: 420
       }
-    },
+      effects: {
+        iq: {
+          value: 0.97,
+          type: mul
+        }
+        mood: {
+          value: 2,
+          type: add
+        }
+      }
+    }
     {
-      title: "Milk I"
+      id: "milk-storage-1"
+      title: "Milk Package"
       thumb: "milk/milk-1.webp"
-      description: "More milk storage."
+      description: "We've realized that storing all our milk in a single bucket isn't very useful. But, if we design some form of package to store milk in, we should be able to store much more before we have to sell it."
       requires: []
-      cost: 10
-      researchTime: 10
+      cost: 100
+      scienceCost: 200
+      effectType: {
+        target: farm
+        timeType: instant
+        permanence: permanent
+        duration: 0
+      }
       effects: {
-        iq: -1
-        production: 0.1
+        milkStorage: {
+          value: 5,
+          type: add
+        }
       }
     },
     {
-      title: "Milk II"
+      id: "milk-storage-2"
+      title: "Milk Package Mass Production"
       thumb: "milk/milk-2.webp"
-      description: "More milk storage."
-      requires: []
-      cost: 10
-      researchTime: 10
+      description: "Our milk package has been a roaring success. To improve on this our scientists have calculated that if we can manufacture more packages, we will be able to store even more milk. What are we waiting for?"
+      requires: ["milk-storage-1"]
+      cost: 400
+      scienceCost: 400
+      effectType: {
+        target: farm
+        timeType: instant
+        permanence: permanent
+        duration: 0
+      }
       effects: {
-        iq: -1
-        production: 0.1
+        milkStorage: {
+          value: 100,
+          type: add
+        }
       }
     },
     {
-      title: "Milk III"
+      id: "milk-storage-3"
+      title: "Milk Churn"
       thumb: "milk/milk-3.webp"
-      description: "More milk storage."
-      requires: []
-      cost: 10
-      researchTime: 10
-      effects: {
-        iq: -1
-        production: 0.1
+      description: "Our dairy workers have complained that they sometimes need a bucketful of milk packets to milk a single girl. But what if we build a bucket-sized milk packet? Hell, make it like two buckets! This way there should always be room to store milk."
+      requires: ["milk-storage-2"]
+      cost: 800
+      scienceCost: 600
+      effectType: {
+        target: farm
+        timeType: instant
+        permanence: permanent
+        duration: 0
       }
-    },
+      effects: {
+        milkStorage: {
+          value: 200,
+          type: add
+        }
+      }
+    }
     {
-      title: "Milk IV"
+      id: "milk-storage-4"
+      title: "More Milk Churns"
       thumb: "milk/milk-4.webp"
-      description: "More milk storage."
-      requires: []
-      cost: 10
-      researchTime: 10
-      effects: {
-        iq: -1
-        production: 0.1
+      description: "The milk churns helped, but we still need more storage! I say we replicate our previous success with milk packets and simply build more churns!"
+      requires: ["milk-storage-3"]
+      cost: 1000
+      scienceCost: 600
+      effectType: {
+        target: farm
+        timeType: instant
+        permanence: permanent
+        duration: 0
       }
-    },
+      effects: {
+        milkStorage: {
+          value: 1000,
+          type: add
+        }
+      }
+    }
     {
-      title: "Milk V"
+      id: "milk-storage-5"
+      title: "Storage Tank"
       thumb: "milk/milk-5.webp"
-      description: "More milk storage."
-      requires: []
-      cost: 10
-      researchTime: 10
-      effects: {
-        iq: -1
-        production: 0.1
+      description: "There really is no end to how much milk we need to store. Fortunately, one of our scientists have had a breakthrough and just needs some time and money to finalize the idea: What if we make a container that's like a milk churn, but EVEN BIGGER?!"
+      requires: ["milk-storage-4"]
+      cost: 1500
+      scienceCost: 1000
+      effectType: {
+        target: farm
+        timeType: instant
+        permanence: permanent
+        duration: 0
       }
-    },
+      effects: {
+        milkStorage: {
+          value: 5000,
+          type: add
+        }
+      }
+    }
   ]
 }
