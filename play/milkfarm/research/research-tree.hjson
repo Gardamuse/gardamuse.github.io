@@ -7,7 +7,7 @@
       description: "To produce milk, breast tissue needs to be stimulated by the proper hormone balance. We believe that research into this avenue can yield an effective way of starting milk production, hopefully with minimal side effects."
       requires: []
       cost: 50
-      scienceCost: 100
+      scienceCost: 50
       effectType: {
         target: employee
         timeType: slow
@@ -32,7 +32,7 @@
       description: "Learning from our experience with the Hormone Injector, we think we can now amplify its effects, inducing much more prominent lactation. However, based on previous results, too high hormone levels might cause users to experience some concentration difficulties."
       requires: ["hormone-1"]
       cost: 100
-      scienceCost: 200
+      scienceCost: 100
       effectType: {
         target: employee
         timeType: slow
@@ -57,7 +57,7 @@
       description: "Our hormone treatments have so far been very succesful, but we believe that utilizing additional, non-hormonal substances in combination with previous hormonal injections, could increase the body's response even further. It is unknown how side-effects from previous iterations would be affected by this addition."
       requires: ["hormone-2"]
       cost: 200
-      scienceCost: 400
+      scienceCost: 200
       effectType: {
         target: employee
         timeType: slow
