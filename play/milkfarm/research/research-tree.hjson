@@ -322,5 +322,26 @@
         }
       }
     }
+    {
+      id: "tatoo-1"
+      title: "Tramp Stamp"
+      thumb: "tatoo.webp"
+      description: ""
+      requires: []
+      cost: 50
+      scienceCost: 50
+      effectType: {
+        target: employee
+        timeType: instant
+        permanence: permanent
+        duration: 0
+      }
+      effects: {
+        iq: {
+          value: -5,
+          type: add
+        }
+      }
+    }
   ]
 }
