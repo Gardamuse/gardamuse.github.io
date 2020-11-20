@@ -7,7 +7,7 @@
       description: "To produce milk, breast tissue needs to be stimulated by the proper hormone balance. We believe that research into this avenue can yield an effective way of starting milk production, hopefully with minimal side effects."
       requires: []
       cost: 50
-      scienceCost: 1
+      scienceCost: 50
       effectType: {
         target: employee
         timeType: slow
@@ -32,11 +32,11 @@
       description: "Learning from our experience with the Hormone Injector, we think we can now amplify its effects, inducing much more prominent lactation. However, based on previous results, too high hormone levels might cause users to experience some concentration difficulties."
       requires: ["hormone-1"]
       cost: 100
-      scienceCost: 100
+      scienceCost: 200
       effectType: {
         target: employee
         timeType: slow
-        permanence: permanent
+        permanence: temporary
         duration: 60
       }
       effects: {
@@ -56,12 +56,12 @@
       thumb: "syringe/syringe-3.webp"
       description: "Our hormone treatments have so far been very succesful, but we believe that utilizing additional, non-hormonal substances in combination with previous hormonal injections, could increase the body's response even further. It is unknown how side-effects from previous iterations would be affected by this addition."
       requires: ["hormone-2"]
-      cost: 200
-      scienceCost: 200
+      cost: 100
+      scienceCost: 400
       effectType: {
         target: employee
         timeType: slow
-        permanence: permanent
+        permanence: temporary
         duration: 60
       }
       effects: {
@@ -81,8 +81,8 @@
       thumb: "syringe/syringe-5.webp"
       description: "Users that have undergone all previous hormone treatments have over time experienced significant concentration issues. However, milk production increases have been very succesful. We believe that by overloading the hormonal system in just the right way, this type of treatment may yet have one final breakthrough."
       requires: ["hormone-3"]
-      cost: 400
-      scienceCost: 400
+      cost: 100
+      scienceCost: 800
       effectType: {
         target: employee
         timeType: slow
@@ -106,8 +106,8 @@
       thumb: "syringe/syringe-1.webp"
       description: "Some of our researchers have raised concerns regarding the mental side-effects of our Hormone Booster series. We could look into methods of remedying these effects."
       requires: ["hormone-2"]
-      cost: 200
-      scienceCost: 200
+      cost: 100
+      scienceCost: 400
       effectType: {
         target: employee
         timeType: slow
@@ -127,8 +127,8 @@
       thumb: "hypno-watch.jpg"
       description: "Some of our staff has reported stress or anxiousness making them perform worse overall. We could look into hypnosis as a method of remedy."
       requires: []
-      cost: 200
-      scienceCost: 200
+      cost: 100
+      scienceCost: 400
       effectType: {
         target: employee
         timeType: slow
@@ -183,7 +183,7 @@
       }
       effects: {
         milkStorage: {
-          value: 100,
+          value: 40,
           type: add
         }
       }
@@ -195,7 +195,7 @@
       description: "Our dairy workers have complained that they sometimes need a bucketful of milk packets to milk a single girl. But what if we build a bucket-sized milk packet? Hell, make it like two buckets! This way there should always be room to store milk."
       requires: ["milk-storage-2"]
       cost: 800
-      scienceCost: 600
+      scienceCost: 800
       effectType: {
         target: farm
         timeType: instant
@@ -204,7 +204,7 @@
       }
       effects: {
         milkStorage: {
-          value: 200,
+          value: 100,
           type: add
         }
       }
@@ -216,7 +216,7 @@
       description: "The milk churns helped, but we still need more storage! I say we replicate our previous success with milk packets and simply build more churns!"
       requires: ["milk-storage-3"]
       cost: 1000
-      scienceCost: 600
+      scienceCost: 800
       effectType: {
         target: farm
         timeType: instant
@@ -225,7 +225,7 @@
       }
       effects: {
         milkStorage: {
-          value: 1000,
+          value: 200,
           type: add
         }
       }
@@ -246,7 +246,7 @@
       }
       effects: {
         milkStorage: {
-          value: 5000,
+          value: 400,
           type: add
         }
       }
@@ -267,7 +267,7 @@
       }
       effects: {
         iq: {
-          value: 0.8,
+          value: 0.9,
           type: mul
         }
         mood: {
@@ -292,7 +292,7 @@
       }
       effects: {
         iq: {
-          value: 0.8,
+          value: 0.9,
           type: mul
         }
         mood: {
@@ -326,7 +326,7 @@
       id: "tatoo-1"
       title: "Tramp Stamp"
       thumb: "tatoo.webp"
-      description: ""
+      description: "Is looking at tatoos research? Sure, if you make a high tech one. This brands the user as someone who is perhaps not so smart."
       requires: []
       cost: 50
       scienceCost: 50
@@ -338,8 +338,8 @@
       }
       effects: {
         iq: {
-          value: -5,
-          type: add
+          value: 0.9,
+          type: mul
         }
       }
     }
