@@ -8,6 +8,7 @@
 
   sequences: [
     {
+      thumb: "thumb.webp",
       firstImage: "irene-0000.jpg",
       length: 2
     }

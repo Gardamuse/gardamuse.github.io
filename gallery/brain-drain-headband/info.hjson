@@ -23,6 +23,7 @@
 
   sequences: [
     {
+      thumb: "thumb.webp",
       firstImage: "brain-drain-headband-0000.jpg",
       length: 2
     }

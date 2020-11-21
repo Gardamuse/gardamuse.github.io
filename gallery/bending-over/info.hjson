@@ -8,6 +8,7 @@
 
   sequences: [
     {
+      thumb: "thumb.webp",
       firstImage: "bent-over.jpg",
     }
   ]

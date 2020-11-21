@@ -19,6 +19,7 @@
 
   sequences: [
     {
+      thumb: "thumb.webp"
       firstImage: "sequence/channelbulbus-front-0000.jpg"
       length: 11
     },

@@ -5,6 +5,7 @@
 
   sequences: [
     {
+      thumb: "thumb.webp"
       firstImage: "sequence/chibi-0000.png",
       length: 6
     },
