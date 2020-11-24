@@ -323,10 +323,10 @@
       }
     }
     {
-      id: "tatoo-1"
+      id: "tattoo-1"
       title: "Tramp Stamp"
-      thumb: "tatoo.webp"
-      description: "Is looking at tatoos research? Sure, if you make a high tech one. This brands the user as someone who is perhaps not so smart."
+      thumb: "tattoo.webp"
+      description: "Is looking at tattoos research? Sure, if you make a high tech one. This brands the user as someone who is perhaps not so smart."
       requires: []
       cost: 50
       scienceCost: 50
@@ -340,6 +340,153 @@
         iq: {
           value: 0.9,
           type: mul
+        }
+      }
+    }
+    {
+      id: "milking-speed-1"
+      title: "Milking Machine"
+      thumb: "milking-speed/milking-1.webp"
+      description: "Milking by hand can take such a long time, especially when the girls start producing properly. Some of our researchers are insisting that suction is a faster extraction method than mechanical stimulation, although I do wonder how they managed to figure that out... In any"
+      requires: []
+      cost: 50
+      scienceCost: 50
+      effectType: {
+        target: farm
+        timeType: instant
+        permanence: permanent
+        duration: 0
+      }
+      effects: {
+        milkingSpeed: {
+          value: 1.5,
+          type: mul
+        }
+      }
+    }
+    {
+      id: "milking-speed-2"
+      title: "Milking Machine II"
+      thumb: "milking-speed/milking-2.webp"
+      description: ""
+      requires: ["milking-speed-1"]
+      cost: 50
+      scienceCost: 50
+      effectType: {
+        target: farm
+        timeType: instant
+        permanence: permanent
+        duration: 0
+      }
+      effects: {
+        milkingSpeed: {
+          value: 1.5,
+          type: mul
+        }
+      }
+    }
+    {
+      id: "milking-speed-3"
+      title: "Milking Machine III"
+      thumb: "milking-speed/milking-3.webp"
+      description: ""
+      requires: ["milking-speed-2"]
+      cost: 50
+      scienceCost: 50
+      effectType: {
+        target: farm
+        timeType: instant
+        permanence: permanent
+        duration: 0
+      }
+      effects: {
+        milkingSpeed: {
+          value: 1.5,
+          type: mul
+        }
+      }
+    }
+    {
+      id: "milkshake-1"
+      title: "Vanilla Milk Shakes"
+      thumb: "milkshake/milkshake-vanilla.webp"
+      description: "Our girls can only produce so much milk, but what if we could sell it at a higher price? Let's see if we can find a way to make our milk even more delicious."
+      requires: []
+      cost: 50
+      scienceCost: 50
+      effectType: {
+        target: farm
+        timeType: instant
+        permanence: permanent
+        duration: 0
+      }
+      effects: {
+        milkPrice: {
+          value: 5,
+          type: add
+        }
+      }
+    }
+    {
+      id: "milkshake-2"
+      title: "Chocolate Milk Shakes"
+      thumb: "milkshake/milkshake-chocolate.webp"
+      description: "Turns out that milkshakes do bring all the boys to the yard. Let's try some more tastes."
+      requires: ["milkshake-1"]
+      cost: 50
+      scienceCost: 50
+      effectType: {
+        target: farm
+        timeType: instant
+        permanence: permanent
+        duration: 0
+      }
+      effects: {
+        milkPrice: {
+          value: 5,
+          type: add
+        }
+      }
+    }
+    {
+      id: "milkshake-3"
+      title: "Strawberry Milk Shakes"
+      thumb: "milkshake/milkshake-strawberry.webp"
+      description: "Damn right, our milkshakes are better than yours. And by yours, I mean the people up in the city selling their knock-off stuff... For natural reasons, our milk is simply far superior. However, our scientists theorize that we could add berries to create even better taste."
+      requires: ["milkshake-2"]
+      cost: 50
+      scienceCost: 50
+      effectType: {
+        target: farm
+        timeType: instant
+        permanence: permanent
+        duration: 0
+      }
+      effects: {
+        milkPrice: {
+          value: 5,
+          type: add
+        }
+      }
+    }
+    {
+      id: "milkshake-4"
+      title: "Blueberry Milk Shakes"
+      thumb: "milkshake/milkshake-blueberry.webp"
+      description: "The perfect blend."
+      requires: ["milkshake-3"]
+      cost: 50
+      scienceCost: 50
+      effectType: {
+        target: farm
+        timeType: instant
+        permanence: permanent
+        duration: 0
+      }
+      effects: {
+        milkPrice: {
+          value: 5,
+          type: add
         }
       }
     }
