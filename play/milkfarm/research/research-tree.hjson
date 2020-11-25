@@ -401,7 +401,7 @@
       }
       effects: {
         milkingSpeed: {
-          value: 1.5,
+          value: 2,
           type: mul
         }
       }
@@ -486,6 +486,48 @@
       effects: {
         milkPrice: {
           value: 5,
+          type: add
+        }
+      }
+    }
+    {
+      id: "breast-size-1"
+      title: "Breast Expansion"
+      thumb: "milkshake/milkshake-strawberry.webp"
+      description: ""
+      requires: []
+      cost: 50
+      scienceCost: 50
+      effectType: {
+        target: employee
+        timeType: instant
+        permanence: temporary
+        duration: 0
+      }
+      effects: {
+        milkStorage: {
+          value: 40,
+          type: add
+        }
+      }
+    }
+    {
+      id: "breast-size-2"
+      title: "Breast Expansion 2"
+      thumb: "milkshake/milkshake-blueberry.webp"
+      description: ""
+      requires: []
+      cost: 50
+      scienceCost: 50
+      effectType: {
+        target: employee
+        timeType: instant
+        permanence: temporary
+        duration: 0
+      }
+      effects: {
+        milkStorage: {
+          value: 40,
           type: add
         }
       }
