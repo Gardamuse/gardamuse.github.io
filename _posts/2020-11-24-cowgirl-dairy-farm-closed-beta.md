@@ -15,3 +15,6 @@ I don't feel that the game is ready yet, but at the same time I feel like I am a
 However, before that, I would quite like to see what feedback I might get from a closed testing group. I hope this will help me take the game to where it can be enjoyable on release, even if the feature set is limited.
 
 All my patreons have had early access to the alpha builds for a while now, but if you are interested in helping out on this closed beta test, and will be able to provide feedback, do get in touch! For instance, you may [send me a note on DeviantArt](https://www.deviantart.com/gardamuse) or an e-mail to [gardamuse@gmail.com](mailto:gardamuse@gmail.com).
+
+
+Edit: **APPLICATIONS ARE NOW CLOSED**, for the time being. Thank you to everyone who will or have already provided me with some good feedback :)
