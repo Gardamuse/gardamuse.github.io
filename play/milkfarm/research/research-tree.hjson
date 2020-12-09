@@ -6,8 +6,10 @@
       thumb: "syringe/syringe-1.webp"
       description: "To produce milk, breast tissue needs to be stimulated by the proper hormone balance. We believe that research into this avenue can yield an effective way of starting milk production, hopefully with minimal side effects."
       requires: []
-      cost: 50
+      researchCost: 50
       scienceCost: 50
+      equipCost: 0
+      ongoingCost: 0.1
       effectType: {
         target: employee
         timeType: slow
@@ -31,8 +33,9 @@
       thumb: "syringe/syringe-2.webp"
       description: "Learning from our experience with the Hormone Injector, we think we can now amplify its effects, inducing much more prominent lactation. However, based on previous results, too high hormone levels might cause users to experience some concentration difficulties."
       requires: ["hormone-1"]
-      cost: 100
+      researchCost: 100
       scienceCost: 200
+      ongoingCost: 0.1
       effectType: {
         target: employee
         timeType: slow
@@ -56,8 +59,9 @@
       thumb: "syringe/syringe-3.webp"
       description: "Our hormone treatments have so far been very succesful, but we believe that utilizing additional, non-hormonal substances in combination with previous hormonal injections, could increase the body's response even further. It is unknown how side-effects from previous iterations would be affected by this addition."
       requires: ["hormone-2"]
-      cost: 100
+      researchCost: 100
       scienceCost: 400
+      ongoingCost: 0.1
       effectType: {
         target: employee
         timeType: slow
@@ -81,8 +85,9 @@
       thumb: "syringe/syringe-5.webp"
       description: "Users that have undergone all previous hormone treatments have over time experienced significant concentration issues. However, milk production increases have been very succesful. We believe that by overloading the hormonal system in just the right way, this type of treatment may yet have one final breakthrough."
       requires: ["hormone-3"]
-      cost: 100
+      researchCost: 100
       scienceCost: 800
+      ongoingCost: 0.1
       effectType: {
         target: employee
         timeType: slow
@@ -106,8 +111,9 @@
       thumb: "syringe/syringe-1.webp"
       description: "Some of our researchers have raised concerns regarding the mental side-effects of our Hormone Booster series. We could look into methods of remedying these effects."
       requires: ["hormone-2"]
-      cost: 100
+      researchCost: 100
       scienceCost: 400
+      ongoingCost: 0.1
       effectType: {
         target: employee
         timeType: slow
@@ -127,8 +133,9 @@
       thumb: "hypno-watch.jpg"
       description: "Some of our staff has reported stress or anxiousness making them perform worse overall. We could look into hypnosis as a method of remedy."
       requires: []
-      cost: 100
+      researchCost: 100
       scienceCost: 400
+      ongoingCost: 0.1
       effectType: {
         target: employee
         timeType: slow
@@ -152,7 +159,7 @@
       thumb: "milk/milk-1.webp"
       description: "We've realized that storing all our milk in a single bucket isn't very useful. But, if we design some form of package to store milk in, we should be able to store much more before we have to sell it."
       requires: []
-      cost: 100
+      researchCost: 100
       scienceCost: 200
       effectType: {
         target: farm
@@ -173,7 +180,7 @@
       thumb: "milk/milk-2.webp"
       description: "Our milk package has been a roaring success. To improve on this our scientists have calculated that if we can manufacture more packages, we will be able to store even more milk. What are we waiting for?"
       requires: ["milk-storage-1"]
-      cost: 400
+      researchCost: 400
       scienceCost: 400
       effectType: {
         target: farm
@@ -194,7 +201,7 @@
       thumb: "milk/milk-3.webp"
       description: "Our dairy workers have complained that they sometimes need a bucketful of milk packets to milk a single girl. But what if we build a bucket-sized milk packet? Hell, make it like two buckets! This way there should always be room to store milk."
       requires: ["milk-storage-2"]
-      cost: 800
+      researchCost: 800
       scienceCost: 800
       effectType: {
         target: farm
@@ -215,7 +222,7 @@
       thumb: "milk/milk-4.webp"
       description: "The milk churns helped, but we still need more storage! I say we replicate our previous success with milk packets and simply build more churns!"
       requires: ["milk-storage-3"]
-      cost: 1000
+      researchCost: 1000
       scienceCost: 800
       effectType: {
         target: farm
@@ -236,7 +243,7 @@
       thumb: "milk/milk-5.webp"
       description: "There really is no end to how much milk we need to store. Fortunately, one of our scientists have had a breakthrough and just needs some time and money to finalize the idea: What if we make a container that's like a milk churn, but EVEN BIGGER?!"
       requires: ["milk-storage-4"]
-      cost: 1500
+      researchCost: 1500
       scienceCost: 1000
       effectType: {
         target: farm
@@ -257,8 +264,9 @@
       thumb: "hypno-visor/hypno-visor-1.webp"
       description: "During our research on hypnosis we discovered that brainwaves can be manipulated by an electromagnetic field. By exploring this topic further, we believe we could build a device capable of limiting brain activity to incur a deep sense of relaxation and contentment at will."
       requires: ["hypnosis-1"]
-      cost: 50
+      researchCost: 50
       scienceCost: 50
+      equipCost: 10
       effectType: {
         target: employee
         timeType: instant
@@ -282,8 +290,9 @@
       thumb: "hypno-visor/hypno-visor-2.webp"
       description: "Our previous relaxation inducing headband has proved very popular among many employees. So popular that some of our scientists think it'd be worthwhile to design an upgraded version. By tuning up the ultrapink EM field, and looking into visual cortex stimulation, we might be able to create a worthy successor."
       requires: ["hypno-visor-1"]
-      cost: 50
+      researchCost: 50
       scienceCost: 50
+      equipCost: 10
       effectType: {
         target: employee
         timeType: instant
@@ -307,8 +316,9 @@
       thumb: "hypno-visor/hypno-visor-3.webp"
       description: "The so called \"Brain Drain Headband\" taught us alot about the human brain. However, while some of my colleges have suggested upgrading that device, I believe we can find a much more productive use for this technology. I want to request funding for looking into alternatives to the ultrapink EM field, and to utilize the visual spectrum for creating a device that can enhance user mental processes, rather than relaxing them."
       requires: ["hypno-visor-1"]
-      cost: 50
+      researchCost: 50
       scienceCost: 50
+      equipCost: 10
       effectType: {
         target: employee
         timeType: instant
@@ -328,8 +338,9 @@
       thumb: "tattoo.webp"
       description: "Is looking at tattoos research? Sure, if you make a high tech one. This brands the user as someone who is perhaps not so smart."
       requires: []
-      cost: 50
+      researchCost: 50
       scienceCost: 50
+      equipCost: 10
       effectType: {
         target: employee
         timeType: instant
@@ -349,7 +360,7 @@
       thumb: "milking-speed/milking-1.webp"
       description: "Milking by hand can take such a long time, especially when the girls start producing properly. Some of our researchers are insisting that suction is a faster extraction method than mechanical stimulation, although I do wonder how they managed to figure that out..."
       requires: []
-      cost: 50
+      researchCost: 50
       scienceCost: 50
       effectType: {
         target: farm
@@ -370,7 +381,7 @@
       thumb: "milking-speed/milking-2.webp"
       description: ""
       requires: ["milking-speed-1"]
-      cost: 50
+      researchCost: 50
       scienceCost: 50
       effectType: {
         target: farm
@@ -391,7 +402,7 @@
       thumb: "milking-speed/milking-3.webp"
       description: ""
       requires: ["milking-speed-2"]
-      cost: 50
+      researchCost: 50
       scienceCost: 50
       effectType: {
         target: farm
@@ -412,7 +423,7 @@
       thumb: "milkshake/milkshake-vanilla.webp"
       description: "Our girls can only produce so much milk, but what if we could sell it at a higher price? Let's see if we can find a way to make our milk even more delicious."
       requires: []
-      cost: 50
+      researchCost: 50
       scienceCost: 50
       effectType: {
         target: farm
@@ -433,7 +444,7 @@
       thumb: "milkshake/milkshake-chocolate.webp"
       description: "Turns out that milkshakes do bring all the boys to the yard. Let's try some more tastes."
       requires: ["milkshake-1"]
-      cost: 50
+      researchCost: 50
       scienceCost: 50
       effectType: {
         target: farm
@@ -454,7 +465,7 @@
       thumb: "milkshake/milkshake-strawberry.webp"
       description: "Damn right, our milkshakes are better than yours. And by yours, I mean the people up in the city selling their knock-off stuff... For natural reasons, our milk is simply far superior. However, our scientists theorize that we could add berries to create even better taste."
       requires: ["milkshake-2"]
-      cost: 50
+      researchCost: 50
       scienceCost: 50
       effectType: {
         target: farm
@@ -475,7 +486,7 @@
       thumb: "milkshake/milkshake-blueberry.webp"
       description: "The perfect blend."
       requires: ["milkshake-3"]
-      cost: 50
+      researchCost: 50
       scienceCost: 50
       effectType: {
         target: farm
@@ -496,7 +507,7 @@
       thumb: "milkshake/milkshake-strawberry.webp"
       description: ""
       requires: []
-      cost: 50
+      researchCost: 50
       scienceCost: 50
       effectType: {
         target: employee
@@ -517,7 +528,7 @@
       thumb: "milkshake/milkshake-blueberry.webp"
       description: ""
       requires: []
-      cost: 50
+      researchCost: 50
       scienceCost: 50
       effectType: {
         target: employee
