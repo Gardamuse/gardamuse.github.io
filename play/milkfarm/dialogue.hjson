@@ -1,0 +1,13 @@
+{
+  default: {
+    milking: ["Aaah... I love it when you milk me!"]
+    needMilking: ["I need someone to milk me..."]
+    gift: ["Thank you!"]
+    cuddle: ["This is so cozy..."]
+    rejectAdvance: ["I'm not in the mood for that."]
+    hadSex: ["Ooh, that was amazing!"]
+    masturbation: ["Aah... I just needed some self-love, but I would have preferred you..."]
+    unaffordableEquipment: ["Can't afford that!"]
+    outOfMoney: ["I won't work here if you can't pay me!"]
+  }
+}
