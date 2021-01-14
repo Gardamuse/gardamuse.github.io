@@ -1,0 +1,70 @@
+---
+---
+/* Color Scheme */
+$base-color: lighten(#27272F, 6%);
+$link-color: #1E6BB8;
+$highlight-color: #FFB600;
+$navbar-light: #541A32;
+$navbar-dark: #260C1A;
+$text-light: lighten(#EEF0F2, 10%);
+$text-color: darken(#606c71, 10%);
+$h-color: #8D141E;
+$header-dark: #643173;
+$header-light: #AD343E;
+$oc1: $text-light;
+/* Outline Color Light */
+$oc2: #000;
+$oc3: $text-light;
+$header-font: 'Croissant One', "Open Sans", "Helvetica Neue";
+$h-font: "Maven Pro", "Open Sans", "Helvetica Neue";
+$main-font: "Open Sans", "Open Sans", "Helvetica Neue";
+$mobile-width: 380px;
+
+$dark-border-color: #996d00;
+$dark-box-color: rgba(73, 82, 85, 0.2);
+
+body {
+   padding: 0;
+   margin: 0;
+   //font-family: $main-font;
+   //font-size: 14px;
+   //line-height: 1.5;
+   color: $text-color;
+   background-color: $base-color;
+   background-image: url("/assets/black-linen.png");
+   /* This and other patterns by https://www.transparenttextures.com */
+   display: flex;
+   flex-direction: column;
+   height: 100%;
+}
+
+.blushing-defeat {
+  font-family: $main-font;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+// FOOTER
+footer {
+   padding-top: 2em;
+   padding-bottom: 2em;
+   font-size: 0.7em;
+   text-align: center;
+   color: #888;
+   width: 100%;
+   margin-top: auto;
+   grid-area: footer;
+}
+
+footer a {
+   color: desaturate(lighten($link-color, 10%), 40%);
+
+   &::after {
+      background-color: desaturate($highlight-color, 60%);
+   }
+}
+
+footer a:hover {
+   color: desaturate($highlight-color, 60%);
+   text-decoration: none;
+}
