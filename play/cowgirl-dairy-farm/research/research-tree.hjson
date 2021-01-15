@@ -1,105 +1,13 @@
 {
   nodes: [
     {
-      id: "education-1"
-      title: "High School Science"
-      thumb: "education/education-1.webp"
-      description: "It turns out that not everyone remembers their high school science as well as they should. We could have our scientists open their old books and put together a basic science course."
-      requires: []
-      researchCost: 100
-      scienceCost: 100
-      equipCost: 50
-      ongoingCost: 0.1
-      target: employee
-      effectType: {
-        timeType: slow
-        permanence: permanent
-        duration: 120 // 60 * 2
-      }
-      effects: {
-        iq: {
-          value: 10,
-          type: add
-        }
-      }
-    }
-    {
-      id: "education-2"
-      title: "Bachelor's Degree"
-      thumb: "education/education-2.webp"
-      description: "Some say that a university degree is just a paper, but you do get to learn an awful lot. If we want to have an effective science department we should probably put together some resources to allow our staff to get a bachelor's degree."
-      requires: ["education-1"]
-      researchCost: 200
-      scienceCost: 400
-      equipCost: 100
-      ongoingCost: 0.2
-      target: employee
-      effectType: {
-        timeType: slow
-        permanence: permanent
-        duration: 240 // 60 * 4
-      }
-      effects: {
-        iq: {
-          value: 10,
-          type: add
-        }
-      }
-    }
-    {
-      id: "education-3"
-      title: "Master's Degree"
-      thumb: "education/education-3.webp"
-      description: "Master of Science, sounds pretty good, doesn't it? If we can allow our staff to get this degree we'll have a masterful science department in no time."
-      requires: ["education-2"]
-      researchCost: 400
-      scienceCost: 800
-      equipCost: 200
-      ongoingCost: 0.4
-      target: employee
-      effectType: {
-        timeType: slow
-        permanence: permanent
-        duration: 360 // 60 * 6
-      }
-      effects: {
-        iq: {
-          value: 10,
-          type: add
-        }
-      }
-    }
-    {
-      id: "education-4"
-      title: "PhD Studies"
-      thumb: "education/education-4.webp"
-      description: "The ultimate science degree. It won't be easy for anyone, but if we want our scientists to find solutions to those most intricate of problems, this is the degree they need."
-      requires: ["education-3"]
-      researchCost: 800
-      scienceCost: 1600
-      equipCost: 300
-      ongoingCost: 0.8
-      target: employee
-      effectType: {
-        timeType: slow
-        permanence: permanent
-        duration: 420 // 60 * 7
-      }
-      effects: {
-        iq: {
-          value: 10,
-          type: add
-        }
-      }
-    }
-    {
       id: "hormone-1"
       title: "Hormone Injector"
       thumb: "syringe/syringe-1.webp"
       description: "To produce milk, breast tissue needs to be stimulated by the proper hormone balance. We believe that research into this avenue can yield an effective way of starting milk production, hopefully with minimal side effects."
       requires: []
       researchCost: 50
-      scienceCost: 200
+      scienceCost: 150
       equipCost: 0
       ongoingCost: 0.1
       target: employee
@@ -193,6 +101,98 @@
         }
         production: {
           value: 0.01,
+          type: add
+        }
+      }
+    }
+    {
+      id: "education-1"
+      title: "High School Science"
+      thumb: "education/education-1.webp"
+      description: "It turns out that not everyone remembers their high school science as well as they should. We could have our scientists open their old books and put together a basic science course."
+      requires: []
+      researchCost: 100
+      scienceCost: 200
+      equipCost: 50
+      ongoingCost: 0.1
+      target: employee
+      effectType: {
+        timeType: slow
+        permanence: permanent
+        duration: 120 // 60 * 2
+      }
+      effects: {
+        iq: {
+          value: 10,
+          type: add
+        }
+      }
+    }
+    {
+      id: "education-2"
+      title: "Bachelor's Degree"
+      thumb: "education/education-2.webp"
+      description: "Some say that a university degree is just a paper, but you do get to learn an awful lot. If we want to have an effective science department we should probably put together some resources to allow our staff to get a bachelor's degree."
+      requires: ["education-1"]
+      researchCost: 200
+      scienceCost: 400
+      equipCost: 100
+      ongoingCost: 0.2
+      target: employee
+      effectType: {
+        timeType: slow
+        permanence: permanent
+        duration: 240 // 60 * 4
+      }
+      effects: {
+        iq: {
+          value: 10,
+          type: add
+        }
+      }
+    }
+    {
+      id: "education-3"
+      title: "Master's Degree"
+      thumb: "education/education-3.webp"
+      description: "Master of Science, sounds pretty good, doesn't it? If we can allow our staff to get this degree we'll have a masterful science department in no time."
+      requires: ["education-2"]
+      researchCost: 400
+      scienceCost: 800
+      equipCost: 200
+      ongoingCost: 0.4
+      target: employee
+      effectType: {
+        timeType: slow
+        permanence: permanent
+        duration: 360 // 60 * 6
+      }
+      effects: {
+        iq: {
+          value: 10,
+          type: add
+        }
+      }
+    }
+    {
+      id: "education-4"
+      title: "PhD Studies"
+      thumb: "education/education-4.webp"
+      description: "The ultimate science degree. It won't be easy for anyone, but if we want our scientists to find solutions to those most intricate of problems, this is the degree they need."
+      requires: ["education-3"]
+      researchCost: 800
+      scienceCost: 1600
+      equipCost: 300
+      ongoingCost: 0.8
+      target: employee
+      effectType: {
+        timeType: slow
+        permanence: permanent
+        duration: 420 // 60 * 7
+      }
+      effects: {
+        iq: {
+          value: 10,
           type: add
         }
       }
