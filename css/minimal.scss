@@ -44,6 +44,20 @@ body {
   line-height: 1.5;
 }
 
+.comments {
+  display: grid;
+  grid-template-columns: 1fr 100ch 1fr;
+  margin-top: 40px;
+
+  @media only screen and (max-width: 100ch) {
+    grid-template-columns: 1fr 50ch 1fr;
+  }
+
+  @media only screen and (max-width: 55ch) {
+    grid-template-columns: 1fr 30ch 1fr;
+  }
+}
+
 // FOOTER
 footer {
    padding-top: 2em;
