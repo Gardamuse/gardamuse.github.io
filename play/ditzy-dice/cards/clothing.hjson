@@ -1,0 +1,57 @@
+{
+  name: "Clothing"
+  thumb: "art/apron-1.webp"
+  hue: 150
+  cards: [
+    {
+      name: "Outgrown"
+      thumb: ""
+      description: '''No matter what you put on, you always find it is a few sizes too small.'''
+    }
+    {
+      name: "Whale Tail"
+      thumb: ""
+      description: '''Whenever you are not wearing a thong, and it is not showing above your pant- or skirt-line, you become considerably less intelligent (-2 intelligence).
+
+      If you want to think, you better show that thong!'''
+    }
+    {
+      name: "Cleavage"
+      thumb: ""
+      description: '''Whenever clothes cover your breasts and you are not showing considerable cleavage, your attention span becomes significantly worse (-1 attention span).
+
+      So it's up to you, either you show off your puppies, or you forget what else you were supposed to do.'''
+    }
+    {
+      name: "Thigh Highs"
+      thumb: "art/thigh-highs.webp"
+      description: '''Whenever you wear three or more pieces of clothing and none of them are thigh-high stockings, your sex drive becomes much stronger (+2 sex drive).
+
+      Thigh highs look hot af, so if you're not wearing yours, you'll be the one feeling hot instead.'''
+    }
+    {
+      name: "Tummy Time"
+      thumb: "art/tummy.webp"
+      description: '''Whenever clothes cover your tummy, you will find yourself acting more submissive (-1 willpower).
+
+      Show your tummy or get used to doing what you're told!'''
+    }
+    {
+      name: "Tramp Stamp"
+      thumb: "art/bent-over-small.webp"
+      description: '''A suggestive tattoo is now blazoned across your lower back. Anyone who sees this will know just what to expect from you.
+
+      You will also become horny much quicker (+2 sex drive) whenever you're wearing pants or panties.'''
+    }
+    {
+      name: "Choker"
+      thumb: ""
+      description: '''Whenever you are not wearing a choker saying either "BIMBO", "SLUT", "PET" or something similar, you get much less intelligent (-1 intelligence).'''
+    }
+    {
+      name: "Pink"
+      thumb: ""
+      description: '''Whenever you are wearing any clothing that is not a shade of pink, you feel distracted (-1 attention span).'''
+    }
+  ]
+}

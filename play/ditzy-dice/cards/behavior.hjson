@@ -1,0 +1,298 @@
+{
+  name: "Behavior"
+  thumb: "art/lollipop-1.webp"
+  hue: 280
+  cards: [
+    {
+      name: "Giggly"
+      thumb: ""
+      description: '''Your laugh is always a cute giggle, and you'll giggle almost constantly. There is pretty much nothing that won't make you laugh.
+
+      If you try really hard you can keep it together, but only for a short while.'''
+    }
+    {
+      name: "Talkative"
+      description: '''You love talking and will do so all the time, even if you have nothing to say.
+
+      You'll probably come across as somewhat vapid.
+      '''
+    }
+    {
+      name: "Bouncy"
+      thumb: ""
+      description: '''You will have a strong urge to feel your tits bounce. As a result, you are often going to bounce a little up and down, even if you're just by yourself.'''
+    }
+    {
+      name: "Moaning"
+      thumb: ""
+      description: '''Whenever you are having sex or masturbating, you can't help but moaning like a porn star.'''
+    }
+    {
+      name: "Easy"
+      thumb: ""
+      description: '''Whenever someone asks you out, over to their place, or just straight up for sex, you will have an irresistable urge to say yes.
+
+      You will not have this urge if whoever is asking intends to harm or rob you.
+      '''
+    }
+    {
+      name: "Mirror Mirror"
+      thumb: ""
+      description: '''You can't help but staring at your own reflection.
+
+      If you walk past a mirror or some other somewhat large and reflective surface, you will stop and look at yourself for at least 10 seconds unless someone drags you away.'''
+    }
+    {
+      name: "Narscissian Turn-On"
+      thumb: ""
+      description: '''Whenever you look at your own reflection you start getting horny.
+
+      After 30 seconds you will be horny enough to feel your panties getting wet, after 2 minutes you will cum on the spot.'''
+    }
+    {
+      name: "Narscissian Touch"
+      thumb: ""
+      description: '''You are always touching yourself somewhere.'''
+    }
+    {
+      name: "Playing with Hair"
+      thumb: ""
+      description: '''You are always playing with your hair.'''
+    }
+    {
+      name: "Lap Warmer"
+      thumb: ""
+      description: '''You can only sit down if its on another person.
+
+      You're going to be pretty friendly with people from now on.
+      '''
+    }
+    {
+      name: "Pinup"
+      thumb: ""
+      description: '''Whenever you're in a photo, you'll be posing like for a classic pinup photo.'''
+    }
+    {
+      name: "Lightweight"
+      thumb: ""
+      description: '''You get very drunk from a single drink, but you also never become so drunk that you get sick, no matter how much you drink.'''
+    }
+    {
+      name: "Hot Drinks"
+      thumb: ""
+      description: '''When you get drunk, you also become extremely horny.
+
+      You won't get sick no matter how much you drink, and hangovers will make you feel horny instead of sick.'''
+    }
+    {
+      name: "Cum Addict"
+      thumb: ""
+      description: '''Whenever you haven't swallowed any cum for 24 hours, you will feel unfocused (-1 attention span) and get horny much quicker (+2 sex drive).'''
+    }
+    {
+      name: "Gold-Digger"
+      thumb: ""
+      description: '''Unconsciously, you will always feel the most attracted to whoever you know with the most money, to the point that you'll be almost in love with whoever is the richest.'''
+    }
+    {
+      name: "Influencer"
+      thumb: ""
+      description: '''You have an irresistible urge to take selfies and upload them to social media.
+
+      At least one photo every time you change outfit and every time you go out, and you will only feel content if you post at least 10 selfies each day.'''
+    }
+    {
+      name: "Good Girl"
+      thumb: ""
+      description: '''Getting head pats makes you feel so calm and relaxed, but also very horny at the same time.
+
+      In addition, you always try to get people to pat you on the head, especially when you feel like you've been good.'''
+    }
+    {
+      name: "Pet the Kitty"
+      thumb: ""
+      description: '''Whenever you get head pats from someone, you try to simultaneously curl up in the givers arms, lay on your back, and spread your legs for them.
+
+      It looks insanely cute and lewd at the same time, and you just can't stop yourself.'''
+    }
+    {
+      name: "Expenses"
+      thumb: ""
+      description: '''Do you not need much, or are luxuries everything?'''
+      type: "numeric"
+      levels: [
+        {
+          name: "Cheap"
+          description: '''You don't care much about material things.'''
+        }
+        {
+          name: "Shopaholic"
+          description: '''You love shopping and receiving presents, even if not everything has to be expensive.'''
+        }
+        {
+          name: "Spoiled Princess"
+          description: '''Designer clothing, expensive gifts and luxury is what makes you happy.'''
+        }
+      ]
+    }
+    {
+      name: "Personality"
+      thumb: ""
+      description: '''What is your outlook on life?'''
+      type: "numeric"
+      levels: [
+        {
+          name: "Sweet and Bubbly"
+          description: '''You are always upbeat and playful, if a little naive. People love to have you around and protect you.'''
+        }
+        {
+          name: "Bad Girl"
+          description: '''No one is going to trod on you, unless they're really hot in which case you'd love it if they did. Tattoos, smoking and piercings are like your core identity.
+
+          Motorcycles are a close second, whether that is riding behind a hot guy, or on your own tuned up chopper.'''
+        }
+        {
+          name: "Eye Candy"
+          description: '''You always dress up for your partner: skirts or dresses, hair, and makeup.
+
+          No matter the occasion, you want to look perfect, even if you're just grocery shopping.'''
+        }
+        {
+          name: "Object"
+          description: '''You know that you're just an object to your partner. Whenever they are around you do anything you're told, wear whatever they want you to wear and only speak when spoken to. If no one is telling you what to do, you don't really know what to do with yourself.'''
+        }
+        {
+          name: "Slut"
+          description: '''If they look good, you're gonna try to have sex with them. So what if they're married? Their partner won't know if you'll just have a quickie here and now.'''
+        }
+        {
+          name: "Beach Bimbo"
+          description: '''You love the beach, and will spend as much time there as possible. Basking in the sun, or the occasional dip in the water.'''
+        }
+      ]
+    }
+    {
+      name: "Social Behavior"
+      thumb: ""
+      description: '''Do you prefer staying at home, or go clubbing?
+
+      We'll see what you say in a bit.
+      '''
+      type: "numeric"
+      levels: [
+        {
+          name: "Shy"
+          description: '''Staying at home, or blushing whenever someone looks in your direction. You don't like evenings out, but occasionally your friends will drag you on one.
+
+          Unfortunately for you, blushing just make you look even cuter.'''
+        }
+        {
+          name: "Extrovert"
+          description: '''You like talking to people, and you know how to do it well.'''
+        }
+        {
+          name: "Party Girl"
+          description: '''Every night at home is a night wasted, unless you're the host. Parties are your life.'''
+        }
+        {
+          name: "Immodest"
+          description: '''You love to party, but you're not just there to have fun, but to get some looks your way. You don't even really care who looks. Deep necklines, skirts that can't possibly cover all of you or straight up see through fabric are the way to go for you. You'd never wear something that could make you seem bland or boring.'''
+        }
+        {
+          name: "Attention Whore"
+          description: '''You want people to look at you and show how sexy they think you are, and you'll do anything to get that attention.'''
+        }
+      ]
+    }
+    {
+      name: "Sex Appeal"
+      thumb: ""
+      description: '''Do you use your looks to tease, or maybe just to get what you want?
+
+      We shall see.
+      '''
+      type: "numeric"
+      levels: [
+        /*{
+          name: "Cold"
+          description: ''''''
+        }*/
+        {
+          name: "Flirty"
+          description: '''You'll flirt with just about anyone if you find them good-looking or if you're just bored.'''
+        }
+        {
+          name: "Tease"
+          description: '''You're such a tease. You barely have to try for men to cum in their pants and girls from getting wet through-and-through just from looking at you.'''
+        }
+        {
+          name: "Seductive"
+          description: ''''''
+        }
+      ]
+    }
+    {
+      name: "Valley Girl"
+      description: '''You always sound uncertain (ending sentences in a rising pitch) and sprinkle lots of unnessary words into your sentences.
+
+      Most people will assume you're pretty dumb, even if you're not.'''
+    }
+    /*{
+      name: "Speech"
+      thumb: ""
+      description: ''''''
+      type: "numeric"
+      levels: [
+
+        {
+          name: "Jeopardy"
+          description: '''Is every sentence you speak a question? Is it yes?
+
+          Yes, yes it is, and you're going to sound pretty dumb from now on.
+          '''
+        }
+      ]
+    }*/
+    {
+      name: "Submissive Speech"
+      thumb: ""
+      description: '''You will speak in a submissive manner.'''
+      type: "numeric"
+      levels: [
+        {
+          name: "Speak When Spoken To"
+          description: '''You are only able to speak when you have been directly spoken to first.
+
+          Taking initiative is going to be alot harder for you know, so I think it's best if you learn to know your place.
+          '''
+        }
+        {
+          name: "Mute Button"
+          description: '''Ever wished you could just shut someone up? Well, now will be the one getting shut up.
+
+          If anyone tells you to shut up or be quiet, you won't be able to speak until someone tells you that you are allowed to.'''
+        }
+      ]
+    }
+    {
+      name: "Concentration Face"
+      thumb: ""
+      description: '''You always make this face whenever you are concentrating or thinking about something.'''
+      type: "numeric"
+      levels: [
+        {
+          name: "Aheago"
+          description: '''Your eyes cross and your mouth falls open with your tongue sticking out in a typical aheago look.'''
+        }
+        {
+          name: "Blank and Drooling"
+          description: '''Your eyes go blank, your jaw slackens and you start to drool. You're gonna look like you're really dumb.'''
+        }
+        {
+          name: "Tongue in Cheek"
+          description: '''You stick your tongue out just a little at the side of your mouth and your eyes look diagonally upwards.'''
+        }
+      ]
+    }
+  ]
+}

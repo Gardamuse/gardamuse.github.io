@@ -1,0 +1,296 @@
+{
+  name: "Mind"
+  thumb: "art/education-3.webp"
+  hue: 210
+  cards: [
+    {
+      name: "Intelligence"
+      thumb: "art/education-4.webp"
+      description: '''Intelligence is how good you are at solving problems, understanding people and figuring stuff out.
+
+      A high intelligence can somewhat make up for bad Memory or Attention Span, as figuring things out from scratch every time might still be doable for some tasks.'''
+      type: "numeric"
+      levels: [
+        /*{
+          name: "Genius"
+          description: '''You are hyper-aware of everthing that goes on around you and you often know what people want before they do. Whatever problems you encounter won't trouble you for long.'''
+        }
+        {
+          name: "Brilliant"
+          description: ''''''
+        }
+        {
+          name: "Bright"
+          description: ''''''
+        }*/
+        {
+          name: "Average"
+          description: '''Everyone thinks they are a little smarter than the average person. Well, soon you won't be!
+
+          Count yourself lucky though, you probably won't notice a huge difference. You'll just be a little more basic. As a bonus, you'll finally be able to enjoy all those dumbed-down movies and TV-shows you've complained so much about!'''
+        }
+        {
+          name: "Ditzy"
+          description: ''''''
+          /*description: '''You'll worry a lot less. Ideas will be a bit hard for you from now on. Fun, silly. Make a fool of yourself. When you try to be smart. Can't be taken seriously.'''*/
+        }
+        {
+          name: "Airhead"
+          description: '''Can you feel the IQ points starting to drip from your pussy? In a few moments you will just be a confused mess. Few things won't put that dumb, befuddled look on your face, like you just can't understand the most simple of things. Enjoy!'''
+        }
+        {
+          name: "Brainless"
+          description: '''You're about to get real fucking dumb, so let's hope you won't miss being able to figure out how to open doors, or do anything, really. You'll just be a drooling mess with a blank expression. You're lucky that walking and fucking goes on instinct or you wouldn't even be able to do that. Someone will probably take care of you though, so don't worry about that. Bye bye brain!'''
+        }
+      ]
+    }
+    {
+      name: "Flowing Memory"
+      thumb: ""
+      description: '''How easily you can remember things you've learned in school, people and things you've done. If you got a low intelligence, a good memory could be quite interesting as you'll probably remember alot of things that you can't make sense of.'''
+      type: "numeric"
+      levels: [
+        /*{
+          name: "Perfect Recall"
+          description: '''However you've learnt it, consciously or not, when you need it, it comes to you effortlessly.'''
+        }
+        {
+          name: "Feeling Sharp"
+          description: '''There is no change to your memory or knowledge. You'll be similar to what you've always been, perhaps even a little sharper.'''
+        }*/
+        {
+          name: "University, No Thanks"
+          description: '''If you've had any higher education, it's time to wave all the things you learned there good bye! And good luck trying to re-learn it or becoming a student: no matter how intelligent you are, your memory simply can't store such complicated knowledge for more than a few minutes.'''
+        }
+        {
+          name: "High-School Dropout"
+          description: '''Remember derivatives, chemistry or advanced language? No you don't. It's long gone, along with everything else you learned in high school or beyond.'''
+        }
+        {
+          name: "The Basics"
+          description: '''You read and write as if you've just learnt how to, and with such a basic vocabulary no one will ever take you for very smart again. If you're a Genius with great Attention Span you may still be able to do some not-quite high-school level math, but otherwise you're stuck with the most basic of arithmethic too.'''
+        }
+        {
+          name: "Illiteracy and Innumeracy"
+          description: '''What does all the little squiggles that are everywhere mean? You're sure you used to know, but trying to remember is like walking through syrup. You should probably leave such things to others.'''
+        }
+        {
+          name: "Gone With The Wind"
+          description: '''Now this will change your life. Forget remembering what you ate for lunch, or any knowledge more complicated than how to eat or walk. In a few moments it will all be gone, never to be replaced.
+
+          You'll still be able to recognize people if you have met them a few times, but try to give them short easy nicknames, or the may be upset you don't remember their name.'''
+          /*description: '''People who say they have a bad memory have not met you. You can't remember what you ate for lunch, where your keys are or even what keys are. If you've done something very special you might be able to have a vague memory of it for a day or two at best. You can still make friends though! If you see someone every day for a long time, you can still remember the most important things about them, but try to come up with a short and memorable nickname for them, or they may be upset you don't remember their name.'''*/
+        }
+      ]
+    }
+    {
+      name: "Attention Span"
+      thumb: ""
+      description: '''How long you are able to concentrate on a single task and block out distractions.'''
+      type: "numeric"
+      levels: [
+        /*{
+          name: "Chamber of Solitude"
+          description: '''As long as you can stay awake, you can remain focused on any task you wish. Nothing can disturb you if you don't wish it, so please just remember to eat and drink regularly!'''
+        }*/
+        {
+          name: "Inattentive"
+          description: '''Whenever you listen or read something, it won't be very long until you stop paying full attention.
+
+          You'll probably miss important things every now and again.'''
+        }
+        {
+          name: "Unfocused"
+          description: '''You just can't seem to focus on any one thing for too long.'''
+        }
+        {
+          name: "Distracted"
+          description: '''You are always thinking of something else and you often walk away from things half-way through.
+
+          It only takes a small interruption and you've forgotten what you where doing.'''
+        }
+        {
+          name: "Absent-Minded"
+          description: '''You never really pay attention to what you are doing, and your thoughts are quickly fleeting.
+
+          "What was I doing again?" is something you'll be asking yourself alot.'''
+        }
+        {
+          name: "Completely Lost"
+          description: '''You will basically have no attention span, not even enough to speak full sentences before trailing off. If no one is there to remind you every few seconds, you couldn't even concentrate long enough to suck a cock.
+
+          Any even slightly complicated task that takes more than a few seconds will be impossible for you since you'll forget what you were doing.'''
+        }
+      ]
+    }
+    {
+      name: "Syllable Limit"
+      thumb: ""
+      description: '''Your intelligence is not affected, but your brain becomes unable to understand or think words with more than a certain number of syllables.'''
+      type: "numeric"
+      levels: [
+        {
+          name: "Six"
+          description: ''''''
+        }
+        {
+          name: "Five"
+          description: ''''''
+        }
+        {
+          name: "Four"
+          description: ''''''
+        }
+        {
+          name: "Three"
+          description: ''''''
+        }
+        {
+          name: "Two"
+          description: ''''''
+        }
+        {
+          name: "One"
+          description: ''''''
+        }
+      ]
+    }
+    {
+      name: "Word Limit"
+      thumb: ""
+      description: '''Your intelligence is not affected, but your brain becomes unable to form sentences with more than a certain number of words. When reading or listening, you will need 1 to 5 seconds (depending on your intelligence) to comprehend each sequence of words, any more than your limit and you will forget them.'''
+      type: "numeric"
+      levels: [
+        {
+          name: "Seventeen"
+          description: ''''''
+        }
+        {
+          name: "Thirteen"
+          description: ''''''
+        }
+        {
+          name: "Ten"
+          description: ''''''
+        }
+        {
+          name: "Seven"
+          description: ''''''
+        }
+        {
+          name: "Five"
+          description: ''''''
+        }
+        {
+          name: "Four"
+          description: ''''''
+        }
+        {
+          name: "Three"
+          description: ''''''
+        }
+        {
+          name: "Two"
+          description: ''''''
+        }
+      ]
+    }
+    {
+      name: "Willpower"
+      thumb: ""
+      description: '''Are you the one making decisions, or the one following orders?'''
+      type: "numeric"
+      levels: [
+        {
+          name: "Dominant"
+          description: '''You prefer taking decisions for both yourself and others.'''
+        }
+        {
+          name: "Independent"
+          description: '''You have no problem making decisions for yourself.'''
+        }
+        {
+          name: "Submissive"
+          description: '''You prefer being told what to do, and let others take control. You never say no, and you don't want to either. Yes feels so much better.'''
+        }
+        {
+          name: "Mindless"
+          description: '''You will do whatever you're told and should someone not be around to tell you, you'll find someone to order you around. Being a mindless slave is so much better.'''
+        }
+      ]
+    }
+    {
+      name: "Name"
+      thumb: ""
+      description: '''A name is a powerful thing.
+
+      What will you call yourself?
+      '''
+      type: "numeric"
+      levels: [
+        {
+          name: "Complicated"
+          description: '''You will always present yourself with a long and fancy version of your name.'''
+        }
+        {
+          name: "Normal"
+          description: '''You use your normal name.'''
+        }
+        {
+          name: "Simplified"
+          description: '''You use a simplified version of your name.'''
+        }
+        {
+          name: "Nickname"
+          description: '''You always refer to yourself using a bimbo nickname like "Titsie", "Missi" or "Kitty" etc.'''
+        }
+      ]
+    }
+    {
+      name: "Unfiltered"
+      description: '''You always say everything you think out loud.'''
+    }
+    {
+      name: "Third Person"
+      thumb: ""
+      description: '''From now on you can only talk in third person.
+
+      If you seem smart otherwise people may just think you're a bit weird. If you don't, well, people will certainly think you are dumb.
+      '''
+    }
+    {
+      name: "On Your Knees"
+      thumb: ""
+      description: '''You've forgotten how to walk, and can never learn again, so you will have to crawl on all fours from now on. Fortunately you will have no pains from walking on all fours either.
+
+      It may feel weird for you to go out at first, but you'll make for a cute pet I'm sure.'''
+    }
+    {
+      name: "Gullible"
+      thumb: ""
+      description: '''You've not become any less intelligent, but your brain has become incapable of questioning any kind of information. So from now on you will believe that everything you're told is true.
+
+      Sure, you will be very easy to manipulate, but believing in magic and Santa again is going to be pretty fun, right?'''
+    }
+    {
+      name: "Sapiosexual Self-Love"
+      thumb: ""
+      description: '''The harder you think, the hornier you get.
+
+      This could make working as a scientist, or similar, quite interesting. But potentially also quite produtive.
+      '''
+    }
+    {
+      name: "Sucker for Thinking"
+      thumb: ""
+      description: '''When you are not sucking cock, you will find it very difficult to think (-1 intelligence, -1 attention span, -1 memory).'''
+    }
+    {
+      name: "Second Language"
+      description: '''Choose any two languages. You now only speak the second language, but with a heavy accent, like if you only really knew the first language.
+
+      You will be unable to understand or learn to speak any other language.
+      '''
+    }
+  ]
+}

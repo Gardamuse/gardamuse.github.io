@@ -1,0 +1,50 @@
+{
+  name: "Event"
+  thumb: "art/emptyPortrait.jpg"
+  hue: 23
+  cards: [
+    {
+      name: "Were-Bimbo"
+      thumb: ""
+      description: '''Whenever there is a full moon, you transform into a bimbo (-1 intelligence, +1 breast size, +1 lip size, +1 makeup) and gain ass-length, platinum blonde hair.'''
+    }
+    {
+      name: "Panty Dropper"
+      thumb: ""
+      description: '''You sometimes get an irresistible urge to take off your panties. You can't wear that pair again until you've changed into another pair at home. If you were already at home, you must buy a new pair.
+
+      This will happen at least once a month but max 5 times a week. If you are smart, you have up to 30 seconds of warning before you drop your panties wherever you are.'''
+    }
+    {
+      name: "Milkspurt"
+      thumb: ""
+      description: '''Randomly, 1 to 4 times a month, your breasts will suddenly start leaking milk. Over the span of half-an-hour you will produce your combined breast volume in milk, or 1 litre, whichever is more.'''
+    }
+    {
+      name: "Random Orgasms"
+      thumb: ""
+      description: '''You will experience orgasms at random time intervals and no warning.
+
+      This will happen at least once a month, but no more than 5 times a week.'''
+    }
+    {
+      name: "Public Masturbation"
+      thumb: ""
+      description: '''You will sometimes get a sudden, irresistible urge to masturbate. You will immediately start rubbing your clit and will be unable to stop until you cum.
+
+      This will happen at least once a month, but no more than 5 times a week.'''
+    }
+    {
+      name: "Boobie Flash"
+      thumb: ""
+      description: '''You will sometimes get a sudden urge to show your breasts. You will immediately turn to someone near you, and expose your breasts for at least 3 seconds.
+
+      This will only happen when someone can see you, and will happen at least once a month, but no more than 5 times a week.'''
+    }
+    {
+      name: "In Heat"
+      thumb: ""
+      description: '''Each month you'll go into heat for five days. When in heat you're going to be continuously horny and unable to think of anything but having sex. Yet no matter how much sex you have during heat, you won't feel satisfied even for a second, just more horny.'''
+    }
+  ]
+}

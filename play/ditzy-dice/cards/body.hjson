@@ -1,0 +1,666 @@
+{
+  name: "Body"
+  thumb: "art/carpe-diem-animation-small-1.webp"
+  hue: 330
+  cards: [
+    {
+      name: "Lips"
+      thumb: ""
+      description: '''Lips for kissing, sucking cock or just looking gorgeous?
+
+      Whatever you're looking for, let's make it happen.
+      '''
+      type: "numeric"
+      levels: [
+        {
+          name: "Thin"
+          description: '''Your lips are fairly thin, but you can look cute anyways.'''
+        }
+        {
+          name: "Natural"
+          description: '''Your lips look soft and natural, perfect for the girl next door.'''
+        }
+        {
+          name: "Soft and Thick"
+          description: '''Your lips are thick and extremely soft. Few don't let their eyes linger at your lips.'''
+        }
+        {
+          name: "Thick and Pouty"
+          description: '''Your lips are thick and soft, and your resting face has a permanent pouty expression that make them look all the more inviting.'''
+        }
+        {
+          name: "Pouty Pillows"
+          description: '''Your lips are so large they couldn't possibly be natural, yet they look and feel so soft as to be impossibly alluring, especially with that permanent pouty expression.'''
+        }
+        {
+          name: "Oh So Inviting Pillows"
+          description: '''Your large, soft lips are so puffy they stay open in an inviting O-shape. Sexy, but you'll be drooling a lot more from now on.'''
+        }
+      ]
+    }
+    {
+      name: "Tremendous Tits"
+      thumb: "art/implants-4.webp"
+      description: '''Large breasts are hot af, but they may get in your way a lot, and they certainly affect what people think about you.'''
+      type: "numeric"
+      levels: [
+        {
+          name: "Small (A-cup)"
+          thumb: "art/liliana-0002.png"
+          description: "Your breasts become small and almost flat. It's cute, sport and never in the way, but if you're gonna be a woman, maybe you would have wanted some cleavage?"
+        }
+        {
+          name: "Medium (C-cup)"
+          thumb: "art/liliana-0003.png"
+          description: "Your breasts grow to a natural, womanly size. You can show some cleavage if you want to, or cover up like a plain Jane. Your choice!"
+        }
+        {
+          name: "Big (DD-cup)"
+          thumb: "art/liliana-0003.png"
+          description: "Now these are boobs! Your breasts swell up to a large, although still natural looking size. There's going to be no hiding that rack of yours from here on out!"
+        }
+        {
+          name: "Volleyballs"
+          thumb: "art/liliana-0004.png"
+          description: "It feels so good as your breasts grow ever larger and heavier on your chest, eventually reaching the size of volleyballs. Whoever looks at you from now on are going to see your tits first, and you later."
+        }
+        {
+          name: "Beachballs"
+          thumb: "art/liliana-0005.png"
+          description: "You gasp in pleasure as your breasts balloon in size, swelling until they are like two soft, heavy beachballs in front of you. You look like an over-the-top cartoon porn star for fucks sake! Wherever you go now, people will be doing more than sneaking glances, and you can forget about being taken seriously ever again."
+        }
+        {
+          name: "Immobilizingly Large"
+          thumb: "art/liliana-0006.png"
+          description: "As your breasts keep growing, the pleasure becomes too much and you cum, feeling it dripping down your legs. You're left standing in a puddle of your own cum, pinned to the ground and permanently leaning over your enormous tits. You're in a bind now, but perhaps you'll find someone who doesn't mind helping? It's a quite inviting position, after all."
+        }
+      ]
+    }
+    {
+      name: "Asstastic"
+      thumb: "art/behind-0010.png"
+      description: "How big is your ass going to get? Very, I hope."
+      type: "numeric"
+      levels: [
+        {
+          name: "Flat"
+          thumb: "art/behind-0000.png"
+          description: "Your ass remains flat and unimpressive. You've seen men with bigger butts."
+        }
+        {
+          name: "Cute"
+          thumb: "art/behind-0003.png"
+          description: "Your ass swells up just a little. Cute, but nothing to write home about either."
+        }
+        {
+          name: "Womanly"
+          thumb: "art/behind-0004.png"
+          description: "You feel your hips widen, and your ass grow bigger. You look like a proper woman now. Nothing out of the ordinary, but what matters is if you can work it, right?"
+        }
+        {
+          name: "Big"
+          thumb: "art/behind-0005.png"
+          description: "You love big butts and you cannot lie, yours is one of them. Not even the baggiest of pants will hide your wide hips and impressive behind."
+        }
+        {
+          name: "Giant"
+          thumb: "art/behind-0007.png"
+          description: "You bite your lip and as your hips do an involuntary shake. Holy shit that feels good. Just walking up and down, there is so much heft behind every step you take, and every move you make reminds you how people will look at you from behind now."
+        }
+        {
+          name: "Impractical"
+          thumb: "art/behind-0010.png"
+          description: "You struggle to stand as your hips widen and your butt swells outward. It feels amazing, the slightest twitch of your hips shifting around what feels like most of a bean bag of round, soft, flesh. You can walk, barely, but getting through narrow doorways is going to be real tricky from now on."
+        }
+      ]
+    }
+    {
+      name: "Hair Color"
+      description: '''You hair color can very much influence peoples first impression of you, and we all know that first impressions means everything.
+
+      Will you come off as interesting and mysterious, or dumb and shallow? We'll see.
+      '''
+      type: "selection"
+      levels: [
+        {
+          name: "Raven Black"
+          description: "Raven black and mysterious, people always get the feeling there is something more to you than meets the eye."
+        }
+        {
+          name: "Brunette"
+          description: "A deep, calm and loyal brown. No one is going to notice you because of your hair color, but if you draw them in, they'll love the relaxing tone of your hair nonetheless."
+        }
+        {
+          name: "Redhead"
+          description: "Wild and free, like the winds of the sea. That's what many see when they look at you now. Do you live it, or let them down?"
+        }
+        {
+          name: "Pink and Cute"
+          description: "Artificial but cute, this hair color gives people the impression that you're fun and a little quirky."
+        }
+        {
+          name: "Blonde and Happy"
+          description: '''Happy and dumb, that is what people think about blondes, right?
+
+          Well, it's up to you to prove them right, or wrong I guess.'''
+        }
+        {
+          name: "Platinum Blonde"
+          description: '''The bimbo classic. People will find it pretty obvious what you're trying to be, so prepare to be treated like it.
+
+          But perhaps being a bimbo wouldn't be so bad?'''
+        }
+      ]
+    }
+    {
+      name: "Rapunzel's Drought"
+      thumb: ""
+      description: '''Long, beautiful hair suits any woman. How long will yours be?'''
+      type: "numeric"
+      levels: [
+        {
+          name: "Short and Boyish"
+          description: '''A short, boyish haircut. Maybe not typical, but a cute and sporty look for sure.'''
+        }
+        {
+          name: "Neck-length"
+          description: ''''''
+        }
+        {
+          name: "Shoulder-length"
+          description: ''''''
+        }
+        {
+          name: "Waist-length"
+          description: ''''''
+        }
+        {
+          name: "Ass-length"
+          description: ''''''
+        }
+        {
+          name: "Knee-length"
+          description: ''''''
+        }
+      ]
+    }
+    {
+      name: "Eyes Like Diamonds"
+      thumb: ""
+      description: '''Let's make those eyes of yours a little more interesting.'''
+      type: "numeric"
+      levels: [
+        /*{
+          name: "Boring"
+          description: '''Most eyes look very intriguing, but yours are just... boring. Let's hope you have some proper tits, because no one is going to want to look up here.'''
+        }
+        {
+          name: "Normal"
+          description: '''Very normal eyes, no change from what you had before, I imagine.'''
+        }*/
+        {
+          name: "Stunning"
+          description: '''Your eyes are infinitely mysterious, and whoever looks into them deep enough will find themselves lost.'''
+        }
+        {
+          name: "Vacant Stare"
+          description: '''Your eyes are beautiful and deep, but so still and vacant that it looks like you're not at home.'''
+        }
+        {
+          name: "Heart-Shaped Pupils"
+          description: '''Your pupils have become slightly heart-shaped, and your eye-color pink.'''
+        }
+      ]
+    }
+    {
+      name: "Height"
+      thumb: ""
+      description: '''How tall will you be?'''
+      type: "numeric"
+      levels: [
+        {
+          name: "Half-Giant (6'7, 200cm)"
+          description: ''''''
+        }
+        {
+          name: "Tall (5'11, 180 cm)"
+          description: ''''''
+        }
+        {
+          name: "Above Average (5'7, 170 cm)"
+          description: ''''''
+        }
+        {
+          name: "Average (5'3, 160cm)"
+          description: ''''''
+        }
+        {
+          name: "Short (5'1, 155cm)"
+          description: ''''''
+        }
+        {
+          name: "Smol (4'11, 150cm)"
+          description: '''Get used to looking up at people, because that's what you will be doing now. And never try to be inimidating, when you're this short, people can only find you cute.'''
+        }
+        {
+          name: "Fun Sized (4'9, 145cm)"
+          description: '''Reaching shelves are going to be a big problem, but then you'll look so cute you can probably find someone tall to help you.
+
+          You'll be easy to pick up and carry around though, so be prepared for some fun rides in the bedroom, or wherever you're carried off to.
+          '''
+        }
+      ]
+    }
+    {
+      name: "Amazonian Fitness"
+      thumb: ""
+      description: '''Will you look as stuffed with food as an ancient fertility goddess, or be so fit that you look like a modern day amazon?
+
+      This card will determine your weight and your attitude towards keeping fit.
+      '''
+      type: "selection"
+      levels: [
+        {
+          name: "Plus-sized"
+          description: '''Time to fatten up girl, you're gonna get big. It's certainly not the typical bimbo look, but don't worry, you'll be firm and round in all the right places. You'll be quite popular, I'm sure.
+
+          And as a bonus, since your weight will never change anyways, you can feel good about stuffing yourself with cake all day.
+          '''
+        }
+        {
+          name: "Thicc"
+          description: '''You're not fat, just... curvy. Well, you may be bigger than some girls, but that's just because you're bringing some proper curves.
+
+          And yet, even though your weight will never change, there will always be that thought at the back of your head, nagging you to eat less. A thought you will almost always ignore.
+          '''
+        }
+        {
+          name: "Average"
+          description: '''Your weight is pretty average, and you are not particularly fit.
+
+          You will often worry that you aren't as slim as you should be, but no matter what you do you remain at the same weight. And yet, whoever sees you will just see a good looking woman.
+          '''
+        }
+        {
+          name: "Slim"
+          description: '''You exercise several times a week and eat as much salad as the women on stock photos. Your waist is slim, your belly flat and your ass firm.'''
+        }
+        {
+          name: "Gym Bunny"
+          description: '''You're going to be toned. Wether you'll be noticeably muscular or just extremely fit is up to you.
+
+          In any case, working out is going to feel so good. Whether its lifting, running, climbing or whatever else, as long as you are active it will be like you're having a continuous low-intensity orgasm.'''
+        }
+      ]
+    }
+    {
+      name: "Cleopatra's Mascara"
+      thumb: ""
+      description: '''Your makeup will always look good, without you doing anything. However, it can't be removed either.'''
+      type: "numeric"
+      levels: [
+        /*{
+          name: "None"
+          description: ''''''
+        }*/
+        {
+          name: "Natural"
+          description: '''It's not actually natural, that would be using no makeup, but this is what people think natural looks like.'''
+        }
+        {
+          name: "Refined"
+          description: '''You will always look refined, as if you were just on your way to the opera or a fancy dinner party.'''
+        }
+        {
+          name: "Slutty"
+          description: '''Your makeup will always look a bit too much, and when you get tired your makeup will start looking a little rough around the edges.'''
+        }
+        {
+          name: "Dollface"
+          description: '''Too much and too perfect, your makeup make you look more like a barbie doll than a real person.'''
+        }
+      ]
+    }
+    {
+      name: "Nails"
+      thumb: ""
+      description: '''A girl like you should take care of her nails.
+
+      Or they could just be permanently perfect.
+      '''
+      type: "numeric"
+      levels: [
+        {
+          name: "Utilitarian"
+          description: '''Your nails are always short and clean.'''
+        }
+        {
+          name: "Painted"
+          description: '''Your nails are not too long, but always painted to match the rest of your outfit.'''
+        }
+        {
+          name: "Impractical"
+          description: '''Your nails are always painted, and impractically long, so typing on a keyboard or phone will be quite difficult from now on. On the plus side, they are very strong, and quickly grow back should they break anyways.'''
+        }
+      ]
+    }
+    {
+      name: "Heels of Aphrodite"
+      thumb: ""
+      description: '''You'd look great in high heels, but they're so difficult to walk in!
+
+      Let's see if we can change that.
+      '''
+      type: "numeric"
+      levels: [
+        {
+          name: "Barefoot"
+          description: '''Your feet remain largely unchanged, but you will feel more at ease walking barefoot than before!'''
+        }
+        {
+          name: "Low"
+          description: '''You will prefer a little bit of heel on your shoe, but nothing very noticable. You can still basically wear flat shoes should you want to.
+
+          (1in or 2 cm)
+          '''
+        }
+        {
+          name: "Business Shoes"
+          description: ''' Your feet will feel the most comfortable in business-style heels, and you'll be swaying your hips just enough as you walk.
+
+          (2in or 4cm)
+          '''
+        }
+        {
+          name: "Dinner Shoes"
+          description: ''' These are some proper high heels you're going to be strutting around in. The kind you'd expect to see at fancy dinners. The way your hips will sway as you walk with these on is going attract eyes anytime you leave room too. Classy.
+
+          (3in or 7cm)
+          '''
+        }
+        {
+          name: "Fuck Me Pumps"
+          description: '''Wow, heels like this will really give you that "ass up, please fuck me" look. No one walking behind you is going to be able to keep their eyes off of your ass the way your hips will swing either, I promise.
+
+          (4in or 10cm)
+          '''
+        }
+        {
+          name: "Tippy Toes"
+          description: '''At this point you'll probably even like wearing heels to bed just for the nice support they give your feet. Needless to say, your strut is going to be close to hypnotic for anyone behind you.
+
+          (5in or 13cm)
+          '''
+        }
+      ]
+    }
+    {
+      name: "Lactation"
+      thumb: ""
+      description: '''Thinking of taking up work as a cowgirl?
+
+      Then you'll need this.
+      '''
+      type: "numeric"
+      levels: [
+        /*{
+          name: "None"
+          description: '''You don't lactate.'''
+        }*/
+        {
+          name: "A Little For Fun"
+          description: '''Your breasts can produce a little milk if you try to milk them, but you won't notice otherwise.'''
+        }
+        {
+          name: "Pressure Sensitive"
+          description: '''Squeeze and you can produce enough to make it look like you're in a wet t-shirt competition. Being full means that the slightest touch will do it, but you will never get too full.'''
+        }
+        {
+          name: "Milk Me"
+          description: '''You are going to start producing so much milk that you need regular milkings.'''
+        }
+        {
+          name: "Hook Me Up Please"
+          description: '''Your life is about to take a radical change as you start to produce so much milk that you will need to be hooked up to a milking pump at all times.
+
+          You could try getting a portable pump and go on with your life, but being milked can be pretty distracting...'''
+        }
+      ]
+    }
+    {
+      name: "Sex Drive"
+      thumb: ""
+      description: '''How easily do you get horny, and how often do you generally want to have sex?
+
+      You'll have more fun if its higher.
+      '''
+      type: "numeric"
+      levels: [
+        /*{
+          name: "Frigid"
+          description: '''You are completely uninterested in sex and never feel even slightly horny.'''
+        }
+        {
+          name: "Uninterested"
+          description: '''You don't care much for sex, but you can have fun with it a couple of times a year or so.'''
+        }*/
+        {
+          name: "Interested"
+          description: '''You like sex, at least when it feels like something special. Once a month is quite nice.'''
+        }
+        {
+          name: "Sensual"
+          description: '''You enjoy sex regularly, but you'll be satisfied with once a week.'''
+        }
+        {
+          name: "Eager"
+          description: '''You usually want to have sex every one or two days, or you'll get a bit distracted.'''
+        }
+        {
+          name: "Lusty"
+          description: '''Sex once a day is the absolute minimum for you, preferably two or maybe three times.
+
+          Less than that and you'll feel hot and bothered really quickly.'''
+        }
+        {
+          name: "Always On"
+          description: '''You never go very long without thinking of sex.
+
+          If you don't get off at least 5 times a day, you're not able to think about anything else.'''
+        }
+        {
+          name: "Nymphomania"
+          description: '''Your life will be like one long orgy. You will spend almost all your waking time either having, or planning where to have, sex next.
+
+          You need at least one good fucking every hour of the day, and preferably some while you're sleeping too. Your dreams are always wet anyways.'''
+        }
+        {
+          name: "Fuckdoll"
+          description: '''You will never feel satisfied. Already as one orgasm ebbs away you start feeling the need for another. You better find yourself a few partners, because if you go 5 minutes without atleast one dick inside you, you'll be squirming on the ground in your own juices. You can only get a good night's sleep when you're getting pounded throughout all of it.'''
+        }
+      ]
+    }
+    {
+      name: "Sensitivity"
+      thumb: ""
+      description: '''How easy or difficult it is for you to reach climax through sexual stimulation.'''
+      type: "numeric"
+      levels: [
+        {
+          name: "Repressed"
+          description: '''You have significant difficulty reaching an orgasm and it will probably take alot of candles, music and foreplay or kinky games before you can get off. If your Sex Drive is high you will be a master of edging, with explosive, multiple orgasms once you do get there, but you may also find edging taking up alot more of your time than if you could just have sex and be done with it.'''
+        }
+        {
+          name: "Romantic"
+          description: '''You don't really have any troubles orgasming, but you'll need to get in the right mood both mentally and physically. A few candles or some nice music is a good start. If your Sex Drive is high, edging, followed by extra intense orgasms, will probably take up an extra bit of your time.'''
+        }
+        {
+          name: "Worker"
+          description: '''It takes a little bit of work, but you'll get there no problem.'''
+        }
+        {
+          name: "Sensitive"
+          description: '''Your erogenous zones can get you worked up in no time, so you'll never have a problem reaching an orgasm. Just be careful that you don't wear too tight clothing or you may find yourself a bit too excited when you least expect it.'''
+        }
+        {
+          name: "Hypersensitive"
+          description: '''Being able to get off quick can be real helpful sometimes, especially if you got a high Sex Drive. You should probably stick to skirts and dresses though, and skip the panties as well, and anything rubbing against your erogenous zones, or you'll find yourself trying to play off orgasms in public more than you'd perhaps like.'''
+        }
+        {
+          name: "Hair-Trigger"
+          description: '''Clothing rubbing against your erogenous zones is going to be a no go unless you want to cum your brains out with every step you take, even if your Sex Drive isn't super high. Anything so little as touches one of your erogenous zones and you're off. You better stick to skirts and loose dresses from now on, or maybe just stay naked...'''
+        }
+      ]
+    }
+    {
+      name: "Erogenous Breasts"
+      thumb: ""
+      description: '''Your nipples and, to just a slightly lower extent, your entire breasts, are now as erogenous as your clit.
+
+      Be careful with bras or tight tops, you may find yourself getting a bit too excited in public. Ask your partner to give you a nice breast massage or good titfuck though, that should feel really good.'''
+    }
+    {
+      name: "Erogenous Lips"
+      thumb: ""
+      description: '''Your lips are erogenous. Whether you're into kissing, or prefer wrapping your lips around a nice thick cock, you'll be cumming in no time.
+
+      Makes regular eating and drinking alot more exciting too!'''
+    }
+    {
+      name: "Permission to Come"
+      thumb: ""
+      description: '''You will only be able to cum when given permission from a partner.
+
+      This might get especially fun if you got a really high sex drive, or can't find a partner.
+      '''
+    }
+    {
+      name: "Horns"
+      thumb: ""
+      description: '''Time to get horny, with some horns!'''
+      type: "selection"
+      levels: [
+        {
+          name: "Bumps"
+          description: '''Cute, and not much more than bumps on your head, these can give you that cowgirl or succubus feel without being in the way.'''
+        }
+        {
+          name: "Adolescent"
+          description: '''Large enough to look a little dangerous, and more importantly, large enough that someone can grab and comfortably hold on to them and steer you.'''
+        }
+        {
+          name: "Imposing"
+          description: '''Heavy, imposing and not always easy to get through low doorways these are not for everyone. But for a thicc cowgirl or demoness, these may be just what you need. Plenty of room for your partner to hold and steer your head, too.'''
+        }
+      ]
+    }
+    {
+      name: "Tail"
+      thumb: ""
+      description: '''Your backside will be a lot more interesting with a nice tail.
+      '''
+      type: "selection"
+      levels: [
+        {
+          name: "Cottontail"
+          description: '''A very short bunny tail that looks more like a cotton ball than anything else. It looks so cute when you wiggle it!'''
+        }
+        {
+          name: "Cowtail"
+          description: '''A fairly long tail with a tuft of hair at the end.'''
+        }
+        {
+          name: "Bushy"
+          description: '''A fairly long dog's tail with beautiful hair.'''
+        }
+        {
+          name: "Demonic"
+          description: '''A long, demonic tail with not-too-sharp barbs at the end.'''
+        }
+      ]
+    }
+    {
+      name: "Ears"
+      thumb: ""
+      description: '''Ever thought your ears were a little bit boring?
+
+      Time to find you a new exciting pair!
+      '''
+      type: "selection"
+      levels: [
+        /*{
+          name: "Human"
+          description: '''Normal, human ears.'''
+        }*/
+        {
+          name: "Elvish"
+          description: '''Pointed, elvish ears. Very similar to human ones, but with a bit more class. Good for cosplay too!'''
+        }
+        {
+          name: "Cat"
+          description: '''Triangularly shaped cat ears on the top of your head that you can wiggle a little. Looks super cute!'''
+        }
+        {
+          name: "Bunny"
+          description: '''Long bunny ears on the top of your head. They perk up, flop and move based on how you're feeling, and you only have a little conscious control over them. Be prepared that everyone will be able to read your feelings like a book from now on. They are however, extremely cute.'''
+        }
+      ]
+    }
+    {
+      name: "Wings"
+      thumb: ""
+      description: '''Angelic or demonic, depending on what suits you best.'''
+    }
+    {
+      name: "Smooth As Silk"
+      thumb: ""
+      description: '''Your skin will always be soft and smooth, and your body becomes completely hairless except for your head.'''
+    }
+    {
+      name: "Life In Plastic"
+      thumb: ""
+      description: '''Your skin, tits and entire body will have a plastic, doll-like and fake look.'''
+    }
+
+    /*
+    {
+      name: ""
+      thumb: ""
+      description: ''''''
+      type: "numeric"
+      levels: [
+        {
+          name: ""
+          description: ''''''
+        }
+        {
+          name: ""
+          description: ''''''
+        }
+        {
+          name: ""
+          description: ''''''
+        }
+        {
+          name: ""
+          description: ''''''
+        }
+        {
+          name: ""
+          description: ''''''
+        }
+        {
+          name: ""
+          description: ''''''
+        }
+      ]
+    }
+
+    {
+      name: ""
+      thumb: ""
+      description: ''''''
+    }
+    */
+  ]
+}
