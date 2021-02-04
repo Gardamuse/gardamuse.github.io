@@ -2,7 +2,7 @@
 categories: blog
 
 title:  "Bimbo Booth: Kuzko"
-date:   2021-02-05
+date:   2021-02-04
 author: Gardamuse
 ---
 
