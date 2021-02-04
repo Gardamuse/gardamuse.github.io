@@ -72,10 +72,11 @@ let characterSelect = document.getElementById('character-select')
 let characterHTML = ""
 for (let i = 0; i < characters.length; i++) {
    let c = characters[i]
+   let filetype = (c.filetype != undefined) ? c.filetype : "png"
    characterHTML += `
    <a class="project-card">
       <div class="thumb-container">
-         <img class="thumb" src="/projects/bimbo-booth/${c.name}/01.png"></img>
+         <img class="thumb" src="/projects/bimbo-booth/${c.name}/01.${filetype}"></img>
       </div>
    </a>`
 }
@@ -206,8 +207,9 @@ async function select(name) {
 let loadedImages = new Array()
 function loadCharacter(c) {
    for (let i = 0; i < c.length; i++) {
+      let filetype = (c.filetype != undefined) ? c.filetype : "png"
       loadedImages[i] = new Image()
-      loadedImages[i].src = `/projects/bimbo-booth/${c.name}/${(i).toString().padStart(2, "0")}.png`
+      loadedImages[i].src = `/projects/bimbo-booth/${c.name}/${(i).toString().padStart(2, "0")}.${filetype}`
    }
 }
 
