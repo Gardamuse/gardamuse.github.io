@@ -1,0 +1,19 @@
+{
+  title: "Ox the Codeweaver",
+  description: '''
+  <p>
+  A little while ago I saw DeviantArt hosting the "Artist Avatar Challenge". This had me intrigued since I've long lamented over my inability to draw a decent avatar, but having studied the work of some of my own favorite artists recently, I figured I might finally be able to create something. While I'm not submitting this to aforementioned contest, this was fun to make and I'm very happy with the result.
+  </p>
+  <p>
+  This picture portrays the dual nature of Ox the Codeweaver, working through the night. Each new line pulling on the threads of reality, shifting, shaping and creating. But sometimes you just need to relax and cuddle for a bit, as they are reminded. After all, that's what this is all about.
+  </p>
+  '''
+
+  sequences: [
+    {
+      thumb: "ox-thumb.webp",
+      firstImage: "ox-00.webp",
+      length: 8
+    }
+  ]
+}
