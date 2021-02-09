@@ -2,7 +2,8 @@
 title: Sound Queuer
 permalink: /sound-queuer/
 layout: single-post
-tags: 
+prio: 0
+tags: []
 description: "Queue sound files of your choosing each time a hotkey is pressed. Sounds are played back until the queue is empty.
 
 

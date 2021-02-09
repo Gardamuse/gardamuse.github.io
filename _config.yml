@@ -37,6 +37,7 @@ defaults:
     values:
       layout: "page"
       comments: true
+      prio: 1
   - scope:
       path: ""
       type: "pages"

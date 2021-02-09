@@ -5,14 +5,15 @@ layout: page
 description: "Play erotic games and browse apps with a focus on transformation, bimbofication and breast expansion. This site is NSFW."
 ---
 
-{% assign sortedposts = site.projects | sort: "title" %}
+{% assign alphabeticposts = site.projects | sort: "title" | reverse %}
+{% assign sortedposts = alphabeticposts | sort: "prio" | reverse %}
 
 <div class="single">
    <div style="grid-column: 2 / 3;">
-      <section class="main post dark-post">
-         <h2> Apps and Games </h2>
-         <p>Most of these apps contains sexual content with focus on <b>Bimbofication</b>. This includes <b>Breast Expansion</b>, <b>Gender Transformation</b> and <b>Mental Transformation</b>. This means that all content on this page is <b>NSFW</b>. To help distinguish between different content, all entries are tagged to give you some idea of what they contain. </p>
-         <p> With that out of they way, have fun! </p>
+      <section class="main post dark-post" style="padding: 1em 2em;">
+         <p style="margin: 0;">
+           Apps contain sexual content with focus on <b>Bimbofication</b>, including <b>Breast Expansion</b>, <b>Gender Transformation</b> and <b>Mental Transformation</b> and are as such NSFW.
+         </p>
       </section>
    </div>
 </div>
