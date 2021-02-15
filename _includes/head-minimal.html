@@ -8,7 +8,7 @@
 
    gtag('config', 'UA-111756944-1');
   </script>
-  
+
   {% assign description = {{site.description}} %}
   {% if page.description %}
   {% assign description = {{page.description | markdownify | strip_html }} %}
@@ -52,6 +52,9 @@
 
   <!-- Stylesheets -->
   <link rel='shortcut icon' type='image/png' href='/assets/BD-300px.png' />
+
+  <!-- Mobile shouldn't change page width -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Cookie Consent -->
   <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
