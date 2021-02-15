@@ -1,115 +1,10 @@
 {
   nodes: [
     {
-      id: "hormone-1"
-      title: "Hormone Injector"
-      thumb: "syringe/syringe-1.webp"
-      description: "To produce milk, breast tissue needs to be stimulated by the proper hormone balance. We believe that research into this avenue can yield an effective way of starting milk production, hopefully with minimal side effects."
-      requires: []
-      researchCost: 50
-      scienceCost: 150
-      equipCost: 0
-      ongoingCost: 0.1
-      target: employee
-      effectType: {
-        timeType: slow
-        permanence: temporary
-        duration: 60
-      }
-      effects: {
-        iq: {
-          value: -10,
-          type: add
-        }
-        production: {
-          value: 0.01,
-          type: add
-        }
-      }
-    }
-    {
-      id: "hormone-2"
-      title: "Hormone Booster"
-      thumb: "syringe/syringe-2.webp"
-      description: "Learning from our experience with the Hormone Injector, we think we can now amplify its effects, inducing much more prominent lactation. However, based on previous results, too high hormone levels might cause users to experience some concentration difficulties."
-      requires: ["hormone-1"]
-      researchCost: 100
-      scienceCost: 300
-      ongoingCost: 0.1
-      target: employee
-      effectType: {
-        timeType: slow
-        permanence: temporary
-        duration: 60
-      }
-      effects: {
-        iq: {
-          value: -10,
-          type: add
-        }
-        production: {
-          value: 0.01,
-          type: add
-        }
-      }
-    }
-    {
-      id: "hormone-3"
-      title: "Hormone Amplifier"
-      thumb: "syringe/syringe-3.webp"
-      description: "Our hormone treatments have so far been very succesful, but we believe that utilizing additional, non-hormonal substances in combination with previous hormonal injections, could increase the body's response even further. It is unknown how side-effects from previous iterations would be affected by this addition."
-      requires: ["hormone-2", "education-3"]
-      researchCost: 100
-      scienceCost: 400
-      ongoingCost: 0.1
-      target: employee
-      effectType: {
-        timeType: slow
-        permanence: temporary
-        duration: 60
-      }
-      effects: {
-        iq: {
-          value: -10,
-          type: add
-        }
-        production: {
-          value: 0.01,
-          type: add
-        }
-      }
-    }
-    {
-      id: "hormone-4"
-      title: "Hormone Overload"
-      thumb: "syringe/syringe-5.webp"
-      description: "Users that have undergone all previous hormone treatments have over time experienced significant concentration issues. However, milk production increases have been very succesful. We believe that by overloading the hormonal system in just the right way, this type of treatment may yet have one final breakthrough."
-      requires: ["hormone-3", "education-4"]
-      researchCost: 100
-      scienceCost: 800
-      ongoingCost: 0.1
-      target: employee
-      effectType: {
-        timeType: slow
-        permanence: temporary
-        duration: 30
-      }
-      effects: {
-        iq: {
-          value: -10,
-          type: add
-        }
-        production: {
-          value: 0.01,
-          type: add
-        }
-      }
-    }
-    {
       id: "education-1"
       title: "High School Science"
       thumb: "education/education-1.webp"
-      description: "It turns out that not everyone remembers their high school science as well as they should. We could have our scientists open their old books and put together a basic science course."
+      description: "It turns out that not everyone remembers their high school science as well as they should. We could have our scientists open their old books and put together a basic science course. We'll need this if we want to be able to do more than basic research."
       requires: []
       researchCost: 100
       scienceCost: 200
@@ -132,11 +27,11 @@
       id: "education-2"
       title: "Bachelor's Degree"
       thumb: "education/education-2.webp"
-      description: "Some say that a university degree is just a paper, but you do get to learn an awful lot. If we want to have an effective science department we should probably put together some resources to allow our staff to get a bachelor's degree."
+      description: "Some say that a university degree is just a paper, but you do get to learn an awful lot. If we want to have an effective science department we should probably put together some resources to allow our staff to get a bachelor's degree. This will allow us to do intermediary research."
       requires: ["education-1"]
-      researchCost: 200
+      researchCost: 300
       scienceCost: 400
-      equipCost: 100
+      equipCost: 200
       ongoingCost: 0.2
       target: employee
       effectType: {
@@ -155,11 +50,11 @@
       id: "education-3"
       title: "Master's Degree"
       thumb: "education/education-3.webp"
-      description: "Master of Science, sounds pretty good, doesn't it? If we can allow our staff to get this degree we'll have a masterful science department in no time."
+      description: "Master of Science, sounds pretty good, doesn't it? If we can allow our staff to get this degree we'll have a masterful science department in no time. This should allow us to do advanced research."
       requires: ["education-2"]
-      researchCost: 400
+      researchCost: 1000
       scienceCost: 800
-      equipCost: 200
+      equipCost: 400
       ongoingCost: 0.4
       target: employee
       effectType: {
@@ -178,11 +73,11 @@
       id: "education-4"
       title: "PhD Studies"
       thumb: "education/education-4.webp"
-      description: "The ultimate science degree. It won't be easy for anyone, but if we want our scientists to find solutions to those most intricate of problems, this is the degree they need."
+      description: "The ultimate science degree. It won't be easy for anyone, but if we want our scientists to find solutions to those most intricate of problems, this is the degree they need. This will permit us to pursue the most complex of research."
       requires: ["education-3"]
-      researchCost: 800
+      researchCost: 3000
       scienceCost: 1600
-      equipCost: 300
+      equipCost: 800
       ongoingCost: 0.8
       target: employee
       effectType: {
@@ -198,14 +93,119 @@
       }
     }
     {
+      id: "hormone-1"
+      title: "Hormone Injector"
+      thumb: "syringe/syringe-1.webp"
+      description: "To produce milk, breast tissue needs to be stimulated by the proper hormone balance. We believe that research into this avenue can yield an effective way of starting milk production, hopefully with minimal side effects."
+      requires: []
+      researchCost: 50
+      scienceCost: 200
+      equipCost: 0
+      ongoingCost: 0.1
+      target: employee
+      effectType: {
+        timeType: slow
+        permanence: temporary
+        duration: 60
+      }
+      effects: {
+        iq: {
+          value: -10,
+          type: add
+        }
+        production: {
+          value: 0.004,
+          type: add
+        }
+      }
+    }
+    {
+      id: "hormone-2"
+      title: "Hormone Booster"
+      thumb: "syringe/syringe-2.webp"
+      description: "Learning from our experience with the Hormone Injector, we think we can now amplify its effects, inducing much more prominent lactation. However, based on previous results, too high hormone levels might cause users to experience some concentration difficulties."
+      requires: ["hormone-1", "education-1"]
+      researchCost: 100
+      scienceCost: 400
+      ongoingCost: 0.2
+      target: employee
+      effectType: {
+        timeType: slow
+        permanence: temporary
+        duration: 60
+      }
+      effects: {
+        iq: {
+          value: -10,
+          type: add
+        }
+        production: {
+          value: 0.005,
+          type: add
+        }
+      }
+    }
+    {
+      id: "hormone-3"
+      title: "Hormone Amplifier"
+      thumb: "syringe/syringe-3.webp"
+      description: "Our hormone treatments have so far been very succesful, but we believe that utilizing additional, non-hormonal substances in combination with previous hormonal injections, could increase the body's response even further. It is unknown how side-effects from previous iterations would be affected by this addition."
+      requires: ["hormone-2", "education-2"]
+      researchCost: 300
+      scienceCost: 800
+      ongoingCost: 0.3
+      target: employee
+      effectType: {
+        timeType: slow
+        permanence: temporary
+        duration: 60
+      }
+      effects: {
+        iq: {
+          value: -10,
+          type: add
+        }
+        production: {
+          value: 0.007,
+          type: add
+        }
+      }
+    }
+    {
+      id: "hormone-4"
+      title: "Hormone Overload"
+      thumb: "syringe/syringe-5.webp"
+      description: "Users that have undergone all previous hormone treatments have over time experienced significant concentration issues. However, milk production increases have been very succesful. We believe that by overloading the hormonal system in just the right way, this type of treatment may yet have one final breakthrough."
+      requires: ["hormone-3", "education-3"]
+      researchCost: 600
+      scienceCost: 1600
+      ongoingCost: 0.4
+      target: employee
+      effectType: {
+        timeType: slow
+        permanence: temporary
+        duration: 30
+      }
+      effects: {
+        iq: {
+          value: -10,
+          type: add
+        }
+        production: {
+          value: 0.01,
+          type: add
+        }
+      }
+    }
+    {
       id: "brain-meds-1"
       title: "Concentrol"
       thumb: "pills/pills-1.webp"
-      description: "Some of our researchers have raised concerns regarding the mental side-effects of our Hormone Booster series. We could look into methods of remedying these effects."
+      description: "Some of our researchers have raised concerns regarding the mental side-effects of our Hormone Booster series. We could look into methods of remedying these effects. However, such remedies may be susceptible to inducing stress and depression."
       requires: ["hormone-2", "education-1"]
       researchCost: 100
       scienceCost: 400
-      ongoingCost: 0.1
+      ongoingCost: 0.2
       target: employee
       effectType: {
         timeType: slow
@@ -215,6 +215,36 @@
       effects: {
         iq: {
           value: 10,
+          type: add
+        }
+        mood: {
+          value: -10,
+          type: add
+        }
+      }
+    }
+    {
+      id: "brain-meds-2"
+      title: "Purified Concentrol"
+      thumb: "pills/pills-2.webp"
+      description: "Some of our researchers have raised concerns regarding the mental side-effects of our Hormone Booster series. We could look into methods of remedying these effects."
+      requires: ["brain-meds-1", "education-3"]
+      researchCost: 800
+      scienceCost: 800
+      ongoingCost: 0.4
+      target: employee
+      effectType: {
+        timeType: slow
+        permanence: temporary
+        duration: 2
+      }
+      effects: {
+        iq: {
+          value: 10,
+          type: add
+        }
+        mood: {
+          value: -20,
           type: add
         }
       }
@@ -356,18 +386,18 @@
       thumb: "hypno-visor/hypno-visor-1.webp"
       description: "During our research on hypnosis we discovered that brainwaves can be manipulated by an electromagnetic field. By exploring this topic further, we believe we could build a device capable of limiting brain activity to incur a deep sense of relaxation and contentment at will."
       requires: ["hypnosis-1", "education-2"]
-      researchCost: 200
-      scienceCost: 400
-      equipCost: 10
+      researchCost: 400
+      scienceCost: 800
+      equipCost: 300
       target: employee
       effectType: {
         timeType: slow
         permanence: temporary
-        duration: 1
+        duration: 2
       }
       effects: {
         iq: {
-          value: 0.9,
+          value: 0.8,
           type: mul
         }
         mood: {
@@ -382,18 +412,18 @@
       thumb: "hypno-visor/hypno-visor-2.webp"
       description: "Our previous relaxation inducing headband has proved very popular among many employees. So popular that some of our scientists think it'd be worthwhile to design an upgraded version. By tuning up the ultrapink EM field, and looking into visual cortex stimulation, we might be able to create a worthy successor."
       requires: ["hypno-visor-1", "education-3"]
-      researchCost: 300
-      scienceCost: 600
-      equipCost: 10
+      researchCost: 800
+      scienceCost: 1200
+      equipCost: 600
       target: employee
       effectType: {
         timeType: slow
         permanence: temporary
-        duration: 1
+        duration: 4
       }
       effects: {
         iq: {
-          value: 0.9,
+          value: 0.7,
           type: mul
         }
         mood: {
@@ -408,9 +438,9 @@
       thumb: "hypno-visor/hypno-visor-3.webp"
       description: "The so called \"Brain Drain Headband\" taught us alot about the human brain. However, while some of my colleges have suggested upgrading that device, I believe we can find a much more productive use for this technology. I want to request funding for looking into alternatives to the ultrapink EM field, and to utilize the visual spectrum for creating a device that can enhance user mental processes, rather than relaxing them."
       requires: ["hypno-visor-1", "education-3"]
-      researchCost: 400
-      scienceCost: 800
-      equipCost: 10
+      researchCost: 800
+      scienceCost: 1600
+      equipCost: 800
       target: employee
       effectType: {
         timeType: slow
@@ -428,11 +458,11 @@
       id: "tattoo-1"
       title: "Tramp Stamp"
       thumb: "tattoo.webp"
-      description: "Our research into hormones and hypnosis as opened up a new avenue of research: hypnotic ink. With the right mixture, a tattoo of such ink could cause a permanent change in user behavior."
-      requires: ["hypnosis-1", "hormone-1"]
+      description: "Our research into hormones and hypnosis as opened up a new avenue of research: hypnotic ink. Initial tests suggests that with the right mixture, a tattoo of such ink could make a user both happier and hornier. Some critics suggest that exposure could harm user mental capabilities, but that is most likely nonsense."
+      requires: ["hypnosis-1", "education-1"]
       researchCost: 100
       scienceCost: 400
-      equipCost: 25
+      equipCost: 100
       target: employee
       effectType: {
         timeType: instant
@@ -442,6 +472,18 @@
       effects: {
         iq: {
           value: 0.9,
+          type: mul
+        }
+        mood: {
+          value: 5,
+          type: add
+        }
+        implants: {
+          value: 1,
+          type: add
+        }
+        lustDelta: {
+          value: 1.2,
           type: mul
         }
       }
@@ -472,10 +514,10 @@
       id: "milking-speed-2"
       title: "Milking Techniques II"
       thumb: "milking-speed/milking-2.webp"
-      description: ""
+      description: "We believe there are even better ways of doing milking."
       requires: ["milking-speed-1", "education-2"]
-      researchCost: 200
-      scienceCost: 500
+      researchCost: 300
+      scienceCost: 800
       target: farm
       effectType: {
         timeType: instant
@@ -493,10 +535,10 @@
       id: "milking-speed-3"
       title: "Milking Techniques III"
       thumb: "milking-speed/milking-3.webp"
-      description: ""
+      description: "Our staff have become milking experts, but by utilizing their feedback, and a fat stack of cash, we believe we can find the ultimate milking technique."
       requires: ["milking-speed-2", "education-3"]
-      researchCost: 400
-      scienceCost: 800
+      researchCost: 800
+      scienceCost: 1600
       target: farm
       effectType: {
         timeType: instant
@@ -505,7 +547,29 @@
       }
       effects: {
         milkingSpeed: {
-          value: 2,
+          value: 1.5,
+          type: mul
+        }
+      }
+    }
+    {
+      id: "milking-skill-1"
+      title: "Milking Training"
+      thumb: "milking-speed/milking-1.webp"
+      description: "We've done plenty of research on milking techniques, but it seems that our staff has not understood it as well as they could. However, if we develop a training program they might be able to learn."
+      requires: ["milking-speed-3", "education-3"]
+      researchCost: 1200
+      scienceCost: 1600
+      equipCost: 200
+      target: employee
+      effectType: {
+        timeType: slow
+        permanence: permanent
+        duration: 120
+      }
+      effects: {
+        milkingSkill: {
+          value: 1.5,
           type: mul
         }
       }
@@ -514,7 +578,7 @@
       id: "milkshake-1"
       title: "Vanilla Milk Shakes"
       thumb: "milkshake/milkshake-vanilla.webp"
-      description: "Our girls can only produce so much milk, but what if we could sell it at a higher price? Let's see if we can find a way to make our milk even more delicious."
+      description: "Our girls can produce alot of milk, but who should we sell it to? If we could find a new way for people to enjoy our wonderful milk, there would be more demand for it!"
       requires: ["hormone-1", "milk-storage-1"]
       researchCost: 100
       scienceCost: 200
@@ -525,8 +589,8 @@
         duration: 0
       }
       effects: {
-        milkPrice: {
-          value: 5,
+        milkConsumption: {
+          value: 0.2,
           type: add
         }
       }
@@ -535,7 +599,7 @@
       id: "milkshake-2"
       title: "Chocolate Milk Shakes"
       thumb: "milkshake/milkshake-chocolate.webp"
-      description: "Turns out that milkshakes do bring all the boys to the yard. Let's try some more tastes."
+      description: "Turns out that milkshakes do bring all the boys to the yard. Not only that, but our analysts speculate that an increased selection of tastes would increase demand even further."
       requires: ["milkshake-1"]
       researchCost: 200
       scienceCost: 400
@@ -546,8 +610,8 @@
         duration: 0
       }
       effects: {
-        milkPrice: {
-          value: 5,
+        milkConsumption: {
+          value: 0.4,
           type: add
         }
       }
@@ -556,29 +620,8 @@
       id: "milkshake-3"
       title: "Strawberry Milk Shakes"
       thumb: "milkshake/milkshake-strawberry.webp"
-      description: "Damn right, our milkshakes are better than yours. And by yours, I mean the people up in the city selling their knock-off stuff... For natural reasons, our milk is simply far superior. However, our scientists theorize that we could add berries to create even better taste."
+      description: "Damn right, our milkshakes are better than everyone elses. And yet, as demand goes up, our rivals always manage to grab shares of the market anyways. Of course our milk is far superior, but the market demands variation and ever new experiences. Let's try mixing in some strawberries or something this time."
       requires: ["milkshake-2"]
-      researchCost: 300
-      scienceCost: 400
-      target: farm
-      effectType: {
-        timeType: instant
-        permanence: permanent
-        duration: 0
-      }
-      effects: {
-        milkPrice: {
-          value: 5,
-          type: add
-        }
-      }
-    }
-    {
-      id: "milkshake-4"
-      title: "Blueberry Milk Shakes"
-      thumb: "milkshake/milkshake-blueberry.webp"
-      description: "The perfect blend."
-      requires: ["milkshake-3"]
       researchCost: 400
       scienceCost: 800
       target: farm
@@ -588,8 +631,29 @@
         duration: 0
       }
       effects: {
-        milkPrice: {
-          value: 5,
+        milkConsumption: {
+          value: 0.8,
+          type: add
+        }
+      }
+    }
+    {
+      id: "milkshake-4"
+      title: "Blueberry Milk Shakes"
+      thumb: "milkshake/milkshake-blueberry.webp"
+      description: "Red berries worked, what about blue berries? Will this be the perfect blend? Maybe. At the very least it will be yet another variation, which means more demand on our milk from the public."
+      requires: ["milkshake-3"]
+      researchCost: 1200
+      scienceCost: 1600
+      target: farm
+      effectType: {
+        timeType: instant
+        permanence: permanent
+        duration: 0
+      }
+      effects: {
+        milkConsumption: {
+          value: 1.6,
           type: add
         }
       }
@@ -629,7 +693,7 @@
       requires: ["breast-size-1", "education-1"]
       researchCost: 200
       scienceCost: 400
-      equipCost: 100
+      equipCost: 200
       ongoingCost: 0
       target: employee
       effectType: {
@@ -656,7 +720,7 @@
       requires: ["breast-size-2", "education-2"]
       researchCost: 400
       scienceCost: 800
-      equipCost: 200
+      equipCost: 400
       ongoingCost: 0
       target: employee
       effectType: {
@@ -683,7 +747,7 @@
       requires: ["breast-size-3", "education-3"]
       researchCost: 600
       scienceCost: 1000
-      equipCost: 200
+      equipCost: 800
       ongoingCost: 0
       target: employee
       effectType: {
@@ -730,7 +794,7 @@
       description: "Administrating a large farm isn't easy, but with some funding we should be able to figure out how to manage an additional staff member."
       requires: ["staff-limit-1", "education-2"]
       researchCost: 500
-      scienceCost: 500
+      scienceCost: 800
       target: farm
       effectType: {
         timeType: instant
@@ -751,7 +815,7 @@
       description: "Administrating a large farm isn't easy, but with some funding we should be able to figure out how to manage an additional staff member."
       requires: ["staff-limit-2", "education-3"]
       researchCost: 1000
-      scienceCost: 1000
+      scienceCost: 1600
       target: farm
       effectType: {
         timeType: instant
@@ -771,7 +835,28 @@
       thumb: "misc/staff-1.webp"
       description: "Administrating a large farm isn't easy, but with some funding we should be able to figure out how to manage an additional staff member."
       requires: ["staff-limit-3", "education-4"]
-      researchCost: 5000
+      researchCost: 2000
+      scienceCost: 3200
+      target: farm
+      effectType: {
+        timeType: instant
+        permanence: permanent
+        duration: 0
+      }
+      effects: {
+        staffLimit: {
+          value: 1,
+          type: add
+        }
+      }
+    }
+    /*{
+      id: "staff-limit-5"
+      title: "Staff Limit V"
+      thumb: "misc/staff-1.webp"
+      description: "Administrating a large farm isn't easy, but with some funding we should be able to figure out how to manage an additional staff member."
+      requires: ["staff-limit-4", "education-4"]
+      researchCost: 4000
       scienceCost: 5000
       target: farm
       effectType: {
@@ -783,6 +868,31 @@
         staffLimit: {
           value: 1,
           type: add
+        }
+      }
+    }*/
+    {
+      id: "victory-1"
+      title: "Global Hypnotic Broadcast"
+      thumb: "misc/hypno-world.webp"
+      description: '''How do you win at selling milk? Why, the same way you win in any game of runaway capitalism! Force everyone into dependency, and require them to buy YOUR product.
+
+      Normally that would be done through years of lobbying, acquisitions and mergers, but our scientists believe they have a better solution. We just take the tech from our brain drain visors, amplify the signal, and broadcast it via satellite. Et voilà! We control everything.'''
+      requires: ["education-4", "hormone-4", "hypno-visor-2"]
+      researchCost: 10000
+      scienceCost: 10000
+      equipCost: 0
+      ongoingCost: 0
+      target: farm
+      effectType: {
+        timeType: instant
+        permanence: permanent
+        duration: 0
+      }
+      effects: {
+        milkConsumption: {
+          value: 2,
+          type: mul
         }
       }
     }

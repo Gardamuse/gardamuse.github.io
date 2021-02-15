@@ -2,12 +2,12 @@
   default: {
     milking: ["Aaah... I love it when you milk me!"]
     needMilking: ["I need someone to milk me..."]
-    gift: ["Thank you!"]
-    cuddle: ["This is so cozy..."]
-    rejectAdvance: ["I'm not in the mood for that."]
-    hadSex: ["Ooh, that was amazing!"]
-    masturbation: ["Aah... I just needed some self-love, but I would have preferred you..."]
+    gift: ["Thank you very much!", "Thank you!", "Aww, like, thanks!"]
+    cuddle: ["Cuddling with you is really nice...", "I feel so warm and cosy next to you...", "This is so cozy...", "So cozy... Are my boobies like, soft enough for you?"]
+    rejectAdvance: ["I'm not in the mood for that.", "I'm not in the mood right now.", "I don't feel like that right now, but maybe later?", "Aw I really do want to fuck, but like, maybe in just a bit?"]
+    hadSex: ["Wow, that was great.", "Ooh, that was amazing!", "Oooh... yes... Fuck me again soon?"]
+    masturbation: ["Aah... I just needed some self-love, but I would have preferred you...", "Masturbating is okay I guess..."]
     unaffordableEquipment: ["Can't afford that!"]
-    outOfMoney: ["I won't work here if you can't pay me!"]
+    outOfMoney: ["You clearly can't afford my services. Pay me or I'll leave.", "I won't work here if you can't pay me!", "I haven't any money to buy like, anything. But I heard other places pay well..."]
   }
 }

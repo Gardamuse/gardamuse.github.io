@@ -1,0 +1,50 @@
+{
+name: "Milk Market"
+date: "2021-02-14"
+text: '''
+# Features
+    * Added the Milk Market, accessible from the Office
+        * Selling milk now has a cooldown period.
+        * Selling milk now requires demand of milk.
+        * Milk price can be adjusted. With more demand, prices can be higher.
+        * Not fulfilling demand will cause other farms to start competing on the market.
+        * Milkshake research now increases milk demand gain instead of milk price.
+    * Staff can now be fired from the Office.
+    * Added equippable research that improves how fast a specific employee milks by 50%.
+    * Added second level of Concentrol research.
+    * Added a victory condition research.
+    * Save games can now be exported and imported.
+
+# Content
+    * Added a new character with 2 palette swaps.
+    * Added 2 palette swaps for the current character.
+    * Added "Zoey" as a possible name.
+    * Added variations of dialogue based on IQ.
+
+# Balance
+    * Staff will quit after being too unhappy sooner (4 days -> 3 days) and will count as too unhappy more easily (<10% mood -> <20% mood).
+    * Sex
+        * Lust required for sex is now higher (40% -> 50%).
+        * Lust lost from sex is now higher (50% -> 60%).
+        * Mood buff gained from sex is now longer (1.5 days -> 2 days).
+    * Cuddle mood buff is now longer (0.5 days -> 1 day).
+    * Scholar trait now also gives 25% increased science generation.
+    * Milk production is now lower, especially for high lust.
+    * Inherent milk production stat is now larger in comparison to other early game sources of milk production.
+    * Lust gained from manual milking is now 4x normal lust gain, down from 8x.
+    * Lust gain over time halved.
+    * Hormones
+        * Hormones per-day cost increased to 6/12/18/24 from 6/6/6/6.
+        * Hormone researches now requires education research level 0/1/2/3 from 0/0/3/4.
+    * Lots of research cost balances that I didn't keep exact track of.
+
+# UI
+    * Start menu is now separate from pause menu.
+    * Added patch notes screen.
+    * Hiring staff is now done from the office.
+    * Staff assignment is now done in the office.
+    * Made UI scale better to large screens.
+    * Made help menu more prominent on pause menu.
+    * Clarified that education research will unlock new levels of research.
+'''
+}

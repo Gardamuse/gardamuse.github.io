@@ -1,0 +1,10 @@
+{
+  title: "Rosa"
+
+  sequences: [
+    {
+      firstImage: "rosa-0000.webp"
+      length: 7
+    }
+  ]
+}
