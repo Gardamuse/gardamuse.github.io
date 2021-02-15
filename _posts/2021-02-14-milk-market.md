@@ -1,7 +1,7 @@
 ---
 categories: blog
 
-title:  "Cowgirl Dairy Farm"
+title:  "Cowgirl Dairy Farm: Milk Market"
 date:   2021-02-14
 author: Gardamuse
 ---
