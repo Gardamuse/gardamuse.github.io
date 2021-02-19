@@ -1,0 +1,11 @@
+{
+name: ""
+date: "2021-02-16"
+text: '''
+# Features
+    * An event is now triggered when the victory research is completed.
+
+# Bug fixes
+    * When loading a save after having had a research selected in the old save, that research will no longer be pre-selected in the new save if it has not yet been unlocked.
+'''
+}
