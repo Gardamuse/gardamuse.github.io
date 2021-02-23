@@ -1,7 +1,6 @@
 {
   name: "Reward"
   thumb: "art/jingming-pan-gold.webp"
-  artist: "Jingming Pan"
   hue: 50
   cards: [
   {
