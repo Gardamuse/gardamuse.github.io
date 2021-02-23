@@ -10,10 +10,10 @@
     }
     {
       name: "Panty Dropper"
-      thumb: ""
-      description: '''You sometimes get an irresistible urge to take off your panties. You can't wear that pair again until you've changed into another pair at home. If you were already at home, you must buy a new pair.
+      thumb: "art/panty-drop.webp"
+      description: '''You sometimes get an irresistible urge to take off your panties. You can't wear that pair again until you've changed into another pair at home. If already at home, you must first buy a new pair.
 
-      This will happen at least once a month but max 5 times a week. If you are smart, you have up to 30 seconds of warning before you drop your panties wherever you are.'''
+      This will happen at least once a month but max 5 times a week.'''
     }
     {
       name: "Milkspurt"

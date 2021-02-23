@@ -5,10 +5,15 @@
   cards: [
     {
       name: "Intelligence"
-      thumb: "art/education-4.webp"
+      thumb: "art/zatanna-card.webp"
+      artist: "CrazyCowProductions"
       description: '''Intelligence is how good you are at solving problems, understanding people and figuring stuff out.
 
-      A high intelligence can somewhat make up for bad Memory or Attention Span, as figuring things out from scratch every time might still be doable for some tasks.'''
+      This card will make you dumber, a whole lot dumber if you're lucky. So wave good bye to working a complicated job, studying or understanding things like science and politics.
+      '''
+      /*description: '''Intelligence is how good you are at solving problems, understanding people and figuring stuff out.
+
+      A high intelligence can somewhat make up for bad Memory or Attention Span, as figuring things out from scratch every time might still be doable for some tasks.'''*/
       type: "numeric"
       levels: [
         /*{
@@ -30,9 +35,18 @@
           Count yourself lucky though, you probably won't notice a huge difference. You'll just be a little more basic. As a bonus, you'll finally be able to enjoy all those dumbed-down movies and TV-shows you've complained so much about!'''
         }
         {
+          name: "Lightheaded"
+          description: '''Prepare to always feel a little lightheaded, like your thoughts try to hide in wisps of pink fog.
+
+          It's not too bad though, as tasks that seemed menial and boring before, like ironing, cleaning and cooking, will now seem like fun puzzles you're good at solving.
+          '''
+        }
+        {
           name: "Ditzy"
-          description: ''''''
-          /*description: '''You'll worry a lot less. Ideas will be a bit hard for you from now on. Fun, silly. Make a fool of yourself. When you try to be smart. Can't be taken seriously.'''*/
+          description: '''You're soon going to get a lot dumber, but you probably won't notice that yourself. It will just be harder for you to, well, think. Like if your head was wrapped in a thick pink cloud.
+
+          Others will notice though. Especially when you have to stop and really concentrate to figure out even simple things.
+          '''
         }
         {
           name: "Airhead"
@@ -45,9 +59,11 @@
       ]
     }
     {
-      name: "Flowing Memory"
+      name: "Memory"
       thumb: ""
-      description: '''How easily you can remember things you've learned in school, people and things you've done. If you got a low intelligence, a good memory could be quite interesting as you'll probably remember alot of things that you can't make sense of.'''
+      description: '''How easily you can remember things you've learned in school, people and things you've done.
+
+      If you got a low intelligence, a good memory could be quite interesting as you'll probably remember alot of things that you can't make sense of.'''
       type: "numeric"
       levels: [
         /*{
@@ -86,7 +102,10 @@
     {
       name: "Attention Span"
       thumb: ""
-      description: '''How long you are able to concentrate on a single task and block out distractions.'''
+      description: '''How long you are able to concentrate on a single task and block out distractions.
+
+      Focusing on stuff is going to get a lot harder for you, so hopefully that wasn't something you needed to do.
+      '''
       type: "numeric"
       levels: [
         /*{
@@ -113,7 +132,7 @@
           name: "Absent-Minded"
           description: '''You never really pay attention to what you are doing, and your thoughts are quickly fleeting.
 
-          "What was I doing again?" is something you'll be asking yourself alot.'''
+          "What was I doing again?" is something you'll be asking yourself a lot.'''
         }
         {
           name: "Completely Lost"
@@ -125,73 +144,76 @@
     }
     {
       name: "Syllable Limit"
-      thumb: ""
-      description: '''Your intelligence is not affected, but your brain becomes unable to understand or think words with more than a certain number of syllables.'''
+      thumb: "art/syllables.webp"
+      description: '''Your intelligence is not affected per say, but your brain becomes unable to comprehend words with too many syllables.
+
+      How many is too many? We'll see.
+      '''
       type: "numeric"
       levels: [
         {
           name: "Six"
-          description: ''''''
+          description: '''Any words with more than six syllables will become incomprehensible for you. Yet, your circumnavigation of language will not be much affected, since few words used with responsibility in mind are longer than that.'''
         }
         {
           name: "Five"
-          description: ''''''
+          description: '''With five syllables your alphabetical terminology will be only slightly dilapidated. As such, you should feel insignificant insecurity because of it, since most words of rationality will still be yours to command.'''
         }
         {
           name: "Four"
-          description: ''''''
+          description: '''Four syllables is obviously not an overwhelming limitation, and you will undoubtedly appreciate a reduced complexity of literature. Yet your intelligence will only with difficulty appear a little disappointing.'''
         }
         {
           name: "Three"
-          description: ''''''
+          description: '''Only using three syllables will still be perfectly adequate for typical appointments, if perhaps not for academic approval. Although you will encounter confusion concerning a few not too uncommon words.'''
         }
         {
           name: "Two"
-          description: ''''''
+          description: '''Only shortish words will exist in your knowledge now. Talking should not pose too much a problem, but you will be missing many pieces you were likely used to have.'''
         }
         {
           name: "One"
-          description: ''''''
+          description: '''You will speak in short words from now on. Long words can not be in your brain, and folks will think you seem a bit dumb when you don't know words. It will be hard for you to know what folks say, if they do not speak to you with short words.'''
         }
       ]
     }
     {
       name: "Word Limit"
-      thumb: ""
+      thumb: "art/sentence.webp"
       description: '''Your intelligence is not affected, but your brain becomes unable to form sentences with more than a certain number of words. When reading or listening, you will need 1 to 5 seconds (depending on your intelligence) to comprehend each sequence of words, any more than your limit and you will forget them.'''
       type: "numeric"
       levels: [
         {
           name: "Seventeen"
-          description: ''''''
+          description: '''A word limit of seventeen will shorten your sentences somewhat, but it will not be too noticeable. It is still possible to comfortably speak and write, although when listening you will sometimes encounter confusion. Reading should be fine, but you will have slow down much when the sentences are too long.'''
         }
         {
           name: "Thirteen"
-          description: ''''''
+          description: '''Thirteen words make for a somewhat short sentence, but not one overly short. Reading will be slow, since you pause whenever a sentence is too long. Yet the most difficult thing for you will most definitely be to listen. Whenever a sentence is longer than thirteen words, you will forget a bit.'''
         }
         {
           name: "Ten"
-          description: ''''''
+          description: '''With only ten word sentences, you may start seeming simple. Still, listening to other will be the most obvious problem. Too long sentences and you will be lost in conversation.'''
         }
         {
           name: "Seven"
-          description: ''''''
+          description: '''People should speak very slowly to you. Only seven words can not say much. Any more, and you won't follow. Still, being easily confused is pretty cute.'''
         }
         {
           name: "Five"
-          description: ''''''
+          description: '''Five word sentences are short. Any more will confuse you. Hopefully your friends speak slowly. Pets can understand longer sentences. Who is a good girl?'''
         }
         {
           name: "Four"
-          description: ''''''
+          description: '''This is getting ridiculous. You can't understand. Good luck to you. Your friends are patient. Confused looks cute though. What a good girl!'''
         }
         {
           name: "Three"
-          description: ''''''
+          description: '''You understand little. Find a partner. Will help you. Sound so dumb. Maybe be quiet? Still pretty cute. Good little girl!'''
         }
         {
           name: "Two"
-          description: ''''''
+          description: '''Understand nothing. Take commands. Eat food. Sit lap. Suck cock. Good girl!'''
         }
       ]
     }
@@ -222,9 +244,9 @@
     {
       name: "Name"
       thumb: ""
-      description: '''A name is a powerful thing.
+      description: '''Names can be powerful. A representation of your personality and the first thing most people learn about you.
 
-      What will you call yourself?
+      What kind of name will you be using?
       '''
       type: "numeric"
       levels: [
@@ -260,7 +282,8 @@
     }
     {
       name: "On Your Knees"
-      thumb: ""
+      thumb: "art/griffinwolf-card.webp"
+      artist: "CrazyCowProductions"
       description: '''You've forgotten how to walk, and can never learn again, so you will have to crawl on all fours from now on. Fortunately you will have no pains from walking on all fours either.
 
       It may feel weird for you to go out at first, but you'll make for a cute pet I'm sure.'''
@@ -287,9 +310,9 @@
     }
     {
       name: "Second Language"
-      description: '''Choose any two languages. You now only speak the second language, but with a heavy accent, like if you only really knew the first language.
+      description: '''Choose any two distinct languages. You now only speak the second language, but with a heavy accent, like if you only really knew the first language.
 
-      You will be unable to understand or learn to speak any other language.
+      You will be unable to understand or learn any other language.
       '''
     }
   ]

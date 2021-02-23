@@ -253,7 +253,7 @@
     }
     {
       name: "Amazonian Fitness"
-      thumb: ""
+      thumb: "art/gym.webp"
       description: '''Will you look as stuffed with food as an ancient fertility goddess, or be so fit that you look like a modern day amazon?
 
       This card will determine your weight and your attitude towards keeping fit.
@@ -514,7 +514,7 @@
     }
     {
       name: "Erogenous Breasts"
-      thumb: ""
+      thumb: "art/carpe-diem-animation-small-2.webp"
       description: '''Your nipples and, to just a slightly lower extent, your entire breasts, are now as erogenous as your clit.
 
       Be careful with bras or tight tops, you may find yourself getting a bit too excited in public. Ask your partner to give you a nice breast massage or good titfuck though, that should feel really good.'''
@@ -531,7 +531,7 @@
       thumb: ""
       description: '''You will only be able to cum when given permission from a partner.
 
-      This might get especially fun if you got a really high sex drive, or can't find a partner.
+      This might get especially interesting if you got a really high sex drive, or have trouble finding a partner.
       '''
     }
     {
@@ -545,18 +545,19 @@
           description: '''Cute, and not much more than bumps on your head, these can give you that cowgirl or succubus feel without being in the way.'''
         }
         {
-          name: "Adolescent"
+          name: "Grabbable"
           description: '''Large enough to look a little dangerous, and more importantly, large enough that someone can grab and comfortably hold on to them and steer you.'''
         }
         {
           name: "Imposing"
-          description: '''Heavy, imposing and not always easy to get through low doorways these are not for everyone. But for a thicc cowgirl or demoness, these may be just what you need. Plenty of room for your partner to hold and steer your head, too.'''
+          description: '''Heavy, imposing and not always easy to get through low doorways, these are not for everyone. But for a thicc cowgirl or powerful demoness, these may be just what you need. Plenty of room for your partner to hold and steer your head with, too.'''
         }
       ]
     }
     {
       name: "Tail"
-      thumb: ""
+      thumb: "art/griffinwolf-card.webp"
+      artist: "CrazyCowProductions"
       description: '''Your backside will be a lot more interesting with a nice tail.
       '''
       type: "selection"
@@ -571,7 +572,11 @@
         }
         {
           name: "Bushy"
-          description: '''A fairly long dog's tail with beautiful hair.'''
+          description: '''A fairly long puppy-like tail with long beautiful hair.'''
+        }
+        {
+          name: "Foxtail"
+          description: '''A fairly long, beautiful two-colored fox's tail.'''
         }
         {
           name: "Demonic"
@@ -606,11 +611,11 @@
         }
       ]
     }
-    {
+    /*{
       name: "Wings"
       thumb: ""
       description: '''Angelic or demonic, depending on what suits you best.'''
-    }
+    }*/
     {
       name: "Smooth As Silk"
       thumb: ""

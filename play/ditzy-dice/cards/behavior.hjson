@@ -5,7 +5,8 @@
   cards: [
     {
       name: "Giggly"
-      thumb: ""
+      thumb: "art/happy-smile.webp"
+      artist: "CrazyCowProductions"
       description: '''Your laugh is always a cute giggle, and you'll giggle almost constantly. There is pretty much nothing that won't make you laugh.
 
       If you try really hard you can keep it together, but only for a short while.'''
@@ -19,7 +20,8 @@
     }
     {
       name: "Bouncy"
-      thumb: ""
+      thumb: "art/happy-smile.webp"
+      artist: "CrazyCowProductions"
       description: '''You will have a strong urge to feel your tits bounce. As a result, you are often going to bounce a little up and down, even if you're just by yourself.'''
     }
     {
@@ -29,7 +31,8 @@
     }
     {
       name: "Easy"
-      thumb: ""
+      thumb: "art/happy-smile.webp"
+      artist: "CrazyCowProductions"
       description: '''Whenever someone asks you out, over to their place, or just straight up for sex, you will have an irresistable urge to say yes.
 
       You will not have this urge if whoever is asking intends to harm or rob you.
@@ -38,7 +41,7 @@
     {
       name: "Mirror Mirror"
       thumb: ""
-      description: '''You can't help but staring at your own reflection.
+      description: '''You can't help but stare at your own reflection.
 
       If you walk past a mirror or some other somewhat large and reflective surface, you will stop and look at yourself for at least 10 seconds unless someone drags you away.'''
     }
@@ -61,34 +64,36 @@
     }
     {
       name: "Lap Warmer"
-      thumb: ""
+      thumb: "art/lap-warmer.webp"
       description: '''You can only sit down if its on another person.
 
       You're going to be pretty friendly with people from now on.
       '''
     }
-    {
+    /*{
       name: "Pinup"
       thumb: ""
       description: '''Whenever you're in a photo, you'll be posing like for a classic pinup photo.'''
-    }
+    }*/
     {
       name: "Lightweight"
-      thumb: ""
+      thumb: "art/drink-ash-edmonds.webp"
+      artist: "Ash Edmonds"
       description: '''You get very drunk from a single drink, but you also never become so drunk that you get sick, no matter how much you drink.'''
     }
     {
       name: "Hot Drinks"
-      thumb: ""
+      thumb: "art/drink-ash-edmonds.webp"
+      artist: "Ash Edmonds"
       description: '''When you get drunk, you also become extremely horny.
 
       You won't get sick no matter how much you drink, and hangovers will make you feel horny instead of sick.'''
     }
-    {
+    /*{
       name: "Cum Addict"
       thumb: ""
       description: '''Whenever you haven't swallowed any cum for 24 hours, you will feel unfocused (-1 attention span) and get horny much quicker (+2 sex drive).'''
-    }
+    }*/
     {
       name: "Gold-Digger"
       thumb: ""
@@ -96,14 +101,15 @@
     }
     {
       name: "Influencer"
-      thumb: ""
+      thumb: "art/selfie.webp"
       description: '''You have an irresistible urge to take selfies and upload them to social media.
 
       At least one photo every time you change outfit and every time you go out, and you will only feel content if you post at least 10 selfies each day.'''
     }
     {
       name: "Good Girl"
-      thumb: ""
+      thumb: "art/griffinwolf-card.webp"
+      artist: "CrazyCowProductions"
       description: '''Getting head pats makes you feel so calm and relaxed, but also very horny at the same time.
 
       In addition, you always try to get people to pat you on the head, especially when you feel like you've been good.'''
@@ -117,7 +123,8 @@
     }
     {
       name: "Expenses"
-      thumb: ""
+      thumb: "art/shopping.webp"
+      artist: "CrazyCowProductions"
       description: '''Do you not need much, or are luxuries everything?'''
       type: "numeric"
       levels: [
@@ -139,7 +146,7 @@
       name: "Personality"
       thumb: ""
       description: '''What is your outlook on life?'''
-      type: "numeric"
+      type: "selection"
       levels: [
         {
           name: "Sweet and Bubbly"
@@ -237,27 +244,11 @@
 
       Most people will assume you're pretty dumb, even if you're not.'''
     }
-    /*{
-      name: "Speech"
-      thumb: ""
-      description: ''''''
-      type: "numeric"
-      levels: [
-
-        {
-          name: "Jeopardy"
-          description: '''Is every sentence you speak a question? Is it yes?
-
-          Yes, yes it is, and you're going to sound pretty dumb from now on.
-          '''
-        }
-      ]
-    }*/
     {
       name: "Submissive Speech"
       thumb: ""
       description: '''You will speak in a submissive manner.'''
-      type: "numeric"
+      type: "selection"
       levels: [
         {
           name: "Speak When Spoken To"
@@ -278,7 +269,7 @@
       name: "Concentration Face"
       thumb: ""
       description: '''You always make this face whenever you are concentrating or thinking about something.'''
-      type: "numeric"
+      type: "selection"
       levels: [
         {
           name: "Aheago"

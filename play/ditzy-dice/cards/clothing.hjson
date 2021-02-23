@@ -5,19 +5,20 @@
   cards: [
     {
       name: "Outgrown"
-      thumb: ""
+      thumb: "art/zatanna-outgrown.webp"
+      artist: "CrazyCowProductions"
       description: '''No matter what you put on, you always find it is a few sizes too small.'''
     }
     {
       name: "Whale Tail"
-      thumb: ""
+      thumb: "art/whale-tail.webp"
       description: '''Whenever you are not wearing a thong, and it is not showing above your pant- or skirt-line, you become considerably less intelligent (-2 intelligence).
 
       If you want to think, you better show that thong!'''
     }
     {
       name: "Cleavage"
-      thumb: ""
+      thumb: "art/cleavage.webp"
       description: '''Whenever clothes cover your breasts and you are not showing considerable cleavage, your attention span becomes significantly worse (-1 attention span).
 
       So it's up to you, either you show off your puppies, or you forget what else you were supposed to do.'''
@@ -45,13 +46,18 @@
     }
     {
       name: "Choker"
-      thumb: ""
-      description: '''Whenever you are not wearing a choker saying either "BIMBO", "SLUT", "PET" or something similar, you get much less intelligent (-1 intelligence).'''
+      thumb: "art/draenei-collar.webp"
+      artist: "Bradtanker3"
+      description: '''Ever consider what your clothes say about you? How about a choker? Or what about a proper collar? In fact, let's make it really obvious what it says about you.
+
+      From now on, whenever you are not wearing a choker saying either "BIMBO", "SLUT", "PET" or something similar, you become less intelligent to make up for it (-1 intelligence).'''
     }
     {
-      name: "Pink"
+      name: "Pink to Think"
       thumb: ""
-      description: '''Whenever you are wearing any clothing that is not a shade of pink, you feel distracted (-1 attention span).'''
+      description: '''Pink is a great color isn't it? Feminine, sexy, you name it. In any case, I think you should be wearing it more.
+
+      From now on, whenever you are wearing any clothing that is not a shade of pink, you will feel distracted (-1 attention span).'''
     }
   ]
 }

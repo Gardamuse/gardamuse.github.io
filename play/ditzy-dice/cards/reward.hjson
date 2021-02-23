@@ -1,44 +1,45 @@
 {
   name: "Reward"
-  thumb: "art/emptyPortrait.jpg"
+  thumb: "art/jingming-pan-gold.webp"
+  artist: "Jingming Pan"
   hue: 50
   cards: [
   {
     name: "Power: Super Strength"
-    thumb: ""
+    thumb: "art/spell-book.webp"
     description: '''Lift stuff, punch holes through walls or defend yourself. Only activates when you want to, so no need to worry about not knowing your own strength.'''
   }
   {
     name: "Power: Transform Others"
-    thumb: ""
+    thumb: "art/spell-book.webp"
     description: '''You learn how to transform others mind and body, but you can only transform them to be more similar to you.
 
     You may reset a transformation at any time.'''
   }
   {
     name: "Power: Transform Body"
-    thumb: ""
+    thumb: "art/spell-book.webp"
     description: '''You can transform your body into anything female and somewhat humanoid, but you are not able to alter what the cards have given you. Perhaps you want to spend some time as a centaur or mermaid, or maybe something more subtle?
 
     You can always reset your appearance. If you have Transform Others you can also transform other people this way.'''
   }
   {
     name: "Power: Mind Tune"
-    thumb: ""
+    thumb: "art/spell-book.webp"
     description: '''You can lower a nearby person's intelligence, memory and attention span. The changes can revert after a given time, or be permanent until you revert them.
 
     Can be used on yourself.'''
   }
   {
     name: "Power: Forever Young"
-    thumb: ""
+    thumb: "art/spell-book.webp"
     description: '''You can choose any age, and your body will age (at normal speed) forwards, backwards or not at all, in order to slowly become that age.
 
     This can allow you to live for a long time as long as you're not killed.'''
   }
   {
     name: "Spell: Healing"
-    thumb: ""
+    thumb: "art/spell-book.webp"
     description: '''By firmly touching an erogenous zone on yourself or someone else, you can heal any wound and cure any illness in a few minutes. This spell cannot stop aging, but can resurrect the recently dead if their body still looks mostly whole.
 
     Costs 1 mana per 10 minutes. You gain 1 mana per hour spent very horny. Mana can be stored for a week.
@@ -46,7 +47,7 @@
   }
   {
     name: "Spell: Mind Control"
-    thumb: ""
+    thumb: "art/spell-book.webp"
     description: '''You learn how to control minds. You can take direct control, or issue commands that the target will try to follow. When you are done, you can choose whether the target should remember what happened, or forget it. Target will only try to follow commands while the spell is active.
 
     Costs 1 mana per hour. You gain 1 mana per hour spent very horny. Mana can be stored for a week.
@@ -54,7 +55,7 @@
   }
   {
     name: "Spell: Telepathy"
-    thumb: ""
+    thumb: "art/spell-book.webp"
     description: '''Hear what a nearby person, or person you've met previously, is thinking right now, or explore their memories, plans and personality. You can also talk to them, and they will hear your voice in their heads.
 
     Spells cost 1 mana per hour. You gain 1 mana per hour spent very horny. Mana can be stored for a week.
@@ -62,7 +63,7 @@
   }
   {
     name: "Spell: Telekinesis"
-    thumb: ""
+    thumb: "art/spell-book.webp"
     description: '''You can lift, move and manipulate nearby objects using up to 1 metric ton of force. Please be careful if you use it on people.
 
     Costs 1 mana per hour. You gain 1 mana per hour spent very horny. Mana can be stored for a week.
@@ -70,7 +71,7 @@
   }
   {
     name: "Spell: Slow Time"
-    thumb: ""
+    thumb: "art/spell-book.webp"
     description: '''You learn how to slow time, down to a complete stand still should you want it. Just slowing time costs less mana than stopping it entirely.
 
     Costs 1 mana per hour. You gain 1 mana per hour spent very horny. Mana can be stored for a week.
@@ -78,14 +79,14 @@
   }
   {
     name: "Spell: Flight"
-    thumb: ""
+    thumb: "art/spell-book.webp"
     description: '''You learn how to fly; at great speeds or just hovering in place.
 
     Costs 1 mana per hour. You gain 1 mana per hour spent very horny. Mana can be stored for a week.'''
   }
   {
     name: "Spell: Invisibility"
-    thumb: ""
+    thumb: "art/spell-book.webp"
     description: '''Rob banks, spy on people or just hide yourself. You can turn yourself and up to a cubic meter of material, including other people, invisible. To turn something invisible, some part of it must be very close to you.
 
     Costs 1 mana per hour. You gain 1 mana per hour spent very horny. Mana can be stored for a week.
@@ -93,7 +94,7 @@
   }
   {
     name: "Spell: Phasing"
-    thumb: ""
+    thumb: "art/spell-book.webp"
     description: '''You can phase yourself and up to a cubic meter of material, including other people. While phasing, you can float through any object as if it wasn't there, and you look slightly transparent.
 
     Cost 1 mana per hour. You gain 1 mana per hour spent very horny. Mana can be stored for a week.
@@ -109,7 +110,9 @@
   }*/
   {
     name: "Gold"
-    thumb: ""
+    thumb: "art/jingming-pan-gold.webp"
+    artist: "Jingming Pan"
+    artistLink: "https://unsplash.com/@pokmer?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText"
     description: '''What can make all your problems go away? Magic? No, magic most often creates more problems than it solves. Money is the answer, and this card will give you a great deal of it.'''
     type: "numeric"
     levels: [
