@@ -5,42 +5,45 @@
   cards: [
     {
       name: "Lips"
-      thumb: ""
-      description: '''Lips for kissing, sucking cock or just looking gorgeous?
+      thumb: "art/purple-lipstick.webp"
+      artist: "Blackshirtboy"
+      description: '''Lips for kissing, sucking cock or just looking gorgeous? Do you want something thin, or more soft and puffy?
 
       Whatever you're looking for, let's make it happen.
       '''
       type: "numeric"
       levels: [
-        {
+        /*{
           name: "Thin"
           description: '''Your lips are fairly thin, but you can look cute anyways.'''
-        }
+        }*/
         {
-          name: "Natural"
+          name: "Lush and Soft"
           description: '''Your lips look soft and natural, perfect for the girl next door.'''
         }
         {
-          name: "Soft and Thick"
-          description: '''Your lips are thick and extremely soft. Few don't let their eyes linger at your lips.'''
+          name: "Soft and Full"
+          description: '''Your lips are full and very soft. Few can resist letting their eyes linger for a few seconds.
+
+          If kissing is what you're into, you won't have trouble finding candidates.'''
         }
         {
           name: "Thick and Pouty"
-          description: '''Your lips are thick and soft, and your resting face has a permanent pouty expression that make them look all the more inviting.'''
+          description: '''Your lips are thick, exceptionally soft, and your resting face has a permanent pouty expression that makes them look all the more enticing.'''
         }
         {
           name: "Pouty Pillows"
-          description: '''Your lips are so large they couldn't possibly be natural, yet they look and feel so soft as to be impossibly alluring, especially with that permanent pouty expression.'''
+          description: '''Your lips are so large they couldn't possibly be natural, yet they look and feel as soft as pillows. And with that permanent pouty expression they are impossibly alluring, like you're just waiting to wrap them around something long and hard.'''
         }
         {
           name: "Oh So Inviting Pillows"
-          description: '''Your large, soft lips are so puffy they stay open in an inviting O-shape. Sexy, but you'll be drooling a lot more from now on.'''
+          description: '''Your incredibly large, soft and juicy lips are so puffy they always stay open in an inviting O-shape. Sexy as all hell, but you'll be drooling a lot more from now on.'''
         }
       ]
     }
     {
       name: "Tremendous Tits"
-      thumb: "art/implants-4.webp"
+      thumb: "art/liliana-0004.png"
       description: '''Large breasts are hot af, but they may get in your way a lot, and they certainly affect what people think about you.'''
       type: "numeric"
       levels: [
@@ -72,7 +75,7 @@
         {
           name: "Immobilizingly Large"
           thumb: "art/liliana-0006.png"
-          description: "As your breasts keep growing, the pleasure becomes too much and you cum, feeling it dripping down your legs. You're left standing in a puddle of your own cum, pinned to the ground and permanently leaning over your enormous tits. You're in a bind now, but perhaps you'll find someone who doesn't mind helping? It's a quite inviting position, after all."
+          description: "As your breasts keep growing, the pleasure becomes too much and you cum, feeling it dripping down your legs. You're left standing in a puddle of your own juices, pinned to the ground and permanently leaning over your enormous tits. You're in a bind now, but perhaps you'll find someone who doesn't mind helping? It's a quite inviting position, after all."
         }
       ]
     }
@@ -82,11 +85,11 @@
       description: "How big is your ass going to get? Very, I hope."
       type: "numeric"
       levels: [
-        {
+        /*{
           name: "Flat"
           thumb: "art/behind-0000.png"
           description: "Your ass remains flat and unimpressive. You've seen men with bigger butts."
-        }
+        }*/
         {
           name: "Cute"
           thumb: "art/behind-0003.png"
@@ -105,7 +108,7 @@
         {
           name: "Giant"
           thumb: "art/behind-0007.png"
-          description: "You bite your lip and as your hips do an involuntary shake. Holy shit that feels good. Just walking up and down, there is so much heft behind every step you take, and every move you make reminds you how people will look at you from behind now."
+          description: "You bite your lip as your hips starts to involuntarily shake. Holy shit that feels good. Just walking up and down, there is so much heft behind every step you take, and every move you make reminds you how people will look at you from behind now."
         }
         {
           name: "Impractical"
@@ -152,7 +155,7 @@
         }
       ]
     }
-    {
+    /*{
       name: "Rapunzel's Drought"
       thumb: ""
       description: '''Long, beautiful hair suits any woman. How long will yours be?'''
@@ -163,41 +166,37 @@
           description: '''A short, boyish haircut. Maybe not typical, but a cute and sporty look for sure.'''
         }
         {
-          name: "Neck-length"
-          description: ''''''
+          name: "Shoulder-length"
+          description: '''Your hair is always long enough to just about reach your shoulders. Not very long in the grand scheme of things, but very flexible. You can attempt a great many hairstyles with this.'''
         }
         {
-          name: "Shoulder-length"
-          description: ''''''
+          name: "Shoulder blade length"
+          description: '''Long enough to reach just below your shoulder blades, you'll always have quite long hair, but still flexible for whatever hairstyles you may want to try out.'''
         }
         {
           name: "Waist-length"
-          description: ''''''
+          description: '''Reaching down to your waist, your flowing locks are not seldom admired. A bit inconvenient at times, but hair-dressers love trying out exotic styles on you.'''
         }
         {
           name: "Ass-length"
-          description: ''''''
+          description: '''Your hair is fantastically long, flowing down your shoulders, back and all the way to your ass. It may be impractical at times, but when you're cuddling and kissing, surrounded by a waterfall of soft locks, it's worth it.
+
+          Plus, you can make a very impressive braid.
+          '''
         }
         {
           name: "Knee-length"
-          description: ''''''
+          description: '''You'll have to remember to not get your hair stuck in doors, when it's flowing like a soft cape behind you. Any longer and you'd soon step on it, but this isn't so bad.
+          '''
         }
       ]
-    }
+    }*/
     {
       name: "Eyes Like Diamonds"
       thumb: ""
       description: '''Let's make those eyes of yours a little more interesting.'''
       type: "numeric"
       levels: [
-        /*{
-          name: "Boring"
-          description: '''Most eyes look very intriguing, but yours are just... boring. Let's hope you have some proper tits, because no one is going to want to look up here.'''
-        }
-        {
-          name: "Normal"
-          description: '''Very normal eyes, no change from what you had before, I imagine.'''
-        }*/
         {
           name: "Stunning"
           description: '''Your eyes are infinitely mysterious, and whoever looks into them deep enough will find themselves lost.'''
@@ -220,23 +219,30 @@
       levels: [
         {
           name: "Half-Giant (6'7, 200cm)"
-          description: ''''''
+          description: '''You're going to be one impressive woman. Expect people to look at you constantly, because you'll usually be the tallest person in the room, and that is when you're NOT wearing any heels!
+
+          Plenty of people who'd be into a half-giantess though.
+          '''
         }
         {
           name: "Tall (5'11, 180 cm)"
-          description: ''''''
+          description: '''Taller than most women, you'll stand out, but not too much, at least as long as you're not wearing high heels.
+
+          Or do! You'll intimidate some guys for sure, and charm plenty of others.
+          '''
         }
         {
-          name: "Above Average (5'7, 170 cm)"
-          description: ''''''
+          name: "Quite Tall (5'7, 170 cm)"
+          description: '''You are going to be a bit taller than average, but not notably so. You'll reach shelves quite well, but can also wear heels without worrying about standing out too much.
+          '''
         }
         {
           name: "Average (5'3, 160cm)"
-          description: ''''''
+          description: '''You're going to be about average height. You'll be a bit too short to reach stuff, but you won't have too much trouble in finding partners taller than you, if that's what you prefer.'''
         }
         {
           name: "Short (5'1, 155cm)"
-          description: ''''''
+          description: '''Shortie! You can remind yourself that you're not much below average height, but that won't help when you're reaching for something. On the plus side, people think you look so cute trying to reach stuff, they'll gladly help you out.'''
         }
         {
           name: "Smol (4'11, 150cm)"
@@ -254,7 +260,7 @@
     {
       name: "Amazonian Fitness"
       thumb: "art/gym.webp"
-      description: '''Will you look as stuffed with food as an ancient fertility goddess, or be so fit that you look like a modern day amazon?
+      description: '''Gym bunny or stuffed like an ancient fertility goddess?
 
       This card will determine your weight and your attitude towards keeping fit.
       '''
@@ -317,7 +323,7 @@
         }
         {
           name: "Dollface"
-          description: '''Too much and too perfect, your makeup make you look more like a barbie doll than a real person.'''
+          description: '''Too much and too perfect, your makeup makes you look more like a barbie doll than a real person.'''
         }
       ]
     }
@@ -396,7 +402,8 @@
     }
     {
       name: "Lactation"
-      thumb: ""
+      thumb: "art/cathyl-card.webp"
+      artist: "Luxu"
       description: '''Thinking of taking up work as a cowgirl?
 
       Then you'll need this.
@@ -512,16 +519,22 @@
         }
       ]
     }
+    /*{
+      name: "Revving Up"
+      thumb: ""
+      description: '''Every time you cum, you get horny quicker (+1 sex drive) for the next 24 hours. This effect stacks. All stacks are cleared if you cum 10 times in a single day.'''
+    }*/
     {
       name: "Erogenous Breasts"
       thumb: "art/carpe-diem-animation-small-2.webp"
       description: '''Your nipples and, to just a slightly lower extent, your entire breasts, are now as erogenous as your clit.
 
-      Be careful with bras or tight tops, you may find yourself getting a bit too excited in public. Ask your partner to give you a nice breast massage or good titfuck though, that should feel really good.'''
+      Be careful with bras or tight tops, you may find yourself getting a bit too excited in public. Get someone to give you a nice breast massage or a good titfuck though, and you should feel really good.'''
     }
     {
       name: "Erogenous Lips"
-      thumb: ""
+      thumb: "art/touching-her-lips.webp"
+      artist: "Blackshirtboy"
       description: '''Your lips are erogenous. Whether you're into kissing, or prefer wrapping your lips around a nice thick cock, you'll be cumming in no time.
 
       Makes regular eating and drinking alot more exciting too!'''
@@ -536,20 +549,25 @@
     }
     {
       name: "Horns"
-      thumb: ""
-      description: '''Time to get horny, with some horns!'''
+      thumb: "art/liliana-horns-3.webp"
+      description: '''When you think about it, horns can be quite cute. Or they can be good handles for poeple to steer your head where they want it.
+
+      So let's get you horny, with some horns!'''
       type: "selection"
       levels: [
         {
           name: "Bumps"
+          thumb: "art/liliana-horns-1.webp"
           description: '''Cute, and not much more than bumps on your head, these can give you that cowgirl or succubus feel without being in the way.'''
         }
         {
           name: "Grabbable"
+          thumb: "art/liliana-horns-2.webp"
           description: '''Large enough to look a little dangerous, and more importantly, large enough that someone can grab and comfortably hold on to them and steer you.'''
         }
         {
           name: "Imposing"
+          thumb: "art/liliana-horns-3.webp"
           description: '''Heavy, imposing and not always easy to get through low doorways, these are not for everyone. But for a thicc cowgirl or powerful demoness, these may be just what you need. Plenty of room for your partner to hold and steer your head with, too.'''
         }
       ]

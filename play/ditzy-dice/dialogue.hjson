@@ -19,6 +19,11 @@
 
   Do you accept?'''
 
+  stage3Decline: '''Oh, that's too bad.
+
+  Well, you can always come back if you change your mind. The offer still stands.
+  '''
+
   stage4: '''Great! You look good. A bit plain perhaps, but I'm sure we will get that sorted soon enough. Hah!
 
   Now about this game. You will play 3 rounds + 1 bonus round. Finish those and you walk away with all the changes and rewards you've collected.
@@ -29,7 +34,7 @@
 
   pickStage: '''Now roll for which card you should pick!
 
-  Before you roll, you may buy extra dice. You will only pick one card, but with more dice you will have options to choose which result you want to use.
+  Before you roll, you may buy extra dice. You will only pick one card, but with more dice you will be able to choose which of the dice results you want to use.
 
   Beware, each die you buy means one extra roll in the bonus round. If you do buy dice, you will keep them for this round, but lose one for each card you pick.
   '''
@@ -46,9 +51,8 @@
   Roll to pick!
   '''
 
-  endStage: '''Are you happy with our little deal?
+  endStage: '''Take a moment now, look at your cards. Read each one, if you still can read, that is.
 
-
-  Good luck in your new life!
+  Are you happy with our little deal? Good luck in your new life!
   '''
 }

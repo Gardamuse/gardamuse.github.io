@@ -1,6 +1,7 @@
 {
   name: "Behavior"
-  thumb: "art/lollipop-1.webp"
+  thumb: "art/happy-smile.webp"
+  artist: "CrazyCowProductions"
   hue: 280
   cards: [
     {
@@ -55,16 +56,22 @@
     {
       name: "Narscissian Touch"
       thumb: ""
-      description: '''You are always touching yourself somewhere.'''
+      description: '''You love your own body so much that you simply can't stop feeling it out.
+
+      From now on you will always be touching yourself somewhere.'''
     }
     {
-      name: "Playing with Hair"
+      name: "Playing with Your Hair"
       thumb: ""
-      description: '''You are always playing with your hair.'''
+      description: '''Whether you're concentrating, daydreaming or just walking somewhere, you are always playing with your hair, endlessly twirling it around a finger.
+
+      You can stop yourself from doing it, but that takes your full concentration.
+      '''
     }
     {
       name: "Lap Warmer"
       thumb: "art/lap-warmer.webp"
+      artist: "Gardamuse"
       description: '''You can only sit down if its on another person.
 
       You're going to be pretty friendly with people from now on.
@@ -102,6 +109,7 @@
     {
       name: "Influencer"
       thumb: "art/selfie.webp"
+      artist: "Gardamuse"
       description: '''You have an irresistible urge to take selfies and upload them to social media.
 
       At least one photo every time you change outfit and every time you go out, and you will only feel content if you post at least 10 selfies each day.'''
@@ -116,7 +124,8 @@
     }
     {
       name: "Pet the Kitty"
-      thumb: ""
+      thumb: "art/griffinwolf-card.webp"
+      artist: "CrazyCowProductions"
       description: '''Whenever you get head pats from someone, you try to simultaneously curl up in the givers arms, lay on your back, and spread your legs for them.
 
       It looks insanely cute and lewd at the same time, and you just can't stop yourself.'''
@@ -125,60 +134,82 @@
       name: "Expenses"
       thumb: "art/shopping.webp"
       artist: "CrazyCowProductions"
-      description: '''Do you not need much, or are luxuries everything?'''
+      description: '''Do you crave a life of luxury, or are you more of a cheap slut, happy as long as you got something to suck?
+
+      Let's find out!
+      '''
       type: "numeric"
       levels: [
         {
           name: "Cheap"
-          description: '''You don't care much about material things.'''
+          description: '''Some may think you are poor or trashy, but you just don't care much about material things. You are a free spirit, attempting to live a real life, without being burdened by consumerism.
+
+          No one will complain you are high maintenance, but maybe wonder if you couldn't have dressed up a little more than in a worn t-shirt for that fancy dinner party.
+          '''
         }
         {
           name: "Shopaholic"
-          description: '''You love shopping and receiving presents, even if not everything has to be expensive.'''
+          thumb: "art/shopping.webp"
+          artist: "CrazyCowProductions"
+          description: '''Shopping is your favourite pastime, and receiving gifts just makes you so happy! What you are actually getting isn't really that important, it's just fun with new things, right?
+
+          Most people tire pretty quickly of helping you carry shopping bags, but at least you're easy to please. A small gift and you're as happy as a clam.
+          '''
         }
         {
           name: "Spoiled Princess"
-          description: '''Designer clothing, expensive gifts and luxury is what makes you happy.'''
+          thumb: "art/diva-card.webp"
+          artist: "Gardamuse"
+          description: '''Designer clothing, expensive gifts and luxury is what makes you happy. If you can have that and get whatever you're pointing at you'll be as happy and helpful as can be, but don't and you'll show them what a bitch you can really be.
+          '''
         }
       ]
     }
     {
       name: "Personality"
-      thumb: ""
-      description: '''What is your outlook on life?'''
+      thumb: "art/beach-bimbo-card.webp"
+      artist: "Gardamuse"
+      description: '''Many say that an interesting personality is more important than a pair of nice tits. I'm not sure I agree, but I think it is a fair point to make.
+
+      Unfortunately, your personality is a bit boring, frankly. So let's give you a new one.
+      '''
       type: "selection"
       levels: [
         {
           name: "Sweet and Bubbly"
-          description: '''You are always upbeat and playful, if a little naive. People love to have you around and protect you.'''
+          description: '''You are always upbeat and playful, if a little naive. People love to have you around and take care of you.'''
         }
         {
           name: "Bad Girl"
-          description: '''No one is going to trod on you, unless they're really hot in which case you'd love it if they did. Tattoos, smoking and piercings are like your core identity.
+          description: '''No one is going to trod on you! Unless they're really hot, in which case you'd love it if they did.
 
-          Motorcycles are a close second, whether that is riding behind a hot guy, or on your own tuned up chopper.'''
+          Tattoos, smoking and piercings are your core identity. Motorcycles come a close second, whether that is riding clad in leather behind a muscular guy, or on your own tuned up chopper.'''
         }
         {
           name: "Eye Candy"
-          description: '''You always dress up for your partner: skirts or dresses, hair, and makeup.
+          description: '''You know that you should always look perfect. No matter if it is for an evening out or going grocery shopping, you always look impeccable. Ever sexy, yet consistently dressed for the occasion.
 
-          No matter the occasion, you want to look perfect, even if you're just grocery shopping.'''
+          For any partner, you'll be the perfect accessory.'''
         }
         {
           name: "Object"
-          description: '''You know that you're just an object to your partner. Whenever they are around you do anything you're told, wear whatever they want you to wear and only speak when spoken to. If no one is telling you what to do, you don't really know what to do with yourself.'''
+          description: '''You know that you're just an object. Whenever you have a partner around you do anything you're told, wear whatever they want you to wear and speak only when spoken to.
+
+          If no one tells you what to do, you don't really know what to do with yourself.'''
         }
         {
           name: "Slut"
-          description: '''If they look good, you're gonna try to have sex with them. So what if they're married? Their partner won't know if you'll just have a quickie here and now.'''
+          description: '''If they look good, you want to have sex with them. So what if they're married? No one will find out you'll just have a quickie here and now.'''
         }
         {
           name: "Beach Bimbo"
-          description: '''You love the beach, and will spend as much time there as possible. Basking in the sun, or the occasional dip in the water.'''
+          thumb: "art/beach-bimbo-card.webp"
+          artist: "Gardamuse"
+          description: '''You love the beach, and will spend as much time there as possible. Basking in the sun to work on your tan, drinking a variety of cocktails with colorful umbrellas, taking a short swim or playing a giggly volleyball game. Nothing can be better.'''
         }
       ]
     }
-    {
+    /*{
       name: "Social Behavior"
       thumb: ""
       description: '''Do you prefer staying at home, or go clubbing?
@@ -210,8 +241,8 @@
           description: '''You want people to look at you and show how sexy they think you are, and you'll do anything to get that attention.'''
         }
       ]
-    }
-    {
+    }*/
+    /*{
       name: "Sex Appeal"
       thumb: ""
       description: '''Do you use your looks to tease, or maybe just to get what you want?
@@ -220,10 +251,6 @@
       '''
       type: "numeric"
       levels: [
-        /*{
-          name: "Cold"
-          description: ''''''
-        }*/
         {
           name: "Flirty"
           description: '''You'll flirt with just about anyone if you find them good-looking or if you're just bored.'''
@@ -237,17 +264,19 @@
           description: ''''''
         }
       ]
-    }
+    }*/
     {
       name: "Valley Girl"
-      description: '''You always sound uncertain (ending sentences in a rising pitch) and sprinkle lots of unnessary words into your sentences.
+      description: '''You always sound, like, so uncertain? Ending each sentence in, like, a rising pitch? And you always sprinkle in lots of like, totally unnecessary words into your sentences or whatever?
 
       Most people will assume you're pretty dumb, even if you're not.'''
     }
     {
       name: "Submissive Speech"
       thumb: ""
-      description: '''You will speak in a submissive manner.'''
+      description: '''You're a good girl, and you know when it is prompt for you to be quiet.
+
+      You always speak in a submissive manner.'''
       type: "selection"
       levels: [
         {
@@ -267,12 +296,16 @@
     }
     {
       name: "Concentration Face"
-      thumb: ""
-      description: '''You always make this face whenever you are concentrating or thinking about something.'''
+      thumb: "art/ditz-card.webp"
+      artist: "Gardamuse"
+      description: '''Everyone has a certain look when they are concentrating or thinking really hard.
+
+      Yours is just a bit more... noticeable.'''
       type: "selection"
       levels: [
         {
           name: "Aheago"
+          thumb: "art/ditz-card.webp"
           description: '''Your eyes cross and your mouth falls open with your tongue sticking out in a typical aheago look.'''
         }
         {

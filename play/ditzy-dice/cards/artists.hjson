@@ -1,0 +1,32 @@
+[
+  {
+    artist: "CrazyCowProductions"
+    link: "https://www.furaffinity.net/user/crazycowproductions/"
+    linkText: "FurAffinity"
+  }
+  {
+    artist: "Blackshirtboy"
+    link: "https://www.deviantart.com/blackshirtboy"
+    linkText: "DeviantArt"
+  }
+  {
+    artist: "Luxu"
+    link: "https://www.patreon.com/Luxu"
+    linkText: "Patreon"
+  }
+  {
+    artist: "Bradtanker3"
+    link: "https://www.deviantart.com/bradtanker3"
+    linkText: "DeviantArt"
+  }
+  {
+    artist: "Jingming Pan"
+    link: "https://unsplash.com/@pokmer"
+    linkText: "Unsplash"
+  }
+  {
+    artist: "Ash Edmonds"
+    link: "https://unsplash.com/@badashphotos"
+    linkText: "Unsplash"
+  }
+]

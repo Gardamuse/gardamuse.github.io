@@ -7,17 +7,20 @@
       name: "Outgrown"
       thumb: "art/zatanna-outgrown.webp"
       artist: "CrazyCowProductions"
-      description: '''No matter what you put on, you always find it is a few sizes too small.'''
+      description: '''No matter what you put on, you always find it is a few sizes too small. It's not going to be too uncomfortable, just a bit tight.
+
+      You may look a little silly though, but in a sexy way.
+      '''
     }
     {
       name: "Whale Tail"
       thumb: "art/whale-tail.webp"
-      description: '''Whenever you are not wearing a thong, and it is not showing above your pant- or skirt-line, you become considerably less intelligent (-2 intelligence).
+      description: '''Whenever you are not wearing a thong, or it is not showing above your pant- or skirt-line, you become considerably less intelligent (-1 intelligence).
 
-      If you want to think, you better show that thong!'''
+      So if you want to think, you better show that thong!'''
     }
     {
-      name: "Cleavage"
+      name: "Cleavage in Focus"
       thumb: "art/cleavage.webp"
       description: '''Whenever clothes cover your breasts and you are not showing considerable cleavage, your attention span becomes significantly worse (-1 attention span).
 
@@ -50,12 +53,12 @@
       artist: "Bradtanker3"
       description: '''Ever consider what your clothes say about you? How about a choker? Or what about a proper collar? In fact, let's make it really obvious what it says about you.
 
-      From now on, whenever you are not wearing a choker saying either "BIMBO", "SLUT", "PET" or something similar, you become less intelligent to make up for it (-1 intelligence).'''
+      From now on, whenever you are not wearing a choker saying "BIMBO", "SLUT", "PET" or something similar, you become less intelligent to make up for it (-1 intelligence).'''
     }
     {
       name: "Pink to Think"
       thumb: ""
-      description: '''Pink is a great color isn't it? Feminine, sexy, you name it. In any case, I think you should be wearing it more.
+      description: '''Pink is a great color isn't it? Feminine, sexy, and, well, what more could you want really? In any case, I think you should be wearing it more.
 
       From now on, whenever you are wearing any clothing that is not a shade of pink, you will feel distracted (-1 attention span).'''
     }
