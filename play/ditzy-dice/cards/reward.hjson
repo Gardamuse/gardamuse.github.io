@@ -1,7 +1,7 @@
 {
   name: "Reward"
   thumb: "art/jingming-pan-gold.webp"
-  hue: 45
+  hue: 40
   cards: [
   {
     name: "Spell: Super Strength"

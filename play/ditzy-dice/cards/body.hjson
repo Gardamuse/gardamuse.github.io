@@ -121,7 +121,7 @@
       name: "Hair Color"
       thumb: "art/hair-0001.webp"
       artist: "Gardamuse"
-      description: '''You hair color can very much influence peoples first impression of you, and we all know that first impressions means everything.
+      description: '''Your hair color can very much influence peoples first impression of you, and we all know that first impressions means everything.
 
       Will you come off as interesting and mysterious, or dumb and shallow? We'll see.
       '''
@@ -657,7 +657,7 @@
           name: "Bunny"
           thumb: "art/bunnygirl-pink-hair.webp"
           artist: "Gardamuse"
-          description: '''Long bunny ears on the top of your head. They perk up, flop and move based on how you're feeling, and you only have a little conscious control over them. Be prepared that everyone will be able to read your feelings like a book from now on. They are however, extremely cute.'''
+          description: '''You now have long, fluffy bunny ears. They perk up, flop and move based on how you're feeling, and you only have a little conscious control over them. Be prepared that everyone will be able to read your feelings like a book from now on. They are however, extremely cute.'''
         }
       ]
     }

@@ -60,7 +60,8 @@
     }
     {
       name: "Memory"
-      thumb: ""
+      thumb: "art/education-4.webp"
+      art: "Gardamuse"
       description: '''How easily you can remember stuff you've learned in school, things you've done and people you've met.
 
       If you got a low intelligence, a good memory could be quite interesting as you'll probably remember things that you can't make sense of.'''
@@ -76,22 +77,32 @@
         }*/
         {
           name: "University, No Thanks"
+          thumb: "art/education-4.webp"
+          art: "Gardamuse"
           description: '''If you've had any higher education, it's time to wave all the things you learned there good bye! And good luck trying to re-learn it or becoming a student: no matter how intelligent you are, your memory simply can't store such complicated knowledge for more than a few minutes.'''
         }
         {
           name: "High-School Dropout"
+          thumb: "art/education-3.webp"
+          art: "Gardamuse"
           description: '''Remember derivatives, chemistry or advanced language? No you don't. It's long gone, along with everything else you learned in high school or beyond.'''
         }
         {
           name: "The Basics"
+          thumb: "art/education-2.webp"
+          art: "Gardamuse"
           description: '''You read and write as if you've just learnt how to, and with such a basic vocabulary no one will ever take you for very smart again. If you're a Genius with great Attention Span you may still be able to do some not-quite high-school level math, but otherwise you're stuck with the most basic of arithmethic too.'''
         }
         {
           name: "Illiteracy and Innumeracy"
+          thumb: "art/education-1.webp"
+          art: "Gardamuse"
           description: '''What does all the little squiggles that are everywhere mean? You're sure you used to know, but trying to remember is like walking through syrup. You should probably leave such things to others.'''
         }
         {
           name: "Gone With The Wind"
+          thumb: "art/education-1.webp"
+          art: "Gardamuse"
           description: '''Now this will change your life. Forget remembering what you ate for lunch, or any knowledge more complicated than how to eat or walk. In a few moments it will all be gone, never to be replaced.
 
           You'll still be able to recognize people if you have met them a few times, but try to give them short easy nicknames, or the may be upset you don't remember their name.'''

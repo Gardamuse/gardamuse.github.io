@@ -27,8 +27,11 @@
     }
     {
       name: "Moaning"
-      thumb: ""
-      description: '''Whenever you are having sex or masturbating, you can't help but moaning like a porn star.'''
+      thumb: "art/moaning-pink.webp"
+      artist: "Gardamuse"
+      description: '''Whenever you are having sex or masturbating, you can't help but moaning like a porn star.
+
+      People can hear what you're doing from a mile away.'''
     }
     {
       name: "Easy"
