@@ -119,6 +119,8 @@
     }
     {
       name: "Hair Color"
+      thumb: "art/hair-0001.webp"
+      artist: "Gardamuse"
       description: '''You hair color can very much influence peoples first impression of you, and we all know that first impressions means everything.
 
       Will you come off as interesting and mysterious, or dumb and shallow? We'll see.
@@ -127,28 +129,40 @@
       levels: [
         {
           name: "Raven Black"
+          thumb: "art/hair-0000.webp"
+          artist: "Gardamuse"
           description: "Raven black and mysterious, people always get the feeling there is something more to you than meets the eye."
         }
         {
           name: "Brunette"
+          thumb: "art/hair-0001.webp"
+          artist: "Gardamuse"
           description: "A deep, calm and loyal brown. No one is going to notice you because of your hair color, but if you draw them in, they'll love the relaxing tone of your hair nonetheless."
         }
         {
           name: "Redhead"
+          thumb: "art/hair-0002.webp"
+          artist: "Gardamuse"
           description: "Wild and free, like the winds of the sea. That's what many see when they look at you now. Do you live it, or let them down?"
         }
         {
           name: "Pink and Cute"
+          thumb: "art/hair-0003.webp"
+          artist: "Gardamuse"
           description: "Artificial but cute, this hair color gives people the impression that you're fun and a little quirky."
         }
         {
           name: "Blonde and Happy"
+          thumb: "art/hair-0004.webp"
+          artist: "Gardamuse"
           description: '''Happy and dumb, that is what people think about blondes, right?
 
           Well, it's up to you to prove them right, or wrong I guess.'''
         }
         {
           name: "Platinum Blonde"
+          thumb: "art/hair-0005.webp"
+          artist: "Gardamuse"
           description: '''The bimbo classic. People will find it pretty obvious what you're trying to be, so prepare to be treated like it.
 
           But perhaps being a bimbo wouldn't be so bad?'''
@@ -193,21 +207,30 @@
     }*/
     {
       name: "Eyes Like Diamonds"
-      thumb: ""
-      description: '''Let's make those eyes of yours a little more interesting.'''
+      thumb: "art/eyes-stunning-1.webp"
+      artist: "Gardamuse"
+      description: '''Your eyes are the windows to your soul. It's just a pity when those windows have to be so colorless and boring.
+
+      Let's make yours a little more interesting.'''
       type: "numeric"
       levels: [
         {
           name: "Stunning"
-          description: '''Your eyes are infinitely mysterious, and whoever looks into them deep enough will find themselves lost.'''
+          thumb: "art/eyes-stunning-1.webp"
+          artist: "Gardamuse"
+          description: '''Your eyes are intriguingly mysterious and absolutely stunning. Anyone not careful enough will look into them and find themselves lost.'''
         }
         {
           name: "Vacant Stare"
-          description: '''Your eyes are beautiful and deep, but so still and vacant that it looks like you're not at home.'''
+          thumb: "art/eyes-empty-2.webp"
+          artist: "Gardamuse"
+          description: '''Your eyes are beautiful and deep, yet somehow vacant, as if you're not quite at home.'''
         }
         {
           name: "Heart-Shaped Pupils"
-          description: '''Your pupils have become slightly heart-shaped, and your eye-color pink.'''
+          thumb: "art/eyes-heart.webp"
+          artist: "Gardamuse"
+          description: '''Your eyes are stunning, but your expression vacant. However, what is most striking are your heart-shaped pupils and pink eye color.'''
         }
       ]
     }
@@ -439,7 +462,7 @@
       thumb: ""
       description: '''How easily do you get horny, and how often do you generally want to have sex?
 
-      You'll have more fun if its higher.
+      Try to get it as high as possible. You'll get to have more fun that way, trust me.
       '''
       type: "numeric"
       levels: [
@@ -576,7 +599,9 @@
       name: "Tail"
       thumb: "art/griffinwolf-card.webp"
       artist: "CrazyCowProductions"
-      description: '''Your backside will be a lot more interesting with a nice tail.
+      description: '''Having a tail is a great way to help express your emotions, although how much control you have over it differ from tail to tail and person to person.
+
+      Let's get you one that suits your personality.
       '''
       type: "selection"
       levels: [
@@ -585,46 +610,53 @@
           description: '''A very short bunny tail that looks more like a cotton ball than anything else. It looks so cute when you wiggle it!'''
         }
         {
-          name: "Cowtail"
-          description: '''A fairly long tail with a tuft of hair at the end.'''
-        }
-        {
           name: "Bushy"
-          description: '''A fairly long puppy-like tail with long beautiful hair.'''
+          description: '''A fairly long puppy-like tail covered in beautiful fur. This tail has a life of its own, displaying your emotions as a flag. If you concentrate you can control it a little bit, but not very much. It's a very cozy addition to any cuddle session though.'''
         }
         {
           name: "Foxtail"
-          description: '''A fairly long, beautiful two-colored fox's tail.'''
+          description: '''A fairly long, beautiful two-colored fox's tail. This tail is somewhat passive, and will only be a tell of your emotions when you react very strongly or instinctively. Yet you'll have a great deal of control over it and you can easily swipe it around as you please.'''
+        }
+        {
+          name: "Cowtail"
+          description: '''A fairly long tail with a tuft of hair at the end. This is a lazy tail, meaning that it won't move that much on its own, but you also have to make somewhat of an effort if you want to use it to swipe at or wrap it around something.'''
+        }
+        {
+          name: "Cat's Tail"
+          description: '''A long, tail covered in short fur. This is tail is quite dexterous and gives you a lot of control, you can even wrap it around small objects to hold them. Be wary though as you will most likely lose control over it whenever you are surprised or frightened.'''
         }
         {
           name: "Demonic"
-          description: '''A long, demonic tail with not-too-sharp barbs at the end.'''
+          description: '''A long, demonic tail with soft-ish barbs at the end. This is a very dexterous and quite strong tail that you have full control over. Point with it, whip things or even wrap it around and hold light objects like a coffee cup. It's not the cutest tail, but it is useful.'''
         }
       ]
     }
     {
       name: "Ears"
-      thumb: ""
+      thumb: "art/catgirl-pink-hair.webp"
+      artist: "Gardamuse"
       description: '''Ever thought your ears were a little bit boring?
 
       Time to find you a new exciting pair!
       '''
       type: "selection"
       levels: [
-        /*{
-          name: "Human"
-          description: '''Normal, human ears.'''
-        }*/
         {
           name: "Elvish"
+          thumb: "art/elfgirl.webp"
+          artist: "Gardamuse"
           description: '''Pointed, elvish ears. Very similar to human ones, but with a bit more class. Good for cosplay too!'''
         }
         {
           name: "Cat"
+          thumb: "art/catgirl-pink-hair.webp"
+          artist: "Gardamuse"
           description: '''Triangularly shaped cat ears on the top of your head that you can wiggle a little. Looks super cute!'''
         }
         {
           name: "Bunny"
+          thumb: "art/bunnygirl-pink-hair.webp"
+          artist: "Gardamuse"
           description: '''Long bunny ears on the top of your head. They perk up, flop and move based on how you're feeling, and you only have a little conscious control over them. Be prepared that everyone will be able to read your feelings like a book from now on. They are however, extremely cute.'''
         }
       ]

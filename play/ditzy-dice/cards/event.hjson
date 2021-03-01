@@ -1,7 +1,7 @@
 {
   name: "Event"
   thumb: "art/emptyPortrait.jpg"
-  hue: 23
+  hue: 13
   cards: [
     {
       name: "Were-Bimbo"
