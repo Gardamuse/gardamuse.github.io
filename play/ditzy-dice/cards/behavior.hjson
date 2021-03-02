@@ -14,6 +14,8 @@
     }
     {
       name: "Talkative"
+      thumb: "art/talkative.webp"
+      artist: "Gardamuse"
       description: '''You love talking and will do so all the time, even if you have nothing to say.
 
       You'll probably come across as somewhat vapid.
@@ -104,11 +106,11 @@
       thumb: ""
       description: '''Whenever you haven't swallowed any cum for 24 hours, you will feel unfocused (-1 attention span) and get horny much quicker (+2 sex drive).'''
     }*/
-    {
+    /*{
       name: "Gold-Digger"
       thumb: ""
       description: '''Unconsciously, you will always feel the most attracted to whoever you know with the most money, to the point that you'll be almost in love with whoever is the richest.'''
-    }
+    }*/
     {
       name: "Influencer"
       thumb: "art/selfie.webp"
@@ -274,6 +276,7 @@
 
       Most people will assume you're pretty dumb, even if you're not.'''
     }
+    /*
     {
       name: "Submissive Speech"
       thumb: ""
@@ -296,7 +299,7 @@
           If anyone tells you to shut up or be quiet, you won't be able to speak until someone tells you that you are allowed to.'''
         }
       ]
-    }
+    }*/
     {
       name: "Concentration Face"
       thumb: "art/ditz-card.webp"

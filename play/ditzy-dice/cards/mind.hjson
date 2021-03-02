@@ -228,7 +228,7 @@
         }
       ]
     }
-    {
+    /*{
       name: "Willpower"
       thumb: ""
       description: '''Are you the one making decisions, or the one following orders?'''
@@ -251,7 +251,7 @@
           description: '''You will do whatever you're told and should someone not be around to tell you, you'll find someone to order you around. Being a mindless slave is so much better.'''
         }
       ]
-    }
+    }*/
     {
       name: "A Fitting Name"
       thumb: "art/name.webp"
@@ -282,6 +282,8 @@
     }
     {
       name: "Unfiltered"
+      thumb: "art/unfiltered.webp"
+      artist: "Gardamuse"
       description: '''Your brain becomes unable to hold thoughts without letting them through to your speech centra. As a result, you will now always say everything you think out loud.
 
       It might get a little awkward, but at least no one can say you're not honest.
@@ -310,14 +312,14 @@
 
       Sure, you will be very easy to manipulate, but believing in magic and Santa again is going to be pretty fun, right?'''
     }
-    {
+    /*{
       name: "Sapiosexual Self-Love"
       thumb: ""
       description: '''The harder you think, the hornier you get.
 
       This could make working as a scientist, or similar, quite interesting. And with the right mindset, potentially very produtive.
       '''
-    }
+    }*/
     {
       name: "Sucker for Thinking"
       thumb: ""
@@ -335,6 +337,8 @@
     }
     {
       name: "Cum Your Brains Out"
+      thumb: "art/brain-fried.webp"
+      artist: "Gardamuse"
       description: '''Every time you orgasm you'll be noticeably dumber for 24 hours (-1 to intelligence, memory or attention span). This effect stacks.
 
       If you also got a high sex drive or sensitive erogenous zones, welcome to the cotton candy coated paradise of bimbo bliss, sweetie!

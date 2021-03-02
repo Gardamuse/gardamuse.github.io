@@ -324,7 +324,8 @@
     }
     {
       name: "Cleopatra's Mascara"
-      thumb: ""
+      thumb: "art/makeup-3.webp"
+      artist: "Gardamuse"
       description: '''Your makeup will always look good, without you doing anything. However, it can't be removed either.'''
       type: "numeric"
       levels: [
@@ -334,23 +335,31 @@
         }*/
         {
           name: "Natural"
+          thumb: "art/makeup-1.webp"
+          artist: "Gardamuse"
           description: '''It's not actually natural, that would be using no makeup, but this is what people think natural looks like.'''
         }
         {
           name: "Refined"
+          thumb: "art/makeup-2.webp"
+          artist: "Gardamuse"
           description: '''You will always look refined, as if you were just on your way to the opera or a fancy dinner party.'''
         }
         {
           name: "Slutty"
+          thumb: "art/makeup-3.webp"
+          artist: "Gardamuse"
           description: '''Your makeup will always look a bit too much, and when you get tired your makeup will start looking a little rough around the edges.'''
         }
         {
           name: "Dollface"
+          thumb: "art/makeup-4.webp"
+          artist: "Gardamuse"
           description: '''Too much and too perfect, your makeup makes you look more like a barbie doll than a real person.'''
         }
       ]
     }
-    {
+    /*{
       name: "Nails"
       thumb: ""
       description: '''A girl like you should take care of her nails.
@@ -372,7 +381,7 @@
           description: '''Your nails are always painted, and impractically long, so typing on a keyboard or phone will be quite difficult from now on. On the plus side, they are very strong, and quickly grow back should they break anyways.'''
         }
       ]
-    }
+    }*/
     {
       name: "Heels of Aphrodite"
       thumb: ""
@@ -388,7 +397,7 @@
         }
         {
           name: "Low"
-          description: '''You will prefer a little bit of heel on your shoe, but nothing very noticable. You can still basically wear flat shoes should you want to.
+          description: '''You will prefer a little bit of heel on your shoe, but nothing very noticable. You can still basically wear flat shoes should you really want to.
 
           (1in or 2 cm)
           '''
@@ -562,6 +571,7 @@
 
       Makes regular eating and drinking alot more exciting too!'''
     }
+    /*
     {
       name: "Permission to Come"
       thumb: ""
@@ -569,7 +579,7 @@
 
       This might get especially interesting if you got a really high sex drive, or have trouble finding a partner.
       '''
-    }
+    }*/
     {
       name: "Horns"
       thumb: "art/liliana-horns-3.webp"
@@ -597,8 +607,8 @@
     }
     {
       name: "Tail"
-      thumb: "art/griffinwolf-card.webp"
-      artist: "CrazyCowProductions"
+      thumb: "art/tail-0002.webp"
+      artist: "Gardamuse"
       description: '''Having a tail is a great way to help express your emotions, although how much control you have over it differ from tail to tail and person to person.
 
       Let's get you one that suits your personality.
@@ -607,26 +617,38 @@
       levels: [
         {
           name: "Cottontail"
+          thumb: "art/tail-0000.webp"
+          artist: "Gardamuse"
           description: '''A very short bunny tail that looks more like a cotton ball than anything else. It looks so cute when you wiggle it!'''
         }
         {
           name: "Bushy"
+          thumb: "art/tail-0001.webp"
+          artist: "Gardamuse"
           description: '''A fairly long puppy-like tail covered in beautiful fur. This tail has a life of its own, displaying your emotions as a flag. If you concentrate you can control it a little bit, but not very much. It's a very cozy addition to any cuddle session though.'''
         }
         {
           name: "Foxtail"
+          thumb: "art/tail-0002.webp"
+          artist: "Gardamuse"
           description: '''A fairly long, beautiful two-colored fox's tail. This tail is somewhat passive, and will only be a tell of your emotions when you react very strongly or instinctively. Yet you'll have a great deal of control over it and you can easily swipe it around as you please.'''
         }
         {
           name: "Cowtail"
+          thumb: "art/tail-0003.webp"
+          artist: "Gardamuse"
           description: '''A fairly long tail with a tuft of hair at the end. This is a lazy tail, meaning that it won't move that much on its own, but you also have to make somewhat of an effort if you want to use it to swipe at or wrap it around something.'''
         }
         {
           name: "Cat's Tail"
+          thumb: "art/tail-0004.webp"
+          artist: "Gardamuse"
           description: '''A long, tail covered in short fur. This is tail is quite dexterous and gives you a lot of control, you can even wrap it around small objects to hold them. Be wary though as you will most likely lose control over it whenever you are surprised or frightened.'''
         }
         {
           name: "Demonic"
+          thumb: "art/tail-0005.webp"
+          artist: "Gardamuse"
           description: '''A long, demonic tail with soft-ish barbs at the end. This is a very dexterous and quite strong tail that you have full control over. Point with it, whip things or even wrap it around and hold light objects like a coffee cup. It's not the cutest tail, but it is useful.'''
         }
       ]
@@ -671,11 +693,11 @@
       thumb: ""
       description: '''Your skin will always be soft and smooth, and your body becomes completely hairless except for your head.'''
     }
-    {
+    /*{
       name: "Life In Plastic"
       thumb: ""
       description: '''Your skin, tits and entire body will have a plastic, doll-like and fake look.'''
-    }
+    }*/
 
     /*
     {
