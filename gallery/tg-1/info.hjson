@@ -1,0 +1,26 @@
+{
+  title: "Gender Transformation 1"
+  description:
+  '''
+  I've been playing around more with Artbreeder and I think the results are gorgeous. Here is a quick gender transformation portrait animation.
+  '''
+  thumb: "thumb.webp"
+
+  sequences: [
+    {
+      firstImage: "loop.webp"
+      length: 1
+    }
+    {
+      title: "Video"
+      firstImage: "animation.mp4"
+      thumb: "thumb.webp"
+      length: 1
+    }
+    {
+      title: "Image Sequence"
+      firstImage: "frames/tg-01.webp"
+      length: 14
+    }
+  ]
+}
