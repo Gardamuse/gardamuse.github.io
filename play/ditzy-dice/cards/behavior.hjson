@@ -44,20 +44,20 @@
       You will not have this urge if whoever is asking intends to harm or rob you.
       '''
     }
-    {
+    /*{
       name: "Mirror Mirror"
       thumb: ""
       description: '''You can't help but stare at your own reflection.
 
       If you walk past a mirror or some other somewhat large and reflective surface, you will stop and look at yourself for at least 10 seconds unless someone drags you away.'''
-    }
-    {
+    }*/
+    /*{
       name: "Narscissian Turn-On"
       thumb: ""
       description: '''Whenever you look at your own reflection you start getting horny.
 
       After 30 seconds you will be horny enough to feel your panties getting wet, after 2 minutes you will cum on the spot.'''
-    }
+    }*/
     {
       name: "Narscissian Touch"
       thumb: ""

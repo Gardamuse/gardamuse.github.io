@@ -3,11 +3,11 @@
   thumb: "art/emptyPortrait.jpg"
   hue: 13
   cards: [
-    {
+    /*{
       name: "Were-Bimbo"
       thumb: ""
       description: '''Whenever there is a full moon, you transform into a bimbo (-1 intelligence, +1 breast size, +1 lip size, +1 makeup) and gain ass-length, platinum blonde hair.'''
-    }
+    }*/
     {
       name: "Panty Dropper"
       thumb: "art/panty-drop.webp"

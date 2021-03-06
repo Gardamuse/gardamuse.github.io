@@ -236,12 +236,15 @@
     }
     {
       name: "Height"
-      thumb: ""
+      thumb: "art/height-0003.webp"
+      artist: "CrazyCowProductions"
       description: '''How tall will you be?'''
       type: "numeric"
       levels: [
         {
           name: "Half-Giant (6'7, 200cm)"
+          thumb: "art/height-0000.webp"
+          artist: "CrazyCowProductions"
           description: '''You're going to be one impressive woman. Expect people to look at you constantly, because you'll usually be the tallest person in the room, and that is when you're NOT wearing any heels!
 
           Plenty of people who'd be into a half-giantess though.
@@ -249,6 +252,8 @@
         }
         {
           name: "Tall (5'11, 180 cm)"
+          thumb: "art/height-0001.webp"
+          artist: "CrazyCowProductions"
           description: '''Taller than most women, you'll stand out, but not too much, at least as long as you're not wearing high heels.
 
           Or do! You'll intimidate some guys for sure, and charm plenty of others.
@@ -256,23 +261,33 @@
         }
         {
           name: "Quite Tall (5'7, 170 cm)"
+          thumb: "art/height-0002.webp"
+          artist: "CrazyCowProductions"
           description: '''You are going to be a bit taller than average, but not notably so. You'll reach shelves quite well, but can also wear heels without worrying about standing out too much.
           '''
         }
         {
           name: "Average (5'3, 160cm)"
+          thumb: "art/height-0003.webp"
+          artist: "CrazyCowProductions"
           description: '''You're going to be about average height. You'll be a bit too short to reach stuff, but you won't have too much trouble in finding partners taller than you, if that's what you prefer.'''
         }
         {
           name: "Short (5'1, 155cm)"
+          thumb: "art/height-0004.webp"
+          artist: "CrazyCowProductions"
           description: '''Shortie! You can remind yourself that you're not much below average height, but that won't help when you're reaching for something. On the plus side, people think you look so cute trying to reach stuff, they'll gladly help you out.'''
         }
         {
           name: "Smol (4'11, 150cm)"
+          thumb: "art/height-0005.webp"
+          artist: "CrazyCowProductions"
           description: '''Get used to looking up at people, because that's what you will be doing now. And never try to be inimidating, when you're this short, people can only find you cute.'''
         }
         {
           name: "Fun Sized (4'9, 145cm)"
+          thumb: "art/height-0006.webp"
+          artist: "CrazyCowProductions"
           description: '''Reaching shelves are going to be a big problem, but then you'll look so cute you can probably find someone tall to help you.
 
           You'll be easy to pick up and carry around though, so be prepared for some fun rides in the bedroom, or wherever you're carried off to.
@@ -384,7 +399,8 @@
     }*/
     {
       name: "Heels of Aphrodite"
-      thumb: ""
+      thumb: "art/heels-0004.webp"
+      artist: "Gardamuse"
       description: '''You'd look great in high heels, but they're so difficult to walk in!
 
       Let's see if we can change that.
@@ -393,10 +409,14 @@
       levels: [
         {
           name: "Barefoot"
+          thumb: "art/heels-0000.webp"
+          artist: "Gardamuse"
           description: '''Your feet remain largely unchanged, but you will feel more at ease walking barefoot than before!'''
         }
         {
           name: "Low"
+          thumb: "art/heels-0001.webp"
+          artist: "Gardamuse"
           description: '''You will prefer a little bit of heel on your shoe, but nothing very noticable. You can still basically wear flat shoes should you really want to.
 
           (1in or 2 cm)
@@ -404,6 +424,8 @@
         }
         {
           name: "Business Shoes"
+          thumb: "art/heels-0002.webp"
+          artist: "Gardamuse"
           description: ''' Your feet will feel the most comfortable in business-style heels, and you'll be swaying your hips just enough as you walk.
 
           (2in or 4cm)
@@ -411,6 +433,8 @@
         }
         {
           name: "Dinner Shoes"
+          thumb: "art/heels-0003.webp"
+          artist: "Gardamuse"
           description: ''' These are some proper high heels you're going to be strutting around in. The kind you'd expect to see at fancy dinners. The way your hips will sway as you walk with these on is going attract eyes anytime you leave room too. Classy.
 
           (3in or 7cm)
@@ -418,6 +442,8 @@
         }
         {
           name: "Fuck Me Pumps"
+          thumb: "art/heels-0004.webp"
+          artist: "Gardamuse"
           description: '''Wow, heels like this will really give you that "ass up, please fuck me" look. No one walking behind you is going to be able to keep their eyes off of your ass the way your hips will swing either, I promise.
 
           (4in or 10cm)
@@ -425,6 +451,8 @@
         }
         {
           name: "Tippy Toes"
+          thumb: "art/heels-0005.webp"
+          artist: "Gardamuse"
           description: '''At this point you'll probably even like wearing heels to bed just for the nice support they give your feet. Needless to say, your strut is going to be close to hypnotic for anyone behind you.
 
           (5in or 13cm)
@@ -527,27 +555,23 @@
       levels: [
         {
           name: "Repressed"
-          description: '''You have significant difficulty reaching an orgasm and it will probably take alot of candles, music and foreplay or kinky games before you can get off. If your Sex Drive is high you will be a master of edging, with explosive, multiple orgasms once you do get there, but you may also find edging taking up alot more of your time than if you could just have sex and be done with it.'''
+          description: '''You have significant difficulty reaching an orgasm and it will takt a lot of work before you can get off. If your Sex Drive is high you will be a master of edging, with explosive, multiple orgasms once you do get there, but you may also find yourself spending most of your awake time edging, rather than just being able to have sex and be done with it.'''
         }
         {
           name: "Romantic"
-          description: '''You don't really have any troubles orgasming, but you'll need to get in the right mood both mentally and physically. A few candles or some nice music is a good start. If your Sex Drive is high, edging, followed by extra intense orgasms, will probably take up an extra bit of your time.'''
-        }
-        {
-          name: "Worker"
-          description: '''It takes a little bit of work, but you'll get there no problem.'''
+          description: '''You don't really have any troubles orgasming, but you'll need some help to get in the right mood first. Some candles and soothing music can be a good start, or maybe sucking cock is more your thing? If your Sex Drive is high, edging, followed by intense orgasms, will probably take up much of your time.'''
         }
         {
           name: "Sensitive"
-          description: '''Your erogenous zones can get you worked up in no time, so you'll never have a problem reaching an orgasm. Just be careful that you don't wear too tight clothing or you may find yourself a bit too excited when you least expect it.'''
+          description: '''Your erogenous zones can get you worked up quite quickly, so you'll rarely have a trouble reaching orgasm. Just don't wear anything ridiculously tight or rubbing against you, or you may find yourself a bit too excited when you least expect it.'''
         }
         {
           name: "Hypersensitive"
-          description: '''Being able to get off quick can be real helpful sometimes, especially if you got a high Sex Drive. You should probably stick to skirts and dresses though, and skip the panties as well, and anything rubbing against your erogenous zones, or you'll find yourself trying to play off orgasms in public more than you'd perhaps like.'''
+          description: '''Being able to get off quick can be real helpful sometimes, especially if you got a high Sex Drive. You should probably stick to skirts and dresses though, and maybe skip the panties as well. In general, avoid clothing that rub against your erogenous zones, or you'll find yourself trying to play off orgasms in public more than you'd perhaps like.'''
         }
         {
           name: "Hair-Trigger"
-          description: '''Clothing rubbing against your erogenous zones is going to be a no go unless you want to cum your brains out with every step you take, even if your Sex Drive isn't super high. Anything so little as touches one of your erogenous zones and you're off. You better stick to skirts and loose dresses from now on, or maybe just stay naked...'''
+          description: '''Clothing rubbing against your erogenous zones is going to be a no go unless you want to cum your brains out with every step, even if your Sex Drive isn't super high. Anything so little as touches one of your erogenous zones and you're off. You better stick to skirts and loose dresses from now on, or maybe just stay naked...'''
         }
       ]
     }
