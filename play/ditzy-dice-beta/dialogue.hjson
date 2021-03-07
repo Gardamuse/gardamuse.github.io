@@ -1,0 +1,58 @@
+{
+  stage1: '''Have you ever made a deal with the devil? Well, it's not as bad as they say.
+
+  Here's the deal. I got a deck of cards. Many of those cards will reward you with great gifts and powers. You could become the most powerful person on the planet.
+
+  If you draw a card with such a gift, it will be yours for as long as you live. Some of the powers could even give you immortality, so that might not be a short time.'''
+
+  stage2: '''The catch?
+
+  Well... some of the cards, rather than rewarding you, will transform you a bit, some physically, others mentally.
+
+  I also couldn't just let you pick and choose exactly which cards you want, now could I? So you would be choosing your cards by rolling these dice. No worries, you can choose how many dice you want to roll, to give you the best odds.
+  '''
+
+  stage3: '''Oh, and I almost forgot.
+
+  You have to be a woman to participate. So if you're not one already, I will transform you before we begin. Call it a free gift! Or the price of entry.
+
+
+  Do you accept?'''
+
+  stage3Decline: '''Oh, that's too bad.
+
+  Well, you can always come back if you change your mind. The offer still stands.
+  '''
+
+  stage4: '''Great! You look good. A bit plain perhaps, but I'm sure we will get that sorted soon enough. Hah!
+
+  Now about this game. You will play 3 rounds + 1 bonus round. Finish those and you walk away with all the changes and rewards you've collected.
+
+  Sounds simple? It is, and I'll explain the details as you go. Let's get started!'''
+
+  drawStage: '''First, roll to see how many cards you will have to draw this round!'''
+
+  pickStage: '''Now roll for which card you should pick!
+
+  Before you roll, you may buy extra dice. You will only pick one card, but with more dice you will be able to choose which of the dice results you want to use.
+
+  Beware, each die you buy means one extra roll in the bonus round. If you do buy dice, you will keep them for this round, but lose one for each card you pick.
+  '''
+
+  intensityStage: '''The card you picked has several levels of intensity. Roll for which one you get!
+
+  You may buy dice, but remember that they cost one extra roll in the bonus round.
+  '''
+
+  bonusStage: '''Time for the bonus round!
+
+  For each bonus roll you've accumulated, you will have to pick one card. But this time you can't buy dice, and there are no reward cards.
+
+  Roll to pick!
+  '''
+
+  endStage: '''Take a moment now, look at your cards. Read each one, if you still can read, that is.
+
+  Are you happy with our little deal? Good luck in your new life!
+  '''
+}
