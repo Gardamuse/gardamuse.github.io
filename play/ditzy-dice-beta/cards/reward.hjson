@@ -1,9 +1,11 @@
 {
+  id: "reward"
   name: "Reward"
   thumb: "art/jingming-pan-gold.webp"
   hue: 40
   cards: [
   {
+    id: "spell: super strength"
     name: "Spell: Super Strength"
     thumb: "art/spell-book.webp"
     description: '''While this spell is active, you become incredibly strong and resilient, although not completely invulnerable. Lift stuff, punch through walls or defend yourself.
@@ -12,6 +14,7 @@
     '''
   }
   {
+    id: "spell: transform other"
     name: "Spell: Transform Other"
     thumb: "art/spell-book.webp"
     description: '''Transform the mind and body of a nearby person, but you can only give them characteristics more similar to yours. Transformations are permanent unless you reset them, which you can do at any time.
@@ -20,6 +23,7 @@
     '''
   }
   {
+    id: "spell: transform body"
     name: "Spell: Transform Body"
     thumb: "art/spell-book.webp"
     description: '''Transform your body into anything female and somewhat humanoid, but you can't alter characteristics that the cards gave you. Centaur, mermaid, or something more subtle? You can always reset your appearance. If you have Transform Others you can also do this to other people.
@@ -28,7 +32,8 @@
     '''
   }
   {
-    name: "Spell: Dumb Down"
+    id: "spell: mind drain"
+    name: "Spell: Mind Drain"
     thumb: "art/spell-book.webp"
     description: '''You can lower a nearby person's intelligence, memory and attention span. You can set the changes to revert after a given time, or be permanent until you revert them. This power can be used on yourself.
 
@@ -36,6 +41,7 @@
     '''
   }
   {
+    id: "spell: forever young"
     name: "Spell: Forever Young"
     thumb: "art/spell-book.webp"
     description: '''Choose any age, and your body will age forwards or backwards at a normal speed in order to become that age. This means you can avoid dying from old age. Casting this spell toggles its effect, but it will deactivate if you run out of mana.
@@ -44,6 +50,7 @@
     '''
   }
   {
+    id: "spell: healing"
     name: "Spell: Healing"
     thumb: "art/spell-book.webp"
     description: '''By touching an erogenous zone, you can heal any wound and cure any illness on that person in a few minutes. This includes resurrecting the very recently dead, if their body is mostly whole. Used regularly, this spell will ensure a long and healthy life, but not immunity to aging.
@@ -52,6 +59,7 @@
     '''
   }
   {
+    id: "spell: possess"
     name: "Spell: Possess"
     thumb: "art/spell-book.webp"
     description: '''You take full control of a targets body, but not their mind. You are able to move, talk, see and hear as if you are them. Target is in a trance until the spell is over. You can choose whether the target should remember what happened during the trance, or forget it.
@@ -60,6 +68,7 @@
     '''
   }
   {
+    id: "spell: issue command"
     name: "Spell: Issue Command"
     thumb: "art/spell-book.webp"
     description: '''Command a target to do anything, and they will try their best to do it. Target is in a trance until the command is fulfilled, but no longer than 30 minutes. You can choose if the target should remember what happened during the trance, or forget it.
@@ -68,6 +77,7 @@
     '''
   }
   {
+    id: "spell: telepathy"
     name: "Spell: Telepathy"
     thumb: "art/spell-book.webp"
     description: '''Hear what a nearby person, or person you've met previously, is thinking right now, or explore their memories, plans and personality. You can also talk to them, and they will hear your voice in their heads.
@@ -76,6 +86,7 @@
     '''
   }
   {
+    id: "spell: telekinesis"
     name: "Spell: Telekinesis"
     thumb: "art/spell-book.webp"
     description: '''You can lift, move and manipulate nearby objects using up to 1 metric ton of force. Please be careful if you use it on people.
@@ -84,6 +95,7 @@
     '''
   }
   {
+    id: "spell: slow time"
     name: "Spell: Slow Time"
     thumb: "art/spell-book.webp"
     description: '''You learn how to slow time around you, down to a complete stand still should you want it. Only slowing time costs correspondingly less mana than stopping it entirely. Mana cost is based on your internal time.
@@ -92,6 +104,7 @@
     '''
   }
   {
+    id: "spell: time travel"
     name: "Spell: Time Travel"
     thumb: "art/spell-book.webp"
     description: '''You can travel back and forwards through time, at normal or greater speed. While casting, you don't exist in time. Travelling backwards spawns a new timeline. By setting markers you can return to any visited timeline.
@@ -100,6 +113,7 @@
     '''
   }
   {
+    id: "spell: flight"
     name: "Spell: Flight"
     thumb: "art/spell-book.webp"
     description: '''You learn how to fly; at great speeds or just hovering in place.
@@ -107,6 +121,7 @@
     Costs 1 mana per hour. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.'''
   }
   {
+    id: "spell: invisibility"
     name: "Spell: Invisibility"
     thumb: "art/spell-book.webp"
     description: '''Rob banks, spy on people or just hide. You can turn yourself and up to a cubic meter of material, including other people, invisible. To turn something invisible, some part of it must be very close to you.
@@ -115,6 +130,7 @@
     '''
   }
   {
+    id: "spell: phasing"
     name: "Spell: Phasing"
     thumb: "art/spell-book.webp"
     description: '''You can phase yourself and up to a metric ton of material, including other people. While phasing, you can float up, down and through any object as if it wasn't there, and you look slightly transparent. To phase material, some part of it must be very close to you.
@@ -124,6 +140,7 @@
   }
 
   /*{
+    id: "spell: raise bimbo"
     name: "Spell: Raise Bimbo"
     thumb: ""
     description: '''You can turn the dead into living, but they will become mindless bimbo versions of themselves. Costs 1 mana per day per bimbo.
@@ -131,6 +148,7 @@
     You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.'''
   }*/
   {
+    id: "gold"
     name: "Gold"
     thumb: "art/jingming-pan-gold.webp"
     artist: "Jingming Pan"
@@ -140,38 +158,47 @@
     type: "numeric"
     levels: [
       {
+        id: "gold 1"
         name: "$10 Thousand"
         description: '''It's not that much, but enough for some nice things or as an extra buffer.'''
       }
       {
+        id: "gold 2"
         name: "$100 Thousand"
         description: '''A sizeable amount, but probably not enough to live of for very long either.'''
       }
       {
+        id: "gold 3"
         name: "$1 Million"
         description: '''A fair amount of money! Buy a house, save to get some income from rent, or spend it all on luxury clothing!'''
       }
       {
+        id: "gold 4"
         name: "$10 Million"
         description: '''A lot of money. If you don't waste it, this will last you a lifetime. But you gotta afford yourself some luxuries too, right?'''
       }
       {
+        id: "gold 5"
         name: "$100 Million"
         description: '''A luxury home, cars, boats and fancy parties. As long as you don't go overboard this is enough for a long life of luxuries.'''
       }
       {
+        id: "gold 6"
         name: "$1 Billion"
         description: '''Live life however you want! Cost will never be an issue. Any house, yacht or other item you could reasonably want are within your power to have.'''
       }
       {
+        id: "gold 7"
         name: "$10 Billion"
         description: '''You fancy living out the rest of your life throwing extravagant parties on one of your superyachts? Maybe take your private yet over to your private island? Go ahead. With this amount of money, nothing is out of reach.'''
       }
       {
+        id: "gold 8"
         name: "$100 Billion"
         description: '''You are now among the few top richest people in the world. Have whatever you want, build your own town, change the world. No one can touch you.'''
       }
       {
+        id: "gold 9"
         name: "$1 Trillion"
         description: '''You are by far the richest person in the world. The only people that come close are the few rulers of antiquity who personally owned entire countries. Perhaps you could give that a go too?'''
       }

@@ -1,10 +1,12 @@
 {
+  id: "behavior"
   name: "Behavior"
   thumb: "art/happy-smile.webp"
   artist: "CrazyCowProductions"
   hue: 280
   cards: [
     {
+      id: "giggly"
       name: "Giggly"
       thumb: "art/happy-smile.webp"
       artist: "CrazyCowProductions"
@@ -13,6 +15,7 @@
       If you try really hard you can keep it together, but only for a short while.'''
     }
     {
+      id: "talkative"
       name: "Talkative"
       thumb: "art/talkative.webp"
       artist: "Gardamuse"
@@ -22,12 +25,14 @@
       '''
     }
     {
+      id: "bouncy"
       name: "Bouncy"
       thumb: "art/happy-smile.webp"
       artist: "CrazyCowProductions"
       description: '''You will have a strong urge to feel your tits bounce. As a result, you are often going to bounce a little up and down, even if you're just by yourself.'''
     }
     {
+      id: "moaning"
       name: "Moaning"
       thumb: "art/moaning-pink.webp"
       artist: "Gardamuse"
@@ -36,6 +41,7 @@
       People can hear what you're doing from a mile away.'''
     }
     {
+      id: "easy"
       name: "Easy"
       thumb: "art/happy-smile.webp"
       artist: "CrazyCowProductions"
@@ -45,6 +51,7 @@
       '''
     }
     /*{
+      id: "mirror mirror"
       name: "Mirror Mirror"
       thumb: ""
       description: '''You can't help but stare at your own reflection.
@@ -52,6 +59,7 @@
       If you walk past a mirror or some other somewhat large and reflective surface, you will stop and look at yourself for at least 10 seconds unless someone drags you away.'''
     }*/
     /*{
+      id: "narscissian turn-on"
       name: "Narscissian Turn-On"
       thumb: ""
       description: '''Whenever you look at your own reflection you start getting horny.
@@ -59,6 +67,7 @@
       After 30 seconds you will be horny enough to feel your panties getting wet, after 2 minutes you will cum on the spot.'''
     }*/
     {
+      id: "narscissian touch"
       name: "Narscissian Touch"
       thumb: ""
       description: '''You love your own body so much that you simply can't stop feeling it out.
@@ -66,6 +75,7 @@
       From now on you will always be touching yourself somewhere.'''
     }
     {
+      id: "playing with your hair"
       name: "Playing with Your Hair"
       thumb: ""
       description: '''Whether you're concentrating, daydreaming or just walking somewhere, you are always playing with your hair, endlessly twirling it around a finger.
@@ -74,6 +84,7 @@
       '''
     }
     {
+      id: "lap warmer"
       name: "Lap Warmer"
       thumb: "art/lap-warmer.webp"
       artist: "Gardamuse"
@@ -83,17 +94,20 @@
       '''
     }
     /*{
+      id: "pinup"
       name: "Pinup"
       thumb: ""
       description: '''Whenever you're in a photo, you'll be posing like for a classic pinup photo.'''
     }*/
     {
+      id: "lightweight"
       name: "Lightweight"
       thumb: "art/drink-ash-edmonds.webp"
       artist: "Ash Edmonds"
       description: '''You get very drunk from a single drink, but you also never become so drunk that you get sick, no matter how much you drink.'''
     }
     {
+      id: "hot drinks"
       name: "Hot Drinks"
       thumb: "art/drink-ash-edmonds.webp"
       artist: "Ash Edmonds"
@@ -102,16 +116,19 @@
       You won't get sick no matter how much you drink, and hangovers will make you feel horny instead of sick.'''
     }
     /*{
+      id: "cum addict"
       name: "Cum Addict"
       thumb: ""
       description: '''Whenever you haven't swallowed any cum for 24 hours, you will feel unfocused (-1 attention span) and get horny much quicker (+2 sex drive).'''
     }*/
     /*{
+      id: "gold-digger"
       name: "Gold-Digger"
       thumb: ""
       description: '''Unconsciously, you will always feel the most attracted to whoever you know with the most money, to the point that you'll be almost in love with whoever is the richest.'''
     }*/
     {
+      id: "influencer"
       name: "Influencer"
       thumb: "art/selfie.webp"
       artist: "Gardamuse"
@@ -120,6 +137,7 @@
       At least one photo every time you change outfit and every time you go out, and you will only feel content if you post at least 10 selfies each day.'''
     }
     {
+      id: "good girl"
       name: "Good Girl"
       thumb: "art/griffinwolf-card.webp"
       artist: "CrazyCowProductions"
@@ -128,6 +146,7 @@
       In addition, you always try to get people to pat you on the head, especially when you feel like you've been good.'''
     }
     {
+      id: "pet the kitty"
       name: "Pet the Kitty"
       thumb: "art/griffinwolf-card.webp"
       artist: "CrazyCowProductions"
@@ -136,6 +155,7 @@
       It looks insanely cute and lewd at the same time, and you just can't stop yourself.'''
     }
     {
+      id: "expenses"
       name: "Expenses"
       thumb: "art/shopping.webp"
       artist: "CrazyCowProductions"
@@ -146,6 +166,7 @@
       type: "numeric"
       levels: [
         {
+          id: "expenses 1"
           name: "Cheap"
           description: '''Some may think you are poor or trashy, but you just don't care much about material things. You are a free spirit, attempting to live a real life, without being burdened by consumerism.
 
@@ -153,6 +174,7 @@
           '''
         }
         {
+          id: "expenses 2"
           name: "Shopaholic"
           thumb: "art/shopping.webp"
           artist: "CrazyCowProductions"
@@ -162,6 +184,7 @@
           '''
         }
         {
+          id: "expenses 3"
           name: "Spoiled Princess"
           thumb: "art/diva-card.webp"
           artist: "Gardamuse"
@@ -171,6 +194,7 @@
       ]
     }
     {
+      id: "personality"
       name: "Personality"
       thumb: "art/beach-bimbo-card.webp"
       artist: "Gardamuse"
@@ -181,32 +205,38 @@
       type: "selection"
       levels: [
         {
+          id: "sweet"
           name: "Sweet and Bubbly"
           description: '''You are always upbeat and playful, if a little naive. People love to have you around and take care of you.'''
         }
         {
+          id: "bad girl"
           name: "Bad Girl"
           description: '''No one is going to trod on you! Unless they're really hot, in which case you'd love it if they did.
 
           Tattoos, smoking and piercings are your core identity. Motorcycles come a close second, whether that is riding clad in leather behind a muscular guy, or on your own tuned up chopper.'''
         }
         {
+          id: "eye candy"
           name: "Eye Candy"
           description: '''You know that you should always look perfect. No matter if it is for an evening out or going grocery shopping, you always look impeccable. Ever sexy, yet consistently dressed for the occasion.
 
           For any partner, you'll be the perfect accessory.'''
         }
         {
+          id: "object"
           name: "Object"
           description: '''You know that you're just an object. Whenever you have a partner around you do anything you're told, wear whatever they want you to wear and speak only when spoken to.
 
           If no one tells you what to do, you don't really know what to do with yourself.'''
         }
         {
+          id: "slut"
           name: "Slut"
           description: '''If they look good, you want to have sex with them. So what if they're married? No one will find out you'll just have a quickie here and now.'''
         }
         {
+          id: "beach bimbo"
           name: "Beach Bimbo"
           thumb: "art/beach-bimbo-card.webp"
           artist: "Gardamuse"
@@ -215,6 +245,7 @@
       ]
     }
     /*{
+      id: "social behavior"
       name: "Social Behavior"
       thumb: ""
       description: '''Do you prefer staying at home, or go clubbing?
@@ -224,30 +255,36 @@
       type: "numeric"
       levels: [
         {
+          id: "shy"
           name: "Shy"
           description: '''Staying at home, or blushing whenever someone looks in your direction. You don't like evenings out, but occasionally your friends will drag you on one.
 
           Unfortunately for you, blushing just make you look even cuter.'''
         }
         {
+          id: "extrovert"
           name: "Extrovert"
           description: '''You like talking to people, and you know how to do it well.'''
         }
         {
+          id: "party girl"
           name: "Party Girl"
           description: '''Every night at home is a night wasted, unless you're the host. Parties are your life.'''
         }
         {
+          id: "immodest"
           name: "Immodest"
           description: '''You love to party, but you're not just there to have fun, but to get some looks your way. You don't even really care who looks. Deep necklines, skirts that can't possibly cover all of you or straight up see through fabric are the way to go for you. You'd never wear something that could make you seem bland or boring.'''
         }
         {
+          id: "attention whore"
           name: "Attention Whore"
           description: '''You want people to look at you and show how sexy they think you are, and you'll do anything to get that attention.'''
         }
       ]
     }*/
     /*{
+      id: "sex appeal"
       name: "Sex Appeal"
       thumb: ""
       description: '''Do you use your looks to tease, or maybe just to get what you want?
@@ -257,20 +294,24 @@
       type: "numeric"
       levels: [
         {
+          id: "flirty"
           name: "Flirty"
           description: '''You'll flirt with just about anyone if you find them good-looking or if you're just bored.'''
         }
         {
+          id: "tease"
           name: "Tease"
           description: '''You're such a tease. You barely have to try for men to cum in their pants and girls from getting wet through-and-through just from looking at you.'''
         }
         {
+          id: "seductive"
           name: "Seductive"
           description: ''''''
         }
       ]
     }*/
     {
+      id: "valley girl"
       name: "Valley Girl"
       description: '''You always sound, like, so uncertain? Ending each sentence in, like, a rising pitch? And you always sprinkle in lots of like, totally unnecessary words into your sentences or whatever?
 
@@ -278,6 +319,7 @@
     }
     /*
     {
+      id: "submissive speech"
       name: "Submissive Speech"
       thumb: ""
       description: '''You're a good girl, and you know when it is prompt for you to be quiet.
@@ -286,6 +328,7 @@
       type: "selection"
       levels: [
         {
+          id: "speak when spoken to"
           name: "Speak When Spoken To"
           description: '''You are only able to speak when you have been directly spoken to first.
 
@@ -293,6 +336,7 @@
           '''
         }
         {
+          id: "mute button"
           name: "Mute Button"
           description: '''Ever wished you could just shut someone up? Well, now will be the one getting shut up.
 
@@ -301,6 +345,7 @@
       ]
     }*/
     {
+      id: "concentration face"
       name: "Concentration Face"
       thumb: "art/ditz-card.webp"
       artist: "Gardamuse"
@@ -310,15 +355,18 @@
       type: "selection"
       levels: [
         {
+          id: "aheago"
           name: "Aheago"
           thumb: "art/ditz-card.webp"
           description: '''Your eyes cross and your mouth falls open with your tongue sticking out in a typical aheago look.'''
         }
         {
+          id: "blank and drooling"
           name: "Blank and Drooling"
           description: '''Your eyes go blank, your jaw slackens and you start to drool. You're gonna look like you're really dumb.'''
         }
         {
+          id: "tongue in cheek"
           name: "Tongue in Cheek"
           description: '''You stick your tongue out just a little at the side of your mouth and your eyes look diagonally upwards.'''
         }

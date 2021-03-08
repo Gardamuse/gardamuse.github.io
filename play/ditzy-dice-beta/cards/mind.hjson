@@ -1,9 +1,11 @@
 {
+  id: "mind"
   name: "Mind"
   thumb: "art/education-3.webp"
   hue: 210
   cards: [
     {
+      id: "intelligence"
       name: "Intelligence"
       thumb: "art/zatanna-card.webp"
       artist: "CrazyCowProductions"
@@ -17,24 +19,29 @@
       type: "numeric"
       levels: [
         /*{
+          id: "genius"
           name: "Genius"
           description: '''You are hyper-aware of everthing that goes on around you and you often know what people want before they do. Whatever problems you encounter won't trouble you for long.'''
         }
         {
+          id: "brilliant"
           name: "Brilliant"
           description: ''''''
         }
         {
+          id: "bright"
           name: "Bright"
           description: ''''''
         }*/
         {
+          id: "intelligence 1"
           name: "Average"
           description: '''Everyone thinks they are a little smarter than the average person. Well, soon you won't be!
 
           Count yourself lucky though, you probably won't notice a huge difference. You'll just be a little more basic. As a bonus, you'll finally be able to enjoy all those dumbed-down movies and TV-shows you've complained so much about!'''
         }
         {
+          id: "intelligence 2"
           name: "Lightheaded"
           description: '''Prepare to always feel a little lightheaded, like your thoughts try to hide in wisps of pink fog.
 
@@ -42,6 +49,7 @@
           '''
         }
         {
+          id: "intelligence 3"
           name: "Ditzy"
           description: '''You're soon going to get a lot dumber, but you probably won't notice that yourself. It will just be harder for you to, well, think. Like if your head was wrapped in a thick pink cloud.
 
@@ -49,16 +57,19 @@
           '''
         }
         {
+          id: "intelligence 4"
           name: "Airhead"
           description: '''Can you feel the IQ points starting to drip from your pussy? In a few moments you will just be a confused mess. Few things won't put that dumb, befuddled look on your face, like you just can't understand the most simple of things. Enjoy!'''
         }
         {
+          id: "intelligence 5"
           name: "Brainless"
           description: '''You're about to get real fucking dumb, so let's hope you won't miss being able to figure out how to open doors, or do anything, really. You'll just be a drooling mess with a blank expression. You're lucky that walking and fucking goes on instinct or you wouldn't even be able to do that. Someone will probably take care of you though, so don't worry about that. Bye bye brain!'''
         }
       ]
     }
     {
+      id: "memory"
       name: "Memory"
       thumb: "art/education-4.webp"
       art: "Gardamuse"
@@ -68,38 +79,45 @@
       type: "numeric"
       levels: [
         /*{
+          id: "perfect recall"
           name: "Perfect Recall"
           description: '''However you've learnt it, consciously or not, when you need it, it comes to you effortlessly.'''
         }
         {
+          id: "feeling sharp"
           name: "Feeling Sharp"
           description: '''There is no change to your memory or knowledge. You'll be similar to what you've always been, perhaps even a little sharper.'''
         }*/
         {
+          id: "memory 1"
           name: "University, No Thanks"
           thumb: "art/education-4.webp"
           art: "Gardamuse"
           description: '''If you've had any higher education, it's time to wave all the things you learned there good bye! And good luck trying to re-learn it or becoming a student: no matter how intelligent you are, your memory simply can't store such complicated knowledge for more than a few minutes.'''
         }
         {
+          id: "memory 2"
           name: "High-School Dropout"
           thumb: "art/education-3.webp"
           art: "Gardamuse"
           description: '''Remember derivatives, chemistry or advanced language? No you don't. It's long gone, along with everything else you learned in high school or beyond.'''
         }
         {
+          id: "memory 3"
           name: "The Basics"
           thumb: "art/education-2.webp"
           art: "Gardamuse"
           description: '''You read and write as if you've just learnt how to, and with such a basic vocabulary no one will ever take you for very smart again. If you're a Genius with great Attention Span you may still be able to do some not-quite high-school level math, but otherwise you're stuck with the most basic of arithmethic too.'''
         }
         {
+          id: "memory 4"
           name: "Illiteracy and Innumeracy"
           thumb: "art/education-1.webp"
           art: "Gardamuse"
           description: '''What does all the little squiggles that are everywhere mean? You're sure you used to know, but trying to remember is like walking through syrup. You should probably leave such things to others.'''
         }
         {
+          id: "memory 5"
           name: "Gone With The Wind"
           thumb: "art/education-1.webp"
           art: "Gardamuse"
@@ -111,6 +129,7 @@
       ]
     }
     {
+      id: "attention"
       name: "Attention Span"
       thumb: ""
       description: '''How long you are able to concentrate on a single task and block out distractions.
@@ -120,32 +139,38 @@
       type: "numeric"
       levels: [
         /*{
+          id: "chamber of solitude"
           name: "Chamber of Solitude"
           description: '''As long as you can stay awake, you can remain focused on any task you wish. Nothing can disturb you if you don't wish it, so please just remember to eat and drink regularly!'''
         }*/
         {
+          id: "attention 1"
           name: "Inattentive"
           description: '''Whenever you listen or read something, it won't be very long until you stop paying full attention.
 
           You'll probably miss important things every now and again.'''
         }
         {
+          id: "attention 2"
           name: "Unfocused"
           description: '''You just can't seem to focus on any one thing for too long.'''
         }
         {
+          id: "attention 3"
           name: "Distracted"
           description: '''You are always thinking of something else and you often walk away from things half-way through.
 
           It only takes a small interruption and you've forgotten what you where doing.'''
         }
         {
+          id: "attention 4"
           name: "Absent-Minded"
           description: '''You start doing stuff, but then its like something important always comes up, or your thoughts just drift away in the middle of a sentence. Don't expect to be able to do anything for more than a few minutes.
 
           "What was I doing again?" is something you'll be asking yourself a lot.'''
         }
         {
+          id: "attention 5"
           name: "Completely Lost"
           description: '''You will basically have no attention span, not even enough to speak full sentences before trailing off. If no one is there to remind you every few seconds, you couldn't even concentrate long enough to suck a cock.
 
@@ -154,6 +179,7 @@
       ]
     }
     {
+      id: "syllable limit"
       name: "Syllable Limit"
       thumb: "art/syllables.webp"
       description: '''Your intelligence is not affected per say, but your brain becomes unable to comprehend words with too many syllables.
@@ -163,96 +189,117 @@
       type: "numeric"
       levels: [
         {
+          id: "syllable limit 1"
           name: "Six"
           description: '''Any words with more than six syllables will become incomprehensible for you. Yet, your circumnavigation of language will not really be affected, since few words used with responsibility in mind are longer than that.'''
         }
         {
+          id: "syllable limit 2"
           name: "Five"
           description: '''With five syllables your alphabetical terminology will be only slightly dilapidated. As such, you should feel insignificant insecurity because of it, and most words of rationality will still be yours to command.'''
         }
         {
+          id: "syllable limit 3"
           name: "Four"
           description: '''Four syllables is obviously not an overwhelming limitation, although you will undoubtedly appreciate a reduced complexity of literature. Yet your intelligence will only with difficulty appear a little disappointing.'''
         }
         {
+          id: "syllable limit 4"
           name: "Three"
           description: '''Only using three syllables will still be perfectly adequate for typical appointments, if perhaps not for academic approval. Although you will encounter confusion concerning a few not too uncommon words.'''
         }
         {
+          id: "syllable limit 5"
           name: "Two"
           description: '''Only shortish words will exist in your knowledge now. Talking should not pose too much a problem, but you will be missing many pieces you were likely used to have.'''
         }
         {
+          id: "syllable limit 6"
           name: "One"
           description: '''You will speak in short words from now on. Long words can not be on your mind, and folks will think you seem a bit dumb when you don't know words. It will be hard for you to know what folks say, if they do not speak to you with short words.'''
         }
       ]
     }
     {
+      id: "word limit"
       name: "Word Limit"
       thumb: "art/sentence.webp"
       description: '''Your intelligence is not really affected, but your brain becomes unable to form sentences with more than a certain number of words. When reading or listening, you will need 1 to 5 seconds of pause (depending on your intelligence) to comprehend each sequence of words, any more than your limit and you will forget them.'''
       type: "numeric"
       levels: [
         {
+          id: "word limit 1"
           name: "Seventeen"
           description: '''A word limit of seventeen will shorten your sentences somewhat, but it will not be too noticeable. It is still possible to comfortably speak and write, although when listening you will sometimes encounter confusion. Reading should be fine, but you will have slow down much when the sentences are too long.'''
         }
         {
+          id: "word limit 2"
           name: "Thirteen"
           description: '''Thirteen words make for a somewhat short sentence, but not one overly short. Reading will be slow, since you pause whenever a sentence is too long. Yet the most difficult thing for you will most definitely be to listen. Whenever a sentence is longer than thirteen words, you will forget a bit.'''
         }
         {
+          id: "word limit 3"
           name: "Ten"
           description: '''With only ten word sentences, you may start seeming simple. Still, listening to others will be the most obvious problem. Too long sentences and you will be lost in conversation.'''
         }
         {
+          id: "word limit 4"
           name: "Seven"
           description: '''People should speak very slowly to you. Only seven words can not say much. Any more, and you won't follow. Still, being easily confused is pretty cute.'''
         }
         {
+          id: "word limit 5"
           name: "Five"
           description: '''Five word sentences are short. Any more will confuse you. Hopefully your friends speak slowly. Pets can understand longer sentences. Who is a good girl?'''
         }
         {
+          id: "word limit 6"
           name: "Four"
           description: '''This is getting ridiculous. You can't understand. Good luck to you. Your friends are patient. Confused looks cute though. What a good girl!'''
         }
         {
+          id: "word limit 7"
           name: "Three"
           description: '''You understand little. Find a partner. Will help you. Sound so dumb. Maybe be quiet? Still pretty cute. Good little girl!'''
         }
         {
+          id: "word limit 8"
           name: "Two"
           description: '''Understand nothing. Take commands. Eat food. Sit lap. Suck cock. Good girl!'''
         }
       ]
     }
     /*{
+      id: "willpower"
       name: "Willpower"
       thumb: ""
       description: '''Are you the one making decisions, or the one following orders?'''
       type: "numeric"
       levels: [
         {
+          id: "dominant"
           name: "Dominant"
           description: '''You prefer taking decisions for both yourself and others.'''
         }
         {
+          id: "independent"
           name: "Independent"
           description: '''You have no problem making decisions for yourself.'''
         }
         {
+          id: "submissive"
           name: "Submissive"
           description: '''You prefer being told what to do, and let others take control. You never say no, and you don't want to either. Yes feels so much better.'''
         }
         {
+          id: "mindless"
           name: "Mindless"
           description: '''You will do whatever you're told and should someone not be around to tell you, you'll find someone to order you around. Being a mindless slave is so much better.'''
         }
       ]
     }*/
     {
+      id: "name"
       name: "A Fitting Name"
       thumb: "art/name.webp"
       artist: "Gardamuse"
@@ -263,24 +310,29 @@
       type: "numeric"
       levels: [
         {
+          id: "name 1"
           name: "Complicated"
           description: '''You will always present yourself with a long and fancy version of your name.'''
         }
         {
+          id: "name 2"
           name: "Normal"
           description: '''You use your normal name.'''
         }
         {
+          id: "name 3"
           name: "Simplified"
           description: '''You use a simplified version of your name.'''
         }
         {
+          id: "name 4"
           name: "Nickname"
           description: '''You always refer to yourself using a bimbo nickname like "Titsie", "Missi", "Kitty" etc.'''
         }
       ]
     }
     {
+      id: "unfiltered"
       name: "Unfiltered"
       thumb: "art/unfiltered-2-512px.webp"
       artist: "Gardamuse"
@@ -290,6 +342,7 @@
       '''
     }
     {
+      id: "third person"
       name: "Third Person"
       thumb: ""
       description: '''From now on you can only talk in third person.
@@ -298,6 +351,7 @@
       '''
     }
     {
+      id: "on your knees"
       name: "On Your Knees"
       thumb: "art/griffinwolf-card.webp"
       artist: "CrazyCowProductions"
@@ -306,6 +360,7 @@
       It may feel weird for you to go out at first, but you'll make for a cute pet I'm sure.'''
     }
     {
+      id: "gullible"
       name: "Gullible"
       thumb: "art/unfiltered.webp"
       artist: "Gardamuse"
@@ -314,6 +369,7 @@
       Sure, you will be very easy to manipulate, but believing in magic and Santa again is going to be pretty fun, right?'''
     }
     /*{
+      id: "sapiosexual self-love"
       name: "Sapiosexual Self-Love"
       thumb: ""
       description: '''The harder you think, the hornier you get.
@@ -322,6 +378,7 @@
       '''
     }*/
     /*{
+      id: "sucker for thinking"
       name: "Sucker for Thinking"
       thumb: ""
       description: '''When you are not sucking cock or eating pussy, you will find it very difficult to think (-1 intelligence, -1 attention span, -1 memory).
@@ -330,6 +387,7 @@
       '''
     }*/
     {
+      id: "second language"
       name: "Second Language"
       description: '''Choose any two distinct languages. You now only speak the second language, but with a heavy accent, like if you only really knew the first language.
 
@@ -337,6 +395,7 @@
       '''
     }
     {
+      id: "cum your brains out"
       name: "Cum Your Brains Out"
       thumb: "art/brain-fried.webp"
       artist: "Gardamuse"
