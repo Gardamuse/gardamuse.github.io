@@ -1,0 +1,10 @@
+{
+name: "Collectible Cards"
+date: "2021-03-09"
+text: '''
+# Features
+    * Added Card Collection.
+        * Upon finish a game, all cards are added to your persistent collection.
+
+'''
+}
