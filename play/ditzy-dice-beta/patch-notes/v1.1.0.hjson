@@ -6,5 +6,8 @@ text: '''
     * Added Card Collection.
         * Upon finish a game, all cards are added to your persistent collection.
 
+# Gameplay
+    * Can now adjust how many cards to draw, at the cost of additional bonus rounds.
+
 '''
 }
