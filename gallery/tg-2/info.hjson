@@ -1,0 +1,32 @@
+{
+  "title": "Gender Transformation 2",
+  "description": '''Another bimbo tg transformation. I feel there should really be captions for these, but I'm primarily working on Ditzy Dice at the moment, and these are just fun to do when I don't feel like coding.
+  
+  Also, make sure to check out the "Looking Around" version.''',
+  "thumb": "thumb.webp",
+  "sequences": [
+    {
+      "firstImage": "frames/flowing-hair-01.webp",
+      "length": 12
+    }
+    {
+      "title": "Looking Around",
+      "firstImage": "flowing-hair-last-17s-loop.webp",
+      "thumb": "looking-around-thumb.webp",
+      "length": 1,
+      "description": '''This animation was created using AliksandrSiarohin's [First Order Motion Model for Image Animation](https://github.com/AliaksandrSiarohin/first-order-model). The range of movements that can be done are a bit limited, too much movement quickly looks weird, and the model is only trained for low-resolution output. Still, I thought it was pretty cool to try using it.'''
+    }
+    {
+      "title": "Animated Webp",
+      "firstImage": "flowing-hair-loop.webp",
+      "length": 1
+      "thumb": "thumb.webp"
+    }
+    {
+      "title": "Video",
+      "firstImage": "flowing-hair-loop.mp4",
+      "thumb": "thumb.webp",
+      "length": 1
+    }
+  ]
+}
