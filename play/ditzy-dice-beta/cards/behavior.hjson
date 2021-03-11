@@ -310,13 +310,6 @@
         }
       ]
     }*/
-    {
-      id: "valley girl"
-      name: "Valley Girl"
-      description: '''You always sound, like, so uncertain? Ending each sentence in, like, a rising pitch? And you always sprinkle in lots of like, totally unnecessary words into your sentences or whatever?
-
-      Most people will assume you're pretty dumb, even if you're not.'''
-    }
     /*
     {
       id: "submissive speech"

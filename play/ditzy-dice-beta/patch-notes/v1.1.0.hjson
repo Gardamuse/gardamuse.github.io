@@ -5,6 +5,7 @@ text: '''
 # Features
     * Added Card Collection.
         * Upon finish a game, all cards are added to your persistent collection.
+    * Added button for generating an image of your hand on the end screen.
 
 # Gameplay
     * Can now adjust how many cards to draw, at the cost of additional bonus rounds.
