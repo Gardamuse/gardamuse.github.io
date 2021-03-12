@@ -1,9 +1,11 @@
 {
+  id: "clothing"
   name: "Clothing"
   thumb: "art/apron-1.webp"
   hue: 150
   cards: [
     {
+      id: "outgrown"
       name: "Outgrown"
       thumb: "art/zatanna-outgrown.webp"
       artist: "CrazyCowProductions"
@@ -13,6 +15,7 @@
       '''
     }
     {
+      id: "whale tail"
       name: "Whale Tail"
       thumb: "art/whale-tail.webp"
       description: '''Whenever you are not wearing a thong, or it is not showing above your pant- or skirt-line, you become considerably less intelligent (-1 intelligence).
@@ -20,6 +23,7 @@
       So if you want to think, you better show that thong!'''
     }
     {
+      id: "cleavage in focus"
       name: "Cleavage in Focus"
       thumb: "art/cleavage.webp"
       description: '''Whenever clothes cover your breasts and you are not showing considerable cleavage, your attention span becomes significantly worse (-1 attention span).
@@ -27,6 +31,7 @@
       So it's up to you, either you show off your puppies, or you forget what else you were supposed to do.'''
     }
     {
+      id: "thigh highs"
       name: "Thigh Highs"
       thumb: "art/thigh-highs.webp"
       description: '''Whenever you wear three or more pieces of clothing and none of them are thigh-high stockings, your sex drive becomes much stronger (+2 sex drive).
@@ -34,6 +39,7 @@
       Thigh highs look hot af, so if you're not wearing yours, you'll be the one feeling hot instead.'''
     }
     {
+      id: "tummy time"
       name: "Tummy Time"
       thumb: "art/tummy.webp"
       description: '''Whenever clothes cover your tummy, you will find yourself acting more submissive (-1 willpower).
@@ -41,6 +47,7 @@
       Show your tummy or get used to doing what you're told!'''
     }
     {
+      id: "tramp stamp"
       name: "Tramp Stamp"
       thumb: "art/bent-over-small.webp"
       description: '''A suggestive tattoo is now blazoned across your lower back. Anyone who sees this will know just what to expect from you.
@@ -48,6 +55,7 @@
       You will also become horny much quicker (+2 sex drive) whenever you're wearing pants or panties.'''
     }
     {
+      id: "choker"
       name: "Choker"
       thumb: "art/draenei-collar.webp"
       artist: "Bradtanker3"
@@ -56,6 +64,7 @@
       From now on, whenever you are not wearing a choker saying "BIMBO", "SLUT", "PET" or something similar, you become less intelligent to make up for it (-1 intelligence).'''
     }
     {
+      id: "pink to think"
       name: "Pink to Think"
       thumb: ""
       description: '''Pink is a great color isn't it? Feminine, sexy, and, well, what more could you want really? In any case, I think you should be wearing it more.

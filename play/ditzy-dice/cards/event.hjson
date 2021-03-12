@@ -1,14 +1,17 @@
 {
+  id: "event"
   name: "Event"
   thumb: "art/emptyPortrait.jpg"
   hue: 13
   cards: [
     /*{
+      id: "were-bimbo"
       name: "Were-Bimbo"
       thumb: ""
       description: '''Whenever there is a full moon, you transform into a bimbo (-1 intelligence, +1 breast size, +1 lip size, +1 makeup) and gain ass-length, platinum blonde hair.'''
     }*/
     {
+      id: "panty dropper"
       name: "Panty Dropper"
       thumb: "art/panty-drop.webp"
       description: '''You sometimes get an irresistible urge to take off your panties. You can't wear that pair again until you've changed into another pair at home. If already at home, you must first buy a new pair.
@@ -16,12 +19,14 @@
       This will happen at least once a month but max 5 times a week.'''
     }
     {
+      id: "milkspurt"
       name: "Milkspurt"
       thumb: "art/cathyl-card.webp"
       artist: "Luxu"
       description: '''Randomly, 1 to 4 times a month, your breasts will suddenly start leaking milk. Over the span of half-an-hour you will produce your combined breast volume in milk, or 1 litre, whichever is more.'''
     }
     {
+      id: "random orgasms"
       name: "Random Orgasms"
       thumb: "art/angela-43.webp"
       artist: "Gardamuse"
@@ -30,6 +35,7 @@
       This will happen at least once a month, but no more than 5 times a week.'''
     }
     {
+      id: "public masturbation"
       name: "Public Masturbation"
       thumb: "art/jessica21.webp"
       artist: "Gardamuse"
@@ -38,14 +44,16 @@
       This will happen at least once a month, but no more than 5 times a week.'''
     }
     {
+      id: "flash your tits"
       name: "Flash Your Tits"
       thumb: "art/salvatore-13.webp"
       artist: "Gardamuse"
-      description: '''You will sometimes get a sudden urge to show your breasts, immediately turning to someone near you, and exposing your breasts for at least 3 seconds.
+      description: '''You will sometimes get a sudden urge to show your breasts, immediately turning to someone near you, and exposing your breasts for at least 10 seconds.
 
       This will only happen when someone can see you, and will happen at least once a month, but no more than 5 times a week.'''
     }
     {
+      id: "in heat"
       name: "In Heat"
       thumb: "art/moaning.webp"
       artist: "Gardamuse"
