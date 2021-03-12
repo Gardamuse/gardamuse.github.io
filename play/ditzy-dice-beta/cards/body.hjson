@@ -831,12 +831,13 @@
       thumb: ""
       description: '''Your skin will always be soft and smooth, and your body becomes completely hairless except for your head.'''
     }
-    /*{
+    {
       id: "life in plastic"
       name: "Life In Plastic"
-      thumb: ""
-      description: '''Your skin, tits and entire body will have a plastic, doll-like and fake look.'''
-    }*/
+      thumb: "art/life-in-plastic.webp"
+      artist: "Gardamuse"
+      description: '''Your skin, expression and entire body will have a plastic, doll-like and fake look.'''
+    }
 
     /*
     {

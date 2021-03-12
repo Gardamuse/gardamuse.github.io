@@ -310,14 +310,14 @@
         }
       ]
     }*/
-    /*
     {
-      id: "submissive speech"
-      name: "Submissive Speech"
-      thumb: ""
-      description: '''You're a good girl, and you know when it is prompt for you to be quiet.
+      id: "submissive silence"
+      name: "Submissive Silence"
+      thumb: "art/submissive-speech.webp"
+      artist: "Gardamuse"
+      description: '''You're a good girl, so you know when it is prompt for you to be quiet.
 
-      You always speak in a submissive manner.'''
+      In fact, with this card you won't be able to speak at all when you shouldn't.'''
       type: "selection"
       levels: [
         {
@@ -336,7 +336,7 @@
           If anyone tells you to shut up or be quiet, you won't be able to speak until someone tells you that you are allowed to.'''
         }
       ]
-    }*/
+    }
     {
       id: "concentration face"
       name: "Concentration Face"

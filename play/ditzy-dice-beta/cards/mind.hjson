@@ -384,15 +384,16 @@
       This could make working as a scientist, or similar, quite interesting. And with the right mindset, potentially very produtive.
       '''
     }*/
-    /*{
+    {
       id: "sucker for thinking"
       name: "Sucker for Thinking"
-      thumb: ""
-      description: '''When you are not sucking cock or eating pussy, you will find it very difficult to think (-1 intelligence, -1 attention span, -1 memory).
+      thumb: "art/sucker-for-thinking.webp"
+      artist: "Gardamuse"
+      description: '''When you are not sucking cock or eating pussy, you will find it very difficult to think (-1 intelligence, -1 attention span).
 
-      Great isn't it? You'll be able to focus when you're putting that head of yours to good use, and when you're not, it will just be more clear what a useless slut you really are!
+      Great isn't it? You'll only be able to focus when you're putting that head of yours to good use, and when you're not, it will just be more clear what a useless slut you really are!
       '''
-    }*/
+    }
     {
       id: "second language"
       name: "Second Language"
