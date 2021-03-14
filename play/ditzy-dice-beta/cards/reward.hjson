@@ -64,7 +64,7 @@
     thumb: "art/spell-book.webp"
     description: '''You take full control of a targets body, but not their mind. You are able to move, talk, see and hear as if you are them. Target is in a trance until the spell is over. You can choose whether the target should remember what happened during the trance, or forget it.
 
-    Costs 1 mana per 15 minutes. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.
+    Costs 1 mana per 20 minutes. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.
     '''
   }
   {
@@ -82,7 +82,7 @@
     thumb: "art/spell-book.webp"
     description: '''Hear what a nearby person, or person you've met previously, is thinking right now, or explore their memories, plans and personality. You can also talk to them, and they will hear your voice in their heads.
 
-    Costs 1 mana per 15 minutes. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.
+    Costs 1 mana per 20 minutes. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.
     '''
   }
   {
@@ -91,16 +91,16 @@
     thumb: "art/spell-book.webp"
     description: '''You can lift, move and manipulate nearby objects using up to 1 metric ton of force. Please be careful if you use it on people.
 
-    Costs 1 mana per hour. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.
+    Costs 1 mana per 20 minutes. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.
     '''
   }
   {
     id: "spell: slow time"
     name: "Spell: Slow Time"
     thumb: "art/spell-book.webp"
-    description: '''You learn how to slow time around you, down to a complete stand still should you want it. Only slowing time costs correspondingly less mana than stopping it entirely. Mana cost is based on your internal time.
+    description: '''You learn how to slow time around you, down to a complete stand still should you want it. Just slowing time costs correspondingly less mana than stopping it entirely. Mana cost is based on your internal time.
 
-    Costs 1 mana per hour. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.
+    Costs 1 mana per 20 minutes. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.
     '''
   }
   {
@@ -135,7 +135,7 @@
     thumb: "art/spell-book.webp"
     description: '''You can phase yourself and up to a metric ton of material, including other people. While phasing, you can float up, down and through any object as if it wasn't there, and you look slightly transparent. To phase material, some part of it must be very close to you.
 
-    Costs 0.5 mana per hour per kg. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.
+    Costs 1 mana per 2 minutes. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.
     '''
   }
 
@@ -152,7 +152,7 @@
     name: "Gold"
     thumb: "art/jingming-pan-gold.webp"
     artist: "Jingming Pan"
-    description: '''Money makes the world go 'round they say. Plenty of people have bargained their soul for this alone, let me tell you. But take this card and you'll get it for free.
+    description: '''Money makes the world go 'round they say. And let me tell you, plenty of people have bargained their soul for this alone. But take this card and you'll get it for free.
 
     Let's see how much you get.'''
     type: "numeric"
@@ -195,7 +195,7 @@
       {
         id: "gold 8"
         name: "$100 Billion"
-        description: '''You are now among the few top richest people in the world. Have whatever you want, build your own town, change the world. No one can touch you.'''
+        description: '''You are now among the very few richest people in the world. Have whatever you want, build your own city, change the world. No one can touch you.'''
       }
       {
         id: "gold 9"

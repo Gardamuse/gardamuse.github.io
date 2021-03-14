@@ -23,6 +23,7 @@
 
       You'll probably come across as somewhat vapid.
       '''
+      tags: ["bimbo"]
     }
     {
       id: "bouncy"
@@ -30,6 +31,7 @@
       thumb: "art/happy-smile.webp"
       artist: "CrazyCowProductions"
       description: '''You will have a strong urge to feel your tits bounce. As a result, you are often going to bounce a little up and down, even if you're just by yourself.'''
+      tags: ["pet"]
     }
     {
       id: "moaning"
@@ -39,6 +41,7 @@
       description: '''Whenever you are having sex or masturbating, you can't help but moaning like a porn star.
 
       People can hear what you're doing from a mile away.'''
+      tags: ["slut"]
     }
     {
       id: "easy"
@@ -49,6 +52,7 @@
 
       You will not have this urge if whoever is asking intends to harm or rob you.
       '''
+      tags: ["pet", "slut"]
     }
     /*{
       id: "mirror mirror"
@@ -92,6 +96,7 @@
 
       You're going to be pretty friendly with people from now on.
       '''
+      tags: ["pet"]
     }
     /*{
       id: "pinup"
@@ -144,6 +149,7 @@
       description: '''Getting head pats makes you feel so calm and relaxed, but also very horny at the same time.
 
       In addition, you always try to get people to pat you on the head, especially when you feel like you've been good.'''
+      tags: ["pet"]
     }
     {
       id: "pet the kitty"
@@ -153,6 +159,7 @@
       description: '''Whenever you get head pats from someone, you try to simultaneously curl up in the givers arms, lay on your back, and spread your legs for them.
 
       It looks insanely cute and lewd at the same time, and you just can't stop yourself.'''
+      tags: ["pet"]
     }
     {
       id: "expenses"
@@ -318,6 +325,7 @@
       description: '''You're a good girl, so you know when it is prompt for you to be quiet.
 
       In fact, with this card you won't be able to speak at all when you shouldn't.'''
+      tags: ["pet"]
       type: "selection"
       levels: [
         {
@@ -325,13 +333,13 @@
           name: "Speak When Spoken To"
           description: '''You are only able to speak when you have been directly spoken to first.
 
-          Taking initiative is going to be alot harder for you know, so I think it's best if you learn to know your place.
+          Taking initiative is going to be alot harder for you now, so I think it's best if you learn to know your place.
           '''
         }
         {
           id: "mute button"
           name: "Mute Button"
-          description: '''Ever wished you could just shut someone up? Well, now will be the one getting shut up.
+          description: '''Ever wished you could just shut someone up? Well, now you will be the one getting shut up.
 
           If anyone tells you to shut up or be quiet, you won't be able to speak until someone tells you that you are allowed to.'''
         }

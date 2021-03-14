@@ -30,7 +30,16 @@
 
   Sounds simple? It is, and I'll explain the details as you go. Let's get started!'''
 
-  drawStage: '''First, roll to see how many cards you will have to draw this round!'''
+  drawStage: '''First, roll to see how many cards you will have to draw this round!
+  '''
+
+  drawStagePostBan: '''Now, roll to see how many cards you will have to draw this round!
+  '''
+
+  banStage: '''Click the card you want to ban.
+
+  It will be replaced by a non-reward card.
+  '''
 
   pickStage: '''Now roll for which card you should pick!
 
@@ -42,6 +51,11 @@
   intensityStage: '''The card you picked has several levels of intensity. Roll for which one you get!
 
   You may buy dice, but remember that they cost one extra roll in the bonus round.
+  '''
+
+  bargainStage: '''How are you feeling about your cards so far? Good, no?
+
+  In any case, I have a special bargain for you.
   '''
 
   bonusStage: '''Time for the bonus round!

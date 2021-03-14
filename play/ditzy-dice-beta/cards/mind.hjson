@@ -13,6 +13,8 @@
 
       This card will make you dumber, a whole lot dumber if you're lucky. So wave good bye to working a complicated job, studying or understanding things like science and politics.
       '''
+      transformation: '''You suddenly feel like your thoughts are moving through a thick soup.'''
+      tags: ["bimbo"]
       /*description: '''Intelligence is how good you are at solving problems, understanding people and figuring stuff out.
 
       A high intelligence can somewhat make up for bad Memory or Attention Span, as figuring things out from scratch every time might still be doable for some tasks.'''*/
@@ -76,6 +78,8 @@
       description: '''How easily you can remember stuff you've learned in school, things you've done and people you've met.
 
       If you got a low intelligence, a good memory could be quite interesting as you'll probably remember things that you can't make sense of.'''
+      transformation: '''What were you doing just know? You try to remember, but whatever it was is just gone.'''
+      tags: ["bimbo"]
       type: "numeric"
       levels: [
         /*{
@@ -136,6 +140,8 @@
 
       Focusing on stuff is going to get a lot harder for you, so hopefully that wasn't something you needed to do.
       '''
+      transformation: '''A bird just flew past outside the window! Oh, what were you doing again? Nevermind.'''
+      tags: ["bimbo"]
       type: "numeric"
       levels: [
         /*{
@@ -186,6 +192,7 @@
 
       How many is too many? We'll see.
       '''
+      tags: ["bimbo"]
       type: "numeric"
       levels: [
         {
@@ -225,6 +232,7 @@
       name: "Word Limit"
       thumb: "art/sentence.webp"
       description: '''Your intelligence is not really affected, but your brain becomes unable to form sentences with more than a certain number of words. When reading or listening, you will need 1 to 5 seconds of pause (depending on your intelligence) to comprehend each sequence of words, any more than your limit and you will forget them.'''
+      tags: ["bimbo"]
       type: "numeric"
       levels: [
         {
@@ -307,6 +315,7 @@
 
       What kind of name will you be using?
       '''
+      tags: ["bimbo"]
       type: "numeric"
       levels: [
         {
@@ -340,6 +349,7 @@
 
       It might get a little awkward, but at least no one can say you're not honest.
       '''
+      tags: ["bimbo"]
     }
     {
       id: "third person"
@@ -349,6 +359,7 @@
 
       If you seem smart otherwise people may just think you're a bit weird. If you don't, well, people will certainly think you are dumb.
       '''
+      tags: ["bimbo"]
     }
     {
       id: "valley girl"
@@ -356,12 +367,14 @@
       description: '''You always sound, like, so uncertain? Ending each sentence in, like, a rising pitch? And you always sprinkle in lots of like, totally unnecessary words into your sentences or whatever?
 
       Most people will assume you're pretty dumb, even if you're not.'''
+      tags: ["bimbo"]
     }
     {
       id: "on your knees"
       name: "On Your Knees"
       thumb: "art/griffinwolf-card.webp"
       artist: "CrazyCowProductions"
+      tags: ["pet"]
       description: '''You've forgotten how to walk, and can never learn again, so you will have to crawl on all fours from now on. Fortunately you will have no pains from walking on all fours either.
 
       It may feel weird for you to go out at first, but you'll make for a cute pet I'm sure.'''
@@ -374,6 +387,7 @@
       description: '''You won't be any less intelligent, but your brain becomes incapable of questioning any kind of information. So from now on you will believe everything you're told is entirely true.
 
       Sure, you will be very easy to manipulate, but believing in magic and Santa again is going to be pretty fun, right?'''
+      tags: ["bimbo"]
     }
     /*{
       id: "sapiosexual self-love"
@@ -393,6 +407,7 @@
 
       Great isn't it? You'll only be able to focus when you're putting that head of yours to good use, and when you're not, it will just be more clear what a useless slut you really are!
       '''
+      tags: ["bimbo"]
     }
     {
       id: "second language"
@@ -411,6 +426,7 @@
 
       If you also got a high sex drive or sensitive erogenous zones, welcome to the cotton candy coated paradise of bimbo bliss, sweetie!
       '''
+      tags: ["bimbo"]
     }
   ]
 }

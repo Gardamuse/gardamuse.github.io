@@ -13,6 +13,8 @@
 
       Whatever you're looking for, let's make it happen.
       '''
+      transformation: '''You feel your lips starting to swell.'''
+      tags: ["expansion", "bimbo"]
       type: "numeric"
       levels: [
         /*{
@@ -54,6 +56,8 @@
       name: "Tremendous Tits"
       thumb: "art/liliana-0004.png"
       description: '''Large breasts are hot af, but they may get in your way a lot, and they certainly affect what people think about you.'''
+      transformation: '''You look down as you feel your breasts starting to expand.'''
+      tags: ["expansion", "bimbo"]
       type: "numeric"
       levels: [
         {
@@ -99,6 +103,8 @@
       name: "Asstastic"
       thumb: "art/behind-0010.png"
       description: "How big is your ass going to get? Very, I hope."
+      transformation: '''Your pants audibly complain as your ass grows heavier.'''
+      tags: ["expansion", "bimbo"]
       type: "numeric"
       levels: [
         /*{
@@ -148,6 +154,8 @@
 
       Will you come off as interesting and mysterious, or dumb and shallow? We'll see.
       '''
+      transformation: '''Suddenly, your hair has changed color.'''
+      tags: ["bimbo"]
       type: "selection"
       levels: [
         {
@@ -249,6 +257,8 @@
       description: '''Your eyes are the windows to your soul. It's just a pity when those windows have to be so colorless and boring.
 
       Let's make yours a little more interesting.'''
+      transformation: '''You rub your eyes, and when you look up, everything seems so clear somehow.'''
+      tags: ["bimbo"]
       type: "numeric"
       levels: [
         {
@@ -280,6 +290,7 @@
       thumb: "art/height-0003.webp"
       artist: "CrazyCowProductions"
       description: '''How tall will you be?'''
+      transformation: '''You'd have thought changing height would be painful, but it rather feels like if the world changes size around you.'''
       type: "numeric"
       levels: [
         {
@@ -397,6 +408,7 @@
       thumb: "art/makeup-3.webp"
       artist: "Gardamuse"
       description: '''Your makeup will always look good, without you doing anything. However, it can't be removed either.'''
+      tags: ["bimbo"]
       type: "numeric"
       levels: [
         /*{
@@ -462,76 +474,6 @@
       ]
     }*/
     {
-      id: "heels"
-      name: "Heels of Aphrodite"
-      thumb: "art/heels-0004.webp"
-      artist: "Gardamuse"
-      description: '''You'd look great in high heels, but they're so difficult to walk in!
-
-      Let's see if we can change that.
-      '''
-      type: "numeric"
-      levels: [
-        {
-          id: "heels 1"
-          name: "Barefoot"
-          thumb: "art/heels-0000.webp"
-          artist: "Gardamuse"
-          description: '''Your feet remain largely unchanged, but you will feel more at ease walking barefoot than before!'''
-        }
-        {
-          id: "heels 2"
-          name: "Low"
-          thumb: "art/heels-0001.webp"
-          artist: "Gardamuse"
-          description: '''You will prefer a little bit of heel on your shoe, but nothing very noticable. You can still basically wear flat shoes should you really want to.
-
-          (1in or 2 cm)
-          '''
-        }
-        {
-          id: "heels 3"
-          name: "Business Shoes"
-          thumb: "art/heels-0002.webp"
-          artist: "Gardamuse"
-          description: ''' Your feet will feel the most comfortable in business-style heels, and you'll be swaying your hips just enough as you walk.
-
-          (2in or 4cm)
-          '''
-        }
-        {
-          id: "heels 4"
-          name: "Dinner Shoes"
-          thumb: "art/heels-0003.webp"
-          artist: "Gardamuse"
-          description: ''' These are some proper high heels you're going to be strutting around in. The kind you'd expect to see at fancy dinners. The way your hips will sway as you walk with these on is going attract eyes anytime you leave room too. Classy.
-
-          (3in or 7cm)
-          '''
-        }
-        {
-          id: "heels 5"
-          name: "Fuck Me Pumps"
-          thumb: "art/heels-0004.webp"
-          artist: "Gardamuse"
-          description: '''Wow, heels like this will really give you that "ass up, please fuck me" look. No one walking behind you is going to be able to keep their eyes off of your ass the way your hips will swing either, I promise.
-
-          (4in or 10cm)
-          '''
-        }
-        {
-          id: "heels 6"
-          name: "Tippy Toes"
-          thumb: "art/heels-0005.webp"
-          artist: "Gardamuse"
-          description: '''At this point you'll probably even like wearing heels to bed just for the nice support they give your feet. Needless to say, your strut is going to be close to hypnotic for anyone behind you.
-
-          (5in or 13cm)
-          '''
-        }
-      ]
-    }
-    {
       id: "lactation"
       name: "Lactation"
       thumb: "art/cathyl-card.webp"
@@ -540,6 +482,8 @@
 
       Then you'll need this.
       '''
+      transformation: '''All of a sudden you feel something in your breasts. A pressure, light as a whisper, but slowly building up.'''
+      tags: ["pet"]
       type: "numeric"
       levels: [
         /*{
@@ -579,6 +523,7 @@
 
       Try to get it as high as possible. You'll get to have more fun that way, trust me.
       '''
+      tags: ["bimbo", "slut"]
       type: "numeric"
       levels: [
         /*{
@@ -639,6 +584,7 @@
       name: "Sensitivity"
       thumb: ""
       description: '''How easy or difficult it is for you to reach climax through sexual stimulation.'''
+      tags: ["slut"]
       type: "numeric"
       levels: [
         {
@@ -681,6 +627,7 @@
       description: '''Your nipples and, to just a slightly lower extent, your entire breasts, are now as erogenous as your clit.
 
       Be careful with bras or tight tops, you may find yourself getting a bit too excited in public. Get someone to give you a nice breast massage or a good titfuck though, and you should feel really good.'''
+      tags: ["slut"]
     }
     {
       id: "erogenous lips"
@@ -690,6 +637,7 @@
       description: '''Your lips are erogenous. Whether you're into kissing, or prefer wrapping your lips around a nice thick cock, you'll be cumming in no time.
 
       Makes regular eating and drinking alot more exciting too!'''
+      tags: ["slut"]
     }
     /*
     {
@@ -708,6 +656,7 @@
       description: '''When you think about it, horns can be quite cute. Or they can be good handles for poeple to steer your head where they want it.
 
       So let's get you horny, with some horns!'''
+      tags: ["pet"]
       type: "selection"
       levels: [
         {
@@ -739,6 +688,7 @@
 
       Let's get you one that suits your personality.
       '''
+      tags: ["pet"]
       type: "selection"
       levels: [
         {
@@ -794,6 +744,7 @@
 
       Time to find you a new exciting pair!
       '''
+      tags: ["pet"]
       type: "selection"
       levels: [
         {
@@ -830,6 +781,7 @@
       name: "Smooth As Silk"
       thumb: ""
       description: '''Your skin will always be soft and smooth, and your body becomes completely hairless except for your head.'''
+      tags: ["bimbo"]
     }
     {
       id: "life in plastic"
@@ -837,6 +789,7 @@
       thumb: "art/life-in-plastic.webp"
       artist: "Gardamuse"
       description: '''Your skin, expression and entire body will have a plastic, doll-like and fake look.'''
+      tags: ["bimbo"]
     }
 
     /*

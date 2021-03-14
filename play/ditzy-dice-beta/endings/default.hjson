@@ -1,0 +1,41 @@
+[
+  {
+    name: "The End"
+    requirements: [
+      {
+        // ID's of specific cards that must be present to fulfill this requirement
+        // If an entry is in itself a list of ids, only one id in that list is needed
+        cards: []
+        // Tags that must be present to fulfull this requirement
+        tags: []
+        // How many times each tag must appear to count as present
+        count: 0
+        // Set to true if this requirement must NOT be fulfilled to allow this ending
+        negated: false
+      }
+    ]
+    text: '''And you lived happily ever after.'''
+  }
+  {
+    name: "Lost in Time"
+    requirements: [
+      {
+        cards: ["spell: time travel", "memory"]
+        tags: []
+        count: 0
+      }
+    ]
+    text: '''What a great wonder it is to be able travel in time. It's such a shame you've kinda forgotten where you came from, and where you were going, and, how did you get these powers again?'''
+  }
+  {
+    name: "Bimbo"
+    requirements: [
+      {
+        cards: ["breast-size", ["intelligence", "memory", "attention span"]]
+        tags: ["bimbo"]
+        count: 5
+      }
+    ]
+    text: '''Big breasts, small brain. What more could you need?'''
+  }
+]
