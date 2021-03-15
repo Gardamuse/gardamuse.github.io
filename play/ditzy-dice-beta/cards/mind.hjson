@@ -321,22 +321,24 @@
         {
           id: "name 1"
           name: "Complicated"
-          description: '''You will always present yourself with a long and fancy version of your name.'''
+          description: '''You always try to seem like some kind of intellectual snob and will always present yourself with a long and fancy version of your name.'''
         }
         {
           id: "name 2"
           name: "Normal"
-          description: '''You use your normal name.'''
+          description: '''Your normal name is just fine! Fancy spelling or nicknames aren't really for you. You will use your normal name.'''
         }
         {
           id: "name 3"
           name: "Simplified"
-          description: '''You use a simplified version of your name.'''
+          description: '''Using your actual name all the time seems a bit uptight, don't you think? Maybe a bit difficult to spell? From now on you'll use a simplified version of your name instead.'''
         }
         {
           id: "name 4"
           name: "Nickname"
-          description: '''You always refer to yourself using a bimbo nickname like "Titsie", "Missi", "Kitty" etc.'''
+          description: '''Everyone knows that a bimbo like you needs a proper name. Something that confers your personality while being so easy to spell that even you can manage it once in a while.
+
+          You will always refer to yourself using a bimbo nickname like "Titsie", "Missi", "Kitty" etc.'''
         }
       ]
     }
