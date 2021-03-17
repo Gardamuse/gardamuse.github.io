@@ -13,6 +13,7 @@
       description: '''Your laugh is always a cute giggle, and you'll giggle almost constantly. There is pretty much nothing that won't make you laugh.
 
       If you try really hard you can keep it together, but only for a short while.'''
+      transformation: '''Sorry, sorry you know this is serious and all, but you just can’t stop laughing!'''
     }
     {
       id: "talkative"
@@ -23,6 +24,7 @@
 
       You'll probably come across as somewhat vapid.
       '''
+      transformation: '''Oh wow, you're feeling different! You should tell someone about it! Oh and a dozen other things that just came to mind!'''
       tags: ["bimbo"]
     }
     {
@@ -31,6 +33,7 @@
       thumb: "art/happy-smile.webp"
       artist: "CrazyCowProductions"
       description: '''You will have a strong urge to feel your tits bounce. As a result, you are often going to bounce a little up and down, even if you're just by yourself.'''
+      transformation: '''Hehehe! Bounce. Bounce. Feeling your boobs bounce and jiggle around just feels so satsifying. You look around to see if anyone is watching, but honestly, you don't really care either which way.'''
       tags: ["pet"]
     }
     {
@@ -41,6 +44,7 @@
       description: '''Whenever you are having sex or masturbating, you can't help but moaning like a porn star.
 
       People can hear what you're doing from a mile away.'''
+      transformation: '''"Aaaah..!" you let out a surprisingly loud yelp. And that was just from accidently brushing against your breast! God what would happen if someone actually touched you for real!?'''
       tags: ["slut"]
     }
     {
@@ -52,6 +56,7 @@
 
       You will not have this urge if whoever is asking intends to harm or rob you.
       '''
+      transformation: '''Your phone is blowing up with texts and you're seriously starting to question the wisdom of letting some of your guy friends know about how impulsively easy you just became...'''
       tags: ["pet", "slut"]
     }
     /*{
@@ -77,6 +82,7 @@
       description: '''You love your own body so much that you simply can't stop feeling it out.
 
       From now on you will always be touching yourself somewhere.'''
+      transformation: '''You idly begin running a finger up along your thigh, softly over your stomach up to push your right breast up just a little. You must look so hot right now. Surely anyone would kill to get their hands on a babe like you! '''
     }
     {
       id: "playing with your hair"
@@ -86,6 +92,7 @@
 
       You can stop yourself from doing it, but that takes your full concentration.
       '''
+      transformation: '''You begin idly twirling your hair around your finger as you wait for things to continue.'''
     }
     {
       id: "lap warmer"
@@ -96,6 +103,7 @@
 
       You're going to be pretty friendly with people from now on.
       '''
+      transformation: '''"AAH!" you cry and almost fly up from your chair. Sitting on that felt like getting stabbed with an icicle! Sitting on a warm lap instead though, now that would be something!'''
       tags: ["pet"]
     }
     /*{
@@ -110,6 +118,7 @@
       thumb: "art/drink-ash-edmonds.webp"
       artist: "Ash Edmonds"
       description: '''You get very drunk from a single drink, but you also never become so drunk that you get sick, no matter how much you drink.'''
+      transformation: '''Wooow! You just sniffed a bit of wine from the other room and you're already feeling kinda tipsy…'''
     }
     {
       id: "hot drinks"
@@ -119,6 +128,7 @@
       description: '''When you get drunk, you also become extremely horny.
 
       You won't get sick no matter how much you drink, and hangovers will make you feel horny instead of sick.'''
+      transformation: '''Who needs aphrodisiacs when a couple bloody marys can make you hotter than an hour of foreplay? Now it's going to be a REAL ‘happy hour’!'''
     }
     /*{
       id: "cum addict"
@@ -140,6 +150,7 @@
       description: '''You have an irresistible urge to take selfies and upload them to social media.
 
       At least one photo every time you change outfit and every time you go out, and you will only feel content if you post at least 10 selfies each day.'''
+      transformation: '''One second, you’ll keep playing, but first just a quick selfie. Hashtag, hm... #BimboLife! Now to upload it on a dozen social platforms and you can continue.'''
     }
     {
       id: "good girl"
@@ -149,6 +160,7 @@
       description: '''Getting head pats makes you feel so calm and relaxed, but also very horny at the same time.
 
       In addition, you always try to get people to pat you on the head, especially when you feel like you've been good.'''
+      transformation: '''Mmm... just feeling your hair brushing your head makes you long for a hand to give you a proper pet! God what you’d do to be treated like the good girl you are!'''
       tags: ["pet"]
     }
     {
@@ -159,8 +171,18 @@
       description: '''Whenever you get head pats from someone, you try to simultaneously curl up in the givers arms, lay on your back, and spread your legs for them.
 
       It looks insanely cute and lewd at the same time, and you just can't stop yourself.'''
+      transformation: '''You shiver at a sudden sensitivity around your head. You're not sure if you're more frightened or excited for someone to give you a pat?'''
       tags: ["pet"]
     }
+    /*{
+      id: "cheap"
+      name: "Cheap"
+      thumb: ""
+      artist: ""
+      description: ''''''
+      transformation: '''Hey after this, lets get some food! His treat! Also He’s paying for gas. And he has to drop you off at home so you don’t have to pay for the bus.'''
+      tags: []
+    }*/
     {
       id: "expenses"
       name: "Expenses"
@@ -174,11 +196,12 @@
       levels: [
         {
           id: "expenses 1"
-          name: "Cheap"
+          name: "Low Maintenance"
           description: '''Some may think you are poor or trashy, but you just don't care much about material things. You are a free spirit, attempting to live a real life, without being burdened by consumerism.
 
           No one will complain you are high maintenance, but maybe wonder if you couldn't have dressed up a little more than in a worn t-shirt for that fancy dinner party.
           '''
+          transformation: ''''''
         }
         {
           id: "expenses 2"
@@ -189,6 +212,7 @@
 
           Most people tire pretty quickly of helping you carry shopping bags, but at least you're easy to please. A small gift and you're as happy as a clam.
           '''
+          transformation: '''You just realized that all of these changes to your body? They are basically like free gifts! And as you are now, they probably won’t be the last either! Score!'''
         }
         {
           id: "expenses 3"
@@ -197,6 +221,7 @@
           artist: "Gardamuse"
           description: '''Designer clothing, expensive gifts and luxury is what makes you happy. If you can have that and get whatever you're pointing at you'll be as happy and helpful as can be, but don't and you'll show them what a bitch you can really be.
           '''
+          transformation: '''Yes yes, life altering magic and world shifting changes to the fabric of your reality are all well and good, but you're not seeing a price tag! The Devil better not be getting cheap on you...'''
         }
       ]
     }
@@ -215,6 +240,7 @@
           id: "sweet"
           name: "Sweet and Bubbly"
           description: '''You are always upbeat and playful, if a little naive. People love to have you around and take care of you.'''
+          transformation: '''Hey! You never knew having your body and mind played with could be so much fun! Thanks Mr. Devil!'''
         }
         {
           id: "bad girl"
@@ -222,6 +248,7 @@
           description: '''No one is going to trod on you! Unless they're really hot, in which case you'd love it if they did.
 
           Tattoos, smoking and piercings are your core identity. Motorcycles come a close second, whether that is riding clad in leather behind a muscular guy, or on your own tuned up chopper.'''
+          transformation: '''God fuck this game! You are jonesing for a smoke, a beer and maybe a dick, not necessarily in that order.'''
         }
         {
           id: "eye candy"
@@ -229,6 +256,7 @@
           description: '''You know that you should always look perfect. No matter if it is for an evening out or going grocery shopping, you always look impeccable. Ever sexy, yet consistently dressed for the occasion.
 
           For any partner, you'll be the perfect accessory.'''
+          transformation: '''What ARE you even wearing right now? You need to class up your look before someone sees you looking like… THIS!'''
         }
         {
           id: "object"
@@ -236,11 +264,13 @@
           description: '''You know that you're just an object. Whenever you have a partner around you do anything you're told, wear whatever they want you to wear and speak only when spoken to.
 
           If no one tells you what to do, you don't really know what to do with yourself.'''
+          transformation: '''W-Why isn’t anyone telling you what to do? You don’t like not being directed…'''
         }
         {
           id: "slut"
           name: "Slut"
           description: '''If they look good, you want to have sex with them. So what if they're married? No one will find out you'll just have a quickie here and now.'''
+          transformation: '''"Is it wrong to want to fuck the Devil?" you ask yourself. Cus you kind of super want to pound that demonic dick!'''
         }
         {
           id: "beach bimbo"
@@ -248,6 +278,7 @@
           thumb: "art/beach-bimbo-card.webp"
           artist: "Gardamuse"
           description: '''You love the beach, and will spend as much time there as possible. Basking in the sun to work on your tan, drinking a variety of cocktails with colorful umbrellas, taking a short swim or playing a giggly volleyball game. Nothing can be better.'''
+          transformation: '''"Like, is this game over yet?" you think. The beach is calling your name, and you need to get to work on your tan!'''
         }
       ]
     }
@@ -335,6 +366,7 @@
 
           Taking initiative is going to be alot harder for you now, so I think it's best if you learn to know your place.
           '''
+          transformation: '''You open your mouth to say something, but think better of it. Best wait for someone to tell you it's okay for you to do so.'''
         }
         {
           id: "mute button"
@@ -342,6 +374,7 @@
           description: '''Ever wished you could just shut someone up? Well, now you will be the one getting shut up.
 
           If anyone tells you to shut up or be quiet, you won't be able to speak until someone tells you that you are allowed to.'''
+          transformation: '''You decide to keep your mouth closed, lest someone shuts you up for who knows how long.'''
         }
       ]
     }
@@ -360,16 +393,19 @@
           name: "Aheago"
           thumb: "art/ditz-card.webp"
           description: '''Your eyes cross and your mouth falls open with your tongue sticking out in a typical aheago look.'''
+          transformation: '''You notice how people stop and stare when you try to think and resolve to never do that in public from now on. At least it might be easier to avoid that than before to be fair.'''
         }
         {
           id: "blank and drooling"
           name: "Blank and Drooling"
           description: '''Your eyes go blank, your jaw slackens and you start to drool. You're gonna look like you're really dumb.'''
+          transformation: '''You hear snickering whenever you try to think as your expression really just seems to be sending the opposite message. '''
         }
         {
           id: "tongue in cheek"
           name: "Tongue in Cheek"
           description: '''You stick your tongue out just a little at the side of your mouth and your eyes look diagonally upwards.'''
+          transformation: '''Well at least you still look like you're thinking. You might look like an idiot who can barely string more than two words together, but it could still be worse.'''
         }
       ]
     }

@@ -11,8 +11,8 @@
       artist: "CrazyCowProductions"
       description: '''No matter what you put on, you always find it is a few sizes too small. It's not going to be too uncomfortable, just a bit tight.
 
-      You may look a little silly though, but in a sexy way.
-      '''
+      You may look a little silly though, but in a sexy way.'''
+      transformation: ''''''
     }
     {
       id: "whale tail"
@@ -21,6 +21,7 @@
       description: '''Whenever you are not wearing a thong, or it is not showing above your pant- or skirt-line, you become considerably less intelligent (-1 intelligence).
 
       So if you want to think, you better show that thong!'''
+      transformation: ''''''
       tags: ["bimbo"]
     }
     {
@@ -30,6 +31,7 @@
       description: '''Whenever clothes cover your breasts and you are not showing considerable cleavage, your attention span becomes significantly worse (-1 attention span).
 
       So it's up to you, either you show off your puppies, or you forget what else you were supposed to do.'''
+      transformation: ''''''
       tags: ["bimbo"]
     }
     {
@@ -39,6 +41,7 @@
       description: '''Whenever you wear three or more pieces of clothing and none of them are thigh-high stockings, your sex drive becomes much stronger (+2 sex drive).
 
       Thigh highs look hot af, so if you're not wearing yours, you'll be the one feeling hot instead.'''
+      transformation: ''''''
     }
     {
       id: "tummy time"
@@ -47,6 +50,7 @@
       description: '''Whenever clothes cover your tummy, you will find yourself acting more submissive (-1 willpower).
 
       Show your tummy or get used to doing what you're told!'''
+      transformation: ''''''
     }
     {
       id: "tramp stamp"
@@ -55,6 +59,7 @@
       description: '''A suggestive tattoo is now blazoned across your lower back. Anyone who sees this will know just what to expect from you.
 
       You will also become horny much quicker (+2 sex drive) whenever you're wearing pants or panties.'''
+      transformation: ''''''
       tags: ["bimbo"]
     }
     {
@@ -65,6 +70,7 @@
       description: '''Ever consider what your clothes say about you? How about a choker? Or what about a proper collar? In fact, let's make it really obvious what it says about you.
 
       From now on, whenever you are not wearing a choker saying "BIMBO", "SLUT", "PET" or something similar, you become less intelligent to make up for it (-1 intelligence).'''
+      transformation: ''''''
       tags: ["bimbo", "pet"]
     }
     {
@@ -74,6 +80,7 @@
       description: '''Pink is a great color isn't it? Feminine, sexy, and, well, what more could you want really? In any case, I think you should be wearing it more.
 
       From now on, whenever you are wearing any clothing that is not a shade of pink, you will feel distracted (-1 attention span).'''
+      transformation: ''''''
       tags: ["bimbo"]
     }
     {
@@ -94,6 +101,7 @@
           thumb: "art/heels-0000.webp"
           artist: "Gardamuse"
           description: '''Your feet remain largely unchanged, but you will feel more at ease walking barefoot than before!'''
+          transformation: ''''''
         }
         {
           id: "heels 2"
@@ -102,8 +110,8 @@
           artist: "Gardamuse"
           description: '''You will prefer a little bit of heel on your shoe, but nothing very noticable. You can still basically wear flat shoes should you really want to.
 
-          (1in or 2 cm)
-          '''
+          (1in or 2 cm)'''
+          transformation: ''''''
         }
         {
           id: "heels 3"
@@ -112,8 +120,8 @@
           artist: "Gardamuse"
           description: ''' Your feet will feel the most comfortable in business-style heels, and you'll be swaying your hips just enough as you walk.
 
-          (2in or 4cm)
-          '''
+          (2in or 4cm)'''
+          transformation: ''''''
         }
         {
           id: "heels 4"
@@ -122,8 +130,8 @@
           artist: "Gardamuse"
           description: ''' These are some proper high heels you're going to be strutting around in. The kind you'd expect to see at fancy dinners. The way your hips will sway as you walk with these on is going attract eyes anytime you leave the room too. Classy.
 
-          (3in or 7cm)
-          '''
+          (3in or 7cm)'''
+          transformation: ''''''
         }
         {
           id: "heels 5"
@@ -132,8 +140,8 @@
           artist: "Gardamuse"
           description: '''Wow, heels like this will really give you that "ass up, please fuck me" look. No one walking behind you is going to be able to keep their eyes off of your ass the way your hips will swing either, I promise.
 
-          (4in or 10cm)
-          '''
+          (4in or 10cm)'''
+          transformation: ''''''
         }
         {
           id: "heels 6"
@@ -142,8 +150,8 @@
           artist: "Gardamuse"
           description: '''At this point you'll probably even like wearing heels to bed just for the nice support they give your feet. Needless to say, your strut is going to be close to hypnotic for anyone behind you.
 
-          (5in or 13cm)
-          '''
+          (5in or 13cm)'''
+          transformation: ''''''
         }
       ]
     }

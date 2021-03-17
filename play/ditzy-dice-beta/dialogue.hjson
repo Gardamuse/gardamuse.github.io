@@ -48,7 +48,12 @@
   Beware, each die you buy means one extra roll in the bonus round. If you do buy dice, you will keep them for this round, but lose one for each card you pick.
   '''
 
-  intensityStage: '''The card you picked has several levels of intensity. Roll for which one you get!
+  intensityStage: '''This card has several levels of intensity. Roll for which one you get!
+
+  You may buy dice, but remember that they cost one extra roll in the bonus round.
+  '''
+
+  intensityStageSelection: '''This card has several variations. Roll for which one you get!
 
   You may buy dice, but remember that they cost one extra roll in the bonus round.
   '''

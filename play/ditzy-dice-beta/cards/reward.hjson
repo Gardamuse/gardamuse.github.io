@@ -12,6 +12,7 @@
 
     Costs 1 mana per 20 minutes. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.
     '''
+    transformation: ''''''
   }
   {
     id: "spell: transform other"
@@ -21,6 +22,7 @@
 
     Costs 1 mana per cast. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.
     '''
+    transformation: ''''''
   }
   {
     id: "spell: transform body"
@@ -30,6 +32,7 @@
 
     Costs 1 mana per cast. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.
     '''
+    transformation: ''''''
   }
   {
     id: "spell: mind drain"
@@ -39,6 +42,7 @@
 
     Costs 1 mana per cast. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.
     '''
+    transformation: ''''''
   }
   {
     id: "spell: forever young"
@@ -48,6 +52,7 @@
 
     Costs 3 mana per week. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.
     '''
+    transformation: ''''''
   }
   {
     id: "spell: healing"
@@ -57,6 +62,7 @@
 
     Costs 1 mana per cure. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.
     '''
+    transformation: ''''''
   }
   {
     id: "spell: possess"
@@ -66,6 +72,7 @@
 
     Costs 1 mana per 20 minutes. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.
     '''
+    transformation: ''''''
   }
   {
     id: "spell: issue command"
@@ -75,6 +82,7 @@
 
     Costs 1 mana per command. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.
     '''
+    transformation: ''''''
   }
   {
     id: "spell: telepathy"
@@ -84,6 +92,7 @@
 
     Costs 1 mana per 20 minutes. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.
     '''
+    transformation: ''''''
   }
   {
     id: "spell: telekinesis"
@@ -93,6 +102,7 @@
 
     Costs 1 mana per 20 minutes. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.
     '''
+    transformation: ''''''
   }
   {
     id: "spell: slow time"
@@ -102,6 +112,7 @@
 
     Costs 1 mana per 20 minutes. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.
     '''
+    transformation: ''''''
   }
   {
     id: "spell: time travel"
@@ -111,6 +122,7 @@
 
     Costs 1 mana per minute casting, or 1 mana to travel to a marker. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.
     '''
+    transformation: ''''''
   }
   {
     id: "spell: flight"
@@ -119,6 +131,7 @@
     description: '''You learn how to fly; at great speeds or just hovering in place.
 
     Costs 1 mana per hour. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.'''
+    transformation: ''''''
   }
   {
     id: "spell: invisibility"
@@ -128,6 +141,7 @@
 
     Costs 1 mana per hour. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.
     '''
+    transformation: ''''''
   }
   {
     id: "spell: phasing"
@@ -137,6 +151,7 @@
 
     Costs 1 mana per 2 minutes. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.
     '''
+    transformation: ''''''
   }
 
   /*{
@@ -146,6 +161,7 @@
     description: '''You can turn the dead into living, but they will become mindless bimbo versions of themselves. Costs 1 mana per day per bimbo.
 
     You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.'''
+    transformation: ''''''
   }*/
   {
     id: "gold"
@@ -155,52 +171,62 @@
     description: '''Money makes the world go 'round they say. And let me tell you, plenty of people have bargained their soul for this alone. But take this card and you'll get it for free.
 
     Let's see how much you get.'''
+    transformation: ''''''
     type: "numeric"
     levels: [
       {
         id: "gold 1"
         name: "$10 Thousand"
         description: '''It's not that much, but enough for some nice things or as an extra buffer.'''
+        transformation: ''''''
       }
       {
         id: "gold 2"
         name: "$100 Thousand"
         description: '''A sizeable amount, but probably not enough to live of for very long either.'''
+        transformation: ''''''
       }
       {
         id: "gold 3"
         name: "$1 Million"
         description: '''A fair amount of money! Buy a house, save to get some income from rent, or spend it all on luxury clothing!'''
+        transformation: ''''''
       }
       {
         id: "gold 4"
         name: "$10 Million"
         description: '''A lot of money. If you don't waste it, this will last you a lifetime. But you gotta afford yourself some luxuries too, right?'''
+        transformation: ''''''
       }
       {
         id: "gold 5"
         name: "$100 Million"
         description: '''A luxury home, cars, boats and fancy parties. As long as you don't go overboard this is enough for a long life of luxuries.'''
+        transformation: ''''''
       }
       {
         id: "gold 6"
         name: "$1 Billion"
         description: '''Live life however you want! Cost will never be an issue. Any house, yacht or other item you could reasonably want are within your power to have.'''
+        transformation: ''''''
       }
       {
         id: "gold 7"
         name: "$10 Billion"
         description: '''You fancy living out the rest of your life throwing extravagant parties on one of your superyachts? Maybe take your private yet over to your private island? Go ahead. With this amount of money, nothing is out of reach.'''
+        transformation: ''''''
       }
       {
         id: "gold 8"
         name: "$100 Billion"
         description: '''You are now among the very few richest people in the world. Have whatever you want, build your own city, change the world. No one can touch you.'''
+        transformation: ''''''
       }
       {
         id: "gold 9"
         name: "$1 Trillion"
         description: '''You are by far the richest person in the world. The only people that come close are the few rulers of antiquity who personally owned entire countries. Perhaps you could give that a go too?'''
+        transformation: ''''''
       }
     ]
   }
