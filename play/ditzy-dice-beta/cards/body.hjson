@@ -120,46 +120,40 @@
       tags: ["expansion", "bimbo"]
       type: "numeric"
       levels: [
-        /*{
-          id: "flat"
-          name: "Flat"
-          thumb: "art/behind-0000.png"
-          description: "Your ass remains flat and unimpressive. You've seen men with bigger butts."
-        }*/
         {
           id: "ass size 1"
           name: "Cute"
           thumb: "art/behind-0003.png"
-          description: ''''''
-          transformation: '''Your ass swells up just a little. Cute, but nothing to write home about either.'''
+          description: '''Lean and slim, but round enough to look cute. No one is going to notice you for it, but I'm sure you have other strengths.'''
+          transformation: '''You feel your pants tightening just a little as your butt rounds out. Not much, but it looks kinda cute!'''
         }
         {
           id: "ass size 2"
           name: "Womanly"
           thumb: "art/behind-0004.png"
-          description: ''''''
-          transformation: '''You feel your hips widen, and your ass grow bigger. You look like a proper woman now. Nothing out of the ordinary, but what matters is if you can work it, right?'''
+          description: '''Fertile and feminine, with hips like this you won't be lacking, and with the right framing, you'll be golden. Best of both worlds really, sexy, and you can wear whatever pants you want.'''
+          transformation: '''You feel your hips widen, and your ass pushing hard against the fabric holding it in. You feel like a proper woman now.'''
         }
         {
           id: "ass size 3"
           name: "Big"
           thumb: "art/behind-0005.png"
-          description: "You love big butts and you cannot lie, yours is one of them. Not even the baggiest of pants will hide your wide hips and impressive behind."
-          transformation: ''''''
+          description: "Big and beautiful, people love big butts and I won't lie, yours is going to be one of them. Shake it, rock it, they'll love it. Putting on jeans may take you a while longer, but that's a small price to pay, I think."
+          transformation: '''A stirring feeling in your hips alerts you and you look down, just as you feel your ass and thighs start pushing outwards. Your hips widen, until eventually, with a crack the buttoning on your pants is snapped open, finally giving some space for your now considerable butt.'''
         }
         {
           id: "ass size 4"
           name: "Giant"
           thumb: "art/behind-0007.png"
-          description: ''''''
-          transformation: '''You bite your lip as your hips starts to involuntarily shake. Holy shit that feels good. Just walking up and down, there is so much heft behind every step you take, and every move you make reminds you how people will look at you from behind now.'''
+          description: '''With a butt and hips like this, you'll be rocking the house wherever you go. The other girls in the club will be green with envy, but you won’t need to worry about jealous bitches with an ass that just won't quit.'''
+          transformation: '''You bite your lower lip as your hips starts to shiver, your ass filling up with every twitch. "Holy shit that feels good!" you think, just as your pants rip open with a loud crack, leaving your ass mostly out in the open, covered only by your now very strained panties. You try walking, and there is so much heft behind every step you take that every move reminds you of how people will look at you from behind now.'''
         }
         {
           id: "ass size 5"
           name: "Impractical"
           thumb: "art/behind-0010.png"
-          description: ''''''
-          transformation: '''You struggle to stand as your hips widen and your butt swells outward. It feels amazing, the slightest twitch of your hips shifting around what feels like most of a bean bag of round, soft, flesh. You can walk, barely, but getting through narrow doorways is going to be real tricky from now on.'''
+          description: '''Sexy as fuck, but maybe an itzy bitzy bit impractical. You'll need to get all your jeans custom fitted from now on for a start. You'll still walk, sure, but getting through narrow doorways is going to get real tricky.'''
+          transformation: '''You struggle to stand as your hips widen, your ass swelling outwards and your thighs thickening considerably. You try to unbutton your pants but it's already too late as your expanding assets start ripping them to shreds. Your left standing mostly pantsless, knees shaking trying to find your new center of balance. It feels so good. The slightest twitch of your hips shifting around such an incredible mass of ass, hips and thigh. You can already tell you're going to love this.'''
         }
       ]
     }
@@ -413,7 +407,7 @@
 
           And as a bonus, since your weight will never change anyways, you can feel good about stuffing yourself with cake all day.
           '''
-          transformation: ''''''
+          transformation: '''You feel so hungry all of a sudden, like you could eat five courses and a cake, just for starters. And why not? You might as well pig out as you're never going to be any more or less then a beautiful, plump queen!'''
         }
         {
           id: "fitness 2"
@@ -422,30 +416,28 @@
 
           And yet, even though your weight will never change, there will always be that thought at the back of your head, nagging you to eat less. A thought you will almost always ignore.
           '''
-          transformation: ''''''
+          transformation: '''Who cares that you really like microwave pizzas, right? Who even looks at girls that are thin as lampposts anyways? You're just giving the boys something to grip!'''
         }
         {
           id: "fitness 3"
           name: "Average"
           description: '''Your weight is pretty average, and you are not particularly fit.
 
-          You will often worry that you aren't as slim as you should be, but no matter what you do you remain at the same weight. And yet, whoever sees you will just see a good looking woman.
+          You may worry that you aren't as slim as you should be, but no matter what you do you remain at the same weight. And yet, whoever sees you will just see a good looking woman.
           '''
-          transformation: ''''''
+          transformation: '''You feel... fine. Not too plump, not too jacked. You think you might be a bit fat, but come on girl, you're fine!'''
         }
         {
           id: "fitness 4"
           name: "Slim"
           description: '''You exercise several times a week and eat as much salad as the women on stock photos. Your waist is slim, your belly flat and your ass firm.'''
-          transformation: ''''''
+          transformation: '''You feel very light and look down. Indeed, you're thin as a model without having given up any of your bust. Somehow, you don't really feel that hungry anymore either, maybe you could just have something light, like a salad?'''
         }
         {
           id: "fitness 5"
           name: "Gym Bunny"
-          description: '''You're going to be toned. Wether you'll be noticeably muscular or just extremely fit is up to you.
-
-          In any case, working out is going to feel so good. Whether its lifting, running, climbing or whatever else, as long as you are active it will be like you're having a continuous low-intensity orgasm.'''
-          transformation: ''''''
+          description: '''You're going to be toned. Whether you'll be noticeably muscular or just extremely fit is up to you, but whatever exercise you do is going to feel like having a continuous low-intensity orgasm. On top of that you'll be able to pin most men between your thighs no problem! Could make you a hell of a dom, or just add to the thrill of being topped.'''
+          transformation: '''Gym bunny, bimb... bunny? You gotta admit that you kinda like the sound of that. But you better hurry up and finish because the gym is probably open now and it won't like do if you're not there!'''
         }
       ]
     }

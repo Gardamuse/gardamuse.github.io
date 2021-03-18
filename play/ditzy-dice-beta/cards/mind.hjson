@@ -45,7 +45,7 @@
           description: '''Everyone thinks they are a little smarter than the average person. Well, soon you won't be!
 
           Count yourself lucky though, you probably won't notice a huge difference. You'll just be a little more basic. As a bonus, you'll finally be able to enjoy all those dumbed-down movies and TV-shows you've complained so much about!'''
-          transformation: ''''''
+          transformation: '''Do you enjoy reality TV? How about movies where character and plot take a back seat to mindless explosions? Well if your answer was no before, give it a few minutes and I’m sure you’ll start seeing the appeal.'''
         }
         {
           id: "intelligence 2"
@@ -54,7 +54,7 @@
 
           It's not too bad though, as tasks that seemed menial and boring before, like ironing, cleaning and cooking, will now seem like fun puzzles you're good at solving.
           '''
-          transformation: ''''''
+          transformation: '''Congratulations, the world and everything in it must seem so much more interesting now that your head is permanently lodged in the clouds! Downside, you're a bit dim, but on the other hand, you won't have a care in the world anymore!'''
         }
         {
           id: "intelligence 3"
@@ -63,19 +63,19 @@
 
           Others will notice though. Especially when you have to stop and really concentrate to figure out even simple things.
           '''
-          transformation: ''''''
+          transformation: '''You probably would say, "I'm not dumb, I'm just bubbly!" But no, you're pretty dumb. Don't worry about it though! When you need others to do the thinking for you, that just frees up more time to focus on fun things, right?'''
         }
         {
           id: "intelligence 4"
           name: "Airhead"
-          description: '''Can you feel the IQ points starting to drip from your pussy? In a few moments you will just be a confused mess. Few things won't put that dumb, befuddled look on your face, like you just can't understand the most simple of things. Enjoy!'''
-          transformation: ''''''
+          description: '''Have you ever heard the expression that someone is too dumb to walk and chew bubble gum at the same time? Well lets just say from now on, you should consider focusing on just one of those to avoid choking.'''
+          transformation: '''Can you feel the IQ points starting to drip from your pussy? In a few moments you will just be a confused mess. Few things won't put that dumb, befuddled look on your face, like you just can't understand the most simple of things. Enjoy!'''
         }
         {
           id: "intelligence 5"
           name: "Brainless"
           description: '''You're about to get real fucking dumb, so let's hope you won't miss being able to figure out how to open doors, or do anything, really. You'll just be a drooling mess with a blank expression. You're lucky that walking and fucking goes on instinct or you wouldn't even be able to do that. Someone will probably take care of you though, so don't worry about that. Bye bye brain!'''
-          transformation: ''''''
+          transformation: '''It's like a bolt of lightning has suddenly struck your brain and turned it into mush. You stare at your surroundings, trying to make sense of everything that moments ago seemed so obvious, but there are just so many... things and all of it seems so complicated. When you finally notice that you're drooling down your top it takes you a good ten seconds to figure out that you should close your mouth to make it stop. Any remnants of your former IQ will have long since dripped out of your pussy before you've even remembered you have one.'''
         }
       ]
     }
@@ -109,7 +109,7 @@
           thumb: "art/education-4.webp"
           art: "Gardamuse"
           description: '''If you've had any higher education, it's time to wave all the things you learned there good bye! And good luck trying to re-learn it or becoming a student: no matter how intelligent you are, your memory simply can't store such complicated knowledge for more than a few minutes.'''
-          transformation: ''''''
+          transformation: '''Hope you didn't have a job that required you to know how complex systems work on a fundamental level! Well they probably would have fired you anyway, but still, too bad. Your head has to feel a lot... lighter now though, right?'''
         }
         {
           id: "memory 2"
@@ -117,7 +117,7 @@
           thumb: "art/education-3.webp"
           art: "Gardamuse"
           description: '''Remember derivatives, chemistry or advanced language? No you don't. It's long gone, along with everything else you learned in high school or beyond.'''
-          transformation: ''''''
+          transformation: '''Aww, feeling a bit befuddled? Don't know what befuddled even means? Well buck up, plenty of people dropped out of highschool! Ones who look like you even find wonderful jobs dancing and having all sorts of 'fun'!'''
         }
         {
           id: "memory 3"
@@ -125,7 +125,7 @@
           thumb: "art/education-2.webp"
           art: "Gardamuse"
           description: '''You read and write as if you've just learnt how to, and with such a basic vocabulary no one will ever take you for very smart again. If you're a Genius with great Attention Span you may still be able to do some not-quite high-school level math, but otherwise you're stuck with the most basic of arithmethic too.'''
-          transformation: ''''''
+          transformation: '''Did you even get past middle school? Well no one would ever guess it the way you're talking and acting. Better hope a charming smile and good looks can help... A lot.'''
         }
         {
           id: "memory 4"
@@ -133,7 +133,7 @@
           thumb: "art/education-1.webp"
           art: "Gardamuse"
           description: '''What does all the little squiggles that are everywhere mean? You're sure you used to know, but trying to remember is like walking through syrup. You should probably leave such things to others.'''
-          transformation: ''''''
+          transformation: '''Good news, you're still functional enough to go through life without too much hand holding. Bad news? You're operating at a level a lot of children would find underwhelming. Better find someone who can take care of you and fast.'''
         }
         {
           id: "memory 5"
@@ -143,7 +143,7 @@
           description: '''Now this will change your life. Forget remembering what you ate for lunch, or any knowledge more complicated than how to eat or walk. In a few moments it will all be gone, never to be replaced.
 
           You'll still be able to recognize people if you have met them a few times, but try to give them short easy nicknames, or the may be upset you don't remember their name.'''
-          transformation: ''''''
+          transformation: '''The lights are on, but no one is home. You're probably going to need someone looking after you all the time, but then again, who would leave an animal as dumb as you unattended? Surely someone will happily adopt you as a pet soon enough.'''
         }
       ]
     }
@@ -170,13 +170,13 @@
           description: '''Whenever you listen or read something, it won't be very long until you stop paying full attention.
 
           You'll probably miss important things every now and again.'''
-          transformation: ''''''
+          transformation: '''You're going to have trouble focusing for very long now, so let me try and make this quick. Take notes, don’t try not to do anything too complex and make sure your... Hey, eyes up here!'''
         }
         {
           id: "attention 2"
           name: "Unfocused"
           description: '''You just can't seem to focus on any one thing for too long.'''
-          transformation: ''''''
+          transformation: '''Better find someone to drive you from now on since focusing on the road could be tricky. Also, better keep to the back seat so you don't end up 'distracting' the driver as well.'''
         }
         {
           id: "attention 3"
@@ -184,7 +184,7 @@
           description: '''You are always thinking of something else and you often walk away from things half-way through.
 
           It only takes a small interruption and you've forgotten what you where doing.'''
-          transformation: ''''''
+          transformation: '''Do you need a leash? Sit still, draw your cards and uphold the deal! It doesn't matter if you see something shiny over there, you need to focus! Better make the rest of this quick...'''
         }
         {
           id: "attention 4"
@@ -192,7 +192,7 @@
           description: '''You start doing stuff, but then its like something important always comes up, or your thoughts just drift away in the middle of a sentence. Don't expect to be able to do anything for more than a few minutes.
 
           "What was I doing again?" is something you'll be asking yourself a lot.'''
-          transformation: ''''''
+          transformation: '''Well, one upside to having the attention span of a goldfish is that you are going to find yourself constantly surprised and delighted to be mid intercourse. Though your partners might end up getting you a ball gag just to stop you asking who they are, again."'''
         }
         {
           id: "attention 5"
@@ -200,7 +200,7 @@
           description: '''You will basically have no attention span, not even enough to speak full sentences before trailing off. If no one is there to remind you every few seconds, you couldn't even concentrate long enough to suck a cock.
 
           Any even slightly complicated task that takes more than a few seconds will be impossible for you since you'll forget what you were doing.'''
-          transformation: ''''''
+          transformation: '''Good luck getting through a meal without forgetting you were eating. You might actually need a leash just to avoid wandering off and getting lost as you constantly forget what you're doing mid thought.'''
         }
       ]
     }
@@ -220,37 +220,37 @@
           id: "syllable limit 1"
           name: "Six"
           description: '''Any words with more than six syllables will become incomprehensible for you. Yet, your circumnavigation of language will not really be affected, since few words used with responsibility in mind are longer than that.'''
-          transformation: ''''''
+          transformation: '''You might perchance find this limitation on your vocabulary onerous, but rest assured, your mental faculties will remain as acute as ever.'''
         }
         {
           id: "syllable limit 2"
           name: "Five"
           description: '''With five syllables your alphabetical terminology will be only slightly dilapidated. As such, you should feel insignificant insecurity because of it, and most words of rationality will still be yours to command.'''
-          transformation: ''''''
+          transformation: '''Though you may find some words slipping from your linguistic grasp, you should be fine outside of the odd spelling bee and pretentious party chat up. Hardly a great loss.'''
         }
         {
           id: "syllable limit 3"
           name: "Four"
           description: '''Four syllables is obviously not an overwhelming limitation, although you will undoubtedly appreciate a reduced complexity of literature. Yet your intelligence will only with difficulty appear a little disappointing.'''
-          transformation: ''''''
+          transformation: '''From now on you might find yourself coming off a bit uneducat-, oh sorry I should say, you might seem like you didn't go to college. That's fine though, you still come off as perfectly clever most of the time.'''
         }
         {
           id: "syllable limit 4"
           name: "Three"
           description: '''Only using three syllables will still be perfectly adequate for typical appointments, if perhaps not for academic approval. Although you will encounter confusion concerning a few not too uncommon words.'''
-          transformation: ''''''
+          transformation: '''Try not to talk to anyone who got higher ed-, learning, from now on. You'll come off a lot dumber than you are, what with your lack of word know how'''
         }
         {
           id: "syllable limit 5"
           name: "Two"
           description: '''Only shortish words will exist in your knowledge now. Talking should not pose too much a problem, but you will be missing many pieces you were likely used to have.'''
-          transformation: ''''''
+          transformation: '''Oh dear... You might need to be careful when talking with folks who have had more book learnin'. Else wise you might get confused.'''
         }
         {
           id: "syllable limit 6"
           name: "One"
           description: '''You will speak in short words from now on. Long words can not be on your mind, and folks will think you seem a bit dumb when you don't know words. It will be hard for you to know what folks say, if they do not speak to you with short words.'''
-          transformation: ''''''
+          transformation: '''O K, from now on, you will be talked to like a child. Your brain can not make sense of big words. Nod if you get it?'''
         }
       ]
     }
@@ -267,49 +267,49 @@
           id: "word limit 1"
           name: "Seventeen"
           description: '''A word limit of seventeen will shorten your sentences somewhat, but it will not be too noticeable. It is still possible to comfortably speak and write, although when listening you will sometimes encounter confusion. Reading should be fine, but you will have slow down much when the sentences are too long.'''
-          transformation: ''''''
+          transformation: '''You may not be the model of a modern major general, but you should still be able... Oh I think I lost you there. Guess you might be a little harder to keep up a conversation with now.'''
         }
         {
           id: "word limit 2"
           name: "Thirteen"
           description: '''Thirteen words make for a somewhat short sentence, but not one overly short. Reading will be slow, since you pause whenever a sentence is too long. Yet the most difficult thing for you will most definitely be to listen. Whenever a sentence is longer than thirteen words, you will forget a bit.'''
-          transformation: ''''''
+          transformation: '''Do try and focus, because it's important to know that from now on... Fuck. Look, just be ready to have trouble when people speak too much. '''
         }
         {
           id: "word limit 3"
           name: "Ten"
           description: '''With only ten word sentences, you may start seeming simple. Still, listening to others will be the most obvious problem. Too long sentences and you will be lost in conversation.'''
-          transformation: ''''''
+          transformation: '''This might be hard for you to understand, literally. But from now on you will need people to... Break up what they say to you. Got it?'''
         }
         {
           id: "word limit 4"
           name: "Seven"
           description: '''People should speak very slowly to you. Only seven words can not say much. Any more, and you won't follow. Still, being easily confused is pretty cute.'''
-          transformation: ''''''
+          transformation: '''I guess future changes might be hard... For you to understand. Luckily, finding someone who can... Understand words better than you should be... Easy. '''
         }
         {
           id: "word limit 5"
           name: "Five"
           description: '''Five word sentences are short. Any more will confuse you. Hopefully your friends speak slowly. Pets can understand longer sentences. Who is a good girl?'''
-          transformation: ''''''
+          transformation: '''You might not be dumb... But the dog can understand... More complex sentences than you.'''
         }
         {
           id: "word limit 6"
           name: "Four"
           description: '''This is getting ridiculous. You can't understand. Good luck to you. Your friends are patient. Confused looks cute though. What a good girl!'''
-          transformation: ''''''
+          transformation: '''Silly girl, do you... Even understand what is... Being said to you? Even the cards must... Be getting hard to... Read.'''
         }
         {
           id: "word limit 7"
           name: "Three"
           description: '''You understand little. Find a partner. Will help you. Sound so dumb. Maybe be quiet? Still pretty cute. Good little girl!'''
-          transformation: ''''''
+          transformation: '''Better find someone... Who can do... The thinking from... Now on. Good thing you... Are cute.'''
         }
         {
           id: "word limit 8"
           name: "Two"
           description: '''Understand nothing. Take commands. Eat food. Sit lap. Suck cock. Good girl!'''
-          transformation: ''''''
+          transformation: '''Silly Girl. No understanding. Just be... Good pet. All you... Good for.'''
         }
       ]
     }
@@ -364,19 +364,19 @@
           id: "name 1"
           name: "Complicated"
           description: '''You always try to seem like some kind of intellectual snob and will always present yourself with a long and fancy version of your name.'''
-          transformation: ''''''
+          transformation: '''Her Ladyship, something or other of something and something else, mistress of sucking dicks, scholar of sexual positions and grand poobah of orgasams! Think you need a few more titles and honorifics? I think there has to be a few you could still shove in there.'''
         }
         {
           id: "name 2"
           name: "Normal"
           description: '''Your normal name is just fine! Fancy spelling or nicknames aren't really for you. You will use your normal name.'''
-          transformation: ''''''
+          #transformation: '''Oh, so you're still just… You? Well that’s boring, but hey, if that’s your name, that’s your name.'''
         }
         {
           id: "name 3"
           name: "Simplified"
           description: '''Using your actual name all the time seems a bit uptight, don't you think? Maybe a bit difficult to spell? From now on you'll use a simplified version of your name instead.'''
-          transformation: ''''''
+          transformation: '''Oh that’s cute! Much better than your old name and simpler too! Probably for the best you keep it light, ya.'''
         }
         {
           id: "name 4"
@@ -384,7 +384,7 @@
           description: '''Everyone knows that a bimbo like you needs a proper name. Something that confers your personality while being so easy to spell that even you can manage it once in a while.
 
           You will always refer to yourself using a bimbo nickname like "Titsie", "Missi", "Kitty" etc.'''
-          transformation: ''''''
+          transformation: '''Need help coming up with a fitting nickname? Well it's best to save it till we know just what sort of bimbo your becoming, but ‘Bubbles’ might be fitting for a few reasons...'''
         }
       ]
     }
@@ -397,7 +397,7 @@
 
       It might get a little awkward, but at least no one can say you're not honest.
       '''
-      transformation: ''''''
+      transformation: '''What's that? You're craving cock and secretly love all the changes you're going through? Don’t bother trying to hide your inner thoughts and secret shames, they will all now just come tumbling out! Wait, you're going to do WHAT with a garden hose!?'''
       tags: ["bimbo"]
     }
     {
@@ -408,7 +408,7 @@
 
       If you seem smart otherwise people may just think you're a bit weird. If you don't, well, people will certainly think you are dumb.
       '''
-      transformation: ''''''
+      transformation: '''I’m sorry if 'we are not amused by this latest change' because you're not going to be able to refer to yourself without saying your name from now on. You could come of as royal, unless what you then declare is how much you love cum.'''
       tags: ["bimbo"]
     }
     {
@@ -417,7 +417,7 @@
       description: '''You always sound, like, so uncertain? Ending each sentence in, like, a rising pitch? And you always sprinkle in lots of like, totally unnecessary words into your sentences or whatever?
 
       Most people will assume you're pretty dumb, even if you're not.'''
-      transformation: ''''''
+      transformation: '''Like OMG, you might sound like a total ditz, but that’s, like, not even true? You mean like, maybe you come off a little dumb and junk, but like... Who cares when you're hot, right?'''
       tags: ["bimbo"]
     }
     {
@@ -429,7 +429,7 @@
       description: '''You've forgotten how to walk, and can never learn again, so you will have to crawl on all fours from now on. Fortunately you will have no pains from walking on all fours either.
 
       It may feel weird for you to go out at first, but you'll make for a cute pet I'm sure.'''
-      transformation: ''''''
+      transformation: '''Having trouble walking? Well since you’ll spend the rest of your life on all fours, you had best get used to the idea and stop trying to stand back up. It will be easier if you just embrace a pet's life, trust me.'''
     }
     {
       id: "gullible"
@@ -439,7 +439,7 @@
       description: '''You won't be any less intelligent, but your brain becomes incapable of questioning any kind of information. So from now on you will believe everything you're told is entirely true.
 
       Sure, you will be very easy to manipulate, but believing in magic and Santa again is going to be pretty fun, right?'''
-      transformation: ''''''
+      transformation: '''Did you know that if you fuck a thousand people, all of these changes can be reversed? And why would you even doubt my word on that? I thought so, you'll believe whatever I tell you. So on you hop, go out and get laid girl!'''
       tags: ["bimbo"]
     }
     /*{
@@ -461,7 +461,7 @@
 
       Great isn't it? You'll only be able to focus when you're putting that head of yours to good use, and when you're not, it will just be more clear what a useless slut you really are!
       '''
-      transformation: ''''''
+      transformation: '''You suddenly feel a little dizzy, but rather than feeling like you need to sit down and take moment it's more like... like you need to be on your knees, with your face all up in a nice juicy crotch.'''
       tags: ["bimbo"]
     }
     {
@@ -471,7 +471,7 @@
 
       You will be unable to understand or learn any other language.
       '''
-      transformation: ''''''
+      transformation: '''It's time to choose your two languages! What will it be? Maybe Russian and English and you might sound a bit mysterious and dangerous. Or maybe you'd prefer somthing more slutty?'''
     }
     {
       id: "cum your brains out"
@@ -482,7 +482,7 @@
 
       If you also got a high sex drive or sensitive erogenous zones, welcome to the cotton candy coated paradise of bimbo bliss, sweetie!
       '''
-      transformation: ''''''
+      transformation: '''Want to guess how many orgasms it will take for your brain to literally melt? It's less than you think! But don’t worry, if you can go twenty four hours without cumming you’ll be fine... So chances are you're screwed.'''
       tags: ["bimbo"]
     }
   ]
