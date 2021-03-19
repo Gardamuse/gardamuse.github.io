@@ -70,8 +70,8 @@
       description: '''Ever consider what your clothes say about you? How about a choker? Or what about a proper collar? In fact, let's make it really obvious what it says about you.
 
       From now on, whenever you are not wearing a choker saying "BIMBO", "SLUT", "PET" or something similar, you become less intelligent to make up for it (-1 intelligence).'''
-      transformation: '''What’s the matter? Think wearing a collar that calls you a 'BIMBO' at all times will make you look dumb? Well sorry to say, it's either look dumb or BE dumb from now on so better smarten up and let the world know what you are, 'SLUT'.'''
-      tags: ["bimbo", "pet"]
+      transformation: '''What's the matter? Think wearing a collar that calls you a 'BIMBO' at all times will make you look dumb? Well sorry to say, it's either look dumb or BE dumb from now on so better smarten up and let the world know what you are, 'SLUT'.'''
+      tags: ["bimbo", "iq"]
     }
     {
       id: "pink to think"
@@ -81,7 +81,7 @@
 
       From now on, whenever you are wearing any clothing that is not a shade of pink, you will feel distracted (-1 attention span).'''
       transformation: '''Look at you, wearing all types of colors... That won’t do, now will it? A pretty thing like you should be rocking pink 24/7, otherwise you might not have the attention span for... and now you're wandering off. GET BACK HERE AND PUT ON SOME DAMN PINK!'''
-      tags: ["bimbo"]
+      tags: ["bimbo", "iq"]
     }
     {
       id: "heels"

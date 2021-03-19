@@ -108,6 +108,7 @@
           thumb: "art/liliana-0006.png"
           description: '''Let's hope you weren't much for walking anyways, because with milk tanks like this you just won't be able to. If you're lucky someone will help lug you someplace comfy. In any case yoll have a soft place to rest while you're getting railed.'''
           transformation: '''Suddenly you feel a massive pressure in your chest and let out a moan as your breasts start to grow, effortlessly ripping your shirt apart. As your breasts keep growing, the pleasure becomes too much and you cum, feeling it slowly drip down the inside of your thighs. You're left standing in a puddle of your own juices, pinned to the ground by and leaning over your enormous tits. You're in a bind now, but perhaps you'll find someone who doesn't mind helping? It's a quite inviting position, after all.'''
+          tags: ["extreme"]
         }
       ]
     }
@@ -488,6 +489,7 @@
           artist: "Gardamuse"
           description: '''Too much and too perfect, your makeup makes you look more like a barbie doll than a real person.'''
           transformation: '''Your too perfect appearance might actually turn off a lot of folks, but for others, you just became the Ultimate 10!'''
+          tags: ["doll"]
         }
       ]
     }
@@ -531,7 +533,7 @@
 
       Then you'll need this.
       '''
-      tags: ["pet"]
+      tags: ["lactation"]
       type: "numeric"
       levels: [
         {
@@ -559,6 +561,7 @@
 
           You could try getting a portable pump and go on with your life, but being milked can be pretty distracting...'''
           transformation: '''You need someone to milk you. Now. You're already leaking but you feel like it's just going to get worse from here. Maybe you could get a hand pump or something but that just doesn't feel right somehow. Fortunately you seem to remember some poster about a dairy farm for cowgirls in the countryside. They'll know how to handle "people" like you.'''
+          tags: ["extreme"]
         }
       ]
     }
@@ -571,7 +574,7 @@
       Try to get it as high as possible. You'll get to have more fun that way, trust me.
       '''
       transformation: ''''''
-      tags: ["bimbo", "slut"]
+      tags: ["slut"]
       type: "numeric"
       levels: [
         /*{
@@ -724,7 +727,7 @@
 
       So let's get you horny, with some horns!'''
       transformation: ''''''
-      tags: ["pet"]
+      tags: ["animal"]
       type: "selection"
       levels: [
         {
@@ -760,7 +763,7 @@
       Let's get you one that suits your personality.
       '''
       transformation: ''''''
-      tags: ["pet"]
+      tags: ["animal"]
       type: "selection"
       levels: [
         {
@@ -823,7 +826,7 @@
       Time to find you a new exciting pair!
       '''
       transformation: ''''''
-      tags: ["pet"]
+      tags: ["animal"]
       type: "selection"
       levels: [
         {
@@ -874,7 +877,7 @@
       artist: "Gardamuse"
       description: '''Your skin, expression and entire body will have a plastic, doll-like and fake look.'''
       transformation: '''You barely look real anymore, and your skin has such an unnatural shine to it. You've heard some folks REALLY like dolls though, so you should be just fine.'''
-      tags: ["bimbo"]
+      tags: ["doll", "extreme"]
     }
 
     /*

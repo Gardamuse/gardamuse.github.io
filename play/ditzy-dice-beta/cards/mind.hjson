@@ -15,7 +15,7 @@
       '''
       transformation: ''''''
       transformation: '''You suddenly feel like your thoughts are moving through a thick soup.'''
-      tags: ["bimbo"]
+      tags: ["bimbo", "iq"]
       /*description: '''Intelligence is how good you are at solving problems, understanding people and figuring stuff out.
 
       A high intelligence can somewhat make up for bad Memory or Attention Span, as figuring things out from scratch every time might still be doable for some tasks.'''transformation: ''''''*/
@@ -88,7 +88,7 @@
 
       If you got a low intelligence, a good memory could be quite interesting as you'll probably remember things that you can't make sense of.'''
       transformation: '''What were you doing just know? You try to remember, but whatever it was is just gone.'''
-      tags: ["bimbo"]
+      tags: ["bimbo", "iq"]
       type: "numeric"
       levels: [
         /*{
@@ -155,7 +155,7 @@
 
       Focusing on stuff is going to get a lot harder for you, so hopefully that wasn't something you needed to do.'''
       transformation: '''A bird just flew past outside the window! Oh, what were you doing again? Nevermind.'''
-      tags: ["bimbo"]
+      tags: ["bimbo", "iq"]
       type: "numeric"
       levels: [
         /*{
@@ -213,7 +213,7 @@
       How many is too many? We'll see.
       '''
       transformation: ''''''
-      tags: ["bimbo"]
+      tags: ["bimbo", "iq"]
       type: "numeric"
       levels: [
         {
@@ -260,7 +260,7 @@
       thumb: "art/sentence.webp"
       description: '''Your intelligence is not really affected, but your brain becomes unable to form sentences with more than a certain number of words. When reading or listening, you will need 1 to 5 seconds of pause (depending on your intelligence) to comprehend each sequence of words, any more than your limit and you will forget them.'''
       transformation: ''''''
-      tags: ["bimbo"]
+      tags: ["bimbo", "iq"]
       type: "numeric"
       levels: [
         {
@@ -440,7 +440,7 @@
 
       Sure, you will be very easy to manipulate, but believing in magic and Santa again is going to be pretty fun, right?'''
       transformation: '''Did you know that if you fuck a thousand people, all of these changes can be reversed? And why would you even doubt my word on that? I thought so, you'll believe whatever I tell you. So on you hop, go out and get laid girl!'''
-      tags: ["bimbo"]
+      tags: ["bimbo", "iq"]
     }
     /*{
       id: "sapiosexual self-love"
@@ -462,7 +462,7 @@
       Great isn't it? You'll only be able to focus when you're putting that head of yours to good use, and when you're not, it will just be more clear what a useless slut you really are!
       '''
       transformation: '''You suddenly feel a little dizzy, but rather than feeling like you need to sit down and take moment it's more like... like you need to be on your knees, with your face all up in a nice juicy crotch.'''
-      tags: ["bimbo"]
+      tags: ["bimbo", "iq"]
     }
     {
       id: "second language"
@@ -483,7 +483,7 @@
       If you also got a high sex drive or sensitive erogenous zones, welcome to the cotton candy coated paradise of bimbo bliss, sweetie!
       '''
       transformation: '''Want to guess how many orgasms it will take for your brain to literally melt? It's less than you think! But don’t worry, if you can go twenty four hours without cumming you’ll be fine... So chances are you're screwed.'''
-      tags: ["bimbo"]
+      tags: ["bimbo", "iq"]
     }
   ]
 }

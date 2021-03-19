@@ -34,7 +34,7 @@
       artist: "CrazyCowProductions"
       description: '''You will have a strong urge to feel your tits bounce. As a result, you are often going to bounce a little up and down, even if you're just by yourself.'''
       transformation: '''Hehehe! Bounce. Bounce. Feeling your boobs bounce and jiggle around just feels so satsifying. You look around to see if anyone is watching, but honestly, you don't really care either which way.'''
-      tags: ["pet"]
+      tags: []
     }
     {
       id: "moaning"
@@ -57,7 +57,7 @@
       You will not have this urge if whoever is asking intends to harm or rob you.
       '''
       transformation: '''Your phone is blowing up with texts and you're seriously starting to question the wisdom of letting some of your guy friends know about how impulsively easy you just became...'''
-      tags: ["pet", "slut"]
+      tags: ["slut"]
     }
     /*{
       id: "mirror mirror"
