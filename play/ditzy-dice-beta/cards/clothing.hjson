@@ -31,7 +31,7 @@
       description: '''Whenever clothes cover your breasts and you are not showing considerable cleavage, your attention span becomes significantly worse (-1 attention span).
 
       So it's up to you, either you show off your puppies, or you forget what else you were supposed to do.'''
-      transformation: '''What’s the matter? Can’t focus? Unbutton your shirt and see if that helps. There we are, now just remember to show off those puppies at all times and you’ll be fine.'''
+      transformation: '''demon: What’s the matter? Can’t focus? Unbutton your shirt and see if that helps. There we are, now just remember to show off those puppies at all times and you’ll be fine.'''
       tags: ["bimbo"]
     }
     {
@@ -41,7 +41,7 @@
       description: '''Whenever you wear three or more pieces of clothing and none of them are thigh-high stockings, your sex drive becomes much stronger (+2 sex drive).
 
       Thigh highs look hot af, so if you're not wearing yours, you'll be the one feeling hot instead.'''
-      transformation: '''What are you even wearing, knee socks? Well no wonder you're dripping everywhere. It's time to find a proper set of thigh highs or strip down, and fast! Otherwise you'll be of no use to anyone in just a bit. Well, maybe of some use.'''
+      transformation: '''demon: Hey, what are you even wearing right now, knee socks? Well no wonder you're dripping everywhere. You better find a set of thigh highs or strip down, and fast! Otherwise you'll be of no use to anyone in just a bit. Well, maybe of some use.'''
     }
     {
       id: "tummy time"
@@ -50,7 +50,7 @@
       description: '''Whenever clothes cover your tummy, you will find yourself acting more submissive (-1 willpower).
 
       Show your tummy or get used to doing what you're told!'''
-      transformation: '''Uh oh, someones not showing their belly button! You had better pull up that shirt unless you like jumping to act on every catcall you get walking down the street!'''
+      transformation: '''demon: Uh oh, someones not showing their belly button! You had better pull up that shirt unless you like jumping to act on every catcall you get walking down the street!'''
     }
     {
       id: "tramp stamp"
@@ -59,7 +59,7 @@
       description: '''A suggestive tattoo is now blazoned across your lower back. Anyone who sees this will know just what to expect from you.
 
       You will also become horny much quicker (+2 sex drive) whenever you're wearing pants or panties.'''
-      transformation: '''Feeling hot under the collar? It’s probably because you're still wearing panties. No girl with ink like yours was cut out for anything less revealing than a thong.'''
+      transformation: '''demon: Feeling hot under the collar? It’s probably because you're still wearing panties. No girl with ink like yours was cut out for anything less revealing than a thong.'''
       tags: ["bimbo"]
     }
     {
@@ -70,7 +70,7 @@
       description: '''Ever consider what your clothes say about you? How about a choker? Or what about a proper collar? In fact, let's make it really obvious what it says about you.
 
       From now on, whenever you are not wearing a choker saying "BIMBO", "SLUT", "PET" or something similar, you become less intelligent to make up for it (-1 intelligence).'''
-      transformation: '''What's the matter? Think wearing a collar that calls you a 'BIMBO' at all times will make you look dumb? Well sorry to say, it's either look dumb or BE dumb from now on so better smarten up and let the world know what you are, 'SLUT'.'''
+      transformation: '''demon: What's the matter? Think wearing a collar that calls you a 'BIMBO' at all times will make you look dumb? Well sorry to say, it's either look dumb or BE dumb from now on so better smarten up and let the world know what you are, 'SLUT'.'''
       tags: ["bimbo", "iq"]
     }
     {
@@ -80,7 +80,7 @@
       description: '''Pink is a great color isn't it? Feminine, sexy, and, well, what more could you want really? In any case, I think you should be wearing it more.
 
       From now on, whenever you are wearing any clothing that is not a shade of pink, you will feel distracted (-1 attention span).'''
-      transformation: '''Look at you, wearing all types of colors... That won’t do, now will it? A pretty thing like you should be rocking pink 24/7, otherwise you might not have the attention span for... and now you're wandering off. GET BACK HERE AND PUT ON SOME DAMN PINK!'''
+      transformation: '''demon: Look at you, wearing all types of colors... That won't do, now will it? A pretty thing like you should be rocking pink 24/7, otherwise you might not have the attention span for... and now you're wandering off. GET BACK HERE AND PUT ON SOME DAMN PINK!'''
       tags: ["bimbo", "iq"]
     }
     {
@@ -121,7 +121,7 @@
           description: ''' Your feet will feel the most comfortable in business-style heels, and you'll be swaying your hips just enough as you walk.
 
           (2in or 4cm)'''
-          transformation: '''Look at Miss Business over here! With shoes like those you could pass for a high power executive or just a modern woman who knows what she wants. And we all know what THAT is.'''
+          transformation: '''demon: Look at Miss Business over here! With shoes like those you could pass for a high power executive or just a modern woman who knows what she wants. And we all know what THAT is.'''
         }
         {
           id: "heels 4"
@@ -131,7 +131,7 @@
           description: ''' These are some proper high heels you're going to be strutting around in. The kind you'd expect to see at fancy dinners. The way your hips will sway as you walk with these on is going attract eyes anytime you leave the room too. Classy.
 
           (3in or 7cm)'''
-          transformation: '''How swank! Very sheek! Girl you're adding class to this joint with every step you take in those classic heels! Good thing you make it look so easy too as they are here to stay.'''
+          transformation: '''demon: Very sheek! Girl you're adding class to this joint with every step you take in those classic heels! Good thing you make it look so easy too as they are here to stay.'''
         }
         {
           id: "heels 5"
@@ -141,7 +141,7 @@
           description: '''Wow, heels like this will really give you that "ass up, please fuck me" look. No one walking behind you is going to be able to keep their eyes off of your ass the way your hips will swing either, I promise.
 
           (4in or 10cm)'''
-          transformation: '''Showing off the goods are we? Well, you might not mean too, but you certainly do in those heels! Good luck walking in anything lower as either, I’d not recommend trying.'''
+          transformation: '''demon: Showing off the goods are we? Well, you might not mean too, but you certainly do in those heels! And good luck walking in anything lower. I wouldn't recommend you try, either.'''
         }
         {
           id: "heels 6"
@@ -151,9 +151,43 @@
           description: '''At this point you'll probably even like wearing heels to bed just for the nice support they give your feet. Needless to say, your strut is going to be close to hypnotic for anyone behind you.
 
           (5in or 13cm)'''
-          transformation: '''Why bother with a foot if you're just going to use the toes? Honestly, if you can even walk at all without the support of a nice, long heel it would be a miracle! On the positive side, your ass looks AMAZING!'''
+          transformation: '''demon: Why bother with a foot if you're just going to use the toes? Honestly, if you can even walk at all without the support of a nice, long heel it would be a miracle! On the positive side, your ass looks AMAZING!'''
         }
       ]
     }
+    /*{
+      id: "too hot to handle"
+      name: "Too Hot to Handle"
+      thumb: ""
+      description: '''Don't worry about your clothes being too skimpy for cold weather, from now on wearing a jacket in a blizzard is going to feel way too hot in more ways then one! How many layers can be handled before the lust overwhelms you? Let's find out!'''
+      transformation: ''''''
+      type: "numeric"
+      levels: [
+        {
+          id: "1"
+          name: "Single Layer"
+          description: '''Forget 'jacket weather', from now on if you put on a long sleeve shirt over a T-Shirt for more then two hours you'll just get hornier and hornier till you're able to strip down again. Might make fancy events awkward.'''
+          transformation: ''''''
+        }
+        {
+          id: "2"
+          name: "Skimpy"
+          description: '''Polite society might not appreciate it, but if you're wearing enough cloth to cover more than your feet, thighs and chest you'll be in for a steamy time after two hours. At least the clubs won't mind your new look.'''
+          transformation: ''''''
+        }
+        {
+          id: "3"
+          name: "Barely Anything"
+          description: '''No Shoes, No Shirt? You're not going to get any service anymore as anytime you try and put on more than the bare minimum needed to cover your tits, ass and pussy, you’ll find yourself burning up with lust after just a couple of hours! You can still sunbathe on the beach, but that’s about it for public spaces.'''
+          transformation: ''''''
+        }
+        {
+          id: "4"
+          name: "Nude"
+          description: '''Better get used to running when you go out as if you're caught wearing ANYTHING for more than two hours you’ll end up so hyper sexed you’ll literally tear it all off to get what you need!'''
+          transformation: ''''''
+        }
+      ]
+    }*/
   ]
 }

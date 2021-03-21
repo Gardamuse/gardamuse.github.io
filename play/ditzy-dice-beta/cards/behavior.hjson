@@ -13,7 +13,7 @@
       description: '''Your laugh is always a cute giggle, and you'll giggle almost constantly. There is pretty much nothing that won't make you laugh.
 
       If you try really hard you can keep it together, but only for a short while.'''
-      transformation: '''Sorry, sorry you know this is serious and all, but you just can’t stop laughing!'''
+      transformation: '''player: Hehehe... No I am taking this seriously! I... haha, just can't stop laughing!'''
     }
     {
       id: "talkative"
@@ -33,7 +33,9 @@
       thumb: "art/happy-smile.webp"
       artist: "CrazyCowProductions"
       description: '''You will have a strong urge to feel your tits bounce. As a result, you are often going to bounce a little up and down, even if you're just by yourself.'''
-      transformation: '''Hehehe! Bounce. Bounce. Feeling your boobs bounce and jiggle around just feels so satsifying. You look around to see if anyone is watching, but honestly, you don't really care either which way.'''
+      transformation: '''player: Hehe... Bounce. Bounce... Bounce.
+
+      Feeling your boobs bounce and jiggle around just feels so satsifying. You look around to see if anyone is watching, but honestly, you don't really care either which way.'''
       tags: []
     }
     {
@@ -44,7 +46,9 @@
       description: '''Whenever you are having sex or masturbating, you can't help but moaning like a porn star.
 
       People can hear what you're doing from a mile away.'''
-      transformation: '''"Aaaah..!" you let out a surprisingly loud yelp. And that was just from accidently brushing against your breast! God what would happen if someone actually touched you for real!?'''
+      transformation: '''player: Aaaah..!
+
+      You let out a surprisingly loud yelp. And that was just from accidently brushing against your breast! God what would happen if someone actually touched you for real!?'''
       tags: ["slut"]
     }
     {
@@ -103,7 +107,7 @@
 
       You're going to be pretty friendly with people from now on.
       '''
-      transformation: '''"AAH!" you cry and almost fly up from your chair. Sitting on that felt like getting stabbed with an icicle! Sitting on a warm lap instead though, now that would be something!'''
+      transformation: '''"You cry out and almost fly up from your chair. Sitting on that felt like getting stabbed with an icicle! Sitting on a warm lap instead though, now that would be something!'''
       tags: ["pet"]
     }
     /*{
@@ -118,7 +122,7 @@
       thumb: "art/drink-ash-edmonds.webp"
       artist: "Ash Edmonds"
       description: '''You get very drunk from a single drink, but you also never become so drunk that you get sick, no matter how much you drink.'''
-      transformation: '''Wooow! You just sniffed a bit of wine from the other room and you're already feeling kinda tipsy…'''
+      transformation: '''Wooow! You just sniffed a bit of wine from the other room and you're already feeling kinda tipsy...'''
     }
     {
       id: "hot drinks"
@@ -128,7 +132,7 @@
       description: '''When you get drunk, you also become extremely horny.
 
       You won't get sick no matter how much you drink, and hangovers will make you feel horny instead of sick.'''
-      transformation: '''Who needs aphrodisiacs when a couple bloody marys can make you hotter than an hour of foreplay? Now it's going to be a REAL ‘happy hour’!'''
+      transformation: '''Who needs aphrodisiacs when a couple bloody marys can make you hotter than an hour of foreplay? Now it's going to be a REAL 'happy hour'!'''
     }
     /*{
       id: "cum addict"
@@ -150,7 +154,7 @@
       description: '''You have an irresistible urge to take selfies and upload them to social media.
 
       At least one photo every time you change outfit and every time you go out, and you will only feel content if you post at least 10 selfies each day.'''
-      transformation: '''One second, you’ll keep playing, but first just a quick selfie. Hashtag, hm... #BimboLife! Now to upload it on a dozen social platforms and you can continue.'''
+      transformation: '''player: Just one second... I'll keep playing, just gotta... take a quick selfie. Hashtag, hm... #BimboLife! Aaand... done. Where were we?'''
     }
     {
       id: "good girl"
@@ -256,7 +260,7 @@
           description: '''You know that you should always look perfect. No matter if it is for an evening out or going grocery shopping, you always look impeccable. Ever sexy, yet consistently dressed for the occasion.
 
           For any partner, you'll be the perfect accessory.'''
-          transformation: '''What ARE you even wearing right now? You need to class up your look before someone sees you looking like… THIS!'''
+          transformation: '''What ARE you even wearing right now? You need to class up your look before someone sees you looking like... THIS!'''
         }
         {
           id: "object"
@@ -264,7 +268,7 @@
           description: '''You know that you're just an object. Whenever you have a partner around you do anything you're told, wear whatever they want you to wear and speak only when spoken to.
 
           If no one tells you what to do, you don't really know what to do with yourself.'''
-          transformation: '''W-Why isn’t anyone telling you what to do? You don’t like not being directed…'''
+          transformation: '''W-Why isn't anyone telling you what to do? You don’t like not being directed...'''
         }
         {
           id: "slut"
@@ -406,6 +410,41 @@
           name: "Tongue in Cheek"
           description: '''You stick your tongue out just a little at the side of your mouth and your eyes look diagonally upwards.'''
           transformation: '''Well at least you still look like you're thinking. You might look like an idiot who can barely string more than two words together, but it could still be worse.'''
+        }
+      ]
+    }
+    {
+      id: "maid to serve"
+      name: "Maid to Serve"
+      thumb: ""
+      art: ""
+      description: '''Just because you're becoming a bimbo doesn't mean you can't be helpful! In fact, you find it very hard to avoid lending a hand when asked to tidy up. How strong is that need and how long do you have to do what you're told? Well let's find out...'''
+      transformation: ''''''
+      type: "numeric"
+      levels: [
+        {
+          id: "1"
+          name: "Helpful"
+          description: '''It's hard to say no when asked (or ordered) to do something and you'll find your will weakening every time you disobey an order until you have successfully completed an assigned task. You'll also never feel fully at ease when around a mess you can clean.'''
+          transformation: ''''''
+        }
+        {
+          id: "2"
+          name: "Subservient"
+          description: '''When asked (or ordered) to perform a task you'll find it nearly impossible to disobey until you have accomplished it. You also find it hard to talk back to anyone who's ordered  you in the past and will compulsively make yourself helpful if you have not been ordered to do something in the last two hours.'''
+          transformation: ''''''
+        }
+        {
+          id: "3"
+          name: "Obedient"
+          description: '''You will leap to any task even suggested to you and if in the presence of anyone who has ordered you about in the past, you'll find yourself driven to help them in any way you can till they have a new task for you. When alone or away from anyone who has given you a task you will be compelled to offer your services to others.'''
+          transformation: ''''''
+        }
+        {
+          id: "4"
+          name: "Worshipful"
+          description: '''If someone even suggests something of you, you will do everything in your power to fulfill their wish until they give you a new order or express a new want. If you ever find yourself without a task to do, you will be compelled to find someone to order you about and do everything you can to convince someone to be your new owner.'''
+          transformation: ''''''
         }
       ]
     }

@@ -540,7 +540,7 @@
           id: "lactation 1"
           name: "A Little For Fun"
           description: '''Your breasts can produce a little milk if you try to milk them, but you won't notice otherwise.'''
-          transformation: '''You find yourself tugging at your nipples, and you see a little milk come out. And you didn’t even need to have kids to get it! Though you guess that if you do, they for sure won’t be going hungry.'''
+          transformation: '''You find yourself tugging at your nipples, and you see a little milk come out. And you didn't even need to have kids to get it! Though you guess that if you do, they for sure won't be going hungry.'''
         }
         {
           id: "lactation 2"
@@ -804,7 +804,7 @@
           thumb: "art/tail-0004.webp"
           artist: "Gardamuse"
           description: '''A long, tail covered in short fur. This is tail is quite dexterous and gives you a lot of control, you can even wrap it around small objects to hold them. Be wary though as you will most likely lose control over it whenever you are surprised or frightened.'''
-          transformation: '''Yes, you are a pretty kitty now, thank you for noticing. Your tail swaying gently behind you.'''
+          transformation: '''Yes, you are a pretty kitty now, thank you for noticing. Your tail sways gently behind you.'''
         }
         {
           id: "demonic"
