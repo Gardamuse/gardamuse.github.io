@@ -72,7 +72,7 @@
 
     Costs 1 mana per 30 minutes. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.
     '''
-    transformation: '''demon: Sure it might be fun getting to be someone else for awhile, but don't forget that you'll eventually have to go back to being yourself. There's no getting out of what the cards have given you.'''
+    transformation: '''Sure it might be fun getting to be someone else for a while, but don't forget that you'll eventually have to go back to being yourself. There's no getting out of what the cards have given you.'''
   }
   {
     id: "spell: issue command"
@@ -102,7 +102,7 @@
 
     Costs 1 mana per 20 minutes. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.
     '''
-    transformation: '''demon: If you ever wanted to be a superhero or villain, here’s your opportunity. With the ability to shift great weights with your mind does come great responsibility after all! Just don’t let your mana get too low, so screw responsibly when supering!'''
+    transformation: '''demon: If you ever wanted to be a superhero or villain, here's your opportunity. With the ability to shift great weights with your mind does come great responsibility after all! Just don't let your mana get too low, so screw responsibly when supering!'''
   }
   {
     id: "spell: slow time"
@@ -122,7 +122,7 @@
 
     Costs 1 mana per minute casting, or 1 mana to travel to a marker. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.
     '''
-    transformation: '''demon: A time traveling bimbo witch? Fortunately this spell is completely paradox proof as there is no way you won't end up fucking your own great, great grandfather or something of the sort.'''
+    transformation: '''demon: A time traveling bimbo witch? No way that that could go wrong. Fortunately this spell is completely paradox proof, which is good because there is no way you won't end up fucking your own great, great grandfather or whatever.'''
   }
   {
     id: "spell: flight"
@@ -141,7 +141,7 @@
 
     Costs 1 mana per hour. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.
     '''
-    transformation: '''demon: Where did you go? You just vanished!? Ha just kidding, you're going to need more mana before you can pull that off, but it should make for a useful party trick. Just be careful when peeping that the spell doesn’t wear off when you're slicking in the mens changing room...'''
+    transformation: '''demon: Where did you go? You just vanished!? Ha just kidding, you're going to need more mana before you can pull that off, but it should make for a useful party trick. Just be careful when peeping that the spell doesn't wear off when you're slicking in the mens changing room...'''
   }
   {
     id: "spell: phasing"
@@ -190,7 +190,7 @@
         id: "gold 3"
         name: "$1 Million"
         description: '''A fair amount of money! Buy a house, save to get some income from rent, or spend it all on luxury clothing!'''
-        transformation: '''demon: Well, well, well, look at this millionaire! Don’t go crazy now, that won't last a full lifetime, especially if you're planning on living it up, but you'll be set for a good long while before you need to worry about begging your new 'daddy' for spending cash.'''
+        transformation: '''demon: Well, well, well, look at this millionaire! Don't go crazy now, that won't last a full lifetime, especially if you're planning on living it up, but you'll be set for a good long while before you need to worry about begging your new 'daddy' for spending cash.'''
       }
       {
         id: "gold 4"

@@ -1,0 +1,79 @@
+{
+  introStage: {
+    id: "introStage"
+    nodes: [
+      {
+        id: "intro"
+        title: ""
+        text: '''
+          demon: Have you ever made a deal with the devil? Well, it's not as bad as they say.
+
+          demon: Here's the deal. I got a deck of cards. Many of those cards will reward you with great gifts and powers. You could become the most powerful person on the planet.
+
+          demon: If you draw a card with such a gift, it will be yours for as long as you live. Some of the powers could even give you immortality, so that might not be a short time.
+
+          demon: The catch?
+
+          demon: Well... some of the cards, rather than rewarding you, will transform you a bit, some physically, others mentally.
+
+          demon: I also couldn't just let you pick and choose exactly which cards you want, now could I? So you would be choosing your cards by rolling these dice. No worries, you can choose how many dice you want to roll, to give you the best odds.
+
+          demon: Oh, and I almost forgot.
+
+          demon: You have to be a woman to participate. So if you're not one already, I will transform you before we begin. Call it a free gift! Or the price of entry.
+
+          demon: Do you accept?
+          '''
+        options: [ "no", "yes" ]
+      }
+      {
+        id: "no"
+        title: '''No'''
+        text: '''
+          player: I'd rather not, thanks.
+
+          demon: Oh, that's a shame. Well, you can always come back if you change your mind. The offer still stands.
+          '''
+        options: [ "leave", "actually accept" ]
+      }
+      {
+        id: "leave"
+        title: "Leave"
+        endpoint: "leave"
+      }
+      {
+        id: "actually accept"
+        title: "Actually... I'll accept."
+        text: '''
+          player: Yea... actually, this is too good of an opportunity to pass up. I'll accept.
+          '''
+        options: [ "accepted" ]
+      }
+      {
+        id: "yes"
+        title: '''Yes'''
+        text: '''
+          player: Yes, I accept.
+          '''
+        options: [ "accepted" ]
+      }
+      {
+        id: "accepted"
+        title: '''Next'''
+        text: '''
+          demon: Great! You look good. A bit plain perhaps, but I'm sure we will get that sorted soon enough. Hah!
+
+          demon: Now about this game. You will play 3 rounds. As you play you may find yourself picking up bonus rolls. These are rolls you will have to make in an extra bonus round. Finish those and you walk away with all the changes and rewards you've collected.
+
+          demon: Sounds simple? It is, and I'll explain the details as you go. Let's get started!
+          '''
+        options: [ "start" ]
+      }
+      {
+        id: "start"
+        title: "Start"
+        endpoint: "drawStage"
+      }
+    ]
+  }
+}

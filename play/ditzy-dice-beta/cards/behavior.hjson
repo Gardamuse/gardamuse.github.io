@@ -13,7 +13,7 @@
       description: '''Your laugh is always a cute giggle, and you'll giggle almost constantly. There is pretty much nothing that won't make you laugh.
 
       If you try really hard you can keep it together, but only for a short while.'''
-      transformation: '''player: Hehehe... No I am taking this seriously! I... haha, just can't stop laughing!'''
+      transformation: '''player: Hehehe... No I am taking this seriously! Haha, it's just that everything seems so funny all of a sudden!'''
     }
     {
       id: "talkative"
@@ -58,7 +58,7 @@
       artist: "CrazyCowProductions"
       description: '''Whenever someone asks you out, over to their place, or just straight up for sex, you will have an irresistable urge to say yes.
 
-      You will not have this urge if whoever is asking intends to harm or rob you.
+      You will not have this urge if whoever is asking intends to harm or rob you, or if you would have to fulfill some other unreasonable requirement first, like travelling very far.
       '''
       transformation: '''Your phone is blowing up with texts and you're seriously starting to question the wisdom of letting some of your guy friends know about how impulsively easy you just became...'''
       tags: ["slut"]
@@ -103,7 +103,7 @@
       name: "Lap Warmer"
       thumb: "art/lap-warmer.webp"
       artist: "Gardamuse"
-      description: '''You can only sit down if its on another person.
+      description: '''When you are not alone you can only sit down if its on another person.
 
       You're going to be pretty friendly with people from now on.
       '''
@@ -154,7 +154,11 @@
       description: '''You have an irresistible urge to take selfies and upload them to social media.
 
       At least one photo every time you change outfit and every time you go out, and you will only feel content if you post at least 10 selfies each day.'''
-      transformation: '''player: Just one second... I'll keep playing, just gotta... take a quick selfie. Hashtag, hm... #BimboLife! Aaand... done. Where were we?'''
+      transformation: '''player: Just one second... I'll keep playing, just gotta... take a quick selfie.
+
+      player: Hashtag, erhm... #BimboLife!
+
+      player: Aaand... done. Where were we?'''
     }
     {
       id: "good girl"
@@ -164,7 +168,7 @@
       description: '''Getting head pats makes you feel so calm and relaxed, but also very horny at the same time.
 
       In addition, you always try to get people to pat you on the head, especially when you feel like you've been good.'''
-      transformation: '''Mmm... just feeling your hair brushing your head makes you long for a hand to give you a proper pet! God what you’d do to be treated like the good girl you are!'''
+      transformation: '''Mmm... just feeling your hair brushing your head makes you long for a hand to give you a proper pet! God what you'd do to be treated like the good girl you are!'''
       tags: ["pet"]
     }
     {
@@ -184,7 +188,7 @@
       thumb: ""
       artist: ""
       description: ''''''
-      transformation: '''Hey after this, lets get some food! His treat! Also He’s paying for gas. And he has to drop you off at home so you don’t have to pay for the bus.'''
+      transformation: '''Hey after this, lets get some food! His treat! Also He's paying for gas. And he has to drop you off at home so you don't have to pay for the bus.'''
       tags: []
     }*/
     {
@@ -216,7 +220,7 @@
 
           Most people tire pretty quickly of helping you carry shopping bags, but at least you're easy to please. A small gift and you're as happy as a clam.
           '''
-          transformation: '''You just realized that all of these changes to your body? They are basically like free gifts! And as you are now, they probably won’t be the last either! Score!'''
+          transformation: '''You just realized that all of these changes to your body? They are basically like free gifts! And as you are now, they probably won't be the last either! Score!'''
         }
         {
           id: "expenses 3"
@@ -268,7 +272,7 @@
           description: '''You know that you're just an object. Whenever you have a partner around you do anything you're told, wear whatever they want you to wear and speak only when spoken to.
 
           If no one tells you what to do, you don't really know what to do with yourself.'''
-          transformation: '''W-Why isn't anyone telling you what to do? You don’t like not being directed...'''
+          transformation: '''W-Why isn't anyone telling you what to do? You don't like not being directed...'''
         }
         {
           id: "slut"

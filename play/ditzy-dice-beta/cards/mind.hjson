@@ -63,19 +63,58 @@
 
           Others will notice though. Especially when you have to stop and really concentrate to figure out even simple things.
           '''
-          transformation: '''demon: You probably would say, "I'm not dumb, I'm just bubbly!" But no, you're pretty dumb now. Don't worry about it though! When others do the thinking for you, that just frees up more time to focus on fun things, right?'''
+          transformation: '''demon: How are you feeling so far? Think you've gotten any dumber?
+
+          player: Uuh, no! Defnt... defini... I don't think so! I actually feel, you know, really good cause, it's like, my thinkies... uuh...
+
+          player: There used to be like, so many of them. But now there's like, eeh... just one at a time, you know? And, I mean, why would I even wanna think of all that compl... complic... all those hard things, like?
+
+          demon: Haha, aww that's cute sweetie. Lot's of other hard things you would rather thing about, am I right?
+
+          player: Uuh... no but I uuh said... Aaah OTHER things... like cocks... mmm...
+          '''
         }
         {
           id: "intelligence 4"
           name: "Airhead"
-          description: '''Have you ever heard the expression that someone is too dumb to walk and chew bubble gum at the same time? Well lets just say from now on, you should consider focusing on just one of those to avoid choking.'''
-          transformation: '''demon: Can you feel the IQ points starting to drip from your pussy? In a few moments you will just be a confused mess. Few things won't put that dumb, befuddled look on your face, like you just can't understand the most simple of things. Enjoy!'''
+          description: '''Few things won't put that dumb, befuddled look on your face, like you just can't understand the most simple of things.
+
+          Ever heard the expression "too dumb to walk and chew bubble gum at the same time"? Well lets just say from now on, you should consider focusing on just one of those to avoid choking.'''
+          transformation: '''demon: This card is pretty fun. It's fairly quick, but you should still have time feel most of those pesky IQ points dripping out of your pussy.
+
+          In fact, you already feel your panties starting to get wet.
+
+          player: But... I don't want to become a dumb bimbo! I'm not... I'm... I'm smart!
+
+          demon: Ah, so you're already feeling quite hot and bothered then? Good, enjoy the ride! In a few moments you will just be a confused mess. You'll have so much more fun like that anyways, promise.
+
+          player: I, no... oh... why is it so diffc... like, hard to think? I... oooh....
+
+          player: Like... what was I... uuh... like... I'm so.. uuh, wet, haha! Could we uuh... like? Fuck or... or do you wanna... uuhm... yeah.
+
+          demon: Awww, sounds like that stupid brain of yours is just about gone now, doesn't it sweetie? Don't you feel so much better now?
+
+          player: Uuh, yeah! I, like... uuh... happy!
+          '''
         }
         {
           id: "intelligence 5"
           name: "Brainless"
           description: '''You're about to get real fucking dumb, so let's hope you won't miss being able to figure out how to open doors, or do anything, really. You'll just be a drooling mess with a blank expression. You're lucky that walking and fucking goes on instinct or you wouldn't even be able to do that. Someone will probably take care of you though, so don't worry about that. Bye bye brain!'''
-          transformation: '''It's like a bolt of lightning has suddenly struck your brain and turned it into mush. You stare at your surroundings, trying to make sense of everything that moments ago seemed so obvious, but there are just so many... things and all of it seems so complicated. When you finally notice that you're drooling down your top it takes you a good ten seconds to figure out that you should close your mouth to make it stop. Any remnants of your former IQ will have long since dripped out of your pussy before you've even remembered you have one.'''
+          transformation: '''It's like a bolt of lightning has suddenly struck your brain and turned it into mush. You stare at your surroundings, trying to make sense of everything that moments ago seemed so obvious, but there are just so many... things and all of it seems so complicated.
+
+          player: Uuuuh... wha.. my... erhm...?
+
+          When you finally notice that you're drooling down your top it takes you a good ten seconds to figure out that you should close your mouth to make it stop. Any remnants of your former IQ will have long since dripped out of your pussy before you've even remembered you have one.
+
+          demon: Haha, oh how I love that drooling expression! Tell you what, if you can tell me what 2 + 2 is, right now, I give you back all your smarts.
+
+          player: Uuuh... oh... my... eeh... pussy...?
+
+          demon: Well, that's not quite the right answer. Too bad! Lovely. I guess it's mindless fucktoy for you then! I'll make sure you have some friend come find you when we're done. Gotta get you an owner know don't we?
+
+          player: Ooh... wet? Fuck... uh? Wha...?
+          '''
         }
       ]
     }
@@ -109,7 +148,9 @@
           thumb: "art/education-4.webp"
           art: "Gardamuse"
           description: '''If you've had any higher education, it's time to wave all the things you learned there good bye! And good luck trying to re-learn it or becoming a student: no matter how intelligent you are, your memory simply can't store such complicated knowledge for more than a few minutes.'''
-          transformation: '''demon: Hope you didn't have a job that required you to know how complex systems work on a fundamental level! Well they probably would have fired you anyway, but still, too bad. Your head has to feel a lot... lighter now though, right?'''
+          transformation: '''demon: Hope you didn't have a job that required you to know how complex systems work on a fundamental level!
+
+          demon: Well they probably would have fired you anyway, but still, too bad. Your head has to feel a lot lighter now though right?'''
         }
         {
           id: "memory 2"
@@ -406,13 +447,13 @@
           id: "name 2"
           name: "Normal"
           description: '''Your normal name is just fine! Fancy spelling or nicknames aren't really for you. You will use your normal name.'''
-          #transformation: '''Oh, so you're still just… You? Well that’s boring, but hey, if that’s your name, that’s your name.'''
+          #transformation: '''Oh, so you're still just… You? Well that's boring, but hey, if that's your name, that's your name.'''
         }
         {
           id: "name 3"
           name: "Simplified"
           description: '''Using your actual name all the time seems a bit uptight, don't you think? Maybe a bit difficult to spell? From now on you'll use a simplified version of your name instead.'''
-          transformation: '''demon: Oh that’s cute! Much better than your old name and simpler too! Probably for the best you keep it light, ya.'''
+          transformation: '''demon: Oh that's cute! Much better than your old name and simpler too! Probably for the best you keep it light, ya.'''
         }
         {
           id: "name 4"
@@ -444,7 +485,7 @@
 
       If you seem smart otherwise people may just think you're a bit weird. If you don't, well, people will certainly think you are dumb.
       '''
-      transformation: '''I'm sorry if 'we are not amused by this latest change' because you're not going to be able to refer to yourself without saying your name from now on. You could come of as royal, unless what you then declare is how much you love cum.'''
+      transformation: '''I'm sorry if 'we are not amused by this latest change' because you're not going to be able to refer to yourself without saying your name from now on. You could come off as royal, unless what you declare is how much you love cum.'''
       tags: ["iq"]
     }
     {
@@ -464,7 +505,9 @@
       description: '''You've forgotten how to walk, and can never learn again, so you will have to crawl on all fours from now on. Fortunately you will have no pains from walking on all fours either.
 
       It may feel weird for you to go out at first, but you'll make for a cute pet I'm sure.'''
-      transformation: '''demon: Having trouble walking? Well since you'll spend the rest of your life on all fours, you had best get used to the idea and stop trying to stand back up. It will be easier if you just embrace a pet's life, trust me.'''
+      transformation: '''demon: I gotta say it's quite amusing watching you trying to stand up, but let me save you some struggle:
+
+      demon: You will spend the rest of your life on all fours no matter what you do, so you better get used to it. It will be easier if you just embrace a pet's life, trust me.'''
       tags: ["pet", "extreme"]
     }
     {
@@ -474,7 +517,7 @@
       artist: "Gardamuse"
       description: '''You won't be any less intelligent, but your brain becomes incapable of questioning any kind of information. So from now on you will believe everything you're told is entirely true.
 
-      Sure, you will be very easy to manipulate, but believing in magic and Santa again is going to be pretty fun, right?'''
+      Sure, you will be very easy to manipulate, but believing in Santa again is going to be pretty fun, right?'''
       transformation: '''demon: Did you know that if you fuck a thousand people, all of these changes can be reversed?
 
       player: Oh, I didn't know know that! Thanks!
@@ -522,7 +565,7 @@
 
       If you also got a high sex drive or sensitive erogenous zones, welcome to the cotton candy coated paradise of bimbo bliss, sweetie!
       '''
-      transformation: '''demon: Want to guess how many orgasms it will take for your brain to literally melt? It's less than you think! But don’t worry, if you can go twenty four hours without cumming you'll be fine! So chances are you're screwed.'''
+      transformation: '''demon: Want to guess how many orgasms it will take for your brain to literally melt? It's less than you think! But don't worry, if you can go twenty four hours without cumming you'll be fine! So chances are you're screwed.'''
       tags: ["iq"]
     }
   ]

@@ -48,7 +48,7 @@
           id: "lips 4"
           name: "Pouty Pillows"
           description: '''Your lips are going to be so large they couldn't possibly be natural, yet look and feel as soft as pillows. And with that permanent pouty expression they are impossibly alluring, like you're just waiting to wrap them around something long and hard.'''
-          transformation: '''Your lips quickly swell up to the point that you can clearly see it happen at the bottom of your field of vision. And while they are so large you have some trouble moving them properly, they are also extremely soft. In fact, you know they could be a very comfortable resting place for any number of things! Mostly dicks though, let's be honest.'''
+          transformation: '''Your lips quickly swell up to the point that you can clearly see it happen at the bottom of your field of vision. And while they are so large you have trouble moving them properly, they are also extremely soft. In fact, you know they could be a very comfortable resting place for any number of things! Mostly dicks though, let's be honest.'''
         }
         {
           id: "lips 5"
@@ -78,7 +78,7 @@
           id: "breast size 2"
           name: "Medium (C-cup)"
           thumb: "art/liliana-0003.png"
-          description: '''You will be just about on the larger side of average, and won’t be drawing too much attention for your chest alone. That might be a good thing or just a reason to show off more in other ways.'''
+          description: '''You will be just about on the larger side of average, and won't be drawing too much attention for your chest alone. That might be a good thing or just a reason to show off more in other ways.'''
           transformation: '''You feel something stirring in your chest as your breasts start growing, but you barely have time to take it in before the feeling comes to a stop. Your breasts do look really good though, natural yet very womanly. You can probably show some cleavage if you want to, or cover up like a plain Jane. You choice!'''
         }
         {
@@ -146,7 +146,7 @@
           id: "ass size 4"
           name: "Giant"
           thumb: "art/behind-0007.png"
-          description: '''With a butt and hips like this, you'll be rocking the house wherever you go. The other girls in the club will be green with envy, but you won’t need to worry about jealous bitches with an ass that just won't quit.'''
+          description: '''With a butt and hips like this, you'll be rocking the house wherever you go. The other girls in the club will be green with envy, but you won't need to worry about jealous bitches with an ass that just won't quit.'''
           transformation: '''You bite your lower lip as your hips starts to shiver, your ass filling up with every twitch. "Holy shit that feels good!" you think, just as your pants rip open with a loud crack, leaving your ass mostly out in the open, covered only by your now very strained panties. You try walking, and there is so much heft behind every step you take that every move reminds you of how people will look at you from behind now.'''
         }
         {
@@ -386,7 +386,9 @@
 
           You'll be easy to pick up and carry around though, so be prepared for some fun rides in the bedroom, or wherever you're carried off to.
           '''
-          transformation: '''As you become smaller the world and everyone around you seem to become that much bigger. Congrats short stack, you’ve hit the jackpot, at least if your idea of winning the lottery is men wanting to bounce you on their dicks like a basketball!'''
+          transformation: '''As you become smaller the world and everyone around you seem to become that much bigger.
+
+          demon: Congrats short stack, you've hit the jackpot, at least if your idea of winning the lottery is men wanting to bounce you on their dicks like a basketball!'''
         }
       ]
     }
@@ -605,7 +607,7 @@
           id: "sex drive 3"
           name: "Eager"
           description: '''You usually want to have sex every one or two days, or you'll get a bit distracted.'''
-          transformation: '''How long has it been since your last hook up? Damn, you don’t want to get rusty, better make a few calls and clear some time for tomorrow!'''
+          transformation: '''How long has it been since your last hook up? Damn, you don't want to get rusty, better make a few calls and clear some time for tomorrow!'''
         }
         {
           id: "sex drive 4"
@@ -613,7 +615,7 @@
           description: '''Sex once a day is the absolute minimum for you, preferably two or maybe three times.
 
           Less than that and you'll feel hot and bothered really quickly.'''
-          transformation: '''God you are feeling horny! Why didn’t you make plans to bang today already? You can’t even imagine going more than twenty-four hours without some action!'''
+          transformation: '''God you are feeling horny! Why didn't you make plans to bang today already? You can't even imagine going more than twenty-four hours without some action!'''
         }
         {
           id: "sex drive 5"
@@ -621,7 +623,7 @@
           description: '''You never go very long without thinking of sex.
 
           If you don't get off at least 5 times a day, you're not able to think about anything else.'''
-          transformation: '''You're going to get back to the game in a minute, but if you don’t rub one out real fast you're going to BURST!'''
+          transformation: '''You're going to get back to the game in a minute, but if you don't rub one out real fast you're going to BURST!'''
         }
         {
           id: "sex drive 6"
@@ -670,13 +672,13 @@
           id: "sensitivity 4"
           name: "Hypersensitive"
           description: '''Being able to get off quick can be real helpful sometimes, especially if you got a high Sex Drive. You should probably stick to skirts and dresses though, and maybe skip the panties as well. In general, avoid clothing that rub against your erogenous zones, or you'll find yourself trying to play off orgasms in public more than you'd perhaps like.'''
-          transformation: '''Okay no more panties! No more bras! Just keep your clothes light enough to avoid rubbing or it's going to be ‘clean up in every department you walk through’ from here on out!'''
+          transformation: '''Okay no more panties! No more bras! Just keep your clothes light enough to avoid rubbing or it's going to be ‘clean up in every department you walk through' from here on out!'''
         }
         {
           id: "sensitivity 5"
           name: "Hair-Trigger"
           description: '''Clothing rubbing against your erogenous zones is going to be a no go unless you want to cum your brains out with every step, even if your Sex Drive isn't super high. Anything so little as touches one of your erogenous zones and you're off. You better stick to skirts and loose dresses from now on, or maybe just stay naked...'''
-          transformation: '''You're going to have to take off your clothes, all of them, NOW! Otherwise this place is going to end up triggering flood warnings with how often you’ll be orgasming!'''
+          transformation: '''You're going to have to take off your clothes, all of them, NOW! Otherwise this place is going to end up triggering flood warnings with how often you'll be orgasming!'''
         }
       ]
     }
@@ -796,7 +798,7 @@
           thumb: "art/tail-0003.webp"
           artist: "Gardamuse"
           description: '''A fairly long tail with a tuft of hair at the end. This is a lazy tail, meaning that it won't move that much on its own, but you also have to make somewhat of an effort if you want to use it to swipe at or wrap it around something.'''
-          transformation: '''Is that a cow tail? God your friends are going to make so many ‘dumb cow’ jokes at your exspense!'''
+          transformation: '''Is that a cow tail? God your friends are going to make so many ‘dumb cow' jokes at your exspense!'''
         }
         {
           id: "cat's tail"
@@ -835,7 +837,7 @@
           thumb: "art/elfgirl.webp"
           artist: "Gardamuse"
           description: '''Pointed, elvish ears. Very similar to human ones, but with a bit more class. Good for cosplay too!'''
-          transformation: '''You feel at one with nature and sense you might live forever… You won’t, but the ears really do make you feel like a fantasy tree hugger.'''
+          transformation: '''You feel at one with nature and sense you might live forever… You won't, but the ears really do make you feel like a fantasy tree hugger.'''
         }
         {
           id: "cat"
@@ -867,7 +869,7 @@
       name: "Smooth As Silk"
       thumb: ""
       description: '''Your skin will always be soft and smooth, and your body becomes completely hairless except for your head.'''
-      transformation: '''Did you just get a full body wax? That’s such a weird feeling, but it's nice to feel so smooth!'''
+      transformation: '''Did you just get a full body wax? That's such a weird feeling, but it's nice to feel so smooth!'''
       tags: ["bimbo"]
     }
     {

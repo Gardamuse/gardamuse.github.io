@@ -12,7 +12,7 @@
       description: '''No matter what you put on, you always find it is a few sizes too small. It's not going to be too uncomfortable, just a bit tight.
 
       You may look a little silly though, but in a sexy way.'''
-      transformation: '''You notice that your clothes are starting to feel a bit thight. But you're not, your clothes are shrinking! No need to blush though, and don’t bother changing, you’ll find even the biggest sweatshirts will be straining to contain you now.'''
+      transformation: '''You notice that your clothes are starting to feel a bit thight. But you're not, your clothes are shrinking! No need to blush though, and don't bother changing, you'll find even the biggest sweatshirts will be straining to contain you now.'''
     }
     {
       id: "whale tail"
@@ -31,7 +31,11 @@
       description: '''Whenever clothes cover your breasts and you are not showing considerable cleavage, your attention span becomes significantly worse (-1 attention span).
 
       So it's up to you, either you show off your puppies, or you forget what else you were supposed to do.'''
-      transformation: '''demon: What’s the matter? Can’t focus? Unbutton your shirt and see if that helps. There we are, now just remember to show off those puppies at all times and you’ll be fine.'''
+      transformation: '''demon: What's the matter? Can't focus? Unbutton your shirt and see if that helps.
+
+      player: Uuh... okay?
+
+      demon: See, there you go! now just remember to show off those puppies at all times and you'll be fine.'''
       tags: ["bimbo"]
     }
     {
@@ -59,7 +63,7 @@
       description: '''A suggestive tattoo is now blazoned across your lower back. Anyone who sees this will know just what to expect from you.
 
       You will also become horny much quicker (+2 sex drive) whenever you're wearing pants or panties.'''
-      transformation: '''demon: Feeling hot under the collar? It’s probably because you're still wearing panties. No girl with ink like yours was cut out for anything less revealing than a thong.'''
+      transformation: '''demon: Feeling hot under the collar? It's probably because you're still wearing panties. With ink like yours you it'd be a crime if that juicy pussy wasn't easy access.'''
       tags: ["bimbo"]
     }
     {
@@ -80,7 +84,11 @@
       description: '''Pink is a great color isn't it? Feminine, sexy, and, well, what more could you want really? In any case, I think you should be wearing it more.
 
       From now on, whenever you are wearing any clothing that is not a shade of pink, you will feel distracted (-1 attention span).'''
-      transformation: '''demon: Look at you, wearing all types of colors... That won't do, now will it? A pretty thing like you should be rocking pink 24/7, otherwise you might not have the attention span for... and now you're wandering off. GET BACK HERE AND PUT ON SOME DAMN PINK!'''
+      transformation: '''demon: Look at you, wearing all types of colors... That won't do, now will it? A pretty thing like you should be rocking pink 24/7, otherwise you might not have the attention span to...
+
+      demon: Aaand now you're wandering off.
+
+      demon: GET BACK HERE AND PUT ON SOME DAMN PINK!'''
       tags: ["bimbo", "iq"]
     }
     {
@@ -141,7 +149,7 @@
           description: '''Wow, heels like this will really give you that "ass up, please fuck me" look. No one walking behind you is going to be able to keep their eyes off of your ass the way your hips will swing either, I promise.
 
           (4in or 10cm)'''
-          transformation: '''demon: Showing off the goods are we? Well, you might not mean too, but you certainly do in those heels! And good luck walking in anything lower. I wouldn't recommend you try, either.'''
+          transformation: '''demon: Showing off the goods are we? Well, you might not mean to, but you certainly do in those heels! And good luck walking in anything lower. I wouldn't recommend you try, either.'''
         }
         {
           id: "heels 6"
@@ -178,13 +186,13 @@
         {
           id: "3"
           name: "Barely Anything"
-          description: '''No Shoes, No Shirt? You're not going to get any service anymore as anytime you try and put on more than the bare minimum needed to cover your tits, ass and pussy, you’ll find yourself burning up with lust after just a couple of hours! You can still sunbathe on the beach, but that’s about it for public spaces.'''
+          description: '''No Shoes, No Shirt? You're not going to get any service anymore as anytime you try and put on more than the bare minimum needed to cover your tits, ass and pussy, you'll find yourself burning up with lust after just a couple of hours! You can still sunbathe on the beach, but that's about it for public spaces.'''
           transformation: ''''''
         }
         {
           id: "4"
           name: "Nude"
-          description: '''Better get used to running when you go out as if you're caught wearing ANYTHING for more than two hours you’ll end up so hyper sexed you’ll literally tear it all off to get what you need!'''
+          description: '''Better get used to running when you go out as if you're caught wearing ANYTHING for more than two hours you'll end up so hyper sexed you'll literally tear it all off to get what you need!'''
           transformation: ''''''
         }
       ]

@@ -7,7 +7,14 @@ text: '''
         * Most descriptions written by Duhad who did an incredible job! Thank you <3
 
 # Gameplay
-    * By default your hand now only shows cards drawn in the current round. This can be toggled.
+    * Your hand is now emptied after each round.
+    * Can now use maximum 5 dice, up from 4.
+
+# UI
+    * Moved dice location to middle of screen for large screens.
+    * Dialogue window is now styled as a chat window.
+        * Status info (current round, bonus cards) has been moved elsewhere.
+    * Added button for showing all picked cards or only cards currently in hand. Defaults to cards currently in hand.
 
 # Content
 

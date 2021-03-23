@@ -30,10 +30,10 @@
 
   demon: Sounds simple? It is, and I'll explain the details as you go. Let's get started!'''
 
-  drawStage: '''demon: First, roll to see how many cards you will have to draw this round!
+  drawStage: '''demon: First, roll to see how many cards you will have to pick this round!
   '''
 
-  drawStagePostBan: '''demon: Now, roll to see how many cards you will have to draw this round!
+  drawStagePostBan: '''demon: Now, roll to see how many cards you will have to pick this round!
   '''
 
   banStage: '''demon: Click the card you want to ban.
