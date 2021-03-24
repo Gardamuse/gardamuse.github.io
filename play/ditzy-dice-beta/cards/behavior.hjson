@@ -229,7 +229,12 @@
           artist: "Gardamuse"
           description: '''Designer clothing, expensive gifts and luxury is what makes you happy. If you can have that and get whatever you're pointing at you'll be as happy and helpful as can be, but don't and you'll show them what a bitch you can really be.
           '''
-          transformation: '''Yes yes, life altering magic and world shifting changes to the fabric of your reality are all well and good, but you're not seeing a price tag! The Devil better not be getting cheap on you...'''
+          transformation: '''player: I mean, these life altering magic spells and whatever are all well and good, but so far I haven't seen a single price tag. You're not getting cheap on me, are you?
+
+          demon: I can assure you that is not the case. Everything here would be very expensive indeed.
+
+          player: Oh, okay... well, good!
+          ''' //Yes yes, life altering magic and world shifting changes to the fabric of your reality are all well and good, but you're not seeing a price tag! The Devil better not be getting cheap on you...'''
         }
       ]
     }

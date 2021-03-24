@@ -505,9 +505,7 @@
       description: '''You've forgotten how to walk, and can never learn again, so you will have to crawl on all fours from now on. Fortunately you will have no pains from walking on all fours either.
 
       It may feel weird for you to go out at first, but you'll make for a cute pet I'm sure.'''
-      transformation: '''demon: I gotta say it's quite amusing watching you trying to stand up, but let me save you some struggle:
-
-      demon: You will spend the rest of your life on all fours no matter what you do, so you better get used to it. It will be easier if you just embrace a pet's life, trust me.'''
+      transformation: '''demon: I gotta say it's quite amusing watching you trying to stand up, but let me save you some struggle: You will spend the rest of your life on all fours no matter what you do, so you better get used to it. It will be easier if you just embrace a pet's life, trust me.'''
       tags: ["pet", "extreme"]
     }
     {
