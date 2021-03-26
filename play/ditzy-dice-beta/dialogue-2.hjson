@@ -21,7 +21,7 @@
 
           demon: Do you accept?
           '''
-        options: [ "no", "yes" ]
+        options: [ "no", "woman", "man" ]
       }
       {
         id: "no"
@@ -39,18 +39,74 @@
         endpoint: "leave"
       }
       {
-        id: "actually accept"
-        title: "Actually... I'll accept."
+        id: "man"
+        title: '''Yes, transform me.'''
         text: '''
-          player: Yea... actually, this is too good of an opportunity to pass up. I'll accept.
+          player: Yes, I accept, transform me.
+
+          demon: Gladly! I think you'll find this quite enjoyable.
+          '''
+        options: [ "transforming" ]
+      }
+      {
+        id: "woman"
+        title: '''Yes, I'm already a woman.'''
+        text: '''
+          player: Yes, I accept. And I'm already a woman, so no need to transform me.
+
+          demon: Great! Saves me some mana. You look good too, by the way. Maybe a bit plain, but we should have that sorted in just a bit, heh.
           '''
         options: [ "accepted" ]
       }
       {
-        id: "yes"
-        title: '''Yes'''
+        id: "actually accept"
+        title: "I changed my mind. I accept!"
         text: '''
-          player: Yes, I accept.
+          player: Wait! I changed my mind. This is too good an opportunity to pass up. I'll accept.
+          '''
+        options: [ "gender" ]
+      }
+      {
+        id: "gender"
+        title: "Next"
+        text: '''
+          demon: Great! So are you a man, or a woman?
+          '''
+        options: [ "actually man", "actually woman" ]
+      }
+      {
+        id: "actually man"
+        title: '''I'm a man, transform me.'''
+        text: '''
+          player: I'm a man, so I guess you'll have to transform me.
+
+          demon: Gladly! I think you'll enjoy this...
+          '''
+        options: [ "transforming" ]
+      }
+      {
+        id: "actually woman"
+        title: '''I'm already a woman.'''
+        text: '''
+          player: I'm already a woman. Let's get started!
+
+          demon: Brilliant, that saves me some mana transforming you. You look good too, by the way. Maybe a bit plain, but that shouldn't be the case for too much longer, ha!
+          '''
+        options: [ "accepted" ]
+      }
+      {
+        id: "transforming"
+        title: '''Next'''
+        text: '''
+          All of a sudden you feel a warm, tingly sensation in your skin, slowly spreading deeper into your body. As it does you can't help but study yourself. Your skin seems a little bit softer, your hands a little bit leaner, and as you touch your chin it is smoother than you could ever have managed to shave.
+
+          Meanwhile, the world seems to grow just a bit larger around you, or is it you that's getting a little bit smaller? Yet your clothes still seem to mostly fit, if anything they seem a little bit tighter around the hips and chest than you're used to. Although your pants do feel unusually roomy around your...
+
+          player: Uh, oh... it's... it's gone. My, eeh...
+
+          demon: Of course. What did you expect?
+
+          As the feeling of warmth drain away you feel unusual, but good. You're a little bit shorter, your hair's a bit longer hair and you have a few modest curves where you used to have none. Losing your manhood may take a little while getting used to but otherwise you're still very much you, just female.
           '''
         options: [ "accepted" ]
       }
@@ -58,8 +114,6 @@
         id: "accepted"
         title: '''Next'''
         text: '''
-          demon: Great! You look good. A bit plain perhaps, but I'm sure we will get that sorted soon enough. Hah!
-
           demon: Now about this game. You will play 3 rounds. As you play you may find yourself picking up bonus rolls. These are rolls you will have to make in an extra bonus round. Finish those and you walk away with all the changes and rewards you've collected.
 
           demon: Sounds simple? It is, and I'll explain the details as you go. Let's get started!

@@ -12,7 +12,7 @@
       description: '''No matter what you put on, you always find it is a few sizes too small. It's not going to be too uncomfortable, just a bit tight.
 
       You may look a little silly though, but in a sexy way.'''
-      transformation: '''You notice that your clothes are starting to feel a bit thight. But you're not, your clothes are shrinking! No need to blush though, and don't bother changing, you'll find even the biggest sweatshirts will be straining to contain you now.'''
+      transformation: '''You notice that your clothes are starting to feel a bit thight. But you're not growing, your clothes are shrinking! No need to blush though, and don't bother changing, you'll find even the baggiest of sweatshirts will be straining to contain you now.'''
     }
     {
       id: "whale tail"
@@ -35,7 +35,7 @@
 
       player: Uuh... okay?
 
-      demon: See, there you go! now just remember to show off those puppies at all times and you'll be fine.'''
+      demon: See, there you go! Now just remember to show off those puppies at all times and you'll be fine.'''
       tags: ["bimbo"]
     }
     {

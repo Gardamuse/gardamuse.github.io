@@ -13,7 +13,7 @@
       description: '''Your laugh is always a cute giggle, and you'll giggle almost constantly. There is pretty much nothing that won't make you laugh.
 
       If you try really hard you can keep it together, but only for a short while.'''
-      transformation: '''player: Hehehe... No I am taking this seriously! Haha, it's just that everything seems so funny all of a sudden!'''
+      transformation: '''player: Hehehe... No I am taking this seriously! It's just that everything seems so funny all of a sudden, haha!'''
     }
     {
       id: "talkative"
@@ -282,7 +282,7 @@
         {
           id: "slut"
           name: "Slut"
-          description: '''If they look good, you want to have sex with them. So what if they're married? No one will find out you'll just have a quickie here and now.'''
+          description: '''If they look good, you want to have sex with them. So what if they're married? No one will find out if you just have a quickie here and now.'''
           transformation: '''"Is it wrong to want to fuck the Devil?" you ask yourself. Cus you kind of super want to pound that demonic dick!'''
         }
         {
@@ -425,8 +425,8 @@
     {
       id: "maid to serve"
       name: "Maid to Serve"
-      thumb: ""
-      art: ""
+      thumb: "art/maid.webp"
+      artist: "Gardamuse"
       description: '''Just because you're becoming a bimbo doesn't mean you can't be helpful! In fact, you find it very hard to avoid lending a hand when asked to tidy up. How strong is that need and how long do you have to do what you're told? Well let's find out...'''
       transformation: ''''''
       type: "numeric"
@@ -440,7 +440,7 @@
         {
           id: "2"
           name: "Subservient"
-          description: '''When asked (or ordered) to perform a task you'll find it nearly impossible to disobey until you have accomplished it. You also find it hard to talk back to anyone who's ordered  you in the past and will compulsively make yourself helpful if you have not been ordered to do something in the last two hours.'''
+          description: '''When asked (or ordered) to perform a task you'll find it nearly impossible to disobey until you have accomplished it. You also find it hard to talk back to anyone who's ordered you in the past and will compulsively make yourself helpful if you have not been ordered to do something in the last two hours.'''
           transformation: ''''''
         }
         {

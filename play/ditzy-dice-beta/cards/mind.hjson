@@ -115,6 +115,7 @@
 
           player: Ooh... wet? Fuck... uh? Wha...?
           '''
+          tags: ["extreme"]
         }
       ]
     }
@@ -185,13 +186,15 @@
 
           You'll still be able to recognize people if you have met them a few times, but try to give them short easy nicknames, or the may be upset you don't remember their name.'''
           transformation: '''The lights are on, but no one is home. You're probably going to need someone looking after you all the time, but then again, who would leave an animal as dumb as you unattended? Surely someone will happily adopt you as a pet soon enough.'''
+          tags: ["extreme"]
         }
       ]
     }
     {
       id: "attention"
       name: "Attention Span"
-      thumb: ""
+      thumb: "art/education-4.webp"
+      art: "Gardamuse"
       description: '''How long you are able to concentrate on a single task and block out distractions.
 
       Focusing on stuff is going to get a lot harder for you, so hopefully that wasn't something you needed to do.'''
@@ -208,6 +211,8 @@
         {
           id: "attention 1"
           name: "Inattentive"
+          thumb: "art/education-4.webp"
+          art: "Gardamuse"
           description: '''Whenever you listen or read something, it won't be very long until you stop paying full attention.
 
           You'll probably miss important things every now and again.'''
@@ -216,12 +221,16 @@
         {
           id: "attention 2"
           name: "Unfocused"
+          thumb: "art/education-3.webp"
+          art: "Gardamuse"
           description: '''You just can't seem to focus on any one thing for too long.'''
           transformation: '''demon: Better find someone to drive you from now on since focusing on the road could be tricky. Also, better keep to the back seat so you don't end up 'distracting' the driver as well.'''
         }
         {
           id: "attention 3"
           name: "Distracted"
+          thumb: "art/education-2.webp"
+          art: "Gardamuse"
           description: '''You are always thinking of something else and you often walk away from things half-way through.
 
           It only takes a small interruption and you've forgotten what you where doing.'''
@@ -230,6 +239,8 @@
         {
           id: "attention 4"
           name: "Absent-Minded"
+          thumb: "art/education-1.webp"
+          art: "Gardamuse"
           description: '''You start doing stuff, but then its like something important always comes up, or your thoughts just drift away in the middle of a sentence. Don't expect to be able to do anything for more than a few minutes.
 
           "What was I doing again?" is something you'll be asking yourself a lot.'''
@@ -238,10 +249,13 @@
         {
           id: "attention 5"
           name: "Completely Lost"
+          thumb: "art/education-1.webp"
+          art: "Gardamuse"
           description: '''You will basically have no attention span, not even enough to speak full sentences before trailing off. If no one is there to remind you every few seconds, you couldn't even concentrate long enough to suck a cock.
 
           Any even slightly complicated task that takes more than a few seconds will be impossible for you since you'll forget what you were doing.'''
           transformation: '''Good luck getting through a meal without forgetting you were eating. You might actually need a leash just to avoid wandering off and getting lost as you constantly forget what you're doing mid thought.'''
+          tags: ["extreme"]
         }
       ]
     }
@@ -387,43 +401,53 @@
           demon: Good pet. All you...
 
           demon: Good for.'''
+          tags: ["pet"]
         }
       ]
     }
-    /*{
+    {
       id: "willpower"
       name: "Willpower"
-      thumb: ""
-      description: '''Are you the one making decisions, or the one following orders?'''
+      thumb: "art/maid.webp"
+      artist: "Gardamuse"
+      description: '''Willpower is interesting in that if you don't have the mental capacity to back it up it can fall a bit flat, but at the same time, if you are not too ditzy, it can make you seem a lot more in control and more able to power through tasks even if you don't really understand them.'''
       transformation: ''''''
       type: "numeric"
       levels: [
         {
           id: "dominant"
           name: "Dominant"
-          description: '''You prefer taking decisions for both yourself and others.'''
-          transformation: ''''''
+          description: '''You take the lead whenever possible, and your presence somehow always feels demanding. It turns out that a lot of people will just do what they're told if you sound confident enough.'''
+          transformation: '''demon: A dominatrix in the making, huh? Maybe not what I expected, but that's just fine by me.'''
         }
         {
           id: "independent"
           name: "Independent"
-          description: '''You have no problem making decisions for yourself.'''
+          description: '''You have no problem making decisions for yourself and you'll only follow orders when it suits your own purposes, but you don't feel like you always have to be in charge.'''
           transformation: ''''''
         }
         {
           id: "submissive"
           name: "Submissive"
-          description: '''You prefer being told what to do, and let others take control. You never say no, and you don't want to either. Yes feels so much better.'''
-          transformation: ''''''
+          description: '''You prefer being told what to do, and let others take control. You rarely say no, and you don't want to either. Yes feels so much better.'''
+          transformation: '''demon: You do feel a lot better when you let other's take control don't you?
+
+          player: Y-yes... master.
+          '''
         }
         {
           id: "mindless"
           name: "Mindless"
-          description: '''You will do whatever you're told and should someone not be around to tell you, you'll find someone to order you around. Being a mindless slave is so much better.'''
-          transformation: ''''''
+          description: '''You do whatever you're told and should someone not be around to tell you, you'll find someone to order you around. Being a mindless slave is so much better.'''
+          transformation: '''You look expectantly at the demon in front of you. He'll tell you what to do, surely? Maybe he will want something soon, and then he'll tell you. Best just remain quiet until you get a task.
+
+          demon: Ah, that card. I was starting to wonder why you looked so... eager all of a sudden. Don't just stand there, keep playing!
+
+          player: Yes master!
+          '''
         }
       ]
-    }*/
+    }
     {
       id: "name"
       name: "A Fitting Name"
@@ -480,7 +504,8 @@
     {
       id: "third person"
       name: "Third Person"
-      thumb: ""
+      thumb: "art/third-person.webp"
+      artist: "Gardamuse"
       description: '''From now on you can only talk in third person.
 
       If you seem smart otherwise people may just think you're a bit weird. If you don't, well, people will certainly think you are dumb.
@@ -491,6 +516,8 @@
     {
       id: "valley girl"
       name: "Valley Girl"
+      thumb: "art/valley-girl.webp"
+      artist: "Gardamuse"
       description: '''You always sound, like, so uncertain? Ending each sentence in, like, a rising pitch? And you always sprinkle in lots of like, totally unnecessary words into your sentences or whatever?
 
       Most people will assume you're pretty dumb, even if you're not.'''
