@@ -12,6 +12,7 @@
 
     Costs 1 mana per 20 minutes. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.
     '''
+    transformation: '''demon: It might be the most common superpower of all, but that's only because it's so GOOD! Being strong as an ox and tough enough to shrug off small arms fire? Almost makes up for being a bimbo, right?'''
   }
   {
     id: "spell: transform other"
@@ -21,6 +22,7 @@
 
     Costs 1 mana per cast. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.
     '''
+    transformation: '''demon: Going to make more people into girls like yourself, huh? The poor guys you lure in won't know what hit them! Speaking of which, we better wrap this up quick before you want to start charging up your mana reserves...'''
   }
   {
     id: "spell: transform body"
@@ -30,6 +32,7 @@
 
     Costs 1 mana per cast. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.
     '''
+    transformation: '''demon: What? You don't think the transformation cards you got are good enough? Fine, be that way. Change yourself however you like! But by the time we are done, what you want might not be so far off from what you end up as...'''
   }
   {
     id: "spell: mind drain"
@@ -39,6 +42,7 @@
 
     Costs 1 mana per cast. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.
     '''
+    transformation: '''demon: Not satisfied being the only bimbo in town, or maybe just jealous of all the "smart peeps"? Well, with this spell, given enough time you can make the whole city join you in blissful ignorance! And hey, why not top yourself off too? What's the harm in that?'''
   }
   {
     id: "spell: forever young"
@@ -48,6 +52,7 @@
 
     Costs 3 mana per week. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.
     '''
+    transformation: '''demon: Who wants to live forever? Well you might not live FOREVER, but you can get damn close so long as you keep screwing and masturbating regularly! Huh, I guess this means those Chinese sages were on to something, doesn't it?'''
   }
   {
     id: "spell: healing"
@@ -57,6 +62,7 @@
 
     Costs 1 mana per cure. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.
     '''
+    transformation: '''demon: With this spell, you're actually sort of morally obliged to fuck everyone you can. The world requires your healing touch! Bang it out and save the world!'''
   }
   {
     id: "spell: possess"
@@ -64,8 +70,9 @@
     thumb: "art/spell-book.webp"
     description: '''You take full control of a targets body, but not their mind. You are able to move, talk, see and hear as if you are them. Target is in a trance until the spell is over. You can choose whether the target should remember what happened during the trance, or forget it.
 
-    Costs 1 mana per 15 minutes. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.
+    Costs 1 mana per 30 minutes. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.
     '''
+    transformation: '''Sure it might be fun getting to be someone else for a while, but don't forget that you'll eventually have to go back to being yourself. There's no getting out of what the cards have given you.'''
   }
   {
     id: "spell: issue command"
@@ -75,6 +82,7 @@
 
     Costs 1 mana per command. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.
     '''
+    transformation: '''demon: Well, well, well. Clearly someone isn't ready to give up control! With this spell you should be able to turn the tables at least every now and then, though be careful. If you're submissive enough this might just give even more power to your owner.'''
   }
   {
     id: "spell: telepathy"
@@ -84,6 +92,7 @@
 
     Costs 1 mana per 15 minutes. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.
     '''
+    transformation: '''demon: Reading minds and projecting thoughts? You'll make a hell of a detective if you can keep it together long enough to solve cases rather than just sleeping with all the witnesses.'''
   }
   {
     id: "spell: telekinesis"
@@ -91,17 +100,19 @@
     thumb: "art/spell-book.webp"
     description: '''You can lift, move and manipulate nearby objects using up to 1 metric ton of force. Please be careful if you use it on people.
 
-    Costs 1 mana per hour. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.
+    Costs 1 mana per 20 minutes. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.
     '''
+    transformation: '''demon: If you ever wanted to be a superhero or villain, here's your opportunity. With the ability to shift great weights with your mind does come great responsibility after all! Just don't let your mana get too low, so screw responsibly when supering!'''
   }
   {
     id: "spell: slow time"
     name: "Spell: Slow Time"
     thumb: "art/spell-book.webp"
-    description: '''You learn how to slow time around you, down to a complete stand still should you want it. Only slowing time costs correspondingly less mana than stopping it entirely. Mana cost is based on your internal time.
+    description: '''You learn how to slow time around you, down to a complete stand still should you want it. Just slowing time costs correspondingly less mana than stopping it entirely. Mana cost is based on your internal time.
 
-    Costs 1 mana per hour. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.
+    Costs 1 mana per 20 minutes. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.
     '''
+    transformation: '''demon: The world will be your oyster when you can stop time on command! Who can stop you when you're able to act with total immunity within your own frozen world? Though let's face it, you will probably just end up using it for kinky play and to score with guys.'''
   }
   {
     id: "spell: time travel"
@@ -111,6 +122,7 @@
 
     Costs 1 mana per minute casting, or 1 mana to travel to a marker. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.
     '''
+    transformation: '''demon: A time traveling bimbo witch? No way that that could go wrong. Fortunately this spell is completely paradox proof, which is good because there is no way you won't end up fucking your own great, great grandfather or whatever.'''
   }
   {
     id: "spell: flight"
@@ -119,6 +131,7 @@
     description: '''You learn how to fly; at great speeds or just hovering in place.
 
     Costs 1 mana per hour. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.'''
+    transformation: '''Think happy thoughts! Fucking, sucking, rubbing and slapping if that's your thing, since to fly you're first going to need to hit a different sort of high.'''
   }
   {
     id: "spell: invisibility"
@@ -128,6 +141,7 @@
 
     Costs 1 mana per hour. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.
     '''
+    transformation: '''demon: Where did you go? You just vanished!? Ha just kidding, you're going to need more mana before you can pull that off, but it should make for a useful party trick. Just be careful when peeping that the spell doesn't wear off when you're slicking in the mens changing room...'''
   }
   {
     id: "spell: phasing"
@@ -135,8 +149,9 @@
     thumb: "art/spell-book.webp"
     description: '''You can phase yourself and up to a metric ton of material, including other people. While phasing, you can float up, down and through any object as if it wasn't there, and you look slightly transparent. To phase material, some part of it must be very close to you.
 
-    Costs 0.5 mana per hour per kg. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.
+    Costs 1 mana per 2 minutes. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.
     '''
+    transformation: '''demon: With the ability to phase through any material, getting out of jail if you're caught working the street corners as a prostitute will be a breeze! Not that you're going to end up doing that. But if you do...'''
   }
 
   /*{
@@ -146,61 +161,72 @@
     description: '''You can turn the dead into living, but they will become mindless bimbo versions of themselves. Costs 1 mana per day per bimbo.
 
     You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.'''
+    transformation: ''''''
   }*/
   {
     id: "gold"
     name: "Gold"
     thumb: "art/jingming-pan-gold.webp"
     artist: "Jingming Pan"
-    description: '''Money makes the world go 'round they say. Plenty of people have bargained their soul for this alone, let me tell you. But take this card and you'll get it for free.
+    description: '''Money makes the world go 'round they say. And let me tell you, plenty of people have bargained their soul for this alone. But take this card and you'll get it for free.
 
     Let's see how much you get.'''
+    transformation: ''''''
     type: "numeric"
     levels: [
       {
         id: "gold 1"
         name: "$10 Thousand"
         description: '''It's not that much, but enough for some nice things or as an extra buffer.'''
+        transformation: '''demon: Congratulations, you've screwed yourself! Now you're a bimbo and just have 10K USD to show for it. It may seem like a lot, but let's face it, it might not even cover your rent for a full year. But hey at least you can get a new wardrobe and have some fun.'''
       }
       {
         id: "gold 2"
         name: "$100 Thousand"
-        description: '''A sizeable amount, but probably not enough to live of for very long either.'''
+        description: '''A sizeable amount, but probably not enough to live off for very long either.'''
+        transformation: '''demon: You turned yourself into a bimbo for just 100K USD? Well, surprisingly, people have done a lot more for a lot less, and you should be able to live it up for at least a couple of years before the money starts to run dry. But by that time, I'm sure you've been able to find a nice sugar daddy.'''
       }
       {
         id: "gold 3"
         name: "$1 Million"
         description: '''A fair amount of money! Buy a house, save to get some income from rent, or spend it all on luxury clothing!'''
+        transformation: '''demon: Well, well, well, look at this millionaire! Don't go crazy now, that won't last a full lifetime, especially if you're planning on living it up, but you'll be set for a good long while before you need to worry about begging your new 'daddy' for spending cash.'''
       }
       {
         id: "gold 4"
         name: "$10 Million"
         description: '''A lot of money. If you don't waste it, this will last you a lifetime. But you gotta afford yourself some luxuries too, right?'''
+        transformation: '''demon: Hey, for ten million dollars I imagine a lot of people would have taken the risks you have! Maybe this whole 'bimbo' thing is going to work out well for you after all?'''
       }
       {
         id: "gold 5"
         name: "$100 Million"
         description: '''A luxury home, cars, boats and fancy parties. As long as you don't go overboard this is enough for a long life of luxuries.'''
+        transformation: '''demon: One hundred million dollars! How do I even have that much earthly currency to give you, I hear you wonder? Lots of souls in the right places, simple as that. Well, if you're able to understand and enjoy this cash, you're coming out of this a real winner!'''
       }
       {
         id: "gold 6"
         name: "$1 Billion"
         description: '''Live life however you want! Cost will never be an issue. Any house, yacht or other item you could reasonably want are within your power to have.'''
+        transformation: '''demon: What do you want? Anything you can name, it's yours! Even a bimbo like you will have trouble burning through this much cash in a single lifetime!'''
       }
       {
         id: "gold 7"
         name: "$10 Billion"
         description: '''You fancy living out the rest of your life throwing extravagant parties on one of your superyachts? Maybe take your private yet over to your private island? Go ahead. With this amount of money, nothing is out of reach.'''
+        transformation: '''The world is yours for the taking. Buy islands, or maybe buy popular sci-fi franchises and mess with them so that everyone turns into a bimbo and the whole thing becomes a porn parody! With this much money, who's going to stop you?'''
       }
       {
         id: "gold 8"
         name: "$100 Billion"
-        description: '''You are now among the few top richest people in the world. Have whatever you want, build your own town, change the world. No one can touch you.'''
+        description: '''You are now among the very few richest people in the world. Have whatever you want, build your own city, change the world. No one can touch you.'''
+        transformation: '''Do you want to take over a small island country and turn it into a bimbo paradise were only hunky men and buxom women can live and all taxes are paid in the form of sex with you? That's the kind of thing you can make happen with this amount of cash!'''
       }
       {
         id: "gold 9"
         name: "$1 Trillion"
         description: '''You are by far the richest person in the world. The only people that come close are the few rulers of antiquity who personally owned entire countries. Perhaps you could give that a go too?'''
+        transformation: '''This amount of money rivals the GDP of most countries! If you're not a brain dead doll or pet, the power you wield is incredible. And if you are dumb as a rock, well, your owner is going to be VERY happy with you!'''
       }
     ]
   }

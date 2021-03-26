@@ -1,0 +1,30 @@
+{
+name: "Devious Dialogue"
+date: "2021-03-26"
+text: '''
+# Features
+    * What types of cards you will see can now be adjusted from the newly added settings menu.
+        * The filter will make corresponding cards invisible in your collection too, but they will be there again if you change your filter.
+    * Transformations are now described in-between each round.
+        * Most descriptions written by Duhad who did an incredible job! Thank you <3
+    * Upgraded the text window to a full dialogue system.
+    * Added a gender transformation description in the intro.
+    * Added 2 new cards.
+    * Added a few new card illustrations.
+
+# Gameplay
+    * Your hand is now emptied after each round.
+    * Can now use maximum 5 dice, up from 4.
+
+# UI
+    * Moved dice location to middle of screen for large screens.
+    * Dialogue window is now styled as a chat window.
+        * Status info (current round, bonus cards) has been moved elsewhere.
+    * Added button for showing all picked cards or only cards currently in hand. Defaults to cards currently in hand.
+
+# Minor
+    * Fixed that the end screen showed parent cards instead of the specific level of card you picked.
+    * The Willpower card previously referenced on the Tummy Time card is now in the game.
+
+'''
+}

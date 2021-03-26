@@ -9,6 +9,8 @@
       name: "Were-Bimbo"
       thumb: ""
       description: '''Whenever there is a full moon, you transform into a bimbo (-1 intelligence, +1 breast size, +1 lip size, +1 makeup) and gain ass-length, platinum blonde hair.'''
+      transformation: ''''''
+      tags: ["bimbo"]
     }*/
     {
       id: "panty dropper"
@@ -17,13 +19,17 @@
       description: '''You sometimes get an irresistible urge to take off your panties. You can't wear that pair again until you've changed into another pair at home. If already at home, you must first buy a new pair.
 
       This will happen at least once a month but max 5 times a week.'''
+      transformation: '''Without really thinking you remove your underwear. Having removed them, you don't know why, but you just can't bear to put that pair back on for now.'''
+      tags: ["slut"]
     }
     {
       id: "milkspurt"
       name: "Milkspurt"
       thumb: "art/cathyl-card.webp"
       artist: "Luxu"
-      description: '''Randomly, 1 to 4 times a month, your breasts will suddenly start leaking milk. Over the span of half-an-hour you will produce your combined breast volume in milk, or 1 litre, whichever is more.'''
+      description: '''Randomly, 1 to 4 times a month, your breasts will suddenly start leaking milk. Over the span of 10 minutes you will produce your combined breast volume in milk, or 1 litre, whichever is more.'''
+      transformation: '''Did you spill something on your shirt? Oh, no wait, that's the milkspurt taking effect. Might be a good idea to carry an extra shirt or bra with you, because in a few minutes, that thing will be absolutely soaked.'''
+      tags: ["lactation"]
     }
     {
       id: "random orgasms"
@@ -33,6 +39,12 @@
       description: '''You will experience orgasms at random time intervals and with no warning. Let's see how good you are at looking like its raining while you're cumming your brains out in the middle of a meeting.
 
       This will happen at least once a month, but no more than 5 times a week.'''
+      transformation: '''demon: Random Orgasms, hm? Well don't worry, as embarrassing as they might be, the chances of them happening at any given time are...
+
+      player: Oooh, ooooh, fuuuck...! Aaaah...
+
+      demon: Oh. Well on the bright side, you'll have at most four more of them. This week.'''
+      tags: ["slut"]
     }
     {
       id: "public masturbation"
@@ -42,6 +54,8 @@
       description: '''You will sometimes get a sudden, irresistible urge to masturbate. You will immediately start rubbing your clit and will be unable to stop until you cum.
 
       This will happen at least once a month, but no more than 5 times a week.'''
+      transformation: '''demon: Who doesn't love a little self love? Sure it might be uncontrollable and random, but as long as you know where you can hide to rub one out, you should be fine. Just maybe avoid dining out at places without long tablecloths.'''
+      tags: ["slut"]
     }
     {
       id: "flash your tits"
@@ -51,6 +65,8 @@
       description: '''You will sometimes get a sudden urge to show your breasts, immediately turning to someone near you, and exposing your breasts for at least 10 seconds.
 
       This will only happen when someone can see you, and will happen at least once a month, but no more than 5 times a week.'''
+      transformation: '''demon: Oh, showing off your breasts already? And don't act like you can't do anything about it, everyone knows you do this regularly, so you clearly enjoy it.'''
+      tags: ["bimbo"]
     }
     {
       id: "in heat"
@@ -58,6 +74,8 @@
       thumb: "art/moaning.webp"
       artist: "Gardamuse"
       description: '''Each month you'll go into heat for five days. When in heat you're going to be continuously horny and unable to think of anything but having sex. Yet no matter how much sex you have during heat, you won't get satisfied, just more horny.'''
+      transformation: '''Do you feel that warmth? Getting a little bit tingly? It could just be regular arousal, or it is the beginning of your first heat, and five days of mindless fucking...'''
+      tags: ["pet"]
     }
   ]
 }

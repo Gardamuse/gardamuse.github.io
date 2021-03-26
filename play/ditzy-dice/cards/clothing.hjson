@@ -11,8 +11,8 @@
       artist: "CrazyCowProductions"
       description: '''No matter what you put on, you always find it is a few sizes too small. It's not going to be too uncomfortable, just a bit tight.
 
-      You may look a little silly though, but in a sexy way.
-      '''
+      You may look a little silly though, but in a sexy way.'''
+      transformation: '''You notice that your clothes are starting to feel a bit thight. But you're not growing, your clothes are shrinking! No need to blush though, and don't bother changing, you'll find even the baggiest of sweatshirts will be straining to contain you now.'''
     }
     {
       id: "whale tail"
@@ -21,6 +21,8 @@
       description: '''Whenever you are not wearing a thong, or it is not showing above your pant- or skirt-line, you become considerably less intelligent (-1 intelligence).
 
       So if you want to think, you better show that thong!'''
+      transformation: '''Geeze, it's so hard to think with such plain jane underwear on... You can hike it up to at least make things a bit less foggy, but it's just not the same without a proper thong!'''
+      tags: ["bimbo"]
     }
     {
       id: "cleavage in focus"
@@ -29,6 +31,12 @@
       description: '''Whenever clothes cover your breasts and you are not showing considerable cleavage, your attention span becomes significantly worse (-1 attention span).
 
       So it's up to you, either you show off your puppies, or you forget what else you were supposed to do.'''
+      transformation: '''demon: What's the matter? Can't focus? Unbutton your shirt and see if that helps.
+
+      player: Uuh... okay?
+
+      demon: See, there you go! Now just remember to show off those puppies at all times and you'll be fine.'''
+      tags: ["bimbo"]
     }
     {
       id: "thigh highs"
@@ -37,6 +45,7 @@
       description: '''Whenever you wear three or more pieces of clothing and none of them are thigh-high stockings, your sex drive becomes much stronger (+2 sex drive).
 
       Thigh highs look hot af, so if you're not wearing yours, you'll be the one feeling hot instead.'''
+      transformation: '''demon: Hey, what are you even wearing right now, knee socks? Well no wonder you're dripping everywhere. You better find a set of thigh highs or strip down, and fast! Otherwise you'll be of no use to anyone in just a bit. Well, maybe of some use.'''
     }
     {
       id: "tummy time"
@@ -45,6 +54,7 @@
       description: '''Whenever clothes cover your tummy, you will find yourself acting more submissive (-1 willpower).
 
       Show your tummy or get used to doing what you're told!'''
+      transformation: '''demon: Uh oh, someones not showing their belly button! You had better pull up that shirt unless you like jumping to act on every catcall you get walking down the street!'''
     }
     {
       id: "tramp stamp"
@@ -53,6 +63,8 @@
       description: '''A suggestive tattoo is now blazoned across your lower back. Anyone who sees this will know just what to expect from you.
 
       You will also become horny much quicker (+2 sex drive) whenever you're wearing pants or panties.'''
+      transformation: '''demon: Feeling hot under the collar? It's probably because you're still wearing panties. With ink like yours you it'd be a crime if that juicy pussy wasn't easy access.'''
+      tags: ["bimbo"]
     }
     {
       id: "choker"
@@ -62,6 +74,8 @@
       description: '''Ever consider what your clothes say about you? How about a choker? Or what about a proper collar? In fact, let's make it really obvious what it says about you.
 
       From now on, whenever you are not wearing a choker saying "BIMBO", "SLUT", "PET" or something similar, you become less intelligent to make up for it (-1 intelligence).'''
+      transformation: '''demon: What's the matter? Think wearing a collar that calls you a 'BIMBO' at all times will make you look dumb? Well sorry to say, it's either look dumb or BE dumb from now on so better smarten up and let the world know what you are, 'SLUT'.'''
+      tags: ["bimbo", "iq"]
     }
     {
       id: "pink to think"
@@ -70,6 +84,118 @@
       description: '''Pink is a great color isn't it? Feminine, sexy, and, well, what more could you want really? In any case, I think you should be wearing it more.
 
       From now on, whenever you are wearing any clothing that is not a shade of pink, you will feel distracted (-1 attention span).'''
+      transformation: '''demon: Look at you, wearing all types of colors... That won't do, now will it? A pretty thing like you should be rocking pink 24/7, otherwise you might not have the attention span to...
+
+      demon: Aaand now you're wandering off.
+
+      demon: GET BACK HERE AND PUT ON SOME DAMN PINK!'''
+      tags: ["bimbo", "iq"]
     }
+    {
+      id: "heels"
+      name: "Heels of Aphrodite"
+      thumb: "art/heels-0004.webp"
+      artist: "Gardamuse"
+      description: '''You'd look great in high heels, but they're so difficult to walk in!
+
+      Let's see if we can change that.
+      '''
+      tags: ["bimbo"]
+      type: "numeric"
+      levels: [
+        {
+          id: "heels 1"
+          name: "Barefoot"
+          thumb: "art/heels-0000.webp"
+          artist: "Gardamuse"
+          description: '''Your feet remain largely unchanged, but you will feel more at ease walking barefoot than before!'''
+          transformation: '''A sudden feeling has you kick off your shoes. It feels so much better to be free and feel the grass under your feet. With no shoes you might get a little dirtier, but does it even matter if you spend most of your days on your back anyways?'''
+        }
+        {
+          id: "heels 2"
+          name: "Low"
+          thumb: "art/heels-0001.webp"
+          artist: "Gardamuse"
+          description: '''You will prefer a little bit of heel on your shoe, but nothing very noticable. You can still basically wear flat shoes should you really want to.
+
+          (1in or 2 cm)'''
+          transformation: ''''''
+        }
+        {
+          id: "heels 3"
+          name: "Business Shoes"
+          thumb: "art/heels-0002.webp"
+          artist: "Gardamuse"
+          description: ''' Your feet will feel the most comfortable in business-style heels, and you'll be swaying your hips just enough as you walk.
+
+          (2in or 4cm)'''
+          transformation: '''demon: Look at Miss Business over here! With shoes like those you could pass for a high power executive or just a modern woman who knows what she wants. And we all know what THAT is.'''
+        }
+        {
+          id: "heels 4"
+          name: "Dinner Shoes"
+          thumb: "art/heels-0003.webp"
+          artist: "Gardamuse"
+          description: ''' These are some proper high heels you're going to be strutting around in. The kind you'd expect to see at fancy dinners. The way your hips will sway as you walk with these on is going attract eyes anytime you leave the room too. Classy.
+
+          (3in or 7cm)'''
+          transformation: '''demon: Very sheek! Girl you're adding class to this joint with every step you take in those classic heels! Good thing you make it look so easy too as they are here to stay.'''
+        }
+        {
+          id: "heels 5"
+          name: "Fuck Me Pumps"
+          thumb: "art/heels-0004.webp"
+          artist: "Gardamuse"
+          description: '''Wow, heels like this will really give you that "ass up, please fuck me" look. No one walking behind you is going to be able to keep their eyes off of your ass the way your hips will swing either, I promise.
+
+          (4in or 10cm)'''
+          transformation: '''demon: Showing off the goods are we? Well, you might not mean to, but you certainly do in those heels! And good luck walking in anything lower. I wouldn't recommend you try, either.'''
+        }
+        {
+          id: "heels 6"
+          name: "Tippy Toes"
+          thumb: "art/heels-0005.webp"
+          artist: "Gardamuse"
+          description: '''At this point you'll probably even like wearing heels to bed just for the nice support they give your feet. Needless to say, your strut is going to be close to hypnotic for anyone behind you.
+
+          (5in or 13cm)'''
+          transformation: '''demon: Why bother with a foot if you're just going to use the toes? Honestly, if you can even walk at all without the support of a nice, long heel it would be a miracle! On the positive side, your ass looks AMAZING!'''
+        }
+      ]
+    }
+    /*{
+      id: "too hot to handle"
+      name: "Too Hot to Handle"
+      thumb: ""
+      description: '''Don't worry about your clothes being too skimpy for cold weather, from now on wearing a jacket in a blizzard is going to feel way too hot in more ways then one! How many layers can be handled before the lust overwhelms you? Let's find out!'''
+      transformation: ''''''
+      type: "numeric"
+      levels: [
+        {
+          id: "1"
+          name: "Single Layer"
+          description: '''Forget 'jacket weather', from now on if you put on a long sleeve shirt over a T-Shirt for more then two hours you'll just get hornier and hornier till you're able to strip down again. Might make fancy events awkward.'''
+          transformation: ''''''
+        }
+        {
+          id: "2"
+          name: "Skimpy"
+          description: '''Polite society might not appreciate it, but if you're wearing enough cloth to cover more than your feet, thighs and chest you'll be in for a steamy time after two hours. At least the clubs won't mind your new look.'''
+          transformation: ''''''
+        }
+        {
+          id: "3"
+          name: "Barely Anything"
+          description: '''No Shoes, No Shirt? You're not going to get any service anymore as anytime you try and put on more than the bare minimum needed to cover your tits, ass and pussy, you'll find yourself burning up with lust after just a couple of hours! You can still sunbathe on the beach, but that's about it for public spaces.'''
+          transformation: ''''''
+        }
+        {
+          id: "4"
+          name: "Nude"
+          description: '''Better get used to running when you go out as if you're caught wearing ANYTHING for more than two hours you'll end up so hyper sexed you'll literally tear it all off to get what you need!'''
+          transformation: ''''''
+        }
+      ]
+    }*/
   ]
 }
