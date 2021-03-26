@@ -7,13 +7,13 @@
   text-align: center;
 }
 
-.player {
+.flash-player {
   margin: auto;
   width: 700px;
   height: 500px;
 }
 
-.player embed{
+.flash-player embed {
   border: solid 1px black;
 }
 
