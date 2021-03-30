@@ -1,12 +1,16 @@
 {
-  id: "default"
+  id: "ditz"
   nodes: [
     {
       id: "intro"
       title: ""
       text: '''
-        demon: Boring.
+        demon: Ditz.
         '''
+      options: ["end"]
+    }
+    {
+      id: "end"
       endpoint: "end"
     }
   ]

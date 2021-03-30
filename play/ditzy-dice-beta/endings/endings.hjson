@@ -1,0 +1,67 @@
+[
+  {
+    id: "default" # This ID has to match the name and id of the ending dialogue tree file
+    title: "Normal" # The title of this ending
+    likelihood: 1000 # The ending with the lowest likelihood will be chosed if multiple are viable
+    requirements: '''
+      all >= 0
+    '''
+  }
+  {
+    id: "bimbo"
+    title: "Bimbo"
+    likelihood: 736
+    requirements: '''
+      iq >= 2
+    '''
+  }
+  {
+    id: "ditz"
+    title: "Bimbo Ditz"
+    likelihood: 331
+    requirements: '''
+      mind >= 8
+      OR intelligence >= 4
+      OR memory >= 4
+      OR attention >= 4
+      OR sum(intelligence, memory, attention) >= 8
+      OR sex drive >= 5 AND cum your brains out >= 1
+    '''
+  }
+  {
+    id: "witch"
+    title: "Witch"
+    likelihood: 130
+    requirements: '''
+      spell >= 3 AND iq <= 2
+    '''
+  }
+  {
+    id: "pet"
+    title: "Pet"
+    likelihood: 274
+    requirements: '''
+      pet >= 2 AND iq >= 2
+    '''
+  }
+  {
+    id: "cow"
+    title: "Cow"
+    likelihood: 77
+    requirements: '''
+      pet >= 2 AND lactation >= 1
+    '''
+  }
+
+  /*{
+    title: "Lost in Time"
+    requirements: [
+      {
+        cards: ["spell: time travel", "memory"]
+        tags: []
+        intensity: 0
+      }
+    ]
+    text: '''What a great wonder it is to be able travel in time. It's such a shame you've kinda forgotten where you came from, and where you were going, and, how did you get these powers again?'''
+  }*/
+]
