@@ -1,5 +1,10 @@
 {
   id: "witch"
+  title: "Witch"
+  likelihood: 130
+  requirements: '''
+    spell >= 3 AND iq <= 2
+  '''
   nodes: [
     {
       id: "intro"

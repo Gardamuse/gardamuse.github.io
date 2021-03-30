@@ -1,5 +1,10 @@
 {
   id: "cow"
+  title: "Cow"
+  likelihood: 77
+  requirements: '''
+    pet >= 2 AND lactation >= 1
+  '''
   nodes: [
     {
       id: "intro"

@@ -1,5 +1,15 @@
 {
   id: "ditz"
+  title: "Bimbo Ditz"
+  likelihood: 331
+  requirements: '''
+    mind >= 8
+    OR intelligence >= 4
+    OR memory >= 4
+    OR attention >= 4
+    OR sum(intelligence, memory, attention) >= 8
+    OR sex drive >= 5 AND cum your brains out >= 1
+  '''
   nodes: [
     {
       id: "intro"

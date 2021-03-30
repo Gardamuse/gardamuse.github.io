@@ -1,5 +1,10 @@
 {
   id: "bimbo"
+  title: "Bimbo"
+  likelihood: 736
+  requirements: '''
+    iq >= 2
+  '''
   nodes: [
     {
       id: "start"

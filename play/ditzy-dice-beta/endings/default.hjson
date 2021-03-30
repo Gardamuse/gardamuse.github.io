@@ -1,5 +1,10 @@
 {
   id: "default"
+  title: "Normal" # The title of this ending
+  likelihood: 1000 # The ending with the lowest likelihood will be chosed if multiple are viable
+  requirements: '''
+    all >= 0
+  '''
   nodes: [
     {
       id: "intro"

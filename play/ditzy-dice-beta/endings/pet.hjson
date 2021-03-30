@@ -1,5 +1,10 @@
 {
   id: "pet"
+  title: "Pet"
+  likelihood: 274
+  requirements: '''
+    pet >= 2 AND iq >= 2
+  '''
   nodes: [
     {
       id: "intro"
