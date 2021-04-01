@@ -3,16 +3,22 @@ name: "Epic Epilogues"
 date: "2021-03-29"
 text: '''
 # Features
-
+  * When all rounds are done, there is now an epilogue that is determined from which cards you got.
+  * Added abilities.
+  * Added a new resource: mana.
 
 # Gameplay
-
+  * Many stages of the game will now give you 2 dice by default.
+  * It is now possible to sell dice. Each dice sold will give you mana.
+  * Dice will no longer silently reroll if they landed on the same value as an already rolled die.
+      * This means you will see a lot more duplicate rolls.
+  * Selecting a card that was chosen by many dice will gain you 1 mana per dice beyond the first.
 
 # UI
-
+  * Moved status indicators closer to center of screen.
 
 # Minor
-
+  * It is now possible to skip the intro sequence to jump directly into the game.
 
 '''
 }

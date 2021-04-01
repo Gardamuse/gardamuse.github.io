@@ -2,11 +2,17 @@
   id: "introStage"
   nodes: [
     {
-      id: "intro"
+      id: "skipIntro"
       title: ""
       text: '''
         demon: Have you ever made a deal with the devil? Well, it's not as bad as they say.
-
+        '''
+      options: [ "skip", "intro" ]
+    }
+    {
+      id: "intro"
+      title: ""
+      text: '''
         demon: Here's the deal. I got a deck of cards. Many of those cards will reward you with great gifts and powers. You could become the most powerful person on the planet.
         If you draw a card with such a gift, it will be yours for as long as you live. Some of the powers could even give you immortality, so that might not be a short time.
 
@@ -122,6 +128,11 @@
     {
       id: "start"
       title: "Start"
+      endpoint: "drawStage"
+    }
+    {
+      id: "skip"
+      title: "Skip intro"
       endpoint: "drawStage"
     }
   ]

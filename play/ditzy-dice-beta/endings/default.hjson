@@ -12,6 +12,10 @@
       text: '''
         demon: Boring.
         '''
+      options: ["end"]
+    }
+    {
+      id: "end"
       endpoint: "end"
     }
   ]
