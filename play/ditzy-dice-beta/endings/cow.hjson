@@ -3,15 +3,55 @@
   title: "Cow"
   likelihood: 77
   requirements: '''
-    pet >= 2 AND lactation >= 1
+    pet >= 2 AND iq >= 2 AND lactation >= 1
   '''
   nodes: [
     {
       id: "intro"
       title: ""
       text: '''
-        demon: Cow.
-        '''
+      demon: Well no pretending you're still a human at this point. Better get used to life as a hu-cow or just a prized milking heifer.
+
+      demon: Normally I’d leave you on your own, but I just hate to see good milk go to waste, so how about I find someone who can help you with all of this dairy?
+
+      demon: I imagine friends and family might like to try and help you, but a cow is a big responsibility… Maybe you should trust the experts. I think there is a place nearby that knows how to deal with ‘special cases’ like you.
+      '''
+      options: ["a1", "b1"]
+    }
+    {
+      id: "a1"
+      title: "Rely on your friends"
+      text: '''
+      demon: Suit yourself, but don’t be surprised if you prove too much for them to handle...
+
+      And with that you're transported to your family home, shocking the hell out of everyone as you make a milky splash with your arrival!
+
+      Your friends and family do everything they can to make life easier for you and to help you adjust, but eventually it becomes clear that you're not going to be able to live a normal life the way you are.
+
+      It starts with daily milkings, then keeping you out of areas of the house they just can’t afford to keep cleaning and eventually you find yourself living in a makeshift barn stall. Meanwhile your milkings go from slightly awkward time spent having your breasts very carefully massaged, to just having someone come in to squeeze you dry in the mornings.
+
+      At least your friends come by to ‘breed’ you every day so you're never left wanting or overly bored.
+
+      Eventually you learn that your parents have just been calling you ‘the cow’ and have seemingly forgotten that you were ever their daughter… Or was it son? Even you can’t remember, life as a cow really has just caused everything to become so simple that you barely need to think.
+
+      And so life goes on… Oh well, no use crying over spilled milk, right?
+      '''
+      options: ["end"]
+    }
+    {
+      id: "b1"
+      title: "Trust the experts at the farm"
+      text: '''
+      demon: Wonderful! Trust me, you’ll love it there! They have ways of making sure of that…
+
+      You're transported to an office where a strange looking farmer asks you a few questions about yourself which you struggle to answer. Noting your confusion you see them write down, ‘Bimbo’ and ‘Slutty’ under your personality traits and then cross out boxes marked ‘Office’ and ‘Lab’ before finally checking the box labeled ‘Pasture.’
+
+      In the field life becomes a lot less complex. You and the other cow girls are injected with drugs, given hypnotic treatments and both fucked and milked regularly. As time goes on the drugs get better, the milk flows more freely and you join the other girls in becoming more and more of a wobbling milk tank.
+
+      Sometimes you worry or think about what other paths your life could have taken, but luckily one day the farmer comes out to start putting strange collars with glowing pink lights and wonderful pink visors over all the girls, yourself included. And then you don’t have to think about anything ever again…
+
+      player: Mooo!
+      '''
       options: ["end"]
     }
     {

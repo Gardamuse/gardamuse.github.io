@@ -10,7 +10,15 @@
       id: "start"
       title: ""
       text: '''
-        Devil remarks that you ended up just as he suspected you would, though comments you are still a little plain. Still he’s not complaining!
+      demon: Well this turned out about how I suspected.
+
+      player: Wait, you wanted me to be a bimbo?
+
+      demon: I’d ask if that wasn’t obvious from the start, but… Well I guess I can’t expect much more from a bimbo.
+
+      demon: Well this is about as much as I was hoping to get from you, though I’d admit… It's not everything I hoped for. Still, what comes next is up to you. Your life, altered as it maybe, is in your hands…
+
+      demon: Have fun with it!
         '''
       options: ["reject", "accept"]
     }
@@ -18,7 +26,11 @@
       id: "reject"
       title: "Reject your nature"
       text: '''
-        You try to ignore your new urges and the way people look at and treat you. You tell yourself that even with all your changes you're still just the same as ever! Sure you might not have been a lusty, sensitive, sexually promiscuous woman before, but you can make this work! You just need a job that will let you live a normal life... Like a secretary or a house wife or maybe a stripper! Like, a tots normal, non bimbo job so you can like, be normal and junk!
+      You try to ignore your new urges and the way people look at and treat you. You tell yourself that even with all your changes you're still just the same as ever! Sure you might not have been a lusty, sensitive, sexually promiscuous woman before, but you can make this work! You just need a job that will let you live a normal life… Like a secretary or a house wife or maybe a stripper! Like, a tots normal, non bimbo job so you can like, be normal and junk!
+
+      Ya there is no way your altered mind and body will inevitably lead you to become the sort of dumb, horny bimbo the cards ensured you’d eventually be...
+
+      Sure.
         '''
       options: ["end"]
     }
@@ -26,40 +38,60 @@
       id: "accept"
       title: "Embrace being a bimbo"
       text: '''
-        If embracing being a bimbo you instead need to decide if you're going to settle down with one sexy partner who can give you everything you need or just sleep with whoever seems fun!
-        '''
+      You can’t fight fate and honestly, why would you even want to? It's like, SO much more fun to just BE the bimbo you were meant to be!
+
+      Now the question is… Do you want to settle with one super hot friend who can give you everything you crave OR should you just slut it up and do whoever and whatever seems fun?
+      '''
       options: ["the one", "be free"]
+    }
+    {
+      id: "be free"
+      title: "You want \"The ALL\"!"
+      text: '''
+      You just can’t settle for one person when the world is FULL of sexy people to share your bimboness with! Hit the clubs, work the streets, dance all night and sleep (with strangers) all day!
+
+      You know you’ll probably eventually have to settle down and maybe find someone willing to take you in, but by that time you’ll have made enough money from all the ‘friends’ you’ve made that you should be fine.
+
+      You have got a new life to live and you're going to live it to the fullest from here on out!
+
+      WOOO! SPRING BREAK!
+      '''
+      options: ["end"]
     }
     {
       id: "the one"
       title: "Find \"The One\""
       text: '''
-        You need to decide if you want a nice friend who will treat you like the sexy bimbo queen or like the total slut you are?
-        '''
+      You like, tots need someone who can take care of you now otherwise your going to end up making some dumb mistakes!
+
+      You could ask a friend to help you in return for some favores or you could find some big, strong master who will put you in your place… Hm that could be fun!
+      '''
       options: ["bffs girl", "find master"]
     }
     {
-      id: "be free"
-      title: "Be free for all"
-      text: '''
-        You just can’t settle for one person when the world is FULL of sexy people to share your bimboness with! Hit the clubs, work the streets, dance all night and sleep (with strangers) all day! You know you’ll probably eventually have to settle down and maybe find someone willing to take you in, but by that time you’ll have made enough money from all the ‘friends’ you’ve made that you should be fine.
-        '''
-      options: ["end"]
-    }
-    {
       id: "bffs girl"
-      title: "Be your bffs girl"
+      title: "Be your best friends bimbo GF"
       text: '''
-        Your friend is shocked and a little freaked out when you first show up at their door and tell them who you are, but between all of the evidence back home of your identity and what your new body can do, it doesn’t take long to convince them both that your who you say you are and that they should take you in as there girlfriend. While maybe a bit ditzy and maybe sometimes sleeping with house guests and mailmen, you now are able to fulfill their every fantasy and be the PERFECT wife to them in time.
-        '''
+      Your friend is shocked and a little freaked out when you first show up at their door and tell them who you are, but between all of the evidence back home of your identity and what your new body can do, it doesn’t take long to convince them both that your who you say you are and that they should take you in as there girlfriend.
+
+      There is a bit of time needed for them to adjust to the new you and your new ‘needs’, but before long things click. Sure they might not fully understand why you made the deal you did or why you need  to sleep with so many random guys, but given what your new body can do, they aren't left asking questions for long.
+
+      The important thing for both of you is that you have formed a relationship based on mutual understanding, trust and REALLY good sex!
+      '''
       options: ["end"]
     }
     {
       id: "find master"
-      title: "Find a master to put you in your place"
+      title: "Find a master who can keep you satisfied"
       text: '''
-        It doesn’t take long to find someone with the force of personality needed to put you in your place and give you what you need. Your days of having to make choices for yourself are over as Master always knows what’s best and tells you what to do. You still have limits and lines you won’t cross and Master understands that, but the things he asks of you are way beyond anything you would have done before. However the new you only gets more excited the more you're ordered about.
-        '''
+      It doesn’t take long to find someone with the force of personality needed to put you in your place and give you what you need. Your days of having to make choices for yourself are over as Master always knows what’s best and tells you what to do.
+
+      Yes, you're not a total bimbo or pet and you still have lines you cannot and will not cross, even for him, but those are far beyond anything that the old you would have considered acceptable. Master can use you, show you off, even rent you out and you’d never once complain!
+
+      After all, for a bimbo like you, a life were you never have to think and just get to enjoy the best sex ever is basically a perfect situation!
+
+      Congratulations on your own, bimboy ‘happy end’!
+      '''
       options: ["end"]
     }
     {

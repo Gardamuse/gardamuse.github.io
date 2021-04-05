@@ -1,0 +1,56 @@
+{
+  id: "fucktoy"
+  title: "Fuck Toy"
+  likelihood: 77
+  requirements: '''
+    iq >= 8
+  '''
+  nodes: [
+    {
+      id: "intro"
+      title: ""
+      text: '''
+      demon: Well this is a little anticlimactic.
+
+      player: uuh...?
+
+      demon: Normally I’d prompt you to make a choice to determine the nature of your fate, with lots of little twisty traps your future could fall into...
+
+      demon: But I don’t think you're much use as anything more than a sex doll like this.
+
+      player: ah...!
+
+      demon: Yes, I’m afraid I’ll just have to sell you off and hope someone enjoys you. Do be a good girl and make your new owner happy, won’t you?
+      '''
+      options: ["a1", "b1"]
+    }
+    {
+      id: "a1"
+      title: "Uh...!?"
+      text: '''
+      You can do nothing to change or alter your fate at this point. The devil transports you to an auction where you are quickly bought and taken away to be the personal pleasure toy of a wealthy businessman.
+
+      In time you're traded and sold from owner to owner, being used by men and women, all while having no choice, but to go along with whatever your current master or mistress wants.
+
+      There is nothing else for it, you are and will forever remain an object.
+      '''
+      options: ["end"]
+    }
+    {
+      id: "b1"
+      title: "Wha...?!"
+      text: '''
+      You can do nothing to change or alter your fate at this point. The devil transports you to an auction where you are quickly bought and taken away to be the personal pleasure toy of a wealthy businessman.
+
+      In time you're traded and sold from owner to owner, being used by men and women, all while having no choice, but to go along with whatever your current master or mistress wants.
+
+      There is nothing else for it, you are and will forever remain an object.
+      '''
+      options: ["end"]
+    }
+    {
+      id: "end"
+      endpoint: "end"
+    }
+  ]
+}
