@@ -1,0 +1,92 @@
+{
+  id: "servant"
+  title: "Servant"
+  likelihood: 2
+  requirements: '''
+    iq >= 2
+    AND sum(personality.eye candy, personality.object, maid to serve) >= 1
+    AND sum(submissive silence, lap warmer, smooth as silk, mascara.mascara 1, heels, choker, willpower, second language, name, gullible, tramp stamp, expenses.expenses 1, height) >= 1
+  '''
+  nodes: [
+    {
+      id: "intro"
+      title: ""
+      text: '''
+      demon: How interesting, I expected you to become a bimbo, but I didn't think you'd be such a... helpful one.
+
+      You feel an intense urge to serve this powerful man before you, but something about him tells you that he is not looking for a servant like you... At least not in this life.
+
+      demon: No no, don't get up, I'm just leaving. However, before I go, would you like me to send you somewhere? Given your new personality, I doubt hanging about without someone to command you will end well.
+      '''
+      options: ["a1", "b1"]
+    }
+    {
+      id: "a1"
+      title: "Ask him to find you a master"
+      text: '''
+      player: Erhm... eh, oh thank you! I really wouldn't mind if, if you have the time, you'd find me someone to serve! Please?
+
+      demon: Haha, great, great. I happen to know someone who will just love you... And you're going to love the way they treat you, I'm sure of it.
+
+      Before you can ask about what sort of man you have just agreed to work for, you find yourself transported to a private island! Instantly your clothes are replaced by the porny version of a french maids uniform and you hear a bell ring, instinctively compelling you to run to be of service.
+
+      It turns out  that the island and the many other girls who live on it with you are all owned by a wealthy occultist who owes all of his success to a deal he had made with the devil. Apparently, rather than gambling for wealth and power, he just offered up his soul to become a millionaire playboy with a harem of the less savvy suckers who just tried rolling the dice... Oops?
+
+      Well (un)luckily, thanks to your changes, you do not have much of a choice outside of fulfilling your masters every order and letting him or one of the other girls screw your brains out for his entertainment. Which for a bimbo slave girl like you isn't the worst fate ever...
+
+      You even get to live somewhere tropical!
+      '''
+      options: ["end"]
+    }
+    {
+      id: "b1"
+      title: "You'd rather stay in your home for now"
+      text: '''
+      demon: Alright, suit yourself.
+
+      The devil vanishes, leaving you alone. Unfortunately he wasn't wrong about you needing someone to tell you what to do and soon you feel lost, unsure what to do with yourself without instructions...
+
+      Then a stroke of good luck! Your family calls! While they are confused and unsure of your story, it doesn't take long to prove who you are and that you're just as needy for a firm, controlling hand as you said.
+
+      After consulting with each other, your parents end up coming to you with two solutions for your problem...
+
+      Your mother suggests that you go to your old best friend and offer to marry him. The way she sees it, if you're going to be submissive anyway, you might as well have someone who loves you telling you what to do. Besides, she'd love to have grandkids and it's not like you're going to make any some other way now, right?
+
+      Your father meanwhile suggests you just live with family and let them tell you what to do. If you're a bimbo as well, better let people who DON'T want to fuck you manage your life, right? What's the worst that can happen if you're living at home after all?
+      '''
+      options: ["a2", "b2"]
+    }
+    {
+      id: "a2"
+      title: "Marry your best friend"
+      text: '''
+      With your mothers help you explain the situation to your best friend and offer yourself up as his wife so you can at least have someone you trust running things for you. Unsurprisingly, when offered his best pal as a bimbo bride who will do anything he says, your buddy agrees on the spot!
+
+      Adjusting to life as a slutty wife turns out to be quite easy. Your limited mental abilities may make it hard to master the finer points of housekeeping, but your new husband hardly seems to mind. If anything he seems to find your clumsiness and ditzyness endearing.
+
+      Your hubby isn't the only one ordering you around though, and your mother really wanted some grandkids. And why not, you'll be great at caring for them, and your husband don't seem to mind at all.
+
+      Let's just say your life and body are not done changing yet.
+      '''
+      options: ["end"]
+    }
+    {
+      id: "b2"
+      title: "Live at home to avoid being used"
+      text: '''
+      You really don't want to deal with being someone's bride right now, especially not your best friends! Sure he is nice, but it'd be so embarassing now that you feel so... submissive all the time. And what if your mum would want to have grandkids? You could hardly deny her that. No, you decide to go with the lesser of two evils and choose to stay with your family. As they said, living with people who don't want to fuck you can only end well for someone as subservient as you, right?
+
+      Well you're half right, but your family doesn't seem to fully understand just HOW submissive you have become. Everytime you go out to run an errand and someone catcalls you, asking if you want to get off with them, you agree. Every time someone calls for you, you jump to do what they say and so on.
+
+      Soon enough the whole town knows how easy it is to get you in bed and you're practically working as a whore and maid for half the people you know! The really embarrassing thing though is when you find out your family has been charging for your services as "your share of the rent".
+
+      Turns out you have become the family business...
+      '''
+      options: ["end"]
+    }
+    {
+      id: "end"
+      endpoint: "end"
+    }
+  ]
+}

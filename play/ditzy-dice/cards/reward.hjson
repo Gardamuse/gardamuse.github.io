@@ -13,6 +13,7 @@
     Costs 1 mana per 20 minutes. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.
     '''
     transformation: '''demon: It might be the most common superpower of all, but that's only because it's so GOOD! Being strong as an ox and tough enough to shrug off small arms fire? Almost makes up for being a bimbo, right?'''
+    tags: ["spell"]
   }
   {
     id: "spell: transform other"
@@ -23,6 +24,7 @@
     Costs 1 mana per cast. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.
     '''
     transformation: '''demon: Going to make more people into girls like yourself, huh? The poor guys you lure in won't know what hit them! Speaking of which, we better wrap this up quick before you want to start charging up your mana reserves...'''
+    tags: ["spell"]
   }
   {
     id: "spell: transform body"
@@ -33,6 +35,7 @@
     Costs 1 mana per cast. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.
     '''
     transformation: '''demon: What? You don't think the transformation cards you got are good enough? Fine, be that way. Change yourself however you like! But by the time we are done, what you want might not be so far off from what you end up as...'''
+    tags: ["spell"]
   }
   {
     id: "spell: mind drain"
@@ -43,6 +46,7 @@
     Costs 1 mana per cast. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.
     '''
     transformation: '''demon: Not satisfied being the only bimbo in town, or maybe just jealous of all the "smart peeps"? Well, with this spell, given enough time you can make the whole city join you in blissful ignorance! And hey, why not top yourself off too? What's the harm in that?'''
+    tags: ["spell"]
   }
   {
     id: "spell: forever young"
@@ -53,6 +57,7 @@
     Costs 3 mana per week. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.
     '''
     transformation: '''demon: Who wants to live forever? Well you might not live FOREVER, but you can get damn close so long as you keep screwing and masturbating regularly! Huh, I guess this means those Chinese sages were on to something, doesn't it?'''
+    tags: ["spell"]
   }
   {
     id: "spell: healing"
@@ -63,6 +68,7 @@
     Costs 1 mana per cure. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.
     '''
     transformation: '''demon: With this spell, you're actually sort of morally obliged to fuck everyone you can. The world requires your healing touch! Bang it out and save the world!'''
+    tags: ["spell"]
   }
   {
     id: "spell: possess"
@@ -73,6 +79,7 @@
     Costs 1 mana per 30 minutes. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.
     '''
     transformation: '''Sure it might be fun getting to be someone else for a while, but don't forget that you'll eventually have to go back to being yourself. There's no getting out of what the cards have given you.'''
+    tags: ["spell"]
   }
   {
     id: "spell: issue command"
@@ -83,6 +90,7 @@
     Costs 1 mana per command. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.
     '''
     transformation: '''demon: Well, well, well. Clearly someone isn't ready to give up control! With this spell you should be able to turn the tables at least every now and then, though be careful. If you're submissive enough this might just give even more power to your owner.'''
+    tags: ["spell"]
   }
   {
     id: "spell: telepathy"
@@ -92,7 +100,8 @@
 
     Costs 1 mana per 15 minutes. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.
     '''
-    transformation: '''demon: Reading minds and projecting thoughts? You'll make a hell of a detective if you can keep it together long enough to solve cases rather than just sleeping with all the witnesses.'''
+    transformation: '''demon: Reading minds and projecting thoughts? You'll make one hell of a detective if you can keep it together long enough to solve cases rather than just sleeping with all the witnesses.'''
+    tags: ["spell"]
   }
   {
     id: "spell: telekinesis"
@@ -103,6 +112,7 @@
     Costs 1 mana per 20 minutes. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.
     '''
     transformation: '''demon: If you ever wanted to be a superhero or villain, here's your opportunity. With the ability to shift great weights with your mind does come great responsibility after all! Just don't let your mana get too low, so screw responsibly when supering!'''
+    tags: ["spell"]
   }
   {
     id: "spell: slow time"
@@ -113,6 +123,7 @@
     Costs 1 mana per 20 minutes. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.
     '''
     transformation: '''demon: The world will be your oyster when you can stop time on command! Who can stop you when you're able to act with total immunity within your own frozen world? Though let's face it, you will probably just end up using it for kinky play and to score with guys.'''
+    tags: ["spell"]
   }
   {
     id: "spell: time travel"
@@ -123,6 +134,7 @@
     Costs 1 mana per minute casting, or 1 mana to travel to a marker. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.
     '''
     transformation: '''demon: A time traveling bimbo witch? No way that that could go wrong. Fortunately this spell is completely paradox proof, which is good because there is no way you won't end up fucking your own great, great grandfather or whatever.'''
+    tags: ["spell"]
   }
   {
     id: "spell: flight"
@@ -132,6 +144,7 @@
 
     Costs 1 mana per hour. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.'''
     transformation: '''Think happy thoughts! Fucking, sucking, rubbing and slapping if that's your thing, since to fly you're first going to need to hit a different sort of high.'''
+    tags: ["spell"]
   }
   {
     id: "spell: invisibility"
@@ -142,6 +155,7 @@
     Costs 1 mana per hour. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.
     '''
     transformation: '''demon: Where did you go? You just vanished!? Ha just kidding, you're going to need more mana before you can pull that off, but it should make for a useful party trick. Just be careful when peeping that the spell doesn't wear off when you're slicking in the mens changing room...'''
+    tags: ["spell"]
   }
   {
     id: "spell: phasing"
@@ -152,6 +166,7 @@
     Costs 1 mana per 2 minutes. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.
     '''
     transformation: '''demon: With the ability to phase through any material, getting out of jail if you're caught working the street corners as a prostitute will be a breeze! Not that you're going to end up doing that. But if you do...'''
+    tags: ["spell"]
   }
 
   /*{

@@ -1,0 +1,31 @@
+{
+name: "Epic Epilogues"
+date: "2021-04-18"
+text: '''
+# Features
+    * One of 10 different epilogues is now shown upon completing the game.
+        * The epilogue shown is determined from which cards you got.
+        * Each epilogue has several possible endings based on your decisions, for a total of 24 possible endings.
+        * Many thanks to Duhad for the help in writing these!
+    * Added a new resource: mana.
+    * Added abilities. Most abilities cost mana to use.
+
+# Gameplay
+    * Many stages of the game will now give you 2 dice by default.
+    * It is now possible to sell dice. Each dice sold will give you mana.
+    * Dice will no longer silently reroll if they land on the same value as an already rolled die.
+        * This means you will see a lot more duplicate rolls.
+        * Selecting a card that was chosen by X dice will gain you (X - 1) mana.
+        * Cards selected by multiple dice have stronger highlighting.
+    * All bought dice now only last one roll, instead of being removed one per roll.
+
+# UI
+    * Moved status indicators closer to center of screen.
+    * Cards are no longer visible before you have rolled how many to pick.
+
+# Minor
+    * It is now possible to skip the intro sequence to jump directly into the game.
+    * Reward cards can now be disabled in the filter settings.
+    * Can now delete your collection from the settings menu.
+'''
+}

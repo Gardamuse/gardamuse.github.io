@@ -1,41 +1,48 @@
-[
-  {
-    name: "The End"
-    requirements: [
-      {
-        // ID's of specific cards that must be present to fulfill this requirement
-        // If an entry is in itself a list of ids, only one id in that list is needed
-        cards: []
-        // Tags that must be present to fulfull this requirement
-        tags: []
-        // How many times each tag must appear to count as present
-        count: 0
-        // Set to true if this requirement must NOT be fulfilled to allow this ending
-        negated: false
-      }
-    ]
-    text: '''And you lived happily ever after.'''
-  }
-  {
-    name: "Lost in Time"
-    requirements: [
-      {
-        cards: ["spell: time travel", "memory"]
-        tags: []
-        count: 0
-      }
-    ]
-    text: '''What a great wonder it is to be able travel in time. It's such a shame you've kinda forgotten where you came from, and where you were going, and, how did you get these powers again?'''
-  }
-  {
-    name: "Bimbo"
-    requirements: [
-      {
-        cards: ["breast-size", ["intelligence", "memory", "attention span"]]
-        tags: ["bimbo"]
-        count: 5
-      }
-    ]
-    text: '''Big breasts, small brain. What more could you need?'''
-  }
-]
+{
+  id: "default"
+  title: "Normal" # The title of this ending
+  likelihood: 0 # The ending with the lowest likelihood will be chosed if multiple are viable
+  requirements: '''
+    all >= 0
+  '''
+  nodes: [
+    {
+      id: "intro"
+      title: ""
+      text: '''
+      demon: Well this is somewhat disappointing, I don't mind admitting. Here I was hoping to let you embrace the life of a bimbo and yet you somehow have remained distressingly... Normal.
+
+      He frowns and then shrugs.
+
+      demon: Well no use wishing for what might have been. You took few risks, won no great prizes and left here not much different than when you  came in. Go on, go live the boring little life you have given yourself.
+
+      He vanishes in the blink of an eye, leaving you to wonder... What's next?
+      '''
+      options: ["a1", "b1"]
+    }
+    {
+      id: "a1"
+      title: "Live a normal life"
+      text: '''
+      You have gained some strange quirks, but otherwise appear like a normal person and prefer to keep it that way. You get hit on more than before, but otherwise come out of this experience having changed fairly little.
+
+      Sometimes you wonder what life would be like if you had been a little riskier, but ultimately, you played it safe, both during the game and afterwards and that's how your life turned out.
+      '''
+      options: ["end"]
+    }
+    {
+      id: "b1"
+      title: "Embrace bimbohood anyways"
+      text: '''
+      You decide that even if you're not being forced into the bimbo life, you actually do want that and throw yourself into it regardless!
+
+      Sometimes it's hard, after all you have to act it up to seem as dumb and slutty as your more natural bimbo sisters, but luckily its not that hard to get horny men to overlook your plainness when your willing to slut it up as much as anyone else at the clubs!
+      '''
+      options: ["end"]
+    }
+    {
+      id: "end"
+      endpoint: "end"
+    }
+  ]
+}

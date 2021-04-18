@@ -1,0 +1,67 @@
+{
+  id: "pet"
+  title: "Pet"
+  likelihood: 3
+  requirements: '''
+    pet >= 2
+    AND sum(iq, animal) >= 2
+  '''
+  nodes: [
+    {
+      id: "intro"
+      title: ""
+      text: '''
+      demon: Well you certainly did come out of this in an interesting way. Sit. Stay. Good girl!
+
+      You try and resist the urge to be treated like an animal, but clearly, you're no longer able to resist the urge to submit and be a perfect, sexy pet.
+
+      demon: Unfortunately I'm not looking for a bitch of your breed so I'll be passing you along to someone else... Hm, you know what? Just for being such a good sport I'll let you have one last choice of your own free will.
+
+      demon: I can send you to some of your friends, let you be taken care of by people who you trust, but also be forced to deal with the humiliation and shame of letting everyone know what sort of dirty girl you have become.
+
+      demon: Or I can just give you to a stranger, someone you do not know if you can trust, but who will at least spare you the humiliation of being forever known as a needy little bitch.
+
+      You whine and consider your options...
+      '''
+      options: ["a1", "b1"]
+    }
+    {
+      id: "a1"
+      title: "Let yourself be \"adopted\" by your friends"
+      text: '''
+      demon: Really? Do you have no shame?
+
+      demon: Oh I'm just teasing you, enjoy your new life, girl!
+
+      You find yourself transported to the home of your best friend, along with a note the devil apparently wrote while you were not looking which explains some version of what happened.
+
+      Naturally your friend tries their best to educate you, help get you back to being a human. Embarrassingly they even brought in other friends and family to try and get you out of your "confused" state, but naturally nothing but some very powerful magic could change who you are now.
+
+      Eventually they get used to you just acting like an animal and as time goes by, they even begin talking to and treating you like one as well. Soon everyone just accepts that you are and will always be nothing more than their cute little pet.
+
+      Albeit one who is regularly fucked by her owner and their friends.
+      '''
+      options: ["end"]
+    }
+    {
+      id: "b1"
+      title: "Become a strangers \"pet\""
+      text: '''
+      demon: Can't take the shame? That's understandable. Don't worry, where you're going, you won't have to worry about people looking down on you as a human who debases herself like a beast...
+
+      With those ominous words you're sent away, vanishing and reappearing in a cage in a dark room filled with other women who look very similar to you. You try to ask them where you are, but they just bark, hiss and squeak in reply.
+
+      You are not left wondering about your situation for long as your trainers enter the room. They let you and the other girls out of your cages for what is soon to become your daily routine. You are fed from bowls, walked around on leashes, groomed and hooked to sex and reconditioning machines for hours on end.
+
+      Eventually you learn that you're being trained as proper pets, stripped of all traces of your old humanity and remade into perfect sex toys for rich and powerful people looking for exotic concubines. This may have terrified you in your old life, but after everything that has happened, you cannot help but feel oddly aroused at the thought.
+
+      Your life as a human was already over before you even came to this place, and at least now your skills as a pet can be truly appreciated!
+      '''
+      options: ["end"]
+    }
+    {
+      id: "end"
+      endpoint: "end"
+    }
+  ]
+}

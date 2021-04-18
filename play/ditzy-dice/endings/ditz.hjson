@@ -1,0 +1,88 @@
+{
+  id: "ditz"
+  title: "Bimbo Ditz"
+  likelihood: 2
+  requirements: '''
+    iq >= 6 AND sum(bimbo, expansion) >= 4
+    OR sex drive >= 4 AND cum your brains out >= 1 AND sum(bimbo, expansion) >= 4
+  '''
+  nodes: [
+    {
+      id: "intro"
+      title: ""
+      text: '''
+      demon: Well you certainly didn't disappoint!
+
+      demon: I was pretty sure you'd become a bimbo, but I could only hope you'd manage to screw yourself this thoroughly!
+
+      player: Uuuh... screw?
+
+      demon: Ha ha yes indeed, you'll be doing a lot of that very soon I am sure. Though... You're not utterly lost yet.
+
+      demon: Maybe if you work hard, fight your new urges and do everything you can to avoid fully giving into your bimbo instincts...
+
+      demon: Well... On second thought, I don't think there's much chance of that. Still it's your life, make of it what you can.
+      '''
+      options: ["a1", "b1"]
+    }
+    {
+      id: "a1"
+      title: "Embrace your bimbo life"
+      text: '''
+      Embracing your true, ditzy nature takes really does take the stress out of things. Rather than doing all that pesky thinking and worring you used to, you just do what you're told, suck what you see and fuck whoever looks cute!
+
+      Unfortunately your reputation as the easiest girl around does attract a bit of negative attention and eventually, after catching you almost being led away by a pimp, your friends drag you off for a sort of intervention.
+
+      It's hard to follow what they tell you, but after letting you suck them off while they slowly lay it out, you're made to realize that they want you to be their EXCLUSIVE fuck buddy, both so they can keep you safe, and to avoid having to wonder who else has been using you.
+      '''
+      options: ["a2", "b2"]
+    }
+    {
+      id: "b1"
+      title: "Fight the changes"
+      text: '''
+      Your attempts to fight back and keep from ending up as a total bimbo prove disastrous. No one takes you seriously and everyone takes advantage of your lust and rewired brain to get you to be a perfect little slut for them.
+
+      Even your friends end up treating you like an easy lay and before long you're forced to move just to try and make a clean start for yourself.
+
+      This, in your own mind anyway, seems to work and you establish yourself with a new name and new identity. Of course, everyone in town eventually sleeps with you, but you're pretty sure you're fooling them all into thinking you're not a total nymphomaniac...
+
+      Nice thing about being such a huge bimbo is you're easy to trick, even by a total bimbo like yourself!
+      '''
+      options: ["end"]
+    }
+    {
+      id: "a2"
+      title: "Trust your friends"
+      text: '''
+      It's not easy, but with your remaining lust drenched braincells, you are determined to do as your friends want. Sure, you can't help but bit your lips when someone walks by who clearly has a thick, yummy cock you'd just love to service, and maybe a couple of times you just HAVE to have a quickie, but for most part you follow through.
+
+      After all, your friends are really smart, and you really like them, and they come around as often as they can to fuck, take you shopping or have some other fun with you. And you know that they really like you and respect you and think you are super hot and stuff.
+
+      Once a year, you all even have a big group reunion where everyone comes together at the same time and you get to enjoy being used as the star entertainment!
+
+      Truly, these guys really are your BFFs!
+      '''
+      options: ["end"]
+    }
+    {
+      id: "b2"
+      title: "But that stranger offered you a \"lifetime of fun\"!"
+      text: '''
+      If those losers really WERE your friends, they would want you to get as much sex possible! So fuck them and fuck their warnings!
+
+      You give them the slip and find the nice pimp from before and tell him you're all his as long as he can keep you from being dragged off by your "friends" again. He has to think about that, but eventually tells you he knows just what to do for you.
+
+      Two weeks in a crate later and you're officially unboxed and marked as the property of a fabulously wealthy foreign businessman... Or maybe he's some sort of prince or warlord? It's hard to tell and even harder to care as he wants you to be his prized concubine! Or was it "sex slave"? Whatever! You don't need to fully understand his language, just what he is going to do to you and that it's going to be wild and super fun!
+
+      Funny thing is, for as much of a bimbo as you have become, everyone seems really impressed by how fast you learn your new role and duties and before long you're head of the harem! Way to go!
+      '''
+      options: ["end"]
+    }
+
+    {
+      id: "end"
+      endpoint: "end"
+    }
+  ]
+}

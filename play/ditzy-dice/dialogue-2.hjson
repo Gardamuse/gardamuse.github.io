@@ -1,130 +1,139 @@
 {
-  introStage: {
-    id: "introStage"
-    nodes: [
-      {
-        id: "intro"
-        title: ""
-        text: '''
-          demon: Have you ever made a deal with the devil? Well, it's not as bad as they say.
+  id: "introStage"
+  nodes: [
+    {
+      id: "skipIntro"
+      title: ""
+      text: '''
+        demon: Have you ever made a deal with the devil? Well, it's not as bad as they say.
+        '''
+      options: [ "skip", "intro" ]
+    }
+    {
+      id: "intro"
+      title: ""
+      text: '''
+        demon: Here's the deal. I got a deck of cards. Many of those cards will reward you with great gifts and powers. You could become the most powerful person on the planet.
+        If you draw a card with such a gift, it will be yours for as long as you live. Some of the powers could even give you immortality, so that might not be a short time.
 
-          demon: Here's the deal. I got a deck of cards. Many of those cards will reward you with great gifts and powers. You could become the most powerful person on the planet.
-          If you draw a card with such a gift, it will be yours for as long as you live. Some of the powers could even give you immortality, so that might not be a short time.
+        demon: The catch?
+        Well... some of the cards, rather than rewarding you, will transform you a bit, some physically, others mentally.
 
-          demon: The catch?
-          Well... some of the cards, rather than rewarding you, will transform you a bit, some physically, others mentally.
+        demon: I also couldn't just let you pick and choose exactly which cards you want, now could I? So you would be choosing your cards by rolling these dice. No worries, you can choose how many dice you want to roll, to give you the best odds.
 
-          demon: I also couldn't just let you pick and choose exactly which cards you want, now could I? So you would be choosing your cards by rolling these dice. No worries, you can choose how many dice you want to roll, to give you the best odds.
+        demon: Oh, and I almost forgot.
+        You have to be a woman to participate. So if you're not one already, I will transform you before we begin. Call it a free gift! Or the price of entry.
 
-          demon: Oh, and I almost forgot.
-          You have to be a woman to participate. So if you're not one already, I will transform you before we begin. Call it a free gift! Or the price of entry.
+        demon: Do you accept?
+        '''
+      options: [ "no", "woman", "man" ]
+    }
+    {
+      id: "no"
+      title: '''No'''
+      text: '''
+        player: I'd rather not, thanks.
 
-          demon: Do you accept?
-          '''
-        options: [ "no", "woman", "man" ]
-      }
-      {
-        id: "no"
-        title: '''No'''
-        text: '''
-          player: I'd rather not, thanks.
+        demon: Oh, that's a shame. Well, you can always come back if you change your mind. The offer still stands.
+        '''
+      options: [ "leave", "actually accept" ]
+    }
+    {
+      id: "leave"
+      title: "Leave"
+      endpoint: "leave"
+    }
+    {
+      id: "man"
+      title: '''Yes, transform me.'''
+      text: '''
+        player: Yes, I accept, transform me.
 
-          demon: Oh, that's a shame. Well, you can always come back if you change your mind. The offer still stands.
-          '''
-        options: [ "leave", "actually accept" ]
-      }
-      {
-        id: "leave"
-        title: "Leave"
-        endpoint: "leave"
-      }
-      {
-        id: "man"
-        title: '''Yes, transform me.'''
-        text: '''
-          player: Yes, I accept, transform me.
+        demon: Gladly! I think you'll find this quite enjoyable.
+        '''
+      options: [ "transforming" ]
+    }
+    {
+      id: "woman"
+      title: '''Yes, I'm already a woman.'''
+      text: '''
+        player: Yes, I accept. And I'm already a woman, so no need to transform me.
 
-          demon: Gladly! I think you'll find this quite enjoyable.
-          '''
-        options: [ "transforming" ]
-      }
-      {
-        id: "woman"
-        title: '''Yes, I'm already a woman.'''
-        text: '''
-          player: Yes, I accept. And I'm already a woman, so no need to transform me.
+        demon: Great! Saves me some mana. You look good too, by the way. Maybe a bit plain, but we should have that sorted in just a bit, heh.
+        '''
+      options: [ "accepted" ]
+    }
+    {
+      id: "actually accept"
+      title: "I changed my mind. I accept!"
+      text: '''
+        player: Wait! I changed my mind. This is too good an opportunity to pass up. I'll accept.
+        '''
+      options: [ "gender" ]
+    }
+    {
+      id: "gender"
+      title: "Next"
+      text: '''
+        demon: Great! So are you a man, or a woman?
+        '''
+      options: [ "actually man", "actually woman" ]
+    }
+    {
+      id: "actually man"
+      title: '''I'm a man, transform me.'''
+      text: '''
+        player: I'm a man, so I guess you'll have to transform me.
 
-          demon: Great! Saves me some mana. You look good too, by the way. Maybe a bit plain, but we should have that sorted in just a bit, heh.
-          '''
-        options: [ "accepted" ]
-      }
-      {
-        id: "actually accept"
-        title: "I changed my mind. I accept!"
-        text: '''
-          player: Wait! I changed my mind. This is too good an opportunity to pass up. I'll accept.
-          '''
-        options: [ "gender" ]
-      }
-      {
-        id: "gender"
-        title: "Next"
-        text: '''
-          demon: Great! So are you a man, or a woman?
-          '''
-        options: [ "actually man", "actually woman" ]
-      }
-      {
-        id: "actually man"
-        title: '''I'm a man, transform me.'''
-        text: '''
-          player: I'm a man, so I guess you'll have to transform me.
+        demon: Gladly! I think you'll enjoy this...
+        '''
+      options: [ "transforming" ]
+    }
+    {
+      id: "actually woman"
+      title: '''I'm already a woman.'''
+      text: '''
+        player: I'm already a woman. Let's get started!
 
-          demon: Gladly! I think you'll enjoy this...
-          '''
-        options: [ "transforming" ]
-      }
-      {
-        id: "actually woman"
-        title: '''I'm already a woman.'''
-        text: '''
-          player: I'm already a woman. Let's get started!
+        demon: Brilliant, that saves me some mana transforming you. You look good too, by the way. Maybe a bit plain, but that shouldn't be the case for too much longer, ha!
+        '''
+      options: [ "accepted" ]
+    }
+    {
+      id: "transforming"
+      title: '''Next'''
+      text: '''
+        All of a sudden you feel a warm, tingly sensation in your skin, slowly spreading deeper into your body. As it does you can't help but study yourself. Your skin seems a little bit softer, your hands a little bit leaner, and as you touch your chin it is smoother than you could ever have managed to shave.
 
-          demon: Brilliant, that saves me some mana transforming you. You look good too, by the way. Maybe a bit plain, but that shouldn't be the case for too much longer, ha!
-          '''
-        options: [ "accepted" ]
-      }
-      {
-        id: "transforming"
-        title: '''Next'''
-        text: '''
-          All of a sudden you feel a warm, tingly sensation in your skin, slowly spreading deeper into your body. As it does you can't help but study yourself. Your skin seems a little bit softer, your hands a little bit leaner, and as you touch your chin it is smoother than you could ever have managed to shave.
+        Meanwhile, the world seems to grow just a bit larger around you, or is it you that's getting a little bit smaller? Yet your clothes still seem to mostly fit, if anything they seem a little bit tighter around the hips and chest than you're used to. Although your pants do feel unusually roomy around your...
 
-          Meanwhile, the world seems to grow just a bit larger around you, or is it you that's getting a little bit smaller? Yet your clothes still seem to mostly fit, if anything they seem a little bit tighter around the hips and chest than you're used to. Although your pants do feel unusually roomy around your...
+        player: Uh, oh... it's... it's gone. My, eeh...
 
-          player: Uh, oh... it's... it's gone. My, eeh...
+        demon: Of course. What did you expect?
 
-          demon: Of course. What did you expect?
+        As the feeling of warmth drain away you feel unusual, but good. You're a little bit shorter, your hair's a bit longer hair and you have a few modest curves where you used to have none. Losing your manhood may take a little while getting used to but otherwise you're still very much you, just female.
+        '''
+      options: [ "accepted" ]
+    }
+    {
+      id: "accepted"
+      title: '''Next'''
+      text: '''
+        demon: Now about this game. You will play 3 rounds. As you play you may find yourself picking up bonus rolls. These are rolls you will have to make in an extra bonus round. Finish those and you walk away with all the changes and rewards you've collected.
 
-          As the feeling of warmth drain away you feel unusual, but good. You're a little bit shorter, your hair's a bit longer hair and you have a few modest curves where you used to have none. Losing your manhood may take a little while getting used to but otherwise you're still very much you, just female.
-          '''
-        options: [ "accepted" ]
-      }
-      {
-        id: "accepted"
-        title: '''Next'''
-        text: '''
-          demon: Now about this game. You will play 3 rounds. As you play you may find yourself picking up bonus rolls. These are rolls you will have to make in an extra bonus round. Finish those and you walk away with all the changes and rewards you've collected.
-
-          demon: Sounds simple? It is, and I'll explain the details as you go. Let's get started!
-          '''
-        options: [ "start" ]
-      }
-      {
-        id: "start"
-        title: "Start"
-        endpoint: "drawStage"
-      }
-    ]
-  }
+        demon: Sounds simple? It is, and I'll explain the details as you go. Let's get started!
+        '''
+      options: [ "start" ]
+    }
+    {
+      id: "start"
+      title: "Start"
+      endpoint: "drawStage"
+    }
+    {
+      id: "skip"
+      title: "Skip intro"
+      endpoint: "drawStage"
+    }
+  ]
 }
