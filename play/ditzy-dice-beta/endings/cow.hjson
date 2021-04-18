@@ -1,20 +1,23 @@
 {
   id: "cow"
   title: "Cow"
-  likelihood: 77
+  likelihood: 3
   requirements: '''
-    pet >= 2 AND iq >= 2 AND lactation >= 1
+    lactation >= 1
+    AND sum(iq, animal, pet) >= 2
+    AND sum(lactation, breast-size, ass size) >= 3
+    OR lactation >= 4
   '''
   nodes: [
     {
       id: "intro"
       title: ""
       text: '''
-      demon: Well no pretending you're still a human at this point. Better get used to life as a hu-cow or just a prized milking heifer.
+      demon: Well, looking at your changes, I think you'd make one hell of a cowgirl! Let's be honest, it's either that or someone's a prized milking heifer. I don't see you finding your way back to your old life like that, hah!
 
-      demon: Normally I’d leave you on your own, but I just hate to see good milk go to waste, so how about I find someone who can help you with all of this dairy?
+      demon: Normally I'd leave you on your own, but I just hate to see good milk go to waste, so how about I find someone who can help you with all of this dairy?
 
-      demon: I imagine friends and family might like to try and help you, but a cow is a big responsibility… Maybe you should trust the experts. I think there is a place nearby that knows how to deal with ‘special cases’ like you.
+      demon: I imagine your friends and family might like to try and help you, but a cow is a big responsibility... Maybe you should trust the experts. I know of a place nearby that knows how to deal with special cases like you.
       '''
       options: ["a1", "b1"]
     }
@@ -22,19 +25,19 @@
       id: "a1"
       title: "Rely on your friends"
       text: '''
-      demon: Suit yourself, but don’t be surprised if you prove too much for them to handle...
+      demon: Suit yourself, but don't be surprised if you prove too much for them to handle...
 
       And with that you're transported to your family home, shocking the hell out of everyone as you make a milky splash with your arrival!
 
       Your friends and family do everything they can to make life easier for you and to help you adjust, but eventually it becomes clear that you're not going to be able to live a normal life the way you are.
 
-      It starts with daily milkings, then keeping you out of areas of the house they just can’t afford to keep cleaning and eventually you find yourself living in a makeshift barn stall. Meanwhile your milkings go from slightly awkward time spent having your breasts very carefully massaged, to just having someone come in to squeeze you dry in the mornings.
+      It starts with daily milkings, then keeping you out of areas of the house they just can't afford to keep cleaning and eventually you find yourself living in a makeshift barn stall. Meanwhile your milkings go from slightly awkward time spent having your breasts very carefully massaged, to just having someone come in to squeeze you dry in the mornings.
 
-      At least your friends come by to ‘breed’ you every day so you're never left wanting or overly bored.
+      At least your friends come by to 'breed' you every day so you're never left wanting or overly bored.
 
-      Eventually you learn that your parents have just been calling you ‘the cow’ and have seemingly forgotten that you were ever their daughter… Or was it son? Even you can’t remember, life as a cow really has just caused everything to become so simple that you barely need to think.
+      Eventually you learn that your parents have just been calling you 'the cow' and have seemingly forgotten that you were ever their daughter... Or was it son? Even you can't remember, life as a cow really has just caused everything to become so simple that you barely need to think.
 
-      And so life goes on… Oh well, no use crying over spilled milk, right?
+      And so life goes on... Oh well, no use crying over spilled milk, right?
       '''
       options: ["end"]
     }
@@ -42,13 +45,15 @@
       id: "b1"
       title: "Trust the experts at the farm"
       text: '''
-      demon: Wonderful! Trust me, you’ll love it there! They have ways of making sure of that…
+      demon: Wonderful! Trust me, you'll love it there! They have ways of making sure of that...
 
-      You're transported to an office where a strange looking farmer asks you a few questions about yourself which you struggle to answer. Noting your confusion you see them write down, ‘Bimbo’ and ‘Slutty’ under your personality traits and then cross out boxes marked ‘Office’ and ‘Lab’ before finally checking the box labeled ‘Pasture.’
+      You suddenly find yourself in what seems to be an office, where someone who is dressed much like a farmer is talking to a woman who appears to be their secretary. As you stand there, confused, they both turn around and the farmer raises an eyebrow, and then a knowing look and a nod to the secretary.
 
-      In the field life becomes a lot less complex. You and the other cow girls are injected with drugs, given hypnotic treatments and both fucked and milked regularly. As time goes on the drugs get better, the milk flows more freely and you join the other girls in becoming more and more of a wobbling milk tank.
+      You're asked a few questions about yourself and although you struggle to answer they note your confusion. You see them write down "Bouncy" and "Bimbo" as personality traits, and finally check one of several boxes, this one labeled "Pasture".
 
-      Sometimes you worry or think about what other paths your life could have taken, but luckily one day the farmer comes out to start putting strange collars with glowing pink lights and wonderful pink visors over all the girls, yourself included. And then you don’t have to think about anything ever again…
+      In the field life becomes a lot less complex. You and the other cow girls are injected with some kind of pink liquid, given hypnotic treatments that you find super relaxing, and you're all milked and fucked regularly. As time goes on your milk flows ever more freely as you and the other girls become more and more like wobbling milk tanks.
+
+      As days go by the warm weather, the calming meadows and forests surrounding the farm, and the firm hands milking you every day come to completely overshadow your past life. Why would you want to be anywhere else but here?
 
       player: Mooo!
       '''

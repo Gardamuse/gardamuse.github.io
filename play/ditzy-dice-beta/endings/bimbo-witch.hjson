@@ -1,26 +1,26 @@
 {
   id: "bimbo-witch"
   title: "Bimbo Witch"
-  likelihood: 130
+  likelihood: 3
   requirements: '''
-    spell >= 3 AND iq >= 3
+    spell >= 4 AND iq >= 3
   '''
   nodes: [
     {
       id: "intro"
       title: ""
       text: '''
-      demon: Well this is a little unexpected… And worrying.
+      demon: Well this is a little unexpected... And worrying.
 
-      demon: A mortal with as much power as you have wandering around, potentially working to foil my plans… Yes this is not going according to plan at all…
+      demon: A mortal with as much power as you have wandering around, potentially working to foil my plans... Yes this is not going according to plan at all...
 
-      player: Wait… Are you, like, talking about me? Are we gonna bang or not?
+      player: Wait... Are you, like, talking about me? Are we gonna bang or not?
 
-      demon: Ah… Right you're still a massive air headed bimbo. Never mind, I was starting to get worried…
+      demon: Ah... Right you're still a massive air headed bimbo. Never mind, I was starting to get worried...
 
-      demon: Tell you what my dear, since you're so powerful… And so indescribably slutty, how would you like to work for me as a succubus? It's basically what you are now as a witch, but demonic and…
+      demon: Tell you what my dear, since you're so powerful... And so indescribably slutty, how would you like to work for me as a succubus? It's basically what you are now as a witch, but demonic and...
 
-      demon: Well normally I’d say more sexually driven, but I’m not even sure if that’s true. Honestly if I gave you red skin and some fangs I doubt anyone would be able to tell the difference.
+      demon: Well normally I'd say more sexually driven, but I'm not even sure if that's true. Honestly if I gave you red skin and some fangs I doubt anyone would be able to tell the difference.
 
       demon: What do you say? Want to become my sexy little agent?
       '''
@@ -30,15 +30,15 @@
       id: "a1"
       title: "Agree to become a succubus"
       text: '''
-      demon: I knew you’d make the right choice! Well done!
+      demon: I knew you'd make the right choice! Well done!
 
       As the devil speaks, you feel yourself become even hotter as your skin turns red, a pair of bat-like wings unfurl from your back and your magical powers suddenly seem to flow much clearer!
 
       Then just as quickly as the changes take place, you find yourself returned to your new body. Seemingly unchanged physically, though internally you still feel that added power.
 
-      demon: Don’t want people seeing the real you. Might cause the wrong people to find out about who and what you are. Now for your first mission, I’ll need you to…
+      demon: Don't want people seeing the real you. Might cause the wrong people to find out about who and what you are. Now for your first mission, I'll need you to...
 
-      demon: And you're already masturbating. No, you keep going, it's fine, that task would be too much for you to handle anyway. How about... you just focus you on sleeping with as many mortals as you can and collect some souls. I think ‘fuck everyone you meet’ should be easy enough for you, yes?
+      demon: And you're already masturbating. No, you keep going, it's fine, that task would be too much for you to handle anyway. How about... you just focus you on sleeping with as many mortals as you can and collect some souls. I think 'fuck everyone you meet' should be easy enough for you, yes?
 
       And so your first and only task is assigned to you, a task you will prove to be INCREDIBLY talented at! Though you never manage to rise through the ranks of hell, given you're far, far too busy screwing everything in sight to play the complex games of infernal politics, you're at least highly valued as the BEST succubus the pits have ever seen!
 
@@ -50,13 +50,13 @@
       id: "b1"
       title: "You'd rather remain a mortal bimbo witch"
       text: '''
-      demon: Well damn. Normally I’d be pretty upset by all of this, but…
+      demon: Well damn. Normally I'd be pretty upset by all of this, but...
 
-      demon: If I’m being honest, you're probably going to end up causing so much havoc and chaos just by being THIS much of a bimbo while possessing a wide range of magical abilities, this whole situation is likely going to turn out to be a win for me either way.
+      demon: If I'm being honest, you're probably going to end up causing so much havoc and chaos just by being THIS much of a bimbo while possessing a wide range of magical abilities, this whole situation is likely going to turn out to be a win for me either way.
 
-      player: Like… What?
+      player: Like... What?
 
-      demon: Don’t worry about it. Just be yourself and everything will be fine.
+      demon: Don't worry about it. Just be yourself and everything will be fine.
 
       demon: For me.
 

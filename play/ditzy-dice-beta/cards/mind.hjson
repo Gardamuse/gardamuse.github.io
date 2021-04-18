@@ -469,7 +469,7 @@
           id: "name 2"
           name: "Normal"
           description: '''Your normal name is just fine! Fancy spelling or nicknames aren't really for you. You will use your normal name.'''
-          #transformation: '''Oh, so you're still just… You? Well that's boring, but hey, if that's your name, that's your name.'''
+          #transformation: '''Oh, so you're still just... You? Well that's boring, but hey, if that's your name, that's your name.'''
         }
         {
           id: "name 3"

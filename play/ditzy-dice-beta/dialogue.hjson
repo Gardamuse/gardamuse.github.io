@@ -1,28 +1,16 @@
 {
-  drawStage: '''demon: First, roll to see how many cards you will have to pick this round!
+  drawStage: '''demon: Roll to see how many cards you will have to pick this round! For this we'll use the sum of the dice you roll.
   '''
 
-  drawStagePostBan: '''demon: Now, roll to see how many cards you will have to pick this round!
-  '''
+  pickStage: '''demon: Now roll for which card you should pick! You will only pick one card, but with more dice you will be able to choose which of the results you want to use.
 
-  banStage: '''demon: Click the card you want to ban.
-
-  demon: It will be replaced by a non-reward card.
-  '''
-
-  pickStage: '''demon: Now roll for which card you should pick!
-
-  demon: Before you roll, you may buy extra dice. You will only pick one card, but with more dice you will be able to choose which of the dice results you want to use.
-
-  demon: Beware, each die you buy means one extra roll in the bonus round. If you do buy dice, you will keep them for this round, but lose one for each card you pick.
+  demon: Before you roll, you may sell one of your dice to gain mana, or use mana on one of your abilities. You can also gain extra mana by accepting a bonus roll.
   '''
 
   intensityStage: '''This card has several levels of intensity. Roll for which one to pick.
-  You may buy dice, but remember that they cost one extra roll in the bonus round.
   '''
 
   intensityStageSelection: '''This card has several variations. Roll for which one to pick.
-  You may buy dice, but remember that they cost one extra roll in the bonus round.
   '''
 
   bargainStage: '''demon: How are you feeling about your cards so far? Good, no?

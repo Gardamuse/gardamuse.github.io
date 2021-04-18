@@ -1,24 +1,24 @@
 {
   id: "witch"
   title: "Witch"
-  likelihood: 130
+  likelihood: 4
   requirements: '''
-    spell >= 3 AND iq < 3
+    spell >= 4 AND iq < 3
   '''
   nodes: [
     {
       id: "intro"
       title: ""
       text: '''
-      demon: Okay that was… Not what I was expecting.
+      demon: Okay, so, this result isn't quite what I was expecting...
 
-      demon: At all…
+      demon: At all, actually.
 
-      demon: Tell you what, because it's frankly a little unnerving to see a mortal walking around with that much power at their fingertips, let me offer you a second deal. This one’s going to be a lot more in your control, trust me!
+      demon: Tell you what, because it's frankly a little unnerving to see a mortal walking around with that much power at their fingertips, let me offer you a second deal. This one's going to be a lot more in your control, trust me!
 
-      demon: Devote yourself to me and my cause, be my agent on Earth and help me undo the works of my enemies and I’ll ensure not only that your powers will be magnified here, but in the next life I’ll make you one of my lieutenants!
+      demon: Devote yourself to me, be my agent on Earth and I'll make sure your powers are magnified, not only that, but I'll make you one of my lieutenants in your next life. I won't interfere too much in your daily life, as long as you help me spread corruption, incite lust and drain intelligence from the world, to be put to better use in my domain.
 
-      demon: What do you say? A wise man once said it's better to rule in hell than serve in Heaven and I can offer you a kingdom of your own… Sound tempting?
+      demon: What do you say to that? A wise man once said it's better to rule in Hell than to serve in Heaven, and I would be inclined to agree. Sounds tempting?
       '''
       options: ["a1", "b1"]
     }
@@ -26,15 +26,13 @@
       id: "a1"
       title: "Join him and become a Dark Witch"
       text: '''
-      demon: Fantastic! I hope you like unfathomable dark powers and legions of the hottest men and women from history attending your every whim as that’s what your eternity is going to be like from now on!
+      demon: Fantastic! Enjoy the power, it will flow freely for you. Now, go forth, remove those who would oppose me, shape the world to my image!
 
-      demon: Just go forth and make your old pal proud!
-
-      The devil hardly needs to tell you twice, after all the same people he’s so worried about are the same ones who would want to stop you from doing whatever you want with your dark magics!
+      You hardly need to be told twice. After all, the same people who may oppose Him are the ones who would try to stop you from unleashing your dark magics to their full extent. Of course they must be dealt with, and you know just the way.
 
       By the time your time on the mortal plane comes to an end, you're known as one of the most evil and seductive women in all of history, and with good reason. Your feats of chaotic mischief are legendary, and your sexual appetite unquenchable.
 
-      And that was all still BEFORE you became the Queen of the Succubi!
+      And that was all still before you ascended as Succubus High Lady.
       '''
       options: ["end"]
     }
@@ -42,49 +40,47 @@
       id: "b1"
       title: "Reject the offer and remain mortal"
       text: '''
-      demon: Damn you, you’ll regret spurning me!
+      demon: Ugh... there is always someone, isn't there? Well, a deal's a deal, go use your new found powers in whatever way you please. But I'm warning you, stay out of my way or you'll regret spurning me!
 
-      demon: Uh, another time though!
+      And with a puff of smoke he is gone, clearly not very pleased with how this deal turned out. You can't help but feel there was a hint of fear in his voice, like you could do some real damage if you tried.
 
-      demon: GOODBYE!
+      Hey, does that mean you're basically a real life superhero now? You could use all these powers (fueled by sex, but still) to do a lot of good, and protect the world from all those like him who would seek to corrupt it.
 
-      Did you just scare the devil into fleeing from you? You did, didn’t you? You're not sure if that should make you feel impressed or worried at just how strong you have become…
+      But at the same time it may be best not to take the threat too lightly. Fail to leverage your power properly or interfere too much in whatever devilry that demon is cooking up and you're not sure you'd be able to stop him turning you into some fucktoy. You just want to take what you want for your own gain, not serve someone else.
 
-      Oh hey! Does this mean you're basically a real life superhero now? Like, you can use all of these powers (fueled by sex, but still) to do some real good in the world!
+      So what will it be? Be hero, or bring the world to its knees as you laugh and revel in your own excess?
 
-      Or bring it to its knees as you laugh and revel in your own excesses…
-
-      Choices, choices…
+      Choices, choices...
       '''
       options: ["a2", "b2"]
     }
     {
       id: "a2"
-      title: "Be a hero"
+      title: "Be a hero!"
       text: '''
-      You might not wear a cape and it's true you need to screw a lot of people to keep your powers fully charged, but there is no denying that you're a REAL hero!
+      You might not wear a cape and you do need to screw a lot of people to keep your powers fully charged, but there is no denying that you're a real hero!
 
-      Using the powers of darkness to save lives and make the world a better place might be a little cliché, but you’d love to see one of those big superhero movies include a hero who bangs as many people as you do get made!
+      Using the powers of darkness to save lives and make the world a better place might be a little cliché, but you'd love to see one of those big superhero movies include a hero who bangs as many people as you do!
 
-      Seriously, you're still kind of a bimbo even with all your magic and getting to see a ‘Bimbo Girl’ movie that’s just as dirty and slutty as you are on the big screen would be pretty fun!
+      Seriously, even with all your magic you can't deny that seeing a 'Bimbo Girl' movie that's just as dirty and slutty as you are on the big screen would be pretty fun!
 
-      Oh well, for now you’ll just have to content yourself with being the hottest hero around, in real life and fiction!
+      Oh well, for now you'll just have to content yourself with being the hottest hero around, in real life and in fiction!
       '''
       options: ["end"]
     }
     {
       id: "b2"
-      title: "No one can stop you, you take what you want!"
+      title: "No one can stop you. Take what you want!"
       text: '''
-      Helping people is for suckers and if there is one thing this game has taught you, it's that you're no sucker!
+      Helping people is for suckers and if there is one thing this deal has taught you, it's that you're no sucker!
 
-      Well… You suck dicks sometimes, but that’s not what you mean. The point is that with great power comes great opportunity to abuse it, and to become the world's greatest super bimbo criminal!
+      Well... You suck dick sometimes, but that's not the point. The point is that with great power comes great opportunity to abuse it, and a good chance to become the world's most powerful witch! When you're done gathering powerful artifacts and ancients spells, no one, not even the devil himself will be able to stop you!
 
-      By day you screw and play and by night you take to the streets, robbing, stealing and screwing some more, but wearing a cape and mask so it's even hotter!
+      By day you screw and play, and by night you take to the streets, robbing, stealing and gathering all kinds of magical power to you.
 
-      Sure goodie two shoes come out to try and stop you, but not one of them has managed to escape your seductive charms and that’s the way it's going to stay!
+      Sure, goodie two shoes come out to try and stop you, but not one of them has managed to escape your seductive charms and spells yet, and that's the way it's going to stay!
 
-      For the world will tremble forever more before the WITCH QUEEN!
+      The world will tremble before the Queen of the Earth!
       '''
       options: ["end"]
     }

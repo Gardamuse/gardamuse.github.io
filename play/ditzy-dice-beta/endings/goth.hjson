@@ -1,7 +1,7 @@
 {
   id: "goth"
   title: "Goth"
-  likelihood: 130
+  likelihood: 1
   requirements: '''
     spell >= 1 AND iq < 3
   '''
@@ -10,11 +10,11 @@
       id: "intro"
       title: ""
       text: '''
-      demon: That’s cute, you got a taste of control and power and think that makes you more than just an ordinary bimbo. A shame you’ll never have what it takes to REALLY shine.
+      demon: That's cute, you got a taste of control and power and think that makes you more than just an ordinary bimbo. A shame you'll never have what it takes to REALLY shine.
 
-      demon: Do yourself a favor and don’t let what you’ve won go to your head or you’ll find any real witches showing you just how little power you actually wield.
+      demon: Do yourself a favor and don't let what you've won go to your head or you'll find any real witches showing you just how little power you actually wield.
 
-      demon: Still, I suppose some congratulations are in order. Now what happens next is on you.
+      demon: Still, I suppose some congratulations are in order. What happens next is up to you.
       '''
       options: ["a1", "b1"]
     }
@@ -22,11 +22,11 @@
       id: "a1"
       title: "Find a real witch to help increase your power"
       text: '''
-      The devil is probably just scared of what you’ll be able to do if you take what he already gave you and use it to become even MORE powerful! All you need to do is to find a witch…
+      The devil is probably just scared of what you'll be able to do if you take what he already gave you and use it to become even MORE powerful! All you need to do is to find a witch...
 
       A surprisingly easy task as it turns out! Apparently coming out of a deal with the devil without serious repercussions is actually a good way of getting your name known in magical circles.
 
-      Unfortunately the witch you meet wasn’t overly impressed with your winnings and only agreed to take you on as an apprentice if you basically made yourself her submissive bitch while you learn from her. Can your pride handle that sort of treatment?
+      Unfortunately the witch you meet wasn't overly impressed with your newfound powers and only agreed to take you on as an apprentice if you basically made yourself her submissive bitch while you learn from her. Can your pride handle that sort of treatment?
       '''
       options: ["a2", "b2"]
     }
@@ -34,11 +34,11 @@
       id: "b1"
       title: "You feel content being a sexy goth girl"
       text: '''
-      Messing with one massively powerful supernatural being was enough risk for one lifetime. Better to just enjoy the fact that you got out of your deal with the devil more or less on top.
+      Messing with _one_ massively powerful supernatural being was enough risk for a lifetime. Better to just enjoy the fact that you got out of your deal with the devil more or less on top.
 
-      With a killer body and some useful advantages you might not be head and shoulders over the rest of humanity, but you're far from being an average Jane! You're a strong, independent, sexy queen of the night!
+      With a killer body and some useful advantages you might not be head and shoulders over the rest of humanity, but you're far from an average Jane! You're a strong, independent, sexy queen of the night!
 
-      Will you use that to vamp it up at the clubs or make yourself someone's ultimate big tittied goth girl GF? Well, that’s up to you! For once, life is truly what you make of it, so enjoy!
+      Will you use that to vamp it up at the clubs or make yourself someone's ultimate big tittied goth GF? Well, that's up to you! For once, life is truly what you make of it, so enjoy!
       '''
       options: ["end"]
     }
@@ -46,11 +46,11 @@
       id: "a2"
       title: "Demand to be treated better"
       text: '''
-      That was not the best choice you ever made, but it IS the last…
+      You demand to be treated better. It's not the best choice you've ever made, but it IS the last...
 
-      Turns out snapping at a witch who had already only given you a chance to serve her out of a sense of obligation is a great way of being hexed by someone who’s not got the same sense of fair play as the devil.
+      Turns out that snapping at a witch who had already only given you a chance to serve her out of a sense of obligation is a great way of being hexed by someone who's not got the same sense of fair play as the devil.
 
-      No cards, no dice, just all of your brains draining from your head as your body swelled up into an utterly ridiculous parody of a bimbo. Then you were dropped off at a local club, little more than a mindless doll for whoever wanted to take you home.
+      No cards, no dice, just all of your brains drained from your head as your body swelled up into an utterly ridiculous parody of a bimbo. Then you were dropped off at a local club, little more than a mindless doll for whoever wanted to take you home.
 
       Maybe you should have just heeded the devils warning?
       '''
@@ -60,9 +60,9 @@
       id: "b2"
       title: "Do what you're told and play nice"
       text: '''
-      Deciding to play it safe, you agree to be the witches bitch while she teaches you. After all, what’s a few years of playing the student if one day you can be the mistress?
+      Deciding to play it safe, you agree to be the witches bitch while she teaches you. After all, what's a few years of playing the student if one day you can be the mistress?
 
-      Of course, that’s assuming she’s actually teaching you how to be a witch since a lot of her ‘training’ seems much more focused on teaching you how best to eat her out, how to carry her things and clean up her home. If you didn’t know any better, you might even think she was actually training you to be her perfect girlfriend…
+      Of course, that's assuming she's actually teaching you how to be a witch since a lot of her "training" seems much more focused on teaching you how best to eat her out, how to carry her things and clean up her home. If you didn't know any better, you might even think she was actually training you to be her perfect girlfriend...
 
       But naturally you DO know better! Your wonderful mistress would NEVER take advantage of her favorite student like that! She just wants to make sure you know all the best ways of serving her so that when you DO become a full witch like her, you know how to put all that magic to its best use!
 

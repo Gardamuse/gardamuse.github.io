@@ -672,7 +672,7 @@
           id: "sensitivity 4"
           name: "Hypersensitive"
           description: '''Being able to get off quick can be real helpful sometimes, especially if you got a high Sex Drive. You should probably stick to skirts and dresses though, and maybe skip the panties as well. In general, avoid clothing that rub against your erogenous zones, or you'll find yourself trying to play off orgasms in public more than you'd perhaps like.'''
-          transformation: '''Okay no more panties! No more bras! Just keep your clothes light enough to avoid rubbing or it's going to be ‘clean up in every department you walk through' from here on out!'''
+          transformation: '''Okay no more panties! No more bras! Just keep your clothes light enough to avoid rubbing or it's going to be 'clean up in every department you walk through' from here on out!'''
         }
         {
           id: "sensitivity 5"
@@ -802,7 +802,7 @@
           thumb: "art/tail-0003.webp"
           artist: "Gardamuse"
           description: '''A fairly long tail with a tuft of hair at the end. This is a lazy tail, meaning that it won't move that much on its own, but you also have to make somewhat of an effort if you want to use it to swipe at or wrap it around something.'''
-          transformation: '''Is that a cow tail? God your friends are going to make so many ‘dumb cow' jokes at your exspense!'''
+          transformation: '''Is that a cow tail? God, your friends are going to make so many "dumb cow" jokes at your exspense!'''
         }
         {
           id: "cat's tail"
@@ -841,7 +841,7 @@
           thumb: "art/elfgirl.webp"
           artist: "Gardamuse"
           description: '''Pointed, elvish ears. Very similar to human ones, but with a bit more class. Good for cosplay too!'''
-          transformation: '''You feel at one with nature and sense you might live forever… You won't, but the ears really do make you feel like a fantasy tree hugger.'''
+          transformation: '''You feel at one with nature and sense you might live forever... You won't, but the ears really do make you feel like a fantasy tree hugger.'''
         }
         {
           id: "cat"
