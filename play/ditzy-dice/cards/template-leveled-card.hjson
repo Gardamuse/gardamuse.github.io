@@ -1,0 +1,46 @@
+{
+    id: ""
+    name: ""
+    thumb: ""
+    description: ''''''
+    transformation: ''''''
+    type: "numeric"
+    levels: [
+    {
+        id: ""
+        name: ""
+        description: ''''''
+        transformation: ''''''
+    }
+    {
+        id: ""
+        name: ""
+        description: ''''''
+        transformation: ''''''
+    }
+    {
+        id: ""
+        name: ""
+        description: ''''''
+        transformation: ''''''
+    }
+    {
+        id: ""
+        name: ""
+        description: ''''''
+        transformation: ''''''
+    }
+    {
+        id: ""
+        name: ""
+        description: ''''''
+        transformation: ''''''
+    }
+    {
+        id: ""
+        name: ""
+        description: ''''''
+        transformation: ''''''
+    }
+    ]
+}
