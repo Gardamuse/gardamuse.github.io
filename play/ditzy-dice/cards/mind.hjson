@@ -173,7 +173,7 @@
           thumb: "art/education-1.webp"
           art: "Gardamuse"
           description: '''What does all the little squiggles that are everywhere mean? You're sure you used to know, but trying to remember is like walking through syrup. You should probably leave such things to others.'''
-          transformation: '''Good news, you're still functional enough to go through life without too much hand holding. Bad news? You're operating at a level a lot of children would find underwhelming. Better find someone who can take care of you and fast.'''
+          transformation: '''Good news, you're still functional enough to go through life without too much hand holding. Bad news? You're operating at a level a lot of children would find underwhelming. Better find someone who can take care of you, and fast.'''
         }
         {
           id: "memory 5"

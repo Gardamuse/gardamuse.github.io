@@ -3,7 +3,7 @@
   title: "Bimbo Witch"
   likelihood: 3
   requirements: '''
-    spell >= 4 AND iq >= 3
+    spell >= 4 AND iq >= 4
   '''
   nodes: [
     {

@@ -4,7 +4,7 @@
   likelihood: 3
   requirements: '''
     pet >= 2
-    AND sum(iq, animal) >= 2
+    AND sum(iq, animal) >= 4
   '''
   nodes: [
     {

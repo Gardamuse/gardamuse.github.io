@@ -3,7 +3,8 @@
   title: "Bimbo"
   likelihood: 1
   requirements: '''
-    iq >= 3 AND sum(bimbo, expansion) >= 2
+    iq >= 4 AND sum(bimbo, expansion, slut) >= 3
+    OR slut >= 6 AND sum(bimbo, expansion) >= 4
   '''
   nodes: [
     {
