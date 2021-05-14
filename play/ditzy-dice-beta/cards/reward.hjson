@@ -5,6 +5,17 @@
   hue: 40
   cards: [
   {
+    id: "spell: limitless"
+    name: "Spell: Limitless"
+    thumb: "art/spell-book.webp"
+    description: '''While active this spell makes you smarter (+1 intelligence, memory or attention span). Multiple instances of this spell can be active at once. Keeping too many instances active at once may have detrimental effects.
+
+    Costs 1 mana per hour. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.
+    '''
+    transformation: '''demon: Huh... I didn't know this spell was still in there. Well, maybe you'll get to feel smart every know and again, then. I don't see anything too wrong with that, to be honest.'''
+    tags: ["spell"]
+  }
+  {
     id: "spell: super strength"
     name: "Spell: Super Strength"
     thumb: "art/spell-book.webp"
@@ -111,7 +122,7 @@
 
     Costs 1 mana per 20 minutes. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.
     '''
-    transformation: '''demon: If you ever wanted to be a superhero or villain, here's your opportunity. With the ability to shift great weights with your mind does come great responsibility after all! Just don't let your mana get too low, so screw responsibly when supering!'''
+    transformation: '''demon: If you ever wanted to be a superhero or villain, here's your opportunity. With the ability to shift great weights with your mind does come great responsibility after all! Just don't let your mana get too low, so screw responsibly when super-ing!'''
     tags: ["spell"]
   }
   {
@@ -133,7 +144,7 @@
 
     Costs 1 mana per minute casting, or 1 mana to travel to a marker. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.
     '''
-    transformation: '''demon: A time traveling bimbo witch? No way that that could go wrong. Fortunately this spell is completely paradox proof, which is good because there is no way you won't end up fucking your own great, great grandfather or whatever.'''
+    transformation: '''demon: A time traveling bimbo witch? No way that could go wrong. Fortunately this spell is completely paradox proof, which is good because there is no way you won't end up fucking your own great, great grandfather or whatever.'''
     tags: ["spell"]
   }
   {

@@ -3,7 +3,7 @@
   title: "Witch"
   likelihood: 4
   requirements: '''
-    spell >= 4 AND iq < 3
+    spell >= 4 AND iq < 4
   '''
   nodes: [
     {
@@ -32,7 +32,7 @@
 
       By the time your time on the mortal plane comes to an end, you're known as one of the most evil and seductive women in all of history, and with good reason. Your feats of chaotic mischief are legendary, and your sexual appetite unquenchable.
 
-      And that was all still before you ascended as Succubus High Lady.
+      And that was all still before you ascended as High Lady of the succubi.
       '''
       options: ["end"]
     }
@@ -86,6 +86,7 @@
     }
     {
       id: "end"
+      title: "The End"
       endpoint: "end"
     }
   ]

@@ -4,9 +4,10 @@
   likelihood: 3
   requirements: '''
     lactation >= 1
-    AND sum(iq, animal, pet) >= 2
+    AND sum(iq, animal, pet) >= 4
     AND sum(lactation, breast-size, ass size) >= 3
     OR lactation >= 4
+    AND sum(iq, animal, pet) >= 1
   '''
   nodes: [
     {

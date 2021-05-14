@@ -157,14 +157,14 @@
           thumb: "art/education-3.webp"
           art: "Gardamuse"
           description: '''Remember derivatives, chemistry or advanced language? No you don't. It's long gone, along with everything else you learned in high school or beyond.'''
-          transformation: '''demon: Aww, feeling a bit befuddled? Don't know what befuddled even means? Well buck up, plenty of people dropped out of highschool! Ones who look like you even find wonderful jobs dancing and having all sorts of 'fun'!'''
+          transformation: '''demon: Aww, feeling a bit befuddled? Don't know what befuddled even means? Well buck up, plenty of people dropped out of high school! Ones who look like you even find wonderful jobs dancing and having all sorts of 'fun'!'''
         }
         {
           id: "memory 3"
           name: "The Basics"
           thumb: "art/education-2.webp"
           art: "Gardamuse"
-          description: '''You read and write as if you've just learnt how to, and with such a basic vocabulary no one will ever take you for very smart again. If you're a Genius with great Attention Span you may still be able to do some not-quite high-school level math, but otherwise you're stuck with the most basic of arithmethic too.'''
+          description: '''You read and write as if you've just learnt how to, and with such a basic vocabulary no one will ever take you for very smart again. If you're a Genius with great Attention Span you may still be able to do some not-quite high-school level math, but otherwise you're stuck with the most basic of arithmetic too.'''
           transformation: '''demon: Did you even get past middle school? Well no one would ever guess it the way you're talking and acting. Better hope a charming smile and good looks can help... A lot.'''
         }
         {
@@ -173,7 +173,7 @@
           thumb: "art/education-1.webp"
           art: "Gardamuse"
           description: '''What does all the little squiggles that are everywhere mean? You're sure you used to know, but trying to remember is like walking through syrup. You should probably leave such things to others.'''
-          transformation: '''Good news, you're still functional enough to go through life without too much hand holding. Bad news? You're operating at a level a lot of children would find underwhelming. Better find someone who can take care of you and fast.'''
+          transformation: '''Good news, you're still functional enough to go through life without too much hand holding. Bad news? You're operating at a level a lot of children would find underwhelming. Better find someone who can take care of you, and fast.'''
         }
         {
           id: "memory 5"
@@ -463,7 +463,7 @@
           id: "name 1"
           name: "Complicated"
           description: '''You always try to seem like some kind of intellectual snob and will always present yourself with a long and fancy version of your name.'''
-          transformation: '''demon: Her Ladyship, something or other of something and something else, mistress of sucking dicks, scholar of sexual positions and grand poobah of orgasams! Think you need a few more titles and honorifics? I think there has to be a few you could still shove in there.'''
+          transformation: '''demon: Her Ladyship, something or other of something and something else, mistress of sucking dicks, scholar of sexual positions and grand poobah of orgasms! Think you need a few more titles and honorifics? I think there has to be a few you could still shove in there.'''
         }
         {
           id: "name 2"
@@ -577,7 +577,7 @@
 
       You will be unable to understand or learn any other language.
       '''
-      transformation: '''demon: It's time to choose your two languages! What will it be? Maybe Russian and English and you might sound a bit mysterious and dangerous. Or maybe you'd prefer somthing more slutty?'''
+      transformation: '''demon: It's time to choose your two languages! What will it be? Maybe Russian and English and you might sound a bit mysterious and dangerous. Or maybe you'd prefer something more slutty?'''
     }
     {
       id: "cum your brains out"

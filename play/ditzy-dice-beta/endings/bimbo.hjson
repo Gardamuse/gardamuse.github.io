@@ -3,7 +3,8 @@
   title: "Bimbo"
   likelihood: 1
   requirements: '''
-    iq >= 3 AND sum(bimbo, expansion) >= 2
+    iq >= 4 AND sum(bimbo, expansion, slut) >= 3
+    OR slut >= 6 AND sum(bimbo, expansion) >= 4
   '''
   nodes: [
     {
@@ -20,7 +21,7 @@
 
       demon: Have fun with it!
         '''
-      options: ["reject", "accept"]
+      options: ["reject", "accept", "money"]
     }
     {
       id: "reject"
@@ -32,7 +33,10 @@
 
       Sure.
       '''
-      options: ["end"]
+      endpoint: {
+        label: "Bimbo in Denial"
+        fun: "end"
+      }
     }
     {
       id: "accept"
@@ -43,6 +47,22 @@
       Now the question is... Are you the type to settle in with one super hot friend who can give you everything you crave, or do you prefer to slut it up and do whoever and whatever seems fun?
       '''
       options: ["the one", "be free"]
+    }
+    {
+      id: "money"
+      title: "Who cares about smarts? You're rich!"
+      text: '''
+      player: Why would I even care about being all smart and stuff? I'm like sooo rich now! I'll just have someone do all the like, boring thinking stuff for me.
+
+      It turns out that it's not a problem to be a bimbo when you're rich. You quickly manage to find yourself an accountant, a lawyer and several other people to just in general make sure that you never have anything to worry about.
+
+      Instead you can focus on more important things like having parties, working on your tan and having loads of pool-side hot sex.
+      '''
+      requirements: "gold >= 5"
+      endpoint: {
+        label: "Rich Bimbo"
+        fun: "end"
+      }
     }
     {
       id: "be free"
@@ -56,7 +76,10 @@
 
       WOOO! SPRING BREAK FOREVER!
       '''
-      options: ["end"]
+      endpoint: {
+        label: "Bimbo Slut"
+        fun: "end"
+      }
     }
     {
       id: "the one"
@@ -64,7 +87,7 @@
       text: '''
       You like, tots need someone who can take care of you now, or you're going to end up making some dumb mistakes!
 
-      You could ask one of your friends to help you, in return for some favors, or you could find a real master to put you in your place properly... either could be fun!
+      You could ask one of your friends to help you, in return for some favours, or you could find a real master to put you in your place properly... either could be fun!
       '''
       options: ["bffs girl", "find master"]
     }
@@ -72,13 +95,16 @@
       id: "bffs girl"
       title: "Be your best friends bimbo GF"
       text: '''
-      Your friend is shocked and a little freaked out when you first show up at their door and tell them who you are, but between all of the evidence back home of your identity and what your new body can do, it doesn't take long to convince them that you are who you say, and that you moving in with them really is in everyones best interest.
+      Your friend is shocked and a little freaked out when you first show up at their door and tell them who you are, but between all of the evidence back home of your identity and what your new body can do, it doesn't take long to convince them that you are who you say, and that you moving in with them really is in everyone's best interest.
 
       It takes them a bit of time to adjust to the new you and your new "needs", but before long things click. Sure they might not fully understand how or why you've become such a bimbo or why you need to sleep with so many random guys, but given what your new body can do, it'd be foolish to ask too many questions.
 
       The important thing for both of you is that you have formed a relationship based on mutual understanding, trust and REALLY good sex!
       '''
-      options: ["end"]
+      endpoint: {
+        label: "Best Friend's Bimbo GF"
+        fun: "end"
+      }
     }
     {
       id: "find master"
@@ -86,17 +112,16 @@
       text: '''
       It doesn't take long to find someone with the force of personality needed to put you in your place and give you what you need. Your days of having to make choices for yourself are over as Master always knows what's best and tells you what to do.
 
-      Sure, there are still things even you find too embarassing, but Master always seem to know just how to treat you that you always feel so good around him. Whether he's showing you off as arm candy in a flimsy dress, using you in bed or lending you out, you never once feel like you would complain.
+      Sure, there are still things even you find too embarrassing, but Master always seem to know just how to treat you that you always feel so good around him. Whether he's showing you off as arm candy in a flimsy dress, using you in bed or lending you out, you never once feel like you would complain.
 
       After all, for a bimbo like you, never having to think, shopping, going to parties and enjoying sex every day is basically the perfect life!
 
       Congratulations on your own, bimbo-y happy end!
       '''
-      options: ["end"]
-    }
-    {
-      id: "end"
-      endpoint: "end"
+      endpoint: {
+        label: "Satisfied Bimbo Slave"
+        fun: "end"
+      }
     }
   ]
 }

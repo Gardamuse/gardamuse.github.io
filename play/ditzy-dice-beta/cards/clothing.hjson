@@ -12,7 +12,7 @@
       description: '''No matter what you put on, you always find it is a few sizes too small. It's not going to be too uncomfortable, just a bit tight.
 
       You may look a little silly though, but in a sexy way.'''
-      transformation: '''You notice that your clothes are starting to feel a bit thight. But you're not growing, your clothes are shrinking! No need to blush though, and don't bother changing, you'll find even the baggiest of sweatshirts will be straining to contain you now.'''
+      transformation: '''You notice that your clothes are starting to feel a bit tight. But you're not growing, your clothes are shrinking! No need to blush though, and don't bother changing, you'll find even the baggiest of sweatshirts will be straining to contain you now.'''
     }
     {
       id: "whale tail"
@@ -21,7 +21,7 @@
       description: '''Whenever you are not wearing a thong, or it is not showing above your pant- or skirt-line, you become considerably less intelligent (-1 intelligence).
 
       So if you want to think, you better show that thong!'''
-      transformation: '''Geeze, it's so hard to think with such plain jane underwear on... You can hike it up to at least make things a bit less foggy, but it's just not the same without a proper thong!'''
+      transformation: '''Geez, it's so hard to think with such plain Jane underwear on... You can hike it up to at least make things a bit less foggy, but it's just not the same without a proper thong!'''
       tags: ["bimbo"]
     }
     {
@@ -44,7 +44,7 @@
       thumb: "art/thigh-highs.webp"
       description: '''Whenever you wear three or more pieces of clothing and none of them are thigh-high stockings, your sex drive becomes much stronger (+2 sex drive).
 
-      Thigh highs look hot af, so if you're not wearing yours, you'll be the one feeling hot instead.'''
+      Thigh highs look hot AF, so if you're not wearing yours, you'll be the one feeling hot instead.'''
       transformation: '''demon: Hey, what are you even wearing right now, knee socks? Well no wonder you're dripping everywhere. You better find a set of thigh highs or strip down, and fast! Otherwise you'll be of no use to anyone in just a bit. Well, maybe of some use.'''
     }
     {
@@ -109,14 +109,14 @@
           thumb: "art/heels-0000.webp"
           artist: "Gardamuse"
           description: '''Your feet remain largely unchanged, but you will feel more at ease walking barefoot than before!'''
-          transformation: '''A sudden feeling has you kick off your shoes. It feels so much better to be free and feel the grass under your feet. With no shoes you might get a little dirtier, but does it even matter if you spend most of your days on your back anyways?'''
+          transformation: '''A sudden feeling has you kick off your shoes. It feels so much better to be free and feel the grass under your feet. With no shoes you might get a little dirtier, but does it even matter if you spend most of your days on your back anyway?'''
         }
         {
           id: "heels 2"
           name: "Low"
           thumb: "art/heels-0001.webp"
           artist: "Gardamuse"
-          description: '''You will prefer a little bit of heel on your shoe, but nothing very noticable. You can still basically wear flat shoes should you really want to.
+          description: '''You will prefer a little bit of heel on your shoe, but nothing very noticeable. You can still basically wear flat shoes should you really want to.
 
           (1in or 2 cm)'''
           transformation: ''''''
@@ -139,7 +139,7 @@
           description: ''' These are some proper high heels you're going to be strutting around in. The kind you'd expect to see at fancy dinners. The way your hips will sway as you walk with these on is going attract eyes anytime you leave the room too. Classy.
 
           (3in or 7cm)'''
-          transformation: '''demon: Very sheek! Girl you're adding class to this joint with every step you take in those classic heels! Good thing you make it look so easy too as they are here to stay.'''
+          transformation: '''demon: Very chic! Girl you're adding class to this joint with every step you take in those classic heels! Good thing you make it look so easy too as they are here to stay.'''
         }
         {
           id: "heels 5"

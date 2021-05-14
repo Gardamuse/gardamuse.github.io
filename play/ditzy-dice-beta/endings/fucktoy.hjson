@@ -3,10 +3,10 @@
   title: "Fuck Toy"
   likelihood: 5
   requirements: '''
-    iq >= 12 AND sex drive >= 0
-    OR sum(iq, sex drive, personality.object, willpower, submissive silence, erogenous lips, erogenous breasts, cum your brains out, sensitivity) >= 14
-    OR sex drive >= 5 AND cum your brains out >= 1
-    OR sum(sex drive, sensitivity) >= 8 AND cum your brains out >= 1
+    iq >= 10 AND sex drive >= 0 AND doll >= 1
+    OR sum(iq, sex drive, willpower, submissive silence, erogenous lips, erogenous breasts, cum your brains out, sensitivity) >= 14 AND doll >= 1
+    OR sex drive >= 5 AND cum your brains out >= 1 AND doll >= 1
+    OR sum(sex drive, sensitivity) >= 8 AND cum your brains out >= 1 AND doll >= 1
   '''
   nodes: [
     {
@@ -15,13 +15,13 @@
       text: '''
       demon: Well this is a little anticlimactic.
 
-      player: uuh...?
+      player: Uuh...?
 
       demon: Normally I'd prompt you to make a choice to determine the nature of your fate, with lots of little twisty traps your future could fall into...
 
       demon: But as it is I don't think you're going to be of much use as anything other than a human fucktoy.
 
-      player: ah...!
+      player: Ah...!
 
       demon: Yes, I'm afraid I'll just have to sell you off and hope someone enjoys you. Do be a good girl and make your new owner happy, won't you?
       '''

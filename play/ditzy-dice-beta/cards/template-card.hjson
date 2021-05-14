@@ -1,0 +1,16 @@
+{
+    id: ""
+    name: "Card Name"
+    thumb: ""
+    description: '''This will be written on the card.
+    '''
+    transformation: '''
+    demon: This will be said by the demon.
+    
+    demon: This will be another speech bubble by the demon.
+    
+    player: This will be said by the player.
+    
+    The narrator will say this.
+    '''
+}
