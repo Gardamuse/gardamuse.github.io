@@ -4,19 +4,19 @@
   "thumb": "thumb.webp",
   "sequences": [
     {
-      "firstImage": "devil-24fps-loop.webp",
-      "length": 1
-    },
+      "firstImage": "frames/devil-24fps-01.webp",
+      "length": 8
+    }
     {
       "title": "Video",
       "firstImage": "devil-24fps-loop.mp4",
       "thumb": "thumb.webp",
       "length": 1
-    },
+    }
     {
-      "title": "Image Sequence",
-      "firstImage": "frames/devil-24fps-01.webp",
-      "length": 8
+      "title": "Animated Webp",
+      "firstImage": "devil-24fps-loop.webp",
+      "length": 1
     }
   ]
 }

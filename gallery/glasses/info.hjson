@@ -1,0 +1,29 @@
+{
+  "title": "Glasses Bimbofication",
+  "description": '''Another short bimbofication loop.
+  
+  I can very much recommend everyone to check out [Artbreeder](https://www.artbreeder.com), it's such an amazing collaborative art creation experience. To create an image you simply take one that already exists and "breed it" with another one, then you can tweak some individual genes and you've created a new and entirely unique character, landscape or whatever. Any image you make is then available for others to mix and "breed" with in turn.
+  
+  Through that system I've been collaborating a lot with CountSparks, and the back and forth of creating something, having someone else make improvements to it and then using the improved version to continue creating has been very rewarding.
+  
+  If you want to modify the images in this sequence, it was based around [this artbreeder image](https://www.artbreeder.com/i?k=7a64b682fef6ee3812b055def12a). Feel free to check it out and modify it!
+  ''',
+  "thumb": "thumb.webp",
+  "sequences": [
+    {
+      "firstImage": "frames/glasses-01.webp",
+      "length": 10
+    },
+    {
+      "title": "Video",
+      "firstImage": "glasses-loop.mp4",
+      "thumb": "thumb.webp",
+      "length": 1
+    },
+    {
+      "title": "Animated Webp",
+      "firstImage": "glasses-loop.webp",
+      "length": 1
+    }
+  ]
+}

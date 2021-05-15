@@ -8,8 +8,8 @@
 
   sequences: [
     {
-      firstImage: "loop.webp"
-      length: 1
+      firstImage: "frames/tg-01.webp"
+      length: 14
     }
     {
       title: "Video"
@@ -18,9 +18,9 @@
       length: 1
     }
     {
-      title: "Image Sequence"
-      firstImage: "frames/tg-01.webp"
-      length: 14
+      title: "Animated Webp"
+      firstImage: "loop.webp"
+      length: 1
     }
   ]
 }
