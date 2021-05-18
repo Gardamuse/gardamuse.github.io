@@ -85,6 +85,17 @@
       You always carry the bimbo virus but are immune to it. It spreads through kissing and sex. Infection can increase sex drive, sensitivity, breast and ass size, reduce mental abilities and lasts for up to 4 weeks at a time. Men may transform to women, or become more muscular instead.
       '''
       transformation: ''''''
+      tags: ["bimbo"]
+    }
+    {
+      id: "brain pop"
+      name: "Brain Pop"
+      thumb: ""
+      description: '''
+      At random times, your brain goes on hiatus, announced by a sudden pop. You'll freeze for a second, stare into the middle distance and then be able to continue as normal, just a lot dumber (-3 intelligence, memory or attention span). The effect lasts for 24 hours, occurs up to 4 times a week and can overlap with itself, stacking the effect.
+      '''
+      transformation: ''''''
+      tags: ["iq"]
     }
   ]
 }

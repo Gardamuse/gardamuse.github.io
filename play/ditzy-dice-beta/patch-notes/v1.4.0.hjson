@@ -1,20 +1,25 @@
 {
-name: "Epic Epilogues"
-date: "2021-05-08"
+name: "Flamboyant Finales"
+date: "2021-05-18"
 text: '''
 # Features
-    * Updated some endings.
     * Some epilogues may now give you additional dialogue options if you have certain cards.
+    * Updated some epilogues.
     * New Cards
         * Queen of Spades
-        * Bimbo Virus
+        * Bimbo Virus (pic?)
         * Spell: Limitless
+        * Metered Connection (pic?)
+        * Brain Pop (pic? dialogue?)
+    * Can now see card activation dialogue in Collection.
 
 # Gameplay
 
 # UI
 
 # Minor
+    * Rolling any dice now disables the "pick any" ability.
+    * Hand is now saved to collection immediately on the end screen, instead of only when pressing the back to menu button.
 
 '''
 }
