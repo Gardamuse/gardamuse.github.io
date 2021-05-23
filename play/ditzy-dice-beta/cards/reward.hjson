@@ -7,7 +7,7 @@
   {
     id: "spell: limitless"
     name: "Spell: Limitless"
-    thumb: "art/spell-book.webp"
+    thumb: "art/limitless-spell-1024px.webp"
     description: '''While active this spell makes you smarter (+1 intelligence, memory or attention span). Multiple instances of this spell can be active at once. Keeping too many instances active at once may have detrimental effects.
 
     Costs 1 mana per hour. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.
@@ -29,7 +29,7 @@
   {
     id: "spell: transform other"
     name: "Spell: Transform Other"
-    thumb: "art/spell-book.webp"
+    thumb: "art/glasses-thumb.webp"
     description: '''Transform the mind and body of a nearby person, but you can only give them characteristics more similar to yours. Transformations are permanent unless you reset them, which you can do at any time.
 
     Costs 1 mana per cast. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.
@@ -40,7 +40,7 @@
   {
     id: "spell: transform body"
     name: "Spell: Transform Body"
-    thumb: "art/spell-book.webp"
+    thumb: "art/glasses-thumb.webp"
     description: '''Transform your body into anything female and somewhat humanoid, but you can't alter characteristics that the cards gave you. Centaur, mermaid, or something more subtle? You can always reset your appearance. If you have Transform Others you can also do this to other people.
 
     Costs 1 mana per cast. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.
@@ -51,7 +51,7 @@
   {
     id: "spell: mind drain"
     name: "Spell: Mind Drain"
-    thumb: "art/spell-book.webp"
+    thumb: "art/glasses-thumb.webp"
     description: '''You can lower a nearby person's intelligence, memory and attention span. You can set the changes to revert after a given time, or be permanent until you revert them. This power can be used on yourself.
 
     Costs 1 mana per cast. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.
@@ -73,7 +73,7 @@
   {
     id: "spell: healing"
     name: "Spell: Healing"
-    thumb: "art/spell-book.webp"
+    thumb: "art/healing-zoomed.webp"
     description: '''By touching an erogenous zone, you can heal any wound and cure any illness on that person in a few minutes. This includes resurrecting the very recently dead, if their body is mostly whole. Used regularly, this spell will ensure a long and healthy life, but not immunity to aging.
 
     Costs 1 mana per cure. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.
@@ -139,8 +139,8 @@
   {
     id: "spell: time travel"
     name: "Spell: Time Travel"
-    thumb: "art/spell-book.webp"
-    description: '''You can travel back and forwards through time, at normal or greater speed. While casting, you don't exist in time. Travelling backwards spawns a new timeline. By setting markers you can return to any visited timeline.
+    thumb: "art/time-travel-512px.webp"
+    description: '''You can travel back and forwards through time. While casting, you don't exist in time. Travelling backwards spawns a new timeline. By setting markers you can return to any visited timeline.
 
     Costs 1 mana per minute casting, or 1 mana to travel to a marker. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.
     '''
@@ -150,7 +150,7 @@
   {
     id: "spell: flight"
     name: "Spell: Flight"
-    thumb: "art/spell-book.webp"
+    thumb: "art/flight-512px.webp"
     description: '''You learn how to fly; at great speeds or just hovering in place.
 
     Costs 1 mana per hour. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.'''
@@ -171,7 +171,7 @@
   {
     id: "spell: phasing"
     name: "Spell: Phasing"
-    thumb: "art/spell-book.webp"
+    thumb: "art/phasing-512px.webp"
     description: '''You can phase yourself and up to a metric ton of material, including other people. While phasing, you can float up, down and through any object as if it wasn't there, and you look slightly transparent. To phase material, some part of it must be very close to you.
 
     Costs 1 mana per 2 minutes. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.
