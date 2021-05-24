@@ -59,12 +59,47 @@ body:hover {
 }
 
 .dual {
-   display: grid;
-   grid-gap: 0;
-   grid-template-columns: 3fr [main] minmax(40ch, 85ch) [side] minmax(40ch, 20vw) 3fr;
-   @media screen and (max-width: 90ch) {
-      grid-template-columns: [main] minmax(30ch, 85ch);
-   }
+  margin: auto;
+
+  display: grid;
+  grid-auto-rows: 50ch;
+}
+
+.modern-row {
+  background: linear-gradient(135deg, hsl(340, 52%, 84%), hsl(276, 74%, 70%));
+  display: grid;
+  grid-template-columns: repeat(2, 60ch);
+
+  @media screen and (max-width: 120ch) {
+     grid-template-columns: repeat(2, 60ch);
+     grid-template-rows: auto auto;
+  }
+}
+
+.text-cell {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.text-cell-1 {
+  @extend .text-cell;
+  grid-area: span 1;
+}
+
+.text-cell-2 {
+  @extend .text-cell;
+  grid-area: span 2;
+}
+
+.image-cell {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.image-cell-1 {
+  @extend .image-cell;
 }
 
 a {
