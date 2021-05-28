@@ -49,7 +49,10 @@
 
       Nice thing about being such a huge bimbo is you're easy to trick, even by a total bimbo like yourself!
       '''
-      options: ["end"]
+      endpoint: {
+        label: "Tricking Everyone"
+        fun: "end"
+      }
     }
     {
       id: "a2"
@@ -63,7 +66,10 @@
 
       Truly, these guys really are your BFFs!
       '''
-      options: ["end"]
+      endpoint: {
+        label: "Everyone's Favorite Friend"
+        fun: "end"
+      }
     }
     {
       id: "b2"
@@ -77,12 +83,10 @@
 
       Funny thing is, for as much of a bimbo as you have become, everyone seems really impressed by how fast you learn your new role and duties and before long you're head of the harem! Way to go!
       '''
-      options: ["end"]
-    }
-
-    {
-      id: "end"
-      endpoint: "end"
+      endpoint: {
+        label: "Head Harem Girl"
+        fun: "end"
+      }
     }
   ]
 }

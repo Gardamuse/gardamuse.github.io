@@ -41,7 +41,10 @@
 
       Albeit one who is regularly fucked by her owner and their friends.
       '''
-      options: ["end"]
+      endpoint: {
+        label: "Who's a Good Girl?"
+        fun: "end"
+      }
     }
     {
       id: "b1"
@@ -57,11 +60,10 @@
 
       Your life as a human was already over before you even came to this place, and at least now your skills as a pet can be truly appreciated!
       '''
-      options: ["end"]
-    }
-    {
-      id: "end"
-      endpoint: "end"
+      endpoint: {
+        label: "Just Another Pet"
+        fun: "end"
+      }
     }
   ]
 }

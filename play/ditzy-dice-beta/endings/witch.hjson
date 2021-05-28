@@ -34,7 +34,10 @@
 
       And that was all still before you ascended as High Lady of the succubi.
       '''
-      options: ["end"]
+      endpoint: {
+        label: "Dark Witch"
+        fun: "end"
+      }
     }
     {
       id: "b1"
@@ -42,7 +45,7 @@
       text: '''
       demon: Ugh... there is always someone, isn't there? Well, a deal's a deal, go use your new found powers in whatever way you please. But I'm warning you, stay out of my way or you'll regret spurning me!
 
-      And with a puff of smoke he is gone, clearly not very pleased with how this deal turned out. You can't help but feel there was a hint of fear in his voice, like you could do some real damage if you tried.
+      He is clearly not very pleased with how this deal turned out. You can't help but feel there is a hint of fear in his voice, like you could do some real damage if you tried.
 
       Hey, does that mean you're basically a real life superhero now? You could use all these powers (fueled by sex, but still) to do a lot of good, and protect the world from all those like him who would seek to corrupt it.
 
@@ -52,7 +55,7 @@
 
       Choices, choices...
       '''
-      options: ["a2", "b2"]
+      options: ["a2", "b2", "money"]
     }
     {
       id: "a2"
@@ -66,11 +69,14 @@
 
       Oh well, for now you'll just have to content yourself with being the hottest hero around, in real life and in fiction!
       '''
-      options: ["end"]
+      endpoint: {
+        label: "Horny Heroine"
+        fun: "end"
+      }
     }
     {
       id: "b2"
-      title: "No one can stop you. Take what you want!"
+      title: "Become the villain."
       text: '''
       Helping people is for suckers and if there is one thing this deal has taught you, it's that you're no sucker!
 
@@ -82,12 +88,30 @@
 
       The world will tremble before the Queen of the Earth!
       '''
-      options: ["end"]
+      endpoint: {
+        label: "Evil is Sexy"
+        fun: "end"
+      }
     }
     {
-      id: "end"
-      title: "The End"
-      endpoint: "end"
+      id: "money"
+      title: "Both powerful and rich, you fear nothing!"
+      requirements: "gold >= 5"
+      text: '''
+      demon: Wait, what are you doing? You weren't supposed to be able to... to... This isn't how it was meant to go!
+
+      player: I'm a super powered witch with enough cash to buy any artefact and any ally I want. I thought you were a man of your word, do you _really_ want to try and alter our deal now?
+
+      The devil stares at you in furious horror before vanishing without a trace, never to be seen by you again. After all, not even the lord of the abyss is foolish enough to cross you now!
+
+      Combining your fabulous wealth and magical powers, you find no challenge in dominating the world, bending governments and corporations to your whim, accumulating even more wealth and power as you go. All who stand against you are crushed by the weight of your capital, wooed by your seductive ways or just brushed aside by your magical abilities.
+
+      In time religious groups flock to you, proclaiming you as the chosen one, an image your marketing teams expertly curate, allowing you to solidify your conquest and secure your rule of this world.
+      '''
+      endpoint: {
+        label: "Empress of Earth"
+        fun: "end"
+      }
     }
   ]
 }

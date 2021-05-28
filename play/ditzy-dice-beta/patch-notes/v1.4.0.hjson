@@ -3,6 +3,8 @@ name: "Flamboyant Finales"
 date: "2021-05-18"
 text: '''
 # Features
+    * You can now see the endings you have unlocked from the Collection.
+    * You can now see card activation dialogue on cards in the Collection.
     * Some epilogues may now give you additional dialogue options if you have certain cards.
     * Updated some epilogues.
     * New Cards
@@ -11,13 +13,17 @@ text: '''
         * Spell: Limitless
         * Metered Connection (pic?)
         * Brain Pop (pic? dialogue?)
-    * Can now see card activation dialogue in Collection.
+        * Too Hot to Handle (pic?)
+        * Comfortably Bound (pic)
+        * Wet dreams (pic?)
 
 # Gameplay
 
 # UI
 
 # Minor
+    * Updated some card illustrations, including the Intelligence card with many thanks to Kobi-Tfs!
+    * Updated a few card descriptions and dialogues.
     * Rolling any dice now disables the "pick any" ability.
     * Hand is now saved to collection immediately on the end screen, instead of only when pressing the back to menu button.
 

@@ -1,0 +1,82 @@
+{
+  id: "enhanced"
+  title: "Enhanced" # The title of this ending
+  likelihood: 1 # The ending with the lowest likelihood will be chosen if multiple are viable
+  requirements: '''
+    expansion >= 2 AND iq < 4
+  '''
+  nodes: [
+    {
+      id: "start"
+      title: ""
+      text: '''
+      demon: Well this is interesting... From all outward appearances you look like a perfect bimbo, but you managed to avoid any serious mental changes. You are, effectively, a perfectly normal woman in the body of a sex goddess.
+
+      He shakes his head and sighs.
+
+      demon: Well that's a little bit of a let down, I don't mind telling you, here I was hoping you'd get to be a mindless sexpot, but instead you're just a very attractive woman. How banal.
+
+      player: What will happen to me now?
+
+      demon: Whatever you like, I suppose. I had some fun ideas for if things had gotten a bit more spicy, but as it is, your mind and life remain whatever you make of them.
+
+      And with that he vanishes in a puff of smoke, leaving you to examine your knock out new body and wonder what you should do with it...?
+      '''
+      options: ["quiet life", "go wild", "money"]
+    }
+    {
+      id: "quiet life"
+      title: "Live a quiet life"
+      text: '''
+      Free from compulsions to suck and fuck anything that moves, or instincts driving you to worship the ground some master or mistress walks on, you find living a peaceful and quiet life isn't really all that difficult for you. Sure you still get hit on A LOT now, and you know all the neighborhood wives resent how their husbands stare when you walk by, but you just roll your eyes and get on with your day.
+
+      Your life is not completed unaffected by your changes of course, it can be hard to be taken seriously looking as ridiculously attractive as you do, which is annoying. And naturally you soon find that all the straight men and lesbians in your life really, REALLY want to fuck you which makes some of your friendships pretty awkward. But on the upside, dating just got a whole lot easier and if you ever need to make some money on the quick, setting up a cam show is always going to be an option for you now.
+
+      Aside from all of that though you came out of your deal with the devil more or less strictly better off then when you started.
+
+      Not bad!
+      '''
+      endpoint: {
+        label: "Neighborhood Hottie"
+        fun: "end"
+      }
+    }
+    {
+      id: "go wild"
+      title: "Use your looks and go WILD!"
+      text: '''
+      You have the looks any bimbo would die for and the brains to make that work for you, no way you are squandering this chance!
+
+      You start small, showing some skin for lonely guys so you can get enough cash to set up a cam show. Then you use your new looks to rise rapidly to the top of the charts as one of the most in demand hotties online. Next you leverage that into a lucrative contract working for your pick of the best porn companies in the business, using your established fanbase to call all the shots when working out a contract.
+
+      Producers, directors and co-stars all underestimate the new bimbo bombshell when you hit the scene, but all of them soon learn to respect your hustle as you rocket to the top once again. Combining your impossibly good looks with your sharp mind there is nothing you cannot accomplish in an industry built on sleaze, not when you're what half the internet is nutting to!
+
+      In the decades that follow, as you establish yourself as a living legend in the porn industry, it becomes a common joke to ask if you had somehow made a deal with the devil to get where you are...
+
+      What none of them know is that he may just be one of your biggest fans!
+      '''
+      endpoint: {
+        label: "Pornography Super Star"
+        fun: "end"
+      }
+    }
+    {
+      id: "money"
+      title: "You're rich!"
+      requirements: "gold >= 5"
+      text: '''
+      You're wealthy as hell and can afford to just make up for anything you lost in the game using your piles of money! Screw making difficult choices, that sounds like a poor person problem!
+
+      And so it is that you buy a fancy car, use it to drive to the first opulent mansion you like and proceed to buy that as well. Soon you have an expensive accountant, a team of high priced business experts and all the people needed to ensure you'll never have to worry about money ever again.
+
+      Soon you're living the high life, basking in your new found wealth and becoming a fast favorite of the tabloid press. But hey, if they want to show pictures of your excellent bikini body all over the front page, then who are you to stop them? Everybody wants a piece of you!
+
+      You're kind of a big deal that way.
+      '''
+      endpoint: {
+        label: "Rich Girl"
+        fun: "end"
+      }
+    }
+  ]
+}

@@ -40,7 +40,10 @@
 
       And so life goes on... Oh well, no use crying over spilled milk, right?
       '''
-      options: ["end"]
+      endpoint: {
+        label: "The Family Cow"
+        fun: "end"
+      }
     }
     {
       id: "b1"
@@ -58,11 +61,10 @@
 
       player: Mooo!
       '''
-      options: ["end"]
-    }
-    {
-      id: "end"
-      endpoint: "end"
+      endpoint: {
+        label: "Cowgirl Dairy Farm"
+        fun: "end"
+      }
     }
   ]
 }

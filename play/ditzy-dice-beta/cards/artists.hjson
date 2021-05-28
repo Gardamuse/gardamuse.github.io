@@ -5,6 +5,11 @@
     linkText: "FurAffinity"
   }
   {
+    artist: "Kobi-Tfs"
+    link: "https://www.deviantart.com/kobi-tfs"
+    linkText: "DeviantArt"
+  }
+  {
     artist: "Blackshirtboy"
     link: "https://www.deviantart.com/blackshirtboy"
     linkText: "DeviantArt"
