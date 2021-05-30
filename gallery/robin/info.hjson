@@ -1,0 +1,23 @@
+{
+  "title": "Bimbofication: Robin",
+  "description": "Yet another bimbofication (tg?) sequence. I thought Robin was a good name. The end result does look quite similar to the last one I did, but then I think that _is_ a good bimbo look.",
+  "thumb": "thumb.webp",
+  "sequences": [
+    {
+      "firstImage": "frames/robin-01.webp",
+      "length": 12
+    },
+    {
+      "title": "Animated Webp",
+      "firstImage": "robin-loop.webp",
+      "thumb": "thumb-animated.webp",
+      "length": 1
+    },
+    {
+      "title": "Video",
+      "firstImage": "robin-loop.mp4",
+      "thumb": "thumb.webp",
+      "length": 1
+    }
+  ]
+}

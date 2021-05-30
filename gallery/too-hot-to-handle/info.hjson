@@ -1,0 +1,22 @@
+{
+  title: "Too Hot To Handle",
+  description: '''
+  <p>
+  <i>So hot she's immune to the cold.</i>
+  </p>
+  <p>
+  This is the art for one of the upcoming cards in Ditzy Dice 1.4. Since I went through the trouble of making all her clothes swappable I thought I'd make this handy chart too.
+  </p>
+  '''
+  sequences: [
+    {
+      thumb: "too-hot-to-handle-005.webp",
+      firstImage: "too-hot-to-handle-001.webp",
+      length: 16
+    }
+    {
+      firstImage: "too-hot-to-handle-chart.webp",
+      length: 1
+    }
+  ]
+}
