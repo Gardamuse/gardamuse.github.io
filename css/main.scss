@@ -18,7 +18,8 @@ $oc3: $text-light;
 $header-font: 'Croissant One', "Open Sans", "Helvetica Neue";
 $h-font: "Maven Pro", "Open Sans", "Helvetica Neue";
 $main-font: "Open Sans", "Open Sans", "Helvetica Neue";
-$mobile-width: 380px;
+$content-width: 140ch;
+$mobile-width: 600px;
 
 $dark-border-color: #996d00;
 $dark-box-color: rgba(73, 82, 85, 0.2);
@@ -65,13 +66,39 @@ body:hover {
   grid-auto-rows: 50ch;
 }
 
-.modern-row {
+.full-width-background {
+  width: 100%;
   background: linear-gradient(135deg, hsla(335, 53%, 18%, 1), hsla(335, 53%, 18%, 1));
+}
+
+.triple {
+  //background: #111;
   display: grid;
-  grid-template-columns: repeat(2, 60ch);
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  max-width: $content-width;
+  margin: auto;
+  padding: 0 20px;
+
+  text-align: center;
+  color: $text-light;
+
+  @media screen and (max-width: $mobile-width) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.modern-row {
+  //background: linear-gradient(135deg, hsla(335, 53%, 18%, 1), hsla(335, 53%, 18%, 1));
+  background: #111;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  max-width: $content-width * 0.75;
+  margin: auto;
+  //padding: 0 20px;
 
   @media screen and (max-width: 120ch) {
-     grid-template-columns: repeat(2, 60ch);
+     grid-template-columns: repeat(2, 1fr);
      grid-template-rows: auto auto;
   }
 }
@@ -80,6 +107,7 @@ body:hover {
   display: flex;
   align-items: center;
   padding: 20px;
+  padding-bottom: 50%;
   color: $text-light;
 }
 

@@ -12,25 +12,26 @@
 
    grid-area: header;
    min-height: 35vw;
-   margin-bottom: 40px;
 
    display: grid;
-   grid-template-columns: auto [main] 120ch auto;
+   grid-template-columns: auto [main] $content-width auto;
 
 }
 
-.header-front h1 {
+/* Text outline */
+/*.header-front h1 {
    text-shadow: 1px 1px $oc1, -1px 1px $oc1, -1px -1px $oc1, 1px -1px $oc1, 2px 2px $oc2, -2px 2px $oc2, -2px -2px $oc2, 2px -2px $oc2;
 }
-/* Text outline */
 .header-front h2 {
    text-shadow: 1px 1px $oc2, -1px 1px $oc2, -1px -1px $oc2, 1px -1px $oc2;
-}
+}*/
 
 .header-text {
   grid-area: main;
   align-self: end;
+  justify-self: start;
   margin: 40px 20px;
+  max-width: $content-width;
 }
 
 .project-name {
