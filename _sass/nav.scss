@@ -2,16 +2,20 @@
 $navbar-items: 4;
 /* How many items are in the navbar */
 .navbar {
-   background-color: $navbar-light;
-   background-image: url("/assets/az-subtle.png"), linear-gradient(1deg, $navbar-dark, $navbar-light);
+   background-image: linear-gradient(180deg,
+                                    $navbar-dark,
+                                    rgba(lighten($navbar-dark, 2%), 0.90) 80%,
+                                    rgba(lighten($navbar-dark, 5%), 0.6)
+                                    );
    font-size: 1.5em;
    font-family: $h-font;
 
    grid-area: navbar;
    display: grid;
    grid-template-columns: repeat($navbar-items, minmax(100px, 240px));
-   grid-template-rows: 3.2em;
+   //grid-template-rows: 3.2em;
    justify-content: center;
+   //max-width: 100%;
    //grid-gap: 2px;
 
    @media screen and (max-width: $mobile-width) {
@@ -66,33 +70,3 @@ $navbar-items: 4;
       left: 0;
    }
 }
-
-
-//@media screen and (max-width: 24rem) {
-//   .navbar {
-//      height: 12rem;
-//      width: 100%;
-//   }
-//}
-//@media screen and (max-width: 24rem) {
-//   .navbar div {
-//      display: block;
-//      float: left;
-//      width: 100%;
-//   }
-//}
-//@media screen and (max-width: 24rem) {
-//   .navbar a {
-//      height: (12rem / $navbar-items);
-//      width: 100%;
-//      float: left;
-//   }
-//}
-//@media screen and (max-width: 24rem) {
-//   .navbar a:hover {
-//      border-left: 4px solid $highlight-color;
-//      border-right: 4px solid $highlight-color;
-//      border-bottom: 4px none transparent;
-//      border-top: 4px none transparent;
-//   }
-//}

@@ -2,19 +2,23 @@
 .header-front {
    //background-image: linear-gradient(-5deg, $header-light, $header-dark);
    background-image: linear-gradient(#2220, rgba(darken($navbar-dark, 7%), .9)), url("../assets/ox-banner.webp");
-   background-position: top center;
-   background-size: 100%, 100% auto;
+   background-position: center center, center center;
+   //background-size: 100%, 100% auto;
    background-repeat: no-repeat;
+   background-size: contain, cover;
    background-attachment: local, fixed;
 
    color: #fff;
    background-color: lighten($navbar-dark, 1%);
 
    grid-area: header;
-   min-height: 35vw;
+   min-height: clamp(500px, 45vw, 800px);
 
    display: grid;
-   grid-template-columns: auto [main] $content-width auto;
+   grid-template-columns: auto;
+   grid-template-rows: 100px auto;
+   grid-template-areas: "navbar"
+                        "main";
 
 }
 
@@ -26,17 +30,25 @@
    text-shadow: 1px 1px $oc2, -1px 1px $oc2, -1px -1px $oc2, 1px -1px $oc2;
 }*/
 
-.header-text {
+.header-text-wrapper {
   grid-area: main;
   align-self: end;
-  justify-self: start;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 100%;
+  max-width: $content-width;
+  margin: 0 auto;
+}
+
+.header-text {
   margin: 40px 20px;
   max-width: $content-width;
 }
 
 .project-name {
   font-family: $header-font;
-  color: $header-light;
+  color: $navbar-light;
   font-size: clamp(16px, 5vw, 72px);
   margin: 0;
 }
@@ -45,7 +57,8 @@
    font-weight: bold;
    opacity: 0.8;
    font-family: $h-font;
-   color: lighten($header-light, 10%);
+   color: $navbar-light;
    font-size: clamp(10px, 2vw, 24px);
    margin: 0;
+   margin-left: 7px;
 }

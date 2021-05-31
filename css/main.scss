@@ -4,7 +4,7 @@
 $base-color: lighten(#27272F, 6%);
 $link-color: lighten(#2E7BD8, 0%);
 $highlight-color: #FFB600;
-$navbar-light: #541A32;
+$navbar-light: #7b2649;
 $navbar-dark: #260C1A;
 $text-light: lighten(#eee, 0%);
 $text-color: darken(#606c71, 10%);
@@ -67,8 +67,10 @@ body:hover {
 }
 
 .full-width-background {
-  width: 100%;
+  max-width: $content-width;
+  margin: auto;
   background: linear-gradient(135deg, hsla(335, 53%, 18%, 1), hsla(335, 53%, 18%, 1));
+  margin-bottom: 20px;
 }
 
 .triple {
@@ -92,14 +94,18 @@ body:hover {
   //background: linear-gradient(135deg, hsla(335, 53%, 18%, 1), hsla(335, 53%, 18%, 1));
   background: #111;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
   max-width: $content-width * 0.75;
   margin: auto;
   //padding: 0 20px;
 
-  @media screen and (max-width: 120ch) {
-     grid-template-columns: repeat(2, 1fr);
-     grid-template-rows: auto auto;
+  @media screen and (max-width: $mobile-width) {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    grid-template-areas: "img"
+                        "txt";
+    max-width: 60ch;
   }
 }
 
@@ -107,8 +113,13 @@ body:hover {
   display: flex;
   align-items: center;
   padding: 20px;
-  padding-bottom: 50%;
   color: $text-light;
+  min-height: $content-width * 0.75 / 2;
+
+  @media screen and (max-width: $mobile-width) {
+    grid-area: txt;
+    min-height: 0;
+  }
 }
 
 .text-cell-1 {
@@ -125,6 +136,15 @@ body:hover {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+
+  height: $content-width * 0.75 / 2;
+  min-width: 100px;
+
+
+  @media screen and (max-width: $mobile-width) {
+     grid-area: img;
+     max-height: 400px;
+  }
 }
 
 .image-cell-1 {
