@@ -1,11 +1,11 @@
 /* Header */
 .header-front {
    //background-image: linear-gradient(-5deg, $header-light, $header-dark);
-   background-image: url("../assets/ox-banner.webp"), url("/assets/arabesque.png");
-   background-position: top center, left top;
+   background-image: linear-gradient(#2220, rgba(darken($navbar-dark, 7%), .9)), url("../assets/ox-banner.webp");
+   background-position: top center;
    background-size: 100%, 100% auto;
-   background-repeat: no-repeat, repeat;
-   background-attachment: fixed;
+   background-repeat: no-repeat;
+   background-attachment: local, fixed;
 
    color: #fff;
    background-color: lighten($navbar-dark, 1%);
