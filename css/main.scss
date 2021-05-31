@@ -2,11 +2,11 @@
 ---
 /* Color Scheme */
 $base-color: lighten(#27272F, 6%);
-$link-color: #1E6BB8;
+$link-color: lighten(#2E7BD8, 0%);
 $highlight-color: #FFB600;
 $navbar-light: #541A32;
 $navbar-dark: #260C1A;
-$text-light: lighten(#EEF0F2, 10%);
+$text-light: lighten(#eee, 0%);
 $text-color: darken(#606c71, 10%);
 $h-color: #8D141E;
 $header-dark: #643173;
@@ -66,7 +66,7 @@ body:hover {
 }
 
 .modern-row {
-  background: linear-gradient(135deg, hsl(340, 52%, 84%), hsl(276, 74%, 70%));
+  background: linear-gradient(135deg, hsla(335, 53%, 18%, 1), hsla(335, 53%, 18%, 1));
   display: grid;
   grid-template-columns: repeat(2, 60ch);
 
@@ -80,6 +80,7 @@ body:hover {
   display: flex;
   align-items: center;
   padding: 20px;
+  color: $text-light;
 }
 
 .text-cell-1 {
@@ -122,7 +123,8 @@ a {
 }
 
 a:hover {
-   //text-decoration: underline;
+   color: $highlight-color;
+
    &::after {
       width: 100%;
       left: 0;
@@ -295,17 +297,16 @@ a:hover {
 }
 // FOOTER
 footer {
-   padding-top: 2em;
-   padding-bottom: 2em;
-   font-size: 0.7em;
-   text-align: center;
-   //justify-content: center;
-   //align-items: center;
-   color: #888;
-   width: 100%;
-   //margin: auto;
-   margin-top: auto;
-   grid-area: footer;
+  margin-top: 40px;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  font-size: 0.7em;
+  text-align: center;
+  color: #888;
+  width: 100%;
+  grid-area: footer;
+
+  background-color: hsla(335, 53%, 18%, 1);
 }
 
 footer a {
