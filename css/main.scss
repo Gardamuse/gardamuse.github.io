@@ -67,10 +67,22 @@ body:hover {
 }
 
 .full-width-background {
-  max-width: $content-width;
-  margin: auto;
-  background: linear-gradient(135deg, hsla(335, 53%, 18%, 1), hsla(335, 53%, 18%, 1));
-  margin-bottom: 20px;
+  //max-width: $content-width;
+  //margin: auto;
+  //margin-bottom: 20px;
+  padding: 40px;
+  //padding-bottom: 80px;
+
+  //background: linear-gradient(135deg, hsla(335, 53%, 18%, 1), hsla(335, 53%, 18%, 1));
+  background-image: linear-gradient(
+      rgba(darken($navbar-dark, 7%), .3),
+      rgba(darken($navbar-dark, 7%), .5)),
+      url("../assets/ox-banner-blurred.webp");
+  background-position: center center, center center;
+  //background-size: 100%, 100% auto;
+  background-repeat: no-repeat;
+  background-size: contain, cover;
+  background-attachment: local, fixed;
 }
 
 .triple {
@@ -80,7 +92,8 @@ body:hover {
   grid-gap: 20px;
   max-width: $content-width;
   margin: auto;
-  padding: 0 20px;
+  padding: 20px 20px;
+  padding-bottom: 40px;
 
   text-align: center;
   color: $text-light;
@@ -92,13 +105,17 @@ body:hover {
 
 .modern-row {
   //background: linear-gradient(135deg, hsla(335, 53%, 18%, 1), hsla(335, 53%, 18%, 1));
-  background: #111;
+
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
   max-width: $content-width * 0.75;
   margin: auto;
-  //padding: 0 20px;
+  margin-bottom: 20px;
+  grid-gap: 20px;
+  //border-left:  1px solid #bbb;
+  //border-right: 1px solid #bbb;
+
 
   @media screen and (max-width: $mobile-width) {
     grid-template-columns: 1fr;
@@ -107,6 +124,14 @@ body:hover {
                         "txt";
     max-width: 60ch;
   }
+
+  &:first-child {
+    //border-top: 1px solid #bbb;
+  }
+
+  &:last-child {
+    //border-bottom: 1px solid #bbb;
+  }
 }
 
 .text-cell {
@@ -114,7 +139,10 @@ body:hover {
   align-items: center;
   padding: 20px;
   color: $text-light;
-  min-height: $content-width * 0.75 / 2;
+  min-height: $content-width * 0.75 / 2.2;
+
+  background: $base-color;//darken($base-color, 13%);
+  background-image: url("/assets/black-linen.png");
 
   @media screen and (max-width: $mobile-width) {
     grid-area: txt;
@@ -137,9 +165,8 @@ body:hover {
   background-size: cover;
   background-repeat: no-repeat;
 
-  height: $content-width * 0.75 / 2;
+  height: $content-width * 0.75 / 2.2;
   min-width: 100px;
-
 
   @media screen and (max-width: $mobile-width) {
      grid-area: img;
@@ -345,7 +372,6 @@ a:hover {
 }
 // FOOTER
 footer {
-  margin-top: 40px;
   padding-top: 2em;
   padding-bottom: 2em;
   font-size: 0.7em;
