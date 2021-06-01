@@ -19,7 +19,25 @@
    grid-template-rows: 100px auto;
    grid-template-areas: "navbar"
                         "main";
+}
 
+.header-small {
+  background-image: linear-gradient(rgba(darken($navbar-dark, 7%), .4),
+                                    rgba(darken($navbar-dark, 7%), .9)),
+                    url("../assets/ox-banner.webp");
+
+  min-height: clamp(250px, 25vw, 400px);
+
+  .header-text-wrapper {
+    align-self: center;
+    text-align: center;
+  }
+
+  .project-name {
+    font-family: $h-font;
+    color: $text-light;
+    font-size: clamp(16px, 4vw, 64px);
+  }
 }
 
 /* Text outline */
