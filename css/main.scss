@@ -61,9 +61,12 @@ body:hover {
 
 .dual {
   margin: auto;
+  max-width: $content-width;
 
   display: grid;
-  grid-auto-rows: 50ch;
+  grid-template-columns: [main] 5fr [side] 3fr;
+  grid-template-rows: 1fr;
+  //grid-auto-rows: 50ch;
 }
 
 .full-width-background {
