@@ -171,9 +171,19 @@ body:hover {
   height: $content-width * 0.75 / 2.2;
   min-width: 100px;
 
+  transition: transform 0.5s cubic-bezier(.215, .61, .355, 1);
+
   @media screen and (max-width: $mobile-width) {
      grid-area: img;
      max-height: 400px;
+  }
+}
+
+a.image-cell:hover {
+  transform: scale(1.04);
+
+  &::after {
+    width: 0%;
   }
 }
 
@@ -439,6 +449,33 @@ footer a:hover {
       transform: scale(1.048) translateY(0px) translateX(0px);
    }
 }
+
+.social-media-icons {
+  display: flex;
+  flex-direction: row;
+
+  a {
+    background-color: $base-color;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 4px;
+    margin: 1px;
+    color: $text-light;
+
+    transition: background-color 0.2s, color 0.2s;
+  }
+
+  a:hover {
+    color: $highlight-color;
+    background-color: lighten($base-color, 20%);
+
+    &::after {
+      width: 0%;
+    }
+  }
+}
+
 @import "header";
 @import "nav";
 @import "posts";

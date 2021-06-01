@@ -40,6 +40,7 @@ $tag-background-color: desaturate(darken($tag-color, 40%), 30%);
 
       .description {
          border-color: $highlight-color;
+         color: darken($text-color, 10%);
       }
 
       .tags {
