@@ -20,6 +20,7 @@ $h-font: "Maven Pro", "Open Sans", "Helvetica Neue";
 $main-font: "Open Sans", "Open Sans", "Helvetica Neue";
 $content-width: 140ch;
 $mobile-width: 600px;
+$highlight-time: 0.3s;
 
 $dark-border-color: #996d00;
 $dark-box-color: rgba(73, 82, 85, 0.2);
@@ -463,7 +464,7 @@ footer a:hover {
     margin: 1px;
     color: $text-light;
 
-    transition: background-color 0.2s, color 0.2s;
+    transition: all $highlight-time;
   }
 
   a:hover {
