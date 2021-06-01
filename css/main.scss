@@ -463,8 +463,8 @@ footer a:hover {
     text-align: center;
     font-size: 16px;
     font-weight: bold;
-    border-radius: 4px;
-    margin: 1px;
+    border-radius: 1px;
+    margin: 2px;
     color: $text-light;
 
     transition: all $highlight-time;
@@ -480,17 +480,17 @@ footer a:hover {
   }
 
   .email {
-    background-color: #e6ebf1;
-    color: #111;
+    background-color: lighten($navbar-dark, 10%);
+    color: $text-light;
 
     &:hover {
-      background-color: #eef;
-      color: $highlight-color;
+      background-color: lighten($navbar-dark, 15%);
+      color: $text-light;
     }
   }
 
   .deviant-art {
-    background-color: #030303;
+    background-color: #070707;
     color: #05cc46;
 
     &:hover {
@@ -514,7 +514,7 @@ footer a:hover {
 
     &:hover {
       background-color: #eef;
-      color: $highlight-color;
+      color: lighten(#111, 10%);
     }
   }
 }
