@@ -453,11 +453,14 @@ footer a:hover {
 
 .social-media-icons {
   display: flex;
-  flex-direction: row;
+  flex-direction: row-reverse;
+  flex-wrap: wrap-reverse;
 
   a {
+    flex: 1;
     background-color: $base-color;
     padding: 10px;
+    text-align: center;
     font-size: 16px;
     font-weight: bold;
     border-radius: 4px;
@@ -473,6 +476,45 @@ footer a:hover {
 
     &::after {
       width: 0%;
+    }
+  }
+
+  .email {
+    background-color: #e6ebf1;
+    color: #111;
+
+    &:hover {
+      background-color: #eef;
+      color: $highlight-color;
+    }
+  }
+
+  .deviant-art {
+    background-color: #030303;
+    color: #05cc46;
+
+    &:hover {
+      background-color: lighten(#030303, 5%);
+      color: lighten(#05cc46, 5%);
+    }
+  }
+
+  .twitter {
+    background-color: #1DA1F2;
+
+    &:hover {
+      background-color: lighten(#1DA1F2, 10%);
+      color: lighten($text-light, 5%);
+    }
+  }
+
+  .art-breeder {
+    background-color: #e6ebf1;
+    color: #111;
+
+    &:hover {
+      background-color: #eef;
+      color: $highlight-color;
     }
   }
 }
