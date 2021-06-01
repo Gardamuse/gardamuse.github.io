@@ -1,60 +1,66 @@
 /* Navigation */
 $navbar-items: 4;
+$hamburger-size: 80px;
 /* How many items are in the navbar */
 .navbar {
-   background-color: $navbar-light;
-   background-image: url("/assets/az-subtle.png"), linear-gradient(1deg, $navbar-dark, $navbar-light);
+   background-image: linear-gradient(180deg,
+                                    $navbar-dark,
+                                    rgba(lighten($navbar-dark, 2%), 0.90) 80%,
+                                    rgba(lighten($navbar-dark, 5%), 0.6)
+                                    );
    font-size: 1.5em;
    font-family: $h-font;
 
    grid-area: navbar;
    display: grid;
-   grid-template-columns: repeat($navbar-items, minmax(100px, 240px));
-   grid-template-rows: 3.2em;
-   justify-content: center;
-   //grid-gap: 2px;
 
    @media screen and (max-width: $mobile-width) {
-      grid-template-columns: 1fr 1fr;
-      grid-template-rows: 50px 50px;
-      font-size: 1.3em;
-
-      border-top: 1px solid $dark-border-color;
+     grid-template-columns: 1fr [hamburger] $hamburger-size;
    }
 }
 
-.navbar a {
-   color: $text-light;
-   text-decoration: none;
-   font-weight: bold;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   text-align: center;
-   //border-bottom: 4px solid transparent;
-   //border-top: 4px solid transparent;
-   position: relative;
+.navbar-items {
+  grid-row: 1;
 
-   //backface-visibility: hidden;
-   transition: color 0.3s;
+  display: grid;
+  grid-template-columns: repeat($navbar-items, minmax(100px, 240px));
+  grid-template-rows: 1fr;
+  justify-content: center;
 
-   @media screen and (max-width: $mobile-width) {
-     border-right: 1px solid $dark-border-color;
-     border-bottom: 1px solid $dark-border-color;
-   }
+  @media screen and (max-width: $mobile-width) {
+    display: none;
+  }
+}
 
-   &::after {
-      position: absolute;
-      content: '';
-      display: block;
-      background: $highlight-color;
-      bottom: 0;
-      left: 50%;
-      height: 4px;
-      width: 0%;
+.navbar-items a {
+  grid-row: 1;
+  grid-column: span 1;
+  color: $text-light;
+  text-decoration: none;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  //border-bottom: 4px solid transparent;
+  //border-top: 4px solid transparent;
+  position: relative;
 
-      transition: width 0.3s, height 0.3s, left 0.3s, top 0.3s;
-   }
+  //backface-visibility: hidden;
+  transition: color 0.3s;
+
+  &::after {
+    position: absolute;
+    content: '';
+    display: block;
+    background: $highlight-color;
+    bottom: 0;
+    left: 50%;
+    height: 4px;
+    width: 0%;
+
+    transition: width 0.3s, height 0.3s, left 0.3s, top 0.3s;
+  }
 
 }
 
@@ -67,32 +73,91 @@ $navbar-items: 4;
    }
 }
 
+.navbar .mobile-menu {
+  grid-column: hamburger;
+  background-color: $navbar-light;
+  width: 100%;
+  height: 100%;
+  padding: 15px;
 
-//@media screen and (max-width: 24rem) {
-//   .navbar {
-//      height: 12rem;
-//      width: 100%;
-//   }
-//}
-//@media screen and (max-width: 24rem) {
-//   .navbar div {
-//      display: block;
-//      float: left;
-//      width: 100%;
-//   }
-//}
-//@media screen and (max-width: 24rem) {
-//   .navbar a {
-//      height: (12rem / $navbar-items);
-//      width: 100%;
-//      float: left;
-//   }
-//}
-//@media screen and (max-width: 24rem) {
-//   .navbar a:hover {
-//      border-left: 4px solid $highlight-color;
-//      border-right: 4px solid $highlight-color;
-//      border-bottom: 4px none transparent;
-//      border-top: 4px none transparent;
-//   }
-//}
+  position: relative;
+
+  display: none;
+
+  @media screen and (max-width: $mobile-width) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.navbar .toggler {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+  cursor: pointer;
+  width: $hamburger-size;
+  height: $hamburger-size;
+  opacity: 0;
+}
+
+.navbar .hamburger {
+  position: relative;
+  width: 100%;
+  height: 3px;
+  background-color: $text-light;
+  border-radius: 1px;
+  transition: all $highlight-time cubic-bezier(.215, .61, .355, 1);
+
+  &:before, &:after {
+    content: '';
+    position: absolute;
+    z-index: 1;
+    top: -15px;
+    width: 100%;
+    height: 3px;
+    background: inherit;
+    border-radius: 1px;
+  }
+
+  &:after {
+    top: 15px;
+  }
+}
+
+// Rotate and become a cross when checked
+.navbar .toggler:checked + .mobile-menu > .hamburger {
+  transform: rotate(45deg);
+
+  &:before, &:after {
+    top: 0;
+    transform: rotate(90deg);
+  }
+}
+
+// Rotate on hover when checked
+.navbar .toggler:checked:hover + .mobile-menu > .hamburger {
+  transform: rotate(135deg);
+}
+
+.toggler:checked ~ .navbar-items {
+  position: absolute;
+  top: $hamburger-size;
+  left: 0;
+  right: 0;
+  background-image: linear-gradient(180deg,
+                                   rgba(lighten($navbar-dark, 5%), 1),
+                                   rgba(lighten($navbar-dark, 5%), 1)
+                                   );
+  padding: 10px;
+  z-index: 2;
+  //height: 500px;
+
+  display: flex;
+  flex-direction: column;
+
+  & > a {
+    padding: 10px;
+  }
+}

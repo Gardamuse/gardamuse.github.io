@@ -4,23 +4,26 @@
 }
 
 .post {
-   //background-image: url("https://www.transparenttextures.com/patterns/brushed-alum.png");
-   background-color: $text-light;
-   border-radius: 0.2em;
-   padding: 2.5em;
-   margin: 1em;
+  //background-color: $base-color;
+  //background-image: url("/assets/black-linen.png");
+  background-color: $text-light;
+  border-radius: 2px;
+  padding: 2.5em;
+  margin: 20px 10px;
+  //box-shadow: -2px 5px 10px #000f;
+  //color: $text-light;
 
-   @media screen and (max-width: 60ch){
-      padding: 1.5em;
-      margin-left: 0.5em;
-      margin-right: 0.5em;
-   }
+  @media screen and (max-width: 60ch){
+    padding: 1.5em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+  }
 
-   @media screen and (max-width: 40ch){
-      padding: 1em;
-      margin-left: 0em;
-      margin-right: 0em;
-   }
+  @media screen and (max-width: 40ch){
+    padding: 1em;
+    margin-left: 0em;
+    margin-right: 0em;
+  }
 
 }
 

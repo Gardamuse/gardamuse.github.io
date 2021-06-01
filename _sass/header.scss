@@ -1,106 +1,87 @@
 /* Header */
 .header-front {
    //background-image: linear-gradient(-5deg, $header-light, $header-dark);
-   background-image: url("../assets/transformations-small.png"), url("/assets/arabesque.png");
-   background-position: center top, left top;
-   background-size: auto 120%, auto 120%;
-   background-repeat: no-repeat, repeat;
+   background-image: linear-gradient(#2220, rgba(darken($navbar-dark, 7%), .9)), url("../assets/ox-banner.webp");
+   background-position: center center, center center;
+   //background-size: 100%, 100% auto;
+   background-repeat: no-repeat;
+   background-size: contain, cover;
+   background-attachment: local, fixed;
 
    color: #fff;
-   padding-top: 6vw;
-   padding-bottom: 6vw;
-   text-align: center;
    background-color: lighten($navbar-dark, 1%);
 
    grid-area: header;
+   min-height: clamp(500px, 45vw, 800px);
 
-   @media screen and (max-width: 400px) {
-
-   }
-   @media screen and (min-width: 64em) {
-      padding-top: 6em;
-      padding-bottom: 6em;
-   }
+   display: grid;
+   grid-template-columns: auto;
+   grid-template-rows: 80px auto;
+   grid-template-areas: "navbar"
+                        "main";
 }
 
-.header-front h1 {
+.header-small {
+  background-image: linear-gradient(rgba(darken($navbar-dark, 7%), .4),
+                                    rgba(darken($navbar-dark, 7%), .9)),
+                    url("../assets/ox-banner.webp");
+
+  min-height: clamp(200px, 20vw, 400px);
+
+  .header-text-wrapper {
+    align-self: center;
+    text-align: center;
+  }
+
+  .header-text {
+    margin: 0;
+  }
+
+  .project-name {
+    font-family: $h-font;
+    color: $text-light;
+    font-size: clamp(24px, 4vw, 64px);
+    margin: 0;
+  }
+}
+
+/* Text outline */
+/*.header-front h1 {
    text-shadow: 1px 1px $oc1, -1px 1px $oc1, -1px -1px $oc1, 1px -1px $oc1, 2px 2px $oc2, -2px 2px $oc2, -2px -2px $oc2, 2px -2px $oc2;
 }
-/* Text outline */
 .header-front h2 {
    text-shadow: 1px 1px $oc2, -1px 1px $oc2, -1px -1px $oc2, 1px -1px $oc2;
-}
-/* Text outline */
-.header-link {
-   color: #fff;
+}*/
+
+.header-text-wrapper {
+  grid-area: main;
+  align-self: end;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 100%;
+  max-width: $content-width;
+  margin: 0 auto;
 }
 
-.header-link div {
-   display: inline-block;
-   font-size: 6rem;
-}
-
-.header-link:hover {
-   text-decoration: none;
-   &::after {
-      width: 0;
-   }
+.header-text {
+  margin: 40px 20px;
+  max-width: $content-width;
 }
 
 .project-name {
-   margin-top: 0;
-   margin-bottom: 0.7rem;
-   font-family: $header-font;
-   color: $header-light;
-   font-size: 7vw;
-   @media screen and (max-width: 400px) {
-      font-size: 0.25em;
-   }
-   @media screen and (min-width: 64em) {
-      font-size: 0.8em;
-   }
-
+  font-family: $header-font;
+  color: $navbar-light;
+  font-size: clamp(16px, 5vw, 72px);
+  margin: 0;
 }
 
 .project-tagline {
-   margin-top: 1rem;
-   margin-bottom: 0;
    font-weight: bold;
    opacity: 0.8;
    font-family: $h-font;
-   color: lighten($header-light, 10%);
-   font-size: 2.4vw;
-   //font-size: 1em;
-   @media screen and (max-width: 400px) {
-      font-size: 0.11em;
-   }
-   @media screen and (min-width: 64em) {
-      font-size: 0.22em;
-   }
-
+   color: $navbar-light;
+   font-size: clamp(10px, 2vw, 24px);
+   margin: 0;
+   margin-left: 7px;
 }
-//@media screen and (min-width: 64em) {
-//   .project-tagline {
-//      font-size: 0.22em;
-//   }
-//}
-//@media screen and (min-width: 42em) and (max-width: 64em) {
-//   .project-tagline {
-//      font-size: 0.19em;
-//   }
-//}
-//@media screen and (max-width: 42em) {
-//   .project-tagline {
-//      font-size: 0.17em;
-//   }
-//}
-//@media screen and (max-width: 24em) {
-//   .project-tagline {
-//      font-size: 0.13em;
-//   }
-//}
-//@media screen and (max-width: 16em) {
-//   .project-tagline {
-//      font-size: 0.11em;
-//   }
-//}
