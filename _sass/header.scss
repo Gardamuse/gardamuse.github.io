@@ -22,9 +22,9 @@
 }
 
 .header-small {
-  background-image: linear-gradient(rgba(darken($navbar-dark, 7%), .4),
-                                    rgba(darken($navbar-dark, 7%), .9)),
-                    url("../assets/ox-banner.webp");
+  background-image: linear-gradient(rgba(darken($navbar-dark, 7%), .3),
+                                    rgba(darken($navbar-dark, 7%), .7)),
+                    url("../assets/ox-banner-blurred.webp");
 
   min-height: clamp(200px, 20vw, 400px);
 

@@ -1,22 +1,25 @@
 {
-  title: "Too Hot To Handle",
+  title: "Handy Chart: Miranda",
   description: '''
   <p>
   <i>So hot she's immune to the cold.</i>
   </p>
   <p>
-  This is the art for one of the upcoming cards in Ditzy Dice 1.4. Since I went through the trouble of making all her clothes swappable I thought I'd make this handy chart too.
+  Some of these frames are illustrations for one of the upcoming cards in Ditzy Dice 1.4. Since I went through the trouble of making all her clothes swappable I thought I'd make this handy chart too.
+  </p>
+  <p>
+  I am quite liking drawing in this style, similar to what I'm using for Cowgirl Dairy Farm. Maybe her hands and feet look a bit weird, but then I also don't have to spend so much time drawing them. Miranda has a neck though, which I thought was missing from the ones I did before.
   </p>
   '''
   sequences: [
     {
-      thumb: "too-hot-to-handle-005.webp",
-      firstImage: "too-hot-to-handle-001.webp",
-      length: 16
-    }
-    {
       firstImage: "too-hot-to-handle-chart.webp",
       length: 1
+    }
+    {
+      title: "Image Sequence"
+      firstImage: "too-hot-to-handle-001.webp",
+      length: 16
     }
   ]
 }
