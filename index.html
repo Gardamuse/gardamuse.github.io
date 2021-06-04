@@ -70,7 +70,20 @@ layout: front-page
     <section class="text-cell-1">
       <div>
         <h3> Support Blushing Defeat on <a href="https://www.patreon.com/gardamuse" target="_blank" style="color: #FF424D;">Patreon</a>! </h3>
-        <p>Thanks to everyone who supports Blushing Defeat on Patreon, I can maintain the site and keep working on content. Thank you! ♥</p>
+        <p>I can maintain Blushing Defeat and keep working on content thanks to everyone who supports Blushing Defeat on Patreon! Thank you! ♥</p>
+        <p>An extra special thank you to
+          {% for credit in site.data.blushing-defeat-credits %}
+            <b>{{ credit.name }}</b>{% if forloop.rindex == 2 %} and
+            {% elsif forloop.last %}!
+            {% else %},
+            {% endif %}
+          {% endfor %}
+        </p>
+        <!--<ul>
+        {% for credit in site.data.blushing-defeat-credits %}
+          <li>{{ credit.name }}</li>
+        {% endfor %}
+        </ul>-->
       </div>
     </section>
   </div>
