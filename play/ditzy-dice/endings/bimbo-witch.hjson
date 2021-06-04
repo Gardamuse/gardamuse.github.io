@@ -44,7 +44,10 @@
 
       Congratulations, you seem to have truly found your calling!
       '''
-      options: ["end"]
+      endpoint: {
+        label: "A Model Succubus"
+        fun: "end"
+      }
     }
     {
       id: "b1"
@@ -66,11 +69,10 @@
 
       All of which suits your benefactor just fine.
       '''
-      options: ["end"]
-    }
-    {
-      id: "end"
-      endpoint: "end"
+      endpoint: {
+        label: "Fucking Up Reality (Literally)"
+        fun: "end"
+      }
     }
   ]
 }

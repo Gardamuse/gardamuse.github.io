@@ -36,7 +36,10 @@
 
       You even get to live somewhere tropical!
       '''
-      options: ["end"]
+      endpoint: {
+        label: "Prize Girl"
+        fun: "end"
+      }
     }
     {
       id: "b1"
@@ -68,7 +71,10 @@
 
       Let's just say your life and body are not done changing yet.
       '''
-      options: ["end"]
+      endpoint: {
+        label: "Mommy Mommy!"
+        fun: "end"
+      }
     }
     {
       id: "b2"
@@ -82,11 +88,10 @@
 
       Turns out you have become the family business...
       '''
-      options: ["end"]
-    }
-    {
-      id: "end"
-      endpoint: "end"
+      endpoint: {
+        label: "The Family Business"
+        fun: "end"
+      }
     }
   ]
 }

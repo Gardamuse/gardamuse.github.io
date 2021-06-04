@@ -37,7 +37,10 @@
 
       In any case, you already made your decision, when you decided to make a deal with the devil.
       '''
-      options: ["end"]
+      endpoint: {
+        label: "A Deal's A Deal"
+        fun: "end"
+      }
     }
     {
       id: "b1"
@@ -49,11 +52,10 @@
 
       There is nothing else for it, you are and will forever remain an object.
       '''
-      options: ["end"]
-    }
-    {
-      id: "end"
-      endpoint: "end"
+      endpoint: {
+        label: "Less Than Human"
+        fun: "end"
+      }
     }
   ]
 }

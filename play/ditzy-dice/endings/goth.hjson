@@ -3,7 +3,7 @@
   title: "Goth"
   likelihood: 1
   requirements: '''
-    spell >= 1 AND iq < 3
+    goth >= 2 AND spell >= 1 AND iq < 4
   '''
   nodes: [
     {
@@ -26,9 +26,9 @@
 
       A surprisingly easy task as it turns out! Apparently coming out of a deal with the devil without serious repercussions is actually a good way of getting your name known in magical circles.
 
-      Unfortunately the witch you meet wasn't overly impressed with your newfound powers and only agreed to take you on as an apprentice if you basically made yourself her submissive bitch while you learn from her. Can your pride handle that sort of treatment?
+      Unfortunately the witch you meet isn't overly impressed with your newfound powers and only agree to take you on as an apprentice if you basically make yourself her submissive bitch while you learn from her. Can your pride handle that sort of treatment?
       '''
-      options: ["a2", "b2"]
+      options: ["a2", "b2", "money"]
     }
     {
       id: "b1"
@@ -40,7 +40,10 @@
 
       Will you use that to vamp it up at the clubs or make yourself someone's ultimate big tittied goth GF? Well, that's up to you! For once, life is truly what you make of it, so enjoy!
       '''
-      options: ["end"]
+      endpoint: {
+        label: "Goth Queen"
+        fun: "end"
+      }
     }
     {
       id: "a2"
@@ -54,7 +57,10 @@
 
       Maybe you should have just heeded the devils warning?
       '''
-      options: ["end"]
+      endpoint: {
+        label: "A Cursed Fate"
+        fun: "end"
+      }
     }
     {
       id: "b2"
@@ -70,11 +76,28 @@
 
       You sure are lucky to have such a great girlfriend and mistress!
       '''
-      options: ["end"]
+      endpoint: {
+        label: "The Witch's Bitch"
+        fun: "end"
+      }
     }
     {
-      id: "end"
-      endpoint: "end"
+      id: "money"
+      title: "Find someone better, you can afford it"
+      requirements: "gold >= 5"
+      text: '''
+      No one as rich as you are need to listen to old hags like that. Even magic users need money, and you can afford having someone better, and more trustworthy, teach you.
+
+      You eventually find an elderly wizard, elegantly clad and with a gaze much older than his sprightly step, claiming to be the grandson of Merlin and Morgan le Fay, who agrees to teach you for a hefty fee.
+
+      As time goes by you find yourself limited by your lack of inherent magical power. Yet thanks to the wizard's tutelage, you learn to make the most of what you have, learn from ancient scrolls and apply your power to a variety of minor spells.
+
+      By the time your training comes to an end you have settled down in a great mansion on the countryside, ready to explore further the arts of magic.
+      '''
+      endpoint: {
+        label: "Gothic Mansion"
+        fun: "end"
+      }
     }
   ]
 }

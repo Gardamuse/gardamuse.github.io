@@ -7,8 +7,8 @@
     {
       id: "intelligence"
       name: "Intelligence"
-      thumb: "art/zatanna-card.webp"
-      artist: "CrazyCowProductions"
+      thumb: "art/intelligence-kobi-0001.webp"
+      artist: "Kobi-Tfs"
       description: '''Intelligence is how good you are at solving problems, understanding people and figuring stuff out.
 
       This card will make you dumber, a whole lot dumber if you're lucky. So wave good bye to working a complicated job, studying or understanding things like science and politics.
@@ -40,14 +40,16 @@
         {
           id: "intelligence 1"
           name: "Average"
+          thumb: "art/intelligence-kobi-0000.webp"
           description: '''Everyone thinks they are a little smarter than the average person. Well, soon you won't be!
 
-          Count yourself lucky though, you probably won't notice a huge difference. You'll just be a little more basic. As a bonus, you'll finally be able to enjoy all those dumbed-down movies and TV-shows you've complained so much about!'''
+          Count yourself lucky though, you won't be very different, just a little more basic. As a bonus, you'll finally be able to enjoy all those dumbed-down TV-shows you've complained so much about!'''
           transformation: '''demon: Do you enjoy reality TV? How about movies where character and plot take a back seat to mindless explosions? Well if your answer was no before, give it a few minutes and I'm sure you'll start seeing the appeal.'''
         }
         {
           id: "intelligence 2"
           name: "Lightheaded"
+          thumb: "art/intelligence-kobi-0001.webp"
           description: '''Prepare to always feel a little lightheaded, like your thoughts try to hide in wisps of pink fog.
 
           It's not too bad though, as tasks that seemed menial and boring before, like ironing, cleaning and cooking, will now seem like fun puzzles you're good at solving.
@@ -57,7 +59,8 @@
         {
           id: "intelligence 3"
           name: "Ditzy"
-          description: '''You're soon going to get a lot dumber, but you probably won't notice that yourself. It will just be harder for you to, well, think. Like if your head was wrapped in a thick pink cloud.
+          thumb: "art/intelligence-kobi-0002.webp"
+          description: '''You'll soon be a lot dumber, but you probably won't notice that yourself. It will just be harder for you to, well, think. Like if your head was wrapped in a thick pink cloud.
 
           Others will notice though. Especially when you have to stop and really concentrate to figure out even simple things.
           '''
@@ -75,9 +78,10 @@
         {
           id: "intelligence 4"
           name: "Airhead"
+          thumb: "art/intelligence-kobi-0003.webp"
           description: '''Few things won't put that dumb, befuddled look on your face, like you just can't understand the most simple of things.
 
-          Ever heard the expression "too dumb to walk and chew bubble gum at the same time"? Well lets just say from now on, you should consider focusing on just one of those to avoid choking.'''
+          Ever heard the expression "too dumb to walk and chew bubble gum at the same time"? Well lets just say you'll have to try focusing on just one of those to avoid choking.'''
           transformation: '''demon: This card is pretty fun. It's fairly quick, but you should still have time feel most of those pesky IQ points dripping out of your pussy.
 
           In fact, you already feel your panties starting to get wet.
@@ -98,7 +102,8 @@
         {
           id: "intelligence 5"
           name: "Brainless"
-          description: '''You're about to get real fucking dumb, so let's hope you won't miss being able to figure out how to open doors, or do anything, really. You'll just be a drooling mess with a blank expression. You're lucky that walking and fucking goes on instinct or you wouldn't even be able to do that. Someone will probably take care of you though, so don't worry about that. Bye bye brain!'''
+          thumb: "art/intelligence-kobi-0004.webp"
+          description: '''You're about to get real fucking dumb, so let's hope you won't miss being able to figure out how to open doors, or do anything, really. You'll just be a drooling mess. Lucky you that walking and fucking goes on instinct or you wouldn't even be able to do that. Someone will take care of you tough, don't worry about that. Bye bye brain!'''
           transformation: '''It's like a bolt of lightning has suddenly struck your brain and turned it into mush. You stare at your surroundings, trying to make sense of everything that moments ago seemed so obvious, but there are just so many... things and all of it seems so complicated.
 
           player: Uuuuh... wha.. my... erhm...?
@@ -589,6 +594,19 @@
       If you also got a high sex drive or sensitive erogenous zones, welcome to the cotton candy coated paradise of bimbo bliss, sweetie!
       '''
       transformation: '''demon: Want to guess how many orgasms it will take for your brain to literally melt? It's less than you think! But don't worry, if you can go twenty four hours without cumming you'll be fine! So chances are you're screwed.'''
+      tags: ["iq"]
+    }
+    {
+      id: "metered connection"
+      name: "Metered Connection"
+      thumb: "art/metered-connection.webp"
+      artist: "Gardamuse"
+      description: '''Thinking will be restricted to a metered plan. Any slight concentration counts as time spent, and your plan is limited to 10 hours per week. If exceeded, your plan is downgraded (-1 intelligence) and you are granted another 10 hours. Your plan is reset at the end of each week.
+      '''
+      transformation: '''demon: Ah, the metered connection, such a lovely idea. Let's just say there are a few souls that await a very special place in my domain.
+
+      demon: The card is quite fun, too! Do you act your normal self at the beginning of each week but become a drooling moron towards the end, or do you dumb down by your own free will to conserve some precious thinking time? Better not think too long about it!
+      '''
       tags: ["iq"]
     }
   ]

@@ -64,7 +64,7 @@
 
       You will also become horny much quicker (+2 sex drive) whenever you're wearing pants or panties.'''
       transformation: '''demon: Feeling hot under the collar? It's probably because you're still wearing panties. With ink like yours you it'd be a crime if that juicy pussy wasn't easy access.'''
-      tags: ["bimbo"]
+      tags: ["bimbo", "goth"]
     }
     {
       id: "choker"
@@ -75,12 +75,13 @@
 
       From now on, whenever you are not wearing a choker saying "BIMBO", "SLUT", "PET" or something similar, you become less intelligent to make up for it (-1 intelligence).'''
       transformation: '''demon: What's the matter? Think wearing a collar that calls you a 'BIMBO' at all times will make you look dumb? Well sorry to say, it's either look dumb or BE dumb from now on so better smarten up and let the world know what you are, 'SLUT'.'''
-      tags: ["bimbo", "iq"]
+      tags: ["bimbo", "iq", "goth"]
     }
     {
       id: "pink to think"
       name: "Pink to Think"
-      thumb: ""
+      thumb: "art/pink-to-think.webp"
+      artist: "Gardamuse"
       description: '''Pink is a great color isn't it? Feminine, sexy, and, well, what more could you want really? In any case, I think you should be wearing it more.
 
       From now on, whenever you are wearing any clothing that is not a shade of pink, you will feel distracted (-1 attention span).'''
@@ -130,6 +131,7 @@
 
           (2in or 4cm)'''
           transformation: '''demon: Look at Miss Business over here! With shoes like those you could pass for a high power executive or just a modern woman who knows what she wants. And we all know what THAT is.'''
+          tags: ["goth"]
         }
         {
           id: "heels 4"
@@ -140,6 +142,7 @@
 
           (3in or 7cm)'''
           transformation: '''demon: Very chic! Girl you're adding class to this joint with every step you take in those classic heels! Good thing you make it look so easy too as they are here to stay.'''
+          tags: ["goth"]
         }
         {
           id: "heels 5"
@@ -150,6 +153,7 @@
 
           (4in or 10cm)'''
           transformation: '''demon: Showing off the goods are we? Well, you might not mean to, but you certainly do in those heels! And good luck walking in anything lower. I wouldn't recommend you try, either.'''
+          tags: ["goth"]
         }
         {
           id: "heels 6"
@@ -160,42 +164,110 @@
 
           (5in or 13cm)'''
           transformation: '''demon: Why bother with a foot if you're just going to use the toes? Honestly, if you can even walk at all without the support of a nice, long heel it would be a miracle! On the positive side, your ass looks AMAZING!'''
+          tags: ["goth"]
         }
       ]
     }
-    /*{
+    {
       id: "too hot to handle"
       name: "Too Hot to Handle"
-      thumb: ""
-      description: '''Don't worry about your clothes being too skimpy for cold weather, from now on wearing a jacket in a blizzard is going to feel way too hot in more ways then one! How many layers can be handled before the lust overwhelms you? Let's find out!'''
+      thumb: "art/too-hot-to-handle-1.webp"
+      artist: "Gardamuse"
+      description: '''Don't like being cold? Worry not! From now on, wear too much will leave you with a burning need to strip down and fuck the nearest willing person. You can manage two hours before the heat becomes overwhelming, but as for how much you can wear and still keep cool... Let's find out!'''
       transformation: ''''''
+      tags: ["bimbo"]
       type: "numeric"
       levels: [
         {
           id: "1"
-          name: "Single Layer"
-          description: '''Forget 'jacket weather', from now on if you put on a long sleeve shirt over a T-Shirt for more then two hours you'll just get hornier and hornier till you're able to strip down again. Might make fancy events awkward.'''
-          transformation: ''''''
+          name: "All The Single Layer Ladies"
+          thumb: "art/too-hot-to-handle-1.webp"
+          artist: "Gardamuse"
+          description: '''This isn't so bad, as long as you only have one layer, you're fine. Avoid jackets, leggings and socks and you'll keep your cool. And don't worry about the colder months, you're hot enough to stay toasty in even the deepest snow now!'''
+          transformation: '''You're probably going to have to skip on fancy events now and you'll probably look crazy in the winter, but most of the time people shouldn't give you a second glance when you're just rocking jeans and a t-shirt. Hope you weren't a hoodie fan though...'''
         }
         {
           id: "2"
-          name: "Skimpy"
-          description: '''Polite society might not appreciate it, but if you're wearing enough cloth to cover more than your feet, thighs and chest you'll be in for a steamy time after two hours. At least the clubs won't mind your new look.'''
-          transformation: ''''''
+          name: "Summertime Chic"
+          thumb: "art/too-hot-to-handle-2.webp"
+          artist: "Gardamuse"
+          description: '''Bootie shorts and tank tops are the name of the game from now on as if you cover up your arms or legs, you're gonna find your sex drive going wild pretty quick! If you live somewhere chilly you might want to move as the last thing you want is someone wrapping you up thinking you're going to freeze, only to set you off when you overheat! '''
+          transformation: '''You have two hours, so no need to rush, but you should consider grabbing some scissors because if your pant legs are much lower than your ass or your shoulders aren't showing, you're going to have a bad (or rather, a bit too GOOD) time!'''
         }
         {
           id: "3"
-          name: "Barely Anything"
-          description: '''No Shoes, No Shirt? You're not going to get any service anymore as anytime you try and put on more than the bare minimum needed to cover your tits, ass and pussy, you'll find yourself burning up with lust after just a couple of hours! You can still sunbathe on the beach, but that's about it for public spaces.'''
-          transformation: ''''''
+          name: "Beach Babe Haute Couture"
+          thumb: "art/too-hot-to-handle-4.webp"
+          artist: "Gardamuse"
+          description: '''If you think bikinis and underwear are a 'sometimes' clothing option, you're going to be in for a serious lifestyle change as from now on if you're covering more than your breasts, ass and cooch, you're only two hours from a lustful melt down! Better move south as while the cold won't bother you, rules about indecent exposure might.'''
+          transformation: '''It might seem rude, but stripping down to your underwear is probably a smart move unless you're looking to let the world see what a huge bimbo you’ve become in just under two hours after changing.'''
         }
         {
           id: "4"
-          name: "Nude"
-          description: '''Better get used to running when you go out as if you're caught wearing ANYTHING for more than two hours you'll end up so hyper sexed you'll literally tear it all off to get what you need!'''
-          transformation: ''''''
+          name: "Forever Nude"
+          thumb: "art/too-hot-to-handle-6.webp"
+          artist: "Gardamuse"
+          description: '''No shirts, no pants, no shoes, no underwear, nothing! If you cover up at all, you're playing with fire, the kind that will drive you into a sexual frenzy in under two hours! Luckily you should still have just enough time to run to the store and back again, but outside of these brief excursions, the only times you can be out in public is at a nudist beach.'''
+          transformation: '''With such a beautiful body, it would be a shame to hide it away under all those clothes. Luckily, that won't be a problem anymore as if you don't strip now, you're going to start burning up shortly after the game ends.
+          '''
         }
       ]
-    }*/
+    }
+    {
+      id: "comfortably bound"
+      name: "Comfortably Bound"
+      thumb: "art/bound-3.webp"
+      artist: "Gardamuse"
+      description: '''Having trouble thinking straight? That's because you're far too free right now! You need something to tie you down or tie you up before you can clear your head. How much and how tight? That we will have to find out together...'''
+      transformation: ''''''
+      tags: ["pet"]
+      type: "numeric"
+      levels: [
+        {
+          id: "1"
+          name: "Leash Law"
+          thumb: "art/bound-1.webp"
+          artist: "Gardamuse"
+          description: '''Dogs aren't allowed off their leashes and neither are you. From now on, if you want to think clearly, you need to be wearing a collar and have a leash at least in close proximity. Will having it attached and tugged on help? Well that's something you can experiment with later...'''
+          transformation: '''
+          demon: I'll hold onto your leash for now while you get comfortable in your new collar. Obviously you could hold it, but I think it would be best if you get used to not having that level of control from now on.
+          '''
+        }
+        {
+          id: "2"
+          name: "Bound and Ready"
+          thumb: "art/bound-2.webp"
+          artist: "Gardamuse"
+          description: '''You'll never feel at ease if you're not securely bound in a leather or latex harness, though luckily it only has to be securely fastened about your chest at least. While your mobility won't be hampered, it's hard to forget you are not fully in control when you're constantly ready to be more tightly tied up.'''
+          transformation: '''On the downside, you're going to spend the rest of your life looking like your ready for a night of rough sex, but on the upside, hanging from the ceiling while other people play with you is starting to sound pretty fun... Damn this harness really puts some kinky thoughts in your head, doesn't it?'''
+        }
+        {
+          id: "3"
+          name: "Cuffed Cutie"
+          thumb: "art/bound-3.webp"
+          artist: "Gardamuse"
+          description: '''You'll need to have your hands or feet handcuffed together at all times if you want to keep your thoughts straight after this. Luckily you only need one of these at a time, but choosing between walking and having your hands free might prove to be tricky. Better make sure you have someone you can trust to swap them for you.'''
+          transformation: '''demon: I happen to have a pair of cuffs on me luckily enough. Let's just start with the feet so you can keep playing unhindered for now...'''
+          tags: ["doll"]
+        }
+        {
+          id: "4"
+          name: "Rope Bunny"
+          thumb: "art/bound-4.webp"
+          artist: "Gardamuse"
+          description: '''Free your body or free your mind, you can't have it both ways. From now on anytime you are not securely tied up, whatever is left of your mind will vanish into a haze. Fortunately, while you DO need to be fully bound, you'll still be able to move your hands and speak, assuming whoever tied you up wants to let you anyway.
+          '''
+          transformation: '''demon: Well this will make the game a bit trickier to be sure, but I'll just put the dice back in your hands whenever you need to roll and you just tell me what you want to do. I'm sure by now you can trust that I stand by my word, right?'''
+          tags: ["doll", "extreme"]
+        }
+        /*{
+          id: "5"
+          name: "Full Body Encasement"
+          description: '''Ironic, isn't it? The only time you're able to think at all is when you're so tightly wrapped up that you can't even move a muscle to act on your thoughts. From this day forward, you'll be wholly dependent on others, either to take care of you when you're too dazed to think for yourself or too tied up to do anything on your own.'''
+          transformation: '''demon: Well this won't do, you can't finish the game while you're THAT tied up! Alright, I'll give you till the end of our little meeting to retain both mind and body autonomy, but after this it's going to be one or the other. '''
+          tags: ["extreme", "doll"]
+        }*/
+      ]
+    }
   ]
 }

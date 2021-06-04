@@ -1,6 +1,6 @@
 {
   id: "default"
-  title: "Normal" # The title of this ending
+  title: "Unchanged" # The title of this ending
   likelihood: 0 # The ending with the lowest likelihood will be chosen if multiple are viable
   requirements: '''
     all >= 0
@@ -18,7 +18,25 @@
 
       He vanishes in the blink of an eye, leaving you to wonder... What's next?
       '''
-      options: ["a1", "b1"]
+      options: ["a1", "b1", "money"]
+    }
+    {
+      id: "money"
+      title: "You're rich!"
+      requirements: "gold >= 5"
+      text: '''
+      You're wealthy as hell and can afford to just make up for anything you lost in the game using your piles of money! Screw making difficult choices, that sounds like a poor person problem!
+
+      And so it is that you buy a fancy car, use it to drive to the first opulent mansion you like and proceed to buy that as well. Soon you have an expensive accountant, a team of high priced business experts and all the people needed to ensure you'll never have to worry about money ever again.
+
+      Soon you're living the high life, basking in your new found wealth and becoming a fast favorite of the tabloid press. But hey, if they want to show pictures of you all over the front page, then who are you to stop them? Everybody wants a piece of you!
+
+      You're kind of a big deal that way.
+      '''
+      endpoint: {
+        label: "Rich Girl"
+        fun: "end"
+      }
     }
     {
       id: "a1"
@@ -28,7 +46,10 @@
 
       Sometimes you wonder what life would be like if you had been a little riskier, but ultimately, you played it safe, both during the game and afterwards and that's how your life turned out.
       '''
-      options: ["end"]
+      endpoint: {
+        label: "Plain Jane"
+        fun: "end"
+      }
     }
     {
       id: "b1"
@@ -36,13 +57,12 @@
       text: '''
       You decide that even if you're not being forced into the bimbo life, you actually do want that and throw yourself into it regardless!
 
-      Sometimes it's hard, after all you have to act it up to seem as dumb and slutty as your more natural bimbo sisters, but luckily its not that hard to get horny men to overlook your plainness when your willing to slut it up as much as anyone else at the clubs!
+      Sometimes it's hard, after all you have to act it up to seem as dumb and slutty as your more natural bimbo sisters, but luckily its not that hard to get horny men to overlook your plainness when you're willing to slut it up as much as anyone else at the clubs!
       '''
-      options: ["end"]
-    }
-    {
-      id: "end"
-      endpoint: "end"
+      endpoint: {
+        label: "Wannabe Bimbo"
+        fun: "end"
+      }
     }
   ]
 }

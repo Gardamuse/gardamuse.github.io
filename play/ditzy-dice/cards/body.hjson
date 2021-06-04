@@ -54,6 +54,7 @@
           name: "Oh So Inviting Pillows"
           description: '''Your incredibly large, soft and juicy lips are so puffy they always stay open in an inviting O-shape. Sexy as all hell, but you'll be drooling a lot more from now on.'''
           transformation: '''As your lips swell up to an incredible size, you can't help but feel how difficult it is becoming to move them, or form them to anything but an 'O'. Speaking is going to be quite difficult, but you doubt the boys will need instructions on what to do anyways.'''
+          tages:["extreme"]
         }
       ]
     }
@@ -474,6 +475,7 @@
           artist: "Gardamuse"
           description: '''You will always look refined, as if you were just on your way to the opera or a fancy dinner party.'''
           transformation: '''Those who like to see lipstick smear after a blowjob might be disappointed, but everyone else will be blown away by how utterly classy and beautiful you look at all times!'''
+          tags: ["goth"]
         }
         {
           id: "mascara 3"
@@ -810,6 +812,7 @@
           artist: "Gardamuse"
           description: '''A long, tail covered in short fur. This is tail is quite dexterous and gives you a lot of control, you can even wrap it around small objects to hold them. Be wary though as you will most likely lose control over it whenever you are surprised or frightened.'''
           transformation: '''Yes, you are a pretty kitty now, thank you for noticing. Your tail sways gently behind you.'''
+          tags: ["goth"]
         }
         {
           id: "demonic"
@@ -818,6 +821,7 @@
           artist: "Gardamuse"
           description: '''A long, demonic tail with soft-ish barbs at the end. This is a very dexterous and quite strong tail that you have full control over. Point with it, whip things or even wrap it around and hold light objects like a coffee cup. It's not the cutest tail, but it is useful.'''
           transformation: '''This demonic tail might make you look a bit sinister, but then again, in that regard you could use all the help you can get going forward.'''
+          tags: ["goth"]
         }
       ]
     }
@@ -841,6 +845,7 @@
           artist: "Gardamuse"
           description: '''Pointed, elvish ears. Very similar to human ones, but with a bit more class. Good for cosplay too!'''
           transformation: '''You feel at one with nature and sense you might live forever... You won't, but the ears really do make you feel like a fantasy tree hugger.'''
+          tags: ["goth"]
         }
         {
           id: "cat"
@@ -849,6 +854,7 @@
           artist: "Gardamuse"
           description: '''Triangularly shaped cat ears on the top of your head that you can wiggle a little. Looks super cute!'''
           transformation: '''Your ears are so soft and twitchy! You look like a big old kitty now!'''
+          tags: ["goth"]
         }
         {
           id: "bunny"
@@ -883,6 +889,51 @@
       description: '''Your skin, expression and entire body will have a plastic, doll-like and fake look.'''
       transformation: '''You barely look real anymore, and your skin has such an unnatural shine to it. You've heard some folks REALLY like dolls though, so you should be just fine.'''
       tags: ["doll", "extreme"]
+    }
+    {
+      id: "wings of love"
+      name: "On Wings Of Love"
+      thumb: "art/wings-0000.webp"
+      artist: "Gardamuse"
+      description: '''You will grow a pair of magnificent wings, giving you the ability to fly and a very distinctive look. But what sort of wings will you have? That we will need to see...
+      '''
+      transformation: ''''''
+      type: "selection"
+      tags: ["animal"]
+      levels: [
+        {
+          id: "angelic"
+          name: "Angelic Wings"
+          thumb: "art/wings-0000.webp"
+          description: '''A classic pair of large white feathery wings, soft to the touch and very sensitive. You might look a bit like an Angel, though it's doubtful you'll be embodying the virtue of chastity.'''
+          transformation: '''
+          You can feel your wings come in, large and white. The way they surround you is oddly comforting, though you can't help wondering how you're going to get through doors now...
+          '''
+        }
+        {
+          id: "fallen"
+          name: "Wings of the Fallen"
+          thumb: "art/wings-0001.webp"
+          description: '''A pair of large, black feathery wings, less soft to the touch then their angelic counterparts, but far more sensitive. You might come off looking a bit more sinister, but bad girls have all the fun!'''
+          transformation: '''The way your new all black wings unfurl around you is a little disconcerting, but the moment a breeze passes by them you can't help, but shiver in delight. If they feel this good just getting slightly blown on... Flying is going to be one hell of a time!'''
+          tags: ["goth"]
+        }
+        {
+          id: "demonic"
+          name: "Demonic Wings"
+          thumb: "art/wings-0002.webp"
+          description: '''A set of black leathery wings, reminiscent of a bat, or more specifically, a demon. You might come off looking like a succubus with these, but is that so bad?'''
+          transformation: '''demon: Well this is oddly nostalgic. The way you're coming along, you might fit in well with some of the succubus I know... You'd probably like them, I think you'll soon have a lot in common.'''
+          tags: ["goth"]
+        }
+        {
+          id: "draconic"
+          name: "Draconic Wings"
+          thumb: "art/wings-0003.webp"
+          description: '''Radiant, scaly and powerful, these wings can be a bit overwhelming at first, but they are strong enough to make mid air fucking a breeze! Fire breath not included.'''
+          transformation: '''demon: Be careful with those new wings of yours, dragons are able to cause real damage if they aren't careful so just try and avoid literally blowing the roof off when you get excited...'''
+        }
+      ]
     }
 
     /*

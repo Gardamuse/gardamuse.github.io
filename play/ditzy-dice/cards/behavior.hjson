@@ -264,6 +264,7 @@
 
           Tattoos, smoking and piercings are your core identity. Motorcycles come a close second, whether that is riding clad in leather behind a muscular guy, or on your own tuned up chopper.'''
           transformation: '''God fuck this game! You are jonesing for a smoke, a beer and maybe a dick, not necessarily in that order.'''
+          tags: ["goth"]
         }
         {
           id: "eye candy"
@@ -438,27 +439,46 @@
           id: "1"
           name: "Helpful"
           description: '''It's hard to say no when asked (or ordered) to do something and you'll find your will weakening every time you disobey an order until you have successfully completed an assigned task. You'll also never feel fully at ease when around a mess you can clean.'''
-          transformation: ''''''
+          transformation: '''While you managed to avoid becoming totally dependent on others ordering you about, you can't help feeling a bit uneasy with how messy this house is... Maybe after the game you should tidy up a bit, just to be nice?'''
         }
         {
           id: "2"
           name: "Subservient"
           description: '''When asked (or ordered) to perform a task you'll find it nearly impossible to disobey until you have accomplished it. You also find it hard to talk back to anyone who's ordered you in the past and will compulsively make yourself helpful if you have not been ordered to do something in the last two hours.'''
-          transformation: ''''''
+          transformation: '''demon: Oh, would I like something to drink? No thank you, but I see you're already feeling the compulsion to serve. That's good, best get used to it as it won't be going away anytime soon.'''
         }
         {
           id: "3"
           name: "Obedient"
           description: '''You will leap to any task even suggested to you and if in the presence of anyone who has ordered you about in the past, you'll find yourself driven to help them in any way you can till they have a new task for you. When alone or away from anyone who has given you a task you will be compelled to offer your services to others.'''
-          transformation: ''''''
+          transformation: '''Feeling that deep need to serve already? Can't help, but wish someone would tell you what to do? Well unfortunately for now no one is here who needs anything from you, but as soon as the game ends you're certainly going to need to find someone to help you fulfill that need to obey.'''
         }
         {
           id: "4"
           name: "Worshipful"
           description: '''If someone even suggests something of you, you will do everything in your power to fulfill their wish until they give you a new order or express a new want. If you ever find yourself without a task to do, you will be compelled to find someone to order you about and do everything you can to convince someone to be your new owner.'''
-          transformation: ''''''
+          transformation: '''
+          player: S-sir? Is there anything you'd like me to do? Please?
+
+          demon: Oh, well let's keep it simple for now. I order you to finish the game! Afterwards I'm sure you'll find someone who would be happy to accept you as their loyal slave.'''
         }
       ]
+    }
+    {
+      id: "bbc"
+      name: "Queen of Spades"
+      thumb: "art/bbc.webp"
+      artist: "Gardamuse"
+      description: '''There are many shapes, sizes and colors, but you will feel the unquenchable need for a particular combination. Big, black and phallus shaped. Between your lips, legs, or loins doesn't really matter, as long as you get it daily. Don't and it will quickly become the only thing you can think about (+1 Sex Drive / day).'''
+      transformation: '''
+      Your mind suddenly fogs and fills with images of Big Black Cocks and the insatiable desire to wrap your mouth around them. You smile as you quietly fade into the fantasy of jamming one down your throat and sucking... You need to find some dick and now!
+
+      demon: My, oh my, seems my girl has a new addiction!
+
+      demon: Fading into fantasy already? Better get ready for a reputation as the new town bicycle, at least for a certain kind of rider.
+
+      player: Wow... I don't know how I never, like, realized how yummy all that dark chocolate looks! I might need to book a vacation!
+      '''
     }
   ]
 }
