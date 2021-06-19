@@ -1,0 +1,32 @@
+{
+  title: "Surprise Holiday"
+  description: ""
+  
+  sequences: [
+    {
+      firstImage: "comic-page-0.webp"
+      length: 7
+      description:
+        '''
+        I was playing around, drawing some stuff, and it turned into my first ever comic! I didn't really have much of a plan to begin with, but this was fun enough that I might do another one at some point.
+        
+        Unfortunately the Blushing Defeat Gallery doesn't yet have a proper zoom function, so the text on some panels may be difficult to read. You can however right click the image and open it in a new tab, which will allow you to zoom.
+        '''
+    }
+    {
+      title: "Malcolm and Miranda"
+      firstImage: "malcolm-and-miranda.webp"
+      length: 1
+      description: "Aww, don't they look cute together?"
+    }
+    {
+      title: "Raw Sequence"
+      firstImage: "sequence/malcolm-tg-0000.webp"
+      length: 26
+      description:
+        '''
+        The raw transformation sequence. I think the comic format made it a whole lot more interesting. Mostly though it was difficult to fit the dialogue I wanted into a fixed frame-size.
+        '''
+    }
+  ]
+}
