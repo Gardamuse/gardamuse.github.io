@@ -1,0 +1,8 @@
+{
+    id: "com.blushingdefeat.example-mod" // A unique id for your mod. Recommended to use something unique to you (domain name you own, your name, username etc.) followed by the mod name in snake-case. Changing this id may cause your mod to show up as an entirely new mod.
+    name: "Example Mod"     // Your mod's name in Title Case.
+    authors: ["Gardamuse"]  // Comma separated list of author names
+    version: "1.0.0"        // Version of your mod, following Semantic Versioning (see https://semver.org/).
+    gameVersion: "1.5.0"    // The latest game version your mod has been tested to work with.
+    description: '''An example mod showing how to add custom cards and endings to Ditzy Dice.''' // Short description of your mod
+}

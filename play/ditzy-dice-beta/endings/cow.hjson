@@ -20,7 +20,7 @@
 
       demon: I imagine your friends and family might like to try and help you, but a cow is a big responsibility... Maybe you should trust the experts. I know of a place nearby that knows how to deal with special cases like you.
       '''
-      options: ["a1", "b1"]
+      options: ["a1", "b1", "self"]
     }
     {
       id: "a1"
@@ -63,6 +63,26 @@
       '''
       endpoint: {
         label: "Cowgirl Dairy Farm"
+        fun: "end"
+      }
+    }
+    {
+      id: "self"
+      title: "You'll be fine by yourself"
+      requirements: "lactation <= 1 AND iq <= 4"
+      text: '''
+      player: I think you're exaggerating a bit there, I'm not producing THAT much milk!
+
+      demon: Well, not yet but...
+
+      player: No, I know what the cards said. I'll be fine as long as you don't trick me into anything more. I've followed through my part of the deal, will you?
+
+      demon: Ugh, fine. Have it your way, if you want to be so boring about it.
+
+      And in a puff of smoke he disappears, leaving you to your own life. It's certainly not the same as it used to be; you're a little bit milkier, a little curvier, maybe even a little bit dumber, but you don't really mind. With the perks you've gained you're going to have a lot more fun now anyways!
+      '''
+      endpoint: {
+        label: "Self Sufficient"
         fun: "end"
       }
     }

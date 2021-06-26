@@ -1,0 +1,19 @@
+{
+name: "Magnificent Mods"
+date: "2021-06-26"
+text: '''
+# Features
+    * Added mod support. Load mods in Settings. Mods can:
+        * Add custom cards.
+    * It is now possible to download your save game to file, and restore from it later.
+    * New Endings
+        * Cow: Self Sufficient
+    * New Cards
+        * Mirror Mirror
+        * Narscissian Turn-On
+
+# Gameplay
+
+# Minor
+'''
+}

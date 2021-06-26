@@ -1,0 +1,32 @@
+{
+    id: "clothing" // Family ID, one of: behavior, body, clothing, event, mind, reward
+    cards: [
+        {
+            id: "knight"
+            name: "Knight"
+            thumb: "art/knight.webp"
+            description: '''You will always have to wear armor.'''
+            transformation: '''demon: Hm...
+            Why did I put this card in here?
+
+            player: Haha, now I'm wearing armor!
+
+            Indeed, you are now wearing armor. Great.
+            '''
+        }
+        {
+            override: true
+            id: "too hot to handle"
+            name: "Too Knight to Handle"
+            thumb: "art/knight.webp"
+            description: '''You are too good a knight to handle.'''
+            transformation: '''demon: Hm...
+            Why did I put this card in here?
+
+            player: Haha, now I'm wearing armor!
+
+            Indeed, you are now wearing armor. Great.
+            '''
+        }
+    ]
+}

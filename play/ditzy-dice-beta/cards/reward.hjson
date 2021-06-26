@@ -13,12 +13,12 @@
     Costs 1 mana per hour. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.
     '''
     transformation: '''demon: Huh... I didn't know this spell was still in there. Well, maybe you'll get to feel smart every know and again, then. I don't see anything too wrong with that, to be honest.'''
-    tags: ["spell"]
+    tags: ["spell", "iq"]
   }
   {
     id: "spell: super strength"
     name: "Spell: Super Strength"
-    thumb: "art/spell-book.webp"
+    thumb: "art/super-miranda.webp"
     description: '''While this spell is active, you become incredibly strong and resilient, although not completely invulnerable. Lift stuff, punch through walls or defend yourself.
 
     Costs 1 mana per 20 minutes. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.
@@ -41,7 +41,7 @@
     id: "spell: transform body"
     name: "Spell: Transform Body"
     thumb: "art/glasses-thumb.webp"
-    description: '''Transform your body into anything female and somewhat humanoid, but you can't alter characteristics that the cards gave you. Centaur, mermaid, or something more subtle? You can always reset your appearance. If you have Transform Others you can also do this to other people.
+    description: '''Transform your body into anything female and somewhat humanoid, but you can't alter characteristics from your other cards. Centaur, mermaid, or something more subtle? If you have Transform Others, this functions on others too.
 
     Costs 1 mana per cast. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.
     '''
@@ -57,13 +57,13 @@
     Costs 1 mana per cast. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.
     '''
     transformation: '''demon: Not satisfied being the only bimbo in town, or maybe just jealous of all the "smart peeps"? Well, with this spell, given enough time you can make the whole city join you in blissful ignorance! And hey, why not top yourself off too? What's the harm in that?'''
-    tags: ["spell"]
+    tags: ["spell", "iq"]
   }
   {
     id: "spell: forever young"
     name: "Spell: Forever Young"
-    thumb: "art/spell-book.webp"
-    description: '''Choose any age, and your body will age forwards or backwards at a normal speed in order to become that age. This means you can avoid dying from old age. Casting this spell toggles its effect, but it will deactivate if you run out of mana.
+    thumb: "art/forever-young-512px.webp"
+    description: '''Choose any age, and your body will age forwards or backwards in order to become that age. Casting this spell toggles its effect, but it will deactivate if you run out of mana.
 
     Costs 3 mana per week. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.
     '''
@@ -106,7 +106,7 @@
   {
     id: "spell: telepathy"
     name: "Spell: Telepathy"
-    thumb: "art/spell-book.webp"
+    thumb: "art/telepathy-512px.webp"
     description: '''Hear what a nearby person, or person you've met previously, is thinking right now, or explore their memories, plans and personality. You can also talk to them, and they will hear your voice in their heads.
 
     Costs 1 mana per 15 minutes. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.
@@ -117,7 +117,7 @@
   {
     id: "spell: telekinesis"
     name: "Spell: Telekinesis"
-    thumb: "art/spell-book.webp"
+    thumb: "art/telekinesis-512px.webp"
     description: '''You can lift, move and manipulate nearby objects using up to 1 metric ton of force. Please be careful if you use it on people.
 
     Costs 1 mana per 20 minutes. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.
@@ -160,7 +160,7 @@
   {
     id: "spell: invisibility"
     name: "Spell: Invisibility"
-    thumb: "art/spell-book.webp"
+    thumb: "art/invisibility-512px.webp"
     description: '''Rob banks, spy on people or just hide. You can turn yourself and up to a cubic meter of material, including other people, invisible. To turn something invisible, some part of it must be very close to you.
 
     Costs 1 mana per hour. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.

@@ -332,6 +332,7 @@
           Plenty of people who'd be into a half-giantess though.
           '''
           transformation: '''As you grow taller it feels less like growing and more like the world is slowly shrinking around you. And holy shit, you're huge! You get the feeling you'll need to take charge in the bedroom, or find something who enjoys conquering mountains! At the same time, there may be something special to a submissive giant.'''
+          tags: ["expansion"]
         }
         {
           id: "height 2"
@@ -893,15 +894,18 @@
     {
       id: "wings of love"
       name: "On Wings Of Love"
-      thumb: ""
+      thumb: "art/wings-0000.webp"
+      artist: "Gardamuse"
       description: '''You will grow a pair of magnificent wings, giving you the ability to fly and a very distinctive look. But what sort of wings will you have? That we will need to see...
       '''
       transformation: ''''''
       type: "selection"
+      tags: ["animal"]
       levels: [
         {
           id: "angelic"
           name: "Angelic Wings"
+          thumb: "art/wings-0000.webp"
           description: '''A classic pair of large white feathery wings, soft to the touch and very sensitive. You might look a bit like an Angel, though it's doubtful you'll be embodying the virtue of chastity.'''
           transformation: '''
           You can feel your wings come in, large and white. The way they surround you is oddly comforting, though you can't help wondering how you're going to get through doors now...
@@ -910,6 +914,7 @@
         {
           id: "fallen"
           name: "Wings of the Fallen"
+          thumb: "art/wings-0001.webp"
           description: '''A pair of large, black feathery wings, less soft to the touch then their angelic counterparts, but far more sensitive. You might come off looking a bit more sinister, but bad girls have all the fun!'''
           transformation: '''The way your new all black wings unfurl around you is a little disconcerting, but the moment a breeze passes by them you can't help, but shiver in delight. If they feel this good just getting slightly blown on... Flying is going to be one hell of a time!'''
           tags: ["goth"]
@@ -917,6 +922,7 @@
         {
           id: "demonic"
           name: "Demonic Wings"
+          thumb: "art/wings-0002.webp"
           description: '''A set of black leathery wings, reminiscent of a bat, or more specifically, a demon. You might come off looking like a succubus with these, but is that so bad?'''
           transformation: '''demon: Well this is oddly nostalgic. The way you're coming along, you might fit in well with some of the succubus I know... You'd probably like them, I think you'll soon have a lot in common.'''
           tags: ["goth"]
@@ -924,6 +930,7 @@
         {
           id: "draconic"
           name: "Draconic Wings"
+          thumb: "art/wings-0003.webp"
           description: '''Radiant, scaly and powerful, these wings can be a bit overwhelming at first, but they are strong enough to make mid air fucking a breeze! Fire breath not included.'''
           transformation: '''demon: Be careful with those new wings of yours, dragons are able to cause real damage if they aren't careful so just try and avoid literally blowing the roof off when you get excited...'''
         }

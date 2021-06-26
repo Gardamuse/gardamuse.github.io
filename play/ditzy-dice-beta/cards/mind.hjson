@@ -599,7 +599,7 @@
     {
       id: "metered connection"
       name: "Metered Connection"
-      thumb: "art/brain-fried.webp"
+      thumb: "art/metered-connection.webp"
       artist: "Gardamuse"
       description: '''Thinking will be restricted to a metered plan. Any slight concentration counts as time spent, and your plan is limited to 10 hours per week. If exceeded, your plan is downgraded (-1 intelligence) and you are granted another 10 hours. Your plan is reset at the end of each week.
       '''

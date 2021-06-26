@@ -1,31 +1,33 @@
 {
-name: "Flamboyant Finales"
-date: "2021-05-18"
+name: "Flamboyant Functionality"
+date: "2021-06-04"
 text: '''
 # Features
-    * You can now see the endings you have unlocked from the Collection.
-    * You can now see card activation dialogue on cards in the Collection.
-    * Some epilogues may now give you additional dialogue options if you have certain cards.
-    * Updated some epilogues.
+    * You can now read all endings you have unlocked from the Collection.
+    * You can now read the card activation dialogue on cards in the Collection.
+    * Epilogues can now have hidden dialogue options, only available when you fulfill certain card requirements.
+    * New Epilogue "Enhanced"
     * New Cards
         * Queen of Spades
-        * Bimbo Virus (pic?)
         * Spell: Limitless
-        * Metered Connection (pic?)
-        * Brain Pop (pic? dialogue?)
-        * Too Hot to Handle (pic?)
-        * Comfortably Bound (pic)
-        * Wet dreams (pic?)
+        * Metered Connection
+        * Brain Pop
+        * Too Hot to Handle
+        * Comfortably Bound
+        * Wet dreams
 
 # Gameplay
-
-# UI
+    * Rolling any dice now disables the "pick any" ability.
 
 # Minor
-    * Updated some card illustrations, including the Intelligence card with many thanks to Kobi-Tfs!
-    * Updated a few card descriptions and dialogues.
-    * Rolling any dice now disables the "pick any" ability.
-    * Hand is now saved to collection immediately on the end screen, instead of only when pressing the back to menu button.
+    * Updated several card illustrations, including the Intelligence card with many thanks to Kobi-Tfs!
+    * Updated some card descriptions and dialogues.
+    * Cards that are not picked are now added to the bottom of the deck.
+    * Hand is now saved to collection immediately on the end screen, instead of when pressing the back to menu button.
+    * Collection is now faster to open when many cards are unlocked than previously.
+    * Fonts should now always load, as they are now loaded directly from server.
 
+# Patch 1.4.4
+    * Pick More/Less are no longer disabled when reaching maximum number of bonus rolls.
 '''
 }
