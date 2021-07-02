@@ -28,5 +28,13 @@
             Indeed, you are now wearing armor. Great.
             '''
         }
+        {
+            id: "shirt"
+            name: "ABSolute Shirt"
+            thumb: "art/malcolm.webp"
+            description: '''You will always have abs while wearing a shirt.'''
+            transformation: '''Abs!
+            '''
+        }
     ]
 }
