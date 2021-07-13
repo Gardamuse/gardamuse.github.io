@@ -1,7 +1,7 @@
 {
   id: "cow"
   title: "Cow"
-  likelihood: 3
+  likelihood: 30
   requirements: '''
     lactation >= 1
     AND sum(iq, animal, pet) >= 4

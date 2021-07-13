@@ -5,6 +5,15 @@
   hue: 40
   cards: [
   {
+    id: "kiss of frigga"
+    name: "Kiss of Frigga"
+    thumb: ""
+    description: '''Something about your lips drives men and women wild. Once smitten, your lovers will do whatever they can to please you. If your will is strong enough, you might even be able to command them! Though even if not, you can always just get them to eat you out some more.
+    '''
+    transformation: '''demon: A power so simple even a bimbo can't fail to get something out of it, so perfect for you, no? At the very least no one who gets a taste of you will stop at anything less than ensuring you are well and truly satisfied. You're welcome.'''
+    tags: []
+  }
+  {
     id: "spell: limitless"
     name: "Spell: Limitless"
     thumb: "art/limitless-spell-1024px.webp"
@@ -133,7 +142,7 @@
 
     Costs 1 mana per 20 minutes. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.
     '''
-    transformation: '''demon: The world will be your oyster when you can stop time on command! Who can stop you when you're able to act with total immunity within your own frozen world? Though let's face it, you will probably just end up using it for kinky play and to score with guys.'''
+    transformation: '''demon: The world will be your oyster when you can stop time on command! Who can stop you when you're able to act with total impunity within your own frozen world? Though let's face it, you will probably just end up using it for kinky play and to score with guys.'''
     tags: ["spell"]
   }
   {

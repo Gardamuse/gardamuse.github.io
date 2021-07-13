@@ -1,7 +1,7 @@
 {
   id: "bimbo-witch"
   title: "Bimbo Witch"
-  likelihood: 3
+  likelihood: 30
   requirements: '''
     spell >= 4 AND iq >= 4
   '''

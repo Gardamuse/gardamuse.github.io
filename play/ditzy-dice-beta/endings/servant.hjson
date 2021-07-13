@@ -1,7 +1,7 @@
 {
   id: "servant"
   title: "Servant"
-  likelihood: 2
+  likelihood: 30
   requirements: '''
     iq >= 2
     AND sum(personality.eye candy, personality.object, maid to serve) >= 1
