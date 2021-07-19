@@ -1,0 +1,40 @@
+{
+  id: "default"
+  title: "Default Override" # The title of this epilogue
+  likelihood: 0 # If any epilogues with higher likelihoods are fulfilled, those will be available to the player instead.
+  requirements: '''
+    all >= 0
+  ''' # Which family ids, card ids or tags must be fulfilled in order to count this epilogue as fulfilled.
+  nodes: [
+    {
+      id: "intro"
+      title: ""
+      text: '''
+      This endings tries to override the default epilogue.
+      '''
+      options: ["a", "b"]
+    }
+    {
+      id: "a"
+      title: "A"
+      text: '''
+      A a a...
+      '''
+      endpoint: {
+        label: "A for effort"
+        fun: "end"
+      }
+    }
+    {
+      id: "b"
+      title: "B"
+      text: '''
+      B b b.
+      '''
+      endpoint: {
+        label: "Bee Happy"
+        fun: "end"
+      }
+    }
+  ]
+}

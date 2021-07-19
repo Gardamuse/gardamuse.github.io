@@ -1,25 +1,23 @@
 {
 name: "Magnificent Mods"
-date: "2021-07-12"
+date: "2021-07-19"
 text: '''
 # Features
     * Added mod support for creating custom cards, or overriding existing ones.
     * It is now possible to download your save game to file, and restore from it later.
     * Individual cards can now be banned from the Settings menu.
     * When fulfilling multiple epilogues you will now sometimes be able to choose which one you want to pursue as "your new life".
+
+# Content
     * New Endings
         * Cow: Self Sufficient
     * New Cards
-        * Mirror Mirror
-        * Narscissian Turn-On
-        * Pregnancy?
-        * Fertility. Unique Art?
-        * Reflections of Love
-        * The B-Virus. Art?
-        * Kiss of Frigga. Art?
-
-# Gameplay
-
-# Minor
+        * Behavior, Mirror Mirror
+        * Behavior, Narcissian Turn-On
+        * Body, Looking Pregnant
+        * Body, Fertility
+        * Event, Reflections of Love
+        * Event, The B-Virus
+        * Reward, Kiss of Frigga
 '''
 }

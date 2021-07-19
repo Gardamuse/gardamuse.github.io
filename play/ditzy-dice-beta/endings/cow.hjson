@@ -5,7 +5,7 @@
   requirements: '''
     lactation >= 1
     AND sum(iq, animal, pet) >= 4
-    AND sum(lactation, breast-size, ass size) >= 3
+    AND sum(lactation, breast-size, ass size, preg) >= 4
     OR lactation >= 4
     AND sum(iq, animal, pet) >= 1
   '''
