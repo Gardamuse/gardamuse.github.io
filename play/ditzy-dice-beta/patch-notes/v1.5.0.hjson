@@ -1,12 +1,12 @@
 {
 name: "Magnificent Mods"
-date: "2021-07-19"
+date: "2021-07-21"
 text: '''
 # Features
-    * Added mod support for creating custom cards, or overriding existing ones.
+    * Added mod support for overriding existing cards, creating new cards, and creating new epilogues.
     * It is now possible to download your save game to file, and restore from it later.
     * Individual cards can now be banned from the Settings menu.
-    * When fulfilling multiple epilogues you will now sometimes be able to choose which one you want to pursue as "your new life".
+    * When fulfilling multiple epilogues you will now sometimes be able to choose which one you want to pursue.
 
 # Content
     * New Endings
