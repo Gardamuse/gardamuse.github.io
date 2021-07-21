@@ -63,25 +63,29 @@
       transformation: '''Your phone is blowing up with texts and you're seriously starting to question the wisdom of letting some of your guy friends know about how impulsively easy you just became...'''
       tags: ["slut"]
     }
-    /*{
+    {
       id: "mirror mirror"
       name: "Mirror Mirror"
-      thumb: ""
+      thumb: "art/mirror-blackshirtboy.webp"
+      artist: "Blackshirtboy"
       description: '''You can't help but stare at your own reflection.
 
       If you walk past a mirror or some other somewhat large and reflective surface, you will stop and look at yourself for at least 10 seconds unless someone drags you away.'''
-    }*/
-    /*{
-      id: "narscissian turn-on"
-      name: "Narscissian Turn-On"
-      thumb: ""
+      transformation: '''Why is it that everyone else gets to look at you all the time, but you can't? You vow to take a good look when you next find a mirror.'''
+    }
+    {
+      id: "narcissian turn-on"
+      name: "Narcissian Turn-On"
+      thumb: "art/mirror-blackshirtboy.webp"
+      artist: "Blackshirtboy"
       description: '''Whenever you look at your own reflection you start getting horny.
 
-      After 30 seconds you will be horny enough to feel your panties getting wet, after 2 minutes you will cum on the spot.'''
-    }*/
+      After 30 seconds you will be horny enough to feel your panties getting wet, after a couple of minutes you will cum on the spot.'''
+      transformation: '''Ah yes, Narcissus, always an advocate for the importance of confidence in yourself and your looks. Let's see how you manage with that turned up to eleven!'''
+    }
     {
       id: "narscissian touch"
-      name: "Narscissian Touch"
+      name: "Narcissian Touch"
       thumb: ""
       description: '''You love your own body so much that you simply can't stop feeling it out.
 

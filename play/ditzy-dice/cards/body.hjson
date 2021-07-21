@@ -332,6 +332,7 @@
           Plenty of people who'd be into a half-giantess though.
           '''
           transformation: '''As you grow taller it feels less like growing and more like the world is slowly shrinking around you. And holy shit, you're huge! You get the feeling you'll need to take charge in the bedroom, or find something who enjoys conquering mountains! At the same time, there may be something special to a submissive giant.'''
+          tags: ["expansion"]
         }
         {
           id: "height 2"
@@ -932,6 +933,111 @@
           thumb: "art/wings-0003.webp"
           description: '''Radiant, scaly and powerful, these wings can be a bit overwhelming at first, but they are strong enough to make mid air fucking a breeze! Fire breath not included.'''
           transformation: '''demon: Be careful with those new wings of yours, dragons are able to cause real damage if they aren't careful so just try and avoid literally blowing the roof off when you get excited...'''
+        }
+      ]
+    }
+    {
+      id: "looking pregnant"
+      name: "Looking Pregnant"
+      thumb: "art/pregnant-0006.webp"
+      description: '''If you can't get enough of that ample pregnant look, but don't want to deal with births or children, this is the card for you! Why be pregnant when you can just look like you are? A weak memory alteration aura means that very few people will ever notice that you don't progress, no matter how many times they see you.'''
+      transformation: ''''''
+      type: "numeric"
+      tags: ["preg"]
+      levels: [
+        {
+          id: "1"
+          name: "Motherly Bump"
+          thumb: "art/pregnant-0003.webp"
+          description: '''Your belly will grow bigger and a little rounder, tighten your usual shirts and give you that motherly glow, but not enough that it'll be much in the way.'''
+          transformation: '''Your clothes tighten just a little. You feel... full, but it's a good feeling.'''
+        }
+        {
+          id: "2"
+          name: "Six Months"
+          thumb: "art/pregnant-0004.webp"
+          description: '''Your belly will be noticeably bigger and rounder, as if you were 6 months pregnant. Bending over or other dexterous movements are going to be more difficult, but you'll probably also gain a cup size as your breasts swell a little from milk production.'''
+          transformation: '''Your shirt begins to strain significantly as your belly begins to grow, shifting your center of gravity. You feel a little docile as you put your hand on your now round stomach.'''
+        }
+        {
+          id: "3"
+          name: "Nine Months"
+          thumb: "art/pregnant-0005.webp"
+          description: '''Prepare to buy new clothes as your belly grows until you look about ready to give birth, although of course you won't. Moving around is going to be a lot more demanding, but people will also usually make sure there's a seat available for you. It's hard to look more motherly than this.'''
+          transformation: '''Your belly begins to grow rapidly, making you feel considerably heavier as it balloons outward. You don't think you're gonna get off this chair unless you really need to.'''
+        }
+        {
+          id: "4"
+          name: "Twins"
+          thumb: "art/pregnant-0006.webp"
+          description: '''Try to make sure you don't drop anything, because picking it up off the floor is going to be very difficult as your belly will grow very large and round, as if you are late-stage pregnant with twins, at least. As a bonus, your breasts and ass are probably going to gain a size or two as well.'''
+          transformation: '''Your belly swells up quickly, only just giving you time to loosen your shirt and pants. You feel so big and bloated, but in a weirdly good way. As you look down on your now bare belly button you feel like its best that you just relax and take care of yourself.'''
+        }
+        {
+          id: "5"
+          name: "Just Sit Still"
+          thumb: "art/pregnant-0007.webp"
+          description: '''Being this big is going to be challenging, but if you just can't get enough of that round big belly in front of you, this is the one you want. Wherever you go, everyone will go out of their way to help you anyways.'''
+          transformation: '''Your belly begins to grow, slowly at first, but then faster, beyond what you thought possible, all but rendering you immobile. Yet you feel absolutely divine. This is what you were meant to be.'''
+          tags: ["extreme"]
+        }
+      ]
+    }
+    {
+      id: "fertility"
+      name: "Venusian Fertility"
+      thumb: "art/pregnant-0006.webp"
+      description: '''Can't you wait to become pregnant? Or would you rather have all the casual sex you can stand without worry? Well it's up in the air as to which it will be, but this might just be the biggest change to your future yet!'''
+      transformation: ''''''
+      type: "numeric"
+      tags: ["preg"]
+      levels: [
+        {
+          id: "1"
+          name: "Infertile"
+          thumb: "art/pregnant-0001.webp"
+          description: '''You never have to worry about protection, because you're safe 365 days a year! No kids, no worries, take all the cream pies you want!'''
+          transformation: '''demon: Congratulations, you're going to save a fortune on condoms now! And don't worry, you're safe from STDs as well, so feel free to go as wild as you like!'''
+        }
+        {
+          id: "2"
+          name: "Reduced Fertility"
+          thumb: "art/pregnant-0003.webp"
+          description: '''While you're not barren, your body was built for pleasure, not kids. Anytime someone cums inside you the chances of it resulting in anything besides a good time are very low. You can still be a mommy, but you're going to have to work for it.'''
+          transformation: '''You guess you won't have to worry about condoms breaking or missing a day when on the pill now, so that's good.'''
+        }
+        {
+          id: "3"
+          name: "Womb Control"
+          thumb: "art/pregnant-0004.webp"
+          description: '''Between two extremes lies a perfect balance. You have full control over your ovaries and will never end up with surprises, happy or otherwise. If or when you want to be a milky mommy is all up to you!'''
+          transformation: '''demon: I have to congratulate you, having this level of self control is a gift many women would give much to have! Though we will see if you have the wits to use it to its full potential.'''
+        }
+        {
+          id: "4"
+          name: "Enhanced Fertility"
+          thumb: "art/pregnant-0005.webp"
+          description: '''Your body exaggerates all aspects of womanhood, including the ability to make new life. If you're not careful checking your 'safe days', and sticking to the pill, get ready to end up as a MILF a lot earlier than you might have expected!'''
+          transformation: '''demon: I hope you like kids... Or that you're a lot smarter and more organized than you look, because by the time this game is over, I very much doubt just avoiding dicks will be an option for keeping that belly flat.'''
+        }
+        {
+          id: "5"
+          name: "Hyper Fertile"
+          thumb: "art/pregnant-0006.webp"
+          description: '''Your body becomes impossibly fertile, so much so that any contact with sperm has the potential to knock you up, even though it should not be physically possible. Yet births will be exceptionally easy for you, and won't affect your figure afterwards.'''
+          transformation: '''demon: It may be wise to stick to lesbians from now on, unless you want more kids than you can count. Or I suppose you could be exceptionally careful to use protection, as if that would work for long.'''
+          tags: ["extreme"]
+        }
+        {
+          id: "6"
+          name: "Virgin Birth"
+          thumb: "art/pregnant-0007.webp"
+          description: '''Your fertility defies biology and any act of sexual intercourse can get you pregnant, no matter if that's giving a blowjob or being eaten out by another woman.'''
+          transformation: '''player: So... how about masturbation? Can that... get me pregnant?
+
+          demon: Heh, well... I guess you'll have to find out!
+          '''
+          tags: ["extreme"]
         }
       ]
     }

@@ -448,6 +448,7 @@
 
           player: Yes master!
           '''
+          tags: ["doll"]
         }
       ]
     }

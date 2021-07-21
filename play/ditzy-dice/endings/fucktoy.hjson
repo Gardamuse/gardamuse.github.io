@@ -1,7 +1,7 @@
 {
   id: "fucktoy"
   title: "Fuck Toy"
-  likelihood: 5
+  likelihood: 40
   requirements: '''
     iq >= 10 AND sex drive >= 0 AND doll >= 1
     OR sum(iq, sex drive, willpower, submissive silence, erogenous lips, erogenous breasts, cum your brains out, sensitivity) >= 14 AND doll >= 1

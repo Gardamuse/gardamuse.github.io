@@ -1,0 +1,74 @@
+{
+    // This is the Family ID, one of: behavior, body, clothing, event, mind, reward
+    // Each hjson file in the cards folder represents a number of cards that belong to the same family.
+    // There can be multiple files for the same family, and the file name does not have to be the same as the family id.
+    id: "clothing"
+    cards: [
+        {
+            id: "knight"
+            name: "Knight"
+            thumb: "art/knight.webp"
+            description: '''You will always have to wear armor.'''
+            // The transformation dialogue is displayed one message at a time when the card is activated.
+            // Messages are separated by an empty new line.
+            // Messages that begin with "demon: " or "player: ", will be said by those characters. 
+            // Other messages are said by the narrator.
+            transformation: '''demon: Hm...
+            Why did I put this card in here?
+
+            player: Haha, now I'm wearing armor!
+
+            Indeed, you are now wearing armor. Great.
+            '''
+            // Any card or levels of a card can have tags. Certain tags are used by the base game, but you can use any tags you want.
+            // See the documentation for which tags are used in the base game.
+            tags: ["armor"]
+        }
+        {
+            override: true                // This card will override a card in the base game, instead of adding a new card
+            id: "too hot to handle"       // For overridden cards, this must correspond to a card id in the base game
+            name: "Too Knight to Handle"
+            thumb: "art/knight.webp"
+            description: '''You are too good a knight to handle.'''
+            transformation: '''demon: Hm...
+            Why did I put this card in here?
+
+            player: Haha, now I'm wearing armor!
+
+            Indeed, you are now wearing armor. Great.
+            '''
+        }
+        {
+            // This is a leveled card with 3 levels
+            id: "shirt"
+            name: "ABSolute Shirt"
+            thumb: "art/malcolm.webp"
+            description: '''You will always have abs while wearing a shirt. Let's see how many.'''
+            transformation: '''''' // This will only be used if any of the levels do not have a transformation dialogue.
+            // Leveled cards have a type, either "numeric" or "selection".
+            // Numeric means that each level represents a bigger transformation, such as breast expansion. Each level will be worth one more point when calculating requirements.
+            // Selection means that each level is worth the same. Useful for things like hair color that don't have a particular ordering.
+            type: "numeric"
+            levels: [
+                {
+                    id: "1"
+                    name: "Six Pack"
+                    description: '''You will have a six pack of abs while wearing a shirt.'''
+                    transformation: '''You feel your abs grow harder.'''
+                }
+                {
+                    id: "2"
+                    name: "Eight Pack"
+                    description: '''You get an eight pack.'''
+                    transformation: '''You suddenly feel like you've been to the gym alot.'''
+                }
+                {
+                    id: "3"
+                    name: "Sixteen Pack"
+                    description: '''You will look incredible muscular with a shirt on.'''
+                    transformation: '''player: Woah'''
+                }
+            ]
+        }
+    ]
+}

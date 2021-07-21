@@ -77,16 +77,18 @@
       transformation: '''Do you feel that warmth? Getting a little bit tingly? It could just be regular arousal, or it is the beginning of your first heat, and five days of mindless fucking...'''
       tags: ["pet"]
     }
-    /*{
+    {
       id: "bimbo virus"
-      name: "Bimbo Virus"
-      thumb: ""
+      name: "The B-Virus"
+      thumb: "art/bimbo-zombies-512px.webp"
       description: '''
-      You always carry the bimbo virus but are immune to it. It spreads through kissing and sex. Infection can increase sex drive, sensitivity, breast and ass size, reduce mental abilities and lasts for up to 4 weeks at a time. Men may transform to women, or become more muscular instead.
+      Having sex with you has a 9 in 10 chance to inflict a curse, causing your partner to slowly become dumber, sexier, hornier, and have a slightly lower chance of inflicting the curse to their sexual partners. The curse lasts for a few weeks. Most men who receive it become women for the duration, but some may become hyper masculine instead.
       '''
-      transformation: ''''''
+      transformation: '''demon: Looks like you'll almost be doing my job for me now! Well, at least if you sleep around, which I have no doubt you will.
+
+      demon: Oh, and you're immune to the curse by the way. You'll just never stop spreading it.'''
       tags: ["bimbo", "iq"]
-    }*/
+    }
     {
       id: "brain pop"
       name: "Brain Pop"
@@ -108,6 +110,14 @@
       transformation: '''Don't feel much different? That's to be expected, it won't be till you fall asleep that you'll notice the changes, but when you do, oh boy, they will be WILD! Every sexual fantasy, no matter how impossible or perverse, will fill your every sleeping moment. Better invest in some plastic sheets because otherwise black lights will make your sheets light up like the sun.
       '''
     }
+    {
+      id: "reflections-of-love"
+      name: "Reflections of Love"
+      thumb: "art/reflection-1024px.webp"
+      description: '''All around you are familiar faces... or at least that will be the case after a night of sexual excess. From now on, anyone who you bring to climax will transform bit by bit into a copy of you! The effect will only last twenty four hours, but if the new "you" can't keep it together that long... You might end up slowly growing a harem of identical bimbos!'''
+      transformation: '''demon: What an interesting gift you have gained! I doubt anyone with a strong will and an ounce of sense will let you transform them fully before letting the changes revert, but seeing how you humans usually act... I would not be surprised if more than a few will find themselves effectively permanently mirroring you.'''
+    }
+
     /*{
       id: "sympathetic detonation"
       name: "Sympathetic Detonation"

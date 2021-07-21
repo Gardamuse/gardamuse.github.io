@@ -26,5 +26,8 @@ text: '''
     * Hand is now saved to collection immediately on the end screen, instead of when pressing the back to menu button.
     * Collection is now faster to open when many cards are unlocked than previously.
     * Fonts should now always load, as they are now loaded directly from server.
+
+# Patch 1.4.4
+    * Pick More/Less are no longer disabled when reaching maximum number of bonus rolls.
 '''
 }

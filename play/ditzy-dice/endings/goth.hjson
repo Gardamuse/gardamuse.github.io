@@ -1,7 +1,7 @@
 {
   id: "goth"
   title: "Goth"
-  likelihood: 1
+  likelihood: 20
   requirements: '''
     goth >= 2 AND spell >= 1 AND iq < 4
   '''
