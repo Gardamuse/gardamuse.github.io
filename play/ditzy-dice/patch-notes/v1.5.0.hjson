@@ -22,5 +22,6 @@ text: '''
 
 # Fixes
     * Fixed epilogues not loading on Android Chrome and Firefox. (v1.5.1)
+    * Disabled dice rolling animation as it was causing dice to not roll properly. (v1.5.2)
 '''
 }
