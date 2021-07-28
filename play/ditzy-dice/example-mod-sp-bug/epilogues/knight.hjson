@@ -1,0 +1,54 @@
+{
+  id: "knight" # The id of this epilogue
+  title: "Knight" # The title of this epilogue
+  likelihood: 0 # If any epilogues with higher likelihoods are fulfilled, those will be available to the player instead.
+  requirements: '''
+    all >= 0
+  ''' # Which family ids, card ids or tags must be fulfilled in order to count this epilogue as fulfilled. See the documentation.
+  # Below is a list of nodes, each node is a series of messages. A node must have either an "options" field, or an "endpoint field".
+  nodes: [
+    {
+      id: "intro" # The first node in the nodes list will currently always be the entry point for the player.
+      title: "" # The first node currently needs no title, as it's title won't be shown
+      text: '''
+      demon: Well this is somewhat disappointing, I don't mind admitting. Here I was hoping to let you embrace the life of a bimbo and yet you somehow have remained distressingly... Normal.
+
+      He frowns and then shrugs.
+
+      demon: Well no use wishing for what might have been. You took few risks, won no great prizes and left here not much different than when you  came in. Go on, go live the boring little life you have given yourself.
+
+      He vanishes in the blink of an eye, leaving you to wonder... What's next?
+      '''
+      # The options are ids to other nodes in this file. This defines which nodes the player will be able to go to next.
+      options: ["knight", "peasant"]
+    }
+    {
+      id: "knight" # The node id must be unique within this list of nodes. (The id "knight" happens to be the same as the epilogue id, which is allowed, but not necessary.)
+      title: "Become a Knight" # When this node is an option, it's title will be shown on its button
+      # This node will only show up as an option if its requirements are fulfilled.
+      # Every "option" list must have at least one node with no requirements, or the player may get stuck.
+      # The requirements below mean that the player must have either at least lvl 3 gold, or the knight card added by this mod.
+      requirements: "gold >= 3 OR com.blushingdefeat.example-mod.knight >= 1"
+      text: '''
+      You've become a knight.
+      '''
+      # This node has an endpoint instead of options, which means that this node is an ending.
+      endpoint: {
+        label: "Knight to Remember" # This is the name of the ending
+        fun: "end"                  # As of Ditzy Dice 1.5, this must always be "end".
+      }
+    }
+    {
+      id: "peasant"
+      title: "Become a Peasant"
+      text: '''
+      You have become a poor peasant.
+      '''
+      endpoint: {
+        label: "Poor Peasant"
+        fun: "end"
+      }
+    }
+    # You can add any number of nodes to this list here.
+  ]
+}
