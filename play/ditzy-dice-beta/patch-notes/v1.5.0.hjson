@@ -22,5 +22,8 @@ text: '''
 
 # Fixes
     * Fixed epilogues not loading on Android Chrome and Firefox. (v1.5.1)
+    * Disabled dice rolling animation as it was causing dice to not roll properly. (v1.5.2)
+    * Fixed a bug where card ID's where not set correctly for modded cards with levels which caused the game to crash on start in some cases. This fix requires reloading each of your mods to have effect, and will remove already unlocked modded cards from your collection. (v1.5.3)
+    * Fixed a bug where the levels of a modded card were being added directly to the deck, instead of only under their parent. (v1.5.3)
 '''
 }
