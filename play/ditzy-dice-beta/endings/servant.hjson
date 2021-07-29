@@ -5,7 +5,7 @@
   requirements: '''
     iq >= 2
     AND sum(personality.eye candy, personality.object, maid to serve) >= 1
-    AND sum(submissive silence, lap warmer, smooth as silk, mascara.mascara 1, heels, choker, willpower, second language, name, gullible, tramp stamp, expenses.expenses 1, height) >= 1
+    AND sum(submissive silence, lap warmer, smooth as silk, mascara.mascara 1, heels, choker, willpower, second language, name, gullible, tramp stamp, expenses.expenses 1, height) >= 2
   '''
   nodes: [
     {

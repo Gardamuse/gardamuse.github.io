@@ -69,7 +69,7 @@
     {
       id: "self"
       title: "You'll be fine by yourself"
-      requirements: "lactation <= 1 AND iq <= 4"
+      requirements: "lactation <= 2 AND iq <= 4"
       text: '''
       player: I think you're exaggerating a bit there, I'm not producing THAT much milk!
 
