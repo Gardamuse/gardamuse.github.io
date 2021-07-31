@@ -25,6 +25,20 @@
             tags: ["armor"]
         }
         {
+            id: "super knight"
+            name: "Super Knight"
+            thumb: "art/knight.webp"
+            description: '''You are a super knight.'''
+            transformation: '''demon: Hm...
+            '''
+            tags: ["armor"]
+            // The default intensity of a normal card is 1, and will thus count as 1 card towards requirements.
+            // By specifying an intensity you can override this, but it's recommended that you refrain from using this property
+            // since it can be confusing for players, and for balancing requirements.
+            // To use the default intensity instead (recommended) just remove the intensity property below.
+            intensity: 3
+        }
+        {
             override: true                // This card will override a card in the base game, instead of adding a new card
             id: "too hot to handle"       // For overridden cards, this must correspond to a card id in the base game
             name: "Too Knight to Handle"
@@ -65,8 +79,25 @@
                 {
                     id: "3"
                     name: "Sixteen Pack"
-                    description: '''You will look incredible muscular with a shirt on.'''
+                    description: '''You will look incredibly muscular with a shirt on.'''
                     transformation: '''player: Woah'''
+                    tags: ["muscles"]
+                }
+                {
+                    id: "4"
+                    name: "Too Much Abs"
+                    description: '''You will look incredibly muscular with a shirt on. Too muscular.'''
+                    transformation: '''player: Woah'''
+                    tags: ["muscles"]
+                    // The default intensity of a numeric subcard is given by its level (position in the subcardd list), 
+                    // for this card, that would be 4.
+                    // By specifying an intensity this can be overridden, making it count differently towards its requirements.
+                    // By setting this to 0 for this card, it will not count towards any requirment.
+                    // If you don't very specifically need to set an intensity, don't! It can be confusing for players.
+                    // It may often be better to just reorder the subcards so that the lowest intensity card comes first
+                    // and that the lowest intensity is the default.
+                    // For "selection" subcards, this property should be added to the parent card instead.
+                    intensity: 0
                 }
             ]
         }

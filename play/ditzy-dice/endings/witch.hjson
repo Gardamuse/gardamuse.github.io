@@ -3,7 +3,9 @@
   title: "Witch"
   likelihood: 30
   requirements: '''
-    spell >= 4 AND iq < 4
+    sum(spell, wings of love) >= 4
+    AND iq < 4
+    AND sex drive < 7
   '''
   nodes: [
     {

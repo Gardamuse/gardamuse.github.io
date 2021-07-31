@@ -4,8 +4,11 @@
   likelihood: 30
   requirements: '''
     iq >= 2
-    AND sum(personality.eye candy, personality.object, maid to serve) >= 1
-    AND sum(submissive silence, lap warmer, smooth as silk, mascara.mascara 1, heels, choker, willpower, second language, name, gullible, tramp stamp, expenses.expenses 1, height) >= 1
+    AND sum(personality.eye candy, personality.object, willpower, lap warmer) >= 2
+    AND sum(submissive silence, smooth as silk, mascara.mascara 1, heels, choker, thigh highs, second language, gullible, tramp stamp, expenses.expenses 1, height) >= 2
+    OR iq >= 2
+    AND maid to serve >= 1
+    AND sum(submissive silence, smooth as silk, mascara.mascara 1, heels, choker, thigh highs, second language, gullible, tramp stamp, expenses.expenses 1, height) >= 2
   '''
   nodes: [
     {
@@ -62,6 +65,7 @@
     {
       id: "a2"
       title: "Marry your best friend"
+      requirements: "fertility.1 <= 0"
       text: '''
       With your mothers help you explain the situation to your best friend and offer yourself up as his wife so you can at least have someone you trust running things for you. Unsurprisingly, when offered his best pal as a bimbo bride who will do anything he says, your buddy agrees on the spot!
 

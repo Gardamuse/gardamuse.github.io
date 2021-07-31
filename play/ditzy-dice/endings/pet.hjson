@@ -3,8 +3,8 @@
   title: "Pet"
   likelihood: 30
   requirements: '''
-    pet >= 2
-    AND sum(iq, animal) >= 4
+    iq >= 4
+    AND sum(animal, pet) >= 4
   '''
   nodes: [
     {

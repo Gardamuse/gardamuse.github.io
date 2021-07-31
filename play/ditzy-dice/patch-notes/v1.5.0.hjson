@@ -30,5 +30,15 @@ text: '''
     * Fixed a bug where card ID's where not set correctly for modded cards with levels which caused the game to crash on start in some cases. This fix requires reloading each of your mods to have effect, and will remove already unlocked modded cards from your collection.
     * Fixed a bug where the levels of a modded card were being added directly to the deck, instead of only under their parent.
     * Re-enabled dice rolling animation. Dice rolling should now also work on Firefox for Android.
+
+# Patch 1.5.4
+    * Improved dice roll animation implementation to hopefully fix a bug where rolling dice could take several seconds.
+    * Made dice roll animation slightly faster (450 ms -> 400 ms).
+    * Rebalanced some epilogue and ending requirements.
+        * Cow: Self-Sufficient ending is now easier to unlock.
+        * Pet epilogue is now significantly harder to get and requires more pet and animal cards.
+    * Fixed tags only registered on subcards not counting for requirments.
+    * Modded cards can now override default intensity.
+    * Improved the modding card data list.
 '''
 }
