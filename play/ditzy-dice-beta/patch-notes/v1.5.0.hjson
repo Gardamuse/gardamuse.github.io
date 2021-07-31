@@ -37,5 +37,8 @@ text: '''
     * Rebalanced some epilogue and ending requirements.
         * Cow: Self-Sufficient ending is now easier to unlock.
         * Pet epilogue is now significantly harder to get and requires more pet and animal cards.
+    * Fixed tags only registered on subcards not counting for requirments.
+    * Modded cards can now override default intensity.
+    * Improved the modding card data list.
 '''
 }

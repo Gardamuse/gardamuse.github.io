@@ -3,7 +3,9 @@
   title: "Bimbo Witch"
   likelihood: 30
   requirements: '''
-    spell >= 4 AND iq >= 4
+    sum(spell, wings of love) >= 4 AND iq >= 4
+    OR sum(spell, wings of love) >= 5 AND sex drive >= 7
+    OR sum(spell, wings of love) >= 5 AND slut >= 10
   '''
   nodes: [
     {
