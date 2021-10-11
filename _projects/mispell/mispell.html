@@ -17,17 +17,27 @@ Just enter, like, dee text yah want to translate, adjust how much like a bimbo u
 <div id="centerer" class="dark-app main" onkeydown="updateTerminal(event)">
    <section class="post dark-post">
       <h2> Mispell 1.1 - Bimbo Speak Translator </h2>
-      <p> Acting dumb in the right way can be difficult. Mispell allows you to easily <b>read or write like a bimbo</b> by translating whatever text you give it to sound dumber. How much dumber the text will sound can be adjusted with a slider, allowing you to tune the text to your preferences or stage of bimbofication. </p>
-      <p> Be wary though, go too stupid and some words may be changed entirely, not to mention the poor grasp a bimbo might have on any number past 10.</p>
-      <p> Mispell is inspired by DeviantArtist MimiDumb's <a href="https://www.deviantart.com/mimidumb/art/Bimbo-at-computer-bimbofication-guide-727964056"> Bimbo at computer</a> bimbofication guide were the idea is that reading text with various errors will put the reader in a bimbo mindset, both by slowing down reading speed and by setting up for a bimbo-like inner monologue.</p>
-
+      <p> Acting dumb in the right way can be difficult. Mispell makes it easy to <b>read or write like a bimbo</b> by translating text to sound dumber, and make it harder to understand. How much can be adjusted with a slider, allowing you to tune the text to your stage of bimbofication. </p>
+      <p> Be wary though, go too dumb and some words may be changed entirely, not to mention the poor grasp a bimbo might have on any number past 10.</p>
    </section>
    <section class="post dark-post">
-      <h2>Input Text</h2>
+     <h2>Browser Extension</h2>
+     <p>Mispell is available as a browser addon for <a href="/projects/mispell/mispell_addon.xpi">Firefox</a> and <a href="https://chrome.google.com/webstore/detail/mispell/bpfbniiojcnhefjjdkldgopkmniambgb" target="_blank">Chrome</a>.</p>
+     <p>I've opted to self-distribute the addon for Firefox (so no store page), and keep it unlisted on Chrome (you can only find it if you have the link). Both browsers should auto-update the addon when a new version is released, but I haven't tested that.</p>
+     <img src="/projects/mispell/addon-preview.jpg" style="max-width: 100%; margin-bottom: 20px;"/>
+     <h3>Before installing!</h3>
+     <p>Beware that while the addon is active, websites will take longer to load, some websites may not behave correctly, and the addon may interfere when you type on certain websites. This is because the addon can have difficulty discerning what text it should not edit.</p>
+
+     <p>The addon can be quickly turned off by setting the "IQ" slider to its maximum value. This makes it is easy to turn it on again later by just lowering the slider. Otherwise, when you're tired of the addon, or if you experience problems, simply uninstall or disable it, and refresh the page.</p>
+   </section>
+   <section class="post dark-post">
+      <h2>Try it out!</h2>
+      <p> Just want to try Mispell out on some text? Do it here! The results can vary somewhat from the browser extension. </p>
+      <h3>Input Text</h3>
       <p> Write or paste some text in the box below! </p>
       <textarea id="terminal" class="terminal" rows="10" cols="1000" style="max-width: 100%; margin-bottom: 1em;" /></textarea>
       <hr>
-      <h2 id="iqDisplay">IQ: 140</h2>
+      <h3 id="iqDisplay">IQ: 140</h3>
       <p>Adjust how dumb the text will sound. The lower the IQ, the more misspells and unnecessary words are added. At maximum IQ, there will be no change in the text.</p>
       <span style="display: flex; margin-bottom: 2em;">
          <button type="button" class="pink-button" style="margin-right: 1em; font-size: 1em;" onclick="addToSlider(-10)">-10 IQ</button>
@@ -37,28 +47,31 @@ Just enter, like, dee text yah want to translate, adjust how much like a bimbo u
          <button type="button" class="pink-button" style="margin-left: 1em; font-size: 1em;" onclick="addToSlider(10)">+10 IQ</button>
       </span>
       <p> Press <b>Bimbofy</b> to make the text sound like a Bimbo wrote it!</p>
-      <p> Press <b>Simplify</b> to get the bimbo reading experience: uncommon and long words will be difficult to understand.</p>
+      <p> Press <b>Scramble</b> to get the bimbo reading experience: uncommon and long words will be difficult to understand.</p>
       <button type="button" class="pink-button" style="margin-bottom: 1em;" onclick="bimbofyButton(event)">Bimbofy</button>
-      <button type="button" class="pink-button" style="margin-bottom: 1em;" onclick="complexityButton(event)">Simplify</button>
+      <button type="button" class="pink-button" style="margin-bottom: 1em;" onclick="complexityButton(event)">Scramble</button>
       <hr>
-      <h2>Output</h2>
+      <h3>Output</h3>
       <p> The box below displays the text translated into bimbo speak. </p>
       <div id="output" class="terminal">
       </div>
    </section>
+
    <section class="post dark-post">
-      <h3> New in Version 1.2 </h3>
-      <p> Bimbos might have difficulty understand uncommon and long words. The new Simplify function allows you to emulate the reading experience of a bimbo by scrambling words more the longer and less common they are. </p>
+     <h3>Inspiration</h3>
+     <p> Mispell was inspired by DeviantArtist MimiDumb's <a href="https://www.deviantart.com/mimidumb/art/Bimbo-at-computer-bimbofication-guide-727964056"> Bimbo at computer</a> bimbofication guide were the idea is that reading text with errors puts the reader in a bimbo mindset by slowing down reading speed and setting up a bimbo-like inner monologue.</p>
    </section>
+
    <section class="post dark-post">
-      <h3> New in Version 1.1 </h3>
-      <p> This version brings an overhauled insertion algorithm, less generic misspellings in favour of targeted rules for specific sounds and a new number scrambling feature. Who thought bimbos could count past 10? </p>
-   </section>
-   <section class="post dark-post">
-      <h3> In addition...</h3>
+      <h3> Open Source </h3>
       <p> This app is free to use for any purpose. If you have any suggestions for improvement, feel free write a comment or contact me directly. I would be especially grateful for dumber-sounding synonyms to more difficult words. </p>
-      <p> Besides use through this website, Mispell is a JS library that can allow apps or games to tweak text to conform to a dynamically chosen level of bimbofication. It is available under the MIT license and you can find it on the <a href="https://github.com/Gardamuse/mispell">Mispell Github page</a>.</p>
+
+      <p> Besides use through this website, Mispell is a JS library that can allow apps or games to tweak text to conform to a dynamically chosen level of bimbofication. It is available under the MIT license and you can find it on the
+      <a href="https://github.com/Gardamuse/mispell">Mispell Github page</a>.</p>
+
+      <p> The Mispell browser addon is also open source and can be found on the <a href="https://github.com/Gardamuse/mispell-addon">Mispell Browser Addon Github page</a>.</p>
    </section>
+
    {% include patreon-button.html post-class="dark-post" image-class="patreon-image-dark" %}
 </div>
 
