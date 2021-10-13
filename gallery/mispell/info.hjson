@@ -1,0 +1,21 @@
+{
+  title: "Mispell Melanie"
+  description: "Ever wanted to feel a little DUMBER? The [Mispell addon](https://www.blushingdefeat.com/mispell/) allows you too to experience the joy of illiteracy. Bubbly, sexy and mindless!"
+  
+  sequences: [
+    {
+      firstImage: "mispell-gallery-1.webp"
+      length: 2
+      description:
+        '''
+        '''
+    }
+    {
+      firstImage: "mispell-poster.webp"
+      length: 1
+      description:
+        '''
+        '''
+    }
+  ]
+}
