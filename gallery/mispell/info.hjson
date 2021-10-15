@@ -8,9 +8,11 @@
       length: 2
       description:
         '''
+        Two weeks ago, Melanie was researching her PhD in litterature. Thanks to Mispell, her IQ has dropped by a whopping 63! Now she can't even spell her own name!
         '''
     }
     {
+      title: "Poster"
       firstImage: "mispell-poster.webp"
       length: 1
       description:

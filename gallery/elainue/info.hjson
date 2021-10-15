@@ -1,17 +1,27 @@
 {
   title: "Elainue"
   thumb: "thumb.webp"
-  description: ""
+  description: 
+    '''
+    Elainue was a dark elven tactician and spellsword. Despite her... "natural charisma", she was always the shy member of the party. Though brilliant as she was, she could not only hold her own in a fight, but strategize her group to victory.
+            
+    Unfortunately, in the grand theater of battle, the smallest pieces are sometimes forgot, or even disregarded in hubris. And so, Elainue eventually came to fill an entirely different role.
+    '''
   
   sequences: [
     {
+      firstImage: "elainue-text-1.webp"
+      length: 2
+      description:
+        '''
+        '''
+    }
+    {
+      title: Without Text
       firstImage: "elainue-1.webp"
       length: 2
       description:
         '''
-        Elainue was a dark elven tactician and spellsword. Despite her... "natural charisma", she was always the shy member of the party. Though brilliant as she was, she could not only hold her own in a fight, but strategize her group to victory.
-        
-        Unfortunately, in the grand theater of battle, the smallest pieces are sometimes forgot, or even disregarded in hubris. And so, Elainue eventually came to fill an entirely different role.
         '''
     }
   ]
