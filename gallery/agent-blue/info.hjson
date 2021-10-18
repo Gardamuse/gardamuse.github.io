@@ -1,0 +1,20 @@
+{
+  title: "Agent Blue"
+  thumb: "thumb.webp"
+  description: 
+    '''
+    Despite her penchant for fancy parties, agent Blue was the agency's greatest asset. Many a time she was sent right into the wolf's den, to deal with criminal masterminds and the elites of high society, only to emerge successful, drink in hand.
+
+    Well, with a recently much reduced IQ of 53, those days are over. Even so, she still has the agency's greatest assets, and a whole lot of fun.
+    '''
+  
+  sequences: [
+    {
+      firstImage: "agent-blue-1.webp"
+      length: 2
+      description:
+        '''
+        '''
+    }
+  ]
+}
