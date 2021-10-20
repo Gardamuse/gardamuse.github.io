@@ -96,6 +96,7 @@
                     // If you don't very specifically need to set an intensity, don't! It can be confusing for players.
                     // It may often be better to just reorder the subcards so that the lowest intensity card comes first
                     // and that the lowest intensity is the default.
+                    // For "selection" subcards, this property should be added to the parent card instead.
                     intensity: 0
                 }
             ]
