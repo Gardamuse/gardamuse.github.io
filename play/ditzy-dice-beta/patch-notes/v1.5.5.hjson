@@ -1,0 +1,11 @@
+{
+name: "Miraculous Mods"
+date: "2021-10-21"
+text: '''
+# Fixes
+* It is now possible to load more than one or two mods.
+        * This was done by replacing the save system backend. Old saves should be converted automatically.
+* Improved modding instructions.
+
+'''
+}
