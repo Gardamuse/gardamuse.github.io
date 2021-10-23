@@ -1,11 +1,16 @@
 {
 name: "Miraculous Mods"
-date: "2021-10-21"
+date: "2021-10-23"
 text: '''
 # Fixes
 * It is now possible to load more than one or two mods.
         * This was done by replacing the save system backend. Old saves should be converted automatically.
+* Fixed that the "artist" property was missing from the example mod.
+        * Use this property to indicate the artist for each of the cards in your mod.
+* Cards added by mods now default to "an unknown artist" instead of "Gardamuse" if they do not have an artist set.
+        * Mods must be reinstalled to have this value updated.
 * Improved modding instructions.
+* Fixed spelling mistake in the Brainless card description.
 
 '''
 }

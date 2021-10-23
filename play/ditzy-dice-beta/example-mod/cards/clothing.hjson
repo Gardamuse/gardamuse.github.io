@@ -8,6 +8,7 @@
             id: "knight"
             name: "Knight"
             thumb: "art/knight.webp"
+            artist: "Gardamuse" // Name of the artist who created the thumb
             description: '''You will always have to wear armor.'''
             // The transformation dialogue is displayed one message at a time when the card is activated.
             // Messages are separated by an empty new line.
@@ -28,6 +29,7 @@
             id: "super knight"
             name: "Super Knight"
             thumb: "art/knight.webp"
+            artist: "Gardamuse"
             description: '''You are a super knight.'''
             transformation: '''demon: Hm...
             '''
@@ -43,6 +45,7 @@
             id: "too hot to handle"       // For overridden cards, this must correspond to a card id in the base game
             name: "Too Knight to Handle"
             thumb: "art/knight.webp"
+            artist: "Gardamuse"
             description: '''You are too good a knight to handle.'''
             transformation: '''demon: Hm...
             Why did I put this card in here?
@@ -57,6 +60,7 @@
             id: "shirt"
             name: "ABSolute Shirt"
             thumb: "art/malcolm.webp"
+            artist: "Gardamuse"
             description: '''You will always have abs while wearing a shirt. Let's see how many.'''
             transformation: '''''' // This will only be used if any of the levels do not have a transformation dialogue.
             // Leveled cards have a type, either "numeric" or "selection".
