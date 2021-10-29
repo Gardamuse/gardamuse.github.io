@@ -1,0 +1,27 @@
+{
+  title: "She doesn't bite"
+  thumb: "thumb.webp"
+  description: 
+    '''
+    ...when she's already full.
+    
+    Happy Halloween!
+    '''
+  
+  sequences: [
+    {
+      firstImage: "vampire-1.webp"
+      length: 3
+      description:
+        '''
+        '''
+    }
+    {
+      firstImage: "vampire-comic.webp"
+      length: 1
+      description:
+        '''
+        '''
+    }
+  ]
+}
