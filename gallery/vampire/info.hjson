@@ -17,6 +17,7 @@
         '''
     }
     {
+      title: "Comic"
       firstImage: "vampire-comic.webp"
       length: 1
       description:
