@@ -8,7 +8,7 @@
   
   sequences: [
     {
-      firstImage: "christmas-cudddles.webp"
+      firstImage: "christmas-cuddles.webp"
       length: 1
       description:
         '''
