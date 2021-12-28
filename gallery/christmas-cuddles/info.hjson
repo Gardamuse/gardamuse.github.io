@@ -1,5 +1,5 @@
 {
-  title: "Christmas Chat"
+  title: "Christmas Cuddles"
   thumb: "thumb.webp"
   description: 
     '''
@@ -8,7 +8,7 @@
   
   sequences: [
     {
-      firstImage: "christmas-chat.webp"
+      firstImage: "christmas-cudddles.webp"
       length: 1
       description:
         '''
