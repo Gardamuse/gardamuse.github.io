@@ -1,0 +1,26 @@
+{
+  title: "Samantha the Adventurer"
+  thumb: "thumb.webp"
+  description: 
+    '''
+    Beyond the edge of the map, many secrets lie buried. Even from a young age Samantha lived to seek out those secrets and uncover them, crossing all the seven seas in the process. Despite her youthful appearance, she has uncovered an uncounted number of treasures, and stories of her exploits echo in seaside taverns across the known world. Yet, a lesser known tale, only known as whispers on the wind, is that Samantha also found the Fountain of Youth.
+
+    Deep within the jungles of Alxinptoteph she traveled, far beyond any charted routes, overcoming all who would stop her. When she finally kneeled at the fountain, wounded to the brink of death and drank its clear waters, the Fountain spoke to her! "Your injuries will be healed" it said, "your strength restored, and your body shall take the the likeness of the goddesses of yore!". "Finally," the Fountain boomed, "Your spirit shall be renewed! Your thoughts cleared, your mind emptied. Lust for adventure, replaced with lust only! Pleasure and breeding shall be your only concerns, as was intended, and invoked in ancient times."
+
+    At this Samantha was distraught. She felt as if a thick fog had entered her mind, but adventure was what she craved, not lust!
+
+    Before the fog could settle, she managed to strike a deal with the Fountain. In exchange for leaving her mind intact, she would champion the Fountain's cause. Having imbued her sword in the Fountain's waters, men and women that she slew would not longer die, but be restored as the Fountain wished: beautiful, and with a mind of lust. Every month she must convert not less than eight, and every night her body would reveal its true form. If six months ever went by without her task done, her mind too, would be forfeit. In return, the Fountain would keep her strong.
+
+    And that, truly, is the reason to Samantha's legend. Daring adventurer by day, dread pirate by night.
+    '''
+  
+  sequences: [
+    {
+      firstImage: "samantha-1.webp"
+      length: 2
+      description:
+        '''
+        '''
+    }
+  ]
+}
