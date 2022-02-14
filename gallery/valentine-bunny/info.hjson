@@ -1,0 +1,18 @@
+{
+  title: "Valentine Bunny"
+  thumb: "thumb.webp"
+  description: 
+    '''
+    Happy Valentine's day <3
+    '''
+  
+  sequences: [
+    {
+      firstImage: "valentine-bunny-1.webp"
+      length: 2
+      description:
+        '''
+        '''
+    }
+  ]
+}
