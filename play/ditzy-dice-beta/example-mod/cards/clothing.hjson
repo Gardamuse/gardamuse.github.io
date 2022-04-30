@@ -93,7 +93,7 @@
                     description: '''You will look incredibly muscular with a shirt on. Too muscular.'''
                     transformation: '''player: Woah'''
                     tags: ["muscles"]
-                    // The default intensity of a numeric subcard is given by its level (position in the subcardd list), 
+                    // The default intensity of a numeric subcard is given by its level (position in the subcard list), 
                     // for this card, that would be 4.
                     // By specifying an intensity this can be overridden, making it count differently towards its requirements.
                     // By setting this to 0 for this card, it will not count towards any requirment.

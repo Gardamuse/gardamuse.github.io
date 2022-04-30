@@ -1,0 +1,8 @@
+{
+name: "Miraculous Mods"
+date: "2022-04-30"
+text: '''
+# Fixes
+* Fixed an issue that caused filters to not function if you had no previous save data.
+'''
+}
