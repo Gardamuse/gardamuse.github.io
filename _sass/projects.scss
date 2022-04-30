@@ -52,6 +52,7 @@ $tag-background-color: desaturate(darken($tag-color, 40%), 30%);
 .thumb-container {
    position: absolute;
    height: 100%;
+   width: 100%;
    background-color: #ff0000;
 
    grid-row: 1 / 7;
