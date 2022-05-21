@@ -6,7 +6,7 @@ date:   2021-06-01
 author: Gardamuse
 ---
 
-It's been almost three years since my first blog post on Blushing Defeat, and 1 year since I opened up the patreon, so I thought it was high time for a couple of upgrades to the site! The menu has been moved up, all menu items are now folded into a hamburger menu on mobile and I've redesigned the front page to make it look a little bit more modern.
+It's been almost four years since my first blog post on Blushing Defeat, and 1 year since I opened up the patreon, so I thought it was high time for a couple of upgrades to the site! The menu has been moved up, all menu items are now folded into a hamburger menu on mobile and I've redesigned the front page to make it look a little bit more modern.
 
 Modern web design incorporates a lot of scrolling even on large screens, which I'm not too big a fan of, but this is usually done to split longs texts into shorter, more manageable chunks, which I do like. I think I reached a good middle-ground for the front page.
 
