@@ -1,0 +1,13 @@
+{
+name: ""
+date: "2022-06-14"
+text: '''
+# Features
+
+# UI
+* Mod name is now visible on cards added by mods. (Mod has to be reloaded fort this to work.)
+
+# Fixes
+* Big animated webp thumbs now work on Firefox.
+'''
+}
