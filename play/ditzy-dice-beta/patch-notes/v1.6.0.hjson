@@ -7,6 +7,9 @@ text: '''
 # UI
 * Mod name is now visible on cards added by mods. (Mod has to be reloaded fort this to work.)
 
+# Minor
+* Improved mod creation documentation and tools.
+
 # Fixes
 * Big animated webp thumbs now work on Firefox.
 '''
