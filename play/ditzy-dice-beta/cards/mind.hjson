@@ -11,7 +11,7 @@
       artist: "Kobi-Tfs"
       description: '''Intelligence is how good you are at solving problems, understanding people and figuring stuff out.
 
-      This card will make you dumber, a whole lot dumber if you're lucky. So wave good bye to working a complicated job, studying or understanding things like science and politics.
+      This card could make you smarter, but if you're lucky you'll end up a lot dumber instead! Who wants to work a complicated job, study or understand things like boring science anyways?
       '''
       tags: ["bimbo", "iq"]
       /*description: '''Intelligence is how good you are at solving problems, understanding people and figuring stuff out.
@@ -19,13 +19,28 @@
       A high intelligence can somewhat make up for bad Memory or Attention Span, as figuring things out from scratch every time might still be doable for some tasks.'''transformation: ''''''*/
       type: "numeric"
       levels: [
-        /*{
+        {
           id: "genius"
           name: "Genius"
-          description: '''You are hyper-aware of everthing that goes on around you and you often know what people want before they do. Whatever problems you encounter won't trouble you for long.'''
-          transformation: ''''''
+          thumb: "art/intelligence-kobi-0000.webp"
+          effects: [
+            {
+              stat: intelligence
+              value: 8
+              trigger: activation
+            }
+          ]
+          description: '''You are hyper-aware of everything that goes on around you and you often know what people want before they do. Whatever problems you encounter won't trouble you for long.'''
+          transformation: '''Suddenly you feel... aware. Focused. Like had you been asleep and just now woken up. There is so much to notice: shadows, reflections and forces you never pondered before. Now they seem almost obvious, yet inviting further analysis.
+
+          You turn your attention to the demon opposite you. Impeccably dressed, a smile on his lips, but his eyes betray him. He is powerful, yes, but not untouchable, and he fears. Not you, not right here, right now, but... he fears failure, but why? He fears... not because of his ego, frail as it might be, but because... 
+          
+          Ah! It dawns on you, everything from his stance, his clothes, expression and muscle twitches scream it. This is a man who fears losing his power, to be destroyed at the first sign of weakness, just like he has destroyed others before him. But how? Why is...
+
+          demon: Hey! You know very well I'm not happy you got that card, no need to stare me down too. Get on with the game! Blow your tits up like houses and you might get me in a better mood...
+          '''
         }
-        {
+        /*{
           id: "brilliant"
           name: "Brilliant"
           description: ''''''
@@ -41,10 +56,18 @@
           id: "intelligence 1"
           name: "Average"
           thumb: "art/intelligence-kobi-0000.webp"
+          effects: [
+            {
+              stat: intelligence
+              value: -1
+              trigger: activation
+            }
+          ]
           description: '''Everyone thinks they are a little smarter than the average person. Well, soon you won't be!
 
           Count yourself lucky though, you won't be very different, just a little more basic. As a bonus, you'll finally be able to enjoy all those dumbed-down TV-shows you've complained so much about!'''
           transformation: '''demon: Do you enjoy reality TV? How about movies where character and plot take a back seat to mindless explosions? Well if your answer was no before, give it a few minutes and I'm sure you'll start seeing the appeal.'''
+
         }
         {
           id: "intelligence 2"
@@ -55,11 +78,25 @@
           It's not too bad though, as tasks that seemed menial and boring before, like ironing, cleaning and cooking, will now seem like fun puzzles you're good at solving.
           '''
           transformation: '''demon: Congratulations, the world and everything in it must seem so much more interesting now that your head is permanently lodged in the clouds! Downside, you're a bit dim, but on the other hand, you won't have a care in the world anymore!'''
+          effects: [
+          {
+            stat: intelligence
+            value: -2
+            trigger: activation
+          }
+        ]
         }
         {
           id: "intelligence 3"
           name: "Ditzy"
           thumb: "art/intelligence-kobi-0002.webp"
+          effects: [
+            {
+              stat: intelligence
+              value: -4
+              trigger: activation
+            }
+          ]
           description: '''You'll soon be a lot dumber, but you probably won't notice that yourself. It will just be harder for you to, well, think. Like if your head was wrapped in a thick pink cloud.
 
           Others will notice though. Especially when you have to stop and really concentrate to figure out even simple things.
@@ -79,6 +116,13 @@
           id: "intelligence 4"
           name: "Airhead"
           thumb: "art/intelligence-kobi-0003.webp"
+          effects: [
+            {
+              stat: intelligence
+              value: -6
+              trigger: activation
+            }
+          ]
           description: '''Few things won't put that dumb, befuddled look on your face, like you just can't understand the most simple of things.
 
           Ever heard the expression "too dumb to walk and chew bubble gum at the same time"? Well lets just say you'll have to try focusing on just one of those to avoid choking.'''
@@ -103,6 +147,13 @@
           id: "intelligence 5"
           name: "Brainless"
           thumb: "art/intelligence-kobi-0004.webp"
+          effects: [
+            {
+              stat: intelligence
+              value: -8
+              trigger: activation
+            }
+          ]
           description: '''You're about to get real fucking dumb, so let's hope you won't miss being able to figure out how to open doors, or do anything, really. You'll just be a drooling mess. Lucky you that walking and fucking goes on instinct or you wouldn't even be able to do that. Someone will take care of you though, don't worry about that. Bye bye brain!'''
           transformation: '''It's like a bolt of lightning has suddenly struck your brain and turned it into mush. You stare at your surroundings, trying to make sense of everything that moments ago seemed so obvious, but there are just so many... things and all of it seems so complicated.
 
@@ -130,17 +181,29 @@
       description: '''How easily you can remember stuff you've learned in school, things you've done and people you've met.
 
       If you got a low intelligence, a good memory could be quite interesting as you'll probably remember things that you can't make sense of.'''
-      transformation: '''What were you doing just know? You try to remember, but whatever it was is just gone.'''
+      transformation: ''''''
       tags: ["bimbo", "iq"]
       type: "numeric"
       levels: [
-        /*{
+        {
           id: "perfect recall"
           name: "Perfect Recall"
+          effects: [
+            {
+              stat: memory
+              value: 8
+              trigger: activation
+            }
+          ]
           description: '''However you've learnt it, consciously or not, when you need it, it comes to you effortlessly.'''
-          transformation: ''''''
+          transformation: '''A sense of clarity suddenly washes away all fog from your memory, laying everything bare for you to inspect at will. All books you've ever read, the name of everyone you've ever met or heard the name of. Even what you don't know stands out to you, like empty pedestals in a museum.
+
+          demon: Really? Is that what you wanted? To remember every awkward interaction, every stressful day at work? And here I was hoping to bring you something more fun.
+
+          demon: No matter, no matter. I'm sure you'll fill that archive of yours with all kinds of porn and debauchery soon enough.
+          '''
         }
-        {
+        /*{
           id: "feeling sharp"
           name: "Feeling Sharp"
           description: '''There is no change to your memory or knowledge. You'll be similar to what you've always been, perhaps even a little sharper.'''
@@ -151,6 +214,13 @@
           name: "University, No Thanks"
           thumb: "art/education-4.webp"
           art: "Gardamuse"
+          effects: [
+            {
+              stat: memory
+              value: -2
+              trigger: activation
+            }
+          ]
           description: '''If you've had any higher education, it's time to wave all the things you learned there good bye! And good luck trying to re-learn it or becoming a student: no matter how intelligent you are, your memory simply can't store such complicated knowledge for more than a few minutes.'''
           transformation: '''demon: Hope you didn't have a job that required you to know how complex systems work on a fundamental level!
 
@@ -161,6 +231,13 @@
           name: "High-School Dropout"
           thumb: "art/education-3.webp"
           art: "Gardamuse"
+          effects: [
+            {
+              stat: memory
+              value: -3
+              trigger: activation
+            }
+          ]
           description: '''Remember derivatives, chemistry or advanced language? No you don't. It's long gone, along with everything else you learned in high school or beyond.'''
           transformation: '''demon: Aww, feeling a bit befuddled? Don't know what befuddled even means? Well buck up, plenty of people dropped out of high school! Ones who look like you even find wonderful jobs dancing and having all sorts of 'fun'!'''
         }
@@ -169,6 +246,13 @@
           name: "The Basics"
           thumb: "art/education-2.webp"
           art: "Gardamuse"
+          effects: [
+            {
+              stat: memory
+              value: -4
+              trigger: activation
+            }
+          ]
           description: '''You read and write as if you've just learnt how to, and with such a basic vocabulary no one will ever take you for very smart again. If you're a Genius with great Attention Span you may still be able to do some not-quite high-school level math, but otherwise you're stuck with the most basic of arithmetic too.'''
           transformation: '''demon: Did you even get past middle school? Well no one would ever guess it the way you're talking and acting. Better hope a charming smile and good looks can help... A lot.'''
         }
@@ -177,6 +261,13 @@
           name: "Illiteracy and Innumeracy"
           thumb: "art/education-1.webp"
           art: "Gardamuse"
+          effects: [
+            {
+              stat: memory
+              value: -6
+              trigger: activation
+            }
+          ]
           description: '''What does all the little squiggles that are everywhere mean? You're sure you used to know, but trying to remember is like walking through syrup. You should probably leave such things to others.'''
           transformation: '''Good news, you're still functional enough to go through life without too much hand holding. Bad news? You're operating at a level a lot of children would find underwhelming. Better find someone who can take care of you, and fast.'''
         }
@@ -185,6 +276,13 @@
           name: "Gone With The Wind"
           thumb: "art/education-1.webp"
           art: "Gardamuse"
+          effects: [
+            {
+              stat: memory
+              value: -8
+              trigger: activation
+            }
+          ]
           description: '''Now this will change your life. Forget remembering what you ate for lunch, or any knowledge more complicated than how to eat or walk. In a few moments it will all be gone, never to be replaced.
 
           You'll still be able to recognize people if you have met them a few times, but try to give them short easy nicknames, or the may be upset you don't remember their name.'''
@@ -216,6 +314,13 @@
           name: "Inattentive"
           thumb: "art/education-4.webp"
           art: "Gardamuse"
+          effects: [
+            {
+              stat: attention-span
+              value: -1
+              trigger: activation
+            }
+          ]
           description: '''Whenever you listen or read something, it won't be very long until you stop paying full attention.
 
           You'll probably miss important things every now and again.'''
@@ -226,6 +331,13 @@
           name: "Unfocused"
           thumb: "art/education-3.webp"
           art: "Gardamuse"
+          effects: [
+            {
+              stat: attention-span
+              value: -2
+              trigger: activation
+            }
+          ]
           description: '''You just can't seem to focus on any one thing for too long.'''
           transformation: '''demon: Better find someone to drive you from now on since focusing on the road could be tricky. Also, better keep to the back seat so you don't end up 'distracting' the driver as well.'''
         }
@@ -234,6 +346,13 @@
           name: "Distracted"
           thumb: "art/education-2.webp"
           art: "Gardamuse"
+          effects: [
+            {
+              stat: attention-span
+              value: -3
+              trigger: activation
+            }
+          ]
           description: '''You are always thinking of something else and you often walk away from things half-way through.
 
           It only takes a small interruption and you've forgotten what you where doing.'''
@@ -244,6 +363,13 @@
           name: "Absent-Minded"
           thumb: "art/education-1.webp"
           art: "Gardamuse"
+          effects: [
+            {
+              stat: attention-span
+              value: -4
+              trigger: activation
+            }
+          ]
           description: '''You start doing stuff, but then its like something important always comes up, or your thoughts just drift away in the middle of a sentence. Don't expect to be able to do anything for more than a few minutes.
 
           "What was I doing again?" is something you'll be asking yourself a lot.'''
@@ -254,6 +380,13 @@
           name: "Completely Lost"
           thumb: "art/education-1.webp"
           art: "Gardamuse"
+          effects: [
+            {
+              stat: attention-span
+              value: -5
+              trigger: activation
+            }
+          ]
           description: '''You will basically have no attention span, not even enough to speak full sentences before trailing off. If no one is there to remind you every few seconds, you couldn't even concentrate long enough to suck a cock.
 
           Any even slightly complicated task that takes more than a few seconds will be impossible for you since you'll forget what you were doing.'''
@@ -420,18 +553,39 @@
         {
           id: "dominant"
           name: "Dominant"
+          effects: [
+            {
+              stat: willpower
+              value: 6
+              trigger: activation
+            }
+          ]
           description: '''You take the lead whenever possible, and your presence somehow always feels demanding. It turns out that a lot of people will just do what they're told if you sound confident enough.'''
           transformation: '''demon: A dominatrix in the making, huh? Maybe not what I expected, but that's just fine by me.'''
         }
         {
           id: "independent"
           name: "Independent"
+          effects: [
+            {
+              stat: willpower
+              value: 3
+              trigger: activation
+            }
+          ]
           description: '''You have no problem making decisions for yourself and you'll only follow orders when it suits your own purposes, but you don't feel like you always have to be in charge.'''
           transformation: ''''''
         }
         {
           id: "submissive"
           name: "Submissive"
+          effects: [
+            {
+              stat: willpower
+              value: -4
+              trigger: activation
+            }
+          ]
           description: '''You prefer being told what to do, and let others take control. You rarely say no, and you don't want to either. Yes feels so much better.'''
           transformation: '''demon: You do feel a lot better when you let other's take control don't you?
 
@@ -441,6 +595,13 @@
         {
           id: "mindless"
           name: "Mindless"
+          effects: [
+            {
+              stat: willpower
+              value: -8
+              trigger: activation
+            }
+          ]
           description: '''You do whatever you're told and should someone not be around to tell you, you'll find someone to order you around. Being a mindless slave is so much better.'''
           transformation: '''You look expectantly at the demon in front of you. He'll tell you what to do, surely? Maybe he will want something soon, and then he'll tell you. Best just remain quiet until you get a task.
 
@@ -468,6 +629,13 @@
         {
           id: "name 1"
           name: "Complicated"
+          effects: [
+            {
+              stat: intelligence
+              value: 1
+              trigger: activation
+            }
+          ]
           description: '''You always try to seem like some kind of intellectual snob and will always present yourself with a long and fancy version of your name.'''
           transformation: '''demon: Her Ladyship, something or other of something and something else, mistress of sucking dicks, scholar of sexual positions and grand poobah of orgasms! Think you need a few more titles and honorifics? I think there has to be a few you could still shove in there.'''
         }
@@ -480,12 +648,36 @@
         {
           id: "name 3"
           name: "Simplified"
+          effects: [
+            {
+              stat: cute
+              value: 1
+              trigger: activation
+            }
+          ]
           description: '''Using your actual name all the time seems a bit uptight, don't you think? Maybe a bit difficult to spell? From now on you'll use a simplified version of your name instead.'''
           transformation: '''demon: Oh that's cute! Much better than your old name and simpler too! Probably for the best you keep it light, ya.'''
         }
         {
           id: "name 4"
           name: "Nickname"
+          effects: [
+            {
+              stat: intelligence
+              value: -1
+              trigger: activation
+            }
+            {
+              stat: inhibitions
+              value: -1
+              trigger: activation
+            }
+            {
+              stat: cute
+              value: 1
+              trigger: activation
+            }
+          ]
           description: '''Everyone knows that a bimbo like you needs a proper name. Something that confers your personality while being so easy to spell that even you can manage it once in a while.
 
           You will always refer to yourself using a bimbo nickname like "Titsie", "Missi", "Kitty" etc.'''
@@ -498,6 +690,18 @@
       name: "Unfiltered"
       thumb: "art/unfiltered-2-512px.webp"
       artist: "Gardamuse"
+      effects: [
+            {
+              stat: attention-span
+              value: -1
+              trigger: activation
+            }
+            {
+              stat: cute
+              value: -1
+              trigger: activation
+            }
+          ]
       description: '''Your brain becomes unable to hold thoughts without letting them through to your speech centra. As a result, you will now always say everything you think out loud.
 
       It might get a little awkward, but at least no one can say you're not honest.
@@ -544,6 +748,23 @@
       name: "Gullible"
       thumb: "art/unfiltered.webp"
       artist: "Gardamuse"
+      effects: [
+        {
+          stat: willpower
+          value: -1
+          trigger: activation
+        }
+        {
+          stat: memory
+          value: -1
+          trigger: activation
+        }
+        {
+          stat: cute
+          value: 2
+          trigger: activation
+        }
+      ]
       description: '''You won't be any less intelligent, but your brain becomes incapable of questioning any kind of information. So from now on you will believe everything you're told is entirely true.
 
       Sure, you will be very easy to manipulate, but believing in Santa again is going to be pretty fun, right?'''
@@ -569,6 +790,18 @@
       name: "Sucker for Thinking"
       thumb: "art/sucker-for-thinking.webp"
       artist: "Gardamuse"
+      effects: [
+            {
+              stat: intelligence
+              value: -1
+              trigger: activation
+            }
+            {
+              stat: attention-span
+              value: -1
+              trigger: activation
+            }
+          ]
       description: '''When you are not sucking cock or eating pussy, you will find it very difficult to think (-1 intelligence, -1 attention span).
 
       Great isn't it? You'll only be able to focus when you're putting that head of yours to good use, and when you're not, it will just be more clear what a useless slut you really are!
@@ -590,7 +823,14 @@
       name: "Cum Your Brains Out"
       thumb: "art/brain-fried.webp"
       artist: "Gardamuse"
-      description: '''Every time you orgasm you'll be noticeably dumber for 24 hours (-1 to intelligence, memory or attention span). This effect stacks.
+      effects: [
+            {
+              stat: intelligence
+              value: -1
+              trigger: orgasm
+            }
+          ]
+      description: '''Every time you orgasm you'll be noticeably dumber for 24 hours (-1 to intelligence). This effect stacks.
 
       If you also got a high sex drive or sensitive erogenous zones, welcome to the cotton candy coated paradise of bimbo bliss, sweetie!
       '''
@@ -602,6 +842,18 @@
       name: "Metered Connection"
       thumb: "art/metered-connection.webp"
       artist: "Gardamuse"
+      effects: [
+            {
+              stat: intelligence
+              value: -1
+              trigger: activation
+            }
+            {
+              stat: attention-span
+              value: -1
+              trigger: activation
+            }
+          ]
       description: '''Thinking will be restricted to a metered plan. Any slight concentration counts as time spent, and your plan is limited to 10 hours per week. If exceeded, your plan is downgraded (-1 intelligence) and you are granted another 10 hours. Your plan is reset at the end of each week.
       '''
       transformation: '''demon: Ah, the metered connection, such a lovely idea. Let's just say there are a few souls that await a very special place in my domain.
