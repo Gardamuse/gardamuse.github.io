@@ -1,10 +1,16 @@
 {
 name: ""
-date: "2022-06-14"
+date: "2022-06-20"
 text: '''
 # Features
+* Added stat tracking.
+    * Stats affects game mechanics.
+* Added lust
+    * Once you reach maximum lust, you will orgasm, possibly triggering card effects.
 
 # UI
+* Game UI now shows player stats.
+* The box for cards in the player's hand is now minimized by default and expands when hovered.
 * Mod name is now visible on cards added by mods. (Mod has to be reloaded fort this to work.)
 
 # Minor
