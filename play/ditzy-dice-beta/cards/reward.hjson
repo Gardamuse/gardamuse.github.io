@@ -8,6 +8,13 @@
     id: "kiss of frigga"
     name: "Kiss of Frigga"
     thumb: "art/friggas-kiss-512px.webp"
+    effects: [
+            {
+              stat: beauty
+              value: 4
+              trigger: activation
+            }
+          ]
     description: '''Something about your lips drives men and women wild. Once smitten, your lovers will do whatever they can to please you. If your will is strong enough, you might even be able to command them! Though even if not, you can always just get them to eat you out some more.
     '''
     transformation: '''demon: A power so simple even a bimbo can't fail to get something out of it, so perfect for you, no? At the very least no one who gets a taste of you will stop at anything less than ensuring you are well and truly satisfied. You're welcome.'''
@@ -17,6 +24,23 @@
     id: "spell: limitless"
     name: "Spell: Limitless"
     thumb: "art/limitless-spell-1024px.webp"
+    effects: [
+            {
+              stat: intelligence
+              value: 1
+              trigger: activation
+            }
+            {
+              stat: memory
+              value: 1
+              trigger: activation
+            }
+            {
+              stat: attention-span
+              value: 1
+              trigger: activation
+            }
+          ]
     description: '''While active this spell makes you smarter (+1 intelligence, memory or attention span). Multiple instances of this spell can be active at once. Keeping too many instances active at once may have detrimental effects.
 
     Costs 1 mana per hour. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.
@@ -50,6 +74,13 @@
     id: "spell: transform body"
     name: "Spell: Transform Body"
     thumb: "art/glasses-thumb.webp"
+    effects: [
+            {
+              stat: beauty
+              value: 2
+              trigger: activation
+            }
+          ]
     description: '''Transform your body into anything female and somewhat humanoid, but you can't alter characteristics from your other cards. Centaur, mermaid, or something more subtle? If you have Transform Others, this functions on others too.
 
     Costs 1 mana per cast. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.
@@ -61,6 +92,13 @@
     id: "spell: mind drain"
     name: "Spell: Mind Drain"
     thumb: "art/glasses-thumb.webp"
+    effects: [
+            {
+              stat: persuasion
+              value: 3
+              trigger: activation
+            }
+          ]
     description: '''You can lower a nearby person's intelligence, memory and attention span. You can set the changes to revert after a given time, or be permanent until you revert them. This power can be used on yourself.
 
     Costs 1 mana per cast. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.
@@ -72,6 +110,13 @@
     id: "spell: forever young"
     name: "Spell: Forever Young"
     thumb: "art/forever-young-512px.webp"
+    effects: [
+            {
+              stat: beauty
+              value: 2
+              trigger: activation
+            }
+          ]
     description: '''Choose any age, and your body will age forwards or backwards in order to become that age. Casting this spell toggles its effect, but it will deactivate if you run out of mana.
 
     Costs 3 mana per week. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.
@@ -83,6 +128,13 @@
     id: "spell: healing"
     name: "Spell: Healing"
     thumb: "art/healing-zoomed.webp"
+    effects: [
+            {
+              stat: vanity-bimbo
+              value: 1
+              trigger: activation
+            }
+          ]
     description: '''By touching an erogenous zone, you can heal any wound and cure any illness on that person in a few minutes. This includes resurrecting the very recently dead, if their body is mostly whole. Used regularly, this spell will ensure a long and healthy life, but not immunity to aging.
 
     Costs 1 mana per cure. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.
@@ -94,6 +146,13 @@
     id: "spell: possess"
     name: "Spell: Possess"
     thumb: "art/spell-book.webp"
+    effects: [
+            {
+              stat: persuasion
+              value: 5
+              trigger: activation
+            }
+          ]
     description: '''You take full control of a targets body, but not their mind. You are able to move, talk, see and hear as if you are them. Target is in a trance until the spell is over. You can choose whether the target should remember what happened during the trance, or forget it.
 
     Costs 1 mana per 30 minutes. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.
@@ -105,6 +164,13 @@
     id: "spell: issue command"
     name: "Spell: Issue Command"
     thumb: "art/spell-book.webp"
+    effects: [
+            {
+              stat: persuasion
+              value: 6
+              trigger: activation
+            }
+          ]
     description: '''Command a target to do anything, and they will try their best to do it. Target is in a trance until the command is fulfilled, but no longer than 30 minutes. You can choose if the target should remember what happened during the trance, or forget it.
 
     Costs 1 mana per command. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.
@@ -116,6 +182,13 @@
     id: "spell: telepathy"
     name: "Spell: Telepathy"
     thumb: "art/telepathy-512px.webp"
+    effects: [
+            {
+              stat: persuasion
+              value: 3
+              trigger: activation
+            }
+          ]
     description: '''Hear what a nearby person, or person you've met previously, is thinking right now, or explore their memories, plans and personality. You can also talk to them, and they will hear your voice in their heads.
 
     Costs 1 mana per 15 minutes. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.
@@ -170,6 +243,13 @@
     id: "spell: invisibility"
     name: "Spell: Invisibility"
     thumb: "art/invisibility-512px.webp"
+    effects: [
+            {
+              stat: vanity-bimbo
+              value: -3
+              trigger: activation
+            }
+          ]
     description: '''Rob banks, spy on people or just hide. You can turn yourself and up to a cubic meter of material, including other people, invisible. To turn something invisible, some part of it must be very close to you.
 
     Costs 1 mana per hour. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.
@@ -181,9 +261,16 @@
     id: "spell: phasing"
     name: "Spell: Phasing"
     thumb: "art/phasing-512px.webp"
+    effects: [
+            {
+              stat: vanity-bimbo
+              value: -2
+              trigger: activation
+            }
+          ]
     description: '''You can phase yourself and up to a metric ton of material, including other people. While phasing, you can float up, down and through any object as if it wasn't there, and you look slightly transparent. To phase material, some part of it must be very close to you.
 
-    Costs 1 mana per 2 minutes. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.
+    Costs 1 mana per 4 minutes. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.
     '''
     transformation: '''demon: With the ability to phase through any material, getting out of jail if you're caught working the street corners as a prostitute will be a breeze! Not that you're going to end up doing that. But if you do...'''
     tags: ["spell"]

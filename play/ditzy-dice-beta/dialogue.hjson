@@ -4,7 +4,7 @@
 
   pickStage: '''demon: Now roll for which card you should pick! You will only pick one card, but with more dice you will be able to choose which of the results you want to use.
 
-  demon: Before you roll, you may sell one of your dice to gain mana, or use mana on one of your abilities. You can also gain extra mana by accepting a bonus roll.
+  demon: If you want to use one of your abilities, you have to do it before you roll.
   '''
 
   intensityStage: '''This card has several levels of intensity. Roll for which one to pick.

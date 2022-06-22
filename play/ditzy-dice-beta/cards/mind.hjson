@@ -26,7 +26,7 @@
           effects: [
             {
               stat: intelligence
-              value: 8
+              value: 6
               trigger: activation
             }
           ]
@@ -410,36 +410,88 @@
         {
           id: "syllable limit 1"
           name: "Six"
+          effects: [
+            {
+              stat: vanity-bimbo
+              value: 1
+              trigger: activation
+            }
+          ]
           description: '''Any words with more than six syllables will become incomprehensible for you. Yet, your circumnavigation of language will not really be affected, since few words used with responsibility in mind are longer than that.'''
           transformation: '''You might perchance find this limitation on your vocabulary onerous, but rest assured, your mental faculties will remain as acute as ever.'''
         }
         {
           id: "syllable limit 2"
           name: "Five"
+          effects: [
+            {
+              stat: vanity-bimbo
+              value: 2
+              trigger: activation
+            }
+          ]
           description: '''With five syllables your alphabetical terminology will be only slightly dilapidated. As such, you should feel insignificant insecurity because of it, and most words of rationality will still be yours to command.'''
           transformation: '''demon: Though you may find some words slipping from your linguistic grasp, you should be fine outside of the odd spelling bee and pretentious party chat up. Hardly a great loss.'''
         }
         {
           id: "syllable limit 3"
           name: "Four"
+          effects: [
+            {
+              stat: vanity-bimbo
+              value: 3
+              trigger: activation
+            }
+          ]
           description: '''Four syllables is obviously not an overwhelming limitation, although you will undoubtedly appreciate a reduced complexity of literature. Yet your intelligence will only with difficulty appear a little disappointing.'''
           transformation: '''demon: From now on you might find yourself coming off a bit uneducat-, oh sorry I should say, you might seem like you didn't go to college. That's fine though, you still come off as perfectly clever most of the time.'''
         }
         {
           id: "syllable limit 4"
           name: "Three"
+          effects: [
+            {
+              stat: vanity-bimbo
+              value: 4
+              trigger: activation
+            }
+          ]
           description: '''Only using three syllables will still be perfectly adequate for typical appointments, if perhaps not for academic approval. Although you will encounter confusion concerning a few not too uncommon words.'''
           transformation: '''demon: Try not to talk to anyone who got higher ed-, learning, from now on. You'll come off a lot dumber than you are, what with your lack of word know how'''
         }
         {
           id: "syllable limit 5"
           name: "Two"
+          effects: [
+            {
+              stat: vanity-bimbo
+              value: 5
+              trigger: activation
+            }
+            {
+              stat: memory
+              value: -1
+              trigger: activation
+            }
+          ]
           description: '''Only shortish words will exist in your knowledge now. Talking should not pose too much a problem, but you will be missing many pieces you were likely used to have.'''
           transformation: '''demon: Oh dear... You might need to be careful when talking with folks who have had more book learning. Or you will get confused.'''
         }
         {
           id: "syllable limit 6"
           name: "One"
+          effects: [
+            {
+              stat: vanity-bimbo
+              value: 6
+              trigger: activation
+            }
+            {
+              stat: memory
+              value: -2
+              trigger: activation
+            }
+          ]
           description: '''You will speak in short words from now on. Long words can not be on your mind, and folks will think you seem a bit dumb when you don't know words. It will be hard for you to know what folks say, if they do not speak to you with short words.'''
           transformation: '''demon: O K, from now on, you will be talked to like a child. Your brain can not make sense of big words. Nod if you get it?'''
         }
@@ -457,6 +509,13 @@
         {
           id: "word limit 1"
           name: "Seventeen"
+          effects: [
+            {
+              stat: attention-span
+              value: -1
+              trigger: activation
+            }
+          ]
           description: '''A word limit of seventeen will shorten your sentences somewhat, but it will not be too noticeable. It is still possible to comfortably speak and write, although when listening you will sometimes encounter confusion. Reading should be fine, but you will have slow down much when the sentences are too long.'''
           transformation: '''demon: You may not be the model of a modern major general, but you should still be able...
 
@@ -465,6 +524,18 @@
         {
           id: "word limit 2"
           name: "Thirteen"
+          effects: [
+            {
+              stat: vanity-bimbo
+              value: 1
+              trigger: activation
+            }
+            {
+              stat: attention-span
+              value: -1
+              trigger: activation
+            }
+          ]
           description: '''Thirteen words make for a somewhat short sentence, but not one overly short. Reading will be slow, since you pause whenever a sentence is too long. Yet the most difficult thing for you will most definitely be to listen. Whenever a sentence is longer than thirteen words, you will forget a bit.'''
           transformation: '''demon: Do try and focus, because it's important to know that from now on...
 
@@ -473,6 +544,18 @@
         {
           id: "word limit 3"
           name: "Ten"
+          effects: [
+            {
+              stat: vanity-bimbo
+              value: 2
+              trigger: activation
+            }
+            {
+              stat: attention-span
+              value: -1
+              trigger: activation
+            }
+          ]
           description: '''With only ten word sentences, you may start seeming simple. Still, listening to others will be the most obvious problem. Too long sentences and you will be lost in conversation.'''
           transformation: '''demon: This might be hard for you to understand, literally. But from now on you will need people to...
 
@@ -481,6 +564,18 @@
         {
           id: "word limit 4"
           name: "Seven"
+          effects: [
+            {
+              stat: vanity-bimbo
+              value: 2
+              trigger: activation
+            }
+            {
+              stat: attention-span
+              value: -2
+              trigger: activation
+            }
+          ]
           description: '''People should speak very slowly to you. Only seven words can not say much. Any more, and you won't follow. Still, being easily confused is pretty cute.'''
           transformation: '''demon: I guess future changes might be hard...
 
@@ -493,6 +588,23 @@
         {
           id: "word limit 5"
           name: "Five"
+          effects: [
+            {
+              stat: vanity-bimbo
+              value: 2
+              trigger: activation
+            }
+            {
+              stat: attention-span
+              value: -2
+              trigger: activation
+            }
+            {
+              stat: intelligence
+              value: -1
+              trigger: activation
+            }
+          ]
           description: '''Five word sentences are short. Any more will confuse you. Hopefully your friends speak slowly. Pets can understand longer sentences. Who is a good girl?'''
           transformation: '''demon: You might not be dumb...
 
@@ -503,6 +615,28 @@
         {
           id: "word limit 6"
           name: "Four"
+          effects: [
+            {
+              stat: vanity-bimbo
+              value: 3
+              trigger: activation
+            }
+            {
+              stat: attention-span
+              value: -3
+              trigger: activation
+            }
+            {
+              stat: intelligence
+              value: -1
+              trigger: activation
+            }
+            {
+              stat: cute
+              value: 1
+              trigger: activation
+            }
+          ]
           description: '''This is getting ridiculous. You can't understand. Good luck to you. Your friends are patient. Confused looks cute though. What a good girl!'''
           transformation: '''demon: Silly girl, do you...
 
@@ -517,6 +651,33 @@
         {
           id: "word limit 7"
           name: "Three"
+          effects: [
+            {
+              stat: vanity-bimbo
+              value: 3
+              trigger: activation
+            }
+            {
+              stat: attention-span
+              value: -3
+              trigger: activation
+            }
+                        {
+              stat: intelligence
+              value: -2
+              trigger: activation
+            }
+            {
+              stat: cute
+              value: 2
+              trigger: activation
+            }
+            {
+              stat: willpower
+              value: -1
+              trigger: activation
+            }
+          ]
           description: '''You understand little. Find a partner. Will help you. Sound so dumb. Maybe be quiet? Still pretty cute. Good little girl!'''
           transformation: '''demon: Better find someone...
 
@@ -531,6 +692,33 @@
         {
           id: "word limit 8"
           name: "Two"
+          effects: [
+            {
+              stat: vanity-bimbo
+              value: 3
+              trigger: activation
+            }
+            {
+              stat: attention-span
+              value: -3
+              trigger: activation
+            }
+                        {
+              stat: intelligence
+              value: -2
+              trigger: activation
+            }
+            {
+              stat: cute
+              value: 2
+              trigger: activation
+            }
+            {
+              stat: willpower
+              value: -2
+              trigger: activation
+            }
+          ]
           description: '''Understand nothing. Take commands. Eat food. Sit lap. Suck cock. Good girl!'''
           transformation: '''demon: Silly Girl. No understanding. Just be...
 
@@ -631,8 +819,8 @@
           name: "Complicated"
           effects: [
             {
-              stat: intelligence
-              value: 1
+              stat: vanity-bimbo
+              value: -2
               trigger: activation
             }
           ]
@@ -663,13 +851,8 @@
           name: "Nickname"
           effects: [
             {
-              stat: intelligence
-              value: -1
-              trigger: activation
-            }
-            {
-              stat: inhibitions
-              value: -1
+              stat: vanity-bimbo
+              value: 2
               trigger: activation
             }
             {
@@ -691,9 +874,9 @@
       thumb: "art/unfiltered-2-512px.webp"
       artist: "Gardamuse"
       effects: [
-            {
-              stat: attention-span
-              value: -1
+            { 
+              stat: vanity-bimbo
+              value: 2
               trigger: activation
             }
             {
@@ -714,6 +897,13 @@
       name: "Third Person"
       thumb: "art/third-person.webp"
       artist: "Gardamuse"
+      effects: [
+            { 
+              stat: vanity-bimbo
+              value: 2
+              trigger: activation
+            }
+          ]
       description: '''From now on you can only talk in third person.
 
       If you seem smart otherwise people may just think you're a bit weird. If you don't, well, people will certainly think you are dumb.
@@ -726,6 +916,13 @@
       name: "Valley Girl"
       thumb: "art/valley-girl.webp"
       artist: "Gardamuse"
+      effects: [
+            { 
+              stat: vanity-bimbo
+              value: 2
+              trigger: activation
+            }
+          ]
       description: '''You always sound, like, so uncertain? Ending each sentence in, like, a rising pitch? And you always sprinkle in lots of like, totally unnecessary words into your sentences or whatever?
 
       Most people will assume you're pretty dumb, even if you're not.'''
@@ -737,10 +934,10 @@
       name: "On Your Knees"
       thumb: "art/griffinwolf-card.webp"
       artist: "CrazyCowProductions"
-      description: '''You've forgotten how to walk, and can never learn again, so you will have to crawl on all fours from now on. Fortunately you will have no pains from walking on all fours either.
+      description: '''Every day you will forget how to walk for 8 hours, but you can choose how to distribute those hours. Needless to say, you will have to crawl on all fours alot more. Fortunately you will have no pains from walking on all fours either.
 
-      It may feel weird for you to go out at first, but you'll make for a cute pet I'm sure.'''
-      transformation: '''demon: I gotta say it's quite amusing watching you trying to stand up, but let me save you some struggle: You will spend the rest of your life on all fours no matter what you do, so you better get used to it. It will be easier if you just embrace a pet's life, trust me.'''
+      It may feel weird at first, but you'll make for a cute pet I'm sure.'''
+      transformation: '''demon: I gotta say it's quite amusing watching you trying to stand up, but let me save you some struggle: You will spend a lot more of your life on all fours from now, so you better get used to it. It will be easier if you just embrace a pet's life, trust me.'''
       tags: ["pet", "extreme"]
     }
     {
@@ -761,7 +958,7 @@
         }
         {
           stat: cute
-          value: 2
+          value: 1
           trigger: activation
         }
       ]
@@ -812,6 +1009,13 @@
     {
       id: "second language"
       name: "Second Language"
+      effects: [
+            { 
+              stat: vanity-bimbo
+              value: 2
+              trigger: activation
+            }
+          ]
       description: '''Choose any two distinct languages. You now only speak the second language, but with a heavy accent, like if you only really knew the first language.
 
       You will be unable to understand or learn any other language.

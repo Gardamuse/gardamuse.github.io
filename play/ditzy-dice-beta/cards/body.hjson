@@ -975,30 +975,65 @@
         {
           id: "sensitivity 1"
           name: "Repressed"
+          effects: [
+            {
+              stat: sensitivity
+              value: -2
+              trigger: activation
+            }
+          ]
           description: '''You have significant difficulty reaching an orgasm and it will take a lot of work before you can get off. If your Sex Drive is high you will be a master of edging, with explosive, multiple orgasms once you do get there, but you may also find yourself spending most of your awake time edging, rather than just being able to have sex and be done with it.'''
           transformation: '''How is it possible to be horny yet some also feel so... numb. Maybe you should try some light BDSM or at least start scoping out real masters and mistresses of the sensual arts to help you?'''
         }
         {
           id: "sensitivity 2"
           name: "Romantic"
+          effects: [
+            {
+              stat: sensitivity
+              value: 1
+              trigger: activation
+            }
+          ]
           description: '''You don't really have any troubles orgasming, but you'll need some help to get in the right mood first. Some candles and soothing music can be a good start, or maybe sucking cock is more your thing? If your Sex Drive is high, edging, followed by intense orgasms, will probably take up much of your time.'''
           //transformation: '''You're not a cold fish in the sack, you just need a little help getting into the mood. But when you get there, you will GET there!'''
         }
         {
           id: "sensitivity 3"
           name: "Sensitive"
+          effects: [
+            {
+              stat: sensitivity
+              value: 2
+              trigger: activation
+            }
+          ]
           description: '''Your erogenous zones can get you worked up quite quickly, so you'll rarely have a trouble reaching orgasm. Just don't wear anything ridiculously tight or rubbing against you, or you may find yourself a bit too excited when you least expect it.'''
           transformation: '''Wow was that your legs rubbing together or a vibrator? You might need to start being careful of how you walk if you want to avoid a messy accident in public.'''
         }
         {
           id: "sensitivity 4"
           name: "Hypersensitive"
+          effects: [
+            {
+              stat: sensitivity
+              value: 4
+              trigger: activation
+            }
+          ]
           description: '''Being able to get off quick can be real helpful sometimes, especially if you got a high Sex Drive. You should probably stick to skirts and dresses though, and maybe skip the panties as well. In general, avoid clothing that rub against your erogenous zones, or you'll find yourself trying to play off orgasms in public more than you'd perhaps like.'''
           transformation: '''Okay no more panties! No more bras! Just keep your clothes light enough to avoid rubbing or it's going to be 'clean up in every department you walk through' from here on out!'''
         }
         {
           id: "sensitivity 5"
           name: "Hair-Trigger"
+          effects: [
+            {
+              stat: sensitivity
+              value: 8
+              trigger: activation
+            }
+          ]
           description: '''Clothing rubbing against your erogenous zones is going to be a no go unless you want to cum your brains out with every step, even if your Sex Drive isn't super high. Anything so little as touches one of your erogenous zones and you're off. You better stick to skirts and loose dresses from now on, or maybe just stay naked...'''
           transformation: '''You're going to have to take off your clothes, all of them, NOW! Otherwise this place is going to end up triggering flood warnings with how often you'll be orgasming!'''
         }
@@ -1015,6 +1050,13 @@
       id: "erogenous breasts"
       name: "Erogenous Breasts"
       thumb: "art/carpe-diem-animation-small-2.webp"
+      effects: [
+            {
+              stat: sensitivity
+              value: 3
+              trigger: activation
+            }
+          ]
       description: '''Your nipples and, to just a slightly lower extent, your entire breasts, are now as erogenous as your clit.
 
       Be careful with bras or tight tops, you may find yourself getting a bit too excited in public. Get someone to give you a nice breast massage or a good titfuck though, and you should feel really good.'''
@@ -1028,6 +1070,13 @@
       name: "Erogenous Lips"
       thumb: "art/touching-her-lips.webp"
       artist: "Blackshirtboy"
+      effects: [
+            {
+              stat: sensitivity
+              value: 3
+              trigger: activation
+            }
+          ]
       description: '''Your lips are erogenous. Whether you're into kissing, or prefer wrapping your lips around a nice thick cock, you'll be cumming in no time.
 
       Makes regular eating and drinking a lot more exciting too!'''
@@ -1335,6 +1384,13 @@
           id: "angelic"
           name: "Angelic Wings"
           thumb: "art/wings-0000.webp"
+          effects: [
+            {
+              stat: beauty
+              value: 2
+              trigger: activation
+            }
+          ]
           description: '''A classic pair of large white feathery wings, soft to the touch and very sensitive. You might look a bit like an Angel, though it's doubtful you'll be embodying the virtue of chastity.'''
           transformation: '''
           You can feel your wings come in, large and white. The way they surround you is oddly comforting, though you can't help wondering how you're going to get through doors now...
@@ -1344,6 +1400,18 @@
           id: "fallen"
           name: "Wings of the Fallen"
           thumb: "art/wings-0001.webp"
+          effects: [
+            {
+              stat: beauty
+              value: 1
+              trigger: activation
+            }
+            {
+              stat: willpower
+              value: 1
+              trigger: activation
+            }
+          ]
           description: '''A pair of large, black feathery wings, less soft to the touch then their angelic counterparts, but far more sensitive. You might come off looking a bit more sinister, but bad girls have all the fun!'''
           transformation: '''The way your new all black wings unfurl around you is a little disconcerting, but the moment a breeze passes by them you can't help, but shiver in delight. If they feel this good just getting slightly blown on... Flying is going to be one hell of a time!'''
           tags: ["goth"]
@@ -1352,6 +1420,18 @@
           id: "demonic"
           name: "Demonic Wings"
           thumb: "art/wings-0002.webp"
+          effects: [
+            {
+              stat: willpower
+              value: 1
+              trigger: activation
+            }
+            {
+              stat: sex-drive
+              value: 1
+              trigger: activation
+            }
+          ]
           description: '''A set of black leathery wings, reminiscent of a bat, or more specifically, a demon. You might come off looking like a succubus with these, but is that so bad?'''
           transformation: '''demon: Well this is oddly nostalgic. The way you're coming along, you might fit in well with some of the succubus I know... You'd probably like them, I think you'll soon have a lot in common.'''
           tags: ["goth"]
@@ -1360,6 +1440,13 @@
           id: "draconic"
           name: "Draconic Wings"
           thumb: "art/wings-0003.webp"
+          effects: [
+            {
+              stat: willpower
+              value: 2
+              trigger: activation
+            }
+          ]
           description: '''Radiant, scaly and powerful, these wings can be a bit overwhelming at first, but they are strong enough to make mid air fucking a breeze! Fire breath not included.'''
           transformation: '''demon: Be careful with those new wings of yours, dragons are able to cause real damage if they aren't careful so just try and avoid literally blowing the roof off when you get excited...'''
         }

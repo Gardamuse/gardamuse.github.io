@@ -10,6 +10,18 @@
       name: "Giggly"
       thumb: "art/happy-smile.webp"
       artist: "CrazyCowProductions"
+      effects: [
+            {
+              stat: vanity-bimbo
+              value: 1
+              trigger: activation
+            }
+            {
+              stat: cute
+              value: 2
+              trigger: activation
+            }
+          ]
       description: '''Your laugh is always a cute giggle, and you'll giggle almost constantly. There is pretty much nothing that won't make you laugh.
 
       If you try really hard you can keep it together, but only for a short while.'''
@@ -20,6 +32,13 @@
       name: "Talkative"
       thumb: "art/talkative.webp"
       artist: "Gardamuse"
+      effects: [
+            {
+              stat: vanity-bimbo
+              value: 1
+              trigger: activation
+            }
+          ]
       description: '''You love talking and will do so all the time, even if you have nothing to say.
 
       You'll probably come across as somewhat vapid.
@@ -32,6 +51,18 @@
       name: "Bouncy"
       thumb: "art/happy-smile.webp"
       artist: "CrazyCowProductions"
+      effects: [
+            {
+              stat: cute
+              value: 1
+              trigger: activation
+            }
+            {
+              stat: vanity-bimbo
+              value: 1
+              trigger: activation
+            }
+          ]
       description: '''You will have a strong urge to feel your tits bounce. As a result, you are often going to bounce a little up and down, even if you're just by yourself.'''
       transformation: '''player: Hehe... Bounce. Bounce... Bounce.
 
@@ -43,6 +74,13 @@
       name: "Moaning"
       thumb: "art/moaning-pink.webp"
       artist: "Gardamuse"
+      effects: [
+            {
+              stat: vanity-bimbo
+              value: 1
+              trigger: activation
+            }
+          ]
       description: '''Whenever you are having sex or masturbating, you can't help but moaning like a porn star.
 
       People can hear what you're doing from a mile away.'''
@@ -56,6 +94,18 @@
       name: "Easy"
       thumb: "art/happy-smile.webp"
       artist: "CrazyCowProductions"
+      effects: [
+            {
+              stat: willpower
+              value: -1
+              trigger: activation
+            }
+            {
+              stat: sex-drive
+              value: 1
+              trigger: activation
+            }
+          ]
       description: '''Whenever someone asks you out, over to their place, or just straight up for sex, you will have an irresistible urge to say yes.
 
       You will not have this urge if whoever is asking intends to harm or rob you, or if you would have to fulfill some other unreasonable requirement first, like travelling very far.
@@ -78,6 +128,13 @@
       name: "Narcissian Turn-On"
       thumb: "art/mirror-blackshirtboy.webp"
       artist: "Blackshirtboy"
+      effects: [
+            {
+              stat: sex-drive
+              value: 1
+              trigger: activation
+            }
+          ]
       description: '''Whenever you look at your own reflection you start getting horny.
 
       After 30 seconds you will be horny enough to feel your panties getting wet, after a couple of minutes you will cum on the spot.'''
@@ -87,6 +144,18 @@
       id: "narscissian touch"
       name: "Narcissian Touch"
       thumb: ""
+      effects: [
+            {
+              stat: sex-drive
+              value: 1
+              trigger: activation
+            }
+            {
+              stat: inhibitions
+              value: -1
+              trigger: activation
+            }
+          ]
       description: '''You love your own body so much that you simply can't stop feeling it out.
 
       From now on you will always be touching yourself somewhere.'''
@@ -98,6 +167,18 @@
       id: "playing with your hair"
       name: "Playing with Your Hair"
       thumb: ""
+      effects: [
+            {
+              stat: cute
+              value: 1
+              trigger: activation
+            }
+            {
+              stat: vanity-bimbo
+              value: 1
+              trigger: activation
+            }
+          ]
       description: '''Whether you're concentrating, daydreaming or just walking somewhere, you are always playing with your hair, endlessly twirling it around a finger.
 
       You can stop yourself from doing it, but that takes your full concentration.
@@ -109,6 +190,18 @@
       name: "Lap Warmer"
       thumb: "art/lap-warmer.webp"
       artist: "Gardamuse"
+      effects: [
+            {
+              stat: cute
+              value: 1
+              trigger: activation
+            }
+            {
+              stat: vanity-bimbo
+              value: 1
+              trigger: activation
+            }
+          ]
       description: '''When you are not alone you can only sit down if its on another person.
 
       You're going to be pretty friendly with people from now on.
@@ -135,6 +228,13 @@
       name: "Hot Drinks"
       thumb: "art/drink-ash-edmonds.webp"
       artist: "Ash Edmonds"
+      effects: [
+            {
+              stat: sensitivity
+              value: 1
+              trigger: activation
+            }
+          ]
       description: '''When you get drunk, you also become extremely horny.
 
       You won't get sick no matter how much you drink, and hangovers will make you feel horny instead of sick.'''
@@ -157,6 +257,23 @@
       name: "Influencer"
       thumb: "art/selfie.webp"
       artist: "Gardamuse"
+      effects: [
+            {
+              stat: inhibitions
+              value: -1
+              trigger: activation
+            }
+            {
+              stat: vanity-bimbo
+              value: 1
+              trigger: activation
+            }
+            {
+              stat: beauty
+              value: 1
+              trigger: activation
+            }
+          ]
       description: '''You have an irresistible urge to take selfies and upload them to social media.
 
       At least one photo every time you change outfit and every time you go out, and you will only feel content if you post at least 10 selfies each day.'''
@@ -172,6 +289,18 @@
       name: "Good Girl"
       thumb: "art/griffinwolf-card.webp"
       artist: "CrazyCowProductions"
+      effects: [
+            {
+              stat: sensitivity
+              value: 1
+              trigger: activation
+            }
+            {
+              stat: cute
+              value: 1
+              trigger: activation
+            }
+          ]
       description: '''Getting head pats makes you feel so calm and relaxed, but also very horny at the same time.
 
       In addition, you always try to get people to pat you on the head, especially when you feel like you've been good.'''
@@ -183,6 +312,18 @@
       name: "Pet the Kitty"
       thumb: "art/griffinwolf-card.webp"
       artist: "CrazyCowProductions"
+      effects: [
+            {
+              stat: sensitivity
+              value: 1
+              trigger: activation
+            }
+            {
+              stat: cute
+              value: 2
+              trigger: activation
+            }
+          ]
       description: '''Whenever you get head pats from someone, you try to simultaneously curl up in the givers arms, lay on your back, and spread your legs for them.
 
       It looks insanely cute and lewd at the same time, and you just can't stop yourself.'''
@@ -259,12 +400,36 @@
         {
           id: "sweet"
           name: "Sweet and Bubbly"
+          effects: [
+            {
+              stat: cute
+              value: 2
+              trigger: activation
+            }
+            {
+              stat: vanity-bimbo
+              value: 1
+              trigger: activation
+            }
+          ]
           description: '''You are always upbeat and playful, if a little naive. People love to have you around and take care of you.'''
           transformation: '''Hey! You never knew having your body and mind played with could be so much fun! Thanks Mr. Devil!'''
         }
         {
           id: "bad girl"
           name: "Bad Girl"
+          effects: [
+            {
+              stat: willpower
+              value: 1
+              trigger: activation
+            }
+            {
+              stat: sex-drive
+              value: 1
+              trigger: activation
+            }
+          ]
           description: '''No one is going to trod on you! Unless they're really hot, in which case you'd love it if they did.
 
           Tattoos, smoking and piercings are your core identity. Motorcycles come a close second, whether that is riding clad in leather behind a muscular guy, or on your own tuned up chopper.'''
@@ -274,6 +439,18 @@
         {
           id: "eye candy"
           name: "Eye Candy"
+          effects: [
+            {
+              stat: beauty
+              value: 2
+              trigger: activation
+            }
+            {
+              stat: vanity-bimbo
+              value: 1
+              trigger: activation
+            }
+          ]
           description: '''You know that you should always look perfect. No matter if it is for an evening out or going grocery shopping, you always look impeccable. Ever sexy, yet consistently dressed for the occasion.
 
           For any partner, you'll be the perfect accessory.'''
@@ -282,6 +459,18 @@
         {
           id: "object"
           name: "Object"
+          effects: [
+            {
+              stat: willpower
+              value: -2
+              trigger: activation
+            }
+            {
+              stat: vanity-bimbo
+              value: 1
+              trigger: activation
+            }
+          ]
           description: '''You know that you're just an object. Whenever you have a partner around you do anything you're told, wear whatever they want you to wear and speak only when spoken to.
 
           If no one tells you what to do, you don't really know what to do with yourself.'''
@@ -291,6 +480,23 @@
         {
           id: "slut"
           name: "Slut"
+          effects: [
+            {
+              stat: sex-drive
+              value: 1
+              trigger: activation
+            }
+            {
+              stat: sensitivity
+              value: 1
+              trigger: activation
+            }
+            {
+              stat: inhibitions
+              value: -2
+              trigger: activation
+            }
+          ]
           description: '''If they look good, you want to have sex with them. So what if they're married? No one will find out if you just have a quickie here and now.'''
           transformation: '''"Is it wrong to want to fuck the Devil?" you ask yourself. Cus you kind of super want to pound that demonic dick!'''
         }
@@ -299,6 +505,23 @@
           name: "Beach Bimbo"
           thumb: "art/beach-bimbo-card.webp"
           artist: "Gardamuse"
+          effects: [
+            {
+              stat: beauty
+              value: 1
+              trigger: activation
+            }
+            {
+              stat: cute
+              value: 1
+              trigger: activation
+            }
+            {
+              stat: vanity-bimbo
+              value: 1
+              trigger: activation
+            }
+          ]
           description: '''You love the beach, and will spend as much time there as possible. Basking in the sun to work on your tan, drinking a variety of cocktails with colorful umbrellas, taking a short swim or playing a giggly volleyball game. Nothing can be better.'''
           transformation: '''"Like, is this game over yet?" you think. The beach is calling your name, and you need to get to work on your tan!'''
         }
@@ -384,6 +607,18 @@
         {
           id: "speak when spoken to"
           name: "Speak When Spoken To"
+          effects: [
+            {
+              stat: willpower
+              value: -1
+              trigger: activation
+            }
+            {
+              stat: vanity-bimbo
+              value: 1
+              trigger: activation
+            }
+          ]
           description: '''You are only able to speak when you have been directly spoken to first.
 
           Taking initiative is going to be alot harder for you now, so I think it's best if you learn to know your place.
@@ -393,6 +628,13 @@
         {
           id: "mute button"
           name: "Mute Button"
+          effects: [
+            {
+              stat: willpower
+              value: -2
+              trigger: activation
+            }
+          ]
           description: '''Ever wished you could just shut someone up? Well, now you will be the one getting shut up.
 
           If anyone tells you to shut up or be quiet, you won't be able to speak until someone tells you that you are allowed to.'''
@@ -414,18 +656,44 @@
           id: "aheago"
           name: "Ahegao"
           thumb: "art/ditz-card.webp"
+          effects: [
+            {
+              stat: vanity-bimbo
+              value: 2
+              trigger: activation
+            }
+          ]
           description: '''Your eyes cross and your mouth falls open with your tongue sticking out in a typical ahegao look.'''
           transformation: '''You notice how people stop and stare when you try to think and resolve to never do that in public from now on. At least it might be easier to avoid that than before to be fair.'''
         }
         {
           id: "blank and drooling"
           name: "Blank and Drooling"
+          effects: [
+            {
+              stat: vanity-bimbo
+              value: 2
+              trigger: activation
+            }
+          ]
           description: '''Your eyes go blank, your jaw slackens and you start to drool. You're gonna look like you're really dumb.'''
           transformation: '''You hear snickering whenever you try to think as your expression really just seems to be sending the opposite message. '''
         }
         {
           id: "tongue in cheek"
           name: "Tongue in Cheek"
+          effects: [
+            {
+              stat: cute
+              value: 1
+              trigger: activation
+            }
+            {
+              stat: vanity-bimbo
+              value: 1
+              trigger: activation
+            }
+          ]
           description: '''You stick your tongue out just a little at the side of your mouth and your eyes look diagonally upwards.'''
           transformation: '''Well at least you still look like you're thinking. You might look like an idiot who can barely string more than two words together, but it could still be worse.'''
         }
@@ -443,24 +711,52 @@
         {
           id: "1"
           name: "Helpful"
+          effects: [
+            {
+              stat: willpower
+              value: -1
+              trigger: activation
+            }
+          ]
           description: '''It's hard to say no when asked (or ordered) to do something and you'll find your will weakening every time you disobey an order until you have successfully completed an assigned task. You'll also never feel fully at ease when around a mess you can clean.'''
           transformation: '''While you managed to avoid becoming totally dependent on others ordering you about, you can't help feeling a bit uneasy with how messy this house is... Maybe after the game you should tidy up a bit, just to be nice?'''
         }
         {
           id: "2"
           name: "Subservient"
+          effects: [
+            {
+              stat: willpower
+              value: -2
+              trigger: activation
+            }
+          ]
           description: '''When asked (or ordered) to perform a task you'll find it nearly impossible to disobey until you have accomplished it. You also find it hard to talk back to anyone who's ordered you in the past and will compulsively make yourself helpful if you have not been ordered to do something in the last two hours.'''
           transformation: '''demon: Oh, would I like something to drink? No thank you, but I see you're already feeling the compulsion to serve. That's good, best get used to it as it won't be going away anytime soon.'''
         }
         {
           id: "3"
           name: "Obedient"
+          effects: [
+            {
+              stat: willpower
+              value: -3
+              trigger: activation
+            }
+          ]
           description: '''You will leap to any task even suggested to you and if in the presence of anyone who has ordered you about in the past, you'll find yourself driven to help them in any way you can till they have a new task for you. When alone or away from anyone who has given you a task you will be compelled to offer your services to others.'''
           transformation: '''Feeling that deep need to serve already? Can't help, but wish someone would tell you what to do? Well unfortunately for now no one is here who needs anything from you, but as soon as the game ends you're certainly going to need to find someone to help you fulfill that need to obey.'''
         }
         {
           id: "4"
           name: "Worshipful"
+          effects: [
+            {
+              stat: willpower
+              value: -4
+              trigger: activation
+            }
+          ]
           description: '''If someone even suggests something of you, you will do everything in your power to fulfill their wish until they give you a new order or express a new want. If you ever find yourself without a task to do, you will be compelled to find someone to order you about and do everything you can to convince someone to be your new owner.'''
           transformation: '''
           player: S-sir? Is there anything you'd like me to do? Please?
@@ -474,6 +770,13 @@
       name: "Queen of Spades"
       thumb: "art/bbc.webp"
       artist: "Gardamuse"
+      effects: [
+            {
+              stat: sex-drive
+              value: 1
+              trigger: activation
+            }
+          ]
       description: '''There are many shapes, sizes and colors, but you will feel the unquenchable need for a particular combination. Big, black and phallus shaped. Between your lips, legs, or loins doesn't really matter, as long as you get it daily. Don't and it will quickly become the only thing you can think about (+1 Sex Drive / day).'''
       transformation: '''
       Your mind suddenly fogs and fills with images of Big Black Cocks and the insatiable desire to wrap your mouth around them. You smile as you quietly fade into the fantasy of jamming one down your throat and sucking... You need to find some dick and now!
