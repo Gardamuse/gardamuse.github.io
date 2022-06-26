@@ -23,7 +23,7 @@
               trigger: activation
             }
             {
-              stat: vanity-bimbo
+              stat: vapidity
               value: 1
               trigger: activation
             }
@@ -96,6 +96,11 @@
             {
               stat: inhibitions
               value: -2
+              trigger: activation
+            }
+            {
+              stat: vapidity
+              value: 2
               trigger: activation
             }
           ]

@@ -542,6 +542,13 @@
           name: "Half-Giant (6'7, 200cm)"
           thumb: "art/height-0000.webp"
           artist: "CrazyCowProductions"
+          effects: [
+            {
+              stat: cute
+              value: -2
+              trigger: activation
+            }
+          ]
           description: '''You're going to be one impressive woman. Expect people to look at you constantly, because you'll usually be the tallest person in the room, and that is when you're NOT wearing any heels!
 
           Plenty of people who'd be into a half-giantess though.
@@ -554,6 +561,13 @@
           name: "Tall (5'11, 180 cm)"
           thumb: "art/height-0001.webp"
           artist: "CrazyCowProductions"
+          effects: [
+            {
+              stat: cute
+              value: -1
+              trigger: activation
+            }
+          ]
           description: '''Taller than most women, you'll stand out, but not too much, at least as long as you're not wearing high heels.
 
           Or do! You'll intimidate some guys for sure, and charm plenty of others.
@@ -582,6 +596,13 @@
           name: "Short (5'1, 155cm)"
           thumb: "art/height-0004.webp"
           artist: "CrazyCowProductions"
+          effects: [
+            {
+              stat: cute
+              value: 1
+              trigger: activation
+            }
+          ]
           description: '''Shortie! You can remind yourself that you're not much below average height, but that won't help when you're reaching for something. On the plus side, people think you look so cute trying to reach stuff, they'll gladly help you out.'''
           transformation: '''The world seems to grow just a little larger as you become shorter. Well, you're just a little below average, but still, it will be difficult to reach top shelves without help now.'''
         }
@@ -590,6 +611,13 @@
           name: "Smol (4'11, 150cm)"
           thumb: "art/height-0005.webp"
           artist: "CrazyCowProductions"
+          effects: [
+            {
+              stat: cute
+              value: 2
+              trigger: activation
+            }
+          ]
           description: '''Get used to looking up at people, because that's what you will be doing now. And never try to be intimidating, when you're this short, people can only find you cute.'''
           transformation: '''As you shrink the world and everyone else in it seem to become just that bit bigger. Although you don't mind the idea of having lots of big people around you. For... several reasons. Just try to not blush too much when people bend over to talk to you, or you'll look way too cute.'''
         }
@@ -598,6 +626,13 @@
           name: "Fun Sized (4'9, 145cm)"
           thumb: "art/height-0006.webp"
           artist: "CrazyCowProductions"
+          effects: [
+            {
+              stat: cute
+              value: 2
+              trigger: activation
+            }
+          ]
           description: '''Reaching shelves are going to be a big problem, but then you'll look so cute you can probably find someone tall to help you.
 
           You'll be easy to pick up and carry around though, so be prepared for some fun rides in the bedroom, or wherever you're carried off to.

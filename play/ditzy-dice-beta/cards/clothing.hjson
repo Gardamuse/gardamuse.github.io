@@ -11,7 +11,7 @@
       artist: "CrazyCowProductions"
       effects: [
             { 
-              stat: vanity-bimbo
+              stat: vapidity
               value: 2
               trigger: activation
             }
@@ -27,7 +27,7 @@
       thumb: "art/whale-tail.webp"
       effects: [
             { 
-              stat: vanity-bimbo
+              stat: vapidity
               value: 2
               trigger: activation
             }
@@ -44,7 +44,7 @@
       thumb: "art/cleavage.webp"
       effects: [
             { 
-              stat: vanity-bimbo
+              stat: vapidity
               value: 2
               trigger: activation
             }
@@ -65,7 +65,7 @@
       thumb: "art/thigh-highs.webp"
       effects: [
             { 
-              stat: vanity-bimbo
+              stat: vapidity
               value: 1
               trigger: activation
             }
@@ -91,7 +91,7 @@
       thumb: "art/tummy.webp"
       effects: [
             { 
-              stat: vanity-bimbo
+              stat: vapidity
               value: 1
               trigger: activation
             }
@@ -107,7 +107,7 @@
       thumb: "art/bent-over-small.webp"
       effects: [
             { 
-              stat: vanity-bimbo
+              stat: vapidity
               value: 1
               trigger: activation
             }
@@ -130,7 +130,7 @@
       artist: "Bradtanker3"
       effects: [
             { 
-              stat: vanity-bimbo
+              stat: vapidity
               value: 3
               trigger: activation
             }
@@ -153,7 +153,7 @@
       artist: "Gardamuse"
       effects: [
             { 
-              stat: vanity-bimbo
+              stat: vapidity
               value: 1
               trigger: activation
             }
@@ -242,7 +242,7 @@
           artist: "Gardamuse"
           effects: [
             { 
-              stat: vanity-bimbo
+              stat: vapidity
               value: 1
               trigger: activation
             }
@@ -265,7 +265,7 @@
           artist: "Gardamuse"
           effects: [
             { 
-              stat: vanity-bimbo
+              stat: vapidity
               value: 3
               trigger: activation
             }
@@ -288,7 +288,7 @@
           artist: "Gardamuse"
           effects: [
             { 
-              stat: vanity-bimbo
+              stat: vapidity
               value: 4
               trigger: activation
             }
@@ -331,7 +331,7 @@
           artist: "Gardamuse"
           effects: [
             { 
-              stat: vanity-bimbo
+              stat: vapidity
               value: 2
               trigger: activation
             }
@@ -346,7 +346,7 @@
           artist: "Gardamuse"
           effects: [
             { 
-              stat: vanity-bimbo
+              stat: vapidity
               value: 3
               trigger: activation
             }
@@ -366,7 +366,7 @@
           artist: "Gardamuse"
           effects: [
             { 
-              stat: vanity-bimbo
+              stat: vapidity
               value: 4
               trigger: activation
             }
@@ -404,7 +404,7 @@
               trigger: activation
             }
             {
-              stat: vanity-bimbo
+              stat: vapidity
               value: 1
               trigger: activation
             }
@@ -426,7 +426,7 @@
               trigger: activation
             }
             {
-              stat: vanity-bimbo
+              stat: vapidity
               value: 2
               trigger: activation
             }
@@ -446,7 +446,7 @@
               trigger: activation
             }
             {
-              stat: vanity-bimbo
+              stat: vapidity
               value: 2
               trigger: activation
             }
@@ -472,7 +472,7 @@
               trigger: activation
             }
             {
-              stat: vanity-bimbo
+              stat: vapidity
               value: 3
               trigger: activation
             }

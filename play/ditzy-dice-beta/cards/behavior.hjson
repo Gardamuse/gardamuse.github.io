@@ -12,7 +12,7 @@
       artist: "CrazyCowProductions"
       effects: [
             {
-              stat: vanity-bimbo
+              stat: vapidity
               value: 1
               trigger: activation
             }
@@ -34,7 +34,7 @@
       artist: "Gardamuse"
       effects: [
             {
-              stat: vanity-bimbo
+              stat: vapidity
               value: 1
               trigger: activation
             }
@@ -58,7 +58,7 @@
               trigger: activation
             }
             {
-              stat: vanity-bimbo
+              stat: vapidity
               value: 1
               trigger: activation
             }
@@ -76,7 +76,7 @@
       artist: "Gardamuse"
       effects: [
             {
-              stat: vanity-bimbo
+              stat: vapidity
               value: 1
               trigger: activation
             }
@@ -174,7 +174,7 @@
               trigger: activation
             }
             {
-              stat: vanity-bimbo
+              stat: vapidity
               value: 1
               trigger: activation
             }
@@ -197,7 +197,7 @@
               trigger: activation
             }
             {
-              stat: vanity-bimbo
+              stat: vapidity
               value: 1
               trigger: activation
             }
@@ -264,7 +264,7 @@
               trigger: activation
             }
             {
-              stat: vanity-bimbo
+              stat: vapidity
               value: 1
               trigger: activation
             }
@@ -407,7 +407,7 @@
               trigger: activation
             }
             {
-              stat: vanity-bimbo
+              stat: vapidity
               value: 1
               trigger: activation
             }
@@ -446,7 +446,7 @@
               trigger: activation
             }
             {
-              stat: vanity-bimbo
+              stat: vapidity
               value: 1
               trigger: activation
             }
@@ -466,7 +466,7 @@
               trigger: activation
             }
             {
-              stat: vanity-bimbo
+              stat: vapidity
               value: 1
               trigger: activation
             }
@@ -517,7 +517,7 @@
               trigger: activation
             }
             {
-              stat: vanity-bimbo
+              stat: vapidity
               value: 1
               trigger: activation
             }
@@ -614,7 +614,7 @@
               trigger: activation
             }
             {
-              stat: vanity-bimbo
+              stat: vapidity
               value: 1
               trigger: activation
             }
@@ -658,7 +658,7 @@
           thumb: "art/ditz-card.webp"
           effects: [
             {
-              stat: vanity-bimbo
+              stat: vapidity
               value: 2
               trigger: activation
             }
@@ -671,7 +671,7 @@
           name: "Blank and Drooling"
           effects: [
             {
-              stat: vanity-bimbo
+              stat: vapidity
               value: 2
               trigger: activation
             }
@@ -689,7 +689,7 @@
               trigger: activation
             }
             {
-              stat: vanity-bimbo
+              stat: vapidity
               value: 1
               trigger: activation
             }

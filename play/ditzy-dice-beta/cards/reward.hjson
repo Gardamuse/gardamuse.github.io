@@ -130,7 +130,7 @@
     thumb: "art/healing-zoomed.webp"
     effects: [
             {
-              stat: vanity-bimbo
+              stat: vapidity
               value: 1
               trigger: activation
             }
@@ -245,7 +245,7 @@
     thumb: "art/invisibility-512px.webp"
     effects: [
             {
-              stat: vanity-bimbo
+              stat: vapidity
               value: -3
               trigger: activation
             }
@@ -263,7 +263,7 @@
     thumb: "art/phasing-512px.webp"
     effects: [
             {
-              stat: vanity-bimbo
+              stat: vapidity
               value: -2
               trigger: activation
             }

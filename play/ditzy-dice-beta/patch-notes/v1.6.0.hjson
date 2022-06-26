@@ -1,12 +1,17 @@
 {
-name: ""
-date: "2022-06-20"
+name: "Satanistic Statistics"
+date: "2022-06-26"
 text: '''
 # Features
-* Added stat tracking.
-    * Stats affects game mechanics.
-* Added lust
-    * Once you reach maximum lust, you will orgasm, possibly triggering card effects.
+* Added player stats
+        * Cards can affect stats in two ways: Trigger and Contribution.
+        * Trigger effects will add/subtract from stats when they are triggered, typically when the card is activated.
+        * Contribution effects will make the value of one stat affect another. Ex: your intelligence is reduced by 50% of your breast size.
+        * Stats affects various game mechanics, such as mana gained.
+* Added Lust
+        * Once you reach maximum lust, you will orgasm, gaining mana and triggering any on-orgasm trigger effects from cards.
+* Added cards
+        * Dumb Cow
 
 # UI
 * Game UI now shows player stats.

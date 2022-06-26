@@ -159,13 +159,13 @@
 
           player: Uuuuh... wha.. my... erhm...?
 
-          When you finally notice that you're drooling down your top it takes you a good ten seconds to figure out that you should close your mouth to make it stop. Any remnants of your former IQ will have long since dripped out of your pussy before you've even remembered you have one.
+          When you finally notice that you're drooling down your top it takes you a good ten seconds to figure out that you should close your mouth to make it stop. Any remnants of your former IQ will have long since have dripped out of your pussy before you've even remembered you have one.
 
           demon: Haha, oh how I love that drooling expression! Tell you what, if you can tell me what 2 + 2 is, right now, I give you back all your smarts.
 
           player: Uuuh... oh... my... eeh... pussy...?
 
-          demon: Well, that's not quite the right answer. Too bad! Lovely. I guess it's mindless fucktoy for you then! I'll make sure you have some friend come find you when we're done. Gotta get you an owner know don't we?
+          demon: Well, that's not quite the right answer. Too bad! Lovely. I guess it's mindless fucktoy for you then! I'll make sure you have some friend come find you when we're done. Gotta get you an owner now don't we?
 
           player: Ooh... wet? Fuck... uh? Wha...?
           '''
@@ -412,7 +412,7 @@
           name: "Six"
           effects: [
             {
-              stat: vanity-bimbo
+              stat: vapidity
               value: 1
               trigger: activation
             }
@@ -425,7 +425,7 @@
           name: "Five"
           effects: [
             {
-              stat: vanity-bimbo
+              stat: vapidity
               value: 2
               trigger: activation
             }
@@ -438,7 +438,7 @@
           name: "Four"
           effects: [
             {
-              stat: vanity-bimbo
+              stat: vapidity
               value: 3
               trigger: activation
             }
@@ -451,7 +451,7 @@
           name: "Three"
           effects: [
             {
-              stat: vanity-bimbo
+              stat: vapidity
               value: 4
               trigger: activation
             }
@@ -464,7 +464,7 @@
           name: "Two"
           effects: [
             {
-              stat: vanity-bimbo
+              stat: vapidity
               value: 5
               trigger: activation
             }
@@ -482,7 +482,7 @@
           name: "One"
           effects: [
             {
-              stat: vanity-bimbo
+              stat: vapidity
               value: 6
               trigger: activation
             }
@@ -526,7 +526,7 @@
           name: "Thirteen"
           effects: [
             {
-              stat: vanity-bimbo
+              stat: vapidity
               value: 1
               trigger: activation
             }
@@ -546,7 +546,7 @@
           name: "Ten"
           effects: [
             {
-              stat: vanity-bimbo
+              stat: vapidity
               value: 2
               trigger: activation
             }
@@ -566,7 +566,7 @@
           name: "Seven"
           effects: [
             {
-              stat: vanity-bimbo
+              stat: vapidity
               value: 2
               trigger: activation
             }
@@ -590,7 +590,7 @@
           name: "Five"
           effects: [
             {
-              stat: vanity-bimbo
+              stat: vapidity
               value: 2
               trigger: activation
             }
@@ -617,7 +617,7 @@
           name: "Four"
           effects: [
             {
-              stat: vanity-bimbo
+              stat: vapidity
               value: 3
               trigger: activation
             }
@@ -653,7 +653,7 @@
           name: "Three"
           effects: [
             {
-              stat: vanity-bimbo
+              stat: vapidity
               value: 3
               trigger: activation
             }
@@ -694,7 +694,7 @@
           name: "Two"
           effects: [
             {
-              stat: vanity-bimbo
+              stat: vapidity
               value: 3
               trigger: activation
             }
@@ -819,7 +819,7 @@
           name: "Complicated"
           effects: [
             {
-              stat: vanity-bimbo
+              stat: vapidity
               value: -2
               trigger: activation
             }
@@ -851,7 +851,7 @@
           name: "Nickname"
           effects: [
             {
-              stat: vanity-bimbo
+              stat: vapidity
               value: 2
               trigger: activation
             }
@@ -875,7 +875,7 @@
       artist: "Gardamuse"
       effects: [
             { 
-              stat: vanity-bimbo
+              stat: vapidity
               value: 2
               trigger: activation
             }
@@ -899,7 +899,7 @@
       artist: "Gardamuse"
       effects: [
             { 
-              stat: vanity-bimbo
+              stat: vapidity
               value: 2
               trigger: activation
             }
@@ -918,7 +918,7 @@
       artist: "Gardamuse"
       effects: [
             { 
-              stat: vanity-bimbo
+              stat: vapidity
               value: 2
               trigger: activation
             }
@@ -1011,7 +1011,7 @@
       name: "Second Language"
       effects: [
             { 
-              stat: vanity-bimbo
+              stat: vapidity
               value: 2
               trigger: activation
             }
@@ -1065,6 +1065,30 @@
       demon: The card is quite fun, too! Do you act your normal self at the beginning of each week but become a drooling moron towards the end, or do you dumb down by your own free will to conserve some precious thinking time? Better not think too long about it!
       '''
       tags: ["iq"]
+    }
+    {
+      id: "dumb cow"
+      name: "Dumb Cow"
+      thumb: "art/cathyl-card.webp"
+      artist: "Luxu"
+      effects: [
+            {
+              stat: lactation
+              value: 1
+              trigger: activation
+            }
+            {
+              stat: lactation
+              target: intelligence
+              value: -1
+            }
+          ]
+      description: '''Cows should be dumb, don't you think? Makes them easier to deal with. Not to mention it is a lot more fun to spend eight hours a day in the milking booth when you're so stupid that even the smallest thing can keep you interested for half an hour at a time.
+
+      Lose intelligence equal to your lactation.
+      '''
+      transformation: ''''''
+      tags: ["lactation"]
     }
   ]
 }
