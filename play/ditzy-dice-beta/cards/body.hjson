@@ -1459,7 +1459,7 @@
       description: '''If you can't get enough of that ample pregnant look, but don't want to deal with births or children, this is the card for you! Why be pregnant when you can just look like you are? A weak memory alteration aura means that very few people will ever notice that you don't progress, no matter how many times they see you.'''
       transformation: ''''''
       type: "numeric"
-      tags: ["preg"]
+      tags: ["preg", "lactation"]
       levels: [
         {
           id: "1"
@@ -1472,6 +1472,18 @@
           id: "2"
           name: "Six Months"
           thumb: "art/pregnant-0004.webp"
+          effects: [
+            {
+              stat: lactation
+              value: 1
+              trigger: activation
+            }
+            {
+              stat: breast-size
+              value: 1
+              trigger: activation
+            }
+          ]
           description: '''Your belly will be noticeably bigger and rounder, as if you were 6 months pregnant. Bending over or other dexterous movements are going to be more difficult, but you'll probably also gain a cup size as your breasts swell a little from milk production.'''
           transformation: '''Your shirt begins to strain significantly as your belly begins to grow, shifting your center of gravity. You feel a little docile as you put your hand on your now round stomach.'''
         }
@@ -1479,6 +1491,18 @@
           id: "3"
           name: "Nine Months"
           thumb: "art/pregnant-0005.webp"
+          effects: [
+            {
+              stat: lactation
+              value: 1
+              trigger: activation
+            }
+            {
+              stat: breast-size
+              value: 2
+              trigger: activation
+            }
+          ]
           description: '''Prepare to buy new clothes as your belly grows until you look about ready to give birth, although of course you won't. Moving around is going to be a lot more demanding, but people will also usually make sure there's a seat available for you. It's hard to look more motherly than this.'''
           transformation: '''Your belly begins to grow rapidly, making you feel considerably heavier as it balloons outward. You don't think you're gonna get off this chair unless you really need to.'''
         }
@@ -1486,6 +1510,23 @@
           id: "4"
           name: "Twins"
           thumb: "art/pregnant-0006.webp"
+          effects: [
+            {
+              stat: lactation
+              value: 1
+              trigger: activation
+            }
+            {
+              stat: breast-size
+              value: 2
+              trigger: activation
+            }
+            {
+              stat: ass-size
+              value: 1
+              trigger: activation
+            }
+          ]
           description: '''Try to make sure you don't drop anything, because picking it up off the floor is going to be very difficult as your belly will grow very large and round, as if you are late-stage pregnant with twins, at least. As a bonus, your breasts and ass are probably going to gain a size or two as well.'''
           transformation: '''Your belly swells up quickly, only just giving you time to loosen your shirt and pants. You feel so big and bloated, but in a weirdly good way. As you look down on your now bare belly button you feel like its best that you just relax and take care of yourself.'''
         }
@@ -1493,6 +1534,23 @@
           id: "5"
           name: "Just Sit Still"
           thumb: "art/pregnant-0007.webp"
+          effects: [
+            {
+              stat: lactation
+              value: 2
+              trigger: activation
+            }
+            {
+              stat: breast-size
+              value: 2
+              trigger: activation
+            }
+            {
+              stat: ass-size
+              value: 2
+              trigger: activation
+            }
+          ]
           description: '''Being this big is going to be challenging, but if you just can't get enough of that round big belly in front of you, this is the one you want. Wherever you go, everyone will go out of their way to help you anyways.'''
           transformation: '''Your belly begins to grow, slowly at first, but then faster, beyond what you thought possible, all but rendering you immobile. Yet you feel absolutely divine. This is what you were meant to be.'''
           tags: ["extreme"]
