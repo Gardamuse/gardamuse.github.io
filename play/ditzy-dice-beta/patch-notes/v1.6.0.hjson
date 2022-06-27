@@ -10,6 +10,8 @@ text: '''
         * Stats affects various game mechanics, such as mana gained.
 * Added Lust
         * Once you reach maximum lust, you will orgasm, gaining mana and triggering any on-orgasm trigger effects from cards.
+* Added Ability: Redraw
+        * After rolling for how many cards you will pick, you may redraw the cards on the table
 
 # Content
 * New Cards
@@ -17,6 +19,7 @@ text: '''
         * Eidetic Erotics
         * Beautiful Mind
         * Fuck Bunny
+* Some cards that only used to have reduction effects (like Intelligence and Memory) now have some subcards that increase those stats instead.
 
 # Modding
 * The [**Blushing Defeat Sexy Mods**](https://mods.blushingdefeat.com) repository is now available as a one-stop-shop for browsing and sharing mods.

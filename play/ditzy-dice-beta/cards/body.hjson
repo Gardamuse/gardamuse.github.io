@@ -499,7 +499,7 @@
           effects: [
             {
               stat: beauty
-              value: 1
+              value: 2
               trigger: activation
             }
             {
@@ -523,12 +523,12 @@
               trigger: activation
             }
             {
-              stat: sex-drive
-              value: 1
+              stat: intelligence
+              value: -1
               trigger: activation
             }
             {
-              stat: cute
+              stat: sex-drive
               value: 1
               trigger: activation
             }
@@ -1674,6 +1674,7 @@
       id: "beautiful mind"
       name: "Beautiful Mind"
       thumb: "art/intelligence-kobi-0000.webp"
+      artist: "Kobi-Tfs"
       effects: [
         {
           stat: intelligence
@@ -1684,6 +1685,53 @@
       description: '''Intelligence can be hot too, but usually that's in more of a figurative sense. But for you, intelligence manifests as real physical beauty.'''
       transformation: '''demon: That's an interesting card. Now I almost don't want you to become a dumb slut anymore. Almost.'''
       tags: []
+    }
+    {
+      id: "sensitive udders"
+      name: "Sensitive Udders"
+      thumb: "art/milk-time.webp"
+      artist: "Gardamuse"
+      effects: [
+        {
+          stat: sensitivity
+          target: lactation
+          value: 0.5
+        }
+        {
+          stat: inhibitions
+          value: -1
+        }
+      ]
+      description: '''Touch now stimulates your breasts to produce milk, the more sensitive you are, the stronger the effect becomes.
+      
+      Side effects may include an increased willingness to having your breasts groped in public.
+      '''
+      transformation: '''Your breasts suddenly feel ever so slightly warmer. You give your left boob an inspecting nudge. That feels quite good, better than before, even.'''
+      tags: ["lactation"]
+    }
+    {
+      id: "perfectly balanced"
+      name: "Perfectly Balanced"
+      thumb: "art/carpe-diem-animation-small-2.webp"
+      artist: "Gardamuse"
+      effects: [
+        {
+          stat: breast-size
+          target: ass-size
+          value: 0.5
+        }
+        {
+          stat: ass-size
+          target: breast-size
+          value: 0.5
+        }
+      ]
+      description: '''_Pretty, isn't it? Perfectly balanced, as all things should be._
+
+      Your breasts and ass strive for balance, giving each a bonus based on the other.
+      '''
+      transformation: ''''''
+      tags: ["expansion"]
     }
 
     /*
