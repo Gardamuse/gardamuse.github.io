@@ -1069,8 +1069,8 @@
     {
       id: "dumb cow"
       name: "Dumb Cow"
-      thumb: "art/cathyl-card.webp"
-      artist: "Luxu"
+      thumb: "art/milk-time.webp"
+      artist: "Gardamuse"
       effects: [
             {
               stat: lactation
@@ -1093,7 +1093,7 @@
     {
       id: "eidetic erotics"
       name: "Eidetic Erotics"
-      thumb: ""
+      thumb: "art/mispell-gallery-2.webp"
       effects: [
         {
           stat: lust

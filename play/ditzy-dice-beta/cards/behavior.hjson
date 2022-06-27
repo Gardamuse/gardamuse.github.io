@@ -829,5 +829,22 @@
       player: Wow... I don't know how I never, like, realized how yummy all that dark chocolate looks! I might need to book a vacation!
       '''
     }
+    {
+      id: "fuck bunny"
+      name: "Fuck Bunny"
+      thumb: "art/valentine-bunny-2.webp"
+      artist: "Gardamuse"
+      effects: [
+        {
+          stat: cute
+          target: sex-drive
+          value: 0.5
+        }
+      ]
+      description: '''The cuter you look, the higher your sex drive? It seems to work for bunnies, so why not for you too?
+      '''
+      transformation: '''demon: Becoming a sex-fueled little honey-bun are we? How adorable.'''
+      tags: []
+    }
   ]
 }

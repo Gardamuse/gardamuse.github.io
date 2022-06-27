@@ -1673,7 +1673,7 @@
     {
       id: "beautiful mind"
       name: "Beautiful Mind"
-      thumb: ""
+      thumb: "art/intelligence-kobi-0000.webp"
       effects: [
         {
           stat: intelligence
