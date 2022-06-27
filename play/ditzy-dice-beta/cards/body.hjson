@@ -1670,6 +1670,21 @@
         }
       ]
     }
+    {
+      id: "beautiful mind"
+      name: "Beautiful Mind"
+      thumb: ""
+      effects: [
+        {
+          stat: intelligence
+          target: beauty
+          value: 0.5
+        }
+      ]
+      description: '''Intelligence can be hot too, but usually that's in more of a figurative sense. But for you, intelligence manifests as real physical beauty.'''
+      transformation: '''demon: That's an interesting card. Now I almost don't want you to become a dumb slut anymore. Almost.'''
+      tags: []
+    }
 
     /*
     {

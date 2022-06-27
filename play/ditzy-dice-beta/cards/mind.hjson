@@ -1080,15 +1080,33 @@
             {
               stat: lactation
               target: intelligence
-              value: -1
+              value: -0.5
             }
           ]
       description: '''Cows should be dumb, don't you think? Makes them easier to deal with. Not to mention it is a lot more fun to spend eight hours a day in the milking booth when you're so stupid that even the smallest thing can keep you interested for half an hour at a time.
 
-      Lose intelligence equal to your lactation.
+      Lose intelligence equal to half your lactation.
       '''
       transformation: ''''''
-      tags: ["lactation"]
+      tags: ["lactation", "iq"]
+    }
+    {
+      id: "eidetic erotics"
+      name: "Eidetic Erotics"
+      thumb: ""
+      effects: [
+        {
+          stat: lust
+          target: memory
+          value: 0.4
+        }
+      ]
+      description: '''Can't you even remember how to spell, but still don't want to forget any of that delicious pornography, or any of those wonderful positions?
+      
+      This card will let you remember whatever you want, but only when you're horny.
+      '''
+      transformation: '''demon: Ah, this is the best of both worlds don't you think? When you're not turned on you get to forget all those boring things, and when you're begging for release you get to remember every sexy trick in the book.'''
+      tags: []
     }
   ]
 }
