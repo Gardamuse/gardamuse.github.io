@@ -1,0 +1,27 @@
+[
+    // If id is that of an existing character, only the properties you set will be overriden
+    // Here we're only setting a custom portrait for the player
+    {
+        id: player
+        portrait: "portrait1.webp"
+    }
+    // Here we're creating a custom character, so we should specify most properties
+    {
+        id: agent-blue
+        // How this character's name appears in game. (Not yet used as of v1.6.0, but do set it.)
+        name: Agent Blue
+        // Path of the character portrait, relative to the characters folder
+        portrait: "agent-blue-2.webp"
+        // Color of the speech bubble. You can use any valid HTML color code.
+        backgroundColor: "#35b"
+        
+        // Text color. In this case we don't set it to use the default text color instead.
+        //textColor: "#f3f3f3"
+
+        // Specify the type of speech bubble. Allowed values:
+        // left: portrait and speech bubble will be on the left (default for player)
+        // right: portrait and speech bubble will be on the right (default for anyone except player)
+        // center: no portrait will be shown. Speech bubble in center. (default for narrator)
+        direction: right
+    }
+]

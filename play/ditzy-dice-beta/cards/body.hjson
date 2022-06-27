@@ -73,6 +73,11 @@
               value: 3
               trigger: activation
             }
+            {
+              stat: vanity
+              value: 1
+              trigger: activation
+            }
           ]
           description: '''Your lips are going to be so large they couldn't possibly be natural, yet look and feel as soft as pillows. And with that permanent pouty expression they are impossibly alluring, like you're just waiting to wrap them around something long and hard.'''
           transformation: '''Your lips quickly swell up to the point that you can clearly see it happen at the bottom of your field of vision. And while they are so large you have trouble moving them properly, they are also extremely soft. In fact, you know they could be a very comfortable resting place for any number of things! Mostly dicks though, let's be honest.'''
@@ -84,6 +89,11 @@
             {
               stat: beauty
               value: 3
+              trigger: activation
+            }
+            {
+              stat: vanity
+              value: 2
               trigger: activation
             }
           ]
@@ -753,6 +763,11 @@
               value: 1
               trigger: activation
             }
+            {
+              stat: vapidity
+              value: 1
+              trigger: activation
+            }
           ]
           description: '''Your makeup will always look a bit too much, and when you get tired your makeup will start looking a little rough around the edges.'''
           transformation: '''Congratulations, now you can look like you're trying too hard to be pretty without any of the actual effort!'''
@@ -766,6 +781,11 @@
             {
               stat: beauty
               value: 1
+              trigger: activation
+            }
+            {
+              stat: vapidity
+              value: 2
               trigger: activation
             }
           ]

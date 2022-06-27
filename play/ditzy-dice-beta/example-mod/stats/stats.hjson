@@ -1,0 +1,38 @@
+[
+    {
+        // ID of stat, be careful changing this after your mod has been released
+        // If ID is the same as a built-in or modded stat, the latest loaded mod will override it
+        id: chivalry
+        // Name of stat that will show up in game
+        name: Chivalry
+        // Optional: This will make sure your stat always shows up in this stat-group
+        group: extra
+        // Short description of how this stat influences the player and/or game mechanics.
+        description: "How chivalrous you are."
+        // Optional: The minimum value of this stat. Default: 0.
+        min: 0
+        // Optional: The default starting value of this stat. Default: 0
+        value: 10
+        // Optional: The maximum value of this. Default: 20
+        max: 20
+        // The effects of this stat. This is similar to Contribution effects for cards.
+        // Ex: "memory: -0.8" means that 80% of this stat should always be subtracted from memory
+        //
+        // Most stats should have a 100% contribution to its own group.
+        // If "group" property is not set, stat will belong to the group it contributes the most to
+        // If stat has no "group" and has no contribution to a group, it will not be shown
+        effects: {
+            extra: 1
+            lust-max: 0.5
+        }
+    }
+    {
+        id: buffness
+        name: Buffness
+        description: "How buff and fit you are."
+        value: 5
+        effects: {
+            extra: 1
+        }
+    }
+]

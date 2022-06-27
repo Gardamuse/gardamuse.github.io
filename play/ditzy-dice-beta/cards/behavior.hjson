@@ -353,6 +353,18 @@
         {
           id: "expenses 1"
           name: "Low Maintenance"
+          effects: [
+            {
+              stat: beauty
+              value: -1
+              trigger: activation
+            }
+            {
+              stat: vapidity
+              value: -1
+              trigger: activation
+            }
+          ]
           description: '''Some may think you are poor or trashy, but you just don't care much about material things. You are a free spirit, attempting to live a real life, without being burdened by consumerism.
 
           No one will complain you are high maintenance, but maybe wonder if you couldn't have dressed up a little more than in a worn t-shirt for that fancy dinner party.
@@ -364,6 +376,18 @@
           name: "Shopaholic"
           thumb: "art/shopping.webp"
           artist: "CrazyCowProductions"
+          effects: [
+            {
+              stat: vapidity
+              value: 2
+              trigger: activation
+            }
+            {
+              stat: beauty
+              value: 1
+              trigger: activation
+            }
+          ]
           description: '''Shopping is your favourite pastime, and receiving gifts just makes you so happy! What you are actually getting isn't really that important, it's just fun with new things, right?
 
           Most people tire pretty quickly of helping you carry shopping bags, but at least you're easy to please. A small gift and you're as happy as a clam.
@@ -375,6 +399,23 @@
           name: "Spoiled Princess"
           thumb: "art/diva-card.webp"
           artist: "Gardamuse"
+          effects: [
+            {
+              stat: vapidity
+              value: 3
+              trigger: activation
+            }
+            {
+              stat: willpower
+              value: 1
+              trigger: activation
+            }
+            {
+              stat: beauty
+              value: 2
+              trigger: activation
+            }
+          ]
           description: '''Designer clothing, expensive gifts and luxury is what makes you happy. If you can have that and get whatever you're pointing at you'll be as happy and helpful as can be, but don't and you'll show them what a bitch you can really be.
           '''
           transformation: '''player: I mean, these life altering magic spells and whatever are all well and good, but so far I haven't seen a single price tag. You're not getting cheap on me, are you?
