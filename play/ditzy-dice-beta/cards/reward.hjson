@@ -48,7 +48,7 @@
           ]
     description: '''While active this spell makes you smarter (+1 intelligence, memory or attention span). Multiple instances of this spell can be active at once. Keeping too many instances active at once may have detrimental effects.
 
-    Costs 1 mana per hour. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.
+    Costs 1 mana per hour.
     '''
     transformation: '''demon: Huh... I didn't know this spell was still in there. Well, maybe you'll get to feel smart every know and again, then. I don't see anything too wrong with that, to be honest.'''
     tags: ["spell", "iq"]
@@ -59,7 +59,9 @@
     thumb: "art/super-miranda.webp"
     description: '''While this spell is active, you become incredibly strong and resilient, although not completely invulnerable. Lift stuff, punch through walls or defend yourself.
 
-    Costs 1 mana per 20 minutes. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.
+    Costs 1 mana per 20 minutes.
+
+    _"Strength does not come from physical capacity, but from an indomitable will."_
     '''
     transformation: '''demon: It might be the most common superpower of all, but that's only because it's so GOOD! Being strong as an ox and tough enough to shrug off small arms fire? Almost makes up for being a bimbo, right?'''
     tags: ["spell"]
@@ -70,7 +72,7 @@
     thumb: "art/glasses-thumb.webp"
     description: '''Transform the mind and body of a nearby person, but you can only give them characteristics more similar to yours. Transformations are permanent unless you reset them, which you can do at any time.
 
-    Costs 1 mana per cast. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.
+    Costs 1 mana per cast.
     '''
     transformation: '''demon: Going to make more people into girls like yourself, huh? The poor guys you lure in won't know what hit them! Speaking of which, we better wrap this up quick before you want to start charging up your mana reserves...'''
     tags: ["spell"]
@@ -93,7 +95,7 @@
           ]
     description: '''Transform your body into anything female and somewhat humanoid, but you can't alter characteristics from your other cards. Centaur, mermaid, or something more subtle? If you have Transform Others, this functions on others too.
 
-    Costs 1 mana per cast. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.
+    Costs 1 mana per cast.
     '''
     transformation: '''demon: What? You don't think the transformation cards you got are good enough? Fine, be that way. Change yourself however you like! But by the time we are done, what you want might not be so far off from what you end up as...'''
     tags: ["spell"]
@@ -116,7 +118,7 @@
           ]
     description: '''You can lower a nearby person's intelligence, memory and attention span. You can set the changes to revert after a given time, or be permanent until you revert them. This power can be used on yourself.
 
-    Costs 1 mana per cast. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.
+    Costs 1 mana per cast.
     '''
     transformation: '''demon: Not satisfied being the only bimbo in town, or maybe just jealous of all the "smart peeps"? Well, with this spell, given enough time you can make the whole city join you in blissful ignorance! And hey, why not top yourself off too? What's the harm in that?'''
     tags: ["spell", "iq"]
@@ -139,7 +141,9 @@
           ]
     description: '''Choose any age, and your body will age forwards or backwards in order to become that age. Casting this spell toggles its effect, but it will deactivate if you run out of mana.
 
-    Costs 3 mana per week. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.
+    Costs 3 mana per week.
+
+    _"The key to immortality is first living a life worth remembering."_
     '''
     transformation: '''demon: Who wants to live forever? Well you might not live FOREVER, but you can get damn close so long as you keep screwing and masturbating regularly! Huh, I guess this means those Chinese sages were on to something, doesn't it?'''
     tags: ["spell"]
@@ -157,7 +161,7 @@
           ]
     description: '''By touching an erogenous zone, you can heal any wound and cure any illness on that person in a few minutes. This includes resurrecting the very recently dead, if their body is mostly whole. Used regularly, this spell will ensure a long and healthy life, but not immunity to aging.
 
-    Costs 1 mana per cure. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.
+    Costs 1 mana per cure.
     '''
     transformation: '''demon: With this spell, you're actually sort of morally obliged to fuck everyone you can. The world requires your healing touch! Bang it out and save the world!'''
     tags: ["spell"]
@@ -166,52 +170,6 @@
     id: "spell: possess"
     name: "Spell: Possess"
     thumb: "art/spell-book.webp"
-    effects: [
-            {
-              stat: persuasion
-              value: 5
-              trigger: activation
-            }
-            {
-              stat: mana
-              value: -1
-              trigger: activation
-            }
-          ]
-    description: '''You take full control of a targets body, but not their mind. You are able to move, talk, see and hear as if you are them. Target is in a trance until the spell is over. You can choose whether the target should remember what happened during the trance, or forget it.
-
-    Costs 1 mana per 30 minutes. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.
-    '''
-    transformation: '''Sure it might be fun getting to be someone else for a while, but don't forget that you'll eventually have to go back to being yourself. There's no getting out of what the cards have given you.'''
-    tags: ["spell"]
-  }
-  {
-    id: "spell: issue command"
-    name: "Spell: Issue Command"
-    thumb: "art/spell-book.webp"
-    effects: [
-            {
-              stat: persuasion
-              value: 6
-              trigger: activation
-            }
-            {
-              stat: mana
-              value: -1
-              trigger: activation
-            }
-          ]
-    description: '''Command a target to do anything, and they will try their best to do it. Target is in a trance until the command is fulfilled, but no longer than 30 minutes. You can choose if the target should remember what happened during the trance, or forget it.
-
-    Costs 1 mana per command. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.
-    '''
-    transformation: '''demon: Well, well, well. Clearly someone isn't ready to give up control! With this spell you should be able to turn the tables at least every now and then, though be careful. If you're submissive enough this might just give even more power to your owner.'''
-    tags: ["spell"]
-  }
-  {
-    id: "spell: telepathy"
-    name: "Spell: Telepathy"
-    thumb: "art/telepathy-512px.webp"
     effects: [
             {
               stat: persuasion
@@ -224,9 +182,55 @@
               trigger: activation
             }
           ]
+    description: '''You take full control of a targets body, but not their mind. You are able to move, talk, see and hear as if you are them. Target is in a trance until the spell is over. You can choose whether the target should remember what happened during the trance, or forget it.
+
+    Costs 1 mana per 30 minutes.
+    '''
+    transformation: '''Sure it might be fun getting to be someone else for a while, but don't forget that you'll eventually have to go back to being yourself. There's no getting out of what the cards have given you.'''
+    tags: ["spell"]
+  }
+  {
+    id: "spell: issue command"
+    name: "Spell: Issue Command"
+    thumb: "art/spell-book.webp"
+    effects: [
+            {
+              stat: persuasion
+              value: 3
+              trigger: activation
+            }
+            {
+              stat: mana
+              value: -1
+              trigger: activation
+            }
+          ]
+    description: '''Command a target to do anything, and they will try their best to do it. Target is in a trance until the command is fulfilled, but no longer than 30 minutes. You can choose if the target should remember what happened during the trance, or forget it.
+
+    Costs 1 mana per command.
+    '''
+    transformation: '''demon: Well, well, well. Clearly someone isn't ready to give up control! With this spell you should be able to turn the tables at least every now and then, though be careful. If you're submissive enough this might just give even more power to your owner.'''
+    tags: ["spell"]
+  }
+  {
+    id: "spell: telepathy"
+    name: "Spell: Telepathy"
+    thumb: "art/telepathy-512px.webp"
+    effects: [
+            {
+              stat: persuasion
+              value: 2
+              trigger: activation
+            }
+            {
+              stat: mana
+              value: -1
+              trigger: activation
+            }
+          ]
     description: '''Hear what a nearby person, or person you've met previously, is thinking right now, or explore their memories, plans and personality. You can also talk to them, and they will hear your voice in their heads.
 
-    Costs 1 mana per 15 minutes. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.
+    Costs 1 mana per 15 minutes.
     '''
     transformation: '''demon: Reading minds and projecting thoughts? You'll make one hell of a detective if you can keep it together long enough to solve cases rather than just sleeping with all the witnesses.'''
     tags: ["spell"]
@@ -237,7 +241,9 @@
     thumb: "art/telekinesis-512px.webp"
     description: '''You can lift, move and manipulate nearby objects using up to 1 metric ton of force. Please be careful if you use it on people.
 
-    Costs 1 mana per 20 minutes. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.
+    Costs 1 mana per 20 minutes.
+
+    _"How many people here have telekinetic power? Raise my hand."_
     '''
     transformation: '''demon: If you ever wanted to be a superhero or villain, here's your opportunity. With the ability to shift great weights with your mind does come great responsibility after all! Just don't let your mana get too low, so screw responsibly when super-ing!'''
     tags: ["spell"]
@@ -265,7 +271,7 @@
           ]
     description: '''You learn how to slow time around you, down to a complete stand still should you want it. Just slowing time costs correspondingly less mana than stopping it entirely. Mana cost is based on your internal time.
 
-    Costs 1 mana per 20 minutes. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.
+    Costs 1 mana per 20 minutes.
     '''
     transformation: '''demon: The world will be your oyster when you can stop time on command! Who can stop you when you're able to act with total impunity within your own frozen world? Though let's face it, you will probably just end up using it for kinky play and to score with guys.'''
     tags: ["spell"]
@@ -288,7 +294,7 @@
           ]
     description: '''You can travel back and forwards through time. While casting, you don't exist in time. Travelling backwards spawns a new timeline. By setting markers you can return to any visited timeline.
 
-    Costs 1 mana per minute casting, or 1 mana to travel to a marker. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.
+    Costs 1 mana per minute casting, or 1 mana to travel to a marker.
     '''
     transformation: '''demon: A time traveling bimbo witch? No way that could go wrong. Fortunately this spell is completely paradox proof, which is good because there is no way you won't end up fucking your own great, great grandfather or whatever.'''
     tags: ["spell"]
@@ -299,8 +305,12 @@
     thumb: "art/flight-512px.webp"
     description: '''You learn how to fly; at great speeds or just hovering in place.
 
-    Costs 1 mana per hour. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.'''
-    transformation: '''All of a sudden the forces of gravity start to feel a little less overwhelming. Not weaker, but a bit more friendly, as if your will would be enough to make it do your bidding.'''
+    Costs 1 mana per hour.
+    
+    _"If you want to fly, give up everything that weighs you down."_
+    '''
+    transformation: '''All of a sudden the forces of gravity start to feel a little less overwhelming. Not weaker, but a bit more friendly, as if your will would be enough to make it do your bidding.
+    '''
     tags: ["spell"]
   }
   {
@@ -321,7 +331,7 @@
           ]
     description: '''Rob banks, spy on people or just hide. You can turn yourself and up to a cubic meter of material, including other people, invisible. To turn something invisible, some part of it must be very close to you.
 
-    Costs 1 mana per hour. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.
+    Costs 1 mana per hour.
     '''
     transformation: '''demon: Where did you go? You just vanished!? Ha just kidding, you're going to need more mana before you can pull that off, but it should make for a useful party trick. Just be careful when peeping that the spell doesn't wear off when you're slicking in the mens changing room...'''
     tags: ["spell"]
@@ -344,7 +354,7 @@
           ]
     description: '''You can phase yourself and up to a metric ton of material, including other people. While phasing, you can float up, down and through any object as if it wasn't there, and you look slightly transparent. To phase material, some part of it must be very close to you.
 
-    Costs 1 mana per 4 minutes. You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.
+    Costs 1 mana per 4 minutes.
     '''
     transformation: '''demon: With the ability to phase through any material, getting out of jail if you're caught working the street corners as a prostitute will be a breeze! Not that you're going to end up doing that. But if you do...'''
     tags: ["spell"]
@@ -356,7 +366,7 @@
     thumb: ""
     description: '''You can turn the dead into living, but they will become mindless bimbo versions of themselves. Costs 1 mana per day per bimbo.
 
-    You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month.'''
+   '''
     transformation: ''''''
   }*/
   {
@@ -366,7 +376,7 @@
     artist: "Jingming Pan"
     description: '''Money makes the world go 'round they say. And let me tell you, plenty of people have bargained their soul for this alone. But take this card and you'll get it for free.
 
-    Let's see how much you get.'''
+    _"Money doesn't change you; it reveals who you are when you no longer have to be nice._"'''
     transformation: ''''''
     type: "numeric"
     levels: [

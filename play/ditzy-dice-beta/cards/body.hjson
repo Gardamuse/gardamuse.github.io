@@ -74,7 +74,7 @@
               trigger: activation
             }
             {
-              stat: vanity
+              stat: vapidity
               value: 1
               trigger: activation
             }
@@ -92,7 +92,7 @@
               trigger: activation
             }
             {
-              stat: vanity
+              stat: vapidity
               value: 2
               trigger: activation
             }
@@ -1671,22 +1671,6 @@
       ]
     }
     {
-      id: "beautiful mind"
-      name: "Beautiful Mind"
-      thumb: "art/intelligence-kobi-0000.webp"
-      artist: "Kobi-Tfs"
-      effects: [
-        {
-          stat: intelligence
-          target: beauty
-          value: 0.5
-        }
-      ]
-      description: '''Intelligence can be hot too, but usually that's in more of a figurative sense. But for you, intelligence manifests as real physical beauty.'''
-      transformation: '''demon: That's an interesting card. Now I almost don't want you to become a dumb slut anymore. Almost.'''
-      tags: []
-    }
-    {
       id: "sensitive udders"
       name: "Sensitive Udders"
       thumb: "art/milk-time.webp"
@@ -1726,9 +1710,9 @@
           value: 0.5
         }
       ]
-      description: '''_Pretty, isn't it? Perfectly balanced, as all things should be._
+      description: '''Your breasts and ass strive for balance, giving each a bonus based on the other.
 
-      Your breasts and ass strive for balance, giving each a bonus based on the other.
+      _"Pretty, isn't it? Perfectly balanced, as all things should be."_
       '''
       transformation: ''''''
       tags: ["expansion"]

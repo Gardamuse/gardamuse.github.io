@@ -159,7 +159,7 @@
 
           player: Uuuuh... wha.. my... erhm...?
 
-          When you finally notice that you're drooling down your top it takes you a good ten seconds to figure out that you should close your mouth to make it stop. Any remnants of your former IQ will have long since have dripped out of your pussy before you've even remembered you have one.
+          When you finally notice that you're drooling down your top it takes you a good ten seconds to figure out that you should close your mouth to make it stop. Any remnants of your former IQ will have long since dripped out of your pussy before you've even remembered you have one.
 
           demon: Haha, oh how I love that drooling expression! Tell you what, if you can tell me what 2 + 2 is, right now, I give you back all your smarts.
 
@@ -411,11 +411,6 @@
           id: "syllable limit 1"
           name: "Six"
           effects: [
-            {
-              stat: vapidity
-              value: 1
-              trigger: activation
-            }
           ]
           description: '''Any words with more than six syllables will become incomprehensible for you. Yet, your circumnavigation of language will not really be affected, since few words used with responsibility in mind are longer than that.'''
           transformation: '''You might perchance find this limitation on your vocabulary onerous, but rest assured, your mental faculties will remain as acute as ever.'''
@@ -424,11 +419,6 @@
           id: "syllable limit 2"
           name: "Five"
           effects: [
-            {
-              stat: vapidity
-              value: 2
-              trigger: activation
-            }
           ]
           description: '''With five syllables your alphabetical terminology will be only slightly dilapidated. As such, you should feel insignificant insecurity because of it, and most words of rationality will still be yours to command.'''
           transformation: '''demon: Though you may find some words slipping from your linguistic grasp, you should be fine outside of the odd spelling bee and pretentious party chat up. Hardly a great loss.'''
@@ -437,11 +427,6 @@
           id: "syllable limit 3"
           name: "Four"
           effects: [
-            {
-              stat: vapidity
-              value: 3
-              trigger: activation
-            }
           ]
           description: '''Four syllables is obviously not an overwhelming limitation, although you will undoubtedly appreciate a reduced complexity of literature. Yet your intelligence will only with difficulty appear a little disappointing.'''
           transformation: '''demon: From now on you might find yourself coming off a bit uneducat-, oh sorry I should say, you might seem like you didn't go to college. That's fine though, you still come off as perfectly clever most of the time.'''
@@ -452,7 +437,7 @@
           effects: [
             {
               stat: vapidity
-              value: 4
+              value: 1
               trigger: activation
             }
           ]
@@ -465,7 +450,7 @@
           effects: [
             {
               stat: vapidity
-              value: 5
+              value: 2
               trigger: activation
             }
             {
@@ -483,7 +468,7 @@
           effects: [
             {
               stat: vapidity
-              value: 6
+              value: 3
               trigger: activation
             }
             {
@@ -919,7 +904,7 @@
       effects: [
             { 
               stat: vapidity
-              value: 2
+              value: 3
               trigger: activation
             }
           ]
@@ -934,7 +919,7 @@
       name: "On Your Knees"
       thumb: "art/griffinwolf-card.webp"
       artist: "CrazyCowProductions"
-      description: '''Every day you will forget how to walk for 8 hours, but you can choose how to distribute those hours. Needless to say, you will have to crawl on all fours alot more. Fortunately you will have no pains from walking on all fours either.
+      description: '''Every day you will forget how to walk for 8 waking hours, but you can choose how to distribute those hours. Needless to say, you will have to crawl on all fours alot more. Fortunately you will have no pains from walking on all fours either.
 
       It may feel weird at first, but you'll make for a cute pet I'm sure.'''
       transformation: '''demon: I gotta say it's quite amusing watching you trying to stand up, but let me save you some struggle: You will spend a lot more of your life on all fours from now, so you better get used to it. It will be easier if you just embrace a pet's life, trust me.'''
@@ -1106,6 +1091,22 @@
       This card will let you remember whatever you want, but only when you're horny.
       '''
       transformation: '''demon: Ah, this is the best of both worlds don't you think? When you're not turned on you get to forget all those boring things, and when you're begging for release you get to remember every sexy trick in the book.'''
+      tags: []
+    }
+    {
+      id: "beautiful mind"
+      name: "Beautiful Mind"
+      thumb: "art/intelligence-kobi-0000.webp"
+      artist: "Kobi-Tfs"
+      effects: [
+        {
+          stat: intelligence
+          target: beauty
+          value: 0.5
+        }
+      ]
+      description: '''Intelligence can be hot too, but usually that's in more of a figurative sense. But for you, intelligence manifests as real physical beauty.'''
+      transformation: '''demon: That's an interesting card. Now I almost don't want you to become a dumb slut anymore. Almost.'''
       tags: []
     }
   ]
