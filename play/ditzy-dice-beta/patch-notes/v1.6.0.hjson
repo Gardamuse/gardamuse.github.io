@@ -1,6 +1,6 @@
 {
 name: "Satanistic Statistics"
-date: "2022-06-27"
+date: "2022-07-05"
 text: '''
 # Features
 * Added player stats
@@ -29,6 +29,10 @@ text: '''
 * It is now possible to adjust the load order of mods.
         * Mods with a later mod order may override ones with an earlier.
         * This feature is quite untested, so it might not work. If so, please send me examples so I can replicate!
+* __Breaking change__ Epilogue requirements can no longer use the sum() function and ids with spaces must be wrapped in quotes.
+        * The + and - operators can be used instead of sum.
+        * Ex: `sum(iq, ass size) > 5` should now be `iq + "ass size" > 5`
+* Epilogue requirements can now use parenthesis () to change the order of operations, just like in math.
 * Modded cards can have Trigger and Contribution effects
 * Mods can add their own Stats (but not stat groups)
 * Mods can override properties (like portrait or speech bubble color) for the demon and player
@@ -39,6 +43,7 @@ text: '''
 * Game UI now shows player stats.
 * The box for cards in the player's hand is now minimized by default and expands when hovered.
 * Mod name is now visible on cards added by mods. (Mod has to be reloaded fort this to work.)
+* A progress bar is now shown while loading a mod.
 
 # Minor
 * Upgraded many behind-the-scenes libraries and build tool chain.

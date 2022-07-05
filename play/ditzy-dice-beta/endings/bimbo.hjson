@@ -3,9 +3,13 @@
   title: "Bimbo"
   likelihood: 20
   requirements: '''
-    iq >= 4 AND sum(bimbo, expansion, slut) >= 3
-    OR slut >= 6 AND sum(bimbo, expansion) >= 4
+    breast-size + ass-size + vapidity > 5 AND (
+    intellect < 20
+    OR intelligence < 5
+    OR libido > 10 )
   '''
+  /*OR iq >= 4 AND sum(bimbo, expansion, slut) >= 3
+    OR slut >= 6 AND sum(bimbo, expansion) >= 4*/
   nodes: [
     {
       id: "start"

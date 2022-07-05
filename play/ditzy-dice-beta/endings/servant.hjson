@@ -3,12 +3,11 @@
   title: "Servant"
   likelihood: 30
   requirements: '''
-    iq >= 2
-    AND sum(personality.eye candy, personality.object, willpower, lap warmer) >= 2
-    AND sum(submissive silence, smooth as silk, mascara.mascara 1, heels, choker, thigh highs, second language, gullible, tramp stamp, expenses.expenses 1, height) >= 2
-    OR iq >= 2
-    AND maid to serve >= 1
-    AND sum(submissive silence, smooth as silk, mascara.mascara 1, heels, choker, thigh highs, second language, gullible, tramp stamp, expenses.expenses 1, height) >= 2
+    "submissive silence" + "smooth as silk" + "mascara.mascara 1" + heels + choker + "thigh highs" + "second language" + gullible + "tramp stamp" + "expenses.expenses 1" + height >= 2 AND
+    (
+    iq >= 2 AND "personality.eye candy" + "personality.object" + willpower + "lap warmer" >= 2
+    OR iq >= 2 AND "maid to serve" >= 1
+    )
   '''
   nodes: [
     {
