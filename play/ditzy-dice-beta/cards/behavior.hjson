@@ -209,6 +209,11 @@
               trigger: activation
             }
             {
+              stat: willpower
+              value: -1
+              trigger: activation
+            }
+            {
               stat: vapidity
               value: 1
               trigger: activation

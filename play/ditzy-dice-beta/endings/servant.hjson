@@ -3,11 +3,9 @@
   title: "Servant"
   likelihood: 30
   requirements: '''
-    "submissive silence" + "smooth as silk" + "mascara.mascara 1" + heels + choker + "thigh highs" + "second language" + gullible + "tramp stamp" + "expenses.expenses 1" + height >= 2 AND
-    (
-    iq >= 2 AND "personality.eye candy" + "personality.object" + willpower + "lap warmer" >= 2
-    OR iq >= 2 AND "maid to serve" >= 1
-    )
+    willpower < 5 OR
+    willpower < 7 AND intellect < 23 OR
+    willpower < 8 AND ("maid to serve" >= 2 OR "personality.object" >= 1)
   '''
   nodes: [
     {

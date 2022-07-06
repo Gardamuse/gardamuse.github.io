@@ -303,12 +303,19 @@
       tags: ["bimbo", "iq"]
       type: "numeric"
       levels: [
-        /*{
-          id: "chamber of solitude"
-          name: "Chamber of Solitude"
+        {
+          id: "attention 0"
+          name: "Crucible of Focus"
+          effects: [
+            {
+              stat: attention-span
+              value: 6
+              trigger: activation
+            }
+          ]
           description: '''As long as you can stay awake, you can remain focused on any task you wish. Nothing can disturb you if you don't wish it, so please just remember to eat and drink regularly!'''
-          transformation: ''''''
-        }*/
+          transformation: '''Slowly all the noise around you, and in your mind, seems to disappear. You can hear perfectly well, but your thoughts seem so crisp and clear, in stark contrast to the noise and needs of the world around you and your body.'''
+        }
         {
           id: "attention 1"
           name: "Inattentive"

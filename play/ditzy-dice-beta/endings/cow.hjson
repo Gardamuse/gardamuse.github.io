@@ -3,11 +3,11 @@
   title: "Cow"
   likelihood: 30
   requirements: '''
-    lactation >= 1
-    AND iq + animal + pet >= 4
-    AND lactation + breast-size + "ass size" + preg >= 4
-    OR lactation >= 4
-    AND iq + animal + pet >= 1
+    lactation >= 2
+    AND (
+      AND intellect < 20 AND breast-size + ass-size + preg >= 10
+      OR lactation + breast-size >= 6
+    )
   '''
   nodes: [
     {
@@ -69,7 +69,7 @@
     {
       id: "self"
       title: "You'll be fine by yourself"
-      requirements: "lactation <= 2 AND iq <= 4"
+      requirements: "lactation <= 2 AND intellect >= 25"
       text: '''
       player: I think you're exaggerating a bit there, I'm not producing THAT much milk!
 

@@ -33,10 +33,15 @@ text: '''
         * The + and - operators can be used instead of sum.
         * Ex: `sum(iq, ass size) > 5` should now be `iq + "ass size" > 5`
 * Epilogue requirements can now use parenthesis () to change the order of operations, just like in math.
+* Epilogue requirements now supports line comments via // or #, just like hjson itself.
 * Modded cards can have Trigger and Contribution effects
 * Mods can add their own Stats (but not stat groups)
 * Mods can override properties (like portrait or speech bubble color) for the demon and player
 * Mods can add their own characters. These can be referenced the same way as the demon/player in any card-transformation or epilogue.
+* Errors in a mod are now detected earlier (especially epilogue requirements) and can disable already loaded mods.
+        * Errors for disabled mods are visible on the mod in the mods list.
+        * Error on mod install is displayed in a dialogue window.
+        * This improvement makes it MUCH easier to find errors when developing the mod, rather than things just not working.
 
 
 # UI
@@ -44,6 +49,7 @@ text: '''
 * The box for cards in the player's hand is now minimized by default and expands when hovered.
 * Mod name is now visible on cards added by mods. (Mod has to be reloaded fort this to work.)
 * A progress bar is now shown while loading a mod.
+* In Settings -> Saves it is now possible to see the size of your save file. This can be useful for debugging.
 
 # Minor
 * Upgraded many behind-the-scenes libraries and build tool chain.

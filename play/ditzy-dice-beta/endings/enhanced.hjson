@@ -3,7 +3,7 @@
   title: "Enhanced"
   likelihood: 10
   requirements: '''
-    expansion >= 2 AND iq < 4
+    breast-size + ass-size >= 5 AND intellect >= 26
   '''
   nodes: [
     {
