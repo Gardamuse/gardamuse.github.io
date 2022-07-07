@@ -4,7 +4,8 @@
   likelihood: 30
   requirements: '''
     breast-size + ass-size + vapidity >= 10
-    AND ( intellect <= 20 OR intelligence <= 5 OR (memory + attention-span <= 10) OR libido >= 15 )
+    AND ( intellect <= 20 OR intelligence <= 5 OR (memory + attention-span <= 12) )
+    AND libido >= 10
   '''
   nodes: [
     {

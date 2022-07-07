@@ -3,16 +3,27 @@ name: "Satanistic Statistics"
 date: "2022-07-05"
 text: '''
 # Gameplay
-* Added player stats
+* Added stats for the player
         * Cards can affect stats in two ways: Trigger and Contribution.
         * Trigger effects will add/subtract from stats when they are triggered, typically when the card is activated.
         * Contribution effects will make the value of one stat affect another. Ex: your intelligence is reduced by 50% of your breast size.
         * Stats affects various game mechanics, such as mana gained.
 * Added Lust
         * Once you reach maximum lust, you will orgasm, gaining mana and triggering any on-orgasm trigger effects from cards.
+* Added Milk
+        * This meter becomes visible if you gain at least 1 point in Lactation.
+        * Maximum milk is the same as your breast size.
+        * Added an ability to milk yourself.
+        * Go without being milked for too long and your breasts may overflow, if your lactation is high.
 * Added Ability: Redraw
-        * After rolling for how many cards you will pick, you may redraw the cards on the table
-* Player now starts with 2 mana
+        * After rolling for how many cards you will pick, you may redraw the cards on the table.
+* Player now starts with 2 mana.
+* Player now have a maximum mana pool equal to their Memory stat.
+* Changed cost of picking one more or less card from 2 -> 1 mana.
+* Number of cards to draw is once again determined by 1 D6 (instead of 2 D3).
+* Number of obligatory rounds changed from 3 -> 4.
+* Maximum number of rounds is now 12.
+        * The mana cost of adding more rounds is now initially lower, but increases the more rounds you add.
 
 # Content
 * New Cards
@@ -24,6 +35,8 @@ text: '''
         * Sensitive Udders
         * Perfectly Balanced
 * Some cards that only used to have reduction effects (like Intelligence and Memory) now have some subcards that increase those stats instead.
+* Rebalanced epilogues to be based much more on stats instead of specific cards.
+        * This makes epilogues a lot easier to balance, but I may need some feedback on instances where it seems weird! (I can only play test the game so many times myself, and there are a lot of epilogues and stats.)
 * Removed "You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month." from all spell cards, since mana mechanics are now approximated well enough by game mechanics.
 * Various card adjustments.
 
@@ -50,10 +63,13 @@ text: '''
 # UI
 * Game UI now shows player stats.
 * The box for cards in the player's hand is now minimized by default and expands when hovered.
+        * It can also be pinned by pressing the button.
+        * Moved pin and show hand/all buttons to outside the box.
 * Dice have a new look and are slightly smaller.
 * Mod name is now visible on cards added by mods. (Mod has to be reloaded fort this to work.)
 * A progress bar is now shown while loading a mod.
 * In Settings -> Saves it is now possible to see the size of your save file. This can be useful for debugging.
+* Did some work on the mobile UI. But I know it is still far from ideal :c
 
 # Minor
 * Upgraded many behind-the-scenes libraries and build tool chain.

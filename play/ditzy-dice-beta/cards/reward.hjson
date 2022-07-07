@@ -401,36 +401,78 @@
       {
         id: "gold 4"
         name: "$10 Million"
+        effects: [
+            {
+              stat: persuasion
+              value: 1
+              trigger: activation
+            }
+          ]
         description: '''A lot of money. If you don't waste it, this will last you a lifetime. But you gotta afford yourself some luxuries too, right?'''
         transformation: '''demon: Hey, for ten million dollars I imagine a lot of people would have taken the risks you have! Maybe this whole 'bimbo' thing is going to work out well for you after all?'''
       }
       {
         id: "gold 5"
         name: "$100 Million"
+        effects: [
+            {
+              stat: persuasion
+              value: 2
+              trigger: activation
+            }
+          ]
         description: '''A luxury home, cars, boats and fancy parties. As long as you don't go overboard this is enough for a long life of luxuries.'''
         transformation: '''demon: One hundred million dollars! How do I even have that much earthly currency to give you, I hear you wonder? Lots of souls in the right places, simple as that. Well, if you're able to understand and enjoy this cash, you're coming out of this a real winner!'''
       }
       {
         id: "gold 6"
         name: "$1 Billion"
+        effects: [
+            {
+              stat: persuasion
+              value: 2
+              trigger: activation
+            }
+          ]
         description: '''Live life however you want! Cost will never be an issue. Any house, yacht or other item you could reasonably want are within your power to have.'''
         transformation: '''demon: What do you want? Anything you can name, it's yours! Even a bimbo like you will have trouble burning through this much cash in a single lifetime!'''
       }
       {
         id: "gold 7"
         name: "$10 Billion"
+        effects: [
+            {
+              stat: persuasion
+              value: 3
+              trigger: activation
+            }
+          ]
         description: '''You fancy living out the rest of your life throwing extravagant parties on one of your superyachts? Maybe take your private jet over to your private island? Go ahead. With this amount of money, nothing is out of reach.'''
         transformation: '''The world is yours for the taking. Buy islands, or maybe buy popular sci-fi franchises and mess with them so that everyone turns into a bimbo and the whole thing becomes a porn parody! With this much money, who's going to stop you?'''
       }
       {
         id: "gold 8"
         name: "$100 Billion"
+        effects: [
+            {
+              stat: persuasion
+              value: 3
+              trigger: activation
+            }
+          ]
         description: '''You are now among the very few richest people in the world. Have whatever you want, build your own city, change the world. No one can touch you.'''
         transformation: '''Do you want to take over a small island country and turn it into a bimbo paradise were only hunky men and buxom women can live and all taxes are paid in the form of sex with you? That's the kind of thing you can make happen with this amount of cash!'''
       }
       {
         id: "gold 9"
         name: "$1 Trillion"
+        effects: [
+            {
+              stat: persuasion
+              value: 4
+              trigger: activation
+            }
+          ]
         description: '''You are by far the richest person in the world. The only people that come close are the few rulers of antiquity who personally owned entire countries. Perhaps you could give that a go too?'''
         transformation: '''This amount of money rivals the GDP of most countries! If you're not a brain dead doll or pet, the power you wield is incredible. And if you are dumb as a rock, well, your owner is going to be VERY happy with you!'''
       }

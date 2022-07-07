@@ -4,7 +4,8 @@
   likelihood: 30
   requirements: '''
     breast-size + ass-size + vapidity >= 5
-    AND ( intellect <= 24 OR intelligence <= 7 OR ( memory + attention-span <= 15) OR libido >= 10 )
+    AND ( intellect <= 24 OR intelligence <= 7 OR ( memory + attention-span <= 15) )
+    AND libido >= 10
     AND spell + "wings of love" >= 5
     AND intelligence >= 4
   '''
