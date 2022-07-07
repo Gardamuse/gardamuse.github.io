@@ -7,7 +7,7 @@
     {
       id: "intelligence"
       name: "Intelligence"
-      thumb: "art/intelligence-kobi-0001.webp"
+      thumb: "art/intelligence-kobi-0002.webp"
       artist: "Kobi-Tfs"
       description: '''Intelligence is how good you are at solving problems, understanding people and figuring stuff out.
 
@@ -55,7 +55,7 @@
         {
           id: "intelligence 1"
           name: "Average"
-          thumb: "art/intelligence-kobi-0000.webp"
+          thumb: "art/intelligence-kobi-0001.webp"
           effects: [
             {
               stat: intelligence
@@ -72,7 +72,7 @@
         {
           id: "intelligence 2"
           name: "Lightheaded"
-          thumb: "art/intelligence-kobi-0001.webp"
+          thumb: "art/intelligence-kobi-0002.webp"
           description: '''Prepare to always feel a little lightheaded, like your thoughts try to hide in wisps of pink fog.
 
           It's not too bad though, as tasks that seemed menial and boring before, like ironing, cleaning and cooking, will now seem like fun puzzles you're good at solving.
@@ -89,7 +89,7 @@
         {
           id: "intelligence 3"
           name: "Ditzy"
-          thumb: "art/intelligence-kobi-0002.webp"
+          thumb: "art/intelligence-kobi-0003.webp"
           effects: [
             {
               stat: intelligence
@@ -115,7 +115,7 @@
         {
           id: "intelligence 4"
           name: "Airhead"
-          thumb: "art/intelligence-kobi-0003.webp"
+          thumb: "art/intelligence-kobi-0004.webp"
           effects: [
             {
               stat: intelligence
@@ -146,7 +146,7 @@
         {
           id: "intelligence 5"
           name: "Brainless"
-          thumb: "art/intelligence-kobi-0004.webp"
+          thumb: "art/intelligence-kobi-0005.webp"
           effects: [
             {
               stat: intelligence
@@ -188,6 +188,8 @@
         {
           id: "perfect recall"
           name: "Perfect Recall"
+          thumb: "art/education-4.webp"
+          art: "Gardamuse"
           effects: [
             {
               stat: memory
@@ -212,7 +214,7 @@
         {
           id: "memory 1"
           name: "University, No Thanks"
-          thumb: "art/education-4.webp"
+          thumb: "art/education-3.webp"
           art: "Gardamuse"
           effects: [
             {
@@ -298,7 +300,7 @@
       art: "Gardamuse"
       description: '''How long you are able to concentrate on a single task and block out distractions.
 
-      Focusing on stuff is going to get a lot harder for you, so hopefully that wasn't something you needed to do.'''
+      Do you need to improve your concentration? This card could make it a walk in the park! Or it could make focusing on stuff a lot harder, in which case there hopefully wasn't something you needed to do.'''
       transformation: '''A bird just flew past outside the window! Oh, what were you doing again? Nevermind.'''
       tags: ["bimbo", "iq"]
       type: "numeric"
@@ -306,6 +308,8 @@
         {
           id: "attention 0"
           name: "Crucible of Focus"
+          thumb: "art/education-4.webp"
+          art: "Gardamuse"
           effects: [
             {
               stat: attention-span
@@ -319,7 +323,7 @@
         {
           id: "attention 1"
           name: "Inattentive"
-          thumb: "art/education-4.webp"
+          thumb: "art/education-3.webp"
           art: "Gardamuse"
           effects: [
             {
@@ -722,78 +726,6 @@
       ]
     }
     {
-      id: "willpower"
-      name: "Willpower"
-      thumb: "art/maid.webp"
-      artist: "Gardamuse"
-      description: '''Willpower is interesting in that if you don't have the mental capacity to back it up it can fall a bit flat, but at the same time, if you are not too ditzy, it can make you seem a lot more in control and more able to power through tasks even if you don't really understand them.'''
-      transformation: ''''''
-      type: "numeric"
-      levels: [
-        {
-          id: "dominant"
-          name: "Dominant"
-          effects: [
-            {
-              stat: willpower
-              value: 6
-              trigger: activation
-            }
-          ]
-          description: '''You take the lead whenever possible, and your presence somehow always feels demanding. It turns out that a lot of people will just do what they're told if you sound confident enough.'''
-          transformation: '''demon: A dominatrix in the making, huh? Maybe not what I expected, but that's just fine by me.'''
-        }
-        {
-          id: "independent"
-          name: "Independent"
-          effects: [
-            {
-              stat: willpower
-              value: 3
-              trigger: activation
-            }
-          ]
-          description: '''You have no problem making decisions for yourself and you'll only follow orders when it suits your own purposes, but you don't feel like you always have to be in charge.'''
-          transformation: ''''''
-        }
-        {
-          id: "submissive"
-          name: "Submissive"
-          effects: [
-            {
-              stat: willpower
-              value: -4
-              trigger: activation
-            }
-          ]
-          description: '''You prefer being told what to do, and let others take control. You rarely say no, and you don't want to either. Yes feels so much better.'''
-          transformation: '''demon: You do feel a lot better when you let other's take control don't you?
-
-          player: Y-yes... master.
-          '''
-        }
-        {
-          id: "mindless"
-          name: "Mindless"
-          effects: [
-            {
-              stat: willpower
-              value: -8
-              trigger: activation
-            }
-          ]
-          description: '''You do whatever you're told and should someone not be around to tell you, you'll find someone to order you around. Being a mindless slave is so much better.'''
-          transformation: '''You look expectantly at the demon in front of you. He'll tell you what to do, surely? Maybe he will want something soon, and then he'll tell you. Best just remain quiet until you get a task.
-
-          demon: Ah, that card. I was starting to wonder why you looked so... eager all of a sudden. Don't just stand there, keep playing!
-
-          player: Yes master!
-          '''
-          tags: ["doll"]
-        }
-      ]
-    }
-    {
       id: "name"
       name: "A Fitting Name"
       thumb: "art/name.webp"
@@ -1103,8 +1035,8 @@
     {
       id: "beautiful mind"
       name: "Beautiful Mind"
-      thumb: "art/intelligence-kobi-0000.webp"
-      artist: "Kobi-Tfs"
+      thumb: "art/elainue-1.webp"
+      artist: "Gardamuse"
       effects: [
         {
           stat: intelligence

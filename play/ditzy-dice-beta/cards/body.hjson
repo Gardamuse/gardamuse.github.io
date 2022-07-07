@@ -844,7 +844,7 @@
           effects: [
             {
               stat: lactation
-              value: 1
+              value: 2
               trigger: activation
             }
           ]
@@ -857,7 +857,7 @@
           effects: [
             {
               stat: lactation
-              value: 2
+              value: 4
               trigger: activation
             }
           ]
@@ -870,7 +870,7 @@
           effects: [
             {
               stat: lactation
-              value: 4
+              value: 7
               trigger: activation
             }
           ]
@@ -883,7 +883,7 @@
           effects: [
             {
               stat: lactation
-              value: 8
+              value: 10
               trigger: activation
             }
           ]
@@ -1420,6 +1420,13 @@
       name: "Life In Plastic"
       thumb: "art/life-in-plastic.webp"
       artist: "Gardamuse"
+      effects: [
+        {
+          stat: vapidity
+          value: 4
+          trigger: activation
+        }
+      ]
       description: '''Your skin, expression and entire body will have a plastic, doll-like and fake look.'''
       transformation: '''You barely look real anymore, and your skin has such an unnatural shine to it. You've heard some folks REALLY like dolls though, so you should be just fine.'''
       tags: ["doll", "extreme"]
@@ -1696,7 +1703,7 @@
     {
       id: "perfectly balanced"
       name: "Perfectly Balanced"
-      thumb: "art/carpe-diem-animation-small-2.webp"
+      thumb: "art/perfectly-balanced.webp"
       artist: "Gardamuse"
       effects: [
         {

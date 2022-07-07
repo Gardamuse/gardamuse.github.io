@@ -116,7 +116,7 @@
       effects: [
             {
               stat: inhibitions
-              value: -1
+              value: -2
               trigger: activation
             }
           ]
@@ -146,6 +146,13 @@
       id: "bimbo virus"
       name: "The B-Virus"
       thumb: "art/bimbo-zombies-512px.webp"
+      effects: [
+            {
+              stat: vapidity
+              value: 1
+              trigger: activation
+            }
+      ]
       description: '''
       Having sex with you has a 9 in 10 chance to inflict a curse, causing your partner to slowly become dumber, sexier, hornier, and have a slightly lower chance of inflicting the curse to their sexual partners. The curse lasts for a few weeks. Most men who receive it become women for the duration, but some may become hyper masculine instead.
       '''
@@ -203,6 +210,13 @@
       id: "reflections-of-love"
       name: "Reflections of Love"
       thumb: "art/reflection-1024px.webp"
+      effects: [
+            {
+              stat: vapidity
+              value: 1
+              trigger: activation
+            }
+      ]
       description: '''All around you are familiar faces... or at least that will be the case after a night of sexual excess. From now on, anyone who you bring to climax will transform bit by bit into a copy of you! The effect will only last twenty four hours, but if the new "you" can't keep it together that long... You might end up slowly growing a harem of identical bimbos!'''
       transformation: '''demon: What an interesting gift you have gained! I doubt anyone with a strong will and an ounce of sense will let you transform them fully before letting the changes revert, but seeing how you humans usually act... I would not be surprised if more than a few will find themselves effectively permanently mirroring you.'''
     }

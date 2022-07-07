@@ -2,7 +2,7 @@
 name: "Satanistic Statistics"
 date: "2022-07-05"
 text: '''
-# Features
+# Gameplay
 * Added player stats
         * Cards can affect stats in two ways: Trigger and Contribution.
         * Trigger effects will add/subtract from stats when they are triggered, typically when the card is activated.
@@ -12,10 +12,12 @@ text: '''
         * Once you reach maximum lust, you will orgasm, gaining mana and triggering any on-orgasm trigger effects from cards.
 * Added Ability: Redraw
         * After rolling for how many cards you will pick, you may redraw the cards on the table
+* Player now starts with 2 mana
 
 # Content
 * New Cards
         * Dumb Cow
+        * Obedient Cow
         * Eidetic Erotics
         * Beautiful Mind
         * Fuck Bunny
@@ -23,6 +25,7 @@ text: '''
         * Perfectly Balanced
 * Some cards that only used to have reduction effects (like Intelligence and Memory) now have some subcards that increase those stats instead.
 * Removed "You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month." from all spell cards, since mana mechanics are now approximated well enough by game mechanics.
+* Various card adjustments.
 
 # Modding
 * The [**Blushing Defeat Sexy Mods**](https://mods.blushingdefeat.com) repository is now available as a one-stop-shop for browsing and sharing mods.
@@ -47,6 +50,7 @@ text: '''
 # UI
 * Game UI now shows player stats.
 * The box for cards in the player's hand is now minimized by default and expands when hovered.
+* Dice have a new look and are slightly smaller.
 * Mod name is now visible on cards added by mods. (Mod has to be reloaded fort this to work.)
 * A progress bar is now shown while loading a mod.
 * In Settings -> Saves it is now possible to see the size of your save file. This can be useful for debugging.

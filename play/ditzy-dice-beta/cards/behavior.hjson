@@ -35,7 +35,7 @@
       effects: [
             {
               stat: vapidity
-              value: 1
+              value: 2
               trigger: activation
             }
           ]
@@ -77,7 +77,7 @@
       effects: [
             {
               stat: vapidity
-              value: 1
+              value: 2
               trigger: activation
             }
           ]
@@ -143,7 +143,7 @@
       effects: [
             {
               stat: sex-drive
-              value: 1
+              value: 2
               trigger: activation
             }
           ]
@@ -237,6 +237,13 @@
       name: "Lightweight"
       thumb: "art/drink-ash-edmonds.webp"
       artist: "Ash Edmonds"
+      effects: [
+            {
+              stat: vapidity
+              value: 1
+              trigger: activation
+            }
+      ]
       description: '''You get very drunk from a single drink, but you also never become so drunk that you get sick, no matter how much you drink.'''
       transformation: '''Wooow! You just sniffed a bit of wine from the other room and you're already feeling kinda tipsy...'''
     }
@@ -248,6 +255,11 @@
       effects: [
             {
               stat: sensitivity
+              value: 1
+              trigger: activation
+            }
+            {
+              stat: vapidity
               value: 1
               trigger: activation
             }
@@ -864,6 +876,102 @@
       '''
       transformation: '''demon: Becoming a sex-fueled little honey-bun are we? How adorable.'''
       tags: []
+    }
+    {
+      id: "obedient cow"
+      name: "Obedient Cow"
+      thumb: "art/milk-time.webp"
+      artist: "Gardamuse"
+      effects: [
+            {
+              stat: willpower
+              trigger: milked
+              value: -0.1
+            }
+            {
+              stat: lactation
+              value: 1
+              trigger: activation
+            }
+          ]
+      description: '''Whenever you are milked, you will be more obedient during the coming week, depending on how much milk you produced. This effect stacks.
+
+      _"It doesn't matter how much milk you spill as long as you don't lose the cow."_
+      '''
+      transformation: '''demon: You won't feel anything immediately, but if you start being milked regularly, I can promise you that everyone will find you a lot easier to deal with.'''
+      tags: ["lactation", "pet"]
+    }
+    {
+      id: "willpower"
+      name: "Willpower"
+      thumb: "art/maid.webp"
+      artist: "Gardamuse"
+      description: '''Willpower is interesting in that if you don't have the mental capacity to back it up it can fall a bit flat, but at the same time, if you are not too ditzy, it can make you seem a lot more in control and more able to power through tasks even if you don't really understand them.'''
+      transformation: ''''''
+      type: "numeric"
+      levels: [
+        {
+          id: "dominant"
+          name: "Dominant"
+          effects: [
+            {
+              stat: willpower
+              value: 6
+              trigger: activation
+            }
+          ]
+          description: '''You take the lead whenever possible, and your presence somehow always feels demanding. It turns out that a lot of people will just do what they're told if you sound confident enough.'''
+          transformation: '''demon: A dominatrix in the making, huh? Maybe not what I expected, but that's just fine by me.'''
+        }
+        {
+          id: "independent"
+          name: "Independent"
+          effects: [
+            {
+              stat: willpower
+              value: 3
+              trigger: activation
+            }
+          ]
+          description: '''You have no problem making decisions for yourself and you'll only follow orders when it suits your own purposes, but you don't feel like you always have to be in charge.'''
+          transformation: ''''''
+        }
+        {
+          id: "submissive"
+          name: "Submissive"
+          effects: [
+            {
+              stat: willpower
+              value: -4
+              trigger: activation
+            }
+          ]
+          description: '''You prefer being told what to do, and let others take control. You rarely say no, and you don't want to either. Yes feels so much better.'''
+          transformation: '''demon: You do feel a lot better when you let other's take control don't you?
+
+          player: Y-yes... master.
+          '''
+        }
+        {
+          id: "mindless"
+          name: "Mindless"
+          effects: [
+            {
+              stat: willpower
+              value: -8
+              trigger: activation
+            }
+          ]
+          description: '''You do whatever you're told and should someone not be around to tell you, you'll find someone to order you around. Being a mindless slave is so much better.'''
+          transformation: '''You look expectantly at the demon in front of you. He'll tell you what to do, surely? Maybe he will want something soon, and then he'll tell you. Best just remain quiet until you get a task.
+
+          demon: Ah, that card. I was starting to wonder why you looked so... eager all of a sudden. Don't just stand there, keep playing!
+
+          player: Yes master!
+          '''
+          tags: ["doll"]
+        }
+      ]
     }
   ]
 }
