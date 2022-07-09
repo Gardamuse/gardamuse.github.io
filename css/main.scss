@@ -71,19 +71,12 @@ body:hover {
 }
 
 .full-width-background {
-  //max-width: $content-width;
-  //margin: auto;
-  //margin-bottom: 20px;
   padding: 40px 0;
-  //padding-bottom: 80px;
-
-  //background: linear-gradient(135deg, hsla(335, 53%, 18%, 1), hsla(335, 53%, 18%, 1));
   background-image: linear-gradient(
       rgba(darken($navbar-dark, 7%), .3),
       rgba(darken($navbar-dark, 7%), .5)),
       url("../assets/ox-banner-blurred.webp");
   background-position: center center, center center;
-  //background-size: 100%, 100% auto;
   background-repeat: no-repeat;
   background-size: contain, cover;
   background-attachment: local, fixed;

@@ -1,9 +1,7 @@
 /* Header */
 .header-front {
-   //background-image: linear-gradient(-5deg, $header-light, $header-dark);
    background-image: linear-gradient(#2220, rgba(darken($navbar-dark, 7%), .9)), url("../assets/ox-banner.webp");
    background-position: center center, center center;
-   //background-size: 100%, 100% auto;
    background-repeat: no-repeat;
    background-size: contain, cover;
    background-attachment: local, fixed;
@@ -44,14 +42,6 @@
     margin: 0;
   }
 }
-
-/* Text outline */
-/*.header-front h1 {
-   text-shadow: 1px 1px $oc1, -1px 1px $oc1, -1px -1px $oc1, 1px -1px $oc1, 2px 2px $oc2, -2px 2px $oc2, -2px -2px $oc2, 2px -2px $oc2;
-}
-.header-front h2 {
-   text-shadow: 1px 1px $oc2, -1px 1px $oc2, -1px -1px $oc2, 1px -1px $oc2;
-}*/
 
 .header-text-wrapper {
   grid-area: main;
