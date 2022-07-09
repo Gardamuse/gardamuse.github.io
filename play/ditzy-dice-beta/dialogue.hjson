@@ -1,5 +1,5 @@
 {
-  drawStage: '''demon: Roll to see how many cards you will have to pick this round! For this we'll use the sum of the dice you roll.
+  drawStage: '''demon: Roll to see how many cards you will have to pick this round!
   '''
 
   pickStage: '''demon: Now roll for which card you should pick! You will only pick one card, but with more dice you will be able to choose which of the results you want to use.

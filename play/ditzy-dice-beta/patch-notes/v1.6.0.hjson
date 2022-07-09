@@ -69,7 +69,7 @@ text: '''
 * Mod name is now visible on cards added by mods. (Mod has to be reloaded fort this to work.)
 * A progress bar is now shown while loading a mod.
 * In Settings -> Saves it is now possible to see the size of your save file. This can be useful for debugging.
-* Did some work on the mobile UI. But I know it is still far from ideal :c
+* Did some work on the mobile UI. Still not ideal though :c
 
 # Minor
 * Upgraded many behind-the-scenes libraries and build tool chain.

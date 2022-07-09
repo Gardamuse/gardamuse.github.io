@@ -858,6 +858,18 @@
       name: "On Your Knees"
       thumb: "art/griffinwolf-card.webp"
       artist: "CrazyCowProductions"
+      effects: [
+            { 
+              stat: vapidity
+              value: 2
+              trigger: activation
+            }
+            { 
+              stat: cute
+              value: 2
+              trigger: activation
+            }
+          ]
       description: '''Every day you will forget how to walk for 8 waking hours, but you can choose how to distribute those hours. Needless to say, you will have to crawl on all fours alot more. Fortunately you will have no pains from walking on all fours either.
 
       It may feel weird at first, but you'll make for a cute pet I'm sure.'''
@@ -1011,7 +1023,12 @@
 
       Lose intelligence equal to half your lactation.
       '''
-      transformation: ''''''
+      transformation: '''demon: This card really does agree with me.
+      
+      player: What, that I'm a dumb cow?
+
+      demon: Well, when you put it like that... yes. Or at least I think you should be one.
+      '''
       tags: ["lactation", "iq"]
     }
     {

@@ -857,7 +857,7 @@
           effects: [
             {
               stat: lactation
-              value: 4
+              value: 3
               trigger: activation
             }
           ]
@@ -870,7 +870,7 @@
           effects: [
             {
               stat: lactation
-              value: 7
+              value: 5
               trigger: activation
             }
           ]
@@ -883,7 +883,7 @@
           effects: [
             {
               stat: lactation
-              value: 10
+              value: 9
               trigger: activation
             }
           ]

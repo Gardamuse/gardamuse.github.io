@@ -141,12 +141,7 @@
       effects: [
             { 
               stat: vapidity
-              value: 3
-              trigger: activation
-            }
-            {
-              stat: intelligence
-              value: -1
+              value: 4
               trigger: activation
             }
           ]

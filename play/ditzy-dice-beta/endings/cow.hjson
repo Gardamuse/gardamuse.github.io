@@ -4,6 +4,7 @@
   likelihood: 30
   requirements: '''
     lactation >= 2
+    AND breast-size >= 2
     AND (
       AND intellect < 20 AND breast-size + ass-size + preg >= 10
       OR lactation + breast-size >= 6
