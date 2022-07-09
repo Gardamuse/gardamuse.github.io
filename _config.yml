@@ -1,7 +1,7 @@
 # Setup
 title:          Blushing Defeat - Bimbofication Games
 tagline:        Blog, Games, Bimbofication
-baseurl:      ""
+baseurl:      "/legacy"
 url:          "https://www.blushingdefeat.com"
 paginate:     5
 paginate_path: "/blog/page:num/"

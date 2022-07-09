@@ -25,6 +25,8 @@ $highlight-time: 0.3s;
 $dark-border-color: #996d00;
 $dark-box-color: rgba(73, 82, 85, 0.2);
 
+$base-url: "{{ site.baseurl }}";
+
 /* General */
 * {
    backface-visibility: hidden;
@@ -43,7 +45,7 @@ body {
    line-height: 1.5;
    color: $text-color;
    background-color: $base-color;
-   background-image: url("/assets/black-linen.png");
+   background-image: url($base-url + "/assets/black-linen.png");
    /* This and other patterns by https://www.transparenttextures.com */
    display: flex;
    flex-direction: column;
@@ -139,7 +141,7 @@ body:hover {
   min-height: $content-width * 0.75 / 2.2;
 
   background: $base-color;//darken($base-color, 13%);
-  background-image: url("/assets/black-linen.png");
+  background-image: url($base-url + "/assets/black-linen.png");
 
   @media screen and (max-width: $mobile-width) {
     grid-area: txt;
