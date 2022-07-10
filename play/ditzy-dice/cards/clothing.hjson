@@ -9,6 +9,13 @@
       name: "Outgrown"
       thumb: "art/zatanna-outgrown.webp"
       artist: "CrazyCowProductions"
+      effects: [
+            { 
+              stat: vapidity
+              value: 2
+              trigger: activation
+            }
+          ]
       description: '''No matter what you put on, you always find it is a few sizes too small. It's not going to be too uncomfortable, just a bit tight.
 
       You may look a little silly though, but in a sexy way.'''
@@ -18,6 +25,13 @@
       id: "whale tail"
       name: "Whale Tail"
       thumb: "art/whale-tail.webp"
+      effects: [
+            { 
+              stat: vapidity
+              value: 2
+              trigger: activation
+            }
+          ]
       description: '''Whenever you are not wearing a thong, or it is not showing above your pant- or skirt-line, you become considerably less intelligent (-1 intelligence).
 
       So if you want to think, you better show that thong!'''
@@ -28,6 +42,18 @@
       id: "cleavage in focus"
       name: "Cleavage in Focus"
       thumb: "art/cleavage.webp"
+      effects: [
+            { 
+              stat: vapidity
+              value: 1
+              trigger: activation
+            }
+            {
+              stat: attention-span
+              value: -1
+              trigger: activation
+            }
+          ]
       description: '''Whenever clothes cover your breasts and you are not showing considerable cleavage, your attention span becomes significantly worse (-1 attention span).
 
       So it's up to you, either you show off your puppies, or you forget what else you were supposed to do.'''
@@ -42,6 +68,23 @@
       id: "thigh highs"
       name: "Thigh Highs"
       thumb: "art/thigh-highs.webp"
+      effects: [
+            { 
+              stat: vapidity
+              value: 1
+              trigger: activation
+            }
+            {
+              stat: beauty
+              value: 1
+              trigger: activation
+            }
+            {
+              stat: sex-drive
+              value: 1
+              trigger: activation
+            }
+          ]
       description: '''Whenever you wear three or more pieces of clothing and none of them are thigh-high stockings, your sex drive becomes much stronger (+2 sex drive).
 
       Thigh highs look hot AF, so if you're not wearing yours, you'll be the one feeling hot instead.'''
@@ -51,6 +94,18 @@
       id: "tummy time"
       name: "Tummy Time"
       thumb: "art/tummy.webp"
+      effects: [
+            { 
+              stat: vapidity
+              value: 1
+              trigger: activation
+            }
+            {
+              stat: willpower
+              value: -1
+              trigger: activation
+            }
+          ]
       description: '''Whenever clothes cover your tummy, you will find yourself acting more submissive (-1 willpower).
 
       Show your tummy or get used to doing what you're told!'''
@@ -60,6 +115,18 @@
       id: "tramp stamp"
       name: "Tramp Stamp"
       thumb: "art/bent-over-small.webp"
+      effects: [
+            { 
+              stat: vapidity
+              value: 1
+              trigger: activation
+            }
+            {
+              stat: sex-drive
+              value: 2
+              trigger: activation
+            }
+          ]
       description: '''A suggestive tattoo is now blazoned across your lower back. Anyone who sees this will know just what to expect from you.
 
       You will also become horny much quicker (+2 sex drive) whenever you're wearing pants or panties.'''
@@ -71,6 +138,13 @@
       name: "Choker"
       thumb: "art/draenei-collar.webp"
       artist: "Bradtanker3"
+      effects: [
+            { 
+              stat: vapidity
+              value: 4
+              trigger: activation
+            }
+          ]
       description: '''Ever consider what your clothes say about you? How about a choker? Or what about a proper collar? In fact, let's make it really obvious what it says about you.
 
       From now on, whenever you are not wearing a choker saying "BIMBO", "SLUT", "PET" or something similar, you become less intelligent to make up for it (-1 intelligence).'''
@@ -82,6 +156,18 @@
       name: "Pink to Think"
       thumb: "art/pink-to-think.webp"
       artist: "Gardamuse"
+      effects: [
+            { 
+              stat: vapidity
+              value: 1
+              trigger: activation
+            }
+            {
+              stat: attention-span
+              value: -1
+              trigger: activation
+            }
+          ]
       description: '''Pink is a great color isn't it? Feminine, sexy, and, well, what more could you want really? In any case, I think you should be wearing it more.
 
       From now on, whenever you are wearing any clothing that is not a shade of pink, you will feel distracted (-1 attention span).'''
@@ -109,6 +195,13 @@
           name: "Barefoot"
           thumb: "art/heels-0000.webp"
           artist: "Gardamuse"
+          effects: [
+            {
+              stat: beauty
+              value: 1
+              trigger: activation
+            }
+          ]
           description: '''Your feet remain largely unchanged, but you will feel more at ease walking barefoot than before!'''
           transformation: '''A sudden feeling has you kick off your shoes. It feels so much better to be free and feel the grass under your feet. With no shoes you might get a little dirtier, but does it even matter if you spend most of your days on your back anyway?'''
         }
@@ -117,6 +210,13 @@
           name: "Low"
           thumb: "art/heels-0001.webp"
           artist: "Gardamuse"
+          effects: [
+            {
+              stat: beauty
+              value: 1
+              trigger: activation
+            }
+          ]
           description: '''You will prefer a little bit of heel on your shoe, but nothing very noticeable. You can still basically wear flat shoes should you really want to.
 
           (1in or 2 cm)'''
@@ -127,6 +227,13 @@
           name: "Business Shoes"
           thumb: "art/heels-0002.webp"
           artist: "Gardamuse"
+          effects: [
+            {
+              stat: beauty
+              value: 2
+              trigger: activation
+            }
+          ]
           description: ''' Your feet will feel the most comfortable in business-style heels, and you'll be swaying your hips just enough as you walk.
 
           (2in or 4cm)'''
@@ -138,6 +245,18 @@
           name: "Dinner Shoes"
           thumb: "art/heels-0003.webp"
           artist: "Gardamuse"
+          effects: [
+            { 
+              stat: vapidity
+              value: 1
+              trigger: activation
+            }
+            {
+              stat: beauty
+              value: 3
+              trigger: activation
+            }
+          ]
           description: ''' These are some proper high heels you're going to be strutting around in. The kind you'd expect to see at fancy dinners. The way your hips will sway as you walk with these on is going attract eyes anytime you leave the room too. Classy.
 
           (3in or 7cm)'''
@@ -149,6 +268,18 @@
           name: "Fuck Me Pumps"
           thumb: "art/heels-0004.webp"
           artist: "Gardamuse"
+          effects: [
+            { 
+              stat: vapidity
+              value: 3
+              trigger: activation
+            }
+            {
+              stat: beauty
+              value: 3
+              trigger: activation
+            }
+          ]
           description: '''Wow, heels like this will really give you that "ass up, please fuck me" look. No one walking behind you is going to be able to keep their eyes off of your ass the way your hips will swing either, I promise.
 
           (4in or 10cm)'''
@@ -160,6 +291,18 @@
           name: "Tippy Toes"
           thumb: "art/heels-0005.webp"
           artist: "Gardamuse"
+          effects: [
+            { 
+              stat: vapidity
+              value: 4
+              trigger: activation
+            }
+            {
+              stat: beauty
+              value: 3
+              trigger: activation
+            }
+          ]
           description: '''At this point you'll probably even like wearing heels to bed just for the nice support they give your feet. Needless to say, your strut is going to be close to hypnotic for anyone behind you.
 
           (5in or 13cm)'''
@@ -173,7 +316,7 @@
       name: "Too Hot to Handle"
       thumb: "art/too-hot-to-handle-1.webp"
       artist: "Gardamuse"
-      description: '''Don't like being cold? Worry not! From now on, wear too much will leave you with a burning need to strip down and fuck the nearest willing person. You can manage two hours before the heat becomes overwhelming, but as for how much you can wear and still keep cool... Let's find out!'''
+      description: '''Don't like being cold? Worry not! From now on, wearing too much will leave you with a burning need to strip down and fuck the nearest willing person. You can manage two hours before the heat becomes overwhelming, but as for how much you can wear and still keep cool... Let's find out!'''
       transformation: ''''''
       tags: ["bimbo"]
       type: "numeric"
@@ -191,6 +334,13 @@
           name: "Summertime Chic"
           thumb: "art/too-hot-to-handle-2.webp"
           artist: "Gardamuse"
+          effects: [
+            { 
+              stat: vapidity
+              value: 2
+              trigger: activation
+            }
+          ]
           description: '''Bootie shorts and tank tops are the name of the game from now on as if you cover up your arms or legs, you're gonna find your sex drive going wild pretty quick! If you live somewhere chilly you might want to move as the last thing you want is someone wrapping you up thinking you're going to freeze, only to set you off when you overheat! '''
           transformation: '''You have two hours, so no need to rush, but you should consider grabbing some scissors because if your pant legs are much lower than your ass or your shoulders aren't showing, you're going to have a bad (or rather, a bit too GOOD) time!'''
         }
@@ -199,6 +349,18 @@
           name: "Beach Babe Haute Couture"
           thumb: "art/too-hot-to-handle-4.webp"
           artist: "Gardamuse"
+          effects: [
+            { 
+              stat: vapidity
+              value: 3
+              trigger: activation
+            }
+            {
+              stat: sex-drive
+              value: 1
+              trigger: activation
+            }
+          ]
           description: '''If you think bikinis and underwear are a 'sometimes' clothing option, you're going to be in for a serious lifestyle change as from now on if you're covering more than your breasts, ass and cooch, you're only two hours from a lustful melt down! Better move south as while the cold won't bother you, rules about indecent exposure might.'''
           transformation: '''It might seem rude, but stripping down to your underwear is probably a smart move unless you're looking to let the world see what a huge bimbo you’ve become in just under two hours after changing.'''
         }
@@ -207,6 +369,18 @@
           name: "Forever Nude"
           thumb: "art/too-hot-to-handle-6.webp"
           artist: "Gardamuse"
+          effects: [
+            { 
+              stat: vapidity
+              value: 4
+              trigger: activation
+            }
+            {
+              stat: sex-drive
+              value: 2
+              trigger: activation
+            }
+          ]
           description: '''No shirts, no pants, no shoes, no underwear, nothing! If you cover up at all, you're playing with fire, the kind that will drive you into a sexual frenzy in under two hours! Luckily you should still have just enough time to run to the store and back again, but outside of these brief excursions, the only times you can be out in public is at a nudist beach.'''
           transformation: '''With such a beautiful body, it would be a shame to hide it away under all those clothes. Luckily, that won't be a problem anymore as if you don't strip now, you're going to start burning up shortly after the game ends.
           '''
@@ -228,6 +402,18 @@
           name: "Leash Law"
           thumb: "art/bound-1.webp"
           artist: "Gardamuse"
+          effects: [
+            { 
+              stat: willpower
+              value: -1
+              trigger: activation
+            }
+            {
+              stat: vapidity
+              value: 1
+              trigger: activation
+            }
+          ]
           description: '''Dogs aren't allowed off their leashes and neither are you. From now on, if you want to think clearly, you need to be wearing a collar and have a leash at least in close proximity. Will having it attached and tugged on help? Well that's something you can experiment with later...'''
           transformation: '''
           demon: I'll hold onto your leash for now while you get comfortable in your new collar. Obviously you could hold it, but I think it would be best if you get used to not having that level of control from now on.
@@ -238,6 +424,18 @@
           name: "Bound and Ready"
           thumb: "art/bound-2.webp"
           artist: "Gardamuse"
+          effects: [
+            { 
+              stat: willpower
+              value: -2
+              trigger: activation
+            }
+            {
+              stat: vapidity
+              value: 2
+              trigger: activation
+            }
+          ]
           description: '''You'll never feel at ease if you're not securely bound in a leather or latex harness, though luckily it only has to be securely fastened about your chest at least. While your mobility won't be hampered, it's hard to forget you are not fully in control when you're constantly ready to be more tightly tied up.'''
           transformation: '''On the downside, you're going to spend the rest of your life looking like your ready for a night of rough sex, but on the upside, hanging from the ceiling while other people play with you is starting to sound pretty fun... Damn this harness really puts some kinky thoughts in your head, doesn't it?'''
         }
@@ -246,6 +444,23 @@
           name: "Cuffed Cutie"
           thumb: "art/bound-3.webp"
           artist: "Gardamuse"
+          effects: [
+            { 
+              stat: willpower
+              value: -3
+              trigger: activation
+            }
+            {
+              stat: vapidity
+              value: 2
+              trigger: activation
+            }
+            {
+              stat: intelligence
+              value: -1
+              trigger: activation
+            }
+          ]
           description: '''You'll need to have your hands or feet handcuffed together at all times if you want to keep your thoughts straight after this. Luckily you only need one of these at a time, but choosing between walking and having your hands free might prove to be tricky. Better make sure you have someone you can trust to swap them for you.'''
           transformation: '''demon: I happen to have a pair of cuffs on me luckily enough. Let's just start with the feet so you can keep playing unhindered for now...'''
           tags: ["doll"]
@@ -255,6 +470,23 @@
           name: "Rope Bunny"
           thumb: "art/bound-4.webp"
           artist: "Gardamuse"
+          effects: [
+            { 
+              stat: willpower
+              value: -3
+              trigger: activation
+            }
+            {
+              stat: vapidity
+              value: 3
+              trigger: activation
+            }
+            {
+              stat: intelligence
+              value: -2
+              trigger: activation
+            }
+          ]
           description: '''Free your body or free your mind, you can't have it both ways. From now on anytime you are not securely tied up, whatever is left of your mind will vanish into a haze. Fortunately, while you DO need to be fully bound, you'll still be able to move your hands and speak, assuming whoever tied you up wants to let you anyway.
           '''
           transformation: '''demon: Well this will make the game a bit trickier to be sure, but I'll just put the dice back in your hands whenever you need to roll and you just tell me what you want to do. I'm sure by now you can trust that I stand by my word, right?'''

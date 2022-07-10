@@ -16,6 +16,18 @@
       id: "panty dropper"
       name: "Panty Dropper"
       thumb: "art/panty-drop.webp"
+      effects: [
+            {
+              stat: inhibitions
+              value: -1
+              trigger: activation
+            }
+            {
+              stat: vapidity
+              value: 1
+              trigger: activation
+            }
+          ]
       description: '''You sometimes get an irresistible urge to take off your panties. You can't wear that pair again until you've changed into another pair at home. If already at home, you must first buy a new pair.
 
       This will happen at least once a month but max 5 times a week.'''
@@ -27,6 +39,13 @@
       name: "Milk Spurt"
       thumb: "art/cathyl-card.webp"
       artist: "Luxu"
+      effects: [
+            {
+              stat: lactation
+              value: 1
+              trigger: activation
+            }
+          ]
       description: '''Randomly, 1 to 4 times a month, your breasts will suddenly start leaking milk. Over the span of 10 minutes you will produce your combined breast volume in milk, or 1 litre, whichever is more.'''
       transformation: '''Did you spill something on your shirt? Oh, no wait, that's the Milk Spurt taking effect. Might be a good idea to carry an extra shirt or bra with you, because in a few minutes, that thing will be absolutely soaked.'''
       tags: ["lactation"]
@@ -36,14 +55,29 @@
       name: "Random Orgasms"
       thumb: "art/angela-43.webp"
       artist: "Gardamuse"
+      effects: [
+            {
+              stat: sex-drive
+              value: 1
+              trigger: activation
+            }
+            {
+              stat: inhibitions
+              value: -1
+              trigger: activation
+            }
+            {
+              stat: lust
+              value: 20
+              trigger: activation
+            }
+          ]
       description: '''You will experience orgasms at random time intervals and with no warning. Let's see how good you are at looking like its raining while you're cumming your brains out in the middle of a meeting.
 
       This will happen at least once a month, but no more than 5 times a week.'''
-      transformation: '''demon: Random Orgasms, hm? Well don't worry, as embarrassing as they might be, the chances of them happening at any given time are...
+      transformation: '''demon: One already hm? As embarrassing as it might be, the idea of orgasming when you least suspect it is quite fun too, don't you think? In the caféteria, during a job interview... who knows what fun you'll get into.
 
-      player: Oooh, ooooh, fuuuck...! Aaaah...
-
-      demon: Oh. Well on the bright side, you'll have at most four more of them. This week.'''
+      demon: Well in any case, you'll have at most four more of them. This week.'''
       tags: ["slut"]
     }
     {
@@ -51,6 +85,23 @@
       name: "Public Masturbation"
       thumb: "art/jessica21.webp"
       artist: "Gardamuse"
+      effects: [
+            {
+              stat: sensitivity
+              value: 1
+              trigger: activation
+            }
+            {
+              stat: inhibitions
+              value: -2
+              trigger: activation
+            }
+            {
+              stat: vapidity
+              value: 2
+              trigger: activation
+            }
+          ]
       description: '''You will sometimes get a sudden, irresistible urge to masturbate. You will immediately start rubbing your clit and will be unable to stop until you cum.
 
       This will happen at least once a month, but no more than 5 times a week.'''
@@ -62,6 +113,13 @@
       name: "Flash Your Tits"
       thumb: "art/salvatore-13.webp"
       artist: "Gardamuse"
+      effects: [
+            {
+              stat: inhibitions
+              value: -2
+              trigger: activation
+            }
+          ]
       description: '''You will sometimes get a sudden urge to show your breasts, immediately turning to someone near you, and exposing your breasts for at least 10 seconds.
 
       This will only happen when someone can see you, and will happen at least once a month, but no more than 5 times a week.'''
@@ -73,6 +131,13 @@
       name: "In Heat"
       thumb: "art/moaning.webp"
       artist: "Gardamuse"
+      effects: [
+            {
+              stat: sex-drive
+              value: 2
+              trigger: activation
+            }
+          ]
       description: '''Each month you'll go into heat for five days. When in heat you're going to be continuously horny and unable to think of anything but having sex. Yet no matter how much sex you have during heat, you won't get satisfied, just more horny.'''
       transformation: '''Do you feel that warmth? Getting a little bit tingly? It could just be regular arousal, or it is the beginning of your first heat, and five days of mindless fucking...'''
       tags: ["pet"]
@@ -81,6 +146,13 @@
       id: "bimbo virus"
       name: "The B-Virus"
       thumb: "art/bimbo-zombies-512px.webp"
+      effects: [
+            {
+              stat: vapidity
+              value: 1
+              trigger: activation
+            }
+      ]
       description: '''
       Having sex with you has a 9 in 10 chance to inflict a curse, causing your partner to slowly become dumber, sexier, hornier, and have a slightly lower chance of inflicting the curse to their sexual partners. The curse lasts for a few weeks. Most men who receive it become women for the duration, but some may become hyper masculine instead.
       '''
@@ -93,11 +165,28 @@
       id: "brain pop"
       name: "Brain Pop"
       thumb: "art/brain-pop.webp"
+      effects: [
+            {
+              stat: intelligence
+              value: -1
+              trigger: activation
+            }
+            {
+              stat: memory
+              value: -1
+              trigger: activation
+            }
+            {
+              stat: attention-span
+              value: -1
+              trigger: activation
+            }
+          ]
       description: '''
       Your brain will sometimes go on hiatus, announced by a sudden pop. You'll freeze for a second, stare into the middle distance and then continue as normal, just dumber (-1 intelligence, memory or attention span). The effect lasts 24 hours, occurs up to 20 times a month and can overlap with itself, stacking the effect.
       '''
       transformation: '''
-      demon: Pop. Pop. I'm sure you'll come to enjoy the sound.
+      demon: Pop, pop, pop. I'm sure you'll come to enjoy the sound.
       '''
       tags: ["iq"]
     }
@@ -106,6 +195,13 @@
       name: "Wet Dreams"
       thumb: "art/miranda-sleeping.webp"
       artist: "Gardamuse"
+      effects: [
+            {
+              stat: sex-drive
+              value: 2
+              trigger: activation
+            }
+          ]
       description: '''You always have erotic dreams while sleeping. As if that was not enough fun on its own, you won't have to worry about oversleeping as you'll usually be woken up by an orgasm just on time.'''
       transformation: '''Don't feel much different? That's to be expected, it won't be till you fall asleep that you'll notice the changes, but when you do, oh boy, they will be WILD! Every sexual fantasy, no matter how impossible or perverse, will fill your every sleeping moment. Better invest in some plastic sheets because otherwise black lights will make your sheets light up like the sun.
       '''
@@ -114,6 +210,13 @@
       id: "reflections-of-love"
       name: "Reflections of Love"
       thumb: "art/reflection-1024px.webp"
+      effects: [
+            {
+              stat: vapidity
+              value: 1
+              trigger: activation
+            }
+      ]
       description: '''All around you are familiar faces... or at least that will be the case after a night of sexual excess. From now on, anyone who you bring to climax will transform bit by bit into a copy of you! The effect will only last twenty four hours, but if the new "you" can't keep it together that long... You might end up slowly growing a harem of identical bimbos!'''
       transformation: '''demon: What an interesting gift you have gained! I doubt anyone with a strong will and an ounce of sense will let you transform them fully before letting the changes revert, but seeing how you humans usually act... I would not be surprised if more than a few will find themselves effectively permanently mirroring you.'''
     }

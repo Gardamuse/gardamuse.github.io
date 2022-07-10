@@ -30,8 +30,16 @@
             name: "Super Knight"
             thumb: "art/knight.webp"
             artist: "Gardamuse"
+            effects: [
+                        {
+                            // This Trigger effect adds 1 to the modded chivalry stat when the card is activated
+                            stat: chivalry
+                            value: 2
+                            trigger: activation
+                        }
+                    ]
             description: '''You are a super knight.'''
-            transformation: '''demon: Hm...
+            transformation: '''agent-blue: You're a super knight now, yes!
             '''
             tags: ["armor"]
             // The default intensity of a normal card is 1, and will thus count as 1 card towards requirements.
@@ -46,7 +54,20 @@
             name: "Too Knight to Handle"
             thumb: "art/knight.webp"
             artist: "Gardamuse"
-            description: '''You are too good a knight to handle.'''
+            effects: [
+                        {
+                            stat: chivalry
+                            trigger: activation
+                            value: 1
+                        }
+                        {
+                            // This Contribution effect makes it so that 50% of Willpower will always be added to Beauty
+                            stat: willpower
+                            target: beauty
+                            value: 0.5
+                        }
+                    ]
+            description: '''You are too good a knight to handle. The stronger your will, the more attractive you will seem.'''
             transformation: '''demon: Hm...
             Why did I put this card in here?
 
@@ -71,18 +92,41 @@
                 {
                     id: "1"
                     name: "Six Pack"
+                    // Effects can only be added to single cards and subcards, NOT to parent cards.
+                    effects: [
+                        {
+                            // This Trigger effect adds 2 to the modded buffness stat when the card is activated
+                            stat: buffness
+                            value: 1
+                            trigger: activation
+                        }
+                    ]
                     description: '''You will have a six pack of abs while wearing a shirt.'''
                     transformation: '''You feel your abs grow harder.'''
                 }
                 {
                     id: "2"
                     name: "Eight Pack"
+                    effects: [
+                        {
+                            stat: buffness
+                            value: 2
+                            trigger: activation
+                        }
+                    ]
                     description: '''You get an eight pack.'''
                     transformation: '''You suddenly feel like you've been to the gym alot.'''
                 }
                 {
                     id: "3"
                     name: "Sixteen Pack"
+                    effects: [
+                        {
+                            stat: buffness
+                            value: 4
+                            trigger: activation
+                        }
+                    ]
                     description: '''You will look incredibly muscular with a shirt on.'''
                     transformation: '''player: Woah'''
                     tags: ["muscles"]
@@ -90,6 +134,18 @@
                 {
                     id: "4"
                     name: "Too Much Abs"
+                    effects: [
+                        {
+                            stat: buffness
+                            value: 8
+                            trigger: activation
+                        }
+                        {
+                            stat: beauty
+                            value: -4
+                            trigger: activation
+                        }
+                    ]
                     description: '''You will look incredibly muscular with a shirt on. Too muscular.'''
                     transformation: '''player: Woah'''
                     tags: ["muscles"]

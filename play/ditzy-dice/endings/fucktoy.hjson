@@ -3,10 +3,12 @@
   title: "Fuck Toy"
   likelihood: 40
   requirements: '''
-    iq >= 10 AND sex drive >= 0 AND doll >= 1
-    OR sum(iq, sex drive, willpower, submissive silence, erogenous lips, erogenous breasts, cum your brains out, sensitivity) >= 14 AND doll >= 1
-    OR sex drive >= 5 AND cum your brains out >= 1 AND doll >= 1
-    OR sum(sex drive, sensitivity) >= 8 AND cum your brains out >= 1 AND doll >= 1
+    doll >= 1 AND (
+      ((intelligence < 2 OR memory < 2 OR attention-span < 2) AND intellect < 20)
+      OR intellect + willpower < 24 AND libido > 20
+    ) OR (
+      ((intelligence < 2 OR memory < 2 OR attention-span < 2) AND intellect < 15 AND libido > 10)
+    )
   '''
   nodes: [
     {

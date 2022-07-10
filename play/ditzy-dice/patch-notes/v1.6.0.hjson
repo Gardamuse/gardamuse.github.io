@@ -1,0 +1,86 @@
+{
+name: "Satanistic Statistics"
+date: "2022-07-10"
+text: '''
+# Gameplay
+* Added stats for the player
+        * Cards can affect stats in two ways: Trigger and Contribution.
+        * Trigger effects will add/subtract from stats when they are triggered, typically when the card is activated.
+        * Contribution effects will make the value of one stat affect another. Ex: your intelligence is reduced by 50% of your breast size.
+        * Stats affects various game mechanics, such as mana gained.
+* Added Lust
+        * Once you reach maximum lust, you will orgasm, gaining mana and triggering any on-orgasm trigger effects from cards.
+* Added Milk
+        * This meter becomes visible if you gain at least 1 point in Lactation.
+        * Maximum milk is the same as your breast size.
+        * Added an ability to milk yourself.
+        * Go without being milked for too long and your breasts may overflow, if your lactation is high.
+* Added Ability: Redraw
+        * After rolling for how many cards you will pick, you may redraw the cards on the table.
+* Player now starts with 2 mana.
+* Player now have a maximum mana pool equal to their Memory stat.
+* Changed cost of picking one more or less card from 2 -> 1 mana.
+* Number of cards to draw is once again determined by 1 D6 (instead of 2 D3).
+* Number of obligatory rounds changed from 3 -> 4.
+* Added a new round: the Reward round.
+        * You get to choose which card families should appear during this round.
+        * How many cards you get to pick is determined by your Persuasion stat.
+* Maximum number of rounds is now 12.
+        * The base mana cost of adding more rounds is down from 7 -> 4, but increases with 2 for each round you add.
+
+# Content
+* New Cards
+        * Dumb Cow
+        * Obedient Cow
+        * Eidetic Erotics
+        * Beautiful Mind
+        * Fuck Bunny
+        * Sensitive Udders
+        * Perfectly Balanced
+* Some cards that only used to have reduction effects (like Intelligence and Memory) now have some subcards that increase those stats instead.
+* Rebalanced epilogues to be based much more on stats instead of specific cards.
+        * This makes epilogues a lot easier to balance, but I may need some feedback on instances where it seems weird! (I can only play test the game so many times myself, and there are a lot of epilogues and stats.)
+* Removed "You gain 1 mana per orgasm, and 1 mana per hour edging. Mana can be stored for a month." from all spell cards, since mana mechanics are now approximated well enough by game mechanics.
+* Various card adjustments.
+
+# Modding
+* The [**Blushing Defeat Sexy Mods**](https://mods.blushingdefeat.com) repository is now available as a one-stop-shop for browsing and sharing mods.
+* It is now possible to adjust the load order of mods.
+        * Mods with a later mod order may override ones with an earlier.
+        * This feature is quite untested, so it might not work. If so, please send me examples so I can replicate!
+* __Breaking change__ Epilogue requirements can no longer use the sum() function and ids with spaces must be wrapped in quotes.
+        * The + and - operators can be used instead of sum.
+        * Ex: `sum(iq, ass size) > 5` should now be `iq + "ass size" > 5`
+* Epilogue requirements can now use parenthesis () to change the order of operations, just like in math.
+* Epilogue requirements now supports line comments via // or #, just like hjson itself.
+* Errors in a mod are now detected earlier (especially epilogue requirements) and can disable already loaded mods.
+        * Errors for disabled mods are visible on the mod in the mods list.
+        * Error on mod install is displayed in a dialogue window.
+        * This improvement makes it MUCH easier to find errors when developing the mod, rather than things just not working.
+* Modded cards can have Trigger and Contribution effects.
+* Card descriptions now support markdown syntax, so it is possible to get bold or italic font in the descriptions.
+* Mods can add their own Stats (but not stat groups).
+* Mods can add and override characters
+        * Custom characters can be referenced the same way as the demon/player in any card-transformation or epilogue.
+        * Mods can override properties (like portrait or speech bubble color) for the demon and player.
+
+
+# UI
+* Game UI now shows player stats.
+* The box for cards in the player's hand is now minimized by default and expands when hovered.
+        * It can also be pinned by pressing the button.
+        * Moved pin and show hand/all buttons to outside the box.
+* Dice have a new look and are slightly smaller.
+* Mod name is now visible on cards added by mods. (Mod has to be reloaded fort this to work.)
+* A progress bar is now shown while loading a mod.
+* In Settings -> Saves it is now possible to see the size of your save file. This can be useful for debugging.
+* Did some work on the mobile UI. Still not ideal though :c
+
+# Minor
+* Upgraded many behind-the-scenes libraries and build tool chain.
+* Improved mod creation documentation and tools.
+
+# Fixes
+* Large animated webp thumbs now work on Firefox. This was an issue for some modded cards.
+'''
+}

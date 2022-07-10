@@ -1,0 +1,31 @@
+{
+  id: "hot-knight"
+  title: "Knights are Hot"
+  likelihood: 20
+  # Requirements use AND/OR logic to separate expressions.
+  # Each expression consists of stat ids, card ids, family ids, tags, numbers, and a single operator
+  # Stuff in an expression can be added or subtracted.
+  # Parenthesis can be used to change the order of operations for the AND/OR logic
+  # Without parenthesis, OR will separate groups of AND.
+  # Ex: " a > 1 AND b > 1  OR  c > 1 AND d > 1 AND e > 1" is the same as
+  #     "(a > 1 AND b > 1) OR (c > 1 AND d > 1 AND e > 1)"
+  requirements: '''
+    sex-drive + sensitivity > 5 AND chivalry >= 1
+    OR
+    chivalry + buffness > 3 AND (chivalry >= 1 OR intelligence > 8)
+    # This is a comment.
+  ''' 
+  nodes: [
+    {
+      id: "intro"
+      title: "" 
+      text: '''
+      demon: Something something, knights are hot.
+      '''
+      endpoint: {
+        label: "Knights are Hot"
+        fun: "end"
+      }
+    }
+  ]
+}

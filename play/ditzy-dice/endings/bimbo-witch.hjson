@@ -3,9 +3,11 @@
   title: "Bimbo Witch"
   likelihood: 30
   requirements: '''
-    sum(spell, wings of love) >= 4 AND iq >= 4
-    OR sum(spell, wings of love) >= 5 AND sex drive >= 7
-    OR sum(spell, wings of love) >= 5 AND slut >= 10
+    breast-size + ass-size + vapidity >= 5
+    AND ( intellect <= 24 OR intelligence <= 7 OR ( memory + attention-span <= 15) )
+    AND libido >= 10
+    AND spell + "wings of love" >= 5
+    AND intelligence >= 4
   '''
   nodes: [
     {
@@ -40,7 +42,7 @@
 
       demon: Don't want people seeing the real you. Might cause the wrong people to find out about who and what you are. Now for your first mission, I'll need you to...
 
-      demon: And you're already masturbating. No, you keep going, it's fine, that task would be too much for you to handle anyway. How about... you just focus you on sleeping with as many mortals as you can and collect some souls. I think 'fuck everyone you meet' should be easy enough for you, yes?
+      demon: ...Aaand you're already masturbating. No, you keep going, it's fine, that task would be too much for you to handle anyway. How about... you just focus on sleeping with as many mortals as you can and collect some souls. I think 'fuck everyone you meet' should be easy enough for you, yes?
 
       And so your first and only task is assigned to you, a task you will prove to be INCREDIBLY talented at! Though you never manage to rise through the ranks of hell, given you're far, far too busy screwing everything in sight to play the complex games of infernal politics, you're at least highly valued as the BEST succubus the pits have ever seen!
 

@@ -3,8 +3,9 @@
   title: "Bimbo Ditz"
   likelihood: 30
   requirements: '''
-    iq >= 8 AND sum(bimbo, expansion, slut) >= 5
-    OR sex drive >= 4 AND cum your brains out >= 1 AND sum(bimbo, expansion) >= 4
+    breast-size + ass-size + vapidity >= 10
+    AND ( intellect <= 20 OR intelligence <= 5 OR (memory + attention-span <= 12) )
+    AND libido >= 10
   '''
   nodes: [
     {
