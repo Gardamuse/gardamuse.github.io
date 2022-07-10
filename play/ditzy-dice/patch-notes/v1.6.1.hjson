@@ -1,0 +1,11 @@
+{
+name: "Satanistic Statistics"
+date: "2022-07-10"
+text: '''
+# UI
+* Card stat tooltip: made it slightly more obvious which stat belongs to an "On Trigger" effect.
+
+# Fixes
+* Fixed conditional epilogue endings not being selectable despite fulfilling requirements.
+'''
+}
