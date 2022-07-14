@@ -3,10 +3,10 @@
   title: "Pet"
   likelihood: 30
   requirements: '''
-    intellect - cute < 20
+    intellect - cute < 15
     AND animal + pet >= 2
     OR
-    intellect - cute < 25
+    intellect - cute < 20
     AND animal + pet >= 4
   '''
   nodes: [

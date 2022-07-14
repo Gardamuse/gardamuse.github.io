@@ -1,0 +1,17 @@
+{
+name: "Satanistic Statistics"
+date: "2022-07-14"
+text: '''
+# Content
+* New Cards (Many thanks to PedanticCheesecake for the help!)
+        * Personality (3 new subcards)
+        * Aspect of Dionysus (6 subcards)
+        * Rapunzel's Brush (7 subcards)
+* Added unique art for all levels of the Personality card.
+* Rebalanced some epilogues and endings to prevent cases where they didn't correspond well to your stats, or where too rare or too common
+
+# Fixes
+* Fixed that drawn cards would reset to the previous set after picking a card, if redrawing after having clicked next.
+
+'''
+}

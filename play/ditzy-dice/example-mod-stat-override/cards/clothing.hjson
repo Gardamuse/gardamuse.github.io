@@ -1,0 +1,172 @@
+{
+    // This is the Family ID, one of: behavior, body, clothing, event, mind, reward
+    // Each hjson file in the cards folder represents a number of cards that belong to the same family.
+    // There can be multiple files for the same family, and the file name does not have to be the same as the family id.
+    id: "clothing"
+    cards: [
+        {
+            override: true
+            id: "outgrown"
+            name: "Knight"
+            thumb: "art/knight.webp"
+            artist: "Gardamuse" // Name of the artist who created the thumb
+            effects: [
+                {
+                    stat: chivalry
+                    value: 5
+                }
+            ]
+            description: '''You will always have to wear armor.'''
+            // The transformation dialogue is displayed one message at a time when the card is activated.
+            // Messages are separated by an empty new line.
+            // Messages that begin with "demon: " or "player: ", will be said by those characters. 
+            // Other messages are said by the narrator.
+            transformation: '''demon: Hm...
+            Why did I put this card in here?
+
+            player: Haha, now I'm wearing armor!
+
+            Indeed, you are now wearing armor. Great.
+            '''
+            // Any card or levels of a card can have tags. Certain tags are used by the base game, but you can use any tags you want.
+            // See the documentation for which tags are used in the base game.
+            tags: ["armor"]
+        }
+        {
+            id: "super knight"
+            name: "Super Knight"
+            thumb: "art/knight.webp"
+            artist: "Gardamuse"
+            effects: [
+                        {
+                            // This Trigger effect adds 1 to the modded chivalry stat when the card is activated
+                            stat: lust
+                            value: 30
+                            trigger: orgasm
+                        }
+                    ]
+            description: '''You are a super knight.'''
+            transformation: '''agent-blue: You're a super knight now, yes!
+            '''
+            tags: ["armor"]
+            // The default intensity of a normal card is 1, and will thus count as 1 card towards requirements.
+            // By specifying an intensity you can override this, but it's recommended that you refrain from using this property
+            // since it can be confusing for players, and for balancing requirements.
+            // To use the default intensity instead (recommended) just remove the intensity property below.
+            intensity: 3
+        }
+        {
+            override: true                // This card will override a card in the base game, instead of adding a new card
+            id: "too hot to handle"       // For overridden cards, this must correspond to a card id in the base game
+            name: "Too Knight to Handle"
+            thumb: "art/knight.webp"
+            artist: "Gardamuse"
+            effects: [
+                        {
+                            stat: chivalry
+                            trigger: activation
+                            value: 1
+                        }
+                        {
+                            // This Contribution effect makes it so that 50% of Willpower will always be added to Beauty
+                            stat: willpower
+                            target: beauty
+                            value: 0.5
+                        }
+                    ]
+            description: '''You are too good a knight to handle. The stronger your will, the more attractive you will seem.'''
+            transformation: '''demon: Hm...
+            Why did I put this card in here?
+
+            player: Haha, now I'm wearing armor!
+
+            Indeed, you are now wearing armor. Great.
+            '''
+        }
+        {
+            // This is a leveled card with 3 levels
+            id: "shirt"
+            name: "ABSolute Shirt"
+            thumb: "art/malcolm.webp"
+            artist: "Gardamuse"
+            description: '''You will always have abs while wearing a shirt. Let's see how many.'''
+            transformation: '''''' // This will only be used if any of the levels do not have a transformation dialogue.
+            // Leveled cards have a type, either "numeric" or "selection".
+            // Numeric means that each level represents a bigger transformation, such as breast expansion. Each level will be worth one more point when calculating requirements.
+            // Selection means that each level is worth the same. Useful for things like hair color that don't have a particular ordering.
+            type: "numeric"
+            levels: [
+                {
+                    id: "1"
+                    name: "Six Pack"
+                    // Effects can only be added to single cards and subcards, NOT to parent cards.
+                    effects: [
+                        {
+                            // This Trigger effect adds 2 to the modded buffness stat when the card is activated
+                            stat: buffness
+                            value: 1
+                            trigger: activation
+                        }
+                    ]
+                    description: '''You will have a six pack of abs while wearing a shirt.'''
+                    transformation: '''You feel your abs grow harder.'''
+                }
+                {
+                    id: "2"
+                    name: "Eight Pack"
+                    effects: [
+                        {
+                            stat: buffness
+                            value: 2
+                            trigger: activation
+                        }
+                    ]
+                    description: '''You get an eight pack.'''
+                    transformation: '''You suddenly feel like you've been to the gym alot.'''
+                }
+                {
+                    id: "3"
+                    name: "Sixteen Pack"
+                    effects: [
+                        {
+                            stat: buffness
+                            value: 4
+                            trigger: activation
+                        }
+                    ]
+                    description: '''You will look incredibly muscular with a shirt on.'''
+                    transformation: '''player: Woah'''
+                    tags: ["muscles"]
+                }
+                {
+                    id: "4"
+                    name: "Too Much Abs"
+                    effects: [
+                        {
+                            stat: buffness
+                            value: 8
+                            trigger: activation
+                        }
+                        {
+                            stat: beauty
+                            value: -4
+                            trigger: activation
+                        }
+                    ]
+                    description: '''You will look incredibly muscular with a shirt on. Too muscular.'''
+                    transformation: '''player: Woah'''
+                    tags: ["muscles"]
+                    // The default intensity of a numeric subcard is given by its level (position in the subcard list), 
+                    // for this card, that would be 4.
+                    // By specifying an intensity this can be overridden, making it count differently towards its requirements.
+                    // By setting this to 0 for this card, it will not count towards any requirment.
+                    // If you don't very specifically need to set an intensity, don't! It can be confusing for players.
+                    // It may often be better to just reorder the subcards so that the lowest intensity card comes first
+                    // and that the lowest intensity is the default.
+                    // For "selection" subcards, this property should be added to the parent card instead.
+                    intensity: 0
+                }
+            ]
+        }
+    ]
+}

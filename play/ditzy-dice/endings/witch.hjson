@@ -4,9 +4,9 @@
   likelihood: 30
   requirements: '''
     spell + "wings of love" >= 5
-    AND intellect > 24
-    AND intelligence > 7
-    AND libido < 10
+    AND intellect >= 25
+    AND intelligence >= 7
+    AND libido <= 15
   '''
   nodes: [
     {

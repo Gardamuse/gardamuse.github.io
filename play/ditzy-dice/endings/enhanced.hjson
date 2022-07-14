@@ -1,7 +1,7 @@
 {
   id: "enhanced"
   title: "Enhanced"
-  likelihood: 10
+  likelihood: 20
   requirements: '''
     breast-size + ass-size >= 5 AND intellect >= 26
   '''

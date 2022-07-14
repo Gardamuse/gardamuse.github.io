@@ -3,8 +3,8 @@
   title: "Bimbo Ditz"
   likelihood: 30
   requirements: '''
-    breast-size + ass-size + vapidity >= 10
-    AND ( intellect <= 20 OR intelligence <= 5 OR (memory + attention-span <= 12) )
+    breast-size + ass-size + vapidity >= 15
+    AND ( intellect <= 18 OR intelligence <= 4 OR (memory + attention-span <= 12) )
     AND libido >= 10
   '''
   nodes: [

@@ -3,8 +3,9 @@
   title: "Bimbo"
   likelihood: 20
   requirements: '''
-    breast-size + ass-size + vapidity >= 5
-    AND ( intellect <= 24 OR intelligence <= 7 OR ( memory + attention-span <= 15) OR libido >= 10 )
+    breast-size + ass-size + vapidity >= 10
+    AND ( intellect <= 24 OR intelligence <= 7 OR ( memory + attention-span <= 15))
+    AND libido >= 10
   '''
   nodes: [
     {

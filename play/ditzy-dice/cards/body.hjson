@@ -414,56 +414,197 @@
         }
       ]
     }
-    /*{
-      id: "rapunzel's drought"
-      name: "Rapunzel's Drought"
-      thumb: ""
-      description: '''Long, beautiful hair suits any woman. How long will yours be?'''
+    {
+      id: "hair-length"
+      name: "Rapunzel's Brush"
+      thumb: "art/hair-length-0003.webp"
+      artist: "Gardamuse"
+      description: '''You hair will always be a particular length, but always clean and well-conditions. You can style it how you wish with very little effort, but it must retain its length. 
+      
+      If you try to cut it, it will rapidly grow back to its original length within a few hours.
+      '''
       transformation: ''''''
       type: "numeric"
       levels: [
         {
-          id: "short and boyish"
+          id: "10"
           name: "Short and Boyish"
-          description: '''A short, boyish haircut. Maybe not typical, but a cute and sporty look for sure.'''
-          transformation: ''''''
+          thumb: "art/hair-length-0001.webp"
+          artist: "Gardamuse"
+          effects: [
+            {
+              stat: cute
+              value: 1
+              trigger: activation
+            }
+            {
+              stat: willpower
+              value: 1
+              trigger: activation
+            }
+          ]
+          description: '''A short, boyish haircut. Maybe not typical, but a cute and sporty look for sure, not to mention practical.'''
+          transformation: '''demon: I admit it's not my cup of whiskey, but I'm sure others will think its nice.
+          '''
         }
         {
-          id: "shoulder-length"
-          name: "Shoulder-length"
-          description: '''Your hair is always long enough to just about reach your shoulders. Not very long in the grand scheme of things, but very flexible. You can attempt a great many hairstyles with this.'''
-          transformation: ''''''
+          id: "20"
+          name: "Functional and Fair"
+          thumb: "art/hair-length-0002.webp"
+          artist: "Gardamuse"
+          effects: [
+            {
+              stat: beauty
+              value: 1
+              trigger: activation
+            }
+            {
+              stat: cute
+              value: 1
+              trigger: activation
+            }
+          ]
+          description: '''Your hair is always long enough to just about reach your shoulders. Not very long in the grand scheme of things, but very flexible. 
+          
+          You can attempt a great many hairstyles with this.'''
+          transformation: '''Your hair doesn't change its length much, but you notice that it suddenly feels and smells, just... so nice!'''
         }
         {
-          id: "shoulder blade length"
-          name: "Shoulder blade length"
-          description: '''Long enough to reach just below your shoulder blades, you'll always have quite long hair, but still flexible for whatever hairstyles you may want to try out.'''
-          transformation: ''''''
+          id: "30"
+          name: "Long and Beautiful"
+          thumb: "art/hair-length-0003.webp"
+          artist: "Gardamuse"
+          effects: [
+            {
+              stat: beauty
+              value: 2
+              trigger: activation
+            }
+            {
+              stat: cute
+              value: 1
+              trigger: activation
+            }
+          ]
+          description: '''Long enough to reach to around your breasts, you'll always have quite long hair, but still flexible for whatever hairstyles you may want to try out.'''
+          transformation: '''Your head feels a little heavier as the strands of your hair grow a bit longer.
+
+          demon: That's more like it! Now you look like a _real_ woman!
+          '''
         }
         {
-          id: "waist-length"
-          name: "Waist-length"
-          description: '''Reaching down to your waist, your flowing locks are not seldom admired. A bit inconvenient at times, but hair-dressers love trying out exotic styles on you.'''
-          transformation: ''''''
+          id: "40"
+          name: "Stylist's Dream"
+          thumb: "art/hair-length-0004.webp"
+          artist: "Gardamuse"
+          effects: [
+            {
+              stat: beauty
+              value: 3
+              trigger: activation
+            }
+            {
+              stat: cute
+              value: 1
+              trigger: activation
+            }
+            {
+              stat: vapidity
+              value: 1
+              trigger: activation
+            }
+          ]
+          description: '''Reaching down to your waist, your flowing locks are not seldom admired. 
+          
+          A bit inconvenient at times, but any hair-dresser would love trying out exotic styles on you.'''
+          transformation: '''You toss your head to clear the hair away from your eyes just as a gust of wind suddenly blows through the room, lifting your hair up as you shake it out. For a moment it's like the world has entered slow motion out of pure awe.
+          
+          demon: Oh wow, did you feel that? Well, your salon is going to _love_ your hair! Not that you'd ever need a hair dresser, but even I wouldn't be so evil as to rob them of that joy.
+          '''
         }
         {
-          id: "ass-length"
-          name: "Ass-length"
-          description: '''Your hair is fantastically long, flowing down your shoulders, back and all the way to your ass. It may be impractical at times, but when you're cuddling and kissing, surrounded by a waterfall of soft locks, it's worth it.
+          id: "50"
+          name: "Pretty Princess"
+          thumb: "art/hair-length-0005.webp"
+          artist: "Gardamuse"
+          effects: [
+            {
+              stat: beauty
+              value: 4
+              trigger: activation
+            }
+            {
+              stat: vapidity
+              value: 2
+              trigger: activation
+            }
+          ]
+          description: '''Your hair is fantastically long, flowing down your back and all the way to your ass. It may be impractical at times, but when you're cuddling and kissing, surrounded by a waterfall of soft locks, it's worth it.
 
           Plus, you can make a very impressive braid.
           '''
-          transformation: ''''''
+          transformation: '''You feel a heavenly shiver through your spine as your magnificent locks start flowing out. Tossing your head a little, it flows out as if in a light breeze, yet your hairdo seems to remain in perfect shape.'''
         }
         {
-          id: "knee-length"
-          name: "Knee-length"
-          description: '''You'll have to remember to not get your hair stuck in doors, when it's flowing like a soft cape behind you. Any longer and you'd soon step on it, but this isn't so bad.
+          id: "60"
+          name: "Magical Girl"
+          thumb: "art/hair-length-0006.webp"
+          artist: "Gardamuse"
+          effects: [
+            {
+              stat: beauty
+              value: 3
+              trigger: activation
+            }
+            {
+              stat: cute
+              value: 2
+              trigger: activation
+            }
+            {
+              stat: vapidity
+              value: 1
+              trigger: activation
+            }
+          ]
+          description: '''Reaching down to your knees, you'll have to remember to not get your hair stuck in doors, when it's flowing like a soft cape behind you. 
+          
+          Any longer and you'd soon step on it, but this isn't so bad.
           '''
-          transformation: ''''''
+          transformation: '''As your hair rapidly beings to grow, flowing out as if in a light breeze, you feel something stir within you. You seem to realize that what you really learned from this card, was the power of friendship. Though you're not exactly sure why...'''
+        }
+        {
+          id: "70"
+          name: "Everflowing"
+          thumb: "art/hair-length-0007.webp"
+          artist: "Gardamuse"
+          effects: [
+            {
+              stat: beauty
+              value: 3
+              trigger: activation
+            }
+            {
+              stat: cute
+              value: 1
+              trigger: activation
+            }
+            {
+              stat: willpower
+              value: -1
+              trigger: activation
+            }
+          ]
+          description: '''Like Rapunzel's own, your hair never stops growing. It will always reach to your ancles, and past that it will grow 30 cm (1 feet) a day.
+
+          _"Rapunzel, Rapunzel, let down your hair!_ 
+          
+          _At least if... you know, you want to fuck?"_
+          '''
+          transformation: '''Your hair quickly begins to lengthen, flowing further and further down your body. It feels good, somehow, almost like you want to see just how long it really can get.'''
         }
       ]
-    }*/
+    }
     {
       id: "eyes like diamonds"
       name: "Eyes Like Diamonds"

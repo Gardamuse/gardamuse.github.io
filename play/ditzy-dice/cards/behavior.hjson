@@ -459,8 +459,8 @@
     {
       id: "personality"
       name: "Personality"
-      thumb: "art/beach-bimbo-card.webp"
-      artist: "Gardamuse"
+      thumb: "art/dd-bad-girl.webp"
+      artist: "PedanticCheescake"
       description: '''Many say that an interesting personality is more important than a pair of nice tits. I'm not sure I agree, but I think it is a fair point to make.
 
       Unfortunately, your personality is a bit boring, frankly. So let's give you a new one.
@@ -468,8 +468,136 @@
       type: "selection"
       levels: [
         {
+          id: "bad girl"
+          name: "Bad Girl"
+          thumb: "art/dd-bad-girl.webp"
+          artist: "PedanticCheescake"
+          effects: [
+            {
+              stat: willpower
+              value: 1
+              trigger: activation
+            }
+            {
+              stat: sex-drive
+              value: 1
+              trigger: activation
+            }
+            {
+              stat: vapidity
+              value: -2
+              trigger: activation
+            }
+          ]
+          description: '''No one is going to trod on you! Unless they're really hot, in which case you'd love it if they did.
+
+          Tattoos, smoking and piercings are your core identity. Motorcycles come a close second, whether that is riding clad in leather behind a muscular guy, or on your own tuned up chopper.'''
+          transformation: '''God fuck this game! You are jonesing for a smoke, a beer and maybe a dick, not necessarily in that order.'''
+          tags: ["goth"]
+        }
+        {
+          id: "tomboy"
+          name: "Tomboy"
+          thumb: "art/dd-tomboy.webp"
+          artist: "PedanticCheescake"
+          effects: [
+            {
+              stat: willpower
+              value: 2
+              trigger: activation
+            }
+            {
+              stat: sex-drive
+              value: 2
+              trigger: activation
+            }
+            {
+              stat: breast-size
+              value: -1
+              trigger: activation
+            }
+            {
+              stat: ass-size
+              value: -1
+              trigger: activation
+            }
+          ]
+          description: '''Unlike most regular girls, you _love_ boy stuff! Action movies, football, chugging beer, you're in! It's not like you need any of that girly crap to be sexy!
+          
+          _"I was always a tomboy, and it would be me and all my guy friends."_
+          '''
+          transformation: ''''''
+          tags: []
+        }
+        {
+          id: "gamer"
+          name: "Gamer"
+          thumb: "art/dd-gamer.webp"
+          artist: "Gardamuse"
+          effects: [
+            {
+              stat: attention-span
+              value: 2
+              trigger: activation
+            }
+            {
+              stat: cute
+              value: 1
+              trigger: activation
+            }
+            {
+              stat: beauty
+              value: -1
+              trigger: activation
+            }
+          ]
+          description: '''Forget sex games, _video_ games are the way to go! 
+          
+          You treat almost everything as a game or competition; If you're gonna do something, you're gonna get that high score!
+          
+          _"Nerf this!"_
+          '''
+          transformation: ''''''
+          tags: []
+        }
+        /*{
+          id: "shy"
+          name: "Shy"
+          thumb: "art/dd-shy.webp"
+          artist: "PedanticCheescake"
+          effects: [
+            {
+              stat: cute
+              value: 1
+              trigger: activation
+            }
+            {
+              stat: inhibitions
+              value: 3
+              trigger: activation
+            }
+            {
+              stat: vapidity
+              value: -2
+              trigger: activation
+            }
+            {
+              stat: sex-drive
+              value: 4
+              trigger: activation
+            }
+          ]
+          description: '''Oh....my, you are rather shy and timid, preferring to keep to yourself.
+          
+          You do your best to not be a bother, but when your libido actually does kick in, anyone who isn't up for some senseless kinky fun better stay away!'''
+          transformation: ''''''
+          tags: []
+        }*/
+        {
           id: "sweet"
           name: "Sweet and Bubbly"
+          thumb: "art/dd-sweet-and-bubbly.webp"
+          artist: "PedanticCheescake"
           effects: [
             {
               stat: cute
@@ -482,98 +610,16 @@
               trigger: activation
             }
           ]
-          description: '''You are always upbeat and playful, if a little naive. People love to have you around and take care of you.'''
+          description: '''You are always upbeat and playful, if a little naive. People love to have you around and take care of you.
+          
+          _"It is not how much we have, but how much we enjoy, that makes happiness."_
+          '''
           transformation: '''Hey! You never knew having your body and mind played with could be so much fun! Thanks Mr. Devil!'''
-        }
-        {
-          id: "bad girl"
-          name: "Bad Girl"
-          effects: [
-            {
-              stat: willpower
-              value: 1
-              trigger: activation
-            }
-            {
-              stat: sex-drive
-              value: 1
-              trigger: activation
-            }
-          ]
-          description: '''No one is going to trod on you! Unless they're really hot, in which case you'd love it if they did.
-
-          Tattoos, smoking and piercings are your core identity. Motorcycles come a close second, whether that is riding clad in leather behind a muscular guy, or on your own tuned up chopper.'''
-          transformation: '''God fuck this game! You are jonesing for a smoke, a beer and maybe a dick, not necessarily in that order.'''
-          tags: ["goth"]
-        }
-        {
-          id: "eye candy"
-          name: "Eye Candy"
-          effects: [
-            {
-              stat: beauty
-              value: 2
-              trigger: activation
-            }
-            {
-              stat: vapidity
-              value: 1
-              trigger: activation
-            }
-          ]
-          description: '''You know that you should always look perfect. No matter if it is for an evening out or going grocery shopping, you always look impeccable. Ever sexy, yet consistently dressed for the occasion.
-
-          For any partner, you'll be the perfect accessory.'''
-          transformation: '''What ARE you even wearing right now? You need to class up your look before someone sees you looking like... THIS!'''
-        }
-        {
-          id: "object"
-          name: "Object"
-          effects: [
-            {
-              stat: willpower
-              value: -2
-              trigger: activation
-            }
-            {
-              stat: vapidity
-              value: 1
-              trigger: activation
-            }
-          ]
-          description: '''You know that you're just an object. Whenever you have a partner around you do anything you're told, wear whatever they want you to wear and speak only when spoken to.
-
-          If no one tells you what to do, you don't really know what to do with yourself.'''
-          transformation: '''W-Why isn't anyone telling you what to do? You don't like not being directed...'''
-          tags: ["doll"]
-        }
-        {
-          id: "slut"
-          name: "Slut"
-          effects: [
-            {
-              stat: sex-drive
-              value: 1
-              trigger: activation
-            }
-            {
-              stat: sensitivity
-              value: 1
-              trigger: activation
-            }
-            {
-              stat: inhibitions
-              value: -2
-              trigger: activation
-            }
-          ]
-          description: '''If they look good, you want to have sex with them. So what if they're married? No one will find out if you just have a quickie here and now.'''
-          transformation: '''"Is it wrong to want to fuck the Devil?" you ask yourself. Cus you kind of super want to pound that demonic dick!'''
         }
         {
           id: "beach bimbo"
           name: "Beach Bimbo"
-          thumb: "art/beach-bimbo-card.webp"
+          thumb: "art/dd-beach-bimbo.webp"
           artist: "Gardamuse"
           effects: [
             {
@@ -595,47 +641,158 @@
           description: '''You love the beach, and will spend as much time there as possible. Basking in the sun to work on your tan, drinking a variety of cocktails with colorful umbrellas, taking a short swim or playing a giggly volleyball game. Nothing can be better.'''
           transformation: '''"Like, is this game over yet?" you think. The beach is calling your name, and you need to get to work on your tan!'''
         }
+        {
+          id: "slut"
+          name: "Slut"
+          thumb: "art/dd-slut.webp"
+          artist: "Gardamuse"
+          effects: [
+            {
+              stat: sex-drive
+              value: 1
+              trigger: activation
+            }
+            {
+              stat: sensitivity
+              value: 1
+              trigger: activation
+            }
+            {
+              stat: inhibitions
+              value: -2
+              trigger: activation
+            }
+          ]
+          description: '''If they look good, you want to have sex with them. So what if they're married? No one will find out if you just have a quickie here and now.'''
+          transformation: '''"Is it wrong to want to fuck the Devil?" you ask yourself. Cus you kind of super want to pound that demonic dick!'''
+        }
+        {
+          id: "goth"
+          name: "Goth"
+          thumb: "art/dd-goth.webp"
+          artist: "PedanticCheescake"
+          effects: [
+            {
+              stat: beauty
+              value: 2
+              trigger: activation
+            }
+            {
+              stat: sensitivity
+              value: 2
+              trigger: activation
+            }
+          ]
+          description: '''You're the embodiment of somber elegance and see the world for how dark and lonely it really is. 
+          
+          Who cares what all those other people running around thinks? They just haven't yet understood the truth of darkness.'''
+          transformation: ''''''
+          tags: []
+        }
+        {
+          id: "eye candy"
+          name: "Eye Candy"
+          thumb: "art/dd-eye-candy.webp"
+          artist: "PedanticCheescake"
+          effects: [
+            {
+              stat: beauty
+              value: 2
+              trigger: activation
+            }
+            {
+              stat: vapidity
+              value: 1
+              trigger: activation
+            }
+          ]
+          description: '''You know that you should always look perfect. No matter if it is for an evening out or going grocery shopping, you always look impeccable. Ever sexy, yet consistently dressed for the occasion.
+
+          For any partner, you'll be the perfect accessory.'''
+          transformation: '''What ARE you even wearing right now? You need to class up your look before someone sees you looking like... THIS!'''
+        }
+        {
+          id: "object"
+          name: "Object"
+          thumb: "art/dd-object.webp"
+          artist: "PedanticCheescake"
+          effects: [
+            {
+              stat: willpower
+              value: -2
+              trigger: activation
+            }
+            {
+              stat: vapidity
+              value: 1
+              trigger: activation
+            }
+          ]
+          description: '''You know that you're just an object. Whenever you have a partner around you do anything you're told, wear whatever they want you to wear and speak only when spoken to.
+
+          If no one tells you what to do, you don't really know what to do with yourself.'''
+          transformation: '''W-Why isn't anyone telling you what to do? You don't like not being directed...'''
+          tags: ["doll"]
+        }
       ]
     }
-    /*{
-      id: "social behavior"
-      name: "Social Behavior"
-      thumb: ""
-      description: '''Do you prefer staying at home, or go clubbing?
+    {
+      id: "sociability"
+      name: "Aspect of Dionysus"
+      thumb: "art/extrovert.webp"
+      artist: "PedanticCheescake"
+      description: '''Dionysus is the god of wine and revelry, but parties can also be so tiring, and some people just prefer staying at home.
 
-      We'll see what you say in a bit.
+      We'll see which type you are in a bit.
       '''
       type: "numeric"
       levels: [
         {
-          id: "shy"
-          name: "Shy"
+          id: "10"
+          name: "Reserved"
+          thumb: "art/reserved.webp"
+          artist: "PedanticCheescake"
           description: '''Staying at home, or blushing whenever someone looks in your direction. You don't like evenings out, but occasionally your friends will drag you on one.
 
           Unfortunately for you, blushing just make you look even cuter.'''
         }
         {
-          id: "extrovert"
+          id: "20"
+          name: "Weekender"
+          thumb: "art/weekender.webp"
+          artist: "PedanticCheescake"
+          description: '''You like going out to parties just as much as you like curling up with a good book on the sofa. It depends on the weather, if you're having a good hair day and just generally how you feel up for today.'''
+        }
+        {
+          id: "30"
           name: "Extrovert"
+          thumb: "art/extrovert.webp"
+          artist: "PedanticCheescake"
           description: '''You like talking to people, and you know how to do it well.'''
         }
         {
-          id: "party girl"
+          id: "40"
           name: "Party Girl"
+          thumb: "art/party-girl.webp"
+          artist: "PedanticCheescake"
           description: '''Every night at home is a night wasted, unless you're the host. Parties are your life.'''
         }
         {
-          id: "immodest"
-          name: "Immodest"
+          id: "50"
+          name: "Attention Whore"
+          thumb: "art/attention-whore.webp"
+          artist: "PedanticCheescake"
           description: '''You love to party, but you're not just there to have fun, but to get some looks your way. You don't even really care who looks. Deep necklines, skirts that can't possibly cover all of you or straight up see through fabric are the way to go for you. You'd never wear something that could make you seem bland or boring.'''
         }
         {
-          id: "attention whore"
-          name: "Attention Whore"
+          id: "60"
+          name: "Shameless"
+          thumb: "art/shameless.webp"
+          artist: "PedanticCheescake"
           description: '''You want people to look at you and show how sexy they think you are, and you'll do anything to get that attention.'''
         }
       ]
-    }*/
+    }
     /*{
       id: "sex appeal"
       name: "Sex Appeal"
