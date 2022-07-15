@@ -526,7 +526,14 @@
           
           _"I was always a tomboy, and it would be me and all my guy friends."_
           '''
-          transformation: ''''''
+          transformation: '''Demon bro! You got any beer on ya? I'm missing the playoffs and I need to pregame!
+
+          The demon seems genuinely suprised as he looks at you.
+
+          demon: Wow, I knew this would be a bit weird, but... Um... here, I guess.
+
+          He tosses you a light beer smelling faintly of sulphur. You chug it like it's water. Party time!
+          '''
           tags: []
         }
         {
@@ -557,7 +564,14 @@
           
           _"Nerf this!"_
           '''
-          transformation: ''''''
+          transformation: '''You don't feel any different, but since nothing seems to be happening at the moment, you pull out your phone and start to mess with a mobile game.
+
+          demon: Hey! Eye's up here, E-girl! We're not done yet.
+
+          You barely respond as you prepare to get in the zone!
+
+          demon: Fine, I'll give you 10 minutes and then it's back to the actual game...
+          '''
           tags: []
         }
         /*{
@@ -686,8 +700,11 @@
           description: '''You're the embodiment of somber elegance and see the world for how dark and lonely it really is. 
           
           Who cares what all those other people running around thinks? They just haven't yet understood the truth of darkness.'''
-          transformation: ''''''
-          tags: []
+          transformation: '''As you pick up the card, all of your fear, anxiety, arousal, and even excitement fade to the back of your mind, leaving you feeeling calm and somber. The world seems so dark and empty now...
+
+          player: ...Sick.
+          '''
+          tags: ["goth"]
         }
         {
           id: "eye candy"
@@ -755,6 +772,10 @@
           description: '''Staying at home, or blushing whenever someone looks in your direction. You don't like evenings out, but occasionally your friends will drag you on one.
 
           Unfortunately for you, blushing just make you look even cuter.'''
+          transformation: '''You thought this would make you feel a lot more shy, but that doesn't really seem to be the case. Parties just don't seem very tempting.
+
+          demon: Boring. But what will be fun is when people find out what a slut you really are! That will be a proper surprise.
+          '''
         }
         {
           id: "20"
@@ -762,6 +783,10 @@
           thumb: "art/weekender.webp"
           artist: "PedanticCheescake"
           description: '''You like going out to parties just as much as you like curling up with a good book on the sofa. It depends on the weather, if you're having a good hair day and just generally how you feel up for today.'''
+          transformation: '''player: Oh hey, a night out could be kinda fun! I probably should see if my friends would be up for it...
+
+          demon: I'm sure they would be after your changes. You check with them real quick and then we'll continue.
+          '''
         }
         {
           id: "30"
@@ -769,6 +794,10 @@
           thumb: "art/extrovert.webp"
           artist: "PedanticCheescake"
           description: '''You like talking to people, and you know how to do it well.'''
+          transformation: '''player: So... you got any like, demon friends I could meet? You gotta have! Working all alone would be soo boring.
+
+          demon: Friends? What? Of course! Or well... more like enemies, but, it kinda depends on... well, actually, it's none of your concern it depends on. Next card!
+          '''
         }
         {
           id: "40"
@@ -776,6 +805,12 @@
           thumb: "art/party-girl.webp"
           artist: "PedanticCheescake"
           description: '''Every night at home is a night wasted, unless you're the host. Parties are your life.'''
+          transformation: '''player: Can we just hurry this up a bit? I got like, plans for the night.
+
+          demon: Going out?
+
+          player: Yes! Obviously. So let's get this going, I neeeed to party!
+          '''
         }
         {
           id: "50"
@@ -783,6 +818,8 @@
           thumb: "art/attention-whore.webp"
           artist: "PedanticCheescake"
           description: '''You love to party, but you're not just there to have fun, but to get some looks your way. You don't even really care who looks. Deep necklines, skirts that can't possibly cover all of you or straight up see through fabric are the way to go for you. You'd never wear something that could make you seem bland or boring.'''
+          transformation: '''You begin to feel fidgety. You feel so... ignored.
+          '''
         }
         {
           id: "60"
@@ -790,6 +827,14 @@
           thumb: "art/shameless.webp"
           artist: "PedanticCheescake"
           description: '''You want people to look at you and show how sexy they think you are, and you'll do anything to get that attention.'''
+          transformation: '''The demon closes his eyes for a brief second as he scratches is forehead.
+
+          player: PAY ATTENTION TO ME!!!
+
+          The demon looks up, startled, just as you're leaping through the to grab his shirt. With a blast of smoke and sulphur you're thrown back into your chair.
+
+          Demon: By Mephistopheles... Get back in your seat and stay there until we're done!
+          '''
         }
       ]
     }
