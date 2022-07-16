@@ -1,0 +1,11 @@
+{
+name: "Satanistic Statistics"
+date: "2022-07-16"
+text: '''
+# Content
+* Added some missing transformation texts.
+
+# Fixes
+* Get requests are no longer sent for dialogue images that doesn't exist.
+'''
+}
