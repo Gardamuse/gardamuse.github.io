@@ -1,0 +1,18 @@
+{
+  title: "Summer Outfit"
+  thumb: "thumb.webp"
+  description: 
+    '''
+    It's a cute outfit, right?
+    '''
+  
+  sequences: [
+    {
+      firstImage: "summer-outfit.webp"
+      length: 1
+      description:
+        '''
+        '''
+    }
+  ]
+}
