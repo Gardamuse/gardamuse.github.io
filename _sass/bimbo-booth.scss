@@ -12,7 +12,6 @@ $rowsHeight: $rows * 4rem;
       ". control control ."
       ". select select .";
    background-color: $base-color;
-   background-image: url("/assets/black-linen.png");
 
    // Firefox
    scrollbar-color: $navbar-light darken($navbar-light, 10%);

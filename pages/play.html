@@ -22,7 +22,8 @@ description: "Play erotic games and browse apps with a focus on transformation, 
    <div class="project-board">
       {% for post in sortedposts %}
       {% assign url = site.baseurl | append: post.permalink %}
-      {% include card.html url=url thumb=post.thumb title=post.title tags=post.tags description=post.description %}
+      {% assign thumb = site.baseurl | append: post.thumb %}
+      {% include card.html url=url thumb=thumb title=post.title tags=post.tags description=post.description %}
       {% endfor %}
    </div>
 </div>

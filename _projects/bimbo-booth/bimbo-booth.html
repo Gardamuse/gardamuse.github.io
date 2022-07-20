@@ -14,31 +14,31 @@ description: "Like transformations sequences?
 In the bimbofication booth you can watch a variety of characters transforming into cute, cotton-candy-brained bimbos!"
 ---
 
-<div id="app" class="app">
+<div id="app" class="app" style="background-image: url('{{ site.baseurl }}/assets/black-linen.png');">
    <input type="checkbox" class="menu-toggle" id="menu-toggle" checked> </input>
    <label id="menu-togge-label" for="menu-toggle" class="menu-toggle pink-button">
-      <img src="/assets/hamburger.svg" alt="" class="svg-2">
+      <img src="{{ site.baseurl }}/assets/hamburger.svg" alt="" class="svg-2">
    </label>
    <div id="buffer" class="sequence-view"></div>
    <div id="sequence-view" class="sequence-view"></div>
    <div class="control-panel">
       <button class="pink-button" onclick="gotoFrame(0)">
-         <img src="/assets/toStart.svg" alt="" class="svg-2">
+         <img src="{{ site.baseurl }}/assets/toStart.svg" alt="" class="svg-2">
       </button>
       <button class="pink-button" id="playpause" onclick="playpause()">
-         <img src="/assets/play.svg" alt="" class="svg-2">
+         <img src="{{ site.baseurl }}/assets/play.svg" alt="" class="svg-2">
       </button>
       <button class="pink-button" id="" onclick="" disabled>
          <img src="" alt="" class="svg-2">
       </button>
       <button class="pink-button" onclick="prev()">
-         <img src="/assets/back.svg" alt="" class="svg-2">
+         <img src="{{ site.baseurl }}/assets/back.svg" alt="" class="svg-2">
       </button>
       <button class="pink-button" onclick="next()">
-         <img src="/assets/next.svg" alt="" class="svg-2">
+         <img src="{{ site.baseurl }}/assets/next.svg" alt="" class="svg-2">
       </button>
       <button class="pink-button" onclick="toggleFullscreen()">
-         <img src="/assets/fullscreen.svg" alt="" class="svg-2">
+         <img src="{{ site.baseurl }}/assets/fullscreen.svg" alt="" class="svg-2">
       </button>
    </div>
    <div id="character-info" class="dark-post post">
@@ -53,7 +53,7 @@ In the bimbofication booth you can watch a variety of characters transforming in
    <div id="character-select" class="characters">
       {% for c in site.data.characters %}
       {% capture url %}
-      /projects/bimbo-booth/{{ c.name }}/thumb.png
+      {{ site.baseurl }}/projects/bimbo-booth/{{ c.name }}/thumb.png
       {% endcapture %}
       {% include card-small.html url=url thumb=url title=c.name class="small-card"%}
       {% endfor %}
@@ -112,4 +112,4 @@ In the bimbofication booth you can watch a variety of characters transforming in
    </div>
 </div>
 
-<script src="/scripts/bimbo-booth.js"></script>
+<script src="{{ site.baseurl }}/scripts/bimbo-booth.js"></script>

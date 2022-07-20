@@ -34,7 +34,7 @@ frameWidth = 0 # Calculated from frameHeight
 
 @setupSlider = (frames, imagepath) ->
   maxframe = frames - 1
-  document.getElementById('viewer').style.backgroundImage = "url('" + imagepath + "')"
+  document.getElementById('viewer').style.backgroundImage = "url('{{ site.baseurl }}" + imagepath + "')"
   updateSlider()
 
 @updateSlider = ->

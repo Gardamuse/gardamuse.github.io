@@ -76,7 +76,7 @@ for (let i = 0; i < characters.length; i++) {
    characterHTML += `
    <a class="project-card">
       <div class="thumb-container">
-         <img class="thumb" src="/projects/bimbo-booth/${c.name}/01.${filetype}"></img>
+         <img class="thumb" src="{{ site.baseurl }}/projects/bimbo-booth/${c.name}/01.${filetype}"></img>
       </div>
    </a>`
 }
@@ -170,11 +170,11 @@ function playpause() {
       play()
 
       // Button should now be for pausing
-      button.innerHTML = "<img src='/assets/pause.svg' alt='' class='svg-2'>"
+      button.innerHTML = "<img src='{{ site.baseurl }}/assets/pause.svg' alt='' class='svg-2'>"
    } else {
       // Pause
       paused = true
-      button.innerHTML = "<img src='/assets/play.svg' alt='' class='svg-2'>"
+      button.innerHTML = "<img src='{{ site.baseurl }}/assets/play.svg' alt='' class='svg-2'>"
    }
 
 }
@@ -209,7 +209,7 @@ function loadCharacter(c) {
    for (let i = 0; i < c.length; i++) {
       let filetype = (c.filetype != undefined) ? c.filetype : "png"
       loadedImages[i] = new Image()
-      loadedImages[i].src = `/projects/bimbo-booth/${c.name}/${(i).toString().padStart(2, "0")}.${filetype}`
+      loadedImages[i].src = `{{ site.baseurl }}/projects/bimbo-booth/${c.name}/${(i).toString().padStart(2, "0")}.${filetype}`
    }
 }
 
