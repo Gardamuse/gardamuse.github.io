@@ -3,65 +3,73 @@
   thumb: "thumb.webp"
   description: 
     '''
-    __Image 1__
-
-    _Soo... are you done with the before shot soon? You said it would be quick~_
-
-    _Just a moment! You really are that excited to get started, huh?_
-
-    _Yea, I just can wait, iihih! ^^_
-
-    _Haha, alright, that's good! I don't quite get it though, because you're already really hot, if you don't mind me saying._
-
-    _Well it's just, being a celebrity is quite stressful, you know? And I'm always cast as the female lead in movies that are more about explosions and hot chicks than anything of substance. I get soo bored memorizing my lines, and they just want some bimbo playing the role anyways._
-
-    _With the options you've selected here you're gonna be much more than some bimbo though?_
-
-    _Well, I figured let's have some fun while I'm at it yeah? ^^ I don't want anyone saying I'm not fuckable or breedable enough. And too dumb to even being able to read any more of those stupid scripts..._
-
-    _Alright, well it's your brain! I'm looking forward to see how you turn out. You ready?_
-
-    _Go! :D_
-
-    __Image 2__
-
-    _Mmm... that feels good..._
-
-    _And you're just getting started._
-
-    _Ooh, ooooh, fuuuuck! Mmm... please... more... fuuuck me...! My head's getting... like... so... it's like... so uhm... ooh... mmm... like I can't... erhm... aaah... like... think... mmmm... please don't stop... aah aaaah..._
-
-    _Hold on now, we're approaching critical power. Better wave goodbye to the last of those braincells of yours!_
-
-    _...uh... aaah.... fuuuuuck meee!_
-
-    __Image 3__
-
-    _*Pop!*_
-
-    _mmm... aaah..._
-
-    _So, miss, how are you feeling? Miss?_
-
-    _Uuh... uhm?_
-
-    _How are you feeling miss? All good?_
-
-    _Uuh... I... like... yeah? Uhm... great! Liike, totally! Uhm... You, uuh... fuck?_
-
-    _I'm afraid that's not a serivce we offer miss, but... you instructed us to call your agent to pick you up, so she will be here shortly._
-
-    _Aaagent? Uhm... fuck me?_
-
-    _Well, I don't know if she's into... but, I guess, maybe?_
-
-    _Yaaay! Fuck me, fuck me <3_
     '''
   
   sequences: [
     {
       firstImage: "french-tail-0001.webp"
       length: 3
+      description:
+        '''
+        __Image 1__
+
+        _Soo... are you done with the before shot soon? You said it would be quick~_
+
+        _Just a moment! You really are that excited to get started, huh?_
+
+        _Yea, I just can wait, iihih! ^^_
+
+        _Haha, alright, that's good! I don't quite get it though, because you're already really hot, if you don't mind me saying._
+
+        _Well it's just, being a celebrity is quite stressful, you know? And I'm always cast as the female lead in movies that are more about explosions and hot chicks than anything of substance. I get soo bored memorizing my lines, and they just want some bimbo playing the role anyways._
+
+        _With the options you've selected here you're gonna be much more than some bimbo though?_
+
+        _Well, I figured let's have some fun while I'm at it yeah? ^^ I don't want anyone saying I'm not fuckable or breedable enough. And too dumb to even being able to read any more of those stupid scripts..._
+
+        _Alright, well it's your brain! I'm looking forward to see how you turn out. You ready?_
+
+        _Go! :D_
+
+        __Image 2__
+
+        _Mmm... that feels good..._
+
+        _And you're just getting started._
+
+        _Ooh, ooooh, fuuuuck! Mmm... please... more... fuuuck me...! My head's getting... like... so... it's like... so uhm... ooh... mmm... like I can't... erhm... aaah... like... think... mmmm... please don't stop... aah aaaah..._
+
+        _Hold on now, we're approaching critical power. Better wave goodbye to the last of those braincells of yours!_
+
+        _...uh... aaah.... fuuuuuck meee!_
+
+        __Image 3__
+
+        _*Pop!*_
+
+        _mmm... aaah..._
+
+        _So, miss, how are you feeling? Miss?_
+
+        _Uuh... uhm?_
+
+        _How are you feeling miss? All good?_
+
+        _Uuh... I... like... yeah? Uhm... great! Liike, totally! Uhm... You, uuh... fuck?_
+
+        _I'm afraid that's not a serivce we offer miss, but... you instructed us to call your agent to pick you up, so she will be here shortly._
+
+        _Aaagent? Uhm... fuck me?_
+
+        _Well, I don't know if she's into... but, I guess, maybe?_
+
+        _Yaaay! Fuck me, fuck me <3_
+        '''
+    }
+    {
+      title: "Poster"
+      firstImage: "french-poster.webp"
+      length: 1
       description:
         '''
         '''
