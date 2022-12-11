@@ -1,14 +1,4 @@
 <head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <!--<script async src="https://www.googletagmanager.com/gtag/js?id=UA-111756944-1"></script>
-  <script>
-     window.dataLayer = window.dataLayer || [];
-   function gtag(){dataLayer.push(arguments);}
-   gtag('js', new Date());
-
-   gtag('config', 'UA-111756944-1');
-  </script>-->
-
   {% assign description = {{site.description}} %}
   {% if page.description %}
   {% assign description = {{page.description | markdownify | strip_html }} %}
@@ -56,33 +46,6 @@
   <!-- Mobile shouldn't change page width -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <script src="https://blush.blushingdefeat.com/script.js" data-site="NCHBUGVM" defer></script>
+  <script src="https://blush.blushingdefeat.com/script.js" data-site="BLBCABCL" defer></script>
 
-  <!-- Cookie Consent -->
-  <!--<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
-  <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
-  <script>
-    window.addEventListener("load", function() {
-       window.cookieconsent.initialise({
-          "palette": {
-             "popup": {
-                "background": "#260C1A",
-                "text": "#eef0f2"
-             },
-             "button": {
-                "background": "#ad343e",
-                "text": "#eef0f2"
-             }
-          },
-          "theme": "edgeless",
-          "position": "bottom",
-          "content": {
-             "message": "This website uses cookies to enable Google Analytics and Disqus, the comment plugin.",
-             "dismiss": "Got it!",
-             "link": "Learn more.",
-             "href": "{{ site.baseurl }}/privacypolicy"
-          }
-       })
-    });
-  </script>-->
 </head>
